@@ -113,6 +113,13 @@ except ImportError:
         ARROW_VALIDATOR_AVAILABLE = False
         validate_arrows_for_payload = None
 
+# Import mediator linker
+try:
+    from utils.mediator_linker import link_mediators_in_payload
+    MEDIATOR_LINKER_AVAILABLE = True
+except ImportError:
+    MEDIATOR_LINKER_AVAILABLE = False
+
 # Import schema validator (for pre/post validation gates)
 try:
     from utils.schema_validator import (
@@ -1816,24 +1823,13 @@ def run_full_job(
                 verbose=False
             )
 
-        # --- STAGE 6: Claim fact-checker ---
-        if not skip_fact_checking and FACT_CHECKER_AVAILABLE and api_key:
-            current_step += 1
-            update_status(
-                text="Fact-checking claims with Google Search...",
-                current_step=current_step,
-                total_steps=total_steps
-            )
-            fact_checked_payload = fact_check_json(
-                validated_payload,
-                api_key,
-                verbose=False
-            )
-        else:
-            fact_checked_payload = validated_payload
+        # --- STAGE 6: Claim fact-checker (MERGED INTO EVIDENCE VALIDATOR) ---
+        # NOTE: This step is now handled by validate_and_enrich_evidence in Stage 4
+        # We skip the explicit fact_check_json call to avoid redundancy
+        fact_checked_payload = validated_payload
 
-        # --- STAGE 6B: Second deduplication pass (catch fact-checker-created dupes) ---
-        if not skip_fact_checking and DEDUPLICATOR_AVAILABLE and api_key and FACT_CHECKER_AVAILABLE:
+        # --- STAGE 6B: Second deduplication pass ---
+        if not skip_deduplicator and DEDUPLICATOR_AVAILABLE and api_key:
             current_step += 1
             update_status(
                 text="Running final deduplication pass...",
@@ -1863,7 +1859,22 @@ def run_full_job(
         else:
             final_payload = final_deduplicated_payload
 
-# --- STAGE 7.5: Validate arrows, directions, effects + extract direct mediator links ---
+        # --- STAGE 7.4: Mediator Linker (Connect indirect interactors) ---
+        extra_interactions_to_save = []
+        if MEDIATOR_LINKER_AVAILABLE and api_key:
+            current_step += 1
+            update_status(
+                text="Linking indirect mediators...",
+                current_step=current_step,
+                total_steps=total_steps
+            )
+            final_payload, extra_interactions_to_save = link_mediators_in_payload(
+                final_payload,
+                api_key,
+                verbose=False
+            )
+
+        # --- STAGE 7.5: Validate arrows, directions, effects + extract direct mediator links ---
         if ARROW_VALIDATOR_AVAILABLE and validate_arrows_for_payload is not None and api_key:
             current_step += 1
             update_status(
@@ -1924,6 +1935,16 @@ def run_full_job(
                 if success:
                     saved_count += 1
                     print(f"[DB] Saved interaction: {user_query} <-> {partner}", file=sys.stderr)
+
+        # Save EXTRA interactions (Mediator links)
+        if 'extra_interactions_to_save' in locals() and extra_interactions_to_save:
+            print(f"[DB] Saving {len(extra_interactions_to_save)} mediator chain links...", file=sys.stderr)
+            for extra in extra_interactions_to_save:
+                p_a = extra['protein_a']
+                p_b = extra['protein_b']
+                data = extra['data']
+                pdb.save_interaction(p_a, p_b, data)
+                print(f"  [DB] Linked: {p_a} <-> {p_b}", file=sys.stderr)
 
         # Update protein metadata
         pdb.update_protein_metadata(user_query, query_completed=True)
@@ -2434,20 +2455,10 @@ def run_requery_job(
                 verbose=False
             )
 
-        # --- STAGE 2.5: Fact-check ONLY new data ---
-        if not skip_fact_checking and FACT_CHECKER_AVAILABLE:
-            current_step += 1
-            update_status(
-                text="Fact-checking new claims...",
-                current_step=current_step,
-                total_steps=total_steps
-            )
-
-            validated_new_payload = fact_check_json(
-                validated_new_payload,
-                api_key,
-                verbose=False
-            )
+        # --- STAGE 2.5: Fact-check ONLY new data (MERGED INTO EVIDENCE VALIDATOR) ---
+        # NOTE: This step is now handled by validate_and_enrich_evidence in Stage 2
+        # We skip the explicit fact_check_json call to avoid redundancy
+        pass
 
         # --- STAGE 3: Merge validated new data with existing ---
         current_step += 1
