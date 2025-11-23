@@ -1816,24 +1816,13 @@ def run_full_job(
                 verbose=False
             )
 
-        # --- STAGE 6: Claim fact-checker ---
-        if not skip_fact_checking and FACT_CHECKER_AVAILABLE and api_key:
-            current_step += 1
-            update_status(
-                text="Fact-checking claims with Google Search...",
-                current_step=current_step,
-                total_steps=total_steps
-            )
-            fact_checked_payload = fact_check_json(
-                validated_payload,
-                api_key,
-                verbose=False
-            )
-        else:
-            fact_checked_payload = validated_payload
+        # --- STAGE 6: Claim fact-checker (MERGED INTO EVIDENCE VALIDATOR) ---
+        # NOTE: This step is now handled by validate_and_enrich_evidence in Stage 4
+        # We skip the explicit fact_check_json call to avoid redundancy
+        fact_checked_payload = validated_payload
 
-        # --- STAGE 6B: Second deduplication pass (catch fact-checker-created dupes) ---
-        if not skip_fact_checking and DEDUPLICATOR_AVAILABLE and api_key and FACT_CHECKER_AVAILABLE:
+        # --- STAGE 6B: Second deduplication pass ---
+        if not skip_deduplicator and DEDUPLICATOR_AVAILABLE and api_key:
             current_step += 1
             update_status(
                 text="Running final deduplication pass...",
@@ -2434,20 +2423,10 @@ def run_requery_job(
                 verbose=False
             )
 
-        # --- STAGE 2.5: Fact-check ONLY new data ---
-        if not skip_fact_checking and FACT_CHECKER_AVAILABLE:
-            current_step += 1
-            update_status(
-                text="Fact-checking new claims...",
-                current_step=current_step,
-                total_steps=total_steps
-            )
-
-            validated_new_payload = fact_check_json(
-                validated_new_payload,
-                api_key,
-                verbose=False
-            )
+        # --- STAGE 2.5: Fact-check ONLY new data (MERGED INTO EVIDENCE VALIDATOR) ---
+        # NOTE: This step is now handled by validate_and_enrich_evidence in Stage 2
+        # We skip the explicit fact_check_json call to avoid redundancy
+        pass
 
         # --- STAGE 3: Merge validated new data with existing ---
         current_step += 1
