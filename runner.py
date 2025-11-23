@@ -113,6 +113,13 @@ except ImportError:
         ARROW_VALIDATOR_AVAILABLE = False
         validate_arrows_for_payload = None
 
+# Import mediator linker
+try:
+    from utils.mediator_linker import link_mediators_in_payload
+    MEDIATOR_LINKER_AVAILABLE = True
+except ImportError:
+    MEDIATOR_LINKER_AVAILABLE = False
+
 # Import schema validator (for pre/post validation gates)
 try:
     from utils.schema_validator import (
@@ -1852,7 +1859,22 @@ def run_full_job(
         else:
             final_payload = final_deduplicated_payload
 
-# --- STAGE 7.5: Validate arrows, directions, effects + extract direct mediator links ---
+        # --- STAGE 7.4: Mediator Linker (Connect indirect interactors) ---
+        extra_interactions_to_save = []
+        if MEDIATOR_LINKER_AVAILABLE and api_key:
+            current_step += 1
+            update_status(
+                text="Linking indirect mediators...",
+                current_step=current_step,
+                total_steps=total_steps
+            )
+            final_payload, extra_interactions_to_save = link_mediators_in_payload(
+                final_payload,
+                api_key,
+                verbose=False
+            )
+
+        # --- STAGE 7.5: Validate arrows, directions, effects + extract direct mediator links ---
         if ARROW_VALIDATOR_AVAILABLE and validate_arrows_for_payload is not None and api_key:
             current_step += 1
             update_status(
@@ -1913,6 +1935,16 @@ def run_full_job(
                 if success:
                     saved_count += 1
                     print(f"[DB] Saved interaction: {user_query} <-> {partner}", file=sys.stderr)
+
+        # Save EXTRA interactions (Mediator links)
+        if 'extra_interactions_to_save' in locals() and extra_interactions_to_save:
+            print(f"[DB] Saving {len(extra_interactions_to_save)} mediator chain links...", file=sys.stderr)
+            for extra in extra_interactions_to_save:
+                p_a = extra['protein_a']
+                p_b = extra['protein_b']
+                data = extra['data']
+                pdb.save_interaction(p_a, p_b, data)
+                print(f"  [DB] Linked: {p_a} <-> {p_b}", file=sys.stderr)
 
         # Update protein metadata
         pdb.update_protein_metadata(user_query, query_completed=True)
