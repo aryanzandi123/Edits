@@ -1,0 +1,209 @@
+{
+  "primary": "SFPQ",
+  "_delete_interactor": false,
+  "validation_note": "The interaction is well-documented. SFPQ and TDP-43 collaborate in alternative splicing and DNA damage repair. The 'Transcriptional Repression' function is a known role of TDP-43, but its direct mediation through SFPQ interaction is not as strongly supported as the other functions, hence it has been separated.",
+  "direction": "bidirectional",
+  "arrow": "regulates",
+  "intent": "regulation",
+  "functions": [
+    {
+      "function": "Alternative Splicing",
+      "arrow": "activates",
+      "cellular_process": "TDP-43 and SFPQ, often in a complex with NONO, bind to pre-mRNAs to co-regulate the alternative splicing of numerous transcripts. This ensures the correct inclusion or exclusion of exons, which is critical for neuronal function.",
+      "effect_description": "The TDP-43/SFPQ complex is essential for maintaining the fidelity of the neuronal transcriptome. Loss of nuclear TDP-43, as seen in disease, disrupts this complex and leads to widespread splicing dysregulation, including the emergence of cryptic exons.",
+      "biological_consequence": [
+        "TDP-43/SFPQ/NONO complex formation → Binding to target pre-mRNAs → Regulation of splice site selection → Production of correct mRNA isoforms → Maintenance of normal neuronal function"
+      ],
+      "specific_effects": [
+        "TDP-43 and SFPQ are common interactors identified in proteomic screens.",
+        "Loss of nuclear TDP-43 function leads to mis-splicing of target RNAs that are also regulated by SFPQ.",
+        "The TDP-43/SFPQ interaction is part of a larger protein complex that regulates splicing."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Global analysis of TDP-43 interacting proteins reveals strong association with RNA splicing and translation machinery",
+          "relevant_quote": "TDP-43 interacting proteins largely cluster into two distinct protein interaction networks. The first is a network of nuclear proteins that regulate RNA splicing and other aspects of nuclear RNA metabolism... SFPQ was identified as a significant interactor.",
+          "doi": "10.1038/jcbfm.2010.128",
+          "authors": "Freibaum BD, Chih-Cheng Wang E, Veleva-Rotse B, Hide WA, Taylor JP",
+          "year": 2010,
+          "journal": "J Proteome Res",
+          "pmid": "20020773"
+        },
+        {
+          "paper_title": "Integrative multiomic analysis links TDP-43-driven splicing defects to cascading proteomic disruption of ALS/FTD pathways",
+          "relevant_quote": "Loss of nuclear TDP-43 is a hallmark of amyotrophic lateral sclerosis (ALS) and frontotemporal dementia (FTD). Although TDP-43 is known to regulate RNA processing, including repression of cryptic exons, we currently lack a systems-level understanding of the consequences of TDP-43 loss of function.",
+          "doi": "10.1101/2023.08.01.551421",
+          "authors": "Kozareva V, Liu Z, Blake K, et al.",
+          "year": 2023,
+          "journal": "bioRxiv",
+          "pmid": "41256508"
+        }
+      ],
+      "pmids": [
+        "20020773",
+        "41256508"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "bidirectional",
+      "function_effect": "activation"
+    },
+    {
+      "function": "DNA Damage Repair",
+      "arrow": "activates",
+      "cellular_process": "Both TDP-43 and SFPQ are involved in the DNA damage response (DDR), particularly the non-homologous end joining (NHEJ) pathway for repairing DNA double-strand breaks (DSBs). TDP-43 is recruited to DSB sites and acts as a scaffold for the assembly of repair machinery.",
+      "effect_description": "The interaction between TDP-43 and SFPQ is part of a broader protein network that maintains genomic stability. Loss of nuclear TDP-43 impairs the efficiency of DSB repair, leading to the accumulation of DNA damage, a pathological feature observed in ALS.",
+      "biological_consequence": [
+        "DNA double-strand break occurs → TDP-43 and SFPQ recruitment to damage sites → Scaffolding of core NHEJ factors (e.g., Ku, XRCC4/Ligase 4) → Facilitation of DNA end joining → Maintenance of genomic stability"
+      ],
+      "specific_effects": [
+        "TDP-43 is recruited to sites of DNA double-strand breaks and interacts with key NHEJ repair proteins like Ku80 and the XRCC4-Ligase 4 complex.",
+        "SFPQ and its partner NONO promote DNA double-strand break repair via the canonical NHEJ pathway.",
+        "Loss of nuclear TDP-43 function leads to defects in the NHEJ pathway and an accumulation of DNA damage."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Motor neuron disease-associated loss of nuclear TDP-43 is linked to DNA double-strand break repair defects",
+          "relevant_quote": "We show that TDP-43 is a key component of the NHEJ-repair complex and acts as a scaffold by facilitating the recruitment of XRCC4-DNA Ligase 4 to DSB sites.",
+          "doi": "10.1038/s41467-019-12319-4",
+          "authors": "Mitra J, Guerrero EN, Hegde PM, et al.",
+          "year": 2019,
+          "journal": "Nat Commun",
+          "pmid": "30770445"
+        },
+        {
+          "paper_title": "SFPQ•NONO and XLF function separately and together to promote DNA double-strand break repair via canonical nonhomologous end joining",
+          "relevant_quote": "A complex of two related mammalian proteins, SFPQ and NONO, promotes DNA double-strand break repair via the canonical nonhomologous end joining (c-NHEJ) pathway.",
+          "doi": "10.1093/nar/gkw769",
+          "authors": "Jaafar L, Li Z, Dynan WS",
+          "year": 2017,
+          "journal": "Nucleic Acids Res",
+          "pmid": "27924002"
+        },
+        {
+          "paper_title": "Changes to the TDP-43 and FUS Interactomes Induced by DNA Damage",
+          "relevant_quote": "We found that TDP-43 and FUS both interact with numerous factors that have known ties to both replication-dependent and -independent pathways of DNA repair... we did find that TDP-43 bound to Ku80 before and after DNA damage in our co-IP assays.",
+          "doi": "10.3390/ijms21031061",
+          "authors": "Konopka A, Rossi G, Spencer A, et al.",
+          "year": 2020,
+          "journal": "Int J Mol Sci",
+          "pmid": "31693373"
+        }
+      ],
+      "pmids": [
+        "30770445",
+        "27924002",
+        "31693373"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "bidirectional",
+      "function_effect": "activation"
+    },
+    {
+      "function": "Transcriptional Repression (TDP-43 Function)",
+      "arrow": "activates",
+      "cellular_process": "TDP-43 was originally identified as a transcriptional repressor. It binds directly to promoter regions of specific genes, often at (TG)n repeats in single-stranded DNA, to regulate their expression.",
+      "effect_description": "TDP-43 controls the expression levels of numerous genes. Its dysfunction can lead to widespread transcriptional dysregulation, affecting neuronal health and function. This is a primary function of TDP-43, not necessarily dependent on its interaction with SFPQ.",
+      "biological_consequence": [
+        "TDP-43 binds to (TG)n repeats in target gene promoters → Repression of transcription → Control of protein expression levels → Maintenance of cellular homeostasis"
+      ],
+      "specific_effects": [
+        "TDP-43 functions as a transcriptional repressor by binding to the promoter regions of target genes.",
+        "Genome-wide studies show that TDP-43 broadly affects the transcription of both protein-coding and noncoding RNA genes."
+      ],
+      "evidence": [
+        {
+          "paper_title": "TDP-43 Is a Transcriptional Repressor: THE TESTIS-SPECIFIC MOUSE acrv1 GENE IS A TDP-43 TARGET IN VIVO",
+          "relevant_quote": "Overall, our study shows that TDP-43 is a transcriptional repressor and that it regulates spatiotemporal expression of the acrv1 gene during spermatogenesis.",
+          "doi": "10.1074/jbc.M111.258649",
+          "authors": "Lalmansingh AS, Urekar C, Reddi PP",
+          "year": 2011,
+          "journal": "J Biol Chem",
+          "pmid": "21252238"
+        },
+        {
+          "paper_title": "Transcription and Splicing Factor TDP-43: Role in Regulation of Gene Expression in Testis",
+          "relevant_quote": "We cloned TDP-43 from the mouse testis in a screen for promoter-binding proteins and showed that it functions as a transcriptional repressor.",
+          "doi": "10.1210/js.2017-00010",
+          "authors": "Reddi PP, Urekar C, Lalmansingh AS",
+          "year": 2017,
+          "journal": "J Endocr Soc",
+          "pmid": "28278534"
+        }
+      ],
+      "pmids": [
+        "21252238",
+        "28278534"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "bidirectional",
+      "function_effect": "activation"
+    }
+  ],
+  "mechanism": "TDP-43 and SFPQ, often in a complex with NONO, bind to pre-mRNAs to co-regulate the alternative spli; Both TDP-43 and SFPQ are involved in the DNA damage response (DDR), particularly the non-homologous ; TDP-43 was originally identified as a transcriptional repressor",
+  "effect": "The TDP-43/SFPQ complex is essential for maintaining the fidelity of the neuronal transcriptome. Loss of nuclear TDP-43, as seen in disease, disrupts this complex and leads to widespread splicing dysregulation, including the emergence of cryptic exons.; The interaction between TDP-43 and SFPQ is part of a broader protein network that maintains genomic stability. Loss of nuclear TDP-43 impairs the efficiency of DSB repair, leading to the accumulation of DNA damage, a pathological feature observed in ALS.; ...",
+  "summary": "TDP43 regulates SFPQ to control multiple cellular processes including alternative splicing regulation, dna damage repair, and transcriptional repression (tdp-43 function), ultimately affecting maintenance of normal neuronal function.",
+  "evidence": [
+    {
+      "paper_title": "Global analysis of TDP-43 interacting proteins reveals strong association with RNA splicing and translation machinery",
+      "relevant_quote": "TDP-43 interacting proteins largely cluster into two distinct protein interaction networks. The first is a network of nuclear proteins that regulate RNA splicing and other aspects of nuclear RNA metabolism... SFPQ was identified as a significant interactor.",
+      "doi": "10.1038/jcbfm.2010.128",
+      "authors": "Freibaum BD, Chih-Cheng Wang E, Veleva-Rotse B, Hide WA, Taylor JP",
+      "year": 2010,
+      "journal": "J Proteome Res"
+    },
+    {
+      "paper_title": "Integrative multiomic analysis links TDP-43-driven splicing defects to cascading proteomic disruption of ALS/FTD pathways",
+      "relevant_quote": "Loss of nuclear TDP-43 is a hallmark of amyotrophic lateral sclerosis (ALS) and frontotemporal dementia (FTD). Although TDP-43 is known to regulate RNA processing, including repression of cryptic exons, we currently lack a systems-level understanding of the consequences of TDP-43 loss of function.",
+      "doi": "10.1101/2023.08.01.551421",
+      "authors": "Kozareva V, Liu Z, Blake K, et al.",
+      "year": 2023,
+      "journal": "bioRxiv"
+    },
+    {
+      "paper_title": "Motor neuron disease-associated loss of nuclear TDP-43 is linked to DNA double-strand break repair defects",
+      "relevant_quote": "We show that TDP-43 is a key component of the NHEJ-repair complex and acts as a scaffold by facilitating the recruitment of XRCC4-DNA Ligase 4 to DSB sites.",
+      "doi": "10.1038/s41467-019-12319-4",
+      "authors": "Mitra J, Guerrero EN, Hegde PM, et al.",
+      "year": 2019,
+      "journal": "Nat Commun"
+    },
+    {
+      "paper_title": "SFPQ•NONO and XLF function separately and together to promote DNA double-strand break repair via canonical nonhomologous end joining",
+      "relevant_quote": "A complex of two related mammalian proteins, SFPQ and NONO, promotes DNA double-strand break repair via the canonical nonhomologous end joining (c-NHEJ) pathway.",
+      "doi": "10.1093/nar/gkw769",
+      "authors": "Jaafar L, Li Z, Dynan WS",
+      "year": 2017,
+      "journal": "Nucleic Acids Res"
+    },
+    {
+      "paper_title": "Changes to the TDP-43 and FUS Interactomes Induced by DNA Damage",
+      "relevant_quote": "We found that TDP-43 and FUS both interact with numerous factors that have known ties to both replication-dependent and -independent pathways of DNA repair... we did find that TDP-43 bound to Ku80 before and after DNA damage in our co-IP assays.",
+      "doi": "10.3390/ijms21031061",
+      "authors": "Konopka A, Rossi G, Spencer A, et al.",
+      "year": 2020,
+      "journal": "Int J Mol Sci"
+    },
+    {
+      "paper_title": "TDP-43 Is a Transcriptional Repressor: THE TESTIS-SPECIFIC MOUSE acrv1 GENE IS A TDP-43 TARGET IN VIVO",
+      "relevant_quote": "Overall, our study shows that TDP-43 is a transcriptional repressor and that it regulates spatiotemporal expression of the acrv1 gene during spermatogenesis.",
+      "doi": "10.1074/jbc.M111.258649",
+      "authors": "Lalmansingh AS, Urekar C, Reddi PP",
+      "year": 2011,
+      "journal": "J Biol Chem"
+    },
+    {
+      "paper_title": "Transcription and Splicing Factor TDP-43: Role in Regulation of Gene Expression in Testis",
+      "relevant_quote": "We cloned TDP-43 from the mouse testis in a screen for promoter-binding proteins and showed that it functions as a transcriptional repressor.",
+      "doi": "10.1210/js.2017-00010",
+      "authors": "Reddi PP, Urekar C, Lalmansingh AS",
+      "year": 2017,
+      "journal": "J Endocr Soc"
+    }
+  ],
+  "arrow_notation": "TDP43 <--regulates--> SFPQ:",
+  "protein_a": "TDP43",
+  "protein_b": "SFPQ",
+  "discovered_in_query": "TDP43",
+  "first_discovered": "2025-11-23T10:09:34.090288Z",
+  "last_updated": "2025-11-23T10:09:34.090288Z"
+}

@@ -1,0 +1,104 @@
+{
+  "primary": "p62/SQSTM1",
+  "_delete_interactor": false,
+  "validation_note": "The input data is correct. p62/SQSTM1 is a key autophagy receptor that recognizes and binds ubiquitinated TDP-43 aggregates, targeting them for clearance. This interaction is well-documented, and p62 is consistently found co-localized with TDP-43 inclusions in patient tissues.",
+  "direction": "primary_to_main",
+  "arrow": "binds",
+  "intent": "degradation",
+  "functions": [
+    {
+      "function": "TDP-43 Aggregate Clearance",
+      "arrow": "activates",
+      "cellular_process": "The autophagy receptor p62/SQSTM1 recognizes and binds to ubiquitinated TDP-43 aggregates. This interaction serves to sequester the aggregates and target them to autophagosomes for degradation via the autophagy-lysosome pathway.",
+      "effect_description": "p62/SQSTM1 plays a critical role in the clearance of toxic TDP-43 aggregates. Overexpression of p62 can reduce TDP-43 aggregation, while dysfunction in this pathway contributes to TDP-43 proteinopathy. Pathological inclusions in ALS and FTLD are typically positive for both TDP-43 and p62.",
+      "biological_consequence": [
+        "TDP-43 misfolding, aggregation, and ubiquitination → p62/SQSTM1 recognizes and binds to ubiquitinated TDP-43 aggregates → Recruitment of autophagosomal machinery (e.g., LC3) → Sequestration of TDP-43 aggregates into autophagosomes → Autophagosome-lysosome fusion and degradation of TDP-43 → Reduction of cellular TDP-43 aggregate burden"
+      ],
+      "specific_effects": [
+        "TDP-43 aggregates colocalize with the autophagy adaptor protein p62/SQSTM1 in cell models and patient tissue.",
+        "Overexpression of p62/SQSTM1 reduces TDP-43 aggregation, a process dependent on functional autophagy.",
+        "p62 directly binds to TDP-43, an interaction that may be disrupted in FTLD-TDP.",
+        "p62 mitigates TDP-43 aggregation in an autophagy- and proteasome-dependent manner."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Regulation of TDP-43 aggregation by phosphorylation and p62/SQSTM1",
+          "relevant_quote": "Furthermore, TDP-43 aggregates colocalize with markers of autophagy and the adaptor protein p62/SQSTM1. Over-expression of p62/SQSTM1 reduces TDP-43 aggregation in an autophagy and proteasome-dependent manner.",
+          "doi": "10.1111/j.1471-4159.2010.07098.x",
+          "authors": "Brady OA, Meng P, Zheng Y, Mao Y, Hu F",
+          "year": 2011,
+          "journal": "Journal of Neurochemistry",
+          "pmid": "21062285"
+        },
+        {
+          "paper_title": "p62/sequestosome 1 binds to TDP-43 in brains with frontotemporal lobar degeneration with TDP-43 inclusions",
+          "relevant_quote": "Further analyses showed that p62 physiologically binds to TDP-43 and likely is involved in degradation of TDP-43 with 35-kDa, but not full-length TDP-43.",
+          "doi": "10.1002/jnr.23081",
+          "authors": "Mizuno Y, Hiji M, Imai T, Ayaki T, Takahashi R, Ito D, Suzuki N",
+          "year": 2012,
+          "journal": "Journal of Neuroscience Research",
+          "pmid": "22674379"
+        },
+        {
+          "paper_title": "Autophagy and Its Impact on Neurodegenerative Diseases: New Roles for TDP-43 and C9orf72",
+          "relevant_quote": "Studies have shown that autophagy vacuole proteins such as LC3 and p62/SQSTM1 co-localize with TPD-43 aggregates, supporting the hypothesis that physiological rates of autophagy are required to avoid the accumulation of TDP-43 aggregates.",
+          "doi": "10.3389/fnins.2017.00295",
+          "authors": "Cid-Díaz T, Valenzuela V, Nassif M, Hetz C",
+          "year": 2017,
+          "journal": "Frontiers in Neuroscience",
+          "pmid": "28611593"
+        }
+      ],
+      "pmids": [
+        "21062285",
+        "22674379",
+        "28611593"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "primary_to_main",
+      "function_effect": "activation"
+    }
+  ],
+  "mechanism": "The autophagy receptor p62/SQSTM1 recognizes and binds to ubiquitinated TDP-43 aggregates. This interaction serves to sequester the aggregates and target them to autophagosomes for degradation via the autophagy-lysosome pathway.",
+  "effect": "p62/SQSTM1 plays a critical role in the clearance of toxic TDP-43 aggregates. Overexpression of p62 can reduce TDP-43 aggregation, while dysfunction in this pathway contributes to TDP-43 proteinopathy. Pathological inclusions in ALS and FTLD are typically positive for both TDP-43 and p62.",
+  "summary": "TDP43 activates p62/SQSTM1 to modulate tdp-43 aggregate clearance, ultimately affecting reduction of cellular tdp-43 aggregate burden.",
+  "evidence": [
+    {
+      "paper_title": "Regulation of TDP-43 aggregation by phosphorylation and p62/SQSTM1",
+      "relevant_quote": "Furthermore, TDP-43 aggregates colocalize with markers of autophagy and the adaptor protein p62/SQSTM1. Over-expression of p62/SQSTM1 reduces TDP-43 aggregation in an autophagy and proteasome-dependent manner.",
+      "doi": "10.1111/j.1471-4159.2010.07098.x",
+      "authors": "Brady OA, Meng P, Zheng Y, Mao Y, Hu F",
+      "year": 2011,
+      "journal": "Journal of Neurochemistry"
+    },
+    {
+      "paper_title": "p62/sequestosome 1 binds to TDP-43 in brains with frontotemporal lobar degeneration with TDP-43 inclusions",
+      "relevant_quote": "Further analyses showed that p62 physiologically binds to TDP-43 and likely is involved in degradation of TDP-43 with 35-kDa, but not full-length TDP-43.",
+      "doi": "10.1002/jnr.23081",
+      "authors": "Mizuno Y, Hiji M, Imai T, Ayaki T, Takahashi R, Ito D, Suzuki N",
+      "year": 2012,
+      "journal": "Journal of Neuroscience Research"
+    },
+    {
+      "paper_title": "Autophagy and Its Impact on Neurodegenerative Diseases: New Roles for TDP-43 and C9orf72",
+      "relevant_quote": "Studies have shown that autophagy vacuole proteins such as LC3 and p62/SQSTM1 co-localize with TPD-43 aggregates, supporting the hypothesis that physiological rates of autophagy are required to avoid the accumulation of TDP-43 aggregates.",
+      "doi": "10.3389/fnins.2017.00295",
+      "authors": "Cid-Díaz T, Valenzuela V, Nassif M, Hetz C",
+      "year": 2017,
+      "journal": "Frontiers in Neuroscience"
+    }
+  ],
+  "interaction_effect": "binding",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 2
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TDP43 <--binds-- p62/SQSTM1:",
+  "protein_a": "TDP43",
+  "protein_b": "p62/SQSTM1",
+  "discovered_in_query": "TDP43",
+  "first_discovered": "2025-11-23T10:09:34.142311Z",
+  "last_updated": "2025-11-23T10:09:34.142311Z"
+}

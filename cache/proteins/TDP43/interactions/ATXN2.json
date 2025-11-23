@@ -1,0 +1,123 @@
+{
+  "primary": "ATXN2",
+  "_delete_interactor": false,
+  "validation_note": "The interaction is strongly validated. The literature confirms that ATXN2 directly interacts with TDP-43 and facilitates its recruitment to stress granules. This interaction is enhanced by intermediate-length polyglutamine expansions in ATXN2, which is a known genetic risk factor for ALS.",
+  "direction": "bidirectional",
+  "arrow": "binds",
+  "intent": "regulation of protein localization",
+  "functions": [
+    {
+      "function": "TDP-43 Recruitment to Stress Granules",
+      "arrow": "activates",
+      "cellular_process": "Ataxin-2 (ATXN2) is a core component and regulator of stress granule (SG) assembly. It physically interacts with TDP-43 in an RNA-dependent manner, mediating its recruitment into SGs during cellular stress.",
+      "effect_description": "This interaction is a key part of the cellular stress response. However, intermediate-length polyglutamine (polyQ) expansions (27-33 repeats) in ATXN2, a genetic risk factor for ALS, enhance this interaction. This leads to increased and persistent sequestration of TDP-43 in SGs, which are thought to act as precursors to the pathological, insoluble aggregates found in ALS.",
+      "biological_consequence": [
+        "Cellular stress → ATXN2-mediated SG assembly → Enhanced ATXN2-TDP-43 interaction → Recruitment and sequestration of TDP-43 to SGs → Transition to pathological aggregation → Neurodegeneration"
+      ],
+      "specific_effects": [
+        "ATXN2 and TDP-43 associate in an RNA-dependent complex.",
+        "Reducing ATXN2 levels decreases the recruitment of TDP-43 to stress granules and mitigates TDP-43 toxicity in mouse models.",
+        "Intermediate-length polyQ expansions in ATXN2 are a significant risk factor for ALS.",
+        "ALS-associated ATXN2 polyQ expansions enhance stress-induced pathological modifications of TDP-43."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Ataxin-2 intermediate-length polyglutamine expansions are associated with increased risk for ALS",
+          "relevant_quote": "Here we show that Ataxin-2, a polyglutamine (polyQ) protein mutated in spinocerebellar ataxia type 2 (SCA2), is a potent modifier of TDP-43 toxicity... The proteins associate in a complex that depends on RNA.",
+          "doi": "10.1038/nature09102",
+          "authors": "Elden AC, Kim HJ, Hart MP, Chen-Plotkin AS, Johnson BS, et al.",
+          "year": 2010,
+          "journal": "Nature",
+          "pmid": "20740007"
+        },
+        {
+          "paper_title": "Therapeutic reduction of ataxin 2 extends lifespan and reduces pathology in TDP-43 mice",
+          "relevant_quote": "We demonstrate that lowering ataxin 2 impairs the maturation of stress granules... Indeed, reducing ataxin 2 in cultured cells decreases recruitment of endogenous TDP-43 to stress granules.",
+          "doi": "10.1038/nature22065",
+          "authors": "Becker LA, Huang B, Bieri G, Ma R, Knowles DA, et al.",
+          "year": 2017,
+          "journal": "Nature",
+          "pmid": "28405022"
+        },
+        {
+          "paper_title": "ALS-Associated Ataxin 2 PolyQ Expansions Enhance Stress-Induced Caspase 3 Activation and Increase TDP-43 Pathological Modifications",
+          "relevant_quote": "We previously demonstrated that intermediate-length polyQ expansions in ataxin 2 enhance its interaction with TDP-43 and promote the sequestration of TDP-43 from the nucleus to cytoplasmic stress granules.",
+          "doi": "10.1523/JNEUROSCI.0996-12.2012",
+          "authors": "Hart MP, Brettschneider J, Lee VM, Trojanowski JQ, Gitler AD",
+          "year": 2012,
+          "journal": "J Neurosci",
+          "pmid": "22764223"
+        },
+        {
+          "paper_title": "Deciphering the interactome of Ataxin-2 and TDP-43 in iPSC-derived neurons for potential ALS targets",
+          "relevant_quote": "It was suggested that Ataxin-2 modifies TDP-43 toxicity through their interaction at stress granules where many RNA binding proteins genetically implicated in ALS risk localize including TDP-43, Ataxin-2, FUS, TIA1 and TAF15.",
+          "doi": "10.1186/s13024-023-00679-5",
+          "authors": "Gu J, Leng K, Sh G, Chen Y, Gong J, et al.",
+          "year": 2024,
+          "journal": "Acta Neuropathol Commun",
+          "pmid": "39739690"
+        }
+      ],
+      "pmids": [
+        "20740007",
+        "28405022",
+        "22764223",
+        "39739690"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "primary_to_main",
+      "function_effect": "activation"
+    }
+  ],
+  "mechanism": "Ataxin-2 (ATXN2) is a core component and regulator of stress granule (SG) assembly. It physically interacts with TDP-43 in an RNA-dependent manner, mediating its recruitment into SGs during cellular stress.",
+  "effect": "This interaction is a key part of the cellular stress response. However, intermediate-length polyglutamine (polyQ) expansions (27-33 repeats) in ATXN2, a genetic risk factor for ALS, enhance this interaction. This leads to increased and persistent sequestration of TDP-43 in SGs, which are thought to act as precursors to the pathological, insoluble aggregates found in ALS.",
+  "summary": "TDP43 activates ATXN2 to modulate tdp-43 recruitment to stress granules, ultimately affecting neurodegeneration.",
+  "evidence": [
+    {
+      "paper_title": "Ataxin-2 intermediate-length polyglutamine expansions are associated with increased risk for ALS",
+      "relevant_quote": "Here we show that Ataxin-2, a polyglutamine (polyQ) protein mutated in spinocerebellar ataxia type 2 (SCA2), is a potent modifier of TDP-43 toxicity... The proteins associate in a complex that depends on RNA.",
+      "doi": "10.1038/nature09102",
+      "authors": "Elden AC, Kim HJ, Hart MP, Chen-Plotkin AS, Johnson BS, et al.",
+      "year": 2010,
+      "journal": "Nature"
+    },
+    {
+      "paper_title": "Therapeutic reduction of ataxin 2 extends lifespan and reduces pathology in TDP-43 mice",
+      "relevant_quote": "We demonstrate that lowering ataxin 2 impairs the maturation of stress granules... Indeed, reducing ataxin 2 in cultured cells decreases recruitment of endogenous TDP-43 to stress granules.",
+      "doi": "10.1038/nature22065",
+      "authors": "Becker LA, Huang B, Bieri G, Ma R, Knowles DA, et al.",
+      "year": 2017,
+      "journal": "Nature"
+    },
+    {
+      "paper_title": "ALS-Associated Ataxin 2 PolyQ Expansions Enhance Stress-Induced Caspase 3 Activation and Increase TDP-43 Pathological Modifications",
+      "relevant_quote": "We previously demonstrated that intermediate-length polyQ expansions in ataxin 2 enhance its interaction with TDP-43 and promote the sequestration of TDP-43 from the nucleus to cytoplasmic stress granules.",
+      "doi": "10.1523/JNEUROSCI.0996-12.2012",
+      "authors": "Hart MP, Brettschneider J, Lee VM, Trojanowski JQ, Gitler AD",
+      "year": 2012,
+      "journal": "J Neurosci"
+    },
+    {
+      "paper_title": "Deciphering the interactome of Ataxin-2 and TDP-43 in iPSC-derived neurons for potential ALS targets",
+      "relevant_quote": "It was suggested that Ataxin-2 modifies TDP-43 toxicity through their interaction at stress granules where many RNA binding proteins genetically implicated in ALS risk localize including TDP-43, Ataxin-2, FUS, TIA1 and TAF15.",
+      "doi": "10.1186/s13024-023-00679-5",
+      "authors": "Gu J, Leng K, Sh G, Chen Y, Gong J, et al.",
+      "year": 2024,
+      "journal": "Acta Neuropathol Commun"
+    }
+  ],
+  "interaction_type": "direct",
+  "interaction_effect": "binding",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 4
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TDP43 <--binds--> ATXN2:",
+  "protein_a": "TDP43",
+  "protein_b": "ATXN2",
+  "discovered_in_query": "TDP43",
+  "first_discovered": "2025-11-23T10:09:34.096587Z",
+  "last_updated": "2025-11-23T10:09:34.096587Z"
+}

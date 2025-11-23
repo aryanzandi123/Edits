@@ -1,0 +1,98 @@
+{
+  "primary": "TDP43",
+  "_delete_interactor": false,
+  "validation_note": "The input data is correct and strongly linked to the HSP90 interaction. CDC37 is an essential co-chaperone that facilitates the HSP90-mediated stabilization of TDP-43. Depletion of CDC37 or disruption of its binding to HSP90 triggers the degradation of TDP-43.",
+  "direction": "main_to_primary",
+  "arrow": "complex",
+  "intent": "protein stabilization",
+  "functions": [
+    {
+      "function": "Co-chaperone in TDP-43 Stability",
+      "arrow": "activates",
+      "cellular_process": "The co-chaperone CDC37 is essential for the HSP90-mediated stabilization of TDP-43. It acts as an adaptor, loading TDP-43 onto the HSP90 chaperone machinery, thereby protecting it from degradation.",
+      "effect_description": "Depletion of CDC37, or use of inhibitors that block the HSP90-CDC37 interaction, destabilizes TDP-43. This leads to its proteolytic cleavage, nuclear retrotranslocation, and eventual clearance by the autophagic system. This highlights the CDC37/HSP90 complex as a key regulator of TDP-43 turnover.",
+      "biological_consequence": [
+        "CDC37 facilitates TDP-43 binding to HSP90 → TDP-43 protein stability is maintained → Depletion of CDC37 leads to TDP-43 destabilization and cleavage → Cleaved TDP-43 is cleared via autophagy."
+      ],
+      "specific_effects": [
+        "TDP-43 associates with both Hsp90 and Cdc37 in cells.",
+        "When Cdc37 was depleted, TDP-43 underwent proteolytic clearance that was dependent on nuclear retrotranslocation and autophagic uptake.",
+        "Disrupting the interaction of Hsp90 with Cdc37 facilitates caspase-mediated TDP-43 nuclear retrotranslocation, leading to TDP-43 autophagic clearance."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Cdc37/Hsp90 protein complex disruption triggers an autophagic clearance cascade for TDP-43 protein",
+          "relevant_quote": "co-immunoprecipitation studies showed that TDP-43 associates with both Hsp90 and Cdc37 in cells... When Cdc37 was depleted, TDP-43 underwent proteolytic clearance that was dependent on nuclear retrotranslocation and autophagic uptake.",
+          "doi": "10.1074/jbc.M112.367268",
+          "authors": "Umesh K Jinwal, et al.",
+          "year": 2012,
+          "journal": "Journal of Biological Chemistry",
+          "pmid": "22674575"
+        },
+        {
+          "paper_title": "Therapeutic Potential of the Hsp90/Cdc37 Interaction in Neurodegenerative Diseases",
+          "relevant_quote": "a molecular chaperone complex consisting of the 90 kDa heat shock protein (Hsp90) and Cell Division Cycle 37 (Cdc37) has been shown to regulate the maturation of many of these kinases as well as regulate some disease-associated proteins directly.",
+          "doi": "10.3389/fnmol.2019.00283",
+          "authors": "Jessica L. Abisambra, et al.",
+          "year": 2019,
+          "journal": "Frontiers in Molecular Neuroscience",
+          "pmid": "31824256"
+        }
+      ],
+      "pmids": [
+        "22674575",
+        "31824256"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "primary_to_main",
+      "function_effect": "activation",
+      "arrow_context": {
+        "direct_from": null,
+        "direct_arrow": "activates",
+        "net_from": "TDP43",
+        "net_arrow": "activates",
+        "mediator_chain": [],
+        "is_indirect": true
+      },
+      "net_arrow": "activates",
+      "direct_arrow": "activates",
+      "net_effect": "activation",
+      "direct_effect": "activation"
+    }
+  ],
+  "mechanism": "The co-chaperone CDC37 is essential for the HSP90-mediated stabilization of TDP-43. It acts as an adaptor, loading TDP-43 onto the HSP90 chaperone machinery, thereby protecting it from degradation.",
+  "effect": "Depletion of CDC37, or use of inhibitors that block the HSP90-CDC37 interaction, destabilizes TDP-43. This leads to its proteolytic cleavage, nuclear retrotranslocation, and eventual clearance by the autophagic system. This highlights the CDC37/HSP90 complex as a key regulator of TDP-43 turnover.",
+  "summary": "TDP43 activates CDC37 to modulate co-chaperone in tdp-43 stability, ultimately affecting cleaved tdp-43 is cleared via autophagy.",
+  "evidence": [
+    {
+      "paper_title": "Cdc37/Hsp90 protein complex disruption triggers an autophagic clearance cascade for TDP-43 protein",
+      "relevant_quote": "co-immunoprecipitation studies showed that TDP-43 associates with both Hsp90 and Cdc37 in cells... When Cdc37 was depleted, TDP-43 underwent proteolytic clearance that was dependent on nuclear retrotranslocation and autophagic uptake.",
+      "doi": "10.1074/jbc.M112.367268",
+      "authors": "Umesh K Jinwal, et al.",
+      "year": 2012,
+      "journal": "Journal of Biological Chemistry"
+    },
+    {
+      "paper_title": "Therapeutic Potential of the Hsp90/Cdc37 Interaction in Neurodegenerative Diseases",
+      "relevant_quote": "a molecular chaperone complex consisting of the 90 kDa heat shock protein (Hsp90) and Cell Division Cycle 37 (Cdc37) has been shown to regulate the maturation of many of these kinases as well as regulate some disease-associated proteins directly.",
+      "doi": "10.3389/fnmol.2019.00283",
+      "authors": "Jessica L. Abisambra, et al.",
+      "year": 2019,
+      "journal": "Frontiers in Molecular Neuroscience"
+    }
+  ],
+  "interaction_type": "indirect",
+  "interaction_effect": "complex formation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 3
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TDP43 <--complex-- CDC37:",
+  "protein_a": "CDC37",
+  "protein_b": "TDP43",
+  "discovered_in_query": "TDP43",
+  "first_discovered": "2025-11-23T10:09:34.199486Z",
+  "last_updated": "2025-11-23T10:09:34.199486Z"
+}

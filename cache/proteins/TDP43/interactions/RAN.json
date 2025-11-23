@@ -1,0 +1,119 @@
+{
+  "primary": "RAN",
+  "_delete_interactor": false,
+  "validation_note": "The interaction is well-established. RAN is a key regulator of the importin-mediated nuclear import of TDP-43. The provided information accurately describes the canonical mechanism where Ran-GTP in the nucleus binds to importin-β1 (KPNB1), causing the release of the TDP-43 cargo.",
+  "direction": "bidirectional",
+  "arrow": "regulates",
+  "intent": "regulation of nuclear import",
+  "functions": [
+    {
+      "function": "TDP-43 Nuclear Import",
+      "arrow": "regulates",
+      "cellular_process": "The GTP-binding nuclear protein Ran, in its GTP-bound state (Ran-GTP), binds to importin-β1 (KPNB1) within the nucleus. This interaction induces a conformational change in KPNB1, leading to the dissociation of the import complex and the release of TDP-43 into the nucleoplasm.",
+      "effect_description": "The high concentration of Ran-GTP in the nucleus relative to the cytoplasm creates a gradient that provides directionality for nuclear import. A collapse of this gradient, due to mutations or mislocalization of Ran or its regulators (e.g., RanGAP1), impairs the release of TDP-43 from importins, leading to its cytoplasmic mislocalization, a key pathological feature in ALS and FTLD.",
+      "biological_consequence": [
+        "TDP-43/Importin-α/Importin-β1 complex translocates through the nuclear pore",
+        "Nuclear Ran-GTP binds to Importin-β1",
+        "Importin-β1 undergoes a conformational change, releasing the TDP-43/Importin-α subcomplex",
+        "TDP-43 is released to perform its nuclear functions"
+      ],
+      "specific_effects": [
+        "The Ran-GTP gradient is essential for the directionality of TDP-43 nuclear import.",
+        "Disruption of the Ran cycle is a mechanism implicated in TDP-43 proteinopathies, including C9orf72-mediated ALS/FTD.",
+        "TDP-43 itself regulates the expression of RAN by binding to the 3'-UTR of its mRNA, creating a potential feedback loop where nuclear loss of TDP-43 can exacerbate transport defects."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Nuclear trafficking in amyotrophic lateral sclerosis and frontotemporal lobar degeneration",
+          "relevant_quote": "Inside the nucleus, the complex dissociates following binding of RAN-GTP to KPNB1 and KPNB1-RAN-GTP is recycled directly back to the cytoplasm...",
+          "doi": "10.1093/brain/awv228",
+          "authors": "Katarzyna M Zoltowska, Jonathan D Cooper, Jean-Pierre Julien, Anna M Kichevska, Christopher E Shaw",
+          "year": 2015,
+          "journal": "Brain",
+          "pmid": "27497493"
+        },
+        {
+          "paper_title": "TDP-43 pathology disrupts nuclear pore complexes and nucleocytoplasmic transport in ALS/FTD",
+          "relevant_quote": "Ran has been identified as an essential regulator of TDP-43 nuclear localization. The expression of (G4C2)30 RNA impairs the NM morphology and reduces the N-to-C Ran gradient. The reduction of nuclear Ran was found correlated with the nuclear depletion of TDP-43...",
+          "doi": "10.1038/nn.4714",
+          "authors": "Ching-Chieh Chou, Yi Zhang, Mfon E Umoh, Spencer W Vaughan, Ileana Lorenzini, Feilin Liu, Melissa Sayegh, Paul G Donlin-Asp, Yu-Han Chen, Duc M Duong, Nicholas T Seyfried, Maureen A Powers, Thomas Kukar, Chadwick M Hales, Marla Gearing, Nigel J Cairns, Kevin B Boylan, Dennis W Dickson, Rosa Rademakers, Yong-Jie Zhang, Leonard Petrucelli",
+          "year": 2018,
+          "journal": "Nat Neurosci",
+          "pmid": "29311743"
+        },
+        {
+          "paper_title": "Mechanisms of TDP-43 Proteinopathy Onset and Propagation",
+          "relevant_quote": "Reduced expression of functional TDP-43 also leads to reduced Ran GTPase, which could potentially compromise nucleocytoplasmic transport via its role in regulating the nucleocytoplasmic shuttling mediated by importin and exportin proteins.",
+          "doi": "10.3390/cells10061392",
+          "authors": "Sze-Hwei Lee, Yi-Sin Lee, Jean-Marc Gallo",
+          "year": 2021,
+          "journal": "Cells",
+          "pmid": "34199367"
+        }
+      ],
+      "pmids": [
+        "27497493",
+        "29311743",
+        "34199367"
+      ],
+      "interaction_effect": "regulation",
+      "interaction_direction": "primary_to_main",
+      "function_effect": "regulation",
+      "arrow_context": {
+        "direct_from": null,
+        "direct_arrow": "regulates",
+        "net_from": "TDP43",
+        "net_arrow": "regulates",
+        "mediator_chain": [],
+        "is_indirect": true
+      },
+      "net_arrow": "regulates",
+      "direct_arrow": "regulates",
+      "net_effect": "regulation",
+      "direct_effect": "regulation"
+    }
+  ],
+  "mechanism": "The GTP-binding nuclear protein Ran, in its GTP-bound state (Ran-GTP), binds to importin-β1 (KPNB1) within the nucleus. This interaction induces a conformational change in KPNB1, leading to the dissociation of the import complex and the release of TDP-43 into the nucleoplasm.",
+  "effect": "The high concentration of Ran-GTP in the nucleus relative to the cytoplasm creates a gradient that provides directionality for nuclear import. A collapse of this gradient, due to mutations or mislocalization of Ran or its regulators (e.g., RanGAP1), impairs the release of TDP-43 from importins, leading to its cytoplasmic mislocalization, a key pathological feature in ALS and FTLD.",
+  "summary": "TDP43 activates RAN to modulate tdp-43 nuclear import.",
+  "evidence": [
+    {
+      "paper_title": "Nuclear trafficking in amyotrophic lateral sclerosis and frontotemporal lobar degeneration",
+      "relevant_quote": "Inside the nucleus, the complex dissociates following binding of RAN-GTP to KPNB1 and KPNB1-RAN-GTP is recycled directly back to the cytoplasm...",
+      "doi": "10.1093/brain/awv228",
+      "authors": "Katarzyna M Zoltowska, Jonathan D Cooper, Jean-Pierre Julien, Anna M Kichevska, Christopher E Shaw",
+      "year": 2015,
+      "journal": "Brain"
+    },
+    {
+      "paper_title": "TDP-43 pathology disrupts nuclear pore complexes and nucleocytoplasmic transport in ALS/FTD",
+      "relevant_quote": "Ran has been identified as an essential regulator of TDP-43 nuclear localization. The expression of (G4C2)30 RNA impairs the NM morphology and reduces the N-to-C Ran gradient. The reduction of nuclear Ran was found correlated with the nuclear depletion of TDP-43...",
+      "doi": "10.1038/nn.4714",
+      "authors": "Ching-Chieh Chou, Yi Zhang, Mfon E Umoh, Spencer W Vaughan, Ileana Lorenzini, Feilin Liu, Melissa Sayegh, Paul G Donlin-Asp, Yu-Han Chen, Duc M Duong, Nicholas T Seyfried, Maureen A Powers, Thomas Kukar, Chadwick M Hales, Marla Gearing, Nigel J Cairns, Kevin B Boylan, Dennis W Dickson, Rosa Rademakers, Yong-Jie Zhang, Leonard Petrucelli",
+      "year": 2018,
+      "journal": "Nat Neurosci"
+    },
+    {
+      "paper_title": "Mechanisms of TDP-43 Proteinopathy Onset and Propagation",
+      "relevant_quote": "Reduced expression of functional TDP-43 also leads to reduced Ran GTPase, which could potentially compromise nucleocytoplasmic transport via its role in regulating the nucleocytoplasmic shuttling mediated by importin and exportin proteins.",
+      "doi": "10.3390/cells10061392",
+      "authors": "Sze-Hwei Lee, Yi-Sin Lee, Jean-Marc Gallo",
+      "year": 2021,
+      "journal": "Cells"
+    }
+  ],
+  "interaction_type": "indirect",
+  "interaction_effect": "regulation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 4
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TDP43 <--regulates--> RAN:",
+  "protein_a": "TDP43",
+  "protein_b": "RAN",
+  "discovered_in_query": "TDP43",
+  "first_discovered": "2025-11-23T10:09:34.111381Z",
+  "last_updated": "2025-11-23T10:09:34.111381Z"
+}

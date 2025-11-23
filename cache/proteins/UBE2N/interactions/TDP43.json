@@ -1,0 +1,116 @@
+{
+  "primary": "TDP43",
+  "_delete_interactor": false,
+  "validation_note": "CORRECTED: The original claim that UBE2N is a primary E2 enzyme for TDP-43 is not well-supported. A direct comparison of E2 enzymes showed that UBE2N promotes TDP-43 ubiquitination to a much lesser extent than members of the UBE2E family (e.g., UBE2E3). However, pathological TDP-43 aggregates are known to contain K63-linked ubiquitin chains, a linkage type that UBE2N can generate. The function has been corrected to reflect UBE2N's minor role and the broader context of TDP-43 ubiquitination.",
+  "direction": "main_to_primary",
+  "arrow": "binds",
+  "intent": "ubiquitination",
+  "functions": [
+    {
+      "function": "TDP-43 Ubiquitination (Minor Role)",
+      "arrow": "activates",
+      "cellular_process": "UBE2N is a ubiquitin-conjugating enzyme (E2) that can participate in the ubiquitination of TDP-43, potentially forming K63-linked ubiquitin chains. However, studies indicate its activity towards TDP-43 is significantly lower than other E2 enzymes, such as UBE2E3.",
+      "effect_description": "While ubiquitination is a key feature of pathological TDP-43 inclusions, the specific roles of different E2 enzymes and ubiquitin chain types are complex. K63-linked chains, which UBE2N can form, are typically associated with non-degradative signaling, autophagy, and protein aggregation rather than proteasomal degradation. Pathological TDP-43 aggregates contain multiple ubiquitin chain types, including K63-linked chains.",
+      "biological_consequence": [
+        "E1 activating enzyme activates ubiquitin → Activated ubiquitin is transferred to UBE2N (E2 ubiquitin-conjugating enzyme) → An E3 ligase facilitates the transfer of ubiquitin from UBE2N to TDP-43 → K63-linked ubiquitin chains are potentially formed on TDP-43."
+      ],
+      "specific_effects": [
+        "In cellular assays, UBE2N promoted TDP-43 ubiquitination to a much lesser extent than UBE2E enzymes.",
+        "Cytoplasmic aggregates of mutant TDP-43 are colocalized with multiple ubiquitin chains, including K63- and K48-linked chains.",
+        "The presence of K63-linked ubiquitin on TDP-43 aggregates suggests a role for this modification in signaling or trafficking of aggregates."
+      ],
+      "evidence": [
+        {
+          "paper_title": "UBE2E Ubiquitin-conjugating Enzymes and Ubiquitin Isopeptidase Y Regulate TDP-43 Protein Ubiquitination",
+          "relevant_quote": "In contrast, the more distantly related ubiquitin-conjugating enzymes UBE2N and UBE2C promoted TDP-43 ubiquitination to a much lesser extent than did the UBE2E enzymes despite similar transfection levels...",
+          "doi": "10.1074/jbc.M114.561704",
+          "authors": "Friederike Hans, Fabienne C Fiesel, Jennifer C Strong, Jimei Tong, Michael G Heckman, Owen A Ross, Dennis W Dickson, Wolfdieter Springer",
+          "year": 2014,
+          "journal": "J Biol Chem",
+          "pmid": "24825905"
+        },
+        {
+          "paper_title": "Ubiquitin Homeostasis Is Disrupted in TDP-43 and FUS Cell Models of ALS",
+          "relevant_quote": "In fact, there was a large amount of overlap between TDP-43M337V aggregates and both UbK48 and UbK63, with 60% of the TDP-43M337V aggregates identified within transfected cells colocalized with UbK48 and 73% of TDP-43M337V aggregates colocalized with UbK63.",
+          "doi": "10.3389/fncel.2020.593412",
+          "authors": "Natalie Farrawell, Tzi-Yang Lin, Justin J Yerbury, Luke McAlary",
+          "year": 2020,
+          "journal": "Front Cell Neurosci",
+          "pmid": "33196025"
+        },
+        {
+          "paper_title": "Suppression of Linear Ubiquitination Ameliorates Cytoplasmic Aggregation of Truncated TDP-43",
+          "relevant_quote": "The truncated A315T mutants of TDP-43, which lack a nuclear localization signal, efficiently generated cytoplasmic aggregates that were colocalized with multiple ubiquitin chains such as M1-, Lys(K)48-, and K63-chains.",
+          "doi": "10.3390/cells11152398",
+          "authors": "Takahiro Chiba, Kazuhiro Iwai, Yoshito Yamanaka, Kensuke Ikenaka, Nobuyuki Nukina, Toshiaki Fukushima",
+          "year": 2022,
+          "journal": "Cells",
+          "pmid": "35954242"
+        }
+      ],
+      "pmids": [
+        "24825905",
+        "33196025",
+        "35954242"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "primary_to_main",
+      "function_effect": "activation",
+      "arrow_context": {
+        "direct_from": null,
+        "direct_arrow": "activates",
+        "net_from": "TDP43",
+        "net_arrow": "activates",
+        "mediator_chain": [],
+        "is_indirect": true
+      },
+      "net_arrow": "activates",
+      "direct_arrow": "activates",
+      "net_effect": "activation",
+      "direct_effect": "activation"
+    }
+  ],
+  "mechanism": "UBE2N is a ubiquitin-conjugating enzyme (E2) that can participate in the ubiquitination of TDP-43, potentially forming K63-linked ubiquitin chains. However, studies indicate its activity towards TDP-43 is significantly lower than other E2 enzymes, such as UBE2E3.",
+  "effect": "While ubiquitination is a key feature of pathological TDP-43 inclusions, the specific roles of different E2 enzymes and ubiquitin chain types are complex. K63-linked chains, which UBE2N can form, are typically associated with non-degradative signaling, autophagy, and protein aggregation rather than proteasomal degradation. Pathological TDP-43 aggregates contain multiple ubiquitin chain types, including K63-linked chains.",
+  "summary": "TDP43 activates UBE2N to modulate tdp-43 ubiquitination (minor role), ultimately affecting k63-linked ubiquitin chains are potentially formed on tdp-43.",
+  "evidence": [
+    {
+      "paper_title": "UBE2E Ubiquitin-conjugating Enzymes and Ubiquitin Isopeptidase Y Regulate TDP-43 Protein Ubiquitination",
+      "relevant_quote": "In contrast, the more distantly related ubiquitin-conjugating enzymes UBE2N and UBE2C promoted TDP-43 ubiquitination to a much lesser extent than did the UBE2E enzymes despite similar transfection levels...",
+      "doi": "10.1074/jbc.M114.561704",
+      "authors": "Friederike Hans, Fabienne C Fiesel, Jennifer C Strong, Jimei Tong, Michael G Heckman, Owen A Ross, Dennis W Dickson, Wolfdieter Springer",
+      "year": 2014,
+      "journal": "J Biol Chem"
+    },
+    {
+      "paper_title": "Ubiquitin Homeostasis Is Disrupted in TDP-43 and FUS Cell Models of ALS",
+      "relevant_quote": "In fact, there was a large amount of overlap between TDP-43M337V aggregates and both UbK48 and UbK63, with 60% of the TDP-43M337V aggregates identified within transfected cells colocalized with UbK48 and 73% of TDP-43M337V aggregates colocalized with UbK63.",
+      "doi": "10.3389/fncel.2020.593412",
+      "authors": "Natalie Farrawell, Tzi-Yang Lin, Justin J Yerbury, Luke McAlary",
+      "year": 2020,
+      "journal": "Front Cell Neurosci"
+    },
+    {
+      "paper_title": "Suppression of Linear Ubiquitination Ameliorates Cytoplasmic Aggregation of Truncated TDP-43",
+      "relevant_quote": "The truncated A315T mutants of TDP-43, which lack a nuclear localization signal, efficiently generated cytoplasmic aggregates that were colocalized with multiple ubiquitin chains such as M1-, Lys(K)48-, and K63-chains.",
+      "doi": "10.3390/cells11152398",
+      "authors": "Takahiro Chiba, Kazuhiro Iwai, Yoshito Yamanaka, Kensuke Ikenaka, Nobuyuki Nukina, Toshiaki Fukushima",
+      "year": 2022,
+      "journal": "Cells"
+    }
+  ],
+  "interaction_type": "indirect",
+  "interaction_effect": "binding",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 4
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TDP43 <--binds-- UBE2N:",
+  "protein_a": "UBE2N",
+  "protein_b": "TDP43",
+  "discovered_in_query": "TDP43",
+  "first_discovered": "2025-11-23T10:09:34.114423Z",
+  "last_updated": "2025-11-23T10:09:34.114423Z"
+}

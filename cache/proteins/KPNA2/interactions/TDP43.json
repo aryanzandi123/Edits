@@ -1,0 +1,107 @@
+{
+  "primary": "TDP43",
+  "_delete_interactor": false,
+  "validation_note": "The interaction is validated. KPNA2 (Importin-α1) is the canonical adaptor protein that recognizes the NLS of TDP-43 to initiate nuclear import. The input data is accurate and supported by structural and biochemical studies.",
+  "direction": "main_to_primary",
+  "arrow": "binds",
+  "intent": "regulation",
+  "functions": [
+    {
+      "function": "TDP-43 Nuclear Import",
+      "arrow": "activates",
+      "cellular_process": "KPNA2 (Importin α1), a nuclear import receptor, directly recognizes and binds to the bipartite Nuclear Localization Signal (NLS) of TDP-43 in the cytoplasm.",
+      "effect_description": "This binding is the first step in the classical nuclear import pathway for TDP-43. KPNA2 acts as an adaptor, linking TDP-43 to the KPNB1 (Importin β1) transporter, which then mediates translocation through the nuclear pore complex.",
+      "biological_consequence": [
+        "TDP-43 in cytoplasm",
+        "KPNA2 binds to TDP-43 NLS",
+        "Recruitment of KPNB1",
+        "Translocation through nuclear pore complex",
+        "Release of TDP-43 into nucleus",
+        "Normal nuclear function of TDP-43"
+      ],
+      "specific_effects": [
+        "KPNA2/Importin α1 makes extensive contacts with the TDP-43 NLS, particularly at the minor NLS-binding site.",
+        "Reduced levels of KPNA2 are observed in the frontal cortex of FTLD-TDP patients, potentially contributing to TDP-43 cytoplasmic mislocalization."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Recognition of the TDP-43 nuclear localization signal by importin α1/β",
+          "relevant_quote": "Here, we study how importin α1/β recognizes TDP-43 bipartite nuclear localization signal (NLS). We find that the NLS makes extensive contacts with importin α1, especially at the minor NLS-binding site.",
+          "doi": "10.1016/j.celrep.2022.111007",
+          "authors": "Doll SG, Meshkin H, Bryer AJ, Li F, Ko YH, Lokareddy RK, Gillilan RE, Gupta K, Perilla JR, Cingolani G",
+          "year": 2022,
+          "journal": "Cell Rep",
+          "pmid": "35767952"
+        },
+        {
+          "paper_title": "Nuclear import impairment causes cytoplasmic trans-activation response DNA-binding protein accumulation and is associated with frontotemporal lobar degeneration",
+          "relevant_quote": "For karyopherin-α2, nuclear staining was reduced in FTLD–TDP compared to controls. Cytoplasmic staining of karyopherin-α2 was detected at low levels in controls but absent in FTLD–TDP. Thus, both proteins involved in the nuclear import of TDP-43 are reduced in affected neurons in FTLD–TDP cases.",
+          "doi": "10.1093/brain/awq111",
+          "authors": "Nishimura AL, Zupunski V, Troakes C, Kathe C, Fratta P, Howell M, Gallo JM, Clark C, Shaw C, Al-Sarraj S, Rogelj B",
+          "year": 2010,
+          "journal": "Brain",
+          "pmid": "20472655"
+        },
+        {
+          "paper_title": "Nuclear-import receptors as gatekeepers of pathological phase transitions in ALS/FTD",
+          "relevant_quote": "Nuclear import of TDP-43 is driven the importin-α/β1 complex, where the NLS of TDP-43 is recognized and bound by several importin-α family members.",
+          "doi": "10.1186/s13024-023-00698-1",
+          "authors": "Khalil B, Shorter J, Rossoll W",
+          "year": 2024,
+          "journal": "Mol Neurodegener",
+          "pmid": "38254150"
+        }
+      ],
+      "pmids": [
+        "35767952",
+        "20472655",
+        "38254150"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "primary_to_main",
+      "function_effect": "activation"
+    }
+  ],
+  "mechanism": "KPNA2 (Importin α1), a nuclear import receptor, directly recognizes and binds to the bipartite Nuclear Localization Signal (NLS) of TDP-43 in the cytoplasm.",
+  "effect": "This binding is the first step in the classical nuclear import pathway for TDP-43. KPNA2 acts as an adaptor, linking TDP-43 to the KPNB1 (Importin β1) transporter, which then mediates translocation through the nuclear pore complex.",
+  "summary": "TDP43 activates KPNA2 to modulate tdp-43 nuclear import.",
+  "evidence": [
+    {
+      "paper_title": "Recognition of the TDP-43 nuclear localization signal by importin α1/β",
+      "relevant_quote": "Here, we study how importin α1/β recognizes TDP-43 bipartite nuclear localization signal (NLS). We find that the NLS makes extensive contacts with importin α1, especially at the minor NLS-binding site.",
+      "doi": "10.1016/j.celrep.2022.111007",
+      "authors": "Doll SG, Meshkin H, Bryer AJ, Li F, Ko YH, Lokareddy RK, Gillilan RE, Gupta K, Perilla JR, Cingolani G",
+      "year": 2022,
+      "journal": "Cell Rep"
+    },
+    {
+      "paper_title": "Nuclear import impairment causes cytoplasmic trans-activation response DNA-binding protein accumulation and is associated with frontotemporal lobar degeneration",
+      "relevant_quote": "For karyopherin-α2, nuclear staining was reduced in FTLD–TDP compared to controls. Cytoplasmic staining of karyopherin-α2 was detected at low levels in controls but absent in FTLD–TDP. Thus, both proteins involved in the nuclear import of TDP-43 are reduced in affected neurons in FTLD–TDP cases.",
+      "doi": "10.1093/brain/awq111",
+      "authors": "Nishimura AL, Zupunski V, Troakes C, Kathe C, Fratta P, Howell M, Gallo JM, Clark C, Shaw C, Al-Sarraj S, Rogelj B",
+      "year": 2010,
+      "journal": "Brain"
+    },
+    {
+      "paper_title": "Nuclear-import receptors as gatekeepers of pathological phase transitions in ALS/FTD",
+      "relevant_quote": "Nuclear import of TDP-43 is driven the importin-α/β1 complex, where the NLS of TDP-43 is recognized and bound by several importin-α family members.",
+      "doi": "10.1186/s13024-023-00698-1",
+      "authors": "Khalil B, Shorter J, Rossoll W",
+      "year": 2024,
+      "journal": "Mol Neurodegener"
+    }
+  ],
+  "interaction_effect": "binding",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 2
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TDP43 <--binds-- KPNA2:",
+  "protein_a": "KPNA2",
+  "protein_b": "TDP43",
+  "discovered_in_query": "TDP43",
+  "first_discovered": "2025-11-23T10:09:34.105564Z",
+  "last_updated": "2025-11-23T10:09:34.105564Z"
+}

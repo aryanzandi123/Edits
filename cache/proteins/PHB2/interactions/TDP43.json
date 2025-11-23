@@ -1,0 +1,104 @@
+{
+  "primary": "TDP43",
+  "_delete_interactor": false,
+  "validation_note": "The interaction and function are validated. A proteomic screen and co-IP identified a direct interaction. TDP-43 is required for the full activation of stress-induced mitophagy, and its levels modulate the expression of the mitophagy receptor PHB2.",
+  "direction": "primary_to_main",
+  "arrow": "regulates",
+  "intent": "regulation of mitophagy",
+  "functions": [
+    {
+      "function": "Mitophagy",
+      "arrow": "activates",
+      "cellular_process": "TDP-43 directly interacts with Prohibitin 2 (PHB2), an inner mitochondrial membrane protein that functions as a crucial receptor for Parkin-mediated mitophagy.",
+      "effect_description": "TDP-43 expression is required for the full activation of stress-induced mitophagy. Upon mitochondrial damage (e.g., by CCCP), TDP-43 overexpression enhances PHB2 levels, while TDP-43 knockdown reduces PHB2 levels and impairs the recruitment of the autophagic machinery (LC3-II), thus hindering the clearance of damaged mitochondria.",
+      "biological_consequence": [
+        "Mitochondrial damage induces mitophagy → TDP-43 interacts with PHB2 on the inner mitochondrial membrane → TDP-43 expression level modulates PHB2 levels → PHB2 acts as a receptor for Parkin-mediated mitophagy → Recruitment of LC3-II to mitochondria → Formation of mitophagosomes and clearance of damaged mitochondria"
+      ],
+      "specific_effects": [
+        "A proteomic screen identified PHB2 as a direct interactor of TDP-43.",
+        "TDP-43 expression is required for the full activation of CCCP-induced mitophagy.",
+        "TDP-43 knockdown reduces PHB2 expression and LC3-II recruitment during CCCP-induced mitophagy.",
+        "Overexpression of TDP-43 increases PHB2 levels in cells treated with the mitophagy inducer CCCP."
+      ],
+      "evidence": [
+        {
+          "paper_title": "TDP-43 interacts with mitochondrial proteins critical for mitophagy and mitochondrial dynamics",
+          "relevant_quote": "Utilizing a proteomics screen, several mitochondrial TDP-43-interacting partners were identified, including...prohibitin 2 (PHB2), a crucial mitophagy receptor. Overexpression of TDP-43 led to an increase in PHB2 whereas TDP-43 knockdown reduced PHB2 expression...",
+          "doi": "10.1016/j.neulet.2018.04.053",
+          "authors": "Davis SA, Gitcho MA",
+          "year": 2018,
+          "journal": "Neurosci Lett",
+          "pmid": "29715546"
+        },
+        {
+          "paper_title": "TDP-43 proteinopathy and mitochondrial abnormalities in neurodegeneration",
+          "relevant_quote": "In support of this notion, it has been reported that mitochondrial associated TDP-43 interacts with mitochondrial outer membrane protein prohibitin 2 (PHB2) and voltage-gated dependent anion channel 1 (VDAC1), which are crucial receptors for Parkin-mediated mitophagy...",
+          "doi": "10.1016/j.mcn.2019.103396",
+          "authors": "Wang W, Wang L, Lu J, Wang X",
+          "year": 2020,
+          "journal": "Mol Cell Neurosci",
+          "pmid": "31445085"
+        },
+        {
+          "paper_title": "Prohibitin 2 Is an Inner Mitochondrial Membrane Mitophagy Receptor",
+          "relevant_quote": "Here, we identify the inner mitochondrial membrane protein, prohibitin 2 (PHB2), as a crucial mitophagy receptor involved in targeting mitochondria for autophagic degradation. PHB2 binds the autophagosomal membrane-associated protein LC3...",
+          "doi": "10.1016/j.cell.2016.12.013",
+          "authors": "Wei Y, Chiang WC, Sumpter R Jr, Kinch L, Grishin NV, Levine B",
+          "year": 2017,
+          "journal": "Cell",
+          "pmid": "28017329"
+        }
+      ],
+      "pmids": [
+        "29715546",
+        "31445085",
+        "28017329"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "main_to_primary",
+      "function_effect": "activation"
+    }
+  ],
+  "mechanism": "TDP-43 directly interacts with Prohibitin 2 (PHB2), an inner mitochondrial membrane protein that functions as a crucial receptor for Parkin-mediated mitophagy.",
+  "effect": "TDP-43 expression is required for the full activation of stress-induced mitophagy. Upon mitochondrial damage (e.g., by CCCP), TDP-43 overexpression enhances PHB2 levels, while TDP-43 knockdown reduces PHB2 levels and impairs the recruitment of the autophagic machinery (LC3-II), thus hindering the clearance of damaged mitochondria.",
+  "summary": "TDP43 activates PHB2 to modulate mitophagy, ultimately affecting formation of mitophagosomes and clearance of damaged mitochondria.",
+  "evidence": [
+    {
+      "paper_title": "TDP-43 interacts with mitochondrial proteins critical for mitophagy and mitochondrial dynamics",
+      "relevant_quote": "Utilizing a proteomics screen, several mitochondrial TDP-43-interacting partners were identified, including...prohibitin 2 (PHB2), a crucial mitophagy receptor. Overexpression of TDP-43 led to an increase in PHB2 whereas TDP-43 knockdown reduced PHB2 expression...",
+      "doi": "10.1016/j.neulet.2018.04.053",
+      "authors": "Davis SA, Gitcho MA",
+      "year": 2018,
+      "journal": "Neurosci Lett"
+    },
+    {
+      "paper_title": "TDP-43 proteinopathy and mitochondrial abnormalities in neurodegeneration",
+      "relevant_quote": "In support of this notion, it has been reported that mitochondrial associated TDP-43 interacts with mitochondrial outer membrane protein prohibitin 2 (PHB2) and voltage-gated dependent anion channel 1 (VDAC1), which are crucial receptors for Parkin-mediated mitophagy...",
+      "doi": "10.1016/j.mcn.2019.103396",
+      "authors": "Wang W, Wang L, Lu J, Wang X",
+      "year": 2020,
+      "journal": "Mol Cell Neurosci"
+    },
+    {
+      "paper_title": "Prohibitin 2 Is an Inner Mitochondrial Membrane Mitophagy Receptor",
+      "relevant_quote": "Here, we identify the inner mitochondrial membrane protein, prohibitin 2 (PHB2), as a crucial mitophagy receptor involved in targeting mitochondria for autophagic degradation. PHB2 binds the autophagosomal membrane-associated protein LC3...",
+      "doi": "10.1016/j.cell.2016.12.013",
+      "authors": "Wei Y, Chiang WC, Sumpter R Jr, Kinch L, Grishin NV, Levine B",
+      "year": 2017,
+      "journal": "Cell"
+    }
+  ],
+  "interaction_effect": "regulation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 2
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TDP43 --regulates--> PHB2:",
+  "protein_a": "PHB2",
+  "protein_b": "TDP43",
+  "discovered_in_query": "TDP43",
+  "first_discovered": "2025-11-23T10:09:34.126109Z",
+  "last_updated": "2025-11-23T10:09:34.126109Z"
+}

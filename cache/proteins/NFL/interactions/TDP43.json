@@ -1,0 +1,86 @@
+{
+  "primary": "TDP43",
+  "_delete_interactor": false,
+  "validation_note": "The input data is correct. The interaction is well-established. Nuclear TDP-43 binds to the 3' UTR of neurofilament light chain (NFL) mRNA to regulate its stability. Loss of this function due to TDP-43 mislocalization can disrupt neurofilament stoichiometry and contribute to cytoskeletal defects observed in ALS.",
+  "direction": "primary_to_main",
+  "arrow": "activates",
+  "intent": "mRNA stability",
+  "functions": [
+    {
+      "function": "NFL mRNA Stability",
+      "arrow": "activates",
+      "cellular_process": "Nuclear TDP-43 binds directly to UG-rich sequences within the 3' untranslated region (UTR) of the neurofilament light chain (NFL) mRNA. This binding stabilizes the transcript, promoting its proper processing and expression.",
+      "effect_description": "By stabilizing NFL mRNA, nuclear TDP-43 helps maintain the correct stoichiometry of neurofilament subunits, which is critical for the assembly and integrity of the neuronal cytoskeleton. Loss of nuclear TDP-43 function leads to NFL mRNA instability, which can disrupt axonal structure and contribute to neurodegeneration.",
+      "biological_consequence": [
+        "TDP-43 binds to NFL mRNA 3'UTR in the nucleus → NFL mRNA is stabilized → Maintenance of NFL protein levels and proper neurofilament stoichiometry → Axonal cytoskeleton integrity → Normal neuronal function"
+      ],
+      "specific_effects": [
+        "TDP-43 binds to UG-rich sequences in the 3' UTR of NFL mRNA.",
+        "This interaction stabilizes the NFL mRNA transcript.",
+        "Mislocalization of TDP-43 from the nucleus to the cytoplasm alters NFL expression and can disrupt the neurofilament network."
+      ],
+      "evidence": [
+        {
+          "paper_title": "TDP43 is a human low molecular weight neurofilament (hNFL) mRNA-binding protein",
+          "relevant_quote": "We observed that TDP43 stabilizes the human low molecular weight (hNFL) mRNA through a direct interaction with the 3'UTR.",
+          "doi": "10.1096/fj.07-8443com",
+          "authors": "Strong MJ, Volkening K, Hammond R, Yang W, Strong T, Leystra-Lantz C, Mackenzie IR",
+          "year": 2007,
+          "journal": "FASEB J",
+          "pmid": "17481916"
+        },
+        {
+          "paper_title": "TDP-43 mislocalization drives neurofilament changes in a novel model of TDP-43 proteinopathy",
+          "relevant_quote": "In the nucleus TDP-43 binds to the 3′UTR of Nefl mRNA, stabilizing it within the nucleus and regulating its translocation to the cytosol, where it may also regulate its translation.",
+          "doi": "10.1242/dmm.048518",
+          "authors": "White MA, Kim E, Duffy A, et al.",
+          "year": 2021,
+          "journal": "Dis Model Mech",
+          "pmid": "33408125"
+        }
+      ],
+      "pmids": [
+        "17481916",
+        "33408125"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "main_to_primary",
+      "function_effect": "activation"
+    }
+  ],
+  "_chain_inferred": true,
+  "mechanism": "Nuclear TDP-43 binds directly to UG-rich sequences within the 3' untranslated region (UTR) of the neurofilament light chain (NFL) mRNA. This binding stabilizes the transcript, promoting its proper processing and expression.",
+  "effect": "By stabilizing NFL mRNA, nuclear TDP-43 helps maintain the correct stoichiometry of neurofilament subunits, which is critical for the assembly and integrity of the neuronal cytoskeleton. Loss of nuclear TDP-43 function leads to NFL mRNA instability, which can disrupt axonal structure and contribute to neurodegeneration.",
+  "summary": "TDP43 activates NFL to modulate nfl mrna stability, ultimately affecting normal neuronal function.",
+  "evidence": [
+    {
+      "paper_title": "TDP43 is a human low molecular weight neurofilament (hNFL) mRNA-binding protein",
+      "relevant_quote": "We observed that TDP43 stabilizes the human low molecular weight (hNFL) mRNA through a direct interaction with the 3'UTR.",
+      "doi": "10.1096/fj.07-8443com",
+      "authors": "Strong MJ, Volkening K, Hammond R, Yang W, Strong T, Leystra-Lantz C, Mackenzie IR",
+      "year": 2007,
+      "journal": "FASEB J"
+    },
+    {
+      "paper_title": "TDP-43 mislocalization drives neurofilament changes in a novel model of TDP-43 proteinopathy",
+      "relevant_quote": "In the nucleus TDP-43 binds to the 3′UTR of Nefl mRNA, stabilizing it within the nucleus and regulating its translocation to the cytosol, where it may also regulate its translation.",
+      "doi": "10.1242/dmm.048518",
+      "authors": "White MA, Kim E, Duffy A, et al.",
+      "year": 2021,
+      "journal": "Dis Model Mech"
+    }
+  ],
+  "interaction_effect": "activation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TDP43 --activates--> NFL:",
+  "protein_a": "NFL",
+  "protein_b": "TDP43",
+  "discovered_in_query": "TDP43",
+  "first_discovered": "2025-11-23T10:09:34.154381Z",
+  "last_updated": "2025-11-23T10:09:34.154381Z"
+}

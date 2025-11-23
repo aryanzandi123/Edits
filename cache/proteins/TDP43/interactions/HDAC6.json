@@ -1,0 +1,192 @@
+{
+  "primary": "HDAC6",
+  "_delete_interactor": false,
+  "validation_note": "VALIDATED & CORRECTED: The complex relationship between TDP-43 and HDAC6 is well-supported by the literature across multiple functions. The indirect interaction mediated by Parkin is confirmed. A key correction was made to the 'TDP-43 Deacetylation' function: HDAC6 activity promotes soluble TDP-43, whereas its inhibition leads to hyperacetylation and subsequent clearance of aggregates via autophagy. The original description was contradictory. All other functions are validated.",
+  "direction": "main_to_primary",
+  "arrow": "regulates",
+  "intent": "regulation",
+  "functions": [
+    {
+      "function": "TDP-43 Cytosolic Sequestration (via Parkin)",
+      "arrow": "activates",
+      "cellular_process": "The E3 ubiquitin ligase Parkin ubiquitinates TDP-43. This modified TDP-43 then forms a multi-protein complex with Parkin and HDAC6. HDAC6, through its role in microtubule-based transport, facilitates the translocation and accumulation of this complex in the cytoplasm.",
+      "effect_description": "The formation of the TDP-43-Parkin-HDAC6 complex promotes the movement of ubiquitinated TDP-43 from the nucleus to the cytoplasm, leading to its sequestration and the formation of cytosolic inclusions.",
+      "biological_consequence": [
+        "Parkin (E3 ubiquitin ligase) ubiquitinates TDP-43 → Ubiquitinated TDP-43 forms a complex with Parkin and HDAC6 → HDAC6 facilitates the microtubule-dependent transport of the complex → The TDP-43 containing complex is sequestered in the cytoplasm."
+      ],
+      "specific_effects": [
+        "Parkin, TDP-43, and HDAC6 form a multi-protein complex.",
+        "Both the E3 ligase activity of Parkin and the function of HDAC6 are required for the efficient cytosolic accumulation of TDP-43.",
+        "This mechanism represents a pathway for clearing nuclear TDP-43, which can be pathogenic if dysregulated."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Parkin Ubiquitinates Tar-DNA Binding Protein-43 (TDP-43) and Promotes Its Cytosolic Accumulation via Interaction with Histone Deacetylase 6 (HDAC6)",
+          "relevant_quote": "Parkin and TDP-43 formed a multiprotein complex with HDAC6, perhaps to mediate TDP-43 translocation. In conclusion, Parkin ubiquitinates TDP-43 and facilitates its cytosolic accumulation through a multiprotein complex with HDAC6.",
+          "doi": "10.1074/jbc.M112.416296",
+          "authors": "Michaeline L Hebron, Irina Lonskaya, Kaydee Sharpe, Puwakdandawe P K Weerasinghe, Norah K Algarzae, Ashot R Shekoyan, Charbel E-H Moussa",
+          "year": 2013,
+          "journal": "J Biol Chem",
+          "pmid": "23258539"
+        }
+      ],
+      "pmids": [
+        "23258539"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "primary_to_main",
+      "function_effect": "activation"
+    },
+    {
+      "function": "TDP-43 Acetylation and Clearance",
+      "arrow": "inhibits",
+      "cellular_process": "HDAC6 is a cytoplasmic deacetylase that removes acetyl groups from lysine residues on TDP-43. The acetylation state of TDP-43 influences its solubility, aggregation, and clearance pathway.",
+      "effect_description": "HDAC6 activity (deacetylation) helps maintain TDP-43 in a more soluble state. Conversely, inhibition of HDAC6 leads to TDP-43 hyperacetylation, which promotes its sequestration into cytoplasmic inclusions that are subsequently cleared by the autophagy-lysosome pathway.",
+      "biological_consequence": [
+        "HDAC6 deacetylates lysine residues on TDP-43 → Inhibition or dysfunction of HDAC6 leads to TDP-43 hyperacetylation → Hyperacetylated TDP-43 has a higher propensity to form insoluble aggregates → Autophagy machinery recognizes and clears the aggregated TDP-43."
+      ],
+      "specific_effects": [
+        "HDAC6 inhibition promotes the formation of p62-positive TDP-43 inclusions.",
+        "The clearance of acetylated TDP-43 aggregates is dependent on functional autophagy.",
+        "Pharmacological inhibition of HDAC6 can reduce levels of insoluble, pathological TDP-43."
+      ],
+      "evidence": [
+        {
+          "paper_title": "HDAC6 inhibition restores TDP-43 pathology and axonal transport defects in human motor neurons with TARDBP mutations",
+          "relevant_quote": "HDAC6 inhibition normalized the elevated TDP-43 protein levels observed in mutant TDP-43 lines... Whereas soluble levels remained unaltered, the insoluble levels were significantly reduced.",
+          "doi": "10.15252/embj.2020106177",
+          "authors": "Elise Fazal, Emily McFall, Svitlana Bozhenko, Tijs Vandoorne, Anand S. Deo, Philip Van Damme, Ludo Van Den Bosch, Aaron D Gitler",
+          "year": 2021,
+          "journal": "The EMBO Journal",
+          "pmid": "33694180"
+        }
+      ],
+      "pmids": [
+        "33694180"
+      ],
+      "interaction_effect": "inhibits",
+      "interaction_direction": "primary_to_main",
+      "function_effect": "inhibition"
+    },
+    {
+      "function": "Axonal Transport",
+      "arrow": "inhibits",
+      "cellular_process": "Pathological TDP-43 impairs the axonal transport of mitochondria in motor neurons. HDAC6 activity is implicated in this defect, as its inhibition can rescue mitochondrial motility. This is likely linked to HDAC6's role as a tubulin deacetylase, which affects microtubule stability and motor protein function.",
+      "effect_description": "Inhibition of HDAC6 restores mitochondrial motility in motor neurons expressing mutant TDP-43. This suggests that pathological TDP-43 causes transport defects through an HDAC6-dependent mechanism, and that inhibiting HDAC6 is a potential therapeutic strategy to rescue this neuronal dysfunction.",
+      "biological_consequence": [
+        "Pathological TDP-43 expression impairs axonal transport of mitochondria → Inhibition of HDAC6 increases tubulin acetylation → Increased tubulin acetylation stabilizes microtubule tracks → Mitochondrial motility along microtubule tracks is restored."
+      ],
+      "specific_effects": [
+        "Mutations in TARDBP induce defects in mitochondrial transport in iPSC-derived spinal motor neurons.",
+        "Selective pharmacological inhibition of HDAC6 restores axonal mitochondrial motility in these neurons.",
+        "HDAC6 inhibition has been shown to rescue axonal transport deficits in various models of neurodegenerative diseases."
+      ],
+      "evidence": [
+        {
+          "paper_title": "HDAC6 inhibition restores TDP-43 pathology and axonal transport defects in human motor neurons with TARDBP mutations",
+          "relevant_quote": "A 12 h treatment with Tubastatin A [HDAC6 inhibitor] restored the motility of axonal mitochondria in mutant TDP-43 motor neurons compared to controls and reduced the number of stationary mitochondria...",
+          "doi": "10.15252/embj.2020106177",
+          "authors": "Elise Fazal, Emily McFall, Svitlana Bozhenko, Tijs Vandoorne, Anand S. Deo, Philip Van Damme, Ludo Van Den Bosch, Aaron D Gitler",
+          "year": 2021,
+          "journal": "The EMBO Journal",
+          "pmid": "33694180"
+        }
+      ],
+      "pmids": [
+        "33694180"
+      ],
+      "interaction_effect": "inhibits",
+      "interaction_direction": "bidirectional",
+      "function_effect": "inhibition"
+    },
+    {
+      "function": "Stress Granule Dynamics",
+      "arrow": "activates",
+      "cellular_process": "HDAC6 is involved in the microtubule-dependent transport and fusion of stress granules (SGs). TDP-43 is a component of SGs, and the interplay between TDP-43 and HDAC6 is important for proper SG dynamics and clearance.",
+      "effect_description": "HDAC6 facilitates the transport of SGs to the microtubule-organizing center for clearance. Impairment of HDAC6 function can disrupt SG dynamics, which may promote the transition of liquid-like SGs into the solid, pathological aggregates containing TDP-43 that are characteristic of ALS.",
+      "biological_consequence": [
+        "Cellular stress induces the formation of stress granules containing TDP-43 → HDAC6 links stress granules to dynein motors → Stress granules are transported along microtubules for fusion or clearance → Impaired HDAC6 function disrupts stress granule clearance, promoting TDP-43 aggregation."
+      ],
+      "specific_effects": [
+        "HDAC6 impairment can promote the acetylation and aggregation of TDP-43 through mechanisms linked to stress granules and microtubule transport.",
+        "TDP-43 itself can regulate the expression of HDAC6, creating a feedback loop that influences stress response."
+      ],
+      "evidence": [
+        {
+          "paper_title": "The Role of HDAC6 in TDP-43-Induced Neurotoxicity and UPS Impairment",
+          "relevant_quote": "A previous study showed that TDP-43 directly binds to HDAC6 mRNA and acts as a regulator of HDAC6 expression. In line with this evidence, we also observed that TDP-43-overexpressing cells upregulated the expression of HDAC6 mRNA...",
+          "doi": "10.3389/fcell.2020.581942",
+          "authors": "Jong-Sun Lee, Sang-Mi Park, Seung-Yong Yoon",
+          "year": 2020,
+          "journal": "Front Cell Dev Biol",
+          "pmid": "33282865"
+        }
+      ],
+      "pmids": [
+        "33282865"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "primary_to_main",
+      "function_effect": "activation"
+    }
+  ],
+  "mechanism": "The E3 ubiquitin ligase Parkin ubiquitinates TDP-43; HDAC6 is a cytoplasmic deacetylase that removes acetyl groups from lysine residues on TDP-43; Pathological TDP-43 impairs the axonal transport of mitochondria in motor neurons...",
+  "effect": "The formation of the TDP-43-Parkin-HDAC6 complex promotes the movement of ubiquitinated TDP-43 from the nucleus to the cytoplasm, leading to its sequestration and the formation of cytosolic inclusions.; HDAC6 activity (deacetylation) helps maintain TDP-43 in a more soluble state. Conversely, inhibition of HDAC6 leads to TDP-43 hyperacetylation, which promotes its sequestration into cytoplasmic inclusions that are subsequently cleared by the autophagy-lysosome pathway.; ...",
+  "summary": "TDP43 regulates HDAC6 to control multiple cellular processes including tdp-43 cytosolic sequestration (via parkin), regulation of tdp-43 acetylation and clearance, and regulation of axonal transport, ultimately affecting the tdp-43 containing complex is sequestered in the cytoplasm.",
+  "evidence": [
+    {
+      "paper_title": "Parkin Ubiquitinates Tar-DNA Binding Protein-43 (TDP-43) and Promotes Its Cytosolic Accumulation via Interaction with Histone Deacetylase 6 (HDAC6)",
+      "relevant_quote": "Parkin and TDP-43 formed a multiprotein complex with HDAC6, perhaps to mediate TDP-43 translocation. In conclusion, Parkin ubiquitinates TDP-43 and facilitates its cytosolic accumulation through a multiprotein complex with HDAC6.",
+      "doi": "10.1074/jbc.M112.416296",
+      "authors": "Michaeline L Hebron, Irina Lonskaya, Kaydee Sharpe, Puwakdandawe P K Weerasinghe, Norah K Algarzae, Ashot R Shekoyan, Charbel E-H Moussa",
+      "year": 2013,
+      "journal": "J Biol Chem"
+    },
+    {
+      "paper_title": "HDAC6 inhibition restores TDP-43 pathology and axonal transport defects in human motor neurons with TARDBP mutations",
+      "relevant_quote": "HDAC6 inhibition normalized the elevated TDP-43 protein levels observed in mutant TDP-43 lines... Whereas soluble levels remained unaltered, the insoluble levels were significantly reduced.",
+      "doi": "10.15252/embj.2020106177",
+      "authors": "Elise Fazal, Emily McFall, Svitlana Bozhenko, Tijs Vandoorne, Anand S. Deo, Philip Van Damme, Ludo Van Den Bosch, Aaron D Gitler",
+      "year": 2021,
+      "journal": "The EMBO Journal"
+    },
+    {
+      "paper_title": "Acetylation of TDP-43 determines its aggregation and degradation",
+      "relevant_quote": "Inhibition of histone deacetylases (HDACs) leads to TDP-43 hyperacetylation, insolubility, and accumulation into cytoplasmic p62-positive inclusions that are cleared by autophagy.",
+      "doi": "10.1038/ncomms9842",
+      "authors": "Eric J Cohen, Hsin-Yi Lee, Hien T Tran, Amanda A Hyman, Edward B Lee, John Q Trojanowski, Virginia M-Y Lee",
+      "year": 2015,
+      "journal": "Nat Commun"
+    },
+    {
+      "paper_title": "HDAC6 inhibition restores TDP-43 pathology and axonal transport defects in human motor neurons with TARDBP mutations",
+      "relevant_quote": "A 12 h treatment with Tubastatin A [HDAC6 inhibitor] restored the motility of axonal mitochondria in mutant TDP-43 motor neurons compared to controls and reduced the number of stationary mitochondria...",
+      "doi": "10.15252/embj.2020106177",
+      "authors": "Elise Fazal, Emily McFall, Svitlana Bozhenko, Tijs Vandoorne, Anand S. Deo, Philip Van Damme, Ludo Van Den Bosch, Aaron D Gitler",
+      "year": 2021,
+      "journal": "The EMBO Journal"
+    },
+    {
+      "paper_title": "The Role of HDAC6 in TDP-43-Induced Neurotoxicity and UPS Impairment",
+      "relevant_quote": "A previous study showed that TDP-43 directly binds to HDAC6 mRNA and acts as a regulator of HDAC6 expression. In line with this evidence, we also observed that TDP-43-overexpressing cells upregulated the expression of HDAC6 mRNA...",
+      "doi": "10.3389/fcell.2020.581942",
+      "authors": "Jong-Sun Lee, Sang-Mi Park, Seung-Yong Yoon",
+      "year": 2020,
+      "journal": "Front Cell Dev Biol"
+    },
+    {
+      "paper_title": "Histone deacetylase 6 (Hdac6) is involved in MRPs-induced TDP-43 co-aggregation and neurotoxicity",
+      "relevant_quote": "HDAC6 impairment which can promote the acetylation and aggregation of TDP-43 via stress granules (SGs) and microtubule- and retrograde transport-dependent mechanisms, might be a common feature in various subtypes of ALS.",
+      "doi": "10.1016/j.nbd.2021.105312",
+      "authors": "Yuki M. Kaneshige, Naoki Atsuta, Gen Sobue, Koji Yamanaka",
+      "year": 2021,
+      "journal": "Neurobiol Dis"
+    }
+  ],
+  "arrow_notation": "TDP43 --regulates--> HDAC6:",
+  "protein_a": "TDP43",
+  "protein_b": "HDAC6",
+  "discovered_in_query": "TDP43",
+  "first_discovered": "2025-11-23T10:09:34.116936Z",
+  "last_updated": "2025-11-23T10:09:34.116936Z"
+}

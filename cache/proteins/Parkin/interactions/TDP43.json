@@ -1,0 +1,136 @@
+{
+  "primary": "TDP43",
+  "_delete_interactor": false,
+  "validation_note": "The interaction is well-supported. Parkin is an E3 ligase that ubiquitinates TDP-43, but this does not lead to degradation, rather to its cytosolic accumulation in a complex with HDAC6. The role in mitophagy is also validated, where TDP-43 fragments can induce Parkin-mediated clearance of damaged mitochondria.",
+  "direction": "bidirectional",
+  "arrow": "activates",
+  "intent": "ubiquitination and mitophagy regulation",
+  "functions": [
+    {
+      "function": "Ubiquitination and Cytosolic Sequestration",
+      "arrow": "activates",
+      "cellular_process": "The E3 ubiquitin ligase Parkin directly interacts with and mediates the K48- and K63-linked ubiquitination of TDP-43. This does not lead to proteasomal degradation but instead promotes the translocation of TDP-43 from the nucleus to the cytosol.",
+      "effect_description": "Parkin forms a multi-protein complex with TDP-43 and HDAC6, which facilitates the sequestration of ubiquitinated TDP-43 into cytosolic inclusions. This alters the normal nuclear localization and function of TDP-43.",
+      "biological_consequence": [
+        "Parkin interacts with TDP-43 → Parkin mediates K48- and K63-linked ubiquitination of TDP-43 → Formation of a Parkin-TDP-43-HDAC6 complex → Translocation of ubiquitinated TDP-43 to the cytosol → Sequestration into cytosolic inclusions"
+      ],
+      "specific_effects": [
+        "Parkin ubiquitinates TDP-43.",
+        "Parkin co-expression with TDP-43 leads to cytosolic co-localization of Parkin with ubiquitinated TDP-43.",
+        "Parkin and TDP-43 form a multiprotein complex with HDAC6 to mediate TDP-43 translocation.",
+        "Parkin-induced ubiquitination promotes cytosolic accumulation and inclusion formation rather than degradation."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Parkin Ubiquitinates Tar-DNA Binding Protein-43 (TDP-43) and Promotes Its Cytosolic Accumulation via Interaction with Histone Deacetylase 6 (HDAC6)",
+          "relevant_quote": "Parkin co-expression mediated Lys-48 and Lys-63-linked ubiquitin to TDP-43 and led to cytosolic co-localization of Parkin with ubiquitinated TDP-43. Parkin and TDP-43 formed a multiprotein complex with HDAC6...",
+          "doi": "10.1074/jbc.M112.419945",
+          "authors": "Hebron ML, Lonskaya I, Moussa CE",
+          "year": 2013,
+          "journal": "J Biol Chem",
+          "pmid": "23258539"
+        },
+        {
+          "paper_title": "Functional implication of ubiquitinating and deubiquitinating mechanisms in TDP-43 proteinopathies",
+          "relevant_quote": "Hebron et al. have reported that the E3 ligase Parkin and TDP-43 form a multi-protein complex with HDAC6, and this interaction facilitates the cytoplasmic accumulation of TDP-43 and also mediates its K48- and K63-linked polyubiquitination.",
+          "doi": "10.3389/fnmol.2022.988552",
+          "authors": "Lee S, Lee Y, Lee S",
+          "year": 2022,
+          "journal": "Front Mol Neurosci",
+          "pmid": "36158183"
+        }
+      ],
+      "pmids": [
+        "23258539",
+        "36158183"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "primary_to_main",
+      "function_effect": "activation"
+    },
+    {
+      "function": "Mitophagy",
+      "arrow": "activates",
+      "cellular_process": "Pathological C-terminal fragments of TDP-43 (e.g., TDP-25) localize to mitochondria, causing mitochondrial damage. This stress induces the recruitment of Parkin to the damaged mitochondria, initiating their clearance via mitophagy.",
+      "effect_description": "This interaction represents a cellular quality control response to TDP-43-induced mitochondrial toxicity. While Parkin-mediated mitophagy is a protective mechanism to clear dysfunctional mitochondria, TDP-43 levels can also modulate the expression of mitophagy-related proteins, including Parkin itself.",
+      "biological_consequence": [
+        "TDP-43 C-terminal fragments (e.g., TDP-25) localize to mitochondria → Mitochondrial damage and depolarization → Parkin recruitment to damaged mitochondria → Initiation of mitophagy → Clearance of damaged mitochondria containing TDP-43 fragments"
+      ],
+      "specific_effects": [
+        "The C-terminal fragment of TDP-43 (TDP-25) localizes to mitochondria and induces Parkin-mediated mitophagy.",
+        "Overexpression of Parkin can reverse TDP-43-induced cell toxicity.",
+        "TDP-43 interacts with mitochondrial proteins like PHB2, which are receptors for Parkin-mediated mitophagy."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Nonmuscle myosin IIB regulates Parkin-mediated mitophagy associated with amyotrophic lateral sclerosis-linked TDP-43",
+          "relevant_quote": "This study revealed that the C-terminal fragment of TDP-43 (TDP-25) was localized primarily to mitochondria and caused abnormal mitochondrial morphology, inducing Parkin-mediated mitophagy.",
+          "doi": "10.1038/s41419-020-03165-7",
+          "authors": "Lee JY, Nagano S, Lee Y, Lee S, Lim J, Joe E, Mogami H, Ko HW, Kim H",
+          "year": 2020,
+          "journal": "Cell Death Dis",
+          "pmid": "33154354"
+        },
+        {
+          "paper_title": "TDP-43 proteinopathy and mitochondrial abnormalities in neurodegeneration",
+          "relevant_quote": "Although whether TDP-43 is involved in PINK1/Parkin mediated mitophagy remains elusive, Parkin has been reported to mediate poly-ubiquitination of TDP-43, and overexpression of Parkin could reverse TDP-43-induced cell toxicity.",
+          "doi": "10.1016/j.mcn.2019.103396",
+          "authors": "Wang W, Wang L, Lu J, Wang X",
+          "year": 2020,
+          "journal": "Mol Cell Neurosci",
+          "pmid": "31445085"
+        }
+      ],
+      "pmids": [
+        "33154354",
+        "31445085"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "main_to_primary",
+      "function_effect": "activation"
+    }
+  ],
+  "mechanism": "The E3 ubiquitin ligase Parkin directly interacts with and mediates the K48- and K63-linked ubiquitination of TDP-43. This does not lead to proteasomal degradation but instead promotes the translocation of TDP-43 from the nucleus to the cytosol. Pathological C-terminal fragments of TDP-43 (e.g., TDP-25) localize to mitochondria, causing mitochondrial damage. This stress induces the recruitment of Parkin to the damaged mitochondria, initiating their clearance via mitophagy.",
+  "effect": "Parkin forms a multi-protein complex with TDP-43 and HDAC6, which facilitates the sequestration of ubiquitinated TDP-43 into cytosolic inclusions. This alters the normal nuclear localization and function of TDP-43.; This interaction represents a cellular quality control response to TDP-43-induced mitochondrial toxicity. While Parkin-mediated mitophagy is a protective mechanism to clear dysfunctional mitochondria, TDP-43 levels can also modulate the expression of mitophagy-related proteins, including Parkin itself.",
+  "summary": "TDP43 activates Parkin to regulate ubiquitination and cytosolic sequestration and mitophagy, ultimately affecting sequestration into cytosolic inclusions.",
+  "evidence": [
+    {
+      "paper_title": "Parkin Ubiquitinates Tar-DNA Binding Protein-43 (TDP-43) and Promotes Its Cytosolic Accumulation via Interaction with Histone Deacetylase 6 (HDAC6)",
+      "relevant_quote": "Parkin co-expression mediated Lys-48 and Lys-63-linked ubiquitin to TDP-43 and led to cytosolic co-localization of Parkin with ubiquitinated TDP-43. Parkin and TDP-43 formed a multiprotein complex with HDAC6...",
+      "doi": "10.1074/jbc.M112.419945",
+      "authors": "Hebron ML, Lonskaya I, Moussa CE",
+      "year": 2013,
+      "journal": "J Biol Chem"
+    },
+    {
+      "paper_title": "Functional implication of ubiquitinating and deubiquitinating mechanisms in TDP-43 proteinopathies",
+      "relevant_quote": "Hebron et al. have reported that the E3 ligase Parkin and TDP-43 form a multi-protein complex with HDAC6, and this interaction facilitates the cytoplasmic accumulation of TDP-43 and also mediates its K48- and K63-linked polyubiquitination.",
+      "doi": "10.3389/fnmol.2022.988552",
+      "authors": "Lee S, Lee Y, Lee S",
+      "year": 2022,
+      "journal": "Front Mol Neurosci"
+    },
+    {
+      "paper_title": "Nonmuscle myosin IIB regulates Parkin-mediated mitophagy associated with amyotrophic lateral sclerosis-linked TDP-43",
+      "relevant_quote": "This study revealed that the C-terminal fragment of TDP-43 (TDP-25) was localized primarily to mitochondria and caused abnormal mitochondrial morphology, inducing Parkin-mediated mitophagy.",
+      "doi": "10.1038/s41419-020-03165-7",
+      "authors": "Lee JY, Nagano S, Lee Y, Lee S, Lim J, Joe E, Mogami H, Ko HW, Kim H",
+      "year": 2020,
+      "journal": "Cell Death Dis"
+    },
+    {
+      "paper_title": "TDP-43 proteinopathy and mitochondrial abnormalities in neurodegeneration",
+      "relevant_quote": "Although whether TDP-43 is involved in PINK1/Parkin mediated mitophagy remains elusive, Parkin has been reported to mediate poly-ubiquitination of TDP-43, and overexpression of Parkin could reverse TDP-43-induced cell toxicity.",
+      "doi": "10.1016/j.mcn.2019.103396",
+      "authors": "Wang W, Wang L, Lu J, Wang X",
+      "year": 2020,
+      "journal": "Mol Cell Neurosci"
+    }
+  ],
+  "arrow_notation": "TDP43 <--activates--> Parkin:",
+  "protein_a": "Parkin",
+  "protein_b": "TDP43",
+  "discovered_in_query": "TDP43",
+  "first_discovered": "2025-11-23T10:09:34.119948Z",
+  "last_updated": "2025-11-23T10:09:34.119948Z"
+}

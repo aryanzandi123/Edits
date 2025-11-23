@@ -1,0 +1,93 @@
+{
+  "primary": "TIA1",
+  "_delete_interactor": false,
+  "validation_note": "The interaction is functional and well-supported. TDP-43 is not just co-localized with TIA1 in stress granules but is actively involved in regulating TIA1's aggregation state, which is a prerequisite for proper stress granule assembly. The term 'activates' is a reasonable simplification for 'is required for' or 'facilitates'. The core claims of the input are validated.",
+  "direction": "main_to_primary",
+  "arrow": "regulates",
+  "intent": "regulation of protein aggregation",
+  "functions": [
+    {
+      "function": "Stress Granule Assembly",
+      "arrow": "activates",
+      "cellular_process": "TDP-43 is required for the proper dynamics of stress granule (SG) formation by modulating the controlled aggregation of TIA1, a core SG-nucleating protein.",
+      "effect_description": "Depletion of TDP-43 impairs the normal assembly and maturation of stress granules. Specifically, it disrupts the secondary aggregation of TIA-1, leading to slowed SG formation and reduced resistance of TIA-1 to protease digestion, indicating a less aggregated state.",
+      "biological_consequence": [
+        "Cellular stress → TIA-1 aggregation & SG nucleation → TDP-43 facilitates TIA-1 secondary aggregation → Mature stress granule formation → Cellular stress response and survival"
+      ],
+      "specific_effects": [
+        "Depletion of TDP-43 slows the formation of TIA-1-positive stress granules in response to oxidative stress.",
+        "In the absence of TDP-43, TIA-1 within stress granules is more sensitive to protease digestion, indicating decreased or impaired aggregation.",
+        "Reduced TDP-43 levels disrupt the controlled aggregation of TIA-1, which is necessary for the assembly and maintenance of stress granules."
+      ],
+      "evidence": [
+        {
+          "paper_title": "TAR DNA-binding protein 43 (TDP-43) regulates stress granule dynamics via differential regulation of G3BP and TIA-1",
+          "relevant_quote": "The controlled aggregation of TIA-1 is disrupted in the absence of TDP-43 resulting in slowed SG formation.",
+          "doi": "10.1093/hmg/ddr021",
+          "authors": "McDonald KK, Aulas A, Destroismaisons L, Pickles S, Beleac E, Camu W, Rouleau GA, Vande Velde C",
+          "year": 2011,
+          "journal": "Human Molecular Genetics",
+          "pmid": "21257637"
+        },
+        {
+          "paper_title": "The optineurin/TIA1 pathway inhibits aberrant stress granule formation and reduces ubiquitinated TDP-43",
+          "relevant_quote": "Stress granules (SGs) are stress-induced cytoplasmic protein aggregates containing various neuropathogenic proteins, including TDP-43. Several studies have suggested that SGs are the initial site of the formation of pathogenic ubiquitinated TDP-43 aggregates in ALS neurons.",
+          "doi": "10.1016/j.isci.2021.102733",
+          "authors": "Nakamura M, Sone T, Okuno M, Kanata A, Hino T, Sugeno S, Mitsuhashi M, Okano H, Yamanaka K",
+          "year": 2021,
+          "journal": "iScience",
+          "pmid": "34258561"
+        }
+      ],
+      "pmids": [
+        "21257637",
+        "34258561"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "main_to_primary",
+      "function_effect": "activation"
+    }
+  ],
+  "mechanism": "TDP-43 is required for the proper dynamics of stress granule (SG) formation by modulating the controlled aggregation of TIA1, a core SG-nucleating protein.",
+  "effect": "Depletion of TDP-43 impairs the normal assembly and maturation of stress granules. Specifically, it disrupts the secondary aggregation of TIA-1, leading to slowed SG formation and reduced resistance of TIA-1 to protease digestion, indicating a less aggregated state.",
+  "summary": "TDP43 activates TIA1 to modulate stress granule assembly, ultimately affecting cellular stress response and survival.",
+  "evidence": [
+    {
+      "paper_title": "TAR DNA-binding protein 43 (TDP-43) regulates stress granule dynamics via differential regulation of G3BP and TIA-1",
+      "relevant_quote": "The controlled aggregation of TIA-1 is disrupted in the absence of TDP-43 resulting in slowed SG formation.",
+      "doi": "10.1093/hmg/ddr021",
+      "authors": "McDonald KK, Aulas A, Destroismaisons L, Pickles S, Beleac E, Camu W, Rouleau GA, Vande Velde C",
+      "year": 2011,
+      "journal": "Human Molecular Genetics"
+    },
+    {
+      "paper_title": "TIA-1 secondary aggregation is impaired by TDP-43 depletion",
+      "relevant_quote": "In contrast, TIA-1 protease-sensitivity in SA- treated TDP-43 depleted cells was comparable to un- treated cells, indicating decreased TIA-1 aggregation and thus impaired SG assembly.",
+      "doi": "10.4161/sgtp.21252",
+      "authors": "Aulas A, St-Martin L, Vande Velde C",
+      "year": 2012,
+      "journal": "Stress Granules and RNA Processing Bodies"
+    },
+    {
+      "paper_title": "The optineurin/TIA1 pathway inhibits aberrant stress granule formation and reduces ubiquitinated TDP-43",
+      "relevant_quote": "Stress granules (SGs) are stress-induced cytoplasmic protein aggregates containing various neuropathogenic proteins, including TDP-43. Several studies have suggested that SGs are the initial site of the formation of pathogenic ubiquitinated TDP-43 aggregates in ALS neurons.",
+      "doi": "10.1016/j.isci.2021.102733",
+      "authors": "Nakamura M, Sone T, Okuno M, Kanata A, Hino T, Sugeno S, Mitsuhashi M, Okano H, Yamanaka K",
+      "year": 2021,
+      "journal": "iScience"
+    }
+  ],
+  "interaction_effect": "regulates",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 3
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TDP43 --regulates--> TIA1:",
+  "protein_a": "TDP43",
+  "protein_b": "TIA1",
+  "discovered_in_query": "TDP43",
+  "first_discovered": "2025-11-23T10:09:34.076929Z",
+  "last_updated": "2025-11-23T10:09:34.076929Z"
+}
