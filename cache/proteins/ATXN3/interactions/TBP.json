@@ -1,0 +1,118 @@
+{
+  "primary": "TBP",
+  "interaction_type": "indirect",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "The expanded form of ATXN3 co-aggregates with and sequesters the TATA-binding protein (TBP), a general transcription factor, into pathogenic nuclear inclusions. This sequestration is a common feature in several polyglutamine diseases and is thought to contribute to transcriptional dysregulation by depleting the pool of available, functional TBP.",
+  "functions": [
+    {
+      "function": "Transcriptional Initiation",
+      "arrow": "inhibits",
+      "cellular_process": "Polyglutamine-expanded ATXN3 forms insoluble nuclear aggregates that sequester various cellular proteins, including the TATA-binding protein (TBP).",
+      "effect_description": "The sequestration of TBP into nuclear inclusions by mutant ATXN3 reduces its availability to form transcription pre-initiation complexes at gene promoters, leading to widespread transcriptional dysregulation.",
+      "biological_consequence": [
+        "Polyglutamine-expanded ATXN3 forms insoluble nuclear aggregates → TATA-binding protein (TBP) is sequestered into the aggregates → The available pool of soluble, functional TBP is depleted → Assembly of the transcription pre-initiation complex is impaired → Global gene transcription is dysregulated."
+      ],
+      "specific_effects": [
+        "TBP is recruited to the aggregates formed by mutant ataxin-3 in human brain and animal models.",
+        "This sequestration of transcription factors is a proposed pathogenic mechanism in polyglutamine disorders."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Ataxin-3 Protein and RNA Toxicity in Spinocerebellar Ataxia Type 3: Current Insights and Emerging Therapeutic Strategies",
+          "doi": "10.3390/ijms17030377",
+          "authors": "Toonen LJA, Ristori E, Do Carmo Costa M, et al.",
+          "journal": "International Journal of Molecular Sciences",
+          "year": 2016,
+          "assay": "Review",
+          "species": "human, mouse",
+          "relevant_quote": "The nuclear environment has been suggested to promote the formation of nuclear aggregates, and additional proteins, such as TBP and CBP, were found to be recruited to the aggregates in human brain...",
+          "pmid": "24293103"
+        },
+        {
+          "paper_title": "Nuclear Localization of Ataxin-3 Is Required for the Manifestation of Symptoms in SCA3: In Vivo Evidence",
+          "doi": "10.1523/JNEUROSCI.4540-06.2007",
+          "authors": "Bichelmeier U, Schmidt T, Hübener J, et al.",
+          "journal": "The Journal of Neuroscience",
+          "year": 2007,
+          "assay": "Western Blot",
+          "species": "mouse",
+          "relevant_quote": "TBP marks the TATA binding protein, which is codetected when using the 1C2 antibody, because TBP was used for the generation of the antibody.",
+          "pmid": "17626202"
+        }
+      ],
+      "_context": {
+        "type": "direct",
+        "query_protein": null,
+        "chain": null
+      },
+      "interaction_effect": "inhibits",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "24293103",
+        "17626202"
+      ],
+      "function_effect": "inhibition",
+      "arrow_context": {
+        "direct_from": null,
+        "direct_arrow": "inhibits",
+        "net_from": "ATXN3",
+        "net_arrow": "inhibits",
+        "mediator_chain": [],
+        "is_indirect": true
+      },
+      "net_arrow": "inhibits",
+      "direct_arrow": "inhibits",
+      "net_effect": "inhibition",
+      "direct_effect": "inhibition"
+    }
+  ],
+  "arrow": "inhibits",
+  "direction": "main_to_primary",
+  "intent": "regulation",
+  "arrows": {
+    "main_to_primary": [
+      "inhibits"
+    ]
+  },
+  "mechanism": "Polyglutamine-expanded ATXN3 forms insoluble nuclear aggregates that sequester various cellular proteins, including the TATA-binding protein (TBP).",
+  "effect": "The sequestration of TBP into nuclear inclusions by mutant ATXN3 reduces its availability to form transcription pre-initiation complexes at gene promoters, leading to widespread transcriptional dysregulation.",
+  "summary": "ATXN3 inhibits TBP to modulate transcriptional initiation, ultimately affecting global gene transcription is dysregulated.",
+  "evidence": [
+    {
+      "paper_title": "Ataxin-3 Protein and RNA Toxicity in Spinocerebellar Ataxia Type 3: Current Insights and Emerging Therapeutic Strategies",
+      "doi": "10.3390/ijms17030377",
+      "authors": "Toonen LJA, Ristori E, Do Carmo Costa M, et al.",
+      "journal": "International Journal of Molecular Sciences",
+      "year": 2016,
+      "assay": "Review",
+      "species": "human, mouse",
+      "relevant_quote": "The nuclear environment has been suggested to promote the formation of nuclear aggregates, and additional proteins, such as TBP and CBP, were found to be recruited to the aggregates in human brain..."
+    },
+    {
+      "paper_title": "Nuclear Localization of Ataxin-3 Is Required for the Manifestation of Symptoms in SCA3: In Vivo Evidence",
+      "doi": "10.1523/JNEUROSCI.4540-06.2007",
+      "authors": "Bichelmeier U, Schmidt T, Hübener J, et al.",
+      "journal": "The Journal of Neuroscience",
+      "year": 2007,
+      "assay": "Western Blot",
+      "species": "mouse",
+      "relevant_quote": "TBP marks the TATA binding protein, which is codetected when using the 1C2 antibody, because TBP was used for the generation of the antibody."
+    }
+  ],
+  "interaction_effect": "inhibition",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATXN3 --inhibits--> TBP:",
+  "protein_a": "ATXN3",
+  "protein_b": "TBP",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-18T20:57:38.961173Z",
+  "last_updated": "2025-11-18T20:57:38.961173Z"
+}

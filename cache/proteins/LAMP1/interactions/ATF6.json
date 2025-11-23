@@ -1,0 +1,94 @@
+{
+  "primary": "ATF6",
+  "interaction_type": "indirect",
+  "upstream_interactor": "TFEB",
+  "mediator_chain": [
+    "TFEB"
+  ],
+  "depth": 3,
+  "support_summary": "ATF6 activity is required to maintain lysosomal function. Inhibition of ATF6 leads to the downregulation of the master lysosomal regulator TFEB and consequently reduces the expression of TFEB target genes, including the lysosomal marker LAMP1.",
+  "functions": [
+    {
+      "function": "Lysosomal Gene Expression",
+      "arrow": "activates",
+      "cellular_process": "ATF6 activity is required to sustain the function of lysosomes. Pharmacological or genetic inhibition of ATF6 correlates with the downregulation of TFEB, the master regulator of lysosomal biogenesis, and its downstream target gene LAMP1 in stressed cells.",
+      "effect_description": "ATF6 indirectly activates the expression of LAMP1 by sustaining the function of the transcription factor TFEB, thereby promoting lysosomal biogenesis and function.",
+      "biological_consequence": [
+        "ER Stress → Unfolded Protein Response (UPR) Activation → ATF6 Cleavage and Nuclear Translocation → Transcriptional Upregulation of TFEB → Increased LAMP1 Gene Expression → Enhanced Lysosomal Biogenesis and Function"
+      ],
+      "specific_effects": [
+        "Pharmacological or genetic inhibition of ATF6 correlates with LAMP1 downregulation in stressed cells.",
+        "ATF6 activation is required to sustain the function of lysosomes."
+      ],
+      "evidence": [
+        {
+          "paper_title": "ATF6 supports lysosomal function in tumor cells to enable ER stress-activated macroautophagy and CMA: impact on mutant TP53 expression",
+          "doi": "10.1080/15548627.2024.2339231",
+          "authors": "Mara Cirone, Rossella L Loria, Tiziana Gigantino, Ambra Giamogante, Annalisa Bottoni, Eleonora P JAN, Aristide Florio, Francesca Pallocca, Annalisa Tito, Simona Nanni, Bianca Maria Scicchitano, Donatella Del Bufalo, Gabriella D'Orazi",
+          "journal": "Autophagy",
+          "year": 2024,
+          "assay": "Western Blot, Immunofluorescence",
+          "species": "human",
+          "relevant_quote": "At the molecular level, by pharmacological and genetic approaches, we demonstrated that the inhibition of ATF6 correlated with the activation of MTOR and with TFEB and LAMP1 downregulation...",
+          "pmid": "38566314"
+        }
+      ],
+      "pmids": [
+        "38566314"
+      ],
+      "direct_arrow": "activates",
+      "interaction_effect": "activation",
+      "interaction_direction": "main_to_primary",
+      "function_effect": "activation",
+      "arrow_context": {
+        "direct_from": "TFEB",
+        "direct_arrow": "activates",
+        "net_from": "ATF6",
+        "net_arrow": "activates",
+        "mediator_chain": [
+          "TFEB"
+        ],
+        "is_indirect": true
+      },
+      "net_arrow": "activates",
+      "net_effect": "activation",
+      "direct_effect": "activation"
+    }
+  ],
+  "arrows": {
+    "main_to_primary": [
+      "activates"
+    ]
+  },
+  "arrow": "activates",
+  "direction": "primary_to_main",
+  "intent": "regulation",
+  "mechanism": "ATF6 activity is required to sustain the function of lysosomes. Pharmacological or genetic inhibition of ATF6 correlates with the downregulation of TFEB, the master regulator of lysosomal biogenesis, and its downstream target gene LAMP1 in stressed cells.",
+  "effect": "ATF6 indirectly activates the expression of LAMP1 by sustaining the function of the transcription factor TFEB, thereby promoting lysosomal biogenesis and function.",
+  "summary": "ATF6 activates LAMP1 to modulate lysosomal gene expression, ultimately affecting enhanced lysosomal biogenesis and function.",
+  "evidence": [
+    {
+      "paper_title": "ATF6 supports lysosomal function in tumor cells to enable ER stress-activated macroautophagy and CMA: impact on mutant TP53 expression",
+      "doi": "10.1080/15548627.2024.2339231",
+      "authors": "Mara Cirone, Rossella L Loria, Tiziana Gigantino, Ambra Giamogante, Annalisa Bottoni, Eleonora P JAN, Aristide Florio, Francesca Pallocca, Annalisa Tito, Simona Nanni, Bianca Maria Scicchitano, Donatella Del Bufalo, Gabriella D'Orazi",
+      "journal": "Autophagy",
+      "year": 2024,
+      "assay": "Western Blot, Immunofluorescence",
+      "species": "human",
+      "relevant_quote": "At the molecular level, by pharmacological and genetic approaches, we demonstrated that the inhibition of ATF6 correlated with the activation of MTOR and with TFEB and LAMP1 downregulation..."
+    }
+  ],
+  "interaction_effect": "activation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TFEB --activates--> LAMP1:",
+  "protein_a": "LAMP1",
+  "protein_b": "ATF6",
+  "discovered_in_query": "ATF6",
+  "first_discovered": "2025-11-18T21:01:00.329637Z",
+  "last_updated": "2025-11-18T21:01:00.329637Z"
+}

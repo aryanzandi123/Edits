@@ -1,0 +1,99 @@
+{
+  "primary": "APP",
+  "interaction_type": "indirect",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 2,
+  "support_summary": "The link between ATXN3 and APP is inferred from the general role of ATXN3 in protein quality control. Proteotoxic stress caused by polyQ-expanded ATXN3 impairs cellular clearance systems, which may indirectly affect the processing of other aggregation-prone proteins like APP, potentially favoring the amyloidogenic pathway.",
+  "functions": [
+    {
+      "function": "Amyloidogenic APP Processing",
+      "arrow": "activates",
+      "cellular_process": "In spinocerebellar ataxia type 3, proteotoxic stress from polyglutamine-expanded ATXN3 impairs the ubiquitin-proteasome system and autophagy. This disruption of proteostasis can alter the metabolic processing of other proteins, such as the amyloid precursor protein (APP).",
+      "effect_description": "The amyloidogenic processing of APP is indirectly activated, potentially increasing the production of neurotoxic amyloid-beta (Aβ) peptides.",
+      "biological_consequence": [
+        "PolyQ-expanded ATXN3 aggregates → Ubiquitin-proteasome system (UPS) and autophagy are impaired → Cellular proteostasis is disrupted → Protein clearance pathways are dysfunctional",
+        "Dysfunctional protein clearance → Amyloid Precursor Protein (APP) metabolism is altered → Amyloidogenic processing of APP increases → Aβ production is elevated → Neurotoxicity is exacerbated"
+      ],
+      "specific_effects": [
+        "The pathogenic form of ATXN3 impairs the clearance of misfolded proteins.",
+        "Dysfunctional protein clearance pathways can affect the metabolism of amyloid precursor protein.",
+        "Network analyses of gene expression in SCA3 models have identified APP as a significant hub, suggesting a functional link."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Toward therapeutic targets for SCA3: Insight into the role of Machado-Joseph disease protein ataxin-3 in misfolded proteins clearance",
+          "doi": "10.1016/j.pneurobio.2015.06.004",
+          "authors": "Li X, Liu H, Sun L, Li T, Yang L, Li X, Zhang L, Ashizawa T",
+          "journal": "Prog Neurobiol",
+          "year": 2015,
+          "assay": "Review",
+          "species": "human",
+          "relevant_quote": "Notably, the SCA3 pathogenic form of ataxin-3 (ataxin-3(exp)) impairs the misfolded protein clearance via mechanisms that are either dependent or independent of its deubiquitinase (DUB) activity...",
+          "pmid": "26123252"
+        }
+      ],
+      "_context": {
+        "type": "indirect",
+        "query_protein": null,
+        "chain": null
+      },
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "26123252"
+      ],
+      "function_effect": "activation",
+      "arrow_context": {
+        "direct_from": null,
+        "direct_arrow": "activates",
+        "net_from": "ATXN3",
+        "net_arrow": "activates",
+        "mediator_chain": [],
+        "is_indirect": true
+      },
+      "net_arrow": "activates",
+      "direct_arrow": "activates",
+      "net_effect": "activation",
+      "direct_effect": "activation"
+    }
+  ],
+  "arrow": "activates",
+  "direction": "main_to_primary",
+  "intent": "proteostasis regulation",
+  "arrows": {
+    "main_to_primary": [
+      "activates"
+    ]
+  },
+  "_chain_inferred": true,
+  "mechanism": "In spinocerebellar ataxia type 3, proteotoxic stress from polyglutamine-expanded ATXN3 impairs the ubiquitin-proteasome system and autophagy. This disruption of proteostasis can alter the metabolic processing of other proteins, such as the amyloid precursor protein (APP).",
+  "effect": "The amyloidogenic processing of APP is indirectly activated, potentially increasing the production of neurotoxic amyloid-beta (Aβ) peptides.",
+  "summary": "ATXN3 activates APP to modulate amyloidogenic app processing, ultimately affecting protein clearance pathways are dysfunctional.",
+  "evidence": [
+    {
+      "paper_title": "Toward therapeutic targets for SCA3: Insight into the role of Machado-Joseph disease protein ataxin-3 in misfolded proteins clearance",
+      "doi": "10.1016/j.pneurobio.2015.06.004",
+      "authors": "Li X, Liu H, Sun L, Li T, Yang L, Li X, Zhang L, Ashizawa T",
+      "journal": "Prog Neurobiol",
+      "year": 2015,
+      "assay": "Review",
+      "species": "human",
+      "relevant_quote": "Notably, the SCA3 pathogenic form of ataxin-3 (ataxin-3(exp)) impairs the misfolded protein clearance via mechanisms that are either dependent or independent of its deubiquitinase (DUB) activity..."
+    }
+  ],
+  "interaction_effect": "activation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 0
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATXN3 --activates--> APP:",
+  "protein_a": "ATXN3",
+  "protein_b": "APP",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-18T20:57:38.920621Z",
+  "last_updated": "2025-11-18T20:57:38.920621Z"
+}

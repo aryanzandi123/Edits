@@ -1,0 +1,89 @@
+{
+  "primary": "PRKAA1",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "AMP-activated protein kinase (AMPK), with PRKAA1 as a catalytic subunit, directly phosphorylates TFEB on a C-terminal serine cluster. This phosphorylation is distinct from mTORC1's regulation of TFEB localization and is essential for TFEB's transcriptional activity in the nucleus, particularly upon nutrient starvation or energy stress.",
+  "functions": [
+    {
+      "function": "TFEB Phosphorylation & Transcriptional",
+      "arrow": "activates",
+      "cellular_process": "In response to low cellular energy (high AMP:ATP ratio), AMP-activated protein kinase (AMPK), with PRKAA1 as a catalytic subunit, directly phosphorylates TFEB on a cluster of C-terminal serine residues (S466, S467, S469).",
+      "effect_description": "AMPK-mediated phosphorylation of TFEB in the nucleus is a key activating signal that is essential for its transcriptional activity, directly linking cellular energy status to the activation of autophagy and lysosomal biogenesis.",
+      "biological_consequence": [
+        "Low cellular energy (high AMP:ATP ratio) → AMPK (PRKAA1) is activated → AMPK directly phosphorylates nuclear TFEB (at S466, S467, S469) → TFEB transcriptional activity is enhanced → TFEB upregulates autophagy and lysosomal genes → Cellular energy homeostasis is restored"
+      ],
+      "specific_effects": [
+        "Directly phosphorylates TFEB on C-terminal serines S466, S467, and S469.",
+        "Required for TFEB's transcriptional activity upon nutrient starvation.",
+        "Acts as a key regulator of TFEB activity, distinct from mTORC1's control over its cellular localization."
+      ],
+      "evidence": [
+        {
+          "paper_title": "AMPK-dependent phosphorylation is required for transcriptional activation of TFEB and TFE3",
+          "doi": "10.1080/15548627.2021.1898748",
+          "authors": "Paquette M, El-Houjeiri L, Zirden LC, Puustinen P, Blanchette P, Jeong H, Dejgaard K, Siegel PM, Pause A",
+          "journal": "Autophagy",
+          "year": 2021,
+          "assay": "In vitro kinase assay, Mass spectrometry, Immunoprecipitation",
+          "species": "human, mouse",
+          "relevant_quote": "We show that AMPK mediates phosphorylation of TFEB and TFE3 on three serine residues, leading to TFEB/TFE3 transcriptional activity upon nutrient starvation...",
+          "pmid": "33734022"
+        },
+        {
+          "paper_title": "AMPK promotes induction of the tumor suppressor FLCN through activation of TFEB independently of mTOR",
+          "doi": "10.1096/fj.201900841r",
+          "authors": "Collodet C, Foretz M, Deak M, Bultot L, Metairon S, Viollet B, Lefebvre G, Raymond F, Parisi A, Civiletto G, Gut P, Descombes P, Sakamoto K",
+          "journal": "FASEB Journal",
+          "year": 2019,
+          "assay": "Reporter gene assay, Western blot",
+          "species": "mouse, zebrafish",
+          "relevant_quote": "Mechanistically, we have found that AMPK promotes dephosphorylation and nuclear localization of TFEB independently of mammalian target of rapamycin activity.",
+          "pmid": "31404503"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "primary_to_main",
+      "interaction_direction": "primary_to_main",
+      "pmids": [
+        "33734022",
+        "31404503"
+      ]
+    }
+  ],
+  "arrow": "activates",
+  "direction": "primary_to_main",
+  "intent": "phosphorylation",
+  "mechanism": "In response to low cellular energy (high AMP:ATP ratio), AMP-activated protein kinase (AMPK), with PRKAA1 as a catalytic subunit, directly phosphorylates TFEB on a cluster of C-terminal serine residues (S466, S467, S469).",
+  "effect": "AMPK-mediated phosphorylation of TFEB in the nucleus is a key activating signal that is essential for its transcriptional activity, directly linking cellular energy status to the activation of autophagy and lysosomal biogenesis.",
+  "summary": "TFEB activates PRKAA1 to modulate tfeb phosphorylation & transcriptional activation, ultimately affecting cellular energy homeostasis is restored.",
+  "evidence": [
+    {
+      "paper_title": "AMPK-dependent phosphorylation is required for transcriptional activation of TFEB and TFE3",
+      "doi": "10.1080/15548627.2021.1898748",
+      "authors": "Paquette M, El-Houjeiri L, Zirden LC, Puustinen P, Blanchette P, Jeong H, Dejgaard K, Siegel PM, Pause A",
+      "journal": "Autophagy",
+      "year": 2021,
+      "assay": "In vitro kinase assay, Mass spectrometry, Immunoprecipitation",
+      "species": "human, mouse",
+      "relevant_quote": "We show that AMPK mediates phosphorylation of TFEB and TFE3 on three serine residues, leading to TFEB/TFE3 transcriptional activity upon nutrient starvation..."
+    },
+    {
+      "paper_title": "AMPK promotes induction of the tumor suppressor FLCN through activation of TFEB independently of mTOR",
+      "doi": "10.1096/fj.201900841r",
+      "authors": "Collodet C, Foretz M, Deak M, Bultot L, Metairon S, Viollet B, Lefebvre G, Raymond F, Parisi A, Civiletto G, Gut P, Descombes P, Sakamoto K",
+      "journal": "FASEB Journal",
+      "year": 2019,
+      "assay": "Reporter gene assay, Western blot",
+      "species": "mouse, zebrafish",
+      "relevant_quote": "Mechanistically, we have found that AMPK promotes dephosphorylation and nuclear localization of TFEB independently of mammalian target of rapamycin activity."
+    }
+  ],
+  "arrow_notation": "TFEB <--activates-- PRKAA1:",
+  "protein_a": "TFEB",
+  "protein_b": "PRKAA1",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.536365Z",
+  "last_updated": "2025-11-19T03:20:29.536365Z"
+}

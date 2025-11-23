@@ -1,0 +1,110 @@
+{
+  "primary": "ATXN3",
+  "interaction_type": "indirect",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "ATXN3 forms a transcriptional repressor complex with the Nuclear Receptor Corepressor 1 (NCOR1) and Histone Deacetylase 3 (HDAC3), leading to histone deacetylation and transcriptional repression of target genes.",
+  "functions": [
+    {
+      "function": "Transcriptional Repression",
+      "arrow": "activates",
+      "cellular_process": "ATXN3 interacts with the Nuclear Receptor Corepressor 1 (NCOR1) and Histone Deacetylase 3 (HDAC3) to form a multi-protein transcriptional repressor complex.",
+      "effect_description": "As part of this complex, ATXN3 facilitates the recruitment of NCOR1 and HDAC3 to target gene promoters, leading to histone deacetylation and subsequent repression of transcription.",
+      "biological_consequence": [
+        "ATXN3 serves as a scaffold for the NCOR1/HDAC3 complex → The ATXN3-NCOR1-HDAC3 complex binds to target gene promoters → Histone deacetylase activity increases at the promoter → Local chromatin condenses, repressing transcription",
+        "Loss of ATXN3 → NCOR1 and HDAC3 recruitment to target promoters is decreased → Histones become hyperacetylated → Transcriptional repression is lost, leading to aberrant gene expression"
+      ],
+      "specific_effects": [
+        "ATXN3, NCOR1, and HDAC3 are components of a transcriptional repressor complex.",
+        "Normal ATXN3-containing complexes exhibit increased histone deacetylase activity.",
+        "PolyQ-expanded ATXN3 fails to properly recruit this complex, leading to loss of repression and aberrant gene expression.",
+        "Loss of ATXN3 is associated with decreased levels of NCOR1 and HDAC3, leading to hyperacetylation of histones at target promoters."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Ataxin-3 represses transcription via chromatin binding, interaction with histone deacetylase 3, and histone deacetylation",
+          "doi": "10.1523/JNEUROSCI.2053-06.2006",
+          "authors": "Evert BO, Araujo J, Vieira-Saecker AM, de Vos RA, Harendza S, Klockgether T, Wüllner U",
+          "journal": "The Journal of Neuroscience",
+          "year": 2006,
+          "assay": "Co-Immunoprecipitation, GST pull-down",
+          "species": "human, rat",
+          "relevant_quote": "normal AT3 binds to target DNA sequences...and represses transcription by recruitment of the histone deacetylase 3 (HDAC3), the nuclear receptor corepressor (NCoR), and deacetylation of histones...",
+          "pmid": "17079677"
+        },
+        {
+          "paper_title": "Loss of the Spinocerebellar Ataxia type 3 disease protein ATXN3 alters transcription of multiple signal transduction pathways",
+          "doi": "10.1371/journal.pone.0204438",
+          "authors": "Zeng L, Zhang D, McLoughlin HS, Zalon AJ, Aravind L, Paulson HL",
+          "journal": "PLoS One",
+          "year": 2018,
+          "assay": "Microarray, Western Blot, RT-PCR",
+          "species": "mouse",
+          "relevant_quote": "A direct interaction of ATXN3 with HDAC3 and NCoR has previously been established...with only normal (i.e. not expanded) ATXN3 being associated with increased deacetylase activity and repression...",
+          "pmid": "30231063"
+        }
+      ],
+      "pmids": [
+        "17079677",
+        "30231063"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "main_to_primary",
+      "function_effect": "activation",
+      "arrow_context": {
+        "direct_from": null,
+        "direct_arrow": "activates",
+        "net_from": "ATXN3",
+        "net_arrow": "activates",
+        "mediator_chain": [],
+        "is_indirect": true
+      },
+      "net_arrow": "activates",
+      "direct_arrow": "activates",
+      "net_effect": "activation",
+      "direct_effect": "activation"
+    }
+  ],
+  "arrow": "activates",
+  "direction": "primary_to_main",
+  "intent": "regulation of transcription",
+  "mechanism": "ATXN3 interacts with the Nuclear Receptor Corepressor 1 (NCOR1) and Histone Deacetylase 3 (HDAC3) to form a multi-protein transcriptional repressor complex.",
+  "effect": "As part of this complex, ATXN3 facilitates the recruitment of NCOR1 and HDAC3 to target gene promoters, leading to histone deacetylation and subsequent repression of transcription.",
+  "summary": "ATXN3 activates NCOR1 to modulate transcriptional repression, ultimately affecting local chromatin condenses, repressing transcription.",
+  "evidence": [
+    {
+      "paper_title": "Ataxin-3 represses transcription via chromatin binding, interaction with histone deacetylase 3, and histone deacetylation",
+      "doi": "10.1523/JNEUROSCI.2053-06.2006",
+      "authors": "Evert BO, Araujo J, Vieira-Saecker AM, de Vos RA, Harendza S, Klockgether T, Wüllner U",
+      "journal": "The Journal of Neuroscience",
+      "year": 2006,
+      "assay": "Co-Immunoprecipitation, GST pull-down",
+      "species": "human, rat",
+      "relevant_quote": "normal AT3 binds to target DNA sequences...and represses transcription by recruitment of the histone deacetylase 3 (HDAC3), the nuclear receptor corepressor (NCoR), and deacetylation of histones..."
+    },
+    {
+      "paper_title": "Loss of the Spinocerebellar Ataxia type 3 disease protein ATXN3 alters transcription of multiple signal transduction pathways",
+      "doi": "10.1371/journal.pone.0204438",
+      "authors": "Zeng L, Zhang D, McLoughlin HS, Zalon AJ, Aravind L, Paulson HL",
+      "journal": "PLoS One",
+      "year": 2018,
+      "assay": "Microarray, Western Blot, RT-PCR",
+      "species": "mouse",
+      "relevant_quote": "A direct interaction of ATXN3 with HDAC3 and NCoR has previously been established...with only normal (i.e. not expanded) ATXN3 being associated with increased deacetylase activity and repression..."
+    }
+  ],
+  "interaction_effect": "activation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 2
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATXN3 --activates--> NCOR1:",
+  "protein_a": "NCOR1",
+  "protein_b": "ATXN3",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-18T20:57:38.924795Z",
+  "last_updated": "2025-11-18T20:57:38.924795Z"
+}

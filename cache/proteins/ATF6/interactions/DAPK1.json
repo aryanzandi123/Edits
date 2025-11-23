@@ -1,0 +1,117 @@
+{
+  "primary": "DAPK1",
+  "interaction_type": "indirect",
+  "upstream_interactor": null,
+  "mediator_chain": [
+    "C/EBP-B"
+  ],
+  "depth": 2,
+  "support_summary": "The active nuclear form of ATF6 forms a heterodimer with C/EBP-β. This complex binds to the promoter of the death-associated protein kinase 1 (DAPK1) gene, inducing its transcription and thereby promoting autophagy and apoptosis in response to stimuli like IFN-γ.",
+  "functions": [
+    {
+      "function": "DAPK1 Gene Transcription",
+      "arrow": "activates",
+      "cellular_process": "In response to IFN-γ, the active nuclear form of ATF6 forms a heterodimer with C/EBP-β. This complex then binds to CRE/ATF elements in the promoter of the Death-Associated Protein Kinase 1 (DAPK1) gene to drive its expression.",
+      "effect_description": "ATF6, in complex with C/EBP-β, directly activates the transcription of the DAPK1 gene, leading to increased DAPK1 protein levels.",
+      "biological_consequence": [
+        "IFN-γ Stimulation → p38 MAPK-mediated Phosphorylation of ATF6 → ATF6 Proteolytic Cleavage and Nuclear Translocation → Heterodimerization with C/EBP-β → Complex Binds to DAPK1 Promoter → Activation of DAPK1 Gene Transcription → Induction of Autophagy"
+      ],
+      "specific_effects": [
+        "The ATF6-C/EBP-β complex binds directly to the DAPK1 promoter.",
+        "This pathway is essential for IFN-γ-induced autophagy.",
+        "p38 MAPK phosphorylation of ATF6 is required for its proteolytic processing and subsequent ability to drive DAPK1 expression."
+      ],
+      "evidence": [
+        {
+          "paper_title": "An IFN-γ-stimulated ATF6-C/EBP-β-signaling pathway critical for the expression of Death Associated Protein Kinase 1 and induction of autophagy",
+          "doi": "10.1073/pnas.1119273109",
+          "authors": "Padmaja Gade, Girish Ramachandran, Uday B Maachani, Mark A Rizzo, Tetsuya Okada, Ron Prywes, Alan S Cross, Kazutoshi Mori, Dhananjaya V Kalvakolanu",
+          "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+          "year": 2012,
+          "assay": "ChIP assay, Co-IP",
+          "species": "mouse, human",
+          "relevant_quote": "Here, we show that ATF6, an ER stress-induced transcription factor, interacts with C/EBP-β in an IFN-stimulated manner and is obligatory for Dapk1 expression.",
+          "pmid": "22699507"
+        },
+        {
+          "paper_title": "Regulation of the death-associated protein kinase 1 expression and autophagy via ATF6 requires apoptosis signal-regulating kinase 1",
+          "doi": "10.1128/MCB.00397-14",
+          "authors": "Padmaja Gade, Srikanta B Manjegowda, Shreeram C Nallar, Uday B Maachani, Alan S Cross, Dhananjaya V Kalvakolanu",
+          "journal": "Molecular and Cellular Biology",
+          "year": 2014,
+          "assay": "Western Blot, Luciferase Reporter Assay",
+          "species": "mouse",
+          "relevant_quote": "ATF6, an endoplasmic reticulum-resident transcription factor, in association with the transcription factor CEBP-β, regulates the gamma interferon (IFN-γ)-induced expression of Dapk1...",
+          "pmid": "25135476"
+        }
+      ],
+      "pmids": [
+        "22699507",
+        "25135476"
+      ],
+      "direct_arrow": "activates",
+      "interaction_effect": "activates",
+      "interaction_direction": "main_to_primary",
+      "function_effect": "activation",
+      "arrow_context": {
+        "direct_from": null,
+        "direct_arrow": "activates",
+        "net_from": "ATF6",
+        "net_arrow": "activates",
+        "mediator_chain": [
+          "C/EBP-B"
+        ],
+        "is_indirect": true
+      },
+      "net_arrow": "activates",
+      "net_effect": "activation",
+      "direct_effect": "activation"
+    }
+  ],
+  "arrows": {
+    "main_to_primary": [
+      "activates"
+    ]
+  },
+  "arrow": "activates",
+  "direction": "main_to_primary",
+  "intent": "regulation",
+  "mechanism": "In response to IFN-γ, the active nuclear form of ATF6 forms a heterodimer with C/EBP-β. This complex then binds to CRE/ATF elements in the promoter of the Death-Associated Protein Kinase 1 (DAPK1) gene to drive its expression.",
+  "effect": "ATF6, in complex with C/EBP-β, directly activates the transcription of the DAPK1 gene, leading to increased DAPK1 protein levels.",
+  "summary": "ATF6 activates DAPK1 to modulate dapk1 gene transcription, ultimately affecting induction of autophagy.",
+  "evidence": [
+    {
+      "paper_title": "An IFN-γ-stimulated ATF6-C/EBP-β-signaling pathway critical for the expression of Death Associated Protein Kinase 1 and induction of autophagy",
+      "doi": "10.1073/pnas.1119273109",
+      "authors": "Padmaja Gade, Girish Ramachandran, Uday B Maachani, Mark A Rizzo, Tetsuya Okada, Ron Prywes, Alan S Cross, Kazutoshi Mori, Dhananjaya V Kalvakolanu",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "year": 2012,
+      "assay": "ChIP assay, Co-IP",
+      "species": "mouse, human",
+      "relevant_quote": "Here, we show that ATF6, an ER stress-induced transcription factor, interacts with C/EBP-β in an IFN-stimulated manner and is obligatory for Dapk1 expression."
+    },
+    {
+      "paper_title": "Regulation of the death-associated protein kinase 1 expression and autophagy via ATF6 requires apoptosis signal-regulating kinase 1",
+      "doi": "10.1128/MCB.00397-14",
+      "authors": "Padmaja Gade, Srikanta B Manjegowda, Shreeram C Nallar, Uday B Maachani, Alan S Cross, Dhananjaya V Kalvakolanu",
+      "journal": "Molecular and Cellular Biology",
+      "year": 2014,
+      "assay": "Western Blot, Luciferase Reporter Assay",
+      "species": "mouse",
+      "relevant_quote": "ATF6, an endoplasmic reticulum-resident transcription factor, in association with the transcription factor CEBP-β, regulates the gamma interferon (IFN-γ)-induced expression of Dapk1..."
+    }
+  ],
+  "interaction_effect": "activation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATF6 --activates--> DAPK1:",
+  "protein_a": "ATF6",
+  "protein_b": "DAPK1",
+  "discovered_in_query": "ATF6",
+  "first_discovered": "2025-11-18T21:01:00.332233Z",
+  "last_updated": "2025-11-18T21:01:00.332233Z"
+}

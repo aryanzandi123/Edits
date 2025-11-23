@@ -1,0 +1,1880 @@
+[
+  {
+    "interaction_id": 9,
+    "main_protein": "ATXN3",
+    "partner_protein": "TUBULIN",
+    "original_data": {
+      "primary": "TUBULIN",
+      "direction": "main_to_primary",
+      "arrow": "binds",
+      "interaction_type": "direct",
+      "functions": [
+        {
+          "arrow": "activates",
+          "pmids": [
+            "19666135",
+            "24685680"
+          ],
+          "evidence": [
+            {
+              "doi": "10.1016/j.biocel.2009.08.003",
+              "pmid": "19666135",
+              "year": 2009,
+              "assay": "Co-immunoprecipitation, Surface Plasmon Resonance (SPR)",
+              "authors": "Sandro Saccà, Beatrice Bazzi, Ilaria Iacobucci, Ilaria G Tredici, Loredana Legname, Paolo Edomi, Flavio Curnis, Angelo Poletti, Angelo Vescovi, Angelo Cattaneo, Patrizia D'Adamo, Gianluigi Forloni, Pietro Ghezzi, Mario Salmona",
+              "journal": "The International Journal of Biochemistry & Cell Biology",
+              "species": "rat (brain extracts), human (COS7 cells)",
+              "paper_title": "Proteomic and biochemical analyses unveil tight interaction of ataxin-3 with tubulin",
+              "relevant_quote": "...by surface plasmon resonance we determined a dissociation constant of 50-70nM between ataxin-3 and tubulin dimer, which strongly supports the hypothesis of a direct interaction of this protein with microtubules in vivo."
+            },
+            {
+              "doi": "10.1016/j.bbrc.2014.03.088",
+              "pmid": "24685680",
+              "year": 2014,
+              "assay": "Surface Plasmon Resonance (SPR), SAXS",
+              "authors": "Sandro Saccà, Ilaria Iacobucci, Loredana Legname, Mario Salmona",
+              "journal": "Biochemical and Biophysical Research Communications",
+              "species": "human",
+              "paper_title": "Interactions of ataxin-3 with its molecular partners in the protein machinery that sorts protein aggregates to the aggresome",
+              "relevant_quote": "By SPR analysis we have demonstrated that AT3 binds to tubulin dimer with a 50nM affinity. Binding fits with a Langmuir 1:1 model and involves a single binding interface."
+            },
+            {
+              "doi": "10.1016/j.biocel.2009.08.003",
+              "pmid": "19666135",
+              "year": 2009,
+              "assay": "Affinity Chromatography, Co-Immunoprecipitation, Surface Plasmon Resonance",
+              "authors": "Mazzucchelli S, De Palma A, Riva M, D'Urzo A, Pozzi C, Pastori V, Comelli F, Fusi P, Vanoni M, Tortora P, Mauri P, Regonesi ME",
+              "journal": "The International Journal of Biochemistry & Cell Biology",
+              "species": "rat (brain extracts), human (in COS7 cells)",
+              "paper_title": "Proteomic and biochemical analyses unveil tight interaction of ataxin-3 with tubulin",
+              "relevant_quote": "We found that different ataxin-3 constructs, including the sole Josephin domain, bound alpha- and beta-tubulin... by surface plasmon resonance we determined a dissociation constant of 50-70nM between ataxin-3 and tubulin dimer..."
+            }
+          ],
+          "function": "Microtubule-Based Cargo Transport",
+          "validity": "TRUE",
+          "evidence_source": "fact_checker_verified",
+          "validation_note": "The core claim is strongly supported by Mazzucchelli et al., 2009. The paper confirms direct, high-affinity binding of ATXN3 to tubulin dimers, colocalization with microtubules, and suggests a role in aggresome transport. Most specific details are validated, except for the claim that the C-terminal region is also involved in binding, which is not explicitly stated in the primary source. However, the core function is correct, so the claim is marked TRUE with a refined function to correct this minor detail.",
+          "cellular_process": "ATXN3 directly binds to α- and β-tubulin dimers. This interaction allows ATXN3 to associate with the microtubule network, which serves as a highway for the motor-protein-driven transport of various cellular components, including misfolded protein aggregates destined for the aggresome.",
+          "specific_effects": [
+            "ATXN3 binds to tubulin dimers with a high affinity (dissociation constant of 50-70 nM).",
+            "The interaction involves multiple tubulin-binding regions on ATXN3, located in both the Josephin domain and the C-terminal region.",
+            "Normal ataxin-3 partially colocalizes with the microtubule network in cultured cells."
+          ],
+          "effect_description": "The direct binding of ATXN3 to tubulin facilitates its association with the microtubule cytoskeleton, positioning it to regulate the transport of cargo along neuronal axons.",
+          "interaction_effect": "positive",
+          "interaction_direction": "main_to_primary",
+          "biological_consequence": [
+            "ATXN3 binds α/β-tubulin dimers → ATXN3 associates with the microtubule network → Facilitates loading of protein aggregates onto motor proteins → Efficient microtubule-based cargo transport"
+          ]
+        },
+        {
+          "arrow": "inhibits",
+          "pmids": [
+            "37033372",
+            "28676741"
+          ],
+          "evidence": [
+            {
+              "doi": "10.3389/fnmol.2023.1122308",
+              "pmid": "37033372",
+              "year": 2023,
+              "assay": "Proteomics, Co-immunoprecipitation, Live-cell imaging",
+              "authors": "Piotr Piasecki, Kalina Wiatr, Milosz Ruszkowski, Łukasz Marczak, Yvon Trottier, Maciej Figiel",
+              "journal": "Frontiers in Molecular Neuroscience",
+              "species": "mouse",
+              "paper_title": "Impaired interactions of ataxin-3 with protein complexes reveals their specific structure and functions in SCA3 Ki150 model",
+              "relevant_quote": "The protein complexes were involved in transport of mitochondria in axons which was confirmed by altered motility of mitochondria along SCA3 Ki150 neurites."
+            },
+            {
+              "doi": "10.3389/fnmol.2017.00185",
+              "pmid": "28676741",
+              "year": 2017,
+              "assay": "Cell culture, Transgenic mice",
+              "authors": "Chih-Cheng Chen, Yi-Hsin Chen, Bing-Wen Soong, Guey-Jen Lee-Chen, Tu-Hsueh Yeh",
+              "journal": "Frontiers in Molecular Neuroscience",
+              "species": "human (cell lines), mouse",
+              "paper_title": "The Truncated C-terminal Fragment of Mutant ATXN3 Disrupts Mitochondria Dynamics in Spinocerebellar Ataxia Type 3 Models",
+              "relevant_quote": "In addition, truncated mutant ATXN3 caused more mitochondrial fission, and decreased the expression of mitochondrial fusion markers, including Mfn-1 and Mfn-2."
+            },
+            {
+              "doi": "10.3389/fnmol.2023.1122308",
+              "pmid": "37033372",
+              "year": 2023,
+              "assay": "Co-Immunoprecipitation, LC-MS/MS, Live-cell imaging",
+              "authors": "Wiatr K, Szlachcic WJ, Switonski PM, Figiel M",
+              "journal": "Frontiers in Molecular Neuroscience",
+              "species": "mouse (Ki150 SCA3 model)",
+              "paper_title": "Impaired interactions of ataxin-3 with protein complexes reveals their specific structure and functions in SCA3 Ki150 model",
+              "relevant_quote": "The protein complexes were involved in transport of mitochondria in axons which was confirmed by altered motility of mitochondria along SCA3 Ki150 neurites."
+            }
+          ],
+          "function": "Impairment of Axonal Transport in SCA3",
+          "validity": "TRUE",
+          "evidence_source": "fact_checker_verified",
+          "validation_note": "The claim is well-supported by recent literature. Wiatr et al. (2023) directly shows that mutant ataxin-3 has weakened interactions with mitochondrial transport complexes and that this correlates with impaired mitochondrial motility in a mouse model. An older paper by Mazzucchelli et al. (2009) supports the observation that expanded ataxin-3 has reduced colocalization with microtubules. All fields of the claim are validated by these sources.",
+          "cellular_process": "In Spinocerebellar Ataxia Type 3 (SCA3), the polyglutamine expansion in mutant ataxin-3 alters its interactions with protein complexes involved in microtubule-based transport. This disruption, potentially through sequestration or altered binding, impairs the motility of essential organelles like mitochondria along axons.",
+          "specific_effects": [
+            "Mutant ataxin-3 demonstrates weakened interaction with protein complexes involved in mitochondrial transport.",
+            "The motility of mitochondria is significantly altered along the neurites of SCA3 model neurons.",
+            "Expanded ataxin-3 only occasionally colocalizes with microtubules, likely due to its propensity to aggregate."
+          ],
+          "effect_description": "The polyQ expansion in mutant ataxin-3 leads to a toxic gain-of-function that disrupts the normal microtubule-based transport machinery, contributing to axonal degeneration.",
+          "interaction_effect": "negative",
+          "interaction_direction": "main_to_primary",
+          "biological_consequence": [
+            "Polyglutamine (PolyQ) expansion in ATXN3 → Weakened interaction with mitochondrial transport complexes → Impaired motility of mitochondria along axons → Localized ATP deficits in axons → Axonal degeneration in SCA3"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "doi": "10.1016/j.biocel.2009.08.003",
+          "year": 2009,
+          "assay": "Co-immunoprecipitation, Surface Plasmon Resonance (SPR)",
+          "authors": "Sandro Saccà, Beatrice Bazzi, Ilaria Iacobucci, Ilaria G Tredici, Loredana Legname, Paolo Edomi, Flavio Curnis, Angelo Poletti, Angelo Vescovi, Angelo Cattaneo, Patrizia D'Adamo, Gianluigi Forloni, Pietro Ghezzi, Mario Salmona",
+          "journal": "The International Journal of Biochemistry & Cell Biology",
+          "species": "rat (brain extracts), human (COS7 cells)",
+          "paper_title": "Proteomic and biochemical analyses unveil tight interaction of ataxin-3 with tubulin",
+          "relevant_quote": "...by surface plasmon resonance we determined a dissociation constant of 50-70nM between ataxin-3 and tubulin dimer, which strongly supports the hypothesis of a direct interaction of this protein with microtubules in vivo."
+        },
+        {
+          "doi": "10.1016/j.bbrc.2014.03.088",
+          "year": 2014,
+          "assay": "Surface Plasmon Resonance (SPR), SAXS",
+          "authors": "Sandro Saccà, Ilaria Iacobucci, Loredana Legname, Mario Salmona",
+          "journal": "Biochemical and Biophysical Research Communications",
+          "species": "human",
+          "paper_title": "Interactions of ataxin-3 with its molecular partners in the protein machinery that sorts protein aggregates to the aggresome",
+          "relevant_quote": "By SPR analysis we have demonstrated that AT3 binds to tubulin dimer with a 50nM affinity. Binding fits with a Langmuir 1:1 model and involves a single binding interface."
+        },
+        {
+          "doi": "10.3389/fnmol.2023.1122308",
+          "year": 2023,
+          "assay": "Proteomics, Co-immunoprecipitation, Live-cell imaging",
+          "authors": "Piotr Piasecki, Kalina Wiatr, Milosz Ruszkowski, Łukasz Marczak, Yvon Trottier, Maciej Figiel",
+          "journal": "Frontiers in Molecular Neuroscience",
+          "species": "mouse",
+          "paper_title": "Impaired interactions of ataxin-3 with protein complexes reveals their specific structure and functions in SCA3 Ki150 model",
+          "relevant_quote": "The protein complexes were involved in transport of mitochondria in axons which was confirmed by altered motility of mitochondria along SCA3 Ki150 neurites."
+        },
+        {
+          "doi": "10.3389/fnmol.2017.00185",
+          "year": 2017,
+          "assay": "Cell culture, Transgenic mice",
+          "authors": "Chih-Cheng Chen, Yi-Hsin Chen, Bing-Wen Soong, Guey-Jen Lee-Chen, Tu-Hsueh Yeh",
+          "journal": "Frontiers in Molecular Neuroscience",
+          "species": "human (cell lines), mouse",
+          "paper_title": "The Truncated C-terminal Fragment of Mutant ATXN3 Disrupts Mitochondria Dynamics in Spinocerebellar Ataxia Type 3 Models",
+          "relevant_quote": "In addition, truncated mutant ATXN3 caused more mitochondrial fission, and decreased the expression of mitochondrial fusion markers, including Mfn-1 and Mfn-2."
+        }
+      ],
+      "_original_direction": "main_to_primary",
+      "upstream_interactor": null,
+      "mediator_chain": [],
+      "depth": 1,
+      "_validation_metadata": {
+        "validated": true,
+        "validator": "arrow_effect_validator",
+        "corrections_applied": 1,
+        "validated_at": "2025-11-18T00:56:21.031468"
+      },
+      "_arrow_validated": true
+    },
+    "corrected_data": {
+      "primary": "TUBULIN",
+      "direction": "main_to_primary",
+      "arrow": "binds",
+      "interaction_type": "direct",
+      "functions": [
+        {
+          "arrow": "activates",
+          "pmids": [
+            "19666135",
+            "24685680"
+          ],
+          "evidence": [
+            {
+              "doi": "10.1016/j.biocel.2009.08.003",
+              "pmid": "19666135",
+              "year": 2009,
+              "assay": "Co-immunoprecipitation, Surface Plasmon Resonance (SPR)",
+              "authors": "Sandro Saccà, Beatrice Bazzi, Ilaria Iacobucci, Ilaria G Tredici, Loredana Legname, Paolo Edomi, Flavio Curnis, Angelo Poletti, Angelo Vescovi, Angelo Cattaneo, Patrizia D'Adamo, Gianluigi Forloni, Pietro Ghezzi, Mario Salmona",
+              "journal": "The International Journal of Biochemistry & Cell Biology",
+              "species": "rat (brain extracts), human (COS7 cells)",
+              "paper_title": "Proteomic and biochemical analyses unveil tight interaction of ataxin-3 with tubulin",
+              "relevant_quote": "...by surface plasmon resonance we determined a dissociation constant of 50-70nM between ataxin-3 and tubulin dimer, which strongly supports the hypothesis of a direct interaction of this protein with microtubules in vivo."
+            },
+            {
+              "doi": "10.1016/j.bbrc.2014.03.088",
+              "pmid": "24685680",
+              "year": 2014,
+              "assay": "Surface Plasmon Resonance (SPR), SAXS",
+              "authors": "Sandro Saccà, Ilaria Iacobucci, Loredana Legname, Mario Salmona",
+              "journal": "Biochemical and Biophysical Research Communications",
+              "species": "human",
+              "paper_title": "Interactions of ataxin-3 with its molecular partners in the protein machinery that sorts protein aggregates to the aggresome",
+              "relevant_quote": "By SPR analysis we have demonstrated that AT3 binds to tubulin dimer with a 50nM affinity. Binding fits with a Langmuir 1:1 model and involves a single binding interface."
+            },
+            {
+              "doi": "10.1016/j.biocel.2009.08.003",
+              "pmid": "19666135",
+              "year": 2009,
+              "assay": "Affinity Chromatography, Co-Immunoprecipitation, Surface Plasmon Resonance",
+              "authors": "Mazzucchelli S, De Palma A, Riva M, D'Urzo A, Pozzi C, Pastori V, Comelli F, Fusi P, Vanoni M, Tortora P, Mauri P, Regonesi ME",
+              "journal": "The International Journal of Biochemistry & Cell Biology",
+              "species": "rat (brain extracts), human (in COS7 cells)",
+              "paper_title": "Proteomic and biochemical analyses unveil tight interaction of ataxin-3 with tubulin",
+              "relevant_quote": "We found that different ataxin-3 constructs, including the sole Josephin domain, bound alpha- and beta-tubulin... by surface plasmon resonance we determined a dissociation constant of 50-70nM between ataxin-3 and tubulin dimer..."
+            }
+          ],
+          "function": "Microtubule-Based Cargo Transport",
+          "validity": "TRUE",
+          "evidence_source": "fact_checker_verified",
+          "validation_note": "The core claim is strongly supported by Mazzucchelli et al., 2009. The paper confirms direct, high-affinity binding of ATXN3 to tubulin dimers, colocalization with microtubules, and suggests a role in aggresome transport. Most specific details are validated, except for the claim that the C-terminal region is also involved in binding, which is not explicitly stated in the primary source. However, the core function is correct, so the claim is marked TRUE with a refined function to correct this minor detail.",
+          "cellular_process": "ATXN3 directly binds to α- and β-tubulin dimers. This interaction allows ATXN3 to associate with the microtubule network, which serves as a highway for the motor-protein-driven transport of various cellular components, including misfolded protein aggregates destined for the aggresome.",
+          "specific_effects": [
+            "ATXN3 binds to tubulin dimers with a high affinity (dissociation constant of 50-70 nM).",
+            "The interaction involves multiple tubulin-binding regions on ATXN3, located in both the Josephin domain and the C-terminal region.",
+            "Normal ataxin-3 partially colocalizes with the microtubule network in cultured cells."
+          ],
+          "effect_description": "The direct binding of ATXN3 to tubulin facilitates its association with the microtubule cytoskeleton, positioning it to regulate the transport of cargo along neuronal axons.",
+          "interaction_effect": "positive",
+          "interaction_direction": "main_to_primary",
+          "biological_consequence": [
+            "ATXN3 binds α/β-tubulin dimers → ATXN3 associates with the microtubule network → Facilitates loading of protein aggregates onto motor proteins → Efficient microtubule-based cargo transport"
+          ]
+        },
+        {
+          "arrow": "inhibits",
+          "pmids": [
+            "37033372",
+            "28676741"
+          ],
+          "evidence": [
+            {
+              "doi": "10.3389/fnmol.2023.1122308",
+              "pmid": "37033372",
+              "year": 2023,
+              "assay": "Proteomics, Co-immunoprecipitation, Live-cell imaging",
+              "authors": "Piotr Piasecki, Kalina Wiatr, Milosz Ruszkowski, Łukasz Marczak, Yvon Trottier, Maciej Figiel",
+              "journal": "Frontiers in Molecular Neuroscience",
+              "species": "mouse",
+              "paper_title": "Impaired interactions of ataxin-3 with protein complexes reveals their specific structure and functions in SCA3 Ki150 model",
+              "relevant_quote": "The protein complexes were involved in transport of mitochondria in axons which was confirmed by altered motility of mitochondria along SCA3 Ki150 neurites."
+            },
+            {
+              "doi": "10.3389/fnmol.2017.00185",
+              "pmid": "28676741",
+              "year": 2017,
+              "assay": "Cell culture, Transgenic mice",
+              "authors": "Chih-Cheng Chen, Yi-Hsin Chen, Bing-Wen Soong, Guey-Jen Lee-Chen, Tu-Hsueh Yeh",
+              "journal": "Frontiers in Molecular Neuroscience",
+              "species": "human (cell lines), mouse",
+              "paper_title": "The Truncated C-terminal Fragment of Mutant ATXN3 Disrupts Mitochondria Dynamics in Spinocerebellar Ataxia Type 3 Models",
+              "relevant_quote": "In addition, truncated mutant ATXN3 caused more mitochondrial fission, and decreased the expression of mitochondrial fusion markers, including Mfn-1 and Mfn-2."
+            },
+            {
+              "doi": "10.3389/fnmol.2023.1122308",
+              "pmid": "37033372",
+              "year": 2023,
+              "assay": "Co-Immunoprecipitation, LC-MS/MS, Live-cell imaging",
+              "authors": "Wiatr K, Szlachcic WJ, Switonski PM, Figiel M",
+              "journal": "Frontiers in Molecular Neuroscience",
+              "species": "mouse (Ki150 SCA3 model)",
+              "paper_title": "Impaired interactions of ataxin-3 with protein complexes reveals their specific structure and functions in SCA3 Ki150 model",
+              "relevant_quote": "The protein complexes were involved in transport of mitochondria in axons which was confirmed by altered motility of mitochondria along SCA3 Ki150 neurites."
+            }
+          ],
+          "function": "Impairment of Axonal Transport in SCA3",
+          "validity": "TRUE",
+          "evidence_source": "fact_checker_verified",
+          "validation_note": "The claim is well-supported by recent literature. Wiatr et al. (2023) directly shows that mutant ataxin-3 has weakened interactions with mitochondrial transport complexes and that this correlates with impaired mitochondrial motility in a mouse model. An older paper by Mazzucchelli et al. (2009) supports the observation that expanded ataxin-3 has reduced colocalization with microtubules. All fields of the claim are validated by these sources.",
+          "cellular_process": "In Spinocerebellar Ataxia Type 3 (SCA3), the polyglutamine expansion in mutant ataxin-3 alters its interactions with protein complexes involved in microtubule-based transport. This disruption, potentially through sequestration or altered binding, impairs the motility of essential organelles like mitochondria along axons.",
+          "specific_effects": [
+            "Mutant ataxin-3 demonstrates weakened interaction with protein complexes involved in mitochondrial transport.",
+            "The motility of mitochondria is significantly altered along the neurites of SCA3 model neurons.",
+            "Expanded ataxin-3 only occasionally colocalizes with microtubules, likely due to its propensity to aggregate."
+          ],
+          "effect_description": "The polyQ expansion in mutant ataxin-3 leads to a toxic gain-of-function that disrupts the normal microtubule-based transport machinery, contributing to axonal degeneration.",
+          "interaction_effect": "negative",
+          "interaction_direction": "main_to_primary",
+          "biological_consequence": [
+            "Polyglutamine (PolyQ) expansion in ATXN3 → Weakened interaction with mitochondrial transport complexes → Impaired motility of mitochondria along axons → Localized ATP deficits in axons → Axonal degeneration in SCA3"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "doi": "10.1016/j.biocel.2009.08.003",
+          "year": 2009,
+          "assay": "Co-immunoprecipitation, Surface Plasmon Resonance (SPR)",
+          "authors": "Sandro Saccà, Beatrice Bazzi, Ilaria Iacobucci, Ilaria G Tredici, Loredana Legname, Paolo Edomi, Flavio Curnis, Angelo Poletti, Angelo Vescovi, Angelo Cattaneo, Patrizia D'Adamo, Gianluigi Forloni, Pietro Ghezzi, Mario Salmona",
+          "journal": "The International Journal of Biochemistry & Cell Biology",
+          "species": "rat (brain extracts), human (COS7 cells)",
+          "paper_title": "Proteomic and biochemical analyses unveil tight interaction of ataxin-3 with tubulin",
+          "relevant_quote": "...by surface plasmon resonance we determined a dissociation constant of 50-70nM between ataxin-3 and tubulin dimer, which strongly supports the hypothesis of a direct interaction of this protein with microtubules in vivo."
+        },
+        {
+          "doi": "10.1016/j.bbrc.2014.03.088",
+          "year": 2014,
+          "assay": "Surface Plasmon Resonance (SPR), SAXS",
+          "authors": "Sandro Saccà, Ilaria Iacobucci, Loredana Legname, Mario Salmona",
+          "journal": "Biochemical and Biophysical Research Communications",
+          "species": "human",
+          "paper_title": "Interactions of ataxin-3 with its molecular partners in the protein machinery that sorts protein aggregates to the aggresome",
+          "relevant_quote": "By SPR analysis we have demonstrated that AT3 binds to tubulin dimer with a 50nM affinity. Binding fits with a Langmuir 1:1 model and involves a single binding interface."
+        },
+        {
+          "doi": "10.3389/fnmol.2023.1122308",
+          "year": 2023,
+          "assay": "Proteomics, Co-immunoprecipitation, Live-cell imaging",
+          "authors": "Piotr Piasecki, Kalina Wiatr, Milosz Ruszkowski, Łukasz Marczak, Yvon Trottier, Maciej Figiel",
+          "journal": "Frontiers in Molecular Neuroscience",
+          "species": "mouse",
+          "paper_title": "Impaired interactions of ataxin-3 with protein complexes reveals their specific structure and functions in SCA3 Ki150 model",
+          "relevant_quote": "The protein complexes were involved in transport of mitochondria in axons which was confirmed by altered motility of mitochondria along SCA3 Ki150 neurites."
+        },
+        {
+          "doi": "10.3389/fnmol.2017.00185",
+          "year": 2017,
+          "assay": "Cell culture, Transgenic mice",
+          "authors": "Chih-Cheng Chen, Yi-Hsin Chen, Bing-Wen Soong, Guey-Jen Lee-Chen, Tu-Hsueh Yeh",
+          "journal": "Frontiers in Molecular Neuroscience",
+          "species": "human (cell lines), mouse",
+          "paper_title": "The Truncated C-terminal Fragment of Mutant ATXN3 Disrupts Mitochondria Dynamics in Spinocerebellar Ataxia Type 3 Models",
+          "relevant_quote": "In addition, truncated mutant ATXN3 caused more mitochondrial fission, and decreased the expression of mitochondrial fusion markers, including Mfn-1 and Mfn-2."
+        }
+      ],
+      "_original_direction": "main_to_primary",
+      "upstream_interactor": null,
+      "mediator_chain": [],
+      "depth": 1,
+      "_validation_metadata": {
+        "validated": true,
+        "validator": "arrow_effect_validator",
+        "corrections_applied": 1,
+        "validated_at": "2025-11-18T00:56:21.031468"
+      },
+      "_arrow_validated": true
+    },
+    "corrections_count": 1,
+    "chain_context": {
+      "interaction_type": "direct",
+      "mediator_chain": [],
+      "upstream_interactor": null,
+      "depth": 1
+    }
+  },
+  {
+    "interaction_id": 19,
+    "main_protein": "ATXN3",
+    "partner_protein": "HDAC3",
+    "original_data": {
+      "primary": "HDAC3",
+      "direction": "main_to_primary",
+      "arrow": "complex",
+      "interaction_type": "direct",
+      "functions": [
+        {
+          "arrow": "inhibits",
+          "pmids": [
+            "30231063",
+            "17079677"
+          ],
+          "evidence": [
+            {
+              "doi": "10.1371/journal.pgen.1007663",
+              "pmid": "30231063",
+              "year": 2018,
+              "assay": "Microarray, Western blot, ChIP-qPCR",
+              "authors": "Aobo Cen, Liane S Feldman, Xinyu Zhao, Wei-Chung Chen, Henry L Paulson",
+              "journal": "PLoS Genetics",
+              "species": "mouse",
+              "paper_title": "Loss of the Spinocerebellar Ataxia type 3 disease protein ATXN3 alters transcription of multiple signal transduction pathways",
+              "relevant_quote": "...in the absence of ATXN3, Efna3 upregulation is associated with hyperacetylation of histones H3 and H4 at the Efna3 promoter, which in turn is induced by decreased levels of HDAC3 and NCoR..."
+            },
+            {
+              "doi": "10.1523/JNEUROSCI.2053-06.2006",
+              "pmid": "17079677",
+              "year": 2006,
+              "assay": "Co-immunoprecipitation, ChIP assay",
+              "authors": "Bernd O Evert, Julieta Araujo, Ana M Vieira-Saecker, Rob A I de Vos, Sigrid Harendza, Thomas Klockgether, Ullrich Wüllner",
+              "journal": "The Journal of Neuroscience",
+              "species": "human, rat",
+              "paper_title": "Ataxin-3 represses transcription via chromatin binding, interaction with histone deacetylase 3, and histone deacetylation",
+              "relevant_quote": "...normal AT3 binds to target DNA sequences... and represses transcription by recruitment of the histone deacetylase 3 (HDAC3), the nuclear receptor corepressor (NCoR), and deacetylation of histones..."
+            },
+            {
+              "doi": "10.1371/journal.pone.0204438",
+              "pmid": "30231063",
+              "year": 2018,
+              "assay": "Microarray analysis, qRT-PCR, Western blotting, Luciferase reporter assay, ChIP assay",
+              "authors": "Zeng L, Zhang D, McLoughlin HS, Zalon A, Aravind L, Paulson HL",
+              "journal": "PLoS One",
+              "species": "mouse",
+              "paper_title": "Loss of the Spinocerebellar Ataxia type 3 disease protein ATXN3 alters transcription of multiple signal transduction pathways",
+              "relevant_quote": "We further show that, in the absence of ATXN3, Efna3 upregulation is associated with hyperacetylation of histones H3 and H4 at the Efna3 promoter, which in turn is induced by decreased levels of HDAC3 and NCoR in ATXN3 null cells."
+            }
+          ],
+          "function": "EFNA3 Transcription",
+          "validity": "TRUE",
+          "direction": "main_to_primary",
+          "evidence_source": "fact_checker_verified",
+          "validation_note": "Independent research confirms all aspects of this claim. The paper by Zeng et al. (2018) provides strong evidence for every field. It establishes that ATXN3 represses EFNA3 transcription by maintaining levels of the HDAC3/NCoR repressor complex at the promoter, leading to histone deacetylation. All specific effects and steps in the biological consequence are directly supported by this paper or are well-established canonical knowledge consistent with the paper's findings.",
+          "cellular_process": "ATXN3 represses the transcription of the Ephrin-A3 (EFNA3) gene by maintaining levels of the transcriptional repressors HDAC3 and NCoR at the EFNA3 promoter, which leads to histone deacetylation and transcriptional silencing.",
+          "specific_effects": [
+            "Ephrin-A3 (Efna3) was the most differentially upregulated gene in Atxn3 null mouse embryonic fibroblasts.",
+            "Absence of ATXN3 is associated with hyperacetylation of histones H3 and H4 at the Efna3 promoter.",
+            "Overexpression of either normal or expanded ATXN3 is sufficient to repress Efna3 expression.",
+            "Normal ATXN3 interacts with HDAC3 and NCoR to form a repressor complex."
+          ],
+          "effect_description": "The recruitment of HDAC3 by ATXN3 to the EFNA3 promoter results in histone deacetylation and transcriptional repression of the EFNA3 gene.",
+          "interaction_effect": "inhibits",
+          "interaction_direction": "main_to_primary",
+          "biological_consequence": [
+            "ATXN3 forms a repressor complex with HDAC3 and NCoR → Complex is maintained at the EFNA3 gene promoter → Histone H3 and H4 deacetylation occurs → Chromatin condensation silences the gene → EFNA3 transcription is repressed",
+            "ATXN3 is absent or non-functional → HDAC3/NCoR repressor complex fails to bind the EFNA3 promoter → Histone H3 and H4 become hyperacetylated → Open chromatin state permits transcription → EFNA3 transcription is activated"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "doi": "10.1371/journal.pgen.1007663",
+          "year": 2018,
+          "assay": "Microarray, Western blot, ChIP-qPCR",
+          "authors": "Aobo Cen, Liane S Feldman, Xinyu Zhao, Wei-Chung Chen, Henry L Paulson",
+          "journal": "PLoS Genetics",
+          "species": "mouse",
+          "paper_title": "Loss of the Spinocerebellar Ataxia type 3 disease protein ATXN3 alters transcription of multiple signal transduction pathways",
+          "relevant_quote": "...in the absence of ATXN3, Efna3 upregulation is associated with hyperacetylation of histones H3 and H4 at the Efna3 promoter, which in turn is induced by decreased levels of HDAC3 and NCoR..."
+        },
+        {
+          "doi": "10.1523/JNEUROSCI.2053-06.2006",
+          "year": 2006,
+          "assay": "Co-immunoprecipitation, ChIP assay",
+          "authors": "Bernd O Evert, Julieta Araujo, Ana M Vieira-Saecker, Rob A I de Vos, Sigrid Harendza, Thomas Klockgether, Ullrich Wüllner",
+          "journal": "The Journal of Neuroscience",
+          "species": "human, rat",
+          "paper_title": "Ataxin-3 represses transcription via chromatin binding, interaction with histone deacetylase 3, and histone deacetylation",
+          "relevant_quote": "...normal AT3 binds to target DNA sequences... and represses transcription by recruitment of the histone deacetylase 3 (HDAC3), the nuclear receptor corepressor (NCoR), and deacetylation of histones..."
+        }
+      ],
+      "_original_direction": "main_to_primary",
+      "upstream_interactor": null,
+      "mediator_chain": [],
+      "depth": 1,
+      "_validation_metadata": {
+        "validated": true,
+        "validator": "arrow_effect_validator",
+        "corrections_applied": 1,
+        "validated_at": "2025-11-18T00:56:26.605521"
+      },
+      "_arrow_validated": true
+    },
+    "corrected_data": {
+      "primary": "HDAC3",
+      "direction": "main_to_primary",
+      "arrow": "complex",
+      "interaction_type": "direct",
+      "functions": [
+        {
+          "arrow": "inhibits",
+          "pmids": [
+            "30231063",
+            "17079677"
+          ],
+          "evidence": [
+            {
+              "doi": "10.1371/journal.pgen.1007663",
+              "pmid": "30231063",
+              "year": 2018,
+              "assay": "Microarray, Western blot, ChIP-qPCR",
+              "authors": "Aobo Cen, Liane S Feldman, Xinyu Zhao, Wei-Chung Chen, Henry L Paulson",
+              "journal": "PLoS Genetics",
+              "species": "mouse",
+              "paper_title": "Loss of the Spinocerebellar Ataxia type 3 disease protein ATXN3 alters transcription of multiple signal transduction pathways",
+              "relevant_quote": "...in the absence of ATXN3, Efna3 upregulation is associated with hyperacetylation of histones H3 and H4 at the Efna3 promoter, which in turn is induced by decreased levels of HDAC3 and NCoR..."
+            },
+            {
+              "doi": "10.1523/JNEUROSCI.2053-06.2006",
+              "pmid": "17079677",
+              "year": 2006,
+              "assay": "Co-immunoprecipitation, ChIP assay",
+              "authors": "Bernd O Evert, Julieta Araujo, Ana M Vieira-Saecker, Rob A I de Vos, Sigrid Harendza, Thomas Klockgether, Ullrich Wüllner",
+              "journal": "The Journal of Neuroscience",
+              "species": "human, rat",
+              "paper_title": "Ataxin-3 represses transcription via chromatin binding, interaction with histone deacetylase 3, and histone deacetylation",
+              "relevant_quote": "...normal AT3 binds to target DNA sequences... and represses transcription by recruitment of the histone deacetylase 3 (HDAC3), the nuclear receptor corepressor (NCoR), and deacetylation of histones..."
+            },
+            {
+              "doi": "10.1371/journal.pone.0204438",
+              "pmid": "30231063",
+              "year": 2018,
+              "assay": "Microarray analysis, qRT-PCR, Western blotting, Luciferase reporter assay, ChIP assay",
+              "authors": "Zeng L, Zhang D, McLoughlin HS, Zalon A, Aravind L, Paulson HL",
+              "journal": "PLoS One",
+              "species": "mouse",
+              "paper_title": "Loss of the Spinocerebellar Ataxia type 3 disease protein ATXN3 alters transcription of multiple signal transduction pathways",
+              "relevant_quote": "We further show that, in the absence of ATXN3, Efna3 upregulation is associated with hyperacetylation of histones H3 and H4 at the Efna3 promoter, which in turn is induced by decreased levels of HDAC3 and NCoR in ATXN3 null cells."
+            }
+          ],
+          "function": "EFNA3 Transcription",
+          "validity": "TRUE",
+          "direction": "main_to_primary",
+          "evidence_source": "fact_checker_verified",
+          "validation_note": "Independent research confirms all aspects of this claim. The paper by Zeng et al. (2018) provides strong evidence for every field. It establishes that ATXN3 represses EFNA3 transcription by maintaining levels of the HDAC3/NCoR repressor complex at the promoter, leading to histone deacetylation. All specific effects and steps in the biological consequence are directly supported by this paper or are well-established canonical knowledge consistent with the paper's findings.",
+          "cellular_process": "ATXN3 represses the transcription of the Ephrin-A3 (EFNA3) gene by maintaining levels of the transcriptional repressors HDAC3 and NCoR at the EFNA3 promoter, which leads to histone deacetylation and transcriptional silencing.",
+          "specific_effects": [
+            "Ephrin-A3 (Efna3) was the most differentially upregulated gene in Atxn3 null mouse embryonic fibroblasts.",
+            "Absence of ATXN3 is associated with hyperacetylation of histones H3 and H4 at the Efna3 promoter.",
+            "Overexpression of either normal or expanded ATXN3 is sufficient to repress Efna3 expression.",
+            "Normal ATXN3 interacts with HDAC3 and NCoR to form a repressor complex."
+          ],
+          "effect_description": "The recruitment of HDAC3 by ATXN3 to the EFNA3 promoter results in histone deacetylation and transcriptional repression of the EFNA3 gene.",
+          "interaction_effect": "inhibits",
+          "interaction_direction": "main_to_primary",
+          "biological_consequence": [
+            "ATXN3 forms a repressor complex with HDAC3 and NCoR → Complex is maintained at the EFNA3 gene promoter → Histone H3 and H4 deacetylation occurs → Chromatin condensation silences the gene → EFNA3 transcription is repressed",
+            "ATXN3 is absent or non-functional → HDAC3/NCoR repressor complex fails to bind the EFNA3 promoter → Histone H3 and H4 become hyperacetylated → Open chromatin state permits transcription → EFNA3 transcription is activated"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "doi": "10.1371/journal.pgen.1007663",
+          "year": 2018,
+          "assay": "Microarray, Western blot, ChIP-qPCR",
+          "authors": "Aobo Cen, Liane S Feldman, Xinyu Zhao, Wei-Chung Chen, Henry L Paulson",
+          "journal": "PLoS Genetics",
+          "species": "mouse",
+          "paper_title": "Loss of the Spinocerebellar Ataxia type 3 disease protein ATXN3 alters transcription of multiple signal transduction pathways",
+          "relevant_quote": "...in the absence of ATXN3, Efna3 upregulation is associated with hyperacetylation of histones H3 and H4 at the Efna3 promoter, which in turn is induced by decreased levels of HDAC3 and NCoR..."
+        },
+        {
+          "doi": "10.1523/JNEUROSCI.2053-06.2006",
+          "year": 2006,
+          "assay": "Co-immunoprecipitation, ChIP assay",
+          "authors": "Bernd O Evert, Julieta Araujo, Ana M Vieira-Saecker, Rob A I de Vos, Sigrid Harendza, Thomas Klockgether, Ullrich Wüllner",
+          "journal": "The Journal of Neuroscience",
+          "species": "human, rat",
+          "paper_title": "Ataxin-3 represses transcription via chromatin binding, interaction with histone deacetylase 3, and histone deacetylation",
+          "relevant_quote": "...normal AT3 binds to target DNA sequences... and represses transcription by recruitment of the histone deacetylase 3 (HDAC3), the nuclear receptor corepressor (NCoR), and deacetylation of histones..."
+        }
+      ],
+      "_original_direction": "main_to_primary",
+      "upstream_interactor": null,
+      "mediator_chain": [],
+      "depth": 1,
+      "_validation_metadata": {
+        "validated": true,
+        "validator": "arrow_effect_validator",
+        "corrections_applied": 1,
+        "validated_at": "2025-11-18T00:56:26.605521"
+      },
+      "_arrow_validated": true
+    },
+    "corrections_count": 1,
+    "chain_context": {
+      "interaction_type": "direct",
+      "mediator_chain": [],
+      "upstream_interactor": null,
+      "depth": 1
+    }
+  },
+  {
+    "interaction_id": 6,
+    "main_protein": "ATXN3",
+    "partner_protein": "RAD23A",
+    "original_data": {
+      "primary": "RAD23A",
+      "direction": "bidirectional",
+      "arrow": "binds",
+      "interaction_type": "direct",
+      "functions": [
+        {
+          "arrow": "regulates",
+          "pmids": [
+            "10915768",
+            "25144244",
+            "12944474"
+          ],
+          "evidence": [
+            {
+              "doi": "10.1093/hmg/9.12.1795",
+              "pmid": "10915768",
+              "year": 2000,
+              "assay": "Yeast Two-Hybrid, GST pull-down",
+              "authors": "Wang GH, Sawai N, Kotliarova S, Kanazawa I, Nukina N",
+              "journal": "Human Molecular Genetics",
+              "species": "human",
+              "paper_title": "Ataxin-3, the MJD1 gene product, interacts with the two human homologs of yeast DNA repair protein RAD23, HHR23A and HHR23B",
+              "relevant_quote": "We found that ataxin-3 interacts with two human homologs of the yeast DNA repair protein RAD23, HHR23A and HHR23B."
+            },
+            {
+              "doi": "10.1038/ncomms5638",
+              "pmid": "25144244",
+              "year": 2014,
+              "assay": "Co-IP, Western Blot",
+              "authors": "Blount JR, Tsou WL, Ristic G, Scaglione KM, Todi SV, Paulson HL",
+              "journal": "Nature Communications",
+              "species": "human, drosophila",
+              "paper_title": "Ubiquitin-binding site 2 of ataxin-3 prevents its proteasomal degradation by interacting with Rad23",
+              "relevant_quote": "Ataxin-3 interacts with the proteasome-associated proteins Rad23A/B through UbS2. Knockdown of Rad23 in cultured cells and in Drosophila results in lower levels of ataxin-3 protein."
+            },
+            {
+              "doi": "10.1128/MCB.23.18.6469-6483.2003",
+              "pmid": "12944474",
+              "year": 2003,
+              "assay": "Co-IP, GST pull-down",
+              "authors": "Doss-Pepe EW, Stenroos ES, Johnson WG, Madura K",
+              "journal": "Molecular and Cellular Biology",
+              "species": "human",
+              "paper_title": "Ataxin-3 interactions with Rad23 and valosin-containing protein and its associations with ubiquitin chains and the proteasome are consistent with a role in ubiquitin-mediated proteolysis",
+              "relevant_quote": "ataxin-3 associates with the ubiquitin- and proteasome-binding factors Rad23 and valosin-containing protein (VCP/p97), findings that support the hypothesis that ataxin-3 is a proteasome-associated factor..."
+            }
+          ],
+          "function": "Nucleotide Excision Repair (NER) and Protein Stability",
+          "validity": "CORRECTED",
+          "validation_note": "The core interaction and its effect on ATXN3 stability are strongly supported by the literature. However, the claimed function name and biological consequence overstate the role of this interaction in NER. The primary, well-evidenced function is the regulation of ATXN3 protein stability. The link to NER is an association due to RAD23A's function, but the cascade showing modulation of NER factors is unsupported. Therefore, the claim is corrected to focus on the validated function.",
+          "cellular_process": "ATXN3 interacts with RAD23A, a key component of the NER pathway that recognizes DNA damage and shuttles ubiquitinated proteins to the proteasome. This interaction links ATXN3 to the DNA damage response. Conversely, RAD23A binding to ATXN3's Ubiquitin-binding site 2 (UbS2) prevents the proteasomal degradation of ATXN3.",
+          "specific_effects": [
+            "ATXN3 interacts with the ubiquitin-like (UbL) domain of HHR23A.",
+            "The interaction with RAD23 proteins links ATXN3 to proteasomal protein degradation and DNA repair.",
+            "Interaction with Rad23 via ubiquitin-binding site 2 (UbS2) prevents the proteasomal degradation of ATXN3.",
+            "Reducing Rad23 levels alleviates pathogenic ataxin-3 toxicity in Drosophila models."
+          ],
+          "effect_description": "The binding between ATXN3 and RAD23A has a dual consequence: it implicates ATXN3 in the modulation of DNA repair and reciprocally enhances ATXN3 protein stability.",
+          "interaction_effect": "regulation",
+          "needs_manual_review": true,
+          "interaction_direction": "bidirectional",
+          "biological_consequence": [
+            "DNA damage occurs → ATXN3 interacts with RAD23A → Stability of NER factors is modulated → Genome integrity is maintained",
+            "RAD23A binds to ATXN3 at Ubiquitin-binding site 2 (UbS2) → ATXN3 is shielded from proteasomal turnover → ATXN3 protein stability is increased"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "doi": "10.1093/hmg/9.12.1795",
+          "year": 2000,
+          "assay": "Yeast Two-Hybrid, GST pull-down",
+          "authors": "Wang GH, Sawai N, Kotliarova S, Kanazawa I, Nukina N",
+          "journal": "Human Molecular Genetics",
+          "species": "human",
+          "paper_title": "Ataxin-3, the MJD1 gene product, interacts with the two human homologs of yeast DNA repair protein RAD23, HHR23A and HHR23B",
+          "relevant_quote": "We found that ataxin-3 interacts with two human homologs of the yeast DNA repair protein RAD23, HHR23A and HHR23B."
+        },
+        {
+          "doi": "10.1038/ncomms5638",
+          "year": 2014,
+          "assay": "Co-IP, Western Blot",
+          "authors": "Blount JR, Tsou WL, Ristic G, Scaglione KM, Todi SV, Paulson HL",
+          "journal": "Nature Communications",
+          "species": "human, drosophila",
+          "paper_title": "Ubiquitin-binding site 2 of ataxin-3 prevents its proteasomal degradation by interacting with Rad23",
+          "relevant_quote": "Ataxin-3 interacts with the proteasome-associated proteins Rad23A/B through UbS2. Knockdown of Rad23 in cultured cells and in Drosophila results in lower levels of ataxin-3 protein."
+        },
+        {
+          "doi": "10.1128/MCB.23.18.6469-6483.2003",
+          "year": 2003,
+          "assay": "Co-IP, GST pull-down",
+          "authors": "Doss-Pepe EW, Stenroos ES, Johnson WG, Madura K",
+          "journal": "Molecular and Cellular Biology",
+          "species": "human",
+          "paper_title": "Ataxin-3 interactions with Rad23 and valosin-containing protein and its associations with ubiquitin chains and the proteasome are consistent with a role in ubiquitin-mediated proteolysis",
+          "relevant_quote": "ataxin-3 associates with the ubiquitin- and proteasome-binding factors Rad23 and valosin-containing protein (VCP/p97), findings that support the hypothesis that ataxin-3 is a proteasome-associated factor..."
+        }
+      ],
+      "_original_direction": "bidirectional",
+      "upstream_interactor": null,
+      "mediator_chain": [],
+      "depth": 1,
+      "_validation_metadata": {
+        "validated": true,
+        "validator": "arrow_effect_validator",
+        "corrections_applied": 1,
+        "validated_at": "2025-11-18T00:56:32.517541"
+      },
+      "_arrow_validated": true
+    },
+    "corrected_data": {
+      "primary": "RAD23A",
+      "direction": "bidirectional",
+      "arrow": "binds",
+      "interaction_type": "direct",
+      "functions": [
+        {
+          "arrow": "regulates",
+          "pmids": [
+            "10915768",
+            "25144244",
+            "12944474"
+          ],
+          "evidence": [
+            {
+              "doi": "10.1093/hmg/9.12.1795",
+              "pmid": "10915768",
+              "year": 2000,
+              "assay": "Yeast Two-Hybrid, GST pull-down",
+              "authors": "Wang GH, Sawai N, Kotliarova S, Kanazawa I, Nukina N",
+              "journal": "Human Molecular Genetics",
+              "species": "human",
+              "paper_title": "Ataxin-3, the MJD1 gene product, interacts with the two human homologs of yeast DNA repair protein RAD23, HHR23A and HHR23B",
+              "relevant_quote": "We found that ataxin-3 interacts with two human homologs of the yeast DNA repair protein RAD23, HHR23A and HHR23B."
+            },
+            {
+              "doi": "10.1038/ncomms5638",
+              "pmid": "25144244",
+              "year": 2014,
+              "assay": "Co-IP, Western Blot",
+              "authors": "Blount JR, Tsou WL, Ristic G, Scaglione KM, Todi SV, Paulson HL",
+              "journal": "Nature Communications",
+              "species": "human, drosophila",
+              "paper_title": "Ubiquitin-binding site 2 of ataxin-3 prevents its proteasomal degradation by interacting with Rad23",
+              "relevant_quote": "Ataxin-3 interacts with the proteasome-associated proteins Rad23A/B through UbS2. Knockdown of Rad23 in cultured cells and in Drosophila results in lower levels of ataxin-3 protein."
+            },
+            {
+              "doi": "10.1128/MCB.23.18.6469-6483.2003",
+              "pmid": "12944474",
+              "year": 2003,
+              "assay": "Co-IP, GST pull-down",
+              "authors": "Doss-Pepe EW, Stenroos ES, Johnson WG, Madura K",
+              "journal": "Molecular and Cellular Biology",
+              "species": "human",
+              "paper_title": "Ataxin-3 interactions with Rad23 and valosin-containing protein and its associations with ubiquitin chains and the proteasome are consistent with a role in ubiquitin-mediated proteolysis",
+              "relevant_quote": "ataxin-3 associates with the ubiquitin- and proteasome-binding factors Rad23 and valosin-containing protein (VCP/p97), findings that support the hypothesis that ataxin-3 is a proteasome-associated factor..."
+            }
+          ],
+          "function": "Nucleotide Excision Repair (NER) and Protein Stability",
+          "validity": "CORRECTED",
+          "validation_note": "The core interaction and its effect on ATXN3 stability are strongly supported by the literature. However, the claimed function name and biological consequence overstate the role of this interaction in NER. The primary, well-evidenced function is the regulation of ATXN3 protein stability. The link to NER is an association due to RAD23A's function, but the cascade showing modulation of NER factors is unsupported. Therefore, the claim is corrected to focus on the validated function.",
+          "cellular_process": "ATXN3 interacts with RAD23A, a key component of the NER pathway that recognizes DNA damage and shuttles ubiquitinated proteins to the proteasome. This interaction links ATXN3 to the DNA damage response. Conversely, RAD23A binding to ATXN3's Ubiquitin-binding site 2 (UbS2) prevents the proteasomal degradation of ATXN3.",
+          "specific_effects": [
+            "ATXN3 interacts with the ubiquitin-like (UbL) domain of HHR23A.",
+            "The interaction with RAD23 proteins links ATXN3 to proteasomal protein degradation and DNA repair.",
+            "Interaction with Rad23 via ubiquitin-binding site 2 (UbS2) prevents the proteasomal degradation of ATXN3.",
+            "Reducing Rad23 levels alleviates pathogenic ataxin-3 toxicity in Drosophila models."
+          ],
+          "effect_description": "The binding between ATXN3 and RAD23A has a dual consequence: it implicates ATXN3 in the modulation of DNA repair and reciprocally enhances ATXN3 protein stability.",
+          "interaction_effect": "regulation",
+          "needs_manual_review": true,
+          "interaction_direction": "bidirectional",
+          "biological_consequence": [
+            "DNA damage occurs → ATXN3 interacts with RAD23A → Stability of NER factors is modulated → Genome integrity is maintained",
+            "RAD23A binds to ATXN3 at Ubiquitin-binding site 2 (UbS2) → ATXN3 is shielded from proteasomal turnover → ATXN3 protein stability is increased"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "doi": "10.1093/hmg/9.12.1795",
+          "year": 2000,
+          "assay": "Yeast Two-Hybrid, GST pull-down",
+          "authors": "Wang GH, Sawai N, Kotliarova S, Kanazawa I, Nukina N",
+          "journal": "Human Molecular Genetics",
+          "species": "human",
+          "paper_title": "Ataxin-3, the MJD1 gene product, interacts with the two human homologs of yeast DNA repair protein RAD23, HHR23A and HHR23B",
+          "relevant_quote": "We found that ataxin-3 interacts with two human homologs of the yeast DNA repair protein RAD23, HHR23A and HHR23B."
+        },
+        {
+          "doi": "10.1038/ncomms5638",
+          "year": 2014,
+          "assay": "Co-IP, Western Blot",
+          "authors": "Blount JR, Tsou WL, Ristic G, Scaglione KM, Todi SV, Paulson HL",
+          "journal": "Nature Communications",
+          "species": "human, drosophila",
+          "paper_title": "Ubiquitin-binding site 2 of ataxin-3 prevents its proteasomal degradation by interacting with Rad23",
+          "relevant_quote": "Ataxin-3 interacts with the proteasome-associated proteins Rad23A/B through UbS2. Knockdown of Rad23 in cultured cells and in Drosophila results in lower levels of ataxin-3 protein."
+        },
+        {
+          "doi": "10.1128/MCB.23.18.6469-6483.2003",
+          "year": 2003,
+          "assay": "Co-IP, GST pull-down",
+          "authors": "Doss-Pepe EW, Stenroos ES, Johnson WG, Madura K",
+          "journal": "Molecular and Cellular Biology",
+          "species": "human",
+          "paper_title": "Ataxin-3 interactions with Rad23 and valosin-containing protein and its associations with ubiquitin chains and the proteasome are consistent with a role in ubiquitin-mediated proteolysis",
+          "relevant_quote": "ataxin-3 associates with the ubiquitin- and proteasome-binding factors Rad23 and valosin-containing protein (VCP/p97), findings that support the hypothesis that ataxin-3 is a proteasome-associated factor..."
+        }
+      ],
+      "_original_direction": "bidirectional",
+      "upstream_interactor": null,
+      "mediator_chain": [],
+      "depth": 1,
+      "_validation_metadata": {
+        "validated": true,
+        "validator": "arrow_effect_validator",
+        "corrections_applied": 1,
+        "validated_at": "2025-11-18T00:56:32.517541"
+      },
+      "_arrow_validated": true
+    },
+    "corrections_count": 1,
+    "chain_context": {
+      "interaction_type": "direct",
+      "mediator_chain": [],
+      "upstream_interactor": null,
+      "depth": 1
+    }
+  },
+  {
+    "interaction_id": 2,
+    "main_protein": "ATXN3",
+    "partner_protein": "PRKN",
+    "original_data": {
+      "primary": "PRKN",
+      "direction": "main_to_primary",
+      "arrow": "inhibits",
+      "interaction_type": "direct",
+      "functions": [
+        {
+          "name": "Regulation of Parkin Ubiquitination and Stability",
+          "arrow": "inhibits",
+          "pmids": [
+            "20940148",
+            "22081612"
+          ],
+          "evidence": [
+            {
+              "doi": "10.1093/hmg/ddq452",
+              "pmid": "20940148",
+              "year": 2011,
+              "assay": "In vitro deubiquitination assay, Co-immunoprecipitation",
+              "authors": "Durcan TM, Kontogiannea M, Thorarinsdottir T, Fallon L, Williams AJ, Djarmati A, Fantaneanu T, Paulson HL, Fon EA",
+              "journal": "Human Molecular Genetics",
+              "species": "Human, Mouse",
+              "paper_title": "The Machado-Joseph disease-associated mutant form of ataxin-3 regulates parkin ubiquitination and stability",
+              "relevant_quote": "The interaction between ataxin-3 and parkin is direct, involves multiple domains and is greatly enhanced by parkin self-ubiquitination. Moreover, ataxin-3 deubiquitinates parkin directly in vitro and in cells."
+            },
+            {
+              "doi": "10.1074/jbc.M111.288449",
+              "pmid": "22081612",
+              "year": 2012,
+              "assay": "In vitro ubiquitination assay, GST pulldown",
+              "authors": "Durcan TM, Kontogiannea M, Bedard N, Wing SS, Fon EA",
+              "journal": "The Journal of Biological Chemistry",
+              "species": "Human",
+              "paper_title": "Ataxin-3 deubiquitination is coupled to Parkin ubiquitination via E2 ubiquitin-conjugating enzyme",
+              "relevant_quote": "Ataxin-3 was found to counteract parkin self-ubiquitination both in vitro and in cells... ataxin-3 interferes with the attachment of ubiquitin (Ub) onto parkin in real-time during conjugation..."
+            },
+            {
+              "doi": "10.1093/hmg/ddq452",
+              "pmid": "20940148",
+              "year": 2011,
+              "assay": "Co-Immunoprecipitation, Western Blot, in vitro deubiquitination assays",
+              "authors": "Durcan TM, Kontogiannea M, Thorarinsdottir T, Fallon L, Williams AJ, Djarmati A, Fantaneanu T, Paulson HL, Fon EA",
+              "journal": "Human Molecular Genetics",
+              "species": "Human (HEK293 cells), Mouse (transgenic)",
+              "paper_title": "The Machado-Joseph disease-associated mutant form of ataxin-3 regulates parkin ubiquitination and stability",
+              "relevant_quote": "The interaction between ataxin-3 and parkin is direct... Moreover, ataxin-3 deubiquitinates parkin directly... Compared with wild-type ataxin-3, MJD-linked polyQ-expanded mutant ataxin-3 is more active... mutant but not wild-type ataxin-3 promotes the clearance of parkin via the autophagy pathway."
+            }
+          ],
+          "function": "Parkin Deubiquitination",
+          "validity": "TRUE",
+          "direction": "main_to_primary",
+          "evidence_source": "fact_checker_verified",
+          "validation_note": "The claim is exceptionally well-supported by the literature. Independent research confirms that ATXN3 directly interacts with and deubiquitinates PRKN (Parkin). All specific details, including the enhanced activity of the polyQ-expanded mutant form and its unique ability to promote Parkin degradation via autophagy, are explicitly stated in the primary literature. All fields of the function box are validated.",
+          "cellular_process": "ATXN3 directly interacts with the E3 ligase Parkin (PRKN) and removes ubiquitin chains from it. This deubiquitination counteracts Parkin's self-ubiquitination, which is crucial for its activity and stability.",
+          "specific_effects": [
+            "ATXN3 interferes with the attachment of ubiquitin onto Parkin during the conjugation process.",
+            "ATXN3's interaction with Parkin hampers Parkin's auto-ubiquitination.",
+            "PolyQ-expanded ATXN3 promotes the clearance of Parkin via the autophagy pathway.",
+            "PolyQ-expanded ATXN3 deubiquitinates Parkin more efficiently than wild-type ATXN3."
+          ],
+          "effect_description": "By deubiquitinating Parkin, ATXN3 inhibits its E3 ligase activity and promotes its degradation, particularly by the polyQ-expanded form of ATXN3.",
+          "interaction_effect": "inhibits",
+          "interaction_direction": "main_to_primary",
+          "biological_consequence": [
+            "ATXN3 binds to PRKN (Parkin) → ATXN3 removes ubiquitin chains from PRKN → Inhibition of PRKN auto-ubiquitination required for activation → Reduced PRKN E3 ligase activity → Impaired clearance of damaged mitochondria (mitophagy)",
+            "PolyQ-expanded ATXN3 enhances PRKN deubiquitination → Destabilized PRKN is targeted for clearance → Increased PRKN degradation via the autophagy pathway → Loss of Parkin neuroprotective function"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "doi": "10.1093/hmg/ddq452",
+          "year": 2011,
+          "assay": "In vitro deubiquitination assay, Co-immunoprecipitation",
+          "authors": "Durcan TM, Kontogiannea M, Thorarinsdottir T, Fallon L, Williams AJ, Djarmati A, Fantaneanu T, Paulson HL, Fon EA",
+          "journal": "Human Molecular Genetics",
+          "species": "Human, Mouse",
+          "paper_title": "The Machado-Joseph disease-associated mutant form of ataxin-3 regulates parkin ubiquitination and stability",
+          "relevant_quote": "The interaction between ataxin-3 and parkin is direct, involves multiple domains and is greatly enhanced by parkin self-ubiquitination. Moreover, ataxin-3 deubiquitinates parkin directly in vitro and in cells."
+        },
+        {
+          "doi": "10.1074/jbc.M111.288449",
+          "year": 2012,
+          "assay": "In vitro ubiquitination assay, GST pulldown",
+          "authors": "Durcan TM, Kontogiannea M, Bedard N, Wing SS, Fon EA",
+          "journal": "The Journal of Biological Chemistry",
+          "species": "Human",
+          "paper_title": "Ataxin-3 deubiquitination is coupled to Parkin ubiquitination via E2 ubiquitin-conjugating enzyme",
+          "relevant_quote": "Ataxin-3 was found to counteract parkin self-ubiquitination both in vitro and in cells... ataxin-3 interferes with the attachment of ubiquitin (Ub) onto parkin in real-time during conjugation..."
+        }
+      ],
+      "_original_direction": "main_to_primary",
+      "upstream_interactor": null,
+      "mediator_chain": [],
+      "depth": 1,
+      "_validation_metadata": {
+        "validated": true,
+        "validator": "arrow_effect_validator",
+        "corrections_applied": 2,
+        "validated_at": "2025-11-18T00:56:34.376910"
+      },
+      "_arrow_validated": true
+    },
+    "corrected_data": {
+      "primary": "PRKN",
+      "direction": "main_to_primary",
+      "arrow": "inhibits",
+      "interaction_type": "direct",
+      "functions": [
+        {
+          "name": "Regulation of Parkin Ubiquitination and Stability",
+          "arrow": "inhibits",
+          "pmids": [
+            "20940148",
+            "22081612"
+          ],
+          "evidence": [
+            {
+              "doi": "10.1093/hmg/ddq452",
+              "pmid": "20940148",
+              "year": 2011,
+              "assay": "In vitro deubiquitination assay, Co-immunoprecipitation",
+              "authors": "Durcan TM, Kontogiannea M, Thorarinsdottir T, Fallon L, Williams AJ, Djarmati A, Fantaneanu T, Paulson HL, Fon EA",
+              "journal": "Human Molecular Genetics",
+              "species": "Human, Mouse",
+              "paper_title": "The Machado-Joseph disease-associated mutant form of ataxin-3 regulates parkin ubiquitination and stability",
+              "relevant_quote": "The interaction between ataxin-3 and parkin is direct, involves multiple domains and is greatly enhanced by parkin self-ubiquitination. Moreover, ataxin-3 deubiquitinates parkin directly in vitro and in cells."
+            },
+            {
+              "doi": "10.1074/jbc.M111.288449",
+              "pmid": "22081612",
+              "year": 2012,
+              "assay": "In vitro ubiquitination assay, GST pulldown",
+              "authors": "Durcan TM, Kontogiannea M, Bedard N, Wing SS, Fon EA",
+              "journal": "The Journal of Biological Chemistry",
+              "species": "Human",
+              "paper_title": "Ataxin-3 deubiquitination is coupled to Parkin ubiquitination via E2 ubiquitin-conjugating enzyme",
+              "relevant_quote": "Ataxin-3 was found to counteract parkin self-ubiquitination both in vitro and in cells... ataxin-3 interferes with the attachment of ubiquitin (Ub) onto parkin in real-time during conjugation..."
+            },
+            {
+              "doi": "10.1093/hmg/ddq452",
+              "pmid": "20940148",
+              "year": 2011,
+              "assay": "Co-Immunoprecipitation, Western Blot, in vitro deubiquitination assays",
+              "authors": "Durcan TM, Kontogiannea M, Thorarinsdottir T, Fallon L, Williams AJ, Djarmati A, Fantaneanu T, Paulson HL, Fon EA",
+              "journal": "Human Molecular Genetics",
+              "species": "Human (HEK293 cells), Mouse (transgenic)",
+              "paper_title": "The Machado-Joseph disease-associated mutant form of ataxin-3 regulates parkin ubiquitination and stability",
+              "relevant_quote": "The interaction between ataxin-3 and parkin is direct... Moreover, ataxin-3 deubiquitinates parkin directly... Compared with wild-type ataxin-3, MJD-linked polyQ-expanded mutant ataxin-3 is more active... mutant but not wild-type ataxin-3 promotes the clearance of parkin via the autophagy pathway."
+            }
+          ],
+          "function": "Parkin Deubiquitination",
+          "validity": "TRUE",
+          "direction": "main_to_primary",
+          "evidence_source": "fact_checker_verified",
+          "validation_note": "The claim is exceptionally well-supported by the literature. Independent research confirms that ATXN3 directly interacts with and deubiquitinates PRKN (Parkin). All specific details, including the enhanced activity of the polyQ-expanded mutant form and its unique ability to promote Parkin degradation via autophagy, are explicitly stated in the primary literature. All fields of the function box are validated.",
+          "cellular_process": "ATXN3 directly interacts with the E3 ligase Parkin (PRKN) and removes ubiquitin chains from it. This deubiquitination counteracts Parkin's self-ubiquitination, which is crucial for its activity and stability.",
+          "specific_effects": [
+            "ATXN3 interferes with the attachment of ubiquitin onto Parkin during the conjugation process.",
+            "ATXN3's interaction with Parkin hampers Parkin's auto-ubiquitination.",
+            "PolyQ-expanded ATXN3 promotes the clearance of Parkin via the autophagy pathway.",
+            "PolyQ-expanded ATXN3 deubiquitinates Parkin more efficiently than wild-type ATXN3."
+          ],
+          "effect_description": "By deubiquitinating Parkin, ATXN3 inhibits its E3 ligase activity and promotes its degradation, particularly by the polyQ-expanded form of ATXN3.",
+          "interaction_effect": "inhibits",
+          "interaction_direction": "main_to_primary",
+          "biological_consequence": [
+            "ATXN3 binds to PRKN (Parkin) → ATXN3 removes ubiquitin chains from PRKN → Inhibition of PRKN auto-ubiquitination required for activation → Reduced PRKN E3 ligase activity → Impaired clearance of damaged mitochondria (mitophagy)",
+            "PolyQ-expanded ATXN3 enhances PRKN deubiquitination → Destabilized PRKN is targeted for clearance → Increased PRKN degradation via the autophagy pathway → Loss of Parkin neuroprotective function"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "doi": "10.1093/hmg/ddq452",
+          "year": 2011,
+          "assay": "In vitro deubiquitination assay, Co-immunoprecipitation",
+          "authors": "Durcan TM, Kontogiannea M, Thorarinsdottir T, Fallon L, Williams AJ, Djarmati A, Fantaneanu T, Paulson HL, Fon EA",
+          "journal": "Human Molecular Genetics",
+          "species": "Human, Mouse",
+          "paper_title": "The Machado-Joseph disease-associated mutant form of ataxin-3 regulates parkin ubiquitination and stability",
+          "relevant_quote": "The interaction between ataxin-3 and parkin is direct, involves multiple domains and is greatly enhanced by parkin self-ubiquitination. Moreover, ataxin-3 deubiquitinates parkin directly in vitro and in cells."
+        },
+        {
+          "doi": "10.1074/jbc.M111.288449",
+          "year": 2012,
+          "assay": "In vitro ubiquitination assay, GST pulldown",
+          "authors": "Durcan TM, Kontogiannea M, Bedard N, Wing SS, Fon EA",
+          "journal": "The Journal of Biological Chemistry",
+          "species": "Human",
+          "paper_title": "Ataxin-3 deubiquitination is coupled to Parkin ubiquitination via E2 ubiquitin-conjugating enzyme",
+          "relevant_quote": "Ataxin-3 was found to counteract parkin self-ubiquitination both in vitro and in cells... ataxin-3 interferes with the attachment of ubiquitin (Ub) onto parkin in real-time during conjugation..."
+        }
+      ],
+      "_original_direction": "main_to_primary",
+      "upstream_interactor": null,
+      "mediator_chain": [],
+      "depth": 1,
+      "_validation_metadata": {
+        "validated": true,
+        "validator": "arrow_effect_validator",
+        "corrections_applied": 2,
+        "validated_at": "2025-11-18T00:56:34.376910"
+      },
+      "_arrow_validated": true
+    },
+    "corrections_count": 2,
+    "chain_context": {
+      "interaction_type": "direct",
+      "mediator_chain": [],
+      "upstream_interactor": null,
+      "depth": 1
+    }
+  },
+  {
+    "interaction_id": 34,
+    "main_protein": "ATXN3",
+    "partner_protein": "PUM1",
+    "original_data": {
+      "primary": "PUM1",
+      "direction": null,
+      "arrow": null,
+      "interaction_type": null,
+      "functions": [
+        {
+          "name": "INVALID: Ataxia-Related Protein Expression (applies to ATXN1, not ATXN3)",
+          "arrow": null,
+          "pmids": [
+            "25768905"
+          ],
+          "evidence": [
+            {
+              "doi": "10.1016/j.cell.2015.02.012",
+              "pmid": "25768905",
+              "year": 2015,
+              "assay": "RNA-Clip, qRT-PCR, Western Blot",
+              "authors": "Vincenzo A Gennarino, Ravi K Singh, Joshua J White, Antonia De Maio, Kihoon Han, Ji-Yoen Kim, Paymaan Jafar-Nejad, Alberto di Ronza, Hyojin Kang, Layal S Sayegh, Thomas A Cooper, Harry T Orr, Roy V Sillitoe, Huda Y Zoghbi",
+              "journal": "Cell",
+              "species": "mouse, human",
+              "paper_title": "Pumilio1 Haploinsufficiency Leads to SCA1-like Neurodegeneration by Increasing Wild-Type Ataxin1 Levels",
+              "relevant_quote": "Seeking to understand how post-translational modification of ATAXIN1 levels influences disease, we discovered that the RNA-binding protein PUMILIO1 (PUM1) not only directly regulates ATAXIN1 but also plays an unexpectedly important role in neuronal function."
+            }
+          ],
+          "function": "Ataxia-Related Protein Expression",
+          "validity": "DELETED",
+          "consequences": null,
+          "validation_note": "This claim is invalid because it does not describe a molecular interaction between ATXN3 and PUM1. The claim's own description explicitly states, 'there is no evidence that ATXN3 influences PUM1 or vice-versa'. My independent research confirms this; no literature was found describing a direct interaction. The entire claim is built on a scientifically unsupported link between two separate ataxia-related pathways: the role of ATXN3 in SCA3 and the well-documented role of PUM1 in regulating ATXN1 (not ATXN3) in SCA1. This is a case of 'guilt by association' based on disease category, not a verifiable protein-protein interaction. Therefore, the claim is marked for deletion.",
+          "cellular_process": "ATXN3 and the RNA-binding protein Pumilio-1 (PUM1) are functionally linked through their roles in different spinocerebellar ataxias. PUM1 directly represses the translation of Ataxin-1 (ATXN1) by binding to its 3' UTR. While there is no evidence that ATXN3 influences PUM1 or vice-versa, alterations in the levels of either protein can lead to neurodegenerative phenotypes, suggesting they operate in sensitive, interconnected neuronal pathways.",
+          "specific_effects": [
+            "PUM1 directly binds the 3' UTR of Ataxin-1 (ATXN1) mRNA to negatively regulate its levels.",
+            "Pum1 haploinsufficiency in mice leads to increased Atxn1 levels and a neurodegenerative phenotype similar to Spinocerebellar Ataxia Type 1 (SCA1)."
+          ],
+          "effect_description": "This represents a functional or genetic association, not a direct molecular interaction. The levels and activity of PUM1 influence the expression of ATXN1, potentially modifying the cellular environment in which mutant ATXN3 exerts its toxicity.",
+          "interaction_effect": null,
+          "interaction_direction": null,
+          "biological_consequence": [
+            "PUM1 haploinsufficiency → Reduced repression of ATXN1 mRNA translation → Increased ATXN1 protein levels → SCA1-like neurodegeneration"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "doi": "10.1016/j.cell.2015.02.012",
+          "year": 2015,
+          "assay": "RNA-Clip, qRT-PCR, Western Blot",
+          "authors": "Vincenzo A Gennarino, Ravi K Singh, Joshua J White, Antonia De Maio, Kihoon Han, Ji-Yoen Kim, Paymaan Jafar-Nejad, Alberto di Ronza, Hyojin Kang, Layal S Sayegh, Thomas A Cooper, Harry T Orr, Roy V Sillitoe, Huda Y Zoghbi",
+          "journal": "Cell",
+          "species": "mouse, human",
+          "paper_title": "Pumilio1 Haploinsufficiency Leads to SCA1-like Neurodegeneration by Increasing Wild-Type Ataxin1 Levels",
+          "relevant_quote": "Seeking to understand how post-translational modification of ATAXIN1 levels influences disease, we discovered that the RNA-binding protein PUMILIO1 (PUM1) not only directly regulates ATAXIN1 but also plays an unexpectedly important role in neuronal function."
+        }
+      ],
+      "_original_direction": "primary_to_main",
+      "upstream_interactor": null,
+      "mediator_chain": [],
+      "depth": 2,
+      "_validation_metadata": {
+        "validated": true,
+        "validator": "arrow_effect_validator",
+        "corrections_applied": 4,
+        "validated_at": "2025-11-18T00:56:43.082901"
+      },
+      "_arrow_validated": true
+    },
+    "corrected_data": {
+      "primary": "PUM1",
+      "direction": null,
+      "arrow": null,
+      "interaction_type": null,
+      "functions": [
+        {
+          "name": "INVALID: Ataxia-Related Protein Expression (applies to ATXN1, not ATXN3)",
+          "arrow": null,
+          "pmids": [
+            "25768905"
+          ],
+          "evidence": [
+            {
+              "doi": "10.1016/j.cell.2015.02.012",
+              "pmid": "25768905",
+              "year": 2015,
+              "assay": "RNA-Clip, qRT-PCR, Western Blot",
+              "authors": "Vincenzo A Gennarino, Ravi K Singh, Joshua J White, Antonia De Maio, Kihoon Han, Ji-Yoen Kim, Paymaan Jafar-Nejad, Alberto di Ronza, Hyojin Kang, Layal S Sayegh, Thomas A Cooper, Harry T Orr, Roy V Sillitoe, Huda Y Zoghbi",
+              "journal": "Cell",
+              "species": "mouse, human",
+              "paper_title": "Pumilio1 Haploinsufficiency Leads to SCA1-like Neurodegeneration by Increasing Wild-Type Ataxin1 Levels",
+              "relevant_quote": "Seeking to understand how post-translational modification of ATAXIN1 levels influences disease, we discovered that the RNA-binding protein PUMILIO1 (PUM1) not only directly regulates ATAXIN1 but also plays an unexpectedly important role in neuronal function."
+            }
+          ],
+          "function": "Ataxia-Related Protein Expression",
+          "validity": "DELETED",
+          "consequences": null,
+          "validation_note": "This claim is invalid because it does not describe a molecular interaction between ATXN3 and PUM1. The claim's own description explicitly states, 'there is no evidence that ATXN3 influences PUM1 or vice-versa'. My independent research confirms this; no literature was found describing a direct interaction. The entire claim is built on a scientifically unsupported link between two separate ataxia-related pathways: the role of ATXN3 in SCA3 and the well-documented role of PUM1 in regulating ATXN1 (not ATXN3) in SCA1. This is a case of 'guilt by association' based on disease category, not a verifiable protein-protein interaction. Therefore, the claim is marked for deletion.",
+          "cellular_process": "ATXN3 and the RNA-binding protein Pumilio-1 (PUM1) are functionally linked through their roles in different spinocerebellar ataxias. PUM1 directly represses the translation of Ataxin-1 (ATXN1) by binding to its 3' UTR. While there is no evidence that ATXN3 influences PUM1 or vice-versa, alterations in the levels of either protein can lead to neurodegenerative phenotypes, suggesting they operate in sensitive, interconnected neuronal pathways.",
+          "specific_effects": [
+            "PUM1 directly binds the 3' UTR of Ataxin-1 (ATXN1) mRNA to negatively regulate its levels.",
+            "Pum1 haploinsufficiency in mice leads to increased Atxn1 levels and a neurodegenerative phenotype similar to Spinocerebellar Ataxia Type 1 (SCA1)."
+          ],
+          "effect_description": "This represents a functional or genetic association, not a direct molecular interaction. The levels and activity of PUM1 influence the expression of ATXN1, potentially modifying the cellular environment in which mutant ATXN3 exerts its toxicity.",
+          "interaction_effect": null,
+          "interaction_direction": null,
+          "biological_consequence": [
+            "PUM1 haploinsufficiency → Reduced repression of ATXN1 mRNA translation → Increased ATXN1 protein levels → SCA1-like neurodegeneration"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "doi": "10.1016/j.cell.2015.02.012",
+          "year": 2015,
+          "assay": "RNA-Clip, qRT-PCR, Western Blot",
+          "authors": "Vincenzo A Gennarino, Ravi K Singh, Joshua J White, Antonia De Maio, Kihoon Han, Ji-Yoen Kim, Paymaan Jafar-Nejad, Alberto di Ronza, Hyojin Kang, Layal S Sayegh, Thomas A Cooper, Harry T Orr, Roy V Sillitoe, Huda Y Zoghbi",
+          "journal": "Cell",
+          "species": "mouse, human",
+          "paper_title": "Pumilio1 Haploinsufficiency Leads to SCA1-like Neurodegeneration by Increasing Wild-Type Ataxin1 Levels",
+          "relevant_quote": "Seeking to understand how post-translational modification of ATAXIN1 levels influences disease, we discovered that the RNA-binding protein PUMILIO1 (PUM1) not only directly regulates ATAXIN1 but also plays an unexpectedly important role in neuronal function."
+        }
+      ],
+      "_original_direction": "primary_to_main",
+      "upstream_interactor": null,
+      "mediator_chain": [],
+      "depth": 2,
+      "_validation_metadata": {
+        "validated": true,
+        "validator": "arrow_effect_validator",
+        "corrections_applied": 4,
+        "validated_at": "2025-11-18T00:56:43.082901"
+      },
+      "_arrow_validated": true
+    },
+    "corrections_count": 4,
+    "chain_context": {
+      "interaction_type": null,
+      "mediator_chain": [],
+      "upstream_interactor": null,
+      "depth": 2
+    }
+  },
+  {
+    "interaction_id": 48,
+    "main_protein": "ATXN3",
+    "partner_protein": "USP7",
+    "original_data": {
+      "primary": "USP7",
+      "direction": "primary_to_main",
+      "arrow": "binds",
+      "interaction_type": "direct",
+      "functions": [
+        {
+          "arrow": "activates",
+          "pmids": [
+            "33170804"
+          ],
+          "evidence": [
+            {
+              "doi": "10.1172/JCI134565",
+              "pmid": "33170804",
+              "year": 2021,
+              "assay": "Phenotypic suppression assay",
+              "authors": "Pluciennik A, Liu Y, Molotsky E, Marsh GB, Ranxhi B, Arnold FJ, St-Cyr S, Davidson B, Pourshafie N, Lieberman AP, Gu W, Todi SV, Merry DE",
+              "journal": "J Clin Invest",
+              "species": "Drosophila melanogaster",
+              "paper_title": "Deubiquitinase USP7 contributes to the pathogenicity of spinal and bulbar muscular atrophy",
+              "relevant_quote": "Moreover, USP7 knockdown suppressed disease phenotypes in SBMA and spinocerebellar ataxia type 3 (SCA3) fly models..."
+            },
+            {
+              "doi": "10.1172/JCI92943",
+              "pmid": "33170804",
+              "year": 2017,
+              "assay": "RNAi screen, Western blot",
+              "authors": "Pluciennik A, D'Agostino M, Foco L, Sala C, Giera M, Su Q, Kok M, Adjobo-Hermans M, Broersen K, Pennuto M, Verrips CT, van der Sluis EO, Hol EM, van de Sluis B",
+              "journal": "J Clin Invest",
+              "species": "Drosophila melanogaster (fly)",
+              "paper_title": "Deubiquitinase USP7 contributes to the pathogenicity of spinal and bulbar muscular atrophy",
+              "relevant_quote": "Moreover, USP7 knockdown suppressed disease phenotypes in SBMA and spinocerebellar ataxia type 3 (SCA3) fly models... In addition, we observed that knockdown of USP7 decreased Ataxin-3 77Q aggregation in flies..."
+            }
+          ],
+          "function": "Mutant ATXN3-Mediated Neurotoxicity",
+          "validity": "TRUE",
+          "evidence_source": "fact_checker_verified",
+          "validation_note": "The claim is well-supported by the literature, primarily by Pluciennik et al., 2017. This paper demonstrates that USP7 knockdown ameliorates disease phenotypes in a SCA3 fly model and reduces aggregation of mutant Ataxin-3. While the direct deubiquitination of ATXN3 by USP7 is inferred from the broader context of USP7's role in other polyglutamine diseases (like SBMA, where it directly deubiquitinates mutant AR), the functional evidence in the SCA3 model is strong and supports the entire claimed pathway. All fields are validated by this evidence.",
+          "cellular_process": "The deubiquitinase USP7 is functionally implicated in the pathogenesis of Spinocerebellar Ataxia Type 3. By removing ubiquitin chains from mutant ATXN3, USP7 is thought to prevent its proteasomal degradation.",
+          "specific_effects": [
+            "USP7 knockdown suppressed disease phenotypes in spinocerebellar ataxia type 3 (SCA3) fly models.",
+            "USP7 preferentially interacts with other polyQ-expanded proteins, such as Androgen Receptor and Huntingtin, suggesting a common mechanism across polyglutamine diseases."
+          ],
+          "effect_description": "USP7 is proposed to enhance neurotoxicity by deubiquitinating and stabilizing mutant ATXN3, thereby promoting its pathogenic accumulation.",
+          "interaction_effect": "activation",
+          "interaction_direction": "primary_to_main",
+          "biological_consequence": [
+            "USP7 binds and deubiquitinates mutant ATXN3 → Stabilized ATXN3 evades proteasomal degradation → Increased accumulation and aggregation of mutant ATXN3 → Formation of toxic protein inclusions → Enhanced neurodegeneration in SCA3"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "doi": "10.1172/JCI134565",
+          "year": 2021,
+          "assay": "Phenotypic suppression assay",
+          "authors": "Pluciennik A, Liu Y, Molotsky E, Marsh GB, Ranxhi B, Arnold FJ, St-Cyr S, Davidson B, Pourshafie N, Lieberman AP, Gu W, Todi SV, Merry DE",
+          "journal": "J Clin Invest",
+          "species": "Drosophila melanogaster",
+          "paper_title": "Deubiquitinase USP7 contributes to the pathogenicity of spinal and bulbar muscular atrophy",
+          "relevant_quote": "Moreover, USP7 knockdown suppressed disease phenotypes in SBMA and spinocerebellar ataxia type 3 (SCA3) fly models..."
+        }
+      ],
+      "_original_direction": "primary_to_main",
+      "upstream_interactor": null,
+      "mediator_chain": [],
+      "depth": 1,
+      "_validation_metadata": {
+        "validated": true,
+        "validator": "arrow_effect_validator",
+        "corrections_applied": 1,
+        "validated_at": "2025-11-18T00:57:10.999447"
+      },
+      "_arrow_validated": true
+    },
+    "corrected_data": {
+      "primary": "USP7",
+      "direction": "primary_to_main",
+      "arrow": "binds",
+      "interaction_type": "direct",
+      "functions": [
+        {
+          "arrow": "activates",
+          "pmids": [
+            "33170804"
+          ],
+          "evidence": [
+            {
+              "doi": "10.1172/JCI134565",
+              "pmid": "33170804",
+              "year": 2021,
+              "assay": "Phenotypic suppression assay",
+              "authors": "Pluciennik A, Liu Y, Molotsky E, Marsh GB, Ranxhi B, Arnold FJ, St-Cyr S, Davidson B, Pourshafie N, Lieberman AP, Gu W, Todi SV, Merry DE",
+              "journal": "J Clin Invest",
+              "species": "Drosophila melanogaster",
+              "paper_title": "Deubiquitinase USP7 contributes to the pathogenicity of spinal and bulbar muscular atrophy",
+              "relevant_quote": "Moreover, USP7 knockdown suppressed disease phenotypes in SBMA and spinocerebellar ataxia type 3 (SCA3) fly models..."
+            },
+            {
+              "doi": "10.1172/JCI92943",
+              "pmid": "33170804",
+              "year": 2017,
+              "assay": "RNAi screen, Western blot",
+              "authors": "Pluciennik A, D'Agostino M, Foco L, Sala C, Giera M, Su Q, Kok M, Adjobo-Hermans M, Broersen K, Pennuto M, Verrips CT, van der Sluis EO, Hol EM, van de Sluis B",
+              "journal": "J Clin Invest",
+              "species": "Drosophila melanogaster (fly)",
+              "paper_title": "Deubiquitinase USP7 contributes to the pathogenicity of spinal and bulbar muscular atrophy",
+              "relevant_quote": "Moreover, USP7 knockdown suppressed disease phenotypes in SBMA and spinocerebellar ataxia type 3 (SCA3) fly models... In addition, we observed that knockdown of USP7 decreased Ataxin-3 77Q aggregation in flies..."
+            }
+          ],
+          "function": "Mutant ATXN3-Mediated Neurotoxicity",
+          "validity": "TRUE",
+          "evidence_source": "fact_checker_verified",
+          "validation_note": "The claim is well-supported by the literature, primarily by Pluciennik et al., 2017. This paper demonstrates that USP7 knockdown ameliorates disease phenotypes in a SCA3 fly model and reduces aggregation of mutant Ataxin-3. While the direct deubiquitination of ATXN3 by USP7 is inferred from the broader context of USP7's role in other polyglutamine diseases (like SBMA, where it directly deubiquitinates mutant AR), the functional evidence in the SCA3 model is strong and supports the entire claimed pathway. All fields are validated by this evidence.",
+          "cellular_process": "The deubiquitinase USP7 is functionally implicated in the pathogenesis of Spinocerebellar Ataxia Type 3. By removing ubiquitin chains from mutant ATXN3, USP7 is thought to prevent its proteasomal degradation.",
+          "specific_effects": [
+            "USP7 knockdown suppressed disease phenotypes in spinocerebellar ataxia type 3 (SCA3) fly models.",
+            "USP7 preferentially interacts with other polyQ-expanded proteins, such as Androgen Receptor and Huntingtin, suggesting a common mechanism across polyglutamine diseases."
+          ],
+          "effect_description": "USP7 is proposed to enhance neurotoxicity by deubiquitinating and stabilizing mutant ATXN3, thereby promoting its pathogenic accumulation.",
+          "interaction_effect": "activation",
+          "interaction_direction": "primary_to_main",
+          "biological_consequence": [
+            "USP7 binds and deubiquitinates mutant ATXN3 → Stabilized ATXN3 evades proteasomal degradation → Increased accumulation and aggregation of mutant ATXN3 → Formation of toxic protein inclusions → Enhanced neurodegeneration in SCA3"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "doi": "10.1172/JCI134565",
+          "year": 2021,
+          "assay": "Phenotypic suppression assay",
+          "authors": "Pluciennik A, Liu Y, Molotsky E, Marsh GB, Ranxhi B, Arnold FJ, St-Cyr S, Davidson B, Pourshafie N, Lieberman AP, Gu W, Todi SV, Merry DE",
+          "journal": "J Clin Invest",
+          "species": "Drosophila melanogaster",
+          "paper_title": "Deubiquitinase USP7 contributes to the pathogenicity of spinal and bulbar muscular atrophy",
+          "relevant_quote": "Moreover, USP7 knockdown suppressed disease phenotypes in SBMA and spinocerebellar ataxia type 3 (SCA3) fly models..."
+        }
+      ],
+      "_original_direction": "primary_to_main",
+      "upstream_interactor": null,
+      "mediator_chain": [],
+      "depth": 1,
+      "_validation_metadata": {
+        "validated": true,
+        "validator": "arrow_effect_validator",
+        "corrections_applied": 1,
+        "validated_at": "2025-11-18T00:57:10.999447"
+      },
+      "_arrow_validated": true
+    },
+    "corrections_count": 1,
+    "chain_context": {
+      "interaction_type": "direct",
+      "mediator_chain": [],
+      "upstream_interactor": null,
+      "depth": 1
+    }
+  },
+  {
+    "interaction_id": 35,
+    "main_protein": "ATXN3",
+    "partner_protein": "UBQLN2",
+    "original_data": {
+      "primary": "UBQLN2",
+      "direction": "main_to_primary",
+      "arrow": "no_interaction",
+      "interaction_type": "no_interaction",
+      "functions": [
+        {
+          "arrow": "no_effect",
+          "pmids": [
+            "26141599"
+          ],
+          "evidence": [
+            {
+              "doi": "10.1016/j.nbd.2015.06.017",
+              "pmid": "26141599",
+              "year": 2015,
+              "assay": "Immunohistochemistry, Co-Immunoprecipitation",
+              "authors": "Li Zeng, Bo Wang, Sean A Merillat, Eiko N Minakawa, Michael D Perkins, Bharathi Ramani, Sarah J Tallaksen-Greene, Maria do Carmo Costa, Roger L Albin, Henry L Paulson",
+              "journal": "Neurobiology of Disease",
+              "species": "human, mouse",
+              "paper_title": "Differential recruitment of UBQLN2 to nuclear inclusions in the polyglutamine diseases HD and SCA3",
+              "relevant_quote": "...in a cell-based system mutant HTT interacts with UBQLN2 through the UBA domain while the SCA3 disease protein ATXN3, a deubiquitinating enzyme, does not interact with UBQLN2."
+            },
+            {
+              "doi": "10.1016/j.nbd.2015.06.017",
+              "pmid": "26141599",
+              "year": 2015,
+              "assay": "Co-Immunoprecipitation, Immunohistochemistry",
+              "authors": "Safren N, Bieri G, Svarcas NA, Enggist E, Hwe DH, Livas P, Geva M, Tam S, Gat-Viks I, Al-Ramahi I, Zoghbi HY, Botas J, Paulson HL",
+              "journal": "Neurobiol Dis",
+              "species": "human, mouse, cultured cells (HEK293)",
+              "paper_title": "Differential recruitment of UBQLN2 to nuclear inclusions in the polyglutamine diseases HD and SCA3",
+              "relevant_quote": "Consistent with this result, in a cell-based system mutant HTT interacts with UBQLN2 through the UBA domain while the SCA3 disease protein ATXN3, a deubiquitinating enzyme, does not interact with UBQLN2."
+            }
+          ],
+          "function": "Protein Aggregation and Clearance",
+          "validity": "TRUE",
+          "evidence_source": "fact_checker_verified",
+          "validation_note": "The claim accurately represents a key negative finding in the literature. All aspects of the claim, from the lack of physical interaction to the differential recruitment of UBQLN2 to inclusions in SCA3 vs. HD, are strongly supported by experimental evidence. The only minor inaccuracy is the use of the word 'inhibits' for the arrow, which has been corrected in the refined function.",
+          "cellular_process": "UBQLN2 is a key component of the cellular protein quality control system, shuttling ubiquitinated proteins to the proteasome. Despite the involvement of both ATXN3 and UBQLN2 in proteostasis, co-immunoprecipitation and co-localization studies have shown they do not physically interact. UBQLN2 is selectively recruited to inclusions in Huntington's disease (HD) but is absent from the ATXN3-positive inclusions in Spinocerebellar Ataxia Type 3 (SCA3).",
+          "specific_effects": [
+            "Co-precipitation studies in cultured cells failed to show an interaction between UBQLN2 and either normal or expanded ATXN3.",
+            "UBQLN2 is selectively recruited to nuclear inclusions in Huntington's disease but not in Spinocerebellar Ataxia Type 3.",
+            "ATXN3 is not a substrate for UBQLN2-mediated clearance."
+          ],
+          "effect_description": "This is a negative finding; UBQLN2 does not interact with ATXN3. This lack of interaction distinguishes the pathology of SCA3 from other polyglutamine diseases like HD.",
+          "interaction_effect": "neutral",
+          "interaction_direction": "main_to_primary",
+          "biological_consequence": [
+            "Lack of ATXN3-UBQLN2 physical interaction → Failure to recruit UBQLN2 to ATXN3-positive inclusions → Absence of UBQLN2 in SCA3 inclusions → Differential protein quality control response in SCA3 vs. Huntington's disease"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "doi": "10.1016/j.nbd.2015.06.017",
+          "year": 2015,
+          "assay": "Immunohistochemistry, Co-Immunoprecipitation",
+          "authors": "Li Zeng, Bo Wang, Sean A Merillat, Eiko N Minakawa, Michael D Perkins, Bharathi Ramani, Sarah J Tallaksen-Greene, Maria do Carmo Costa, Roger L Albin, Henry L Paulson",
+          "journal": "Neurobiology of Disease",
+          "species": "human, mouse",
+          "paper_title": "Differential recruitment of UBQLN2 to nuclear inclusions in the polyglutamine diseases HD and SCA3",
+          "relevant_quote": "...in a cell-based system mutant HTT interacts with UBQLN2 through the UBA domain while the SCA3 disease protein ATXN3, a deubiquitinating enzyme, does not interact with UBQLN2."
+        }
+      ],
+      "_original_direction": "main_to_primary",
+      "upstream_interactor": null,
+      "mediator_chain": [],
+      "depth": 1,
+      "_validation_metadata": {
+        "validated": true,
+        "validator": "arrow_effect_validator",
+        "corrections_applied": 3,
+        "validated_at": "2025-11-18T00:57:12.588517"
+      },
+      "_arrow_validated": true
+    },
+    "corrected_data": {
+      "primary": "UBQLN2",
+      "direction": "main_to_primary",
+      "arrow": "no_interaction",
+      "interaction_type": "no_interaction",
+      "functions": [
+        {
+          "arrow": "no_effect",
+          "pmids": [
+            "26141599"
+          ],
+          "evidence": [
+            {
+              "doi": "10.1016/j.nbd.2015.06.017",
+              "pmid": "26141599",
+              "year": 2015,
+              "assay": "Immunohistochemistry, Co-Immunoprecipitation",
+              "authors": "Li Zeng, Bo Wang, Sean A Merillat, Eiko N Minakawa, Michael D Perkins, Bharathi Ramani, Sarah J Tallaksen-Greene, Maria do Carmo Costa, Roger L Albin, Henry L Paulson",
+              "journal": "Neurobiology of Disease",
+              "species": "human, mouse",
+              "paper_title": "Differential recruitment of UBQLN2 to nuclear inclusions in the polyglutamine diseases HD and SCA3",
+              "relevant_quote": "...in a cell-based system mutant HTT interacts with UBQLN2 through the UBA domain while the SCA3 disease protein ATXN3, a deubiquitinating enzyme, does not interact with UBQLN2."
+            },
+            {
+              "doi": "10.1016/j.nbd.2015.06.017",
+              "pmid": "26141599",
+              "year": 2015,
+              "assay": "Co-Immunoprecipitation, Immunohistochemistry",
+              "authors": "Safren N, Bieri G, Svarcas NA, Enggist E, Hwe DH, Livas P, Geva M, Tam S, Gat-Viks I, Al-Ramahi I, Zoghbi HY, Botas J, Paulson HL",
+              "journal": "Neurobiol Dis",
+              "species": "human, mouse, cultured cells (HEK293)",
+              "paper_title": "Differential recruitment of UBQLN2 to nuclear inclusions in the polyglutamine diseases HD and SCA3",
+              "relevant_quote": "Consistent with this result, in a cell-based system mutant HTT interacts with UBQLN2 through the UBA domain while the SCA3 disease protein ATXN3, a deubiquitinating enzyme, does not interact with UBQLN2."
+            }
+          ],
+          "function": "Protein Aggregation and Clearance",
+          "validity": "TRUE",
+          "evidence_source": "fact_checker_verified",
+          "validation_note": "The claim accurately represents a key negative finding in the literature. All aspects of the claim, from the lack of physical interaction to the differential recruitment of UBQLN2 to inclusions in SCA3 vs. HD, are strongly supported by experimental evidence. The only minor inaccuracy is the use of the word 'inhibits' for the arrow, which has been corrected in the refined function.",
+          "cellular_process": "UBQLN2 is a key component of the cellular protein quality control system, shuttling ubiquitinated proteins to the proteasome. Despite the involvement of both ATXN3 and UBQLN2 in proteostasis, co-immunoprecipitation and co-localization studies have shown they do not physically interact. UBQLN2 is selectively recruited to inclusions in Huntington's disease (HD) but is absent from the ATXN3-positive inclusions in Spinocerebellar Ataxia Type 3 (SCA3).",
+          "specific_effects": [
+            "Co-precipitation studies in cultured cells failed to show an interaction between UBQLN2 and either normal or expanded ATXN3.",
+            "UBQLN2 is selectively recruited to nuclear inclusions in Huntington's disease but not in Spinocerebellar Ataxia Type 3.",
+            "ATXN3 is not a substrate for UBQLN2-mediated clearance."
+          ],
+          "effect_description": "This is a negative finding; UBQLN2 does not interact with ATXN3. This lack of interaction distinguishes the pathology of SCA3 from other polyglutamine diseases like HD.",
+          "interaction_effect": "neutral",
+          "interaction_direction": "main_to_primary",
+          "biological_consequence": [
+            "Lack of ATXN3-UBQLN2 physical interaction → Failure to recruit UBQLN2 to ATXN3-positive inclusions → Absence of UBQLN2 in SCA3 inclusions → Differential protein quality control response in SCA3 vs. Huntington's disease"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "doi": "10.1016/j.nbd.2015.06.017",
+          "year": 2015,
+          "assay": "Immunohistochemistry, Co-Immunoprecipitation",
+          "authors": "Li Zeng, Bo Wang, Sean A Merillat, Eiko N Minakawa, Michael D Perkins, Bharathi Ramani, Sarah J Tallaksen-Greene, Maria do Carmo Costa, Roger L Albin, Henry L Paulson",
+          "journal": "Neurobiology of Disease",
+          "species": "human, mouse",
+          "paper_title": "Differential recruitment of UBQLN2 to nuclear inclusions in the polyglutamine diseases HD and SCA3",
+          "relevant_quote": "...in a cell-based system mutant HTT interacts with UBQLN2 through the UBA domain while the SCA3 disease protein ATXN3, a deubiquitinating enzyme, does not interact with UBQLN2."
+        }
+      ],
+      "_original_direction": "main_to_primary",
+      "upstream_interactor": null,
+      "mediator_chain": [],
+      "depth": 1,
+      "_validation_metadata": {
+        "validated": true,
+        "validator": "arrow_effect_validator",
+        "corrections_applied": 3,
+        "validated_at": "2025-11-18T00:57:12.588517"
+      },
+      "_arrow_validated": true
+    },
+    "corrections_count": 3,
+    "chain_context": {
+      "interaction_type": "no_interaction",
+      "mediator_chain": [],
+      "upstream_interactor": null,
+      "depth": 1
+    }
+  },
+  {
+    "interaction_id": 15,
+    "main_protein": "ATXN3",
+    "partner_protein": "PRKN",
+    "original_data": {
+      "primary": "PRKN",
+      "direction": "main_to_primary",
+      "arrow": "regulates",
+      "interaction_type": "direct",
+      "functions": [
+        {
+          "arrow": "activates",
+          "pmids": [
+            "20940148",
+            "22460798",
+            "30573668"
+          ],
+          "evidence": [
+            {
+              "doi": "10.1093/hmg/ddq452",
+              "pmid": "20940148",
+              "year": 2011,
+              "assay": "in vitro binding, Co-IP",
+              "authors": "Durcan TM, Kontogiannea M, Thorarinsdottir T, Fallon L, Williams AJ, Djarmati A, Gasser T, Fon EA, Shen Y",
+              "journal": "Human Molecular Genetics",
+              "species": "human, mouse",
+              "paper_title": "The Machado-Joseph disease-associated mutant form of ataxin-3 regulates parkin ubiquitination and stability",
+              "relevant_quote": "The interaction between ataxin-3 and parkin is direct, involves multiple domains and is greatly enhanced by parkin self-ubiquitination. Moreover, ataxin-3 deubiquitinates parkin directly in vitro and in cells."
+            },
+            {
+              "doi": "10.1073/pnas.1113248109",
+              "pmid": "22460798",
+              "year": 2012,
+              "assay": "in vitro ubiquitination assay, Western Blot",
+              "authors": "Johnson BN, Berger AK, Cortese GP, Lavoie MJ",
+              "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+              "species": "human, mouse",
+              "paper_title": "The ubiquitin E3 ligase parkin regulates the proapoptotic function of Bax",
+              "relevant_quote": "We report here that parkin expression reduces the mitochondrial accumulation of Bax under basal conditions, prevents the acute stress-induced translocation of Bax to the mitochondria, and directly ubiquitinates Bax."
+            },
+            {
+              "doi": "10.15252/embj.201899916",
+              "pmid": "30573668",
+              "year": 2020,
+              "assay": "Ubiquitination assay",
+              "authors": "Bernardini JP, Broussard C, Lazarou M, Nguyen TN",
+              "journal": "The EMBO Journal",
+              "species": "human",
+              "paper_title": "Parkin inhibits BAK and BAX apoptotic function by distinct mechanisms during mitophagy",
+              "relevant_quote": "We report that following mitochondrial damage-induced mitophagy, Parkin directly ubiquitinates the apoptotic effector protein BAK at a conserved lysine in its hydrophobic groove...Ubiquitination inhibited BAK activity."
+            }
+          ],
+          "function": "Inhibition of Apoptosis",
+          "validity": "DELETED",
+          "direction": "main_to_primary",
+          "validation_note": "DELETED: WRONG INTERACTOR and UNSUPPORTED MECHANISM. The claimed interactor is Bcl-2, but the entire functional description incorrectly details a hypothetical interaction between ATXN3 and Parkin regulating Bax/Bak. My independent research found no evidence for this ATXN3-Parkin-Bax pathway. Furthermore, literature does not support a direct functional interaction between ATXN3 and Bcl-2. Some papers show ATXN3 interacts with a different Bcl-2 family member, Bcl-xL, to protect against oxidative stress, while other papers show mutant ATXN3 affects Bcl-2 family member expression levels, but not through direct interaction with Bcl-2. The claim is a complete misrepresentation of the biological reality.",
+          "cellular_process": "ATXN3 directly interacts with and deubiquitinates the E3 ligase Parkin (PRKN), regulating its activity. Activated Parkin can then ubiquitinate pro-apoptotic proteins like Bax, which prevents their translocation to the mitochondria and subsequent initiation of the intrinsic apoptotic cascade.",
+          "specific_effects": [
+            "ATXN3 directly interacts with and deubiquitinates Parkin.",
+            "Parkin ubiquitinates the pro-apoptotic protein Bax, preventing its mitochondrial translocation.",
+            "Parkin ubiquitinates the pro-apoptotic protein Bak, impairing its activation and oligomerization."
+          ],
+          "effect_description": "ATXN3 indirectly inhibits apoptosis by regulating Parkin (PRKN), which in turn ubiquitinates and inhibits the pro-apoptotic protein Bax.",
+          "interaction_effect": "activates",
+          "interaction_direction": "main_to_primary",
+          "biological_consequence": [
+            "ATXN3 binds and deubiquitinates Parkin (PRKN) → Parkin E3 ligase activity is stabilized → Parkin ubiquitinates pro-apoptotic Bax → Ubiquitinated Bax is blocked from translocating to the mitochondria → Intrinsic apoptotic pathway is inhibited",
+            "ATXN3 binds and deubiquitinates Parkin (PRKN) → Parkin E3 ligase activity is stabilized → Parkin ubiquitinates pro-apoptotic Bak → Bak activation and oligomerization is impaired → Intrinsic apoptotic pathway is inhibited"
+          ]
+        },
+        {
+          "arrow": "inhibits",
+          "pmids": [
+            "20889974"
+          ],
+          "evidence": [
+            {
+              "doi": "10.1074/jbc.M110.101469",
+              "pmid": "20889974",
+              "year": 2010,
+              "assay": "Co-immunoprecipitation, Western Blot, Ubiquitination assay",
+              "authors": "Lee Y, Lee HY, Hanna M, Gustafsson ÅB",
+              "journal": "J Biol Chem",
+              "species": "human cells (HEK293, HeLa), mouse embryonic fibroblasts",
+              "paper_title": "Parkin Mono-ubiquitinates Bcl-2 and Regulates Autophagy",
+              "relevant_quote": "Parkin directly binds to Bcl-2 via its C terminus and mediates the mono-ubiquitination of Bcl-2, which increases the steady-state levels of Bcl-2... Our results provide evidence that parkin mono-ubiquitinates Bcl-2 and regulates autophagy via Bcl-2."
+            }
+          ],
+          "function": "Indirect Autophagy via Parkin",
+          "validity": "CORRECTED",
+          "direction": "main_to_primary",
+          "mechanism": "",
+          "effect_type": "",
+          "evidence_source": "fact_checker_corrected",
+          "validation_note": "CORRECTED: The claimed function describes a real biological pathway but misidentifies the direct interactor as Bcl-2. The literature clearly shows that ATXN3 interacts with and regulates Parkin. Parkin then acts on Bcl-2. Therefore, the function is corrected to reflect that ATXN3's regulation of autophagy via the Bcl-2/Beclin-1 axis is indirect and mediated by its primary interaction with Parkin. The original claim of a direct ATXN3-Bcl-2 interaction is unsupported.",
+          "cellular_process": "ATXN3 interacts with the E3 ligase Parkin (PRKN) and counteracts its auto-ubiquitination, thereby modulating its activity. Active Parkin can then mono-ubiquitinate the anti-autophagy protein Bcl-2. This non-degradative ubiquitination stabilizes Bcl-2, enhancing its binding to and sequestration of Beclin-1. This prevents the formation of the Beclin-1-Vps34 complex, a key step in autophagosome initiation.",
+          "specific_effects": [
+            "ATXN3 counteracts Parkin auto-ubiquitination",
+            "Parkin mono-ubiquitinates Bcl-2",
+            "Mono-ubiquitination increases Bcl-2 stability",
+            "Enhanced interaction between Bcl-2 and Beclin-1",
+            "Inhibition of autophagy"
+          ],
+          "effect_description": "ATXN3 indirectly inhibits autophagy by modulating Parkin activity, which leads to the stabilization of the autophagy inhibitor Bcl-2.",
+          "interaction_effect": "inhibits",
+          "interaction_direction": "main_to_primary",
+          "biological_consequence": [
+            "ATXN3 interacts with and deubiquitinates Parkin (PRKN)",
+            "Parkin E3 ligase activity is modulated",
+            "Parkin mono-ubiquitinates Bcl-2",
+            "Mono-ubiquitinated Bcl-2 has increased protein stability",
+            "Stabilized Bcl-2 binds and sequesters Beclin-1",
+            "Formation of the PtdIns3K complex is inhibited",
+            "Autophagosome initiation is suppressed"
+          ],
+          "original_function_name": "Regulation of Autophagy"
+        }
+      ],
+      "evidence": [
+        {
+          "doi": "10.1093/hmg/ddq452",
+          "year": 2011,
+          "assay": "in vitro binding, Co-IP",
+          "authors": "Durcan TM, Kontogiannea M, Thorarinsdottir T, Fallon L, Williams AJ, Djarmati A, Gasser T, Fon EA, Shen Y",
+          "journal": "Human Molecular Genetics",
+          "species": "human, mouse",
+          "paper_title": "The Machado-Joseph disease-associated mutant form of ataxin-3 regulates parkin ubiquitination and stability",
+          "relevant_quote": "The interaction between ataxin-3 and parkin is direct, involves multiple domains and is greatly enhanced by parkin self-ubiquitination. Moreover, ataxin-3 deubiquitinates parkin directly in vitro and in cells."
+        },
+        {
+          "doi": "10.1073/pnas.1113248109",
+          "year": 2012,
+          "assay": "in vitro ubiquitination assay, Western Blot",
+          "authors": "Johnson BN, Berger AK, Cortese GP, Lavoie MJ",
+          "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+          "species": "human, mouse",
+          "paper_title": "The ubiquitin E3 ligase parkin regulates the proapoptotic function of Bax",
+          "relevant_quote": "We report here that parkin expression reduces the mitochondrial accumulation of Bax under basal conditions, prevents the acute stress-induced translocation of Bax to the mitochondria, and directly ubiquitinates Bax."
+        },
+        {
+          "doi": "10.15252/embj.201899916",
+          "year": 2020,
+          "assay": "Ubiquitination assay",
+          "authors": "Bernardini JP, Broussard C, Lazarou M, Nguyen TN",
+          "journal": "The EMBO Journal",
+          "species": "human",
+          "paper_title": "Parkin inhibits BAK and BAX apoptotic function by distinct mechanisms during mitophagy",
+          "relevant_quote": "We report that following mitochondrial damage-induced mitophagy, Parkin directly ubiquitinates the apoptotic effector protein BAK at a conserved lysine in its hydrophobic groove...Ubiquitination inhibited BAK activity."
+        },
+        {
+          "doi": "10.1074/jbc.M110.101469",
+          "year": 2010,
+          "assay": "Co-IP, Ubiquitination assay",
+          "authors": "Chen D, Gao F, Li B, Wang H, Xu Y, Zhu C, Wang G",
+          "journal": "Journal of Biological Chemistry",
+          "species": "human",
+          "paper_title": "Parkin Mono-Ubiquitinates Bcl-2 and Regulates Autophagy",
+          "relevant_quote": "Our results provide evidence that parkin mono-ubiquitinates Bcl-2 and regulates autophagy via Bcl-2."
+        },
+        {
+          "doi": "10.1074/jbc.M111.288449",
+          "year": 2012,
+          "assay": "in vitro ubiquitination assay",
+          "authors": "Durcan TM, Tang MY, Fon EA",
+          "journal": "Journal of Biological Chemistry",
+          "species": "human",
+          "paper_title": "Ataxin-3 deubiquitination is coupled to Parkin ubiquitination via E2 ubiquitin-conjugating enzyme",
+          "relevant_quote": "Ataxin-3 was found to counteract parkin self-ubiquitination both in vitro and in cells."
+        }
+      ],
+      "_original_direction": "main_to_primary",
+      "upstream_interactor": null,
+      "mediator_chain": [],
+      "depth": 1,
+      "_validation_metadata": {
+        "validated": true,
+        "validator": "arrow_effect_validator",
+        "corrections_applied": 1,
+        "validated_at": "2025-11-18T00:57:20.228301"
+      },
+      "_arrow_validated": true
+    },
+    "corrected_data": {
+      "primary": "PRKN",
+      "direction": "main_to_primary",
+      "arrow": "regulates",
+      "interaction_type": "direct",
+      "functions": [
+        {
+          "arrow": "activates",
+          "pmids": [
+            "20940148",
+            "22460798",
+            "30573668"
+          ],
+          "evidence": [
+            {
+              "doi": "10.1093/hmg/ddq452",
+              "pmid": "20940148",
+              "year": 2011,
+              "assay": "in vitro binding, Co-IP",
+              "authors": "Durcan TM, Kontogiannea M, Thorarinsdottir T, Fallon L, Williams AJ, Djarmati A, Gasser T, Fon EA, Shen Y",
+              "journal": "Human Molecular Genetics",
+              "species": "human, mouse",
+              "paper_title": "The Machado-Joseph disease-associated mutant form of ataxin-3 regulates parkin ubiquitination and stability",
+              "relevant_quote": "The interaction between ataxin-3 and parkin is direct, involves multiple domains and is greatly enhanced by parkin self-ubiquitination. Moreover, ataxin-3 deubiquitinates parkin directly in vitro and in cells."
+            },
+            {
+              "doi": "10.1073/pnas.1113248109",
+              "pmid": "22460798",
+              "year": 2012,
+              "assay": "in vitro ubiquitination assay, Western Blot",
+              "authors": "Johnson BN, Berger AK, Cortese GP, Lavoie MJ",
+              "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+              "species": "human, mouse",
+              "paper_title": "The ubiquitin E3 ligase parkin regulates the proapoptotic function of Bax",
+              "relevant_quote": "We report here that parkin expression reduces the mitochondrial accumulation of Bax under basal conditions, prevents the acute stress-induced translocation of Bax to the mitochondria, and directly ubiquitinates Bax."
+            },
+            {
+              "doi": "10.15252/embj.201899916",
+              "pmid": "30573668",
+              "year": 2020,
+              "assay": "Ubiquitination assay",
+              "authors": "Bernardini JP, Broussard C, Lazarou M, Nguyen TN",
+              "journal": "The EMBO Journal",
+              "species": "human",
+              "paper_title": "Parkin inhibits BAK and BAX apoptotic function by distinct mechanisms during mitophagy",
+              "relevant_quote": "We report that following mitochondrial damage-induced mitophagy, Parkin directly ubiquitinates the apoptotic effector protein BAK at a conserved lysine in its hydrophobic groove...Ubiquitination inhibited BAK activity."
+            }
+          ],
+          "function": "Inhibition of Apoptosis",
+          "validity": "DELETED",
+          "direction": "main_to_primary",
+          "validation_note": "DELETED: WRONG INTERACTOR and UNSUPPORTED MECHANISM. The claimed interactor is Bcl-2, but the entire functional description incorrectly details a hypothetical interaction between ATXN3 and Parkin regulating Bax/Bak. My independent research found no evidence for this ATXN3-Parkin-Bax pathway. Furthermore, literature does not support a direct functional interaction between ATXN3 and Bcl-2. Some papers show ATXN3 interacts with a different Bcl-2 family member, Bcl-xL, to protect against oxidative stress, while other papers show mutant ATXN3 affects Bcl-2 family member expression levels, but not through direct interaction with Bcl-2. The claim is a complete misrepresentation of the biological reality.",
+          "cellular_process": "ATXN3 directly interacts with and deubiquitinates the E3 ligase Parkin (PRKN), regulating its activity. Activated Parkin can then ubiquitinate pro-apoptotic proteins like Bax, which prevents their translocation to the mitochondria and subsequent initiation of the intrinsic apoptotic cascade.",
+          "specific_effects": [
+            "ATXN3 directly interacts with and deubiquitinates Parkin.",
+            "Parkin ubiquitinates the pro-apoptotic protein Bax, preventing its mitochondrial translocation.",
+            "Parkin ubiquitinates the pro-apoptotic protein Bak, impairing its activation and oligomerization."
+          ],
+          "effect_description": "ATXN3 indirectly inhibits apoptosis by regulating Parkin (PRKN), which in turn ubiquitinates and inhibits the pro-apoptotic protein Bax.",
+          "interaction_effect": "activates",
+          "interaction_direction": "main_to_primary",
+          "biological_consequence": [
+            "ATXN3 binds and deubiquitinates Parkin (PRKN) → Parkin E3 ligase activity is stabilized → Parkin ubiquitinates pro-apoptotic Bax → Ubiquitinated Bax is blocked from translocating to the mitochondria → Intrinsic apoptotic pathway is inhibited",
+            "ATXN3 binds and deubiquitinates Parkin (PRKN) → Parkin E3 ligase activity is stabilized → Parkin ubiquitinates pro-apoptotic Bak → Bak activation and oligomerization is impaired → Intrinsic apoptotic pathway is inhibited"
+          ]
+        },
+        {
+          "arrow": "inhibits",
+          "pmids": [
+            "20889974"
+          ],
+          "evidence": [
+            {
+              "doi": "10.1074/jbc.M110.101469",
+              "pmid": "20889974",
+              "year": 2010,
+              "assay": "Co-immunoprecipitation, Western Blot, Ubiquitination assay",
+              "authors": "Lee Y, Lee HY, Hanna M, Gustafsson ÅB",
+              "journal": "J Biol Chem",
+              "species": "human cells (HEK293, HeLa), mouse embryonic fibroblasts",
+              "paper_title": "Parkin Mono-ubiquitinates Bcl-2 and Regulates Autophagy",
+              "relevant_quote": "Parkin directly binds to Bcl-2 via its C terminus and mediates the mono-ubiquitination of Bcl-2, which increases the steady-state levels of Bcl-2... Our results provide evidence that parkin mono-ubiquitinates Bcl-2 and regulates autophagy via Bcl-2."
+            }
+          ],
+          "function": "Indirect Autophagy via Parkin",
+          "validity": "CORRECTED",
+          "direction": "main_to_primary",
+          "mechanism": "",
+          "effect_type": "",
+          "evidence_source": "fact_checker_corrected",
+          "validation_note": "CORRECTED: The claimed function describes a real biological pathway but misidentifies the direct interactor as Bcl-2. The literature clearly shows that ATXN3 interacts with and regulates Parkin. Parkin then acts on Bcl-2. Therefore, the function is corrected to reflect that ATXN3's regulation of autophagy via the Bcl-2/Beclin-1 axis is indirect and mediated by its primary interaction with Parkin. The original claim of a direct ATXN3-Bcl-2 interaction is unsupported.",
+          "cellular_process": "ATXN3 interacts with the E3 ligase Parkin (PRKN) and counteracts its auto-ubiquitination, thereby modulating its activity. Active Parkin can then mono-ubiquitinate the anti-autophagy protein Bcl-2. This non-degradative ubiquitination stabilizes Bcl-2, enhancing its binding to and sequestration of Beclin-1. This prevents the formation of the Beclin-1-Vps34 complex, a key step in autophagosome initiation.",
+          "specific_effects": [
+            "ATXN3 counteracts Parkin auto-ubiquitination",
+            "Parkin mono-ubiquitinates Bcl-2",
+            "Mono-ubiquitination increases Bcl-2 stability",
+            "Enhanced interaction between Bcl-2 and Beclin-1",
+            "Inhibition of autophagy"
+          ],
+          "effect_description": "ATXN3 indirectly inhibits autophagy by modulating Parkin activity, which leads to the stabilization of the autophagy inhibitor Bcl-2.",
+          "interaction_effect": "inhibits",
+          "interaction_direction": "main_to_primary",
+          "biological_consequence": [
+            "ATXN3 interacts with and deubiquitinates Parkin (PRKN)",
+            "Parkin E3 ligase activity is modulated",
+            "Parkin mono-ubiquitinates Bcl-2",
+            "Mono-ubiquitinated Bcl-2 has increased protein stability",
+            "Stabilized Bcl-2 binds and sequesters Beclin-1",
+            "Formation of the PtdIns3K complex is inhibited",
+            "Autophagosome initiation is suppressed"
+          ],
+          "original_function_name": "Regulation of Autophagy"
+        }
+      ],
+      "evidence": [
+        {
+          "doi": "10.1093/hmg/ddq452",
+          "year": 2011,
+          "assay": "in vitro binding, Co-IP",
+          "authors": "Durcan TM, Kontogiannea M, Thorarinsdottir T, Fallon L, Williams AJ, Djarmati A, Gasser T, Fon EA, Shen Y",
+          "journal": "Human Molecular Genetics",
+          "species": "human, mouse",
+          "paper_title": "The Machado-Joseph disease-associated mutant form of ataxin-3 regulates parkin ubiquitination and stability",
+          "relevant_quote": "The interaction between ataxin-3 and parkin is direct, involves multiple domains and is greatly enhanced by parkin self-ubiquitination. Moreover, ataxin-3 deubiquitinates parkin directly in vitro and in cells."
+        },
+        {
+          "doi": "10.1073/pnas.1113248109",
+          "year": 2012,
+          "assay": "in vitro ubiquitination assay, Western Blot",
+          "authors": "Johnson BN, Berger AK, Cortese GP, Lavoie MJ",
+          "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+          "species": "human, mouse",
+          "paper_title": "The ubiquitin E3 ligase parkin regulates the proapoptotic function of Bax",
+          "relevant_quote": "We report here that parkin expression reduces the mitochondrial accumulation of Bax under basal conditions, prevents the acute stress-induced translocation of Bax to the mitochondria, and directly ubiquitinates Bax."
+        },
+        {
+          "doi": "10.15252/embj.201899916",
+          "year": 2020,
+          "assay": "Ubiquitination assay",
+          "authors": "Bernardini JP, Broussard C, Lazarou M, Nguyen TN",
+          "journal": "The EMBO Journal",
+          "species": "human",
+          "paper_title": "Parkin inhibits BAK and BAX apoptotic function by distinct mechanisms during mitophagy",
+          "relevant_quote": "We report that following mitochondrial damage-induced mitophagy, Parkin directly ubiquitinates the apoptotic effector protein BAK at a conserved lysine in its hydrophobic groove...Ubiquitination inhibited BAK activity."
+        },
+        {
+          "doi": "10.1074/jbc.M110.101469",
+          "year": 2010,
+          "assay": "Co-IP, Ubiquitination assay",
+          "authors": "Chen D, Gao F, Li B, Wang H, Xu Y, Zhu C, Wang G",
+          "journal": "Journal of Biological Chemistry",
+          "species": "human",
+          "paper_title": "Parkin Mono-Ubiquitinates Bcl-2 and Regulates Autophagy",
+          "relevant_quote": "Our results provide evidence that parkin mono-ubiquitinates Bcl-2 and regulates autophagy via Bcl-2."
+        },
+        {
+          "doi": "10.1074/jbc.M111.288449",
+          "year": 2012,
+          "assay": "in vitro ubiquitination assay",
+          "authors": "Durcan TM, Tang MY, Fon EA",
+          "journal": "Journal of Biological Chemistry",
+          "species": "human",
+          "paper_title": "Ataxin-3 deubiquitination is coupled to Parkin ubiquitination via E2 ubiquitin-conjugating enzyme",
+          "relevant_quote": "Ataxin-3 was found to counteract parkin self-ubiquitination both in vitro and in cells."
+        }
+      ],
+      "_original_direction": "main_to_primary",
+      "upstream_interactor": null,
+      "mediator_chain": [],
+      "depth": 1,
+      "_validation_metadata": {
+        "validated": true,
+        "validator": "arrow_effect_validator",
+        "corrections_applied": 1,
+        "validated_at": "2025-11-18T00:57:20.228301"
+      },
+      "_arrow_validated": true
+    },
+    "corrections_count": 1,
+    "chain_context": {
+      "interaction_type": "direct",
+      "mediator_chain": [],
+      "upstream_interactor": null,
+      "depth": 1
+    }
+  }
+]

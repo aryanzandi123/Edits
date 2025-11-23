@@ -1,0 +1,70 @@
+{
+  "primary": "RRAGD",
+  "direction": "primary_to_main",
+  "arrow": "binds",
+  "intent": "recruitment",
+  "support_summary": "As a component of the Rag GTPase heterodimer, RRAGD directly binds TFEB and recruits it to the lysosomal membrane. This localization is a critical prerequisite for TFEB's subsequent phosphorylation and inactivation by the mTORC1 complex, which is also present at the lysosome. This mechanism links amino acid availability to TFEB activity.",
+  "functions": [
+    {
+      "function": "TFEB Lysosomal Recruitment for mTORC1-mediated Phosphorylation",
+      "arrow": "activates",
+      "cellular_process": "In the presence of amino acids, the Rag GTPase complex, containing RRAGD, becomes active. Active Rag GTPases directly bind TFEB and recruit it from the cytoplasm to the surface of the lysosome, bringing it into proximity with the mTORC1 kinase.",
+      "effect_description": "RRAGD facilitates the physical co-localization of TFEB and its inhibitor mTORC1 at the lysosome, a necessary step for the subsequent phosphorylation and cytoplasmic retention of TFEB.",
+      "biological_consequence": [
+        "Amino acid abundance activates Rag GTPase complex → Active RRAGD directly binds TFEB → TFEB is recruited to the lysosomal surface → TFEB co-localizes with the mTORC1 complex → Proximity facilitates mTORC1-mediated phosphorylation of TFEB"
+      ],
+      "specific_effects": [
+        "Mediates the nutrient-sensing pathway's control over TFEB activity.",
+        "Essential for TFEB inactivation in response to amino acid availability.",
+        "Directly binds to the N-terminus of TFEB."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Rag GTPases mediate amino acid-dependent recruitment of TFEB and MITF to lysosomes",
+          "doi": "10.1083/jcb.201209135",
+          "authors": "Jose A Martina, Rosa Puertollano",
+          "journal": "The Journal of Cell Biology",
+          "year": 2013,
+          "assay": "Co-IP, Immunofluorescence",
+          "species": "human",
+          "relevant_quote": "Interaction of TFEB with active Rag heterodimers promoted recruitment of TFEB to lysosomes, leading to mTORC1-dependent phosphorylation and inhibition of TFEB.",
+          "pmid": "23401004"
+        }
+      ],
+      "pmids": [
+        "23401004"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "primary_to_main",
+      "function_effect": "activation"
+    }
+  ],
+  "mechanism": "In the presence of amino acids, the Rag GTPase complex, containing RRAGD, becomes active. Active Rag GTPases directly bind TFEB and recruit it from the cytoplasm to the surface of the lysosome, bringing it into proximity with the mTORC1 kinase.",
+  "effect": "RRAGD facilitates the physical co-localization of TFEB and its inhibitor mTORC1 at the lysosome, a necessary step for the subsequent phosphorylation and cytoplasmic retention of TFEB.",
+  "summary": "TFEB activates RRAGD to modulate tfeb lysosomal recruitment for mtorc1-mediated phosphorylation, ultimately affecting proximity facilitates mtorc1-mediated phosphorylation of tfeb.",
+  "evidence": [
+    {
+      "paper_title": "Rag GTPases mediate amino acid-dependent recruitment of TFEB and MITF to lysosomes",
+      "doi": "10.1083/jcb.201209135",
+      "authors": "Jose A Martina, Rosa Puertollano",
+      "journal": "The Journal of Cell Biology",
+      "year": 2013,
+      "assay": "Co-IP, Immunofluorescence",
+      "species": "human",
+      "relevant_quote": "Interaction of TFEB with active Rag heterodimers promoted recruitment of TFEB to lysosomes, leading to mTORC1-dependent phosphorylation and inhibition of TFEB."
+    }
+  ],
+  "interaction_effect": "binding",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 2
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TFEB <--binds-- RRAGD:",
+  "protein_a": "TFEB",
+  "protein_b": "RRAGD",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.492747Z",
+  "last_updated": "2025-11-19T03:20:29.492747Z"
+}

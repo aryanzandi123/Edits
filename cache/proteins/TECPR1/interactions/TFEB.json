@@ -1,0 +1,90 @@
+{
+  "primary": "TFEB",
+  "interaction_type": "indirect",
+  "upstream_interactor": "MTOR",
+  "mediator_chain": [
+    "MTOR"
+  ],
+  "depth": 2,
+  "support_summary": "TECPR1 is involved in lysosomal repair and autophagosome-lysosome fusion. Its activity can facilitate lysosomal reformation, which indirectly influences TFEB activation by modulating the lysosomal state and mTORC1 signaling at the lysosomal surface.",
+  "functions": [
+    {
+      "function": "TFEB Activity via Lysosomal Homeostasis",
+      "arrow": "inhibits",
+      "cellular_process": "TECPR1 is involved in the process of lysosomal reformation and the fusion of autophagosomes with lysosomes. Its activity helps maintain a healthy and functional lysosomal network.",
+      "effect_description": "By ensuring proper lysosomal function and homeostasis, TECPR1 indirectly influences TFEB activity. A healthy lysosomal state allows for proper mTORC1 signaling at the lysosomal surface, which keeps TFEB in check. Conversely, disruptions in lysosomal function that TECPR1 would normally resolve can lead to TFEB activation.",
+      "biological_consequence": [
+        "TECPR1 promotes autolysosome resolution → Functional lysosome pool is maintained → mTORC1 localizes and activates on the lysosomal surface → TFEB is phosphorylated by mTORC1 → TFEB is sequestered in the cytoplasm → Basal expression of lysosomal genes is maintained"
+      ],
+      "specific_effects": [
+        "Contributes to lysosomal reformation and autolysosome resolution.",
+        "Indirectly modulates the lysosomal signaling environment that controls TFEB."
+      ],
+      "evidence": [
+        {
+          "paper_title": "TFEB-driven endocytosis coordinates mTORC1 signaling and autophagy",
+          "year": 2018,
+          "pmid": "30145926"
+        }
+      ],
+      "_context": {
+        "type": "indirect",
+        "query_protein": "MTOR",
+        "chain": [
+          "MTOR"
+        ]
+      },
+      "interaction_effect": "inhibits",
+      "direction": "main_to_primary",
+      "interaction_direction": "primary_to_main",
+      "pmids": [
+        "30145926"
+      ],
+      "direct_arrow": "inhibits",
+      "function_effect": "inhibition",
+      "arrow_context": {
+        "direct_from": "MTOR",
+        "direct_arrow": "inhibits",
+        "net_from": "TFEB",
+        "net_arrow": "inhibits",
+        "mediator_chain": [
+          "MTOR"
+        ],
+        "is_indirect": true
+      },
+      "net_arrow": "inhibits",
+      "net_effect": "inhibition",
+      "direct_effect": "inhibition"
+    }
+  ],
+  "arrow": "inhibits",
+  "direction": "main_to_primary",
+  "intent": "regulation",
+  "arrows": {
+    "main_to_primary": [
+      "activates"
+    ]
+  },
+  "mechanism": "TECPR1 is involved in the process of lysosomal reformation and the fusion of autophagosomes with lysosomes. Its activity helps maintain a healthy and functional lysosomal network.",
+  "effect": "By ensuring proper lysosomal function and homeostasis, TECPR1 indirectly influences TFEB activity. A healthy lysosomal state allows for proper mTORC1 signaling at the lysosomal surface, which keeps TFEB in check. Conversely, disruptions in lysosomal function that TECPR1 would normally resolve can lead to TFEB activation.",
+  "summary": "TFEB activates TECPR1 to modulate tfeb activity via lysosomal homeostasis, ultimately affecting basal expression of lysosomal genes is maintained.",
+  "evidence": [
+    {
+      "paper_title": "TFEB-driven endocytosis coordinates mTORC1 signaling and autophagy",
+      "year": 2018
+    }
+  ],
+  "interaction_effect": "inhibits",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 4
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "MTOR <--inhibits-- TECPR1:",
+  "protein_a": "TECPR1",
+  "protein_b": "TFEB",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.599757Z",
+  "last_updated": "2025-11-19T03:20:29.599757Z"
+}

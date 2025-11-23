@@ -1,0 +1,91 @@
+{
+  "primary": "S1P",
+  "direction": "primary_to_main",
+  "arrow": "activates",
+  "intent": "proteolytic cleavage",
+  "support_summary": "Upon transport to the Golgi apparatus during ER stress, ATF6 is first cleaved by Site-1 Protease (S1P/MBTPS1), an essential step for its activation.",
+  "functions": [
+    {
+      "function": "ATF6 Proteolytic Cleavage (Site-1)",
+      "arrow": "activates",
+      "cellular_process": "Upon ER stress and translocation of ATF6 to the Golgi, Site-1 Protease (S1P/MBTPS1) performs the initial proteolytic cleavage of ATF6 within its luminal domain.",
+      "effect_description": "S1P performs the initial proteolytic cleavage of ATF6's luminal domain, a prerequisite step for its subsequent activation by S2P.",
+      "biological_consequence": [
+        "ER stress leads to accumulation of unfolded proteins → BiP dissociates from ATF6 to bind unfolded proteins → ATF6 translocates to the Golgi apparatus → Site-1 Protease (S1P) cleaves the ATF6 luminal domain → Steric hindrance is removed, preparing ATF6 for S2P cleavage"
+      ],
+      "specific_effects": [
+        "Cleaves ATF6 at a specific site (RxxL motif) in its luminal domain.",
+        "Reduces the size of the ATF6 luminal domain, which removes steric hindrance for S2P access."
+      ],
+      "evidence": [
+        {
+          "paper_title": "ER stress induces cleavage of membrane-bound ATF6 by the same proteases that process SREBPs",
+          "doi": "10.1016/s1097-2765(00)00133-7",
+          "authors": "J Ye, R B Rawson, R Komuro, X Chen, U P Davé, R Prywes, M S Brown, J L Goldstein",
+          "journal": "Molecular Cell",
+          "year": 2000,
+          "assay": "Cell Culture, Western Blot",
+          "species": "hamster, human",
+          "relevant_quote": "Here, we show that ATF6 is processed by Site-1 protease (S1P) and Site-2 protease (S2P), the enzymes that process SREBPs in response to cholesterol deprivation.",
+          "pmid": "11163209"
+        },
+        {
+          "paper_title": "Dependence of site-2 protease cleavage of ATF6 on prior site-1 protease digestion is determined by the size of the luminal domain of ATF6",
+          "doi": "10.1074/jbc.M408466200",
+          "authors": "Jingshi Shen, Ron Prywes",
+          "journal": "The Journal of Biological Chemistry",
+          "year": 2004,
+          "assay": "Cell Culture, Western Blot, Brefeldin A treatment",
+          "species": "human",
+          "relevant_quote": "These results suggest that the bulky ATF6 luminal domain blocks S2P cleavage and that the role of S1P is to reduce the size of the luminal domain to prepare ATF6 to be an optimal S2P substrate.",
+          "pmid": "15299016"
+        }
+      ],
+      "pmids": [
+        "11163209",
+        "15299016"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "primary_to_main",
+      "function_effect": "activation"
+    }
+  ],
+  "mechanism": "Upon ER stress and translocation of ATF6 to the Golgi, Site-1 Protease (S1P/MBTPS1) performs the initial proteolytic cleavage of ATF6 within its luminal domain.",
+  "effect": "S1P performs the initial proteolytic cleavage of ATF6's luminal domain, a prerequisite step for its subsequent activation by S2P.",
+  "summary": "ATF6 activates S1P to modulate atf6 proteolytic cleavage (site-1), ultimately affecting steric hindrance is removed, preparing atf6 for s2p cleavage.",
+  "evidence": [
+    {
+      "paper_title": "ER stress induces cleavage of membrane-bound ATF6 by the same proteases that process SREBPs",
+      "doi": "10.1016/s1097-2765(00)00133-7",
+      "authors": "J Ye, R B Rawson, R Komuro, X Chen, U P Davé, R Prywes, M S Brown, J L Goldstein",
+      "journal": "Molecular Cell",
+      "year": 2000,
+      "assay": "Cell Culture, Western Blot",
+      "species": "hamster, human",
+      "relevant_quote": "Here, we show that ATF6 is processed by Site-1 protease (S1P) and Site-2 protease (S2P), the enzymes that process SREBPs in response to cholesterol deprivation."
+    },
+    {
+      "paper_title": "Dependence of site-2 protease cleavage of ATF6 on prior site-1 protease digestion is determined by the size of the luminal domain of ATF6",
+      "doi": "10.1074/jbc.M408466200",
+      "authors": "Jingshi Shen, Ron Prywes",
+      "journal": "The Journal of Biological Chemistry",
+      "year": 2004,
+      "assay": "Cell Culture, Western Blot, Brefeldin A treatment",
+      "species": "human",
+      "relevant_quote": "These results suggest that the bulky ATF6 luminal domain blocks S2P cleavage and that the role of S1P is to reduce the size of the luminal domain to prepare ATF6 to be an optimal S2P substrate."
+    }
+  ],
+  "interaction_effect": "activation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATF6 <--activates-- S1P:",
+  "protein_a": "ATF6",
+  "protein_b": "S1P",
+  "discovered_in_query": "ATF6",
+  "first_discovered": "2025-11-18T21:01:00.227502Z",
+  "last_updated": "2025-11-18T21:01:00.227502Z"
+}

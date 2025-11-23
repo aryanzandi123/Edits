@@ -1,0 +1,71 @@
+{
+  "primary": "TFEB",
+  "interaction_type": "indirect",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 2,
+  "support_summary": "The transcription factor NRF2 (NFE2L2), a master regulator of the antioxidant response, indirectly activates TFEB. NRF2 activation, often through the loss of its inhibitor KEAP1, promotes TFEB/TFE3-dependent lysosomal biogenesis.",
+  "functions": [
+    {
+      "function": "TFEB/TFE3 Activation & Lysosomal Biogenesis",
+      "arrow": "activates",
+      "cellular_process": "Activation of the NRF2 antioxidant response pathway (e.g., via loss of its repressor KEAP1) leads to the aberrant activation of TFEB and TFE3, resulting in increased nuclear localization of TFEB/TFE3.",
+      "effect_description": "NRF2 indirectly drives a TFEB/TFE3-dependent transcriptional program for lysosomal biogenesis, linking the cellular antioxidant response to the regulation of lysosomal homeostasis.",
+      "biological_consequence": [
+        "Loss of KEAP1 or oxidative stress → NRF2 (NFE2L2) stabilization and nuclear accumulation → NRF2 signaling promotes aberrant activation of TFEB/TFE3 → TFEB/TFE3 dephosphorylation and nuclear translocation is increased → Upregulation of the TFEB/TFE3-dependent lysosomal program → Enhanced lysosomal biogenesis."
+      ],
+      "specific_effects": [
+        "Promotes nuclear localization of TFEB/TFE3.",
+        "Drives a TFEB/TFE3-dependent lysosomal program."
+      ],
+      "evidence": [
+        {
+          "paper_title": "The KEAP1-NRF2 pathway regulates TFEB/TFE3-dependent lysosomal biogenesis",
+          "doi": "10.1073/pnas.2217425120",
+          "authors": "Ong AJS, Bladen CE, Tigani TA, Karamalakis AP, Cipponi A, Rezcallah A, Rasko JEJ, Brown K, Cox AG",
+          "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+          "year": 2023,
+          "assay": "RNA-seq, Western blot, Immunofluorescence",
+          "species": "human, zebrafish",
+          "relevant_quote": "loss of Keap1 promotes aberrant activation of transcription factor EB (TFEB)/transcription factor binding to IGHM Enhancer 3 (TFE3)-dependent lysosomal biogenesis.",
+          "pmid": "37216554"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "primary_to_main",
+      "interaction_direction": "primary_to_main",
+      "pmids": [
+        "37216554"
+      ]
+    }
+  ],
+  "arrow": "activates",
+  "direction": "main_to_primary",
+  "intent": "regulation",
+  "arrows": {
+    "primary_to_main": [
+      "activates"
+    ]
+  },
+  "mechanism": "Activation of the NRF2 antioxidant response pathway (e.g., via loss of its repressor KEAP1) leads to the aberrant activation of TFEB and TFE3, resulting in increased nuclear localization of TFEB/TFE3.",
+  "effect": "NRF2 indirectly drives a TFEB/TFE3-dependent transcriptional program for lysosomal biogenesis, linking the cellular antioxidant response to the regulation of lysosomal homeostasis.",
+  "summary": "TFEB activates NFE2L2 to modulate tfeb/tfe3 activation & lysosomal biogenesis, ultimately affecting enhanced lysosomal biogenesis.",
+  "evidence": [
+    {
+      "paper_title": "The KEAP1-NRF2 pathway regulates TFEB/TFE3-dependent lysosomal biogenesis",
+      "doi": "10.1073/pnas.2217425120",
+      "authors": "Ong AJS, Bladen CE, Tigani TA, Karamalakis AP, Cipponi A, Rezcallah A, Rasko JEJ, Brown K, Cox AG",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "year": 2023,
+      "assay": "RNA-seq, Western blot, Immunofluorescence",
+      "species": "human, zebrafish",
+      "relevant_quote": "loss of Keap1 promotes aberrant activation of transcription factor EB (TFEB)/transcription factor binding to IGHM Enhancer 3 (TFE3)-dependent lysosomal biogenesis."
+    }
+  ],
+  "arrow_notation": "TFEB <--activates-- NFE2L2:",
+  "protein_a": "NFE2L2",
+  "protein_b": "TFEB",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.606489Z",
+  "last_updated": "2025-11-19T03:20:29.606489Z"
+}

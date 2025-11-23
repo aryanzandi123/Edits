@@ -1,0 +1,142 @@
+{
+  "primary": "ATF6",
+  "interaction_type": "direct",
+  "support_summary": "GRP94 (HSP90B1) is a major ER chaperone that directly interacts with ATF6, contributing to its retention in the ER and preventing its activation in the absence of stress. This interaction is part of a feedback loop, as activated ATF6, in turn, transcriptionally upregulates GRP94 expression to enhance the ER's protein-folding capacity.",
+  "functions": [
+    {
+      "function": "ATF6 Retention and Quality Control",
+      "arrow": "inhibits",
+      "cellular_process": "The abundant ER chaperone GRP94 (HSP90B1) is part of the quality control machinery that directly interacts with the luminal domain of ATF6α.",
+      "effect_description": "GRP94 interacts with ATF6 in the ER lumen, contributing to the pool of chaperones that retain it in an inactive state under non-stress conditions.",
+      "biological_consequence": [
+        "GRP94 binds to the luminal domain of ATF6 → ATF6 is retained within the ER lumen → Transport of ATF6 to the Golgi apparatus is blocked → Proteolytic cleavage and activation of ATF6 is suppressed"
+      ],
+      "specific_effects": [
+        "Identified as a direct interacting protein of ATF6α alongside BiP and Calreticulin.",
+        "Contributes to the general ER quality control that maintains ATF6 in an inactive state."
+      ],
+      "evidence": [
+        {
+          "paper_title": "ERp18 regulates activation of ATF6α during unfolded protein response",
+          "doi": "10.15252/embj.2018100622",
+          "authors": "Oka OB, Pringle MA, Schopp JM, Bulleid NJ",
+          "journal": "The EMBO Journal",
+          "year": 2019,
+          "assay": "Affinity Purification, Mass Spectrometry",
+          "species": "Human (HEK293T cells)",
+          "relevant_quote": "The list of ATF6α interacting proteins is dominated by ER-resident folding factors including chaperone proteins and folding enzymes such as BiP, Grp94, and members of the protein disulfide isomerase (PDI) family.",
+          "pmid": "31368601"
+        }
+      ],
+      "pmids": [
+        "31368601"
+      ],
+      "interaction_effect": "inhibition",
+      "interaction_direction": "primary_to_main",
+      "function_effect": "inhibition"
+    },
+    {
+      "function": "Transcriptional Upregulation by ATF6",
+      "arrow": "activates",
+      "cellular_process": "Upon ER stress, the activated N-terminal fragment of ATF6 translocates to the nucleus and binds to ER Stress Response Elements (ERSEs) within the GRP94 (HSP90B1) gene promoter, inducing its transcription.",
+      "effect_description": "The activated N-terminal fragment of ATF6 translocates to the nucleus and binds to ER stress response elements (ERSEs) in the GRP94 (HSP90B1) promoter, inducing its transcription.",
+      "biological_consequence": [
+        "ER stress triggers ATF6 transport to the Golgi → ATF6 is cleaved by S1P and S2P proteases → The active ATF6(N) fragment translocates to the nucleus → ATF6(N) binds to ERSE elements in the GRP94 promoter → GRP94 gene transcription is upregulated → ER chaperone capacity is enhanced"
+      ],
+      "specific_effects": [
+        "GRP94 is a direct transcriptional target gene of the ATF6 branch of the UPR.",
+        "The GRP94 promoter contains ERSEs that are bound by activated ATF6."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Endoplasmic reticulum stress gene induction and protection from ischemia/reperfusion injury in the hearts of transgenic mice with a tamoxifen-regulated form of ATF6",
+          "doi": "10.1161/CIRCRESAHA.110.235218",
+          "authors": "Martindale JJ, Fernandez R, Thuerauf D, Whittaker R, Glembotski CC",
+          "journal": "Circulation Research",
+          "year": 2011,
+          "assay": "RT-qPCR, Western Blot",
+          "species": "Mouse",
+          "relevant_quote": "...only the hearts from the tamoxifen-treated TG mice exhibited increased levels of many ER stress-inducible mRNAs and proteins; for example, GRP78 and GRP94 transcript levels were increased...",
+          "pmid": "16601230"
+        },
+        {
+          "paper_title": "ATF6 as a transcription activator of the endoplasmic reticulum stress element: thapsigargin stress-induced changes and synergistic interactions with NF-Y and YY1",
+          "doi": "10.1128/mcb.20.18.6820-6832.2000",
+          "authors": "Li M, Baumeister P, Roy B, Phan T, Foti D, Lee AS",
+          "journal": "Molecular and Cellular Biology",
+          "year": 2000,
+          "assay": "Reporter Gene Assay, Gel Shift Assay",
+          "species": "Human (HeLa cells)",
+          "relevant_quote": "ATF6, a member of the leucine zipper protein family, can constitutively induce the promoter of glucose-regulated protein (grp) genes through activation of the endoplasmic reticulum (ER) stress element (ERSE).",
+          "pmid": "10866666"
+        }
+      ],
+      "pmids": [
+        "16601230",
+        "10866666"
+      ],
+      "interaction_effect": "activation",
+      "interaction_direction": "main_to_primary",
+      "function_effect": "activation"
+    }
+  ],
+  "arrows": {
+    "main_to_primary": [
+      "activates"
+    ],
+    "primary_to_main": [
+      "inhibits"
+    ]
+  },
+  "arrow": "regulates",
+  "direction": "bidirectional",
+  "intent": "regulation",
+  "mechanism": "The abundant ER chaperone GRP94 (HSP90B1) is part of the quality control machinery that directly interacts with the luminal domain of ATF6α. Upon ER stress, the activated N-terminal fragment of ATF6 translocates to the nucleus and binds to ER Stress Response Elements (ERSEs) within the GRP94 (HSP90B1) gene promoter, inducing its transcription.",
+  "effect": "GRP94 interacts with ATF6 in the ER lumen, contributing to the pool of chaperones that retain it in an inactive state under non-stress conditions.; The activated N-terminal fragment of ATF6 translocates to the nucleus and binds to ER stress response elements (ERSEs) in the GRP94 (HSP90B1) promoter, inducing its transcription.",
+  "summary": "ATF6 regulates GRP94 to regulate atf6 retention and quality control and transcriptional upregulation by atf6, ultimately affecting proteolytic cleavage and activation of atf6 is suppressed.",
+  "evidence": [
+    {
+      "paper_title": "ERp18 regulates activation of ATF6α during unfolded protein response",
+      "doi": "10.15252/embj.2018100622",
+      "authors": "Oka OB, Pringle MA, Schopp JM, Bulleid NJ",
+      "journal": "The EMBO Journal",
+      "year": 2019,
+      "assay": "Affinity Purification, Mass Spectrometry",
+      "species": "Human (HEK293T cells)",
+      "relevant_quote": "The list of ATF6α interacting proteins is dominated by ER-resident folding factors including chaperone proteins and folding enzymes such as BiP, Grp94, and members of the protein disulfide isomerase (PDI) family."
+    },
+    {
+      "paper_title": "Endoplasmic reticulum stress gene induction and protection from ischemia/reperfusion injury in the hearts of transgenic mice with a tamoxifen-regulated form of ATF6",
+      "doi": "10.1161/CIRCRESAHA.110.235218",
+      "authors": "Martindale JJ, Fernandez R, Thuerauf D, Whittaker R, Glembotski CC",
+      "journal": "Circulation Research",
+      "year": 2011,
+      "assay": "RT-qPCR, Western Blot",
+      "species": "Mouse",
+      "relevant_quote": "...only the hearts from the tamoxifen-treated TG mice exhibited increased levels of many ER stress-inducible mRNAs and proteins; for example, GRP78 and GRP94 transcript levels were increased..."
+    },
+    {
+      "paper_title": "ATF6 as a transcription activator of the endoplasmic reticulum stress element: thapsigargin stress-induced changes and synergistic interactions with NF-Y and YY1",
+      "doi": "10.1128/mcb.20.18.6820-6832.2000",
+      "authors": "Li M, Baumeister P, Roy B, Phan T, Foti D, Lee AS",
+      "journal": "Molecular and Cellular Biology",
+      "year": 2000,
+      "assay": "Reporter Gene Assay, Gel Shift Assay",
+      "species": "Human (HeLa cells)",
+      "relevant_quote": "ATF6, a member of the leucine zipper protein family, can constitutively induce the promoter of glucose-regulated protein (grp) genes through activation of the endoplasmic reticulum (ER) stress element (ERSE)."
+    }
+  ],
+  "interaction_effect": "regulation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 2
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATF6 <--regulates--> GRP94:",
+  "protein_a": "GRP94",
+  "protein_b": "ATF6",
+  "discovered_in_query": "ATF6",
+  "first_discovered": "2025-11-18T21:01:00.269440Z",
+  "last_updated": "2025-11-18T21:01:00.269440Z"
+}

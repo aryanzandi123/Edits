@@ -1,0 +1,88 @@
+{
+  "primary": "CREBBP",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "ATXN3 interacts and cooperates with the transcriptional co-activator CREB-binding protein (CREBBP or CBP), acting as a transcriptional repressor by inhibiting its histone acetyltransferase (HAT) activity.",
+  "functions": [
+    {
+      "function": "CREBBP/p300 Histone Acetyltransferase (HAT) Activity",
+      "arrow": "inhibits",
+      "cellular_process": "ATXN3 directly interacts with the transcriptional co-activators CREBBP (CBP) and EP300 (p300), which possess histone acetyltransferase (HAT) activity.",
+      "effect_description": "Through this interaction, ATXN3 acts as a transcriptional repressor by inhibiting the HAT activity of the CBP/p300 complex, thereby preventing histone acetylation and gene activation.",
+      "biological_consequence": [
+        "ATXN3 C-terminal domain binds to the CREBBP co-activator → ATXN3 inhibits CREBBP HAT activity → Reduced histone acetylation at target gene promoters → Transcriptional repression"
+      ],
+      "specific_effects": [
+        "The C-terminal domain of ATXN3 binds to CREBBP and p300.",
+        "ATXN3 is known to cooperate with numerous transcriptional regulators including CBP and p300 to control transcription."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Ataxin-3 is a histone-binding protein with two independent transcriptional corepressor activities",
+          "doi": "10.1074/jbc.M205259200",
+          "authors": "Li F, Macfarlan T, Pittman RN, Chakravarti D",
+          "journal": "The Journal of Biological Chemistry",
+          "year": 2002,
+          "assay": "Co-immunoprecipitation, in vitro binding assay",
+          "species": "human, mouse",
+          "relevant_quote": "ataxin-3, interacts with the major histone acetyltransferases cAMP-response-element binding protein (CREB)-binding protein, p300, and p300/CREB-binding protein-associated factor and inhibits transcription by these coactivators.",
+          "pmid": "12297501"
+        },
+        {
+          "paper_title": "ATXN3: a multifunctional protein involved in the polyglutamine disease spinocerebellar ataxia type 3",
+          "doi": "10.1017/erm.2024.10",
+          "authors": "Hernández-Carralero E, Quinet G, Freire R",
+          "journal": "Expert Reviews in Molecular Medicine",
+          "year": 2024,
+          "assay": "Review",
+          "species": "human",
+          "relevant_quote": "Indeed, ATXN3 additionally has been shown to interact with several transcriptional components, such as...the cAMP response element (CRE) binding protein (CREB)-binding protein (CBP), p300 and p300/CBP-associated factor (PCAF)...",
+          "pmid": "39320846"
+        }
+      ],
+      "interaction_effect": "inhibits",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "12297501",
+        "39320846"
+      ]
+    }
+  ],
+  "arrow": "inhibits",
+  "direction": "main_to_primary",
+  "intent": "regulation",
+  "mechanism": "ATXN3 directly interacts with the transcriptional co-activators CREBBP (CBP) and EP300 (p300), which possess histone acetyltransferase (HAT) activity.",
+  "effect": "Through this interaction, ATXN3 acts as a transcriptional repressor by inhibiting the HAT activity of the CBP/p300 complex, thereby preventing histone acetylation and gene activation.",
+  "summary": "ATXN3 inhibits CREBBP to modulate crebbp/p300 histone acetyltransferase (hat) activity, ultimately affecting transcriptional repression.",
+  "evidence": [
+    {
+      "paper_title": "Ataxin-3 is a histone-binding protein with two independent transcriptional corepressor activities",
+      "doi": "10.1074/jbc.M205259200",
+      "authors": "Li F, Macfarlan T, Pittman RN, Chakravarti D",
+      "journal": "The Journal of Biological Chemistry",
+      "year": 2002,
+      "assay": "Co-immunoprecipitation, in vitro binding assay",
+      "species": "human, mouse",
+      "relevant_quote": "ataxin-3, interacts with the major histone acetyltransferases cAMP-response-element binding protein (CREB)-binding protein, p300, and p300/CREB-binding protein-associated factor and inhibits transcription by these coactivators."
+    },
+    {
+      "paper_title": "ATXN3: a multifunctional protein involved in the polyglutamine disease spinocerebellar ataxia type 3",
+      "doi": "10.1017/erm.2024.10",
+      "authors": "Hernández-Carralero E, Quinet G, Freire R",
+      "journal": "Expert Reviews in Molecular Medicine",
+      "year": 2024,
+      "assay": "Review",
+      "species": "human",
+      "relevant_quote": "Indeed, ATXN3 additionally has been shown to interact with several transcriptional components, such as...the cAMP response element (CRE) binding protein (CREB)-binding protein (CBP), p300 and p300/CBP-associated factor (PCAF)..."
+    }
+  ],
+  "arrow_notation": "ATXN3 --inhibits--> CREBBP:",
+  "protein_a": "ATXN3",
+  "protein_b": "CREBBP",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-23T07:58:56.167246Z",
+  "last_updated": "2025-11-23T07:58:56.167246Z"
+}

@@ -1,0 +1,77 @@
+{
+  "primary": "PPP3CA",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "PPP3CA (Calcineurin) is a calcium-dependent phosphatase that directly dephosphorylates TFEB at key inhibitory serine residues (e.g., S142, S211). This dephosphorylation unmasks TFEB's nuclear localization signal, leading to its translocation into the nucleus and subsequent activation of target genes for lysosomal biogenesis and autophagy.",
+  "functions": [
+    {
+      "function": "TFEB Dephosphorylation & Nuclear Translocation",
+      "arrow": "activates",
+      "cellular_process": "In response to increased intracellular calcium, often released from lysosomes, the phosphatase PPP3CA (Calcineurin) directly binds to and dephosphorylates TFEB at inhibitory serine residues S142 and S211. This action prevents the binding of 14-3-3 proteins, unmasks TFEB's nuclear localization signal, and facilitates its import into the nucleus.",
+      "effect_description": "PPP3CA removes inhibitory phosphate groups from TFEB, triggering its translocation to the nucleus and subsequent activation of its transcriptional program.",
+      "biological_consequence": [
+        "Increased intracellular Ca2+ activates PPP3CA (Calcineurin) → PPP3CA dephosphorylates TFEB at S142 & S211 → YWHA (14-3-3) proteins dissociate, unmasking the NLS → TFEB translocates to the nucleus → TFEB binds to CLEAR elements → Upregulation of lysosomal & autophagy genes"
+      ],
+      "specific_effects": [
+        "Couples intracellular calcium signaling to the activation of the CLEAR gene network.",
+        "Promotes TFEB-dependent cellular clearance pathways in response to stimuli like lysosomal stress, starvation, or physical exercise.",
+        "Inhibition of PPP3CA/calcineurin impairs TFEB activation and mitophagy."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Impaired TFEB activation and mitophagy as a cause of PPP3/calcineurin inhibitor-induced pancreatic β-cell dysfunction",
+          "doi": "10.1080/15548627.2022.2131303",
+          "authors": "Sonn SK, Seo S, Park K, Lee MS",
+          "journal": "Autophagy",
+          "year": 2023,
+          "assay": "Western Blot, Immunofluorescence",
+          "species": "rat, mouse",
+          "relevant_quote": "Because TFEB can be dephosphorylated and activated by PPP3/calcineurin, PPP3/calcineurin inhibitors may be able to inhibit TFEB activation, which may lead to impaired bulk autophagy or selective autophagy such as mitophagy of pancreatic β-cells.",
+          "pmid": "36217215"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "primary_to_main",
+      "interaction_direction": "primary_to_main",
+      "pmids": [
+        "36217215"
+      ]
+    }
+  ],
+  "arrow": "activates",
+  "direction": "primary_to_main",
+  "intent": "dephosphorylation",
+  "mechanism": "In response to increased intracellular calcium, often released from lysosomes, the phosphatase PPP3CA (Calcineurin) directly binds to and dephosphorylates TFEB at inhibitory serine residues S142 and S211. This action prevents the binding of 14-3-3 proteins, unmasks TFEB's nuclear localization signal, and facilitates its import into the nucleus.",
+  "effect": "PPP3CA removes inhibitory phosphate groups from TFEB, triggering its translocation to the nucleus and subsequent activation of its transcriptional program.",
+  "summary": "TFEB activates PPP3CA to modulate tfeb dephosphorylation & nuclear translocation, ultimately affecting upregulation of lysosomal & autophagy genes.",
+  "evidence": [
+    {
+      "paper_title": "Lysosomal calcium signaling regulates autophagy via calcineurin and TFEB",
+      "doi": "10.1038/ncb3114",
+      "authors": "Medina DL, Di Paola S, Peluso I, Armani A, De Stefani D, Venditti R, Montefusco S, Scotto-Rosato A, Prezioso C, Forrester A, Settembre C, Wang W, Gao Q, Xu H, Sandri M, Rizzuto R, De Matteis MA, Ballabio A",
+      "journal": "Nature Cell Biology",
+      "year": 2015,
+      "assay": "in vitro phosphatase assay, Co-IP",
+      "species": "human, mouse",
+      "relevant_quote": "Lysosomal Ca2+ release via mucolipin 1 (MCOLN1) activates calcineurin, which binds and de-phosphorylates TFEB, thus promoting its nuclear translocation."
+    },
+    {
+      "paper_title": "Impaired TFEB activation and mitophagy as a cause of PPP3/calcineurin inhibitor-induced pancreatic β-cell dysfunction",
+      "doi": "10.1080/15548627.2022.2131303",
+      "authors": "Sonn SK, Seo S, Park K, Lee MS",
+      "journal": "Autophagy",
+      "year": 2023,
+      "assay": "Western Blot, Immunofluorescence",
+      "species": "rat, mouse",
+      "relevant_quote": "Because TFEB can be dephosphorylated and activated by PPP3/calcineurin, PPP3/calcineurin inhibitors may be able to inhibit TFEB activation, which may lead to impaired bulk autophagy or selective autophagy such as mitophagy of pancreatic β-cells."
+    }
+  ],
+  "arrow_notation": "TFEB <--activates-- PPP3CA:",
+  "protein_a": "TFEB",
+  "protein_b": "PPP3CA",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.498811Z",
+  "last_updated": "2025-11-19T03:20:29.498811Z"
+}

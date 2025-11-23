@@ -1,0 +1,84 @@
+{
+  "primary": "MAPK3",
+  "interaction_type": "indirect",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 2,
+  "support_summary": "Phosphoprotein analysis of SCA3 models revealed that polyglutamine-expanded ATXN3 causes a pro-survival stimulation of the ERK pathway (MAPK3/MAPK1), suggesting a complex, potentially compensatory, cellular response to the pathogenic protein.",
+  "functions": [
+    {
+      "function": "ERK Pro-Survival Signaling",
+      "arrow": "activates",
+      "cellular_process": "In models of spinocerebellar ataxia type 3 (SCA3), the expression of polyglutamine-expanded ATXN3 leads to the stimulation of the ERK pathway, a component of the MAPK signaling cascade.",
+      "effect_description": "The presence of mutant ATXN3 stimulates the ERK (MAPK3/MAPK1) signaling pathway, which may represent a compensatory pro-survival cellular response.",
+      "biological_consequence": [
+        "PolyQ-expanded ATXN3 expression → Upstream signaling stimulates the MAPK cascade → Phosphorylation and activation of ERK (MAPK3) is increased → Downstream pro-survival targets are activated → Neuronal survival is promoted"
+      ],
+      "specific_effects": [
+        "Phosphoprotein analysis showed stimulation of the ERK pathway in response to expanded ataxin-3."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Neurodegenerative phosphoprotein signaling landscape in models of SCA3",
+          "doi": "10.1186/s13041-020-00723-0",
+          "authors": "Sowa AS, Popova TG, Harmuth T, Weber JJ, Pereira Sena P, Schmidt J, Hübener-Schmid J, Schmidt T",
+          "journal": "Molecular Brain",
+          "year": 2021,
+          "assay": "Reverse-phase Protein MicroArray (RPMA)",
+          "species": "Human, Mouse",
+          "relevant_quote": "In comparison with normal ataxin-3, expanded ataxin-3 caused a pro-survival stimulation of the ERK pathway along with reduced pro-apoptotic and transcriptional responses.",
+          "pmid": "33741019"
+        }
+      ],
+      "pmids": [
+        "33741019"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "main_to_primary",
+      "function_effect": "activation",
+      "arrow_context": {
+        "direct_from": null,
+        "direct_arrow": "activates",
+        "net_from": "ATXN3",
+        "net_arrow": "activates",
+        "mediator_chain": [],
+        "is_indirect": true
+      },
+      "net_arrow": "activates",
+      "direct_arrow": "activates",
+      "net_effect": "activation",
+      "direct_effect": "activation"
+    }
+  ],
+  "arrow": "activates",
+  "direction": "main_to_primary",
+  "intent": "regulation of phosphorylation",
+  "mechanism": "In models of spinocerebellar ataxia type 3 (SCA3), the expression of polyglutamine-expanded ATXN3 leads to the stimulation of the ERK pathway, a component of the MAPK signaling cascade.",
+  "effect": "The presence of mutant ATXN3 stimulates the ERK (MAPK3/MAPK1) signaling pathway, which may represent a compensatory pro-survival cellular response.",
+  "summary": "ATXN3 activates MAPK3 to modulate erk pro-survival signaling, ultimately affecting neuronal survival is promoted.",
+  "evidence": [
+    {
+      "paper_title": "Neurodegenerative phosphoprotein signaling landscape in models of SCA3",
+      "doi": "10.1186/s13041-020-00723-0",
+      "authors": "Sowa AS, Popova TG, Harmuth T, Weber JJ, Pereira Sena P, Schmidt J, Hübener-Schmid J, Schmidt T",
+      "journal": "Molecular Brain",
+      "year": 2021,
+      "assay": "Reverse-phase Protein MicroArray (RPMA)",
+      "species": "Human, Mouse",
+      "relevant_quote": "In comparison with normal ataxin-3, expanded ataxin-3 caused a pro-survival stimulation of the ERK pathway along with reduced pro-apoptotic and transcriptional responses."
+    }
+  ],
+  "interaction_effect": "activation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATXN3 --activates--> MAPK3:",
+  "protein_a": "ATXN3",
+  "protein_b": "MAPK3",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-18T20:57:38.916466Z",
+  "last_updated": "2025-11-18T20:57:38.916466Z"
+}

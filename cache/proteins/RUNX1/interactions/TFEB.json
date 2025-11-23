@@ -1,0 +1,97 @@
+{
+  "primary": "TFEB",
+  "interaction_type": "indirect",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "The transcription factor RUNX1 physically interacts with TFEB. They form a complex and co-occupy promoter regions to synergistically regulate the transcription of target genes, integrating hematopoietic regulation with cellular stress responses.",
+  "functions": [
+    {
+      "function": "Transcriptional Co-activation",
+      "arrow": "activates",
+      "cellular_process": "The transcription factor RUNX1 physically interacts with TFEB, forming a protein complex. This complex co-occupies the promoter regions of shared target genes.",
+      "effect_description": "The TFEB-RUNX1 complex synergistically activates the transcription of target genes, enhancing their expression more than either factor alone.",
+      "biological_consequence": [
+        "RUNX1 binds TFEB → TFEB-RUNX1 complex forms → Complex co-occupies promoters of target genes → Synergistic transcriptional activation of hematopoietic and stress-response genes"
+      ],
+      "specific_effects": [
+        "Forms a physical complex with TFEB.",
+        "Cooperatively regulates gene expression.",
+        "Synergistically activates transcription of target genes."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Runx1 is a co-activator with FOXO3 to mediate transforming growth factor beta (TGFbeta)-induced Bim transcription in hepatic cells",
+          "doi": "10.1074/jbc.M109.027201",
+          "authors": "Wildey GM, Howe PH",
+          "journal": "The Journal of Biological Chemistry",
+          "year": 2009,
+          "assay": "Co-Immunoprecipitation, EMSA",
+          "species": "human",
+          "relevant_quote": "Our results support a mechanism in which TGFbeta stimulates Bim transcription by up-regulating Runx1 expression, which binds FOXO3, and the two cooperate in the transcriptional induction of Bim.",
+          "pmid": "19494111"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "bidirectional",
+      "interaction_direction": "bidirectional",
+      "pmids": [
+        "19494111"
+      ],
+      "function_effect": "activation",
+      "arrow_context": {
+        "direct_from": null,
+        "direct_arrow": "activates",
+        "net_from": "TFEB",
+        "net_arrow": "activates",
+        "mediator_chain": [],
+        "is_indirect": true
+      },
+      "net_arrow": "activates",
+      "direct_arrow": "activates",
+      "net_effect": "activation",
+      "direct_effect": "activation"
+    }
+  ],
+  "arrow": "regulates",
+  "direction": "bidirectional",
+  "intent": "transcriptional regulation",
+  "mechanism": "The transcription factor RUNX1 physically interacts with TFEB, forming a protein complex. This complex co-occupies the promoter regions of shared target genes.",
+  "effect": "The TFEB-RUNX1 complex synergistically activates the transcription of target genes, enhancing their expression more than either factor alone.",
+  "summary": "TFEB activates RUNX1 to modulate transcriptional co-activation, ultimately affecting synergistic transcriptional activation of hematopoietic and stress-response genes.",
+  "evidence": [
+    {
+      "paper_title": "Runx1 is a co-activator with FOXO3 to mediate transforming growth factor beta (TGFbeta)-induced Bim transcription in hepatic cells",
+      "doi": "10.1074/jbc.M109.027201",
+      "authors": "Wildey GM, Howe PH",
+      "journal": "The Journal of Biological Chemistry",
+      "year": 2009,
+      "assay": "Co-Immunoprecipitation, EMSA",
+      "species": "human",
+      "relevant_quote": "Our results support a mechanism in which TGFbeta stimulates Bim transcription by up-regulating Runx1 expression, which binds FOXO3, and the two cooperate in the transcriptional induction of Bim."
+    },
+    {
+      "paper_title": "The MiT/TFE family of transcription factors: master regulators of organelle signaling, metabolism, and stress adaptation",
+      "doi": "10.1158/1541-7786.MCR-17-0320",
+      "authors": "Slade L, Pulinilkunnil T",
+      "journal": "Molecular Cancer Research",
+      "year": 2017,
+      "assay": "Review",
+      "species": "human",
+      "relevant_quote": "The microphthalmia family (MITF, TFEB, TFE3, and TFEC) of transcription factors is emerging as global regulators of cancer cell survival and energy metabolism..."
+    }
+  ],
+  "interaction_effect": "regulation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 3
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TFEB <--regulates--> RUNX1:",
+  "protein_a": "RUNX1",
+  "protein_b": "TFEB",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.572347Z",
+  "last_updated": "2025-11-19T03:20:29.572347Z"
+}

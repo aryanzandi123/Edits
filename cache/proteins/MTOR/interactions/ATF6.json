@@ -1,0 +1,133 @@
+{
+  "primary": "ATF6",
+  "interaction_type": "indirect",
+  "support_summary": "ATF6 acts as a transcriptional activator of Rheb, a small GTPase that is a potent activator of the mTORC1 complex. This links the ER stress response to the regulation of cell growth and protein synthesis. However, in some contexts, such as in certain cancer cells, inhibition of ATF6 has been observed to correlate with mTOR activation, suggesting a complex, context-dependent relationship.",
+  "functions": [
+    {
+      "function": "mTORC1 Signaling",
+      "arrow": "activates",
+      "cellular_process": "During physiological or pathological growth stimuli (e.g., exercise, pressure overload in the heart) or in dormant tumor cells, activated ATF6 binds to the promoter of the Rheb gene, inducing its transcription. The increased expression of Rheb leads to the activation of the mTORC1 complex, a master regulator of protein synthesis and cell growth.",
+      "effect_description": "ATF6-mediated transcriptional upregulation of Rheb leads to the activation of the mTORC1 complex, promoting protein synthesis and cell growth.",
+      "biological_consequence": [
+        "Growth Stimuli → ATF6 Activation → Rheb Transcription → mTORC1 Activation → S6K/4E-BP1 Phosphorylation → Increased Protein Synthesis & Cell Growth → Cardiac Hypertrophy",
+        "Dormancy/Stress → ATF6α Activation → Rheb Transcription → mTORC1 Activation → Akt-Independent Cell Survival"
+      ],
+      "specific_effects": [
+        "ATF6 is a previously unrecognized link between growth stimuli and mTORC1-mediated cardiac growth.",
+        "ATF6α-Rheb-mTOR axis provides a survival signal in dormant cancer cells.",
+        "Inhibition of ATF6 in some cancer cells correlates with mTOR activation."
+      ],
+      "evidence": [
+        {
+          "paper_title": "ATF6 Regulates Cardiac Hypertrophy by Transcriptional Induction of the mTORC1 Activator, Rheb",
+          "doi": "10.1161/CIRCRESAHA.118.313854",
+          "authors": "Erik A Blackwood, Christoph Hofmann, Michelle Santo Domingo, Alina S Bilal, Anup Sarakki, Winston Stauffer, Adrian Arrieta, Donna J Thuerauf, Fred W Kolkhorst, Oliver J Müller, Tobias Jakobi, Christoph Dieterich, Hugo A Katus, Shirin Doroudgar, Christopher C Glembotski",
+          "journal": "Circulation Research",
+          "year": 2019,
+          "assay": "ChIP-seq, RNA-seq, Western Blot, AAV-mediated gene delivery",
+          "species": "mouse, rat",
+          "relevant_quote": "Compensatory cardiac hypertrophy activates ATF6, which induces Rheb and activates mTORC1. Thus, ATF6 is a previously unrecognized link between growth stimuli and mTORC1-mediated cardiac growth.",
+          "pmid": "30582446"
+        },
+        {
+          "paper_title": "ATF6α-Rheb-mTOR signaling promotes survival of dormant tumor cells in vivo",
+          "doi": "10.1073/pnas.0800939105",
+          "authors": "Denis M Schewe, Julio A Aguirre-Ghiso",
+          "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+          "year": 2008,
+          "assay": "siRNA Knockdown, Gene Expression Profiling, Western Blot",
+          "species": "human, mouse",
+          "relevant_quote": "Downstream, ATF6α induces survival through the up-regulation of Rheb and activation of mTOR signaling independent of Akt.",
+          "pmid": "18650380"
+        },
+        {
+          "paper_title": "ATF6 supports lysosomal function in tumor cells to enable ER stress-activated macroautophagy and CMA: impact on mutant TP53 expression",
+          "doi": "10.1080/15548627.2024.2338577",
+          "authors": "Rossella Benedetti, Maria Anele Romeo, Andrea Arena, Maria Saveria Gilardini Montani, Gabriella D'Orazi, Mara Cirone",
+          "journal": "Autophagy",
+          "year": 2024,
+          "assay": "Western Blot, Pharmacological Inhibition",
+          "species": "human",
+          "relevant_quote": "inhibition of ATF6 correlated with the activation of MTOR and with TFEB and LAMP1 downregulation in thapsigargin-treated MUT TP53 carrying cells.",
+          "pmid": "38566314"
+        }
+      ],
+      "pmids": [
+        "30582446",
+        "18650380",
+        "38566314"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "main_to_primary",
+      "function_effect": "activation",
+      "arrow_context": {
+        "direct_from": null,
+        "direct_arrow": "activates",
+        "net_from": "ATF6",
+        "net_arrow": "activates",
+        "mediator_chain": [],
+        "is_indirect": true
+      },
+      "net_arrow": "activates",
+      "direct_arrow": "activates",
+      "net_effect": "activation",
+      "direct_effect": "activation"
+    }
+  ],
+  "arrows": {
+    "main_to_primary": [
+      "activates"
+    ]
+  },
+  "arrow": "activates",
+  "direction": "primary_to_main",
+  "intent": "regulation",
+  "mechanism": "During physiological or pathological growth stimuli (e.g., exercise, pressure overload in the heart) or in dormant tumor cells, activated ATF6 binds to the promoter of the Rheb gene, inducing its transcription. The increased expression of Rheb leads to the activation of the mTORC1 complex, a master regulator of protein synthesis and cell growth.",
+  "effect": "ATF6-mediated transcriptional upregulation of Rheb leads to the activation of the mTORC1 complex, promoting protein synthesis and cell growth.",
+  "summary": "ATF6 activates mTOR to modulate mtorc1 signaling, ultimately affecting cardiac hypertrophy.",
+  "evidence": [
+    {
+      "paper_title": "ATF6 Regulates Cardiac Hypertrophy by Transcriptional Induction of the mTORC1 Activator, Rheb",
+      "doi": "10.1161/CIRCRESAHA.118.313854",
+      "authors": "Erik A Blackwood, Christoph Hofmann, Michelle Santo Domingo, Alina S Bilal, Anup Sarakki, Winston Stauffer, Adrian Arrieta, Donna J Thuerauf, Fred W Kolkhorst, Oliver J Müller, Tobias Jakobi, Christoph Dieterich, Hugo A Katus, Shirin Doroudgar, Christopher C Glembotski",
+      "journal": "Circulation Research",
+      "year": 2019,
+      "assay": "ChIP-seq, RNA-seq, Western Blot, AAV-mediated gene delivery",
+      "species": "mouse, rat",
+      "relevant_quote": "Compensatory cardiac hypertrophy activates ATF6, which induces Rheb and activates mTORC1. Thus, ATF6 is a previously unrecognized link between growth stimuli and mTORC1-mediated cardiac growth."
+    },
+    {
+      "paper_title": "ATF6α-Rheb-mTOR signaling promotes survival of dormant tumor cells in vivo",
+      "doi": "10.1073/pnas.0800939105",
+      "authors": "Denis M Schewe, Julio A Aguirre-Ghiso",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "year": 2008,
+      "assay": "siRNA Knockdown, Gene Expression Profiling, Western Blot",
+      "species": "human, mouse",
+      "relevant_quote": "Downstream, ATF6α induces survival through the up-regulation of Rheb and activation of mTOR signaling independent of Akt."
+    },
+    {
+      "paper_title": "ATF6 supports lysosomal function in tumor cells to enable ER stress-activated macroautophagy and CMA: impact on mutant TP53 expression",
+      "doi": "10.1080/15548627.2024.2338577",
+      "authors": "Rossella Benedetti, Maria Anele Romeo, Andrea Arena, Maria Saveria Gilardini Montani, Gabriella D'Orazi, Mara Cirone",
+      "journal": "Autophagy",
+      "year": 2024,
+      "assay": "Western Blot, Pharmacological Inhibition",
+      "species": "human",
+      "relevant_quote": "inhibition of ATF6 correlated with the activation of MTOR and with TFEB and LAMP1 downregulation in thapsigargin-treated MUT TP53 carrying cells."
+    }
+  ],
+  "interaction_effect": "activation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATF6 --activates--> mTOR:",
+  "protein_a": "mTOR",
+  "protein_b": "ATF6",
+  "discovered_in_query": "ATF6",
+  "first_discovered": "2025-11-18T21:01:00.302774Z",
+  "last_updated": "2025-11-18T21:01:00.302774Z"
+}

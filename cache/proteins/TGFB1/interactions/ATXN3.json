@@ -1,0 +1,97 @@
+{
+  "primary": "ATXN3",
+  "interaction_type": "indirect",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 2,
+  "support_summary": "Transcriptional profiling of mouse embryonic fibroblasts lacking ATXN3 revealed that multiple components of the TGF-β signaling pathway are significantly upregulated. This suggests that wild-type ATXN3 normally functions to repress this pathway, and its loss-of-function contributes to the transcriptional dysregulation observed in SCA3.",
+  "functions": [
+    {
+      "function": "TGF-β Signaling Repression",
+      "arrow": "activates",
+      "cellular_process": "Wild-type ATXN3 acts as a transcriptional repressor. Transcriptomic studies show that in the absence of ATXN3, genes within the TGF-β signaling pathway are significantly upregulated, indicating that ATXN3's normal function involves the suppression of this pathway.",
+      "effect_description": "The transcriptional repression of the TGF-β signaling pathway is inhibited, leading to its aberrant elevation.",
+      "biological_consequence": [
+        "Wild-type ATXN3 binds target gene promoters → Transcriptional machinery is blocked → TGF-β pathway gene expression is repressed → Normal cellular signaling is maintained",
+        "Loss of ATXN3 function → Repression of TGF-β pathway genes is lifted → TGF-β pathway gene expression is upregulated → Transcriptional dysregulation occurs"
+      ],
+      "specific_effects": [
+        "Loss of ATXN3 in mouse embryonic fibroblasts leads to elevated expression of genes in the TGF-β pathway."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Loss of the Spinocerebellar Ataxia type 3 disease protein ATXN3 alters transcription of multiple signal transduction pathways",
+          "doi": "10.1371/journal.pone.0204438",
+          "authors": "Zeng L, Zhang D, McLoughlin HS, Zalon AJ, Aravind L, Paulson HL",
+          "journal": "PLoS One",
+          "year": 2018,
+          "assay": "Microarray analysis, qRT-PCR",
+          "species": "mouse",
+          "relevant_quote": "Differentially expressed genes in the absence of ATXN3 contribute to multiple signal transduction pathways, suggesting a status switch of signaling pathways including... elevated growth factor pathways such as Prolactin, TGF-β, and Ephrin pathways.",
+          "pmid": "30231063"
+        }
+      ],
+      "_context": {
+        "type": "indirect",
+        "query_protein": null,
+        "chain": null
+      },
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "30231063"
+      ],
+      "function_effect": "activation",
+      "arrow_context": {
+        "direct_from": null,
+        "direct_arrow": "activates",
+        "net_from": "ATXN3",
+        "net_arrow": "activates",
+        "mediator_chain": [],
+        "is_indirect": true
+      },
+      "net_arrow": "activates",
+      "direct_arrow": "activates",
+      "net_effect": "activation",
+      "direct_effect": "activation"
+    }
+  ],
+  "arrow": "inhibits",
+  "direction": "primary_to_main",
+  "intent": "transcriptional regulation",
+  "arrows": {
+    "main_to_primary": [
+      "inhibits"
+    ]
+  },
+  "_chain_inferred": true,
+  "mechanism": "Wild-type ATXN3 acts as a transcriptional repressor. Transcriptomic studies show that in the absence of ATXN3, genes within the TGF-β signaling pathway are significantly upregulated, indicating that ATXN3's normal function involves the suppression of this pathway.",
+  "effect": "The transcriptional repression of the TGF-β signaling pathway is inhibited, leading to its aberrant elevation.",
+  "summary": "ATXN3 inhibits TGFB1 to modulate tgf-β signaling repression, ultimately affecting normal cellular signaling is maintained.",
+  "evidence": [
+    {
+      "paper_title": "Loss of the Spinocerebellar Ataxia type 3 disease protein ATXN3 alters transcription of multiple signal transduction pathways",
+      "doi": "10.1371/journal.pone.0204438",
+      "authors": "Zeng L, Zhang D, McLoughlin HS, Zalon AJ, Aravind L, Paulson HL",
+      "journal": "PLoS One",
+      "year": 2018,
+      "assay": "Microarray analysis, qRT-PCR",
+      "species": "mouse",
+      "relevant_quote": "Differentially expressed genes in the absence of ATXN3 contribute to multiple signal transduction pathways, suggesting a status switch of signaling pathways including... elevated growth factor pathways such as Prolactin, TGF-β, and Ephrin pathways."
+    }
+  ],
+  "interaction_effect": "inhibition",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATXN3 --inhibits--> TGFB1:",
+  "protein_a": "TGFB1",
+  "protein_b": "ATXN3",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-18T20:57:38.918640Z",
+  "last_updated": "2025-11-18T20:57:38.918640Z"
+}

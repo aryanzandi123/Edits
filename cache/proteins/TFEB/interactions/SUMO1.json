@@ -1,0 +1,102 @@
+{
+  "primary": "SUMO1",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "TFEB undergoes direct post-translational modification by SUMO1 (SUMOylation). This modification inhibits TFEB's transcriptional activity, thereby suppressing lysosomal biogenesis and autophagy. De-SUMOylation, in contrast, enhances TFEB activity.",
+  "functions": [
+    {
+      "function": "Inhibition of TFEB Transcriptional Activity by SUMOylation",
+      "arrow": "activates",
+      "cellular_process": "TFEB is post-translationally modified by the covalent attachment of SUMO1 to specific lysine residues. This SUMOylation event attenuates the transcriptional activity of TFEB.",
+      "effect_description": "SUMOylation of TFEB reduces its ability to bind to the promoters of its target genes, leading to decreased expression of genes involved in lysosomal biogenesis and autophagy.",
+      "biological_consequence": [
+        "SUMO1-mediated SUMOylation of TFEB → Inhibition of TFEB transcriptional activity → Decreased expression of lysosomal & autophagy genes → Impaired lipid clearance in macrophages → Promotion of macrophage foam cell formation"
+      ],
+      "specific_effects": [
+        "Directly modifies TFEB via SUMOylation.",
+        "Inhibits the transcriptional activity of TFEB.",
+        "Suppresses lysosomal biogenesis and autophagy."
+      ],
+      "evidence": [
+        {
+          "paper_title": "TFEB SUMOylation in macrophages accelerates atherosclerosis by promoting the formation of foam cells through inhibiting lysosomal activity",
+          "doi": "10.1007/s00018-023-04981-8",
+          "authors": "Wang K, Zhou W, Hu G, Wang L, Cai R, Tian T",
+          "journal": "Cellular and Molecular Life Sciences",
+          "year": 2023,
+          "assay": "Co-Immunoprecipitation, Western Blot",
+          "species": "human, mouse",
+          "relevant_quote": "Our study demonstrated that in AS, deSUMOylation of TFEB could inhibit the formation of macrophage foam cells through enhancing lysosomal biogenesis and autophagy...",
+          "pmid": "37950772"
+        },
+        {
+          "paper_title": "Transcription Factor EB SUMOylation in Airway Epithelial Cells Impairs Lysosomal Biogenesis to Promote Asthma Development",
+          "doi": "10.1165/rcmb.2024-0191OC",
+          "authors": "Zhang Y, Chen D, Wang Y, Zhang L, Xu Y, Li Y, Wang G, Wang Y, Zhang L",
+          "journal": "American Journal of Respiratory Cell and Molecular Biology",
+          "year": 2024,
+          "assay": "Immunoprecipitation, Western Blot",
+          "species": "human, mouse",
+          "relevant_quote": "Our observations demonstrate that TFEB SUMOylation interferes with lysosomal biogenesis, contributing to asthma pathogenesis...",
+          "pmid": "39998815"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "primary_to_main",
+      "interaction_direction": "primary_to_main",
+      "pmids": [
+        "37950772",
+        "39998815"
+      ],
+      "function_effect": "activation"
+    }
+  ],
+  "arrow": "inhibits",
+  "direction": "primary_to_main",
+  "intent": "sumoylation",
+  "arrows": {
+    "primary_to_main": [
+      "inhibits"
+    ]
+  },
+  "mechanism": "TFEB is post-translationally modified by the covalent attachment of SUMO1 to specific lysine residues. This SUMOylation event attenuates the transcriptional activity of TFEB.",
+  "effect": "SUMOylation of TFEB reduces its ability to bind to the promoters of its target genes, leading to decreased expression of genes involved in lysosomal biogenesis and autophagy.",
+  "summary": "TFEB inhibits SUMO1 to modulate inhibition of tfeb transcriptional activity by sumoylation, ultimately affecting promotion of macrophage foam cell formation.",
+  "evidence": [
+    {
+      "paper_title": "TFEB SUMOylation in macrophages accelerates atherosclerosis by promoting the formation of foam cells through inhibiting lysosomal activity",
+      "doi": "10.1007/s00018-023-04981-8",
+      "authors": "Wang K, Zhou W, Hu G, Wang L, Cai R, Tian T",
+      "journal": "Cellular and Molecular Life Sciences",
+      "year": 2023,
+      "assay": "Co-Immunoprecipitation, Western Blot",
+      "species": "human, mouse",
+      "relevant_quote": "Our study demonstrated that in AS, deSUMOylation of TFEB could inhibit the formation of macrophage foam cells through enhancing lysosomal biogenesis and autophagy..."
+    },
+    {
+      "paper_title": "Transcription Factor EB SUMOylation in Airway Epithelial Cells Impairs Lysosomal Biogenesis to Promote Asthma Development",
+      "doi": "10.1165/rcmb.2024-0191OC",
+      "authors": "Zhang Y, Chen D, Wang Y, Zhang L, Xu Y, Li Y, Wang G, Wang Y, Zhang L",
+      "journal": "American Journal of Respiratory Cell and Molecular Biology",
+      "year": 2024,
+      "assay": "Immunoprecipitation, Western Blot",
+      "species": "human, mouse",
+      "relevant_quote": "Our observations demonstrate that TFEB SUMOylation interferes with lysosomal biogenesis, contributing to asthma pathogenesis..."
+    }
+  ],
+  "interaction_effect": "inhibition",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TFEB <--inhibits-- SUMO1:",
+  "protein_a": "TFEB",
+  "protein_b": "SUMO1",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.550732Z",
+  "last_updated": "2025-11-19T03:20:29.550732Z"
+}

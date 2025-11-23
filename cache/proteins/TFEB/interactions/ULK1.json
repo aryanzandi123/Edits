@@ -1,0 +1,93 @@
+{
+  "primary": "ULK1",
+  "interaction_type": "indirect",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 2,
+  "support_summary": "TFEB is a direct transcriptional activator for multiple autophagy genes, including ULK1. By binding to the promoter region of the ULK1 gene, TFEB upregulates its expression, thereby promoting the initiation of autophagy.",
+  "functions": [
+    {
+      "function": "ULK1 Gene Expression",
+      "arrow": "activates",
+      "cellular_process": "TFEB acts as a direct transcriptional activator for the ULK1 gene. TFEB binds to Coordinated Lysosomal Expression and Regulation (CLEAR) elements within the promoter region of ULK1 to drive its expression.",
+      "effect_description": "TFEB-mediated upregulation of ULK1 transcription increases the cellular levels of ULK1 protein, a critical kinase that initiates the formation of autophagosomes.",
+      "biological_consequence": [
+        "TFEB translocates to the nucleus → TFEB binds to CLEAR elements in the ULK1 gene promoter → Transcription of ULK1 is activated → ULK1 protein levels increase → Autophagy initiation is enhanced"
+      ],
+      "specific_effects": [
+        "Directly upregulates the transcription of the ULK1 gene."
+      ],
+      "evidence": [
+        {
+          "paper_title": "TFEB; Beyond Its Role as an Autophagy and Lysosomes Regulator",
+          "doi": "10.3390/ijms231911762",
+          "authors": "Carla Guisado-Corcoll, David Sanchez-Osuna, Joan-Tivoni Riera-Domingo, Joaquin Serena, Oscar Kofuji, Anna M Planas, Anna M. Aragay",
+          "journal": "International Journal of Molecular Sciences",
+          "year": 2022,
+          "assay": "Review",
+          "species": "human, mouse",
+          "relevant_quote": "...the nuclear localization of SHP and TFEB is increased via PKC-mediated phosphorylation, which consequently activates the transcription of genes (Ulk1 and Atgl) that are essential for lipophagy.",
+          "pmid": "36231114"
+        },
+        {
+          "paper_title": "Transcriptional Regulation of Autophagy: Mechanisms and Diseases",
+          "doi": "10.3389/fcell.2018.00170",
+          "authors": "Fraldi A, Medina DL",
+          "journal": "Frontiers in Cell and Developmental Biology",
+          "year": 2018,
+          "assay": "Review",
+          "species": "human, mouse",
+          "relevant_quote": "Upon fasting, FXR inhibition is relieved thus allowing the CREB-CRTC2 complex to form and induce the expression of many autophagy genes, including ATG7, ULK1, and TFEB.",
+          "pmid": "31312633"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "36231114",
+        "31312633"
+      ]
+    }
+  ],
+  "arrow": "activates",
+  "direction": "main_to_primary",
+  "intent": "transcriptional regulation",
+  "arrows": {
+    "main_to_primary": [
+      "activates"
+    ]
+  },
+  "_chain_inferred": true,
+  "mechanism": "TFEB acts as a direct transcriptional activator for the ULK1 gene. TFEB binds to Coordinated Lysosomal Expression and Regulation (CLEAR) elements within the promoter region of ULK1 to drive its expression.",
+  "effect": "TFEB-mediated upregulation of ULK1 transcription increases the cellular levels of ULK1 protein, a critical kinase that initiates the formation of autophagosomes.",
+  "summary": "TFEB activates ULK1 to modulate ulk1 gene expression, ultimately affecting autophagy initiation is enhanced.",
+  "evidence": [
+    {
+      "paper_title": "TFEB; Beyond Its Role as an Autophagy and Lysosomes Regulator",
+      "doi": "10.3390/ijms231911762",
+      "authors": "Carla Guisado-Corcoll, David Sanchez-Osuna, Joan-Tivoni Riera-Domingo, Joaquin Serena, Oscar Kofuji, Anna M Planas, Anna M. Aragay",
+      "journal": "International Journal of Molecular Sciences",
+      "year": 2022,
+      "assay": "Review",
+      "species": "human, mouse",
+      "relevant_quote": "...the nuclear localization of SHP and TFEB is increased via PKC-mediated phosphorylation, which consequently activates the transcription of genes (Ulk1 and Atgl) that are essential for lipophagy."
+    },
+    {
+      "paper_title": "Transcriptional Regulation of Autophagy: Mechanisms and Diseases",
+      "doi": "10.3389/fcell.2018.00170",
+      "authors": "Fraldi A, Medina DL",
+      "journal": "Frontiers in Cell and Developmental Biology",
+      "year": 2018,
+      "assay": "Review",
+      "species": "human, mouse",
+      "relevant_quote": "Upon fasting, FXR inhibition is relieved thus allowing the CREB-CRTC2 complex to form and induce the expression of many autophagy genes, including ATG7, ULK1, and TFEB."
+    }
+  ],
+  "arrow_notation": "TFEB --activates--> ULK1:",
+  "protein_a": "TFEB",
+  "protein_b": "ULK1",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.561409Z",
+  "last_updated": "2025-11-19T03:20:29.561409Z"
+}

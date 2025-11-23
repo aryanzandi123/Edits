@@ -1,0 +1,163 @@
+{
+  "primary": "TFE3",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "As a member of the same MiT/TFE family of transcription factors, TFE3 forms functional heterodimers with TFEB. Together, they bind to Coordinated Lysosomal Expression and Regulation (CLEAR) elements in the promoters of target genes to cooperatively regulate cellular stress responses.",
+  "functions": [
+    {
+      "function": "TFEB Heterodimerization & Transcriptional Co-regulation",
+      "arrow": "activates",
+      "cellular_process": "As a member of the MiT/TFE family of basic helix-loop-helix leucine zipper transcription factors, TFE3 forms heterodimers with TFEB. This dimerization is crucial for binding to Coordinated Lysosomal Expression and Regulation (CLEAR) elements in the promoters of target genes.",
+      "effect_description": "TFE3 acts as a functional partner for TFEB, cooperatively regulating a shared network of genes involved in lysosomal biogenesis, autophagy, and cellular stress responses. Their combined action ensures a robust and often redundant transcriptional response to stimuli like starvation or lysosomal stress.",
+      "biological_consequence": [
+        "Cellular stress (e.g., starvation) → Co-translocation of TFEB and TFE3 to the nucleus → Formation of TFEB-TFE3 heterodimers → Binding to CLEAR elements in target gene promoters → Coordinated activation of lysosomal and autophagy genes → Enhanced cellular clearance capacity."
+      ],
+      "specific_effects": [
+        "Cooperatively activates the expression of genes in the CLEAR network.",
+        "Provides partial functional redundancy, as both can independently activate lysosomal biogenesis.",
+        "Amplifies transcriptional programs in response to various cellular stresses.",
+        "Together they couple the regulation of autophagy and metabolism to the peripheral circadian clock."
+      ],
+      "evidence": [
+        {
+          "paper_title": "TFEB and TFE3: Linking Lysosomes to Cellular Adaptation to Stress",
+          "doi": "10.1146/annurev-cellbio-111315-125407",
+          "authors": "Raben N, Puertollano R",
+          "journal": "Annual Review of Cell and Developmental Biology",
+          "year": 2016,
+          "assay": "Review",
+          "species": "human, mouse",
+          "relevant_quote": "More recently it was shown that TFE3 also binds CLEAR elements and induces lysosomal biogenesis and autophagy upon activation. TFE3's ability to increase number of lysosomes is TFEB-independent...",
+          "pmid": "27298091"
+        },
+        {
+          "paper_title": "TFEB and TFE3 cooperate in the regulation of the innate immune response in activated macrophages",
+          "doi": "10.1080/15548627.2016.1179405",
+          "authors": "Pastore N, Brady OA, Diab HI, Martina JA, Sun L, Huynh T, Lim JA, Zare H, Raben N, Ballabio A, Puertollano R",
+          "journal": "Autophagy",
+          "year": 2016,
+          "assay": "ChIP-seq, CRISPR-Cas9",
+          "species": "mouse",
+          "relevant_quote": "...we determined that TFEB and TFE3 collaborate with each other in activated macrophages and microglia to promote efficient autophagy induction, increased lysosomal biogenesis, and transcriptional upregulation of numerous proinflammatory cytokines.",
+          "pmid": "27171064"
+        },
+        {
+          "paper_title": "Nutrient-sensitive transcription factors TFEB and TFE3 couple autophagy and metabolism to the peripheral clock",
+          "doi": "10.15252/embj.2018101347",
+          "authors": "Pastore N, Vainshtein A, Herz NJ, Huynh T, Brunetti L, Klisch TJ, Mutarelli M, Annunziata P, Kinouchi K, Brunetti-Pierri N, Sassone-Corsi P, Ballabio A",
+          "journal": "The EMBO Journal",
+          "year": 2019,
+          "assay": "RNA-seq, ChIP-seq, Western Blot",
+          "species": "mouse",
+          "relevant_quote": "...the oscillation of autophagy genes is dependent on the nutrient-sensitive activation of TFEB and TFE3, key regulators of autophagy, lysosomal biogenesis, and cell homeostasis.",
+          "pmid": "31126958"
+        }
+      ],
+      "pmids": [
+        "27298091",
+        "27171064",
+        "31126958"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "bidirectional",
+      "function_effect": "activation"
+    },
+    {
+      "function": "p53 Transcriptional Program Amplification",
+      "arrow": "activates",
+      "cellular_process": "In response to genotoxic stress (DNA damage), TFE3 and TFEB are activated in a p53-dependent manner. They cooperate to amplify the p53-dependent transcriptional program, including the expression of pro-apoptotic genes like Bbc3 (PUMA) and Bax.",
+      "effect_description": "TFE3 and TFEB act downstream of p53 to sustain and amplify the cellular response to DNA damage, linking lysosomal stress responses to genome integrity pathways and facilitating apoptosis.",
+      "biological_consequence": [
+        "Genotoxic DNA damage → p53 protein activation and stabilization → Nuclear translocation of TFE3/TFEB → TFE3/TFEB amplify p53-dependent transcription → Increased expression of pro-apoptotic genes (e.g., Bbc3/PUMA, Bax) → Facilitation of DNA damage-induced apoptosis."
+      ],
+      "specific_effects": [
+        "Promotes transcription of p53 target genes including Trp53inp1, Mdm2, Bbc3, and Bax.",
+        "Contributes to DNA damage-induced lysosomal membrane permeabilization.",
+        "Facilitates apoptotic cell death following prolonged DNA damage.",
+        "Stabilize p53 protein levels by regulating Mdm2 expression."
+      ],
+      "evidence": [
+        {
+          "paper_title": "The transcription factors TFE3 and TFEB amplify p53 dependent transcriptional programs in response to DNA damage",
+          "doi": "10.7554/eLife.40856",
+          "authors": "Jeong E, Brady OA, Martina JA, Pirooznia M, Tunc I, Puertollano R",
+          "journal": "eLife",
+          "year": 2018,
+          "assay": "RNA-Seq, Western Blot, CRISPR-Cas9",
+          "species": "mouse",
+          "relevant_quote": "Here we demonstrate that DNA damage activates TFE3 and TFEB in a p53 and mTORC1 dependent manner. RNA-Seq analysis of TFEB/TFE3 double-knockout cells exposed to etoposide reveals a profound dysregulation of the DNA damage response...",
+          "pmid": "30520728"
+        }
+      ],
+      "pmids": [
+        "30520728"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "bidirectional",
+      "function_effect": "activation"
+    }
+  ],
+  "arrow": "complex",
+  "direction": "bidirectional",
+  "intent": "transcriptional co-regulation",
+  "mechanism": "As a member of the MiT/TFE family of basic helix-loop-helix leucine zipper transcription factors, TF; In response to genotoxic stress (DNA damage), TFE3 and TFEB are activated in a p53-dependent manner",
+  "effect": "TFE3 acts as a functional partner for TFEB, cooperatively regulating a shared network of genes involved in lysosomal biogenesis, autophagy, and cellular stress responses. Their combined action ensures a robust and often redundant transcriptional response to stimuli like starvation or lysosomal stress.; TFE3 and TFEB act downstream of p53 to sustain and amplify the cellular response to DNA damage, linking lysosomal stress responses to genome integrity pathways and facilitating apoptosis.",
+  "summary": "TFEB activates TFE3 to regulate tfeb heterodimerization & transcriptional co-regulation and p53 transcriptional program amplification, ultimately affecting enhanced cellular clearance capacity.",
+  "evidence": [
+    {
+      "paper_title": "TFEB and TFE3: Linking Lysosomes to Cellular Adaptation to Stress",
+      "doi": "10.1146/annurev-cellbio-111315-125407",
+      "authors": "Raben N, Puertollano R",
+      "journal": "Annual Review of Cell and Developmental Biology",
+      "year": 2016,
+      "assay": "Review",
+      "species": "human, mouse",
+      "relevant_quote": "More recently it was shown that TFE3 also binds CLEAR elements and induces lysosomal biogenesis and autophagy upon activation. TFE3's ability to increase number of lysosomes is TFEB-independent..."
+    },
+    {
+      "paper_title": "TFEB and TFE3 cooperate in the regulation of the innate immune response in activated macrophages",
+      "doi": "10.1080/15548627.2016.1179405",
+      "authors": "Pastore N, Brady OA, Diab HI, Martina JA, Sun L, Huynh T, Lim JA, Zare H, Raben N, Ballabio A, Puertollano R",
+      "journal": "Autophagy",
+      "year": 2016,
+      "assay": "ChIP-seq, CRISPR-Cas9",
+      "species": "mouse",
+      "relevant_quote": "...we determined that TFEB and TFE3 collaborate with each other in activated macrophages and microglia to promote efficient autophagy induction, increased lysosomal biogenesis, and transcriptional upregulation of numerous proinflammatory cytokines."
+    },
+    {
+      "paper_title": "Nutrient-sensitive transcription factors TFEB and TFE3 couple autophagy and metabolism to the peripheral clock",
+      "doi": "10.15252/embj.2018101347",
+      "authors": "Pastore N, Vainshtein A, Herz NJ, Huynh T, Brunetti L, Klisch TJ, Mutarelli M, Annunziata P, Kinouchi K, Brunetti-Pierri N, Sassone-Corsi P, Ballabio A",
+      "journal": "The EMBO Journal",
+      "year": 2019,
+      "assay": "RNA-seq, ChIP-seq, Western Blot",
+      "species": "mouse",
+      "relevant_quote": "...the oscillation of autophagy genes is dependent on the nutrient-sensitive activation of TFEB and TFE3, key regulators of autophagy, lysosomal biogenesis, and cell homeostasis."
+    },
+    {
+      "paper_title": "The transcription factors TFE3 and TFEB amplify p53 dependent transcriptional programs in response to DNA damage",
+      "doi": "10.7554/eLife.40856",
+      "authors": "Jeong E, Brady OA, Martina JA, Pirooznia M, Tunc I, Puertollano R",
+      "journal": "eLife",
+      "year": 2018,
+      "assay": "RNA-Seq, Western Blot, CRISPR-Cas9",
+      "species": "mouse",
+      "relevant_quote": "Here we demonstrate that DNA damage activates TFE3 and TFEB in a p53 and mTORC1 dependent manner. RNA-Seq analysis of TFEB/TFE3 double-knockout cells exposed to etoposide reveals a profound dysregulation of the DNA damage response..."
+    }
+  ],
+  "interaction_effect": "complex formation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 4
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TFEB <--complex--> TFE3:",
+  "protein_a": "TFEB",
+  "protein_b": "TFE3",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.512678Z",
+  "last_updated": "2025-11-19T03:20:29.512678Z"
+}

@@ -1,0 +1,80 @@
+{
+  "primary": "HSPA8",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "The ubiquitin-interacting motifs (UIMs) of ATXN3 directly interact with the chaperone Hsc70 (HSPA8). This interaction paradoxically enhances the aggregation and toxicity of pathogenic, polyglutamine-expanded ATXN3, making HSPA8 a potential enhancer of SCA3 pathology.",
+  "functions": [
+    {
+      "function": "ATXN3 Aggregation",
+      "arrow": "activates",
+      "cellular_process": "The chaperone Hsc70 (HSPA8) directly interacts with the ubiquitin-interacting motifs (UIMs) of ATXN3.",
+      "effect_description": "This interaction facilitates inter-molecular ATXN3 associations, thereby enhancing the aggregation and increasing the toxicity of pathogenic polyQ-expanded ATXN3.",
+      "biological_consequence": [
+        "HSPA8 chaperone binds to the UIM domains of ATXN3 → Inter-molecular ATXN3 interactions are promoted → Aggregation of pathogenic ATXN3 is enhanced → Cellular toxicity and neurodegeneration are increased"
+      ],
+      "specific_effects": [
+        "The interaction between ATXN3 and HSPA8 is mediated by the UIMs of ATXN3.",
+        "Reduction of Hsc70 diminishes ataxin-3 toxicity in a UIM-dependent manner.",
+        "Hsc70-4 (Drosophila ortholog of HSPA8) enhances aggregation and toxicity of pathogenic ataxin-3."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Ubiquitin-interacting motifs of ataxin-3 regulate its polyglutamine toxicity through Hsc70-4-dependent aggregation",
+          "doi": "10.7554/eLife.60742",
+          "authors": "Johnson SL, Ranxhi B, Libohova K, Tsou WL, Todi SV",
+          "journal": "eLife",
+          "year": 2020,
+          "assay": "Co-immunoprecipitation, LC/MS/MS",
+          "species": "Drosophila melanogaster, human (inferred)",
+          "relevant_quote": "We found that ataxin-3 pathogenicity is saliently controlled by polyglutamine-adjacent ubiquitin-interacting motifs (UIMs) that enhance aggregation and toxicity. UIMs function by interacting with the heat shock protein, Hsc70-4...",
+          "pmid": "32955441"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "primary_to_main",
+      "pmids": [
+        "32955441"
+      ],
+      "function_effect": "activation"
+    }
+  ],
+  "arrow": "regulates",
+  "direction": "primary_to_main",
+  "intent": "protein aggregation",
+  "arrows": {
+    "main_to_primary": [
+      "activates"
+    ]
+  },
+  "mechanism": "The chaperone Hsc70 (HSPA8) directly interacts with the ubiquitin-interacting motifs (UIMs) of ATXN3.",
+  "effect": "This interaction facilitates inter-molecular ATXN3 associations, thereby enhancing the aggregation and increasing the toxicity of pathogenic polyQ-expanded ATXN3.",
+  "summary": "ATXN3 activates HSPA8 to modulate atxn3 aggregation, ultimately affecting cellular toxicity and neurodegeneration are increased.",
+  "evidence": [
+    {
+      "paper_title": "Ubiquitin-interacting motifs of ataxin-3 regulate its polyglutamine toxicity through Hsc70-4-dependent aggregation",
+      "doi": "10.7554/eLife.60742",
+      "authors": "Johnson SL, Ranxhi B, Libohova K, Tsou WL, Todi SV",
+      "journal": "eLife",
+      "year": 2020,
+      "assay": "Co-immunoprecipitation, LC/MS/MS",
+      "species": "Drosophila melanogaster, human (inferred)",
+      "relevant_quote": "We found that ataxin-3 pathogenicity is saliently controlled by polyglutamine-adjacent ubiquitin-interacting motifs (UIMs) that enhance aggregation and toxicity. UIMs function by interacting with the heat shock protein, Hsc70-4..."
+    }
+  ],
+  "interaction_effect": "regulates",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 4
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATXN3 <--regulates-- HSPA8:",
+  "protein_a": "ATXN3",
+  "protein_b": "HSPA8",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-18T20:57:38.935006Z",
+  "last_updated": "2025-11-18T20:57:38.935006Z"
+}

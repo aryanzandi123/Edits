@@ -1,0 +1,95 @@
+{
+  "primary": "ATF6",
+  "interaction_type": "indirect",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 2,
+  "support_summary": "ATF6α is crucial for maintaining lipid homeostasis under ER stress. In ATF6α knockout mice, pharmacological ER stress leads to the destabilization of Apolipoprotein B-100 (ApoB-100), which suppresses the formation and secretion of very-low-density lipoprotein (VLDL) and results in hepatic steatosis.",
+  "functions": [
+    {
+      "function": "VLDL Assembly and Secretion",
+      "arrow": "activates",
+      "cellular_process": "ATF6 activation upregulates genes involved in the formation of very-low-density lipoprotein (VLDL), including chaperones and folding enzymes necessary for the proper processing and stabilization of Apolipoprotein B-100 (ApoB-100).",
+      "effect_description": "ATF6 activation promotes the stability and proper folding of ApoB-100, the core structural protein of VLDL, thereby enhancing VLDL particle assembly and secretion from hepatocytes.",
+      "biological_consequence": [
+        "ER Stress → Activation of ATF6α via UPR Pathway → Nuclear Translocation of Active ATF6α → Upregulation of Chaperone and Folding Enzyme Genes → Enhanced Folding and Stabilization of ApoB-100 → Increased VLDL Assembly and Secretion → Prevention of Hepatic Steatosis."
+      ],
+      "specific_effects": [
+        "Absence of ATF6α leads to destabilization of Apolipoprotein B-100 under ER stress.",
+        "ATF6α knockout mice exhibit suppressed very-low-density lipoprotein formation when challenged with an ER stressor.",
+        "ATF6 links the ER stress response to lipid metabolism and the prevention of steatosis."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Induction of liver steatosis and lipid droplet formation in ATF6alpha-knockout mice burdened with pharmacological endoplasmic reticulum stress",
+          "doi": "10.1091/mbc.e09-02-0133",
+          "authors": "Yamamoto K, Takahara K, Hartanto D, Yasuda S, Tsuchiya K, Muraoka M, Fukuda M, Kadokura H, Mori K",
+          "journal": "Molecular Biology of the Cell",
+          "year": 2010,
+          "assay": "Mouse model (knockout), Western Blot, qRT-PCR",
+          "species": "mouse",
+          "relevant_quote": "...suppression of very-low-density lipoprotein formation due to destabilized apolipoprotein B-100...",
+          "pmid": "20631254"
+        },
+        {
+          "paper_title": "Regulation of lipid metabolism by the unfolded protein response",
+          "doi": "10.1111/jcmm.16255",
+          "authors": "Moncan M, Pou-Promène R, Valet P, Samalens C, Le-Gonidec S",
+          "journal": "Journal of Cellular and Molecular Medicine",
+          "year": 2021,
+          "assay": "Review",
+          "species": "human",
+          "relevant_quote": "Three ER membrane proteins, namely inositol-requiring enzyme 1 (IRE1), protein kinase RNA-like ER kinase (PERK) and activating transcription factor 6 (ATF6), sense the accumulation of unfolded/misfolded proteins and are activated, initiating an integrated transcriptional programme.",
+          "pmid": "33398919"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "20631254",
+        "33398919"
+      ]
+    }
+  ],
+  "arrows": {
+    "main_to_primary": [
+      "activates"
+    ]
+  },
+  "arrow": "activates",
+  "direction": "primary_to_main",
+  "_chain_inferred": true,
+  "intent": "regulation",
+  "mechanism": "ATF6 activation upregulates genes involved in the formation of very-low-density lipoprotein (VLDL), including chaperones and folding enzymes necessary for the proper processing and stabilization of Apolipoprotein B-100 (ApoB-100).",
+  "effect": "ATF6 activation promotes the stability and proper folding of ApoB-100, the core structural protein of VLDL, thereby enhancing VLDL particle assembly and secretion from hepatocytes.",
+  "summary": "ATF6 activates Apolipoprotein B-100 to modulate vldl assembly and secretion, ultimately affecting prevention of hepatic steatosis.",
+  "evidence": [
+    {
+      "paper_title": "Induction of liver steatosis and lipid droplet formation in ATF6alpha-knockout mice burdened with pharmacological endoplasmic reticulum stress",
+      "doi": "10.1091/mbc.e09-02-0133",
+      "authors": "Yamamoto K, Takahara K, Hartanto D, Yasuda S, Tsuchiya K, Muraoka M, Fukuda M, Kadokura H, Mori K",
+      "journal": "Molecular Biology of the Cell",
+      "year": 2010,
+      "assay": "Mouse model (knockout), Western Blot, qRT-PCR",
+      "species": "mouse",
+      "relevant_quote": "...suppression of very-low-density lipoprotein formation due to destabilized apolipoprotein B-100..."
+    },
+    {
+      "paper_title": "Regulation of lipid metabolism by the unfolded protein response",
+      "doi": "10.1111/jcmm.16255",
+      "authors": "Moncan M, Pou-Promène R, Valet P, Samalens C, Le-Gonidec S",
+      "journal": "Journal of Cellular and Molecular Medicine",
+      "year": 2021,
+      "assay": "Review",
+      "species": "human",
+      "relevant_quote": "Three ER membrane proteins, namely inositol-requiring enzyme 1 (IRE1), protein kinase RNA-like ER kinase (PERK) and activating transcription factor 6 (ATF6), sense the accumulation of unfolded/misfolded proteins and are activated, initiating an integrated transcriptional programme."
+    }
+  ],
+  "arrow_notation": "ATF6 --activates--> Apolipoprotein B-100:",
+  "protein_a": "Apolipoprotein B-100",
+  "protein_b": "ATF6",
+  "discovered_in_query": "ATF6",
+  "first_discovered": "2025-11-18T21:01:00.342329Z",
+  "last_updated": "2025-11-18T21:01:00.342329Z"
+}

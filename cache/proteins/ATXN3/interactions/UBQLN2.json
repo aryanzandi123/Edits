@@ -1,0 +1,110 @@
+{
+  "primary": "UBQLN2",
+  "interaction_type": "indirect",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "Multiple studies using co-immunoprecipitation in cell culture and immunohistochemistry in mouse models and human brain tissue have demonstrated a lack of interaction between UBQLN2 and ATXN3. Unlike in Huntington's disease where UBQLN2 is recruited to polyQ aggregates, it is notably absent from ATXN3 inclusions in SCA3, highlighting a key difference in the pathobiology of these two polyglutamine disorders.",
+  "functions": [
+    {
+      "function": "Differential Protein Aggregation & Clearance",
+      "arrow": "inhibits",
+      "cellular_process": "In contrast to other polyglutamine diseases like Huntington's, UBQLN2, a key protein in the ubiquitin-proteasome pathway, does not interact with or co-localize to the protein aggregates formed by polyQ-expanded ATXN3.",
+      "effect_description": "The lack of interaction indicates that aggregated ATXN3 is not processed by UBQLN2-dependent clearance pathways, revealing a distinct disease mechanism for SCA3 compared to Huntington's disease.",
+      "biological_consequence": [
+        "PolyQ-expanded ATXN3 forms intranuclear aggregates in SCA3 → UBQLN2 fails to recognize or bind ATXN3 inclusions → ATXN3 aggregates are not processed by UBQLN2-mediated clearance pathways → Protein quality control is perturbed differently in SCA3 versus Huntington's disease"
+      ],
+      "specific_effects": [
+        "Co-immunoprecipitation studies in HEK293 cells showed that UBQLN2 failed to interact with either normal (28Q) or expanded (84Q) ATXN3.",
+        "UBQLN2 is recruited to nuclear inclusions in Huntington's disease (HD) but not in Spinocerebellar Ataxia Type 3 (SCA3) mouse models and human brain tissue.",
+        "The lack of co-localization suggests that components of neuronal protein quality control are differentially perturbed in distinct polyQ diseases."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Differential recruitment of UBQLN2 to nuclear inclusions in the polyglutamine diseases HD and SCA3",
+          "doi": "10.1016/j.nbd.2015.06.017",
+          "authors": "Zeng L, Wang B, Merrill SA, Minakawa EN, Perkins MD, Ramani B, Tallaksen-Greene SJ, Costa Mdo C, Albin RL, Paulson HL",
+          "journal": "Neurobiology of Disease",
+          "year": 2015,
+          "assay": "Co-IP, Immunohistochemistry",
+          "species": "human, mouse",
+          "relevant_quote": "Co-IP results with ATXN3 differed markedly from those with HTT. As shown in Fig. 5C, UBQLN2 failed to interact with normal or expanded ATXN3.",
+          "pmid": "26141599"
+        },
+        {
+          "paper_title": "Ubiquilin-2 differentially regulates polyglutamine disease proteins",
+          "doi": "10.1074/jbc.RA117.000101",
+          "authors": "Zeng L, Merrill SA, Ramani B, Kay J, Williams A, Albin RL, Lieberman AP, Paulson HL",
+          "journal": "The Journal of Biological Chemistry",
+          "year": 2018,
+          "assay": "Western Blot, Immunohistochemistry",
+          "species": "mouse",
+          "relevant_quote": "The differing ability of UBQLN2 to alter levels of HTT versus ATXN3 is consistent with our earlier report that UBQLN2 interacts with and localizes to inclusions of HTT but not of ATXN3...",
+          "pmid": "32681165"
+        }
+      ],
+      "interaction_effect": "inhibits",
+      "direction": "none",
+      "interaction_direction": "none",
+      "pmids": [
+        "26141599",
+        "32681165"
+      ],
+      "function_effect": "inhibition",
+      "arrow_context": {
+        "direct_from": null,
+        "direct_arrow": "inhibits",
+        "net_from": "ATXN3",
+        "net_arrow": "inhibits",
+        "mediator_chain": [],
+        "is_indirect": true
+      },
+      "net_arrow": "inhibits",
+      "direct_arrow": "inhibits",
+      "net_effect": "inhibition",
+      "direct_effect": "inhibition"
+    }
+  ],
+  "arrow": "regulates",
+  "direction": "none",
+  "intent": "negative",
+  "arrows": {},
+  "mechanism": "In contrast to other polyglutamine diseases like Huntington's, UBQLN2, a key protein in the ubiquitin-proteasome pathway, does not interact with or co-localize to the protein aggregates formed by polyQ-expanded ATXN3.",
+  "effect": "The lack of interaction indicates that aggregated ATXN3 is not processed by UBQLN2-dependent clearance pathways, revealing a distinct disease mechanism for SCA3 compared to Huntington's disease.",
+  "summary": "ATXN3 interacts with UBQLN2 to modulate differential protein aggregation & clearance, ultimately affecting protein quality control is perturbed differently in sca3 versus huntington's disease.",
+  "evidence": [
+    {
+      "paper_title": "Differential recruitment of UBQLN2 to nuclear inclusions in the polyglutamine diseases HD and SCA3",
+      "doi": "10.1016/j.nbd.2015.06.017",
+      "authors": "Zeng L, Wang B, Merrill SA, Minakawa EN, Perkins MD, Ramani B, Tallaksen-Greene SJ, Costa Mdo C, Albin RL, Paulson HL",
+      "journal": "Neurobiology of Disease",
+      "year": 2015,
+      "assay": "Co-IP, Immunohistochemistry",
+      "species": "human, mouse",
+      "relevant_quote": "Co-IP results with ATXN3 differed markedly from those with HTT. As shown in Fig. 5C, UBQLN2 failed to interact with normal or expanded ATXN3."
+    },
+    {
+      "paper_title": "Ubiquilin-2 differentially regulates polyglutamine disease proteins",
+      "doi": "10.1074/jbc.RA117.000101",
+      "authors": "Zeng L, Merrill SA, Ramani B, Kay J, Williams A, Albin RL, Lieberman AP, Paulson HL",
+      "journal": "The Journal of Biological Chemistry",
+      "year": 2018,
+      "assay": "Western Blot, Immunohistochemistry",
+      "species": "mouse",
+      "relevant_quote": "The differing ability of UBQLN2 to alter levels of HTT versus ATXN3 is consistent with our earlier report that UBQLN2 interacts with and localizes to inclusions of HTT but not of ATXN3..."
+    }
+  ],
+  "interaction_effect": "regulates",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 4
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATXN3 --regulates-- UBQLN2:",
+  "protein_a": "ATXN3",
+  "protein_b": "UBQLN2",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-23T07:58:56.197436Z",
+  "last_updated": "2025-11-23T07:58:56.197436Z"
+}

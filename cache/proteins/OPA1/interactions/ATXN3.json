@@ -1,0 +1,97 @@
+{
+  "primary": "ATXN3",
+  "interaction_type": "indirect",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "The mutant form of ATXN3, particularly its truncated C-terminal fragment, disrupts mitochondrial dynamics. This leads to increased mitochondrial fission and a decrease in the levels of key mitochondrial fusion proteins, including OPA1 and Mitofusins, contributing to neurodegeneration in Spinocerebellar Ataxia Type 3 (SCA3).",
+  "functions": [
+    {
+      "function": "Mitochondrial Fusion",
+      "arrow": "inhibits",
+      "cellular_process": "Truncated mutant ATXN3 causes mitochondrial fragmentation by decreasing the expression of mitochondrial fusion proteins like OPA1, Mfn1, and Mfn2.",
+      "effect_description": "The expression of mutant ATXN3 impairs inner mitochondrial membrane fusion, leading to a fragmented and dysfunctional mitochondrial network.",
+      "biological_consequence": [
+        "Expression of truncated, polyQ-expanded mutant ATXN3 → Transcriptional downregulation of Mfn1, Mfn2, and OPA1 → Inhibition of outer and inner mitochondrial membrane fusion → Mitochondrial network undergoes excessive fission, leading to fragmentation → Mitochondrial dysfunction contributes to neurodegeneration in SCA3."
+      ],
+      "specific_effects": [
+        "This process is specifically linked to the toxic effects of the polyQ-expanded, truncated fragment of ATXN3."
+      ],
+      "evidence": [
+        {
+          "paper_title": "The Truncated C-terminal Fragment of Mutant ATXN3 Disrupts Mitochondria Dynamics in Spinocerebellar Ataxia Type 3 Models",
+          "doi": "10.3389/fnmol.2017.00196",
+          "authors": "Chen IH, Chen YC, Chen CM, Wu YR, Weng YS, Kuo HC, Yeh TH, Chen YJ",
+          "journal": "Frontiers in Molecular Neuroscience",
+          "year": 2017,
+          "assay": "Western Blot, Immunofluorescence",
+          "species": "mouse, human (cell line)",
+          "relevant_quote": "truncated mutant ATXN3 caused more mitochondrial fission, and decreased the expression of mitochondrial fusion markers, including Mfn-1 and Mfn-2.",
+          "pmid": "28676741"
+        },
+        {
+          "paper_title": "Mitochondrial Dysfunction in Spinocerebellar Ataxia Type 3 Is Linked to VDAC1 Deubiquitination",
+          "doi": "10.3390/ijms23115933",
+          "authors": "Harmuth T, Weber JJ, Zimmer AJ, Sowa AS, Schmidt J, Fitzgerald JC, Klinker F, Arvis M, Th-Vu M, Schaffer-Krämer S, Timmann D, Forsting M, Löbel U, Hahn S, Eskenazi S, Farrher E, Köhler C, Weiergräber M, Leypoldt F, Jeon N, den Brave F, El-Said T, Harmuth F, Köglsperger T, van Roon-Mom WMC, Riess O, Schöls L, Synofzik M, Gasser T, De Zeeuw CI, Auburger G, Brand M, Deitmer JW, van de Loo S, Timmerman V, Morales-Gordo B, Nowock J",
+          "journal": "International Journal of Molecular Sciences",
+          "year": 2022,
+          "assay": "Western Blot",
+          "species": "human",
+          "relevant_quote": "In line with observed mitochondrial morphological changes, SCA3 patient-derived fibroblasts demonstrated reduced membrane-anchored L- and soluble S-OPA1 protein levels...",
+          "pmid": "35682609"
+        }
+      ],
+      "_context": {
+        "type": "direct",
+        "query_protein": null,
+        "chain": null
+      },
+      "interaction_effect": "inhibits",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "28676741",
+        "35682609"
+      ]
+    }
+  ],
+  "arrow": "inhibits",
+  "direction": "primary_to_main",
+  "intent": "regulation of mitochondrial dynamics",
+  "arrows": {
+    "main_to_primary": [
+      "inhibits"
+    ]
+  },
+  "mechanism": "Truncated mutant ATXN3 causes mitochondrial fragmentation by decreasing the expression of mitochondrial fusion proteins like OPA1, Mfn1, and Mfn2.",
+  "effect": "The expression of mutant ATXN3 impairs inner mitochondrial membrane fusion, leading to a fragmented and dysfunctional mitochondrial network.",
+  "summary": "ATXN3 inhibits OPA1 to modulate mitochondrial fusion, ultimately affecting mitochondrial dysfunction contributes to neurodegeneration in sca3.",
+  "evidence": [
+    {
+      "paper_title": "The Truncated C-terminal Fragment of Mutant ATXN3 Disrupts Mitochondria Dynamics in Spinocerebellar Ataxia Type 3 Models",
+      "doi": "10.3389/fnmol.2017.00196",
+      "authors": "Chen IH, Chen YC, Chen CM, Wu YR, Weng YS, Kuo HC, Yeh TH, Chen YJ",
+      "journal": "Frontiers in Molecular Neuroscience",
+      "year": 2017,
+      "assay": "Western Blot, Immunofluorescence",
+      "species": "mouse, human (cell line)",
+      "relevant_quote": "truncated mutant ATXN3 caused more mitochondrial fission, and decreased the expression of mitochondrial fusion markers, including Mfn-1 and Mfn-2."
+    },
+    {
+      "paper_title": "Mitochondrial Dysfunction in Spinocerebellar Ataxia Type 3 Is Linked to VDAC1 Deubiquitination",
+      "doi": "10.3390/ijms23115933",
+      "authors": "Harmuth T, Weber JJ, Zimmer AJ, Sowa AS, Schmidt J, Fitzgerald JC, Klinker F, Arvis M, Th-Vu M, Schaffer-Krämer S, Timmann D, Forsting M, Löbel U, Hahn S, Eskenazi S, Farrher E, Köhler C, Weiergräber M, Leypoldt F, Jeon N, den Brave F, El-Said T, Harmuth F, Köglsperger T, van Roon-Mom WMC, Riess O, Schöls L, Synofzik M, Gasser T, De Zeeuw CI, Auburger G, Brand M, Deitmer JW, van de Loo S, Timmerman V, Morales-Gordo B, Nowock J",
+      "journal": "International Journal of Molecular Sciences",
+      "year": 2022,
+      "assay": "Western Blot",
+      "species": "human",
+      "relevant_quote": "In line with observed mitochondrial morphological changes, SCA3 patient-derived fibroblasts demonstrated reduced membrane-anchored L- and soluble S-OPA1 protein levels..."
+    }
+  ],
+  "arrow_notation": "ATXN3 --inhibits--> OPA1:",
+  "protein_a": "OPA1",
+  "protein_b": "ATXN3",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-18T20:57:38.971640Z",
+  "last_updated": "2025-11-18T20:57:38.971640Z"
+}

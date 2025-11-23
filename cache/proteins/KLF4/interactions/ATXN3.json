@@ -1,0 +1,76 @@
+{
+  "primary": "ATXN3",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "ATXN3 functions as a deubiquitinase for the transcription factor Krüppel-like factor 4 (KLF4), indicating a direct enzyme-substrate interaction that regulates KLF4 stability. By removing ubiquitin chains from KLF4, ATXN3 prevents its proteasomal degradation, leading to increased protein levels. This stabilization of KLF4 by ATXN3 has been shown to promote breast cancer metastasis.",
+  "functions": [
+    {
+      "function": "KLF4 Protein Stability",
+      "arrow": "activates",
+      "cellular_process": "ATXN3 acts as a deubiquitinase for the transcription factor Krüppel-like factor 4 (KLF4), directly binding to it and removing polyubiquitin chains.",
+      "effect_description": "By preventing its proteasomal degradation, ATXN3 stabilizes and increases the protein levels of KLF4, which in the context of breast cancer, enhances cancer cell metastasis.",
+      "biological_consequence": [
+        "ATXN3 binds and removes polyubiquitin chains from the KLF4 transcription factor. → KLF4 is stabilized and protected from proteasomal degradation → Increased KLF4 protein levels promote target gene expression → Enhanced breast cancer cell metastasis is observed."
+      ],
+      "specific_effects": [
+        "ATXN3 was identified as a KLF4 deubiquitinase from a screen of 65 deubiquitinating enzymes.",
+        "High expression of both ATXN3 and KLF4 is associated with a poor prognosis in breast cancer patients."
+      ],
+      "evidence": [
+        {
+          "paper_title": "ATXN3 promotes breast cancer metastasis by deubiquitinating KLF4",
+          "doi": "10.1016/j.canlet.2019.09.012",
+          "authors": "Zou S, Zhu J, Li M, Li Y, Chen N, Luo A, Wan Y, Liu Z.",
+          "journal": "Cancer Letters",
+          "year": 2019,
+          "assay": "Immunoprecipitation, in vitro and in vivo ubiquitination assays",
+          "species": "human, mouse",
+          "relevant_quote": "Subsequent immunoprecipitation assays confirmed that ATXN3 bound to KLF4, mediating the deubiquitination and stabilization of KLF4 protein levels.",
+          "pmid": "31563563"
+        }
+      ],
+      "_context": {
+        "type": "direct",
+        "query_protein": null,
+        "chain": null
+      },
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "31563563"
+      ]
+    }
+  ],
+  "arrow": "activates",
+  "direction": "primary_to_main",
+  "intent": "deubiquitination",
+  "arrows": {
+    "main_to_primary": [
+      "activates"
+    ]
+  },
+  "mechanism": "ATXN3 acts as a deubiquitinase for the transcription factor Krüppel-like factor 4 (KLF4), directly binding to it and removing polyubiquitin chains.",
+  "effect": "By preventing its proteasomal degradation, ATXN3 stabilizes and increases the protein levels of KLF4, which in the context of breast cancer, enhances cancer cell metastasis.",
+  "summary": "ATXN3 activates KLF4 to modulate klf4 protein stability, ultimately affecting enhanced breast cancer cell metastasis is observed.",
+  "evidence": [
+    {
+      "paper_title": "ATXN3 promotes breast cancer metastasis by deubiquitinating KLF4",
+      "doi": "10.1016/j.canlet.2019.09.012",
+      "authors": "Zou S, Zhu J, Li M, Li Y, Chen N, Luo A, Wan Y, Liu Z.",
+      "journal": "Cancer Letters",
+      "year": 2019,
+      "assay": "Immunoprecipitation, in vitro and in vivo ubiquitination assays",
+      "species": "human, mouse",
+      "relevant_quote": "Subsequent immunoprecipitation assays confirmed that ATXN3 bound to KLF4, mediating the deubiquitination and stabilization of KLF4 protein levels."
+    }
+  ],
+  "arrow_notation": "ATXN3 --activates--> KLF4:",
+  "protein_a": "KLF4",
+  "protein_b": "ATXN3",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-23T07:58:56.236160Z",
+  "last_updated": "2025-11-23T07:58:56.236160Z"
+}

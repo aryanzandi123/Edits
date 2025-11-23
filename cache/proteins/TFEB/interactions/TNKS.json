@@ -1,0 +1,75 @@
+{
+  "primary": "TNKS",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "Tankyrase (TNKS), a poly(ADP-ribose) polymerase, directly PARsylates TFEB in response to Wnt signaling. This post-translational modification is essential for TFEB to dissociate from the Axin1 destruction complex and subsequently interact with the β-catenin-TCF/LEF1 complex, thereby co-activating a specific subset of Wnt target genes.",
+  "functions": [
+    {
+      "function": "TFEB PARsylation & Wnt Signaling Integration",
+      "arrow": "activates",
+      "cellular_process": "Upon activation of the Wnt signaling pathway, Tankyrase (TNKS) is activated and directly PARsylates TFEB. This modification causes TFEB to be released from the Axin1-containing β-catenin destruction complex, allowing it to translocate to the nucleus.",
+      "effect_description": "TNKS-mediated PARsylation enables TFEB to function as a transcriptional co-activator within the Wnt pathway by promoting its nuclear localization and interaction with the β-catenin-TCF/LEF1 complex.",
+      "biological_consequence": [
+        "Wnt signaling activation → Tankyrase (TNKS) PARsylates TFEB → PARsylated TFEB is released from the AXIN1 destruction complex → TFEB translocates to the nucleus → TFEB co-activates Wnt target genes with CTNNB1"
+      ],
+      "specific_effects": [
+        "Directly PARsylates TFEB.",
+        "Promotes TFEB's dissociation from the Axin1 destruction complex.",
+        "Enables TFEB to act as a co-activator for Wnt target gene expression."
+      ],
+      "evidence": [
+        {
+          "paper_title": "PARsylated transcription factor EB (TFEB) regulates the expression of a subset of Wnt target genes by forming a complex with β-catenin-TCF/LEF1",
+          "year": 2021,
+          "doi": "10.1038/s12276-021-00649-z",
+          "authors": "Kim S, Song G, Lee T, Kim M, Kim J, Kwon H, Kim J, Jeong W, Lee U, Na C, Kang S, Kim W, Seong JK, Jho EH",
+          "journal": "Experimental & Molecular Medicine",
+          "assay": "Co-IP, Western Blot, RNA-sequencing",
+          "species": "human",
+          "relevant_quote": "Mechanistically, we found that Tankyrase (TNKS) PARsylates TFEB with Wnt ON signaling, and the nuclear localized PARsylated TFEB forms a complex with β-catenin-TCF/LEF1 to induce the “TFEB mediated Wnt target genes”.",
+          "pmid": "33753903"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "primary_to_main",
+      "interaction_direction": "primary_to_main",
+      "pmids": [
+        "33753903"
+      ],
+      "function_effect": "activation"
+    }
+  ],
+  "arrow": "activates",
+  "direction": "primary_to_main",
+  "intent": "PARsylation",
+  "mechanism": "Upon activation of the Wnt signaling pathway, Tankyrase (TNKS) is activated and directly PARsylates TFEB. This modification causes TFEB to be released from the Axin1-containing β-catenin destruction complex, allowing it to translocate to the nucleus.",
+  "effect": "TNKS-mediated PARsylation enables TFEB to function as a transcriptional co-activator within the Wnt pathway by promoting its nuclear localization and interaction with the β-catenin-TCF/LEF1 complex.",
+  "summary": "TFEB activates TNKS to modulate tfeb parsylation & wnt signaling integration, ultimately affecting tfeb co-activates wnt target genes with ctnnb1.",
+  "evidence": [
+    {
+      "paper_title": "PARsylated transcription factor EB (TFEB) regulates the expression of a subset of Wnt target genes by forming a complex with β-catenin-TCF/LEF1",
+      "year": 2021,
+      "doi": "10.1038/s12276-021-00649-z",
+      "authors": "Kim S, Song G, Lee T, Kim M, Kim J, Kwon H, Kim J, Jeong W, Lee U, Na C, Kang S, Kim W, Seong JK, Jho EH",
+      "journal": "Experimental & Molecular Medicine",
+      "assay": "Co-IP, Western Blot, RNA-sequencing",
+      "species": "human",
+      "relevant_quote": "Mechanistically, we found that Tankyrase (TNKS) PARsylates TFEB with Wnt ON signaling, and the nuclear localized PARsylated TFEB forms a complex with β-catenin-TCF/LEF1 to induce the “TFEB mediated Wnt target genes”."
+    }
+  ],
+  "interaction_effect": "activation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 0
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TFEB <--activates-- TNKS:",
+  "protein_a": "TFEB",
+  "protein_b": "TNKS",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.542181Z",
+  "last_updated": "2025-11-19T03:20:29.542181Z"
+}

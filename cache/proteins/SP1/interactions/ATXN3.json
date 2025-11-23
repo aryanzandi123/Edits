@@ -1,0 +1,104 @@
+{
+  "primary": "ATXN3",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "Normal ATXN3 acts as a transcriptional co-repressor by interacting with transcription factors and recruiting histone deacetylase complexes to specific gene promoters, such as the MMP-2 promoter. PolyQ-expanded ATXN3 loses this repressive function.",
+  "functions": [
+    {
+      "function": "Transcriptional Repression",
+      "arrow": "activates",
+      "cellular_process": "ATXN3 is known to interact with transcriptional regulators and can be recruited to specific gene promoters. Normal ATXN3 acts as a co-repressor, silencing gene expression by recruiting a complex containing HDAC3 and NCoR.",
+      "effect_description": "The transcriptional repressor function of ATXN3 is compromised by the polyglutamine expansion, leading to aberrant gene expression.",
+      "biological_consequence": [
+        "Normal ATXN3 is recruited to target gene promoters (e.g., MMP-2) → ATXN3 recruits the HDAC3/NCoR co-repressor complex → Local histone deacetylation is induced → Transcription of the target gene is silenced",
+        "PolyQ-expanded ATXN3 fails to properly recruit the HDAC3/NCoR complex to promoters → Histone acetylation levels remain high → Loss of transcriptional repression leads to aberrant gene expression"
+      ],
+      "specific_effects": [
+        "Normal ATXN3 binds to the promoter of the MMP-2 gene and represses its transcription. [1, 11]",
+        "PolyQ-expanded ATXN3 loses this repressor function, leading to aberrant MMP-2 transcription. [1, 11]",
+        "The interaction of ATXN3 with HDAC3 is required for its repressive function. [1, 17, 23]",
+        "ATXN3 cooperates with numerous transcriptional regulators including CBP, p300, PCAF, TBP, and NCoR. [14, 15]"
+      ],
+      "evidence": [
+        {
+          "paper_title": "Ataxin-3 represses transcription via chromatin binding, interaction with histone deacetylase 3, and histone deacetylation",
+          "doi": "10.1523/JNEUROSCI.2528-06.2006",
+          "authors": "Evert BO, Araujo J, Vieira-Saecker AM, de Vos RA, Harendza S, Klockgether T, Wüllner U",
+          "journal": "The Journal of Neuroscience",
+          "year": 2006,
+          "assay": "Co-IP, ChIP",
+          "species": "human, mouse",
+          "relevant_quote": "normal AT3 binds to target DNA sequences in specific chromatin regions of the matrix metalloproteinase-2 (MMP-2) gene promoter and represses transcription by recruitment of the histone deacetylase 3 (HDAC3)... [11]",
+          "pmid": "17079677"
+        },
+        {
+          "paper_title": "Loss of the Spinocerebellar Ataxia type 3 disease protein ATXN3 alters transcription of multiple signal transduction pathways",
+          "doi": "10.1371/journal.pone.0204438",
+          "authors": "Zeng L, Zhang D, McLoughlin HS, Zalon AJ, Aravind L, Paulson HL",
+          "journal": "PLoS One",
+          "year": 2018,
+          "assay": "RNA-seq, ChIP-qPCR",
+          "species": "mouse",
+          "relevant_quote": "A direct interaction of ATXN3 with HDAC3 and NCoR has previously been established...with only normal (i.e. not expanded) ATXN3 being associated with increased deacetylase activity and repression of gene expression. [14]",
+          "pmid": "30231063"
+        }
+      ],
+      "_context": {
+        "type": "direct",
+        "query_protein": null,
+        "chain": null
+      },
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "17079677",
+        "30231063"
+      ],
+      "function_effect": "activation"
+    }
+  ],
+  "arrow": "inhibits",
+  "direction": "primary_to_main",
+  "intent": "transcriptional repression",
+  "mechanism": "ATXN3 is known to interact with transcriptional regulators and can be recruited to specific gene promoters. Normal ATXN3 acts as a co-repressor, silencing gene expression by recruiting a complex containing HDAC3 and NCoR.",
+  "effect": "The transcriptional repressor function of ATXN3 is compromised by the polyglutamine expansion, leading to aberrant gene expression.",
+  "summary": "ATXN3 inhibits SP1 to modulate transcriptional repression, ultimately affecting transcription of the target gene is silenced.",
+  "evidence": [
+    {
+      "paper_title": "Ataxin-3 represses transcription via chromatin binding, interaction with histone deacetylase 3, and histone deacetylation",
+      "doi": "10.1523/JNEUROSCI.2528-06.2006",
+      "authors": "Evert BO, Araujo J, Vieira-Saecker AM, de Vos RA, Harendza S, Klockgether T, Wüllner U",
+      "journal": "The Journal of Neuroscience",
+      "year": 2006,
+      "assay": "Co-IP, ChIP",
+      "species": "human, mouse",
+      "relevant_quote": "normal AT3 binds to target DNA sequences in specific chromatin regions of the matrix metalloproteinase-2 (MMP-2) gene promoter and represses transcription by recruitment of the histone deacetylase 3 (HDAC3)... [11]"
+    },
+    {
+      "paper_title": "Loss of the Spinocerebellar Ataxia type 3 disease protein ATXN3 alters transcription of multiple signal transduction pathways",
+      "doi": "10.1371/journal.pone.0204438",
+      "authors": "Zeng L, Zhang D, McLoughlin HS, Zalon AJ, Aravind L, Paulson HL",
+      "journal": "PLoS One",
+      "year": 2018,
+      "assay": "RNA-seq, ChIP-qPCR",
+      "species": "mouse",
+      "relevant_quote": "A direct interaction of ATXN3 with HDAC3 and NCoR has previously been established...with only normal (i.e. not expanded) ATXN3 being associated with increased deacetylase activity and repression of gene expression. [14]"
+    }
+  ],
+  "interaction_effect": "inhibition",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATXN3 --inhibits--> SP1:",
+  "protein_a": "SP1",
+  "protein_b": "ATXN3",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-23T07:58:56.188364Z",
+  "last_updated": "2025-11-23T07:58:56.188364Z"
+}

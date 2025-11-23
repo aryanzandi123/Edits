@@ -1,0 +1,116 @@
+{
+  "primary": "ATXN3",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "ATXN3 directly interacts with and deubiquitinates the E3 ubiquitin ligase Parkin (PARK2). PolyQ-expanded ATXN3 shows enhanced activity towards Parkin, leading to its degradation and contributing to neurodegenerative pathology.",
+  "functions": [
+    {
+      "function": "Parkin Protein Stability",
+      "arrow": "inhibits",
+      "cellular_process": "ATXN3 deubiquitinates Parkin. PolyQ-expanded ATXN3 exhibits enhanced deubiquitinase activity, with a preference for cleaving K27- and K29-linked ubiquitin chains that are thought to protect Parkin from autophagic degradation.",
+      "effect_description": "By preferentially removing protective ubiquitin chains, polyQ-expanded ATXN3 promotes the autophagic degradation of Parkin, leading to reduced Parkin protein levels and impaired function.",
+      "biological_consequence": [
+        "PolyQ-expanded ATXN3 targets PARK2 for deubiquitination → ATXN3 cleaves protective K27/K29-linked ubiquitin chains from PARK2 → PARK2 becomes unstable and is targeted for autophagic degradation → Cellular PARK2 protein levels are reduced → Mitophagy and mitochondrial quality control are impaired."
+      ],
+      "specific_effects": [
+        "This effect is specific to polyQ-expanded ATXN3 and leads to a reduction of Parkin levels in MJD mouse models.",
+        "The loss of Parkin function is a primary cause of familial Parkinson's disease.",
+        "PolyQ expansion in ATXN3 enhances its deubiquitination of Parkin."
+      ],
+      "evidence": [
+        {
+          "paper_title": "The Machado-Joseph disease-associated mutant form of ataxin-3 regulates parkin ubiquitination and stability",
+          "doi": "10.1093/hmg/ddq452",
+          "authors": "Durcan TM, Kontogiannea M, Thorarinsdottir T, Fallon L, Williams AJ, Djarmati A, Fantaneanu T, Paulson HL, Fon EA",
+          "journal": "Human Molecular Genetics",
+          "year": 2011,
+          "assay": "Co-Immunoprecipitation, In vitro deubiquitination assay",
+          "species": "Human, Mouse",
+          "relevant_quote": "Compared with wild-type ataxin-3, MJD-linked polyQ-expanded mutant ataxin-3 is more active, possibly owing to its greater efficiency at DUB K27- and K29-linked Ub conjugates on parkin.",
+          "pmid": "20940148"
+        },
+        {
+          "paper_title": "Mutant ataxin-3 promotes the autophagic degradation of parkin",
+          "doi": "10.4161/auto.7.2.14224",
+          "authors": "Durcan TM, Fon EA",
+          "journal": "Autophagy",
+          "year": 2011,
+          "assay": "Review",
+          "species": "Not applicable",
+          "relevant_quote": "We reported that the mutant form of ataxin-3, the protein responsible for MJD, promotes the autophagic degradation of parkin.",
+          "pmid": "21116127"
+        },
+        {
+          "paper_title": "The deubiquitinase function of ataxin-3 and its role in the pathogenesis of Machado-Joseph disease and other diseases",
+          "doi": "10.1042/BCJ20240017",
+          "authors": "Potapenko A, Davidson JM, Lee A, Laird AS",
+          "journal": "Biochemical Journal",
+          "year": 2024,
+          "assay": "Review",
+          "species": "Not applicable",
+          "relevant_quote": "PolyQ expansion...enhances ataxin-3's deubiquitination of parkin, particularly by cleaving K27- and K29-linked ubiquitin chains...preferential cleavage...can result in enhanced autophagic degradation of parkin.",
+          "pmid": "38497605"
+        }
+      ],
+      "interaction_effect": "inhibits",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "20940148",
+        "21116127",
+        "38497605"
+      ]
+    }
+  ],
+  "arrow": "inhibits",
+  "direction": "primary_to_main",
+  "intent": "deubiquitination",
+  "arrows": {
+    "main_to_primary": [
+      "inhibits"
+    ]
+  },
+  "mechanism": "ATXN3 deubiquitinates Parkin. PolyQ-expanded ATXN3 exhibits enhanced deubiquitinase activity, with a preference for cleaving K27- and K29-linked ubiquitin chains that are thought to protect Parkin from autophagic degradation.",
+  "effect": "By preferentially removing protective ubiquitin chains, polyQ-expanded ATXN3 promotes the autophagic degradation of Parkin, leading to reduced Parkin protein levels and impaired function.",
+  "summary": "ATXN3 inhibits PARK2 to modulate parkin protein stability, ultimately affecting mitophagy and mitochondrial quality control are impaired.",
+  "evidence": [
+    {
+      "paper_title": "The Machado-Joseph disease-associated mutant form of ataxin-3 regulates parkin ubiquitination and stability",
+      "doi": "10.1093/hmg/ddq452",
+      "authors": "Durcan TM, Kontogiannea M, Thorarinsdottir T, Fallon L, Williams AJ, Djarmati A, Fantaneanu T, Paulson HL, Fon EA",
+      "journal": "Human Molecular Genetics",
+      "year": 2011,
+      "assay": "Co-Immunoprecipitation, In vitro deubiquitination assay",
+      "species": "Human, Mouse",
+      "relevant_quote": "Compared with wild-type ataxin-3, MJD-linked polyQ-expanded mutant ataxin-3 is more active, possibly owing to its greater efficiency at DUB K27- and K29-linked Ub conjugates on parkin."
+    },
+    {
+      "paper_title": "Mutant ataxin-3 promotes the autophagic degradation of parkin",
+      "doi": "10.4161/auto.7.2.14224",
+      "authors": "Durcan TM, Fon EA",
+      "journal": "Autophagy",
+      "year": 2011,
+      "assay": "Review",
+      "species": "Not applicable",
+      "relevant_quote": "We reported that the mutant form of ataxin-3, the protein responsible for MJD, promotes the autophagic degradation of parkin."
+    },
+    {
+      "paper_title": "The deubiquitinase function of ataxin-3 and its role in the pathogenesis of Machado-Joseph disease and other diseases",
+      "doi": "10.1042/BCJ20240017",
+      "authors": "Potapenko A, Davidson JM, Lee A, Laird AS",
+      "journal": "Biochemical Journal",
+      "year": 2024,
+      "assay": "Review",
+      "species": "Not applicable",
+      "relevant_quote": "PolyQ expansion...enhances ataxin-3's deubiquitination of parkin, particularly by cleaving K27- and K29-linked ubiquitin chains...preferential cleavage...can result in enhanced autophagic degradation of parkin."
+    }
+  ],
+  "arrow_notation": "ATXN3 --inhibits--> PARK2:",
+  "protein_a": "PARK2",
+  "protein_b": "ATXN3",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-23T07:58:56.144154Z",
+  "last_updated": "2025-11-23T07:58:56.144154Z"
+}

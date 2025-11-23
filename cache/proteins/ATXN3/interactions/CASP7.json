@@ -1,0 +1,84 @@
+{
+  "primary": "CASP7",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "A specific short isoform of ATXN3, known as ataxin-3aS, directly interacts with Caspase-7 (CASP7), an executioner caspase, suggesting a role for this isoform in the regulation of apoptosis.",
+  "functions": [
+    {
+      "function": "Apoptosis",
+      "arrow": "regulates",
+      "cellular_process": "A specific, short isoform of ATXN3 (ataxin-3aS) directly interacts with Caspase-7 (CASP7), an executioner caspase.",
+      "effect_description": "This interaction links a specific ATXN3 isoform to the core machinery of programmed cell death, suggesting a potential role in modulating the apoptotic pathway.",
+      "biological_consequence": [
+        "ATXN3 short isoform (ataxin-3aS) binds executioner caspase CASP7 → CASP7-mediated apoptosis is potentially modulated."
+      ],
+      "specific_effects": [
+        "The interaction is specific to the short ataxin-3aS isoform.",
+        "Caspase-7 is an executioner caspase involved in apoptosis."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Physiological and pathophysiological characteristics of ataxin-3 isoforms",
+          "doi": "10.1074/jbc.RA118.005801",
+          "authors": "Daniel Weishäupl, Juliane Schneider, Barbara Peixoto Pinheiro, Corinna Ruess, Sandra Maria Dold, Felix von Zweydorf, Christian Johannes Gloeckner, Jana Schmidt, Olaf Riess, Thorsten Schmidt",
+          "journal": "The Journal of Biological Chemistry",
+          "year": 2019,
+          "assay": "Mass Spectrometry, Co-Immunoprecipitation",
+          "species": "human",
+          "relevant_quote": "Although many common interactors were identified, multiple proteins interact more strongly with one specific isoform. For instance, caspase-7 was identified as a novel interactor strongly interacting with ataxin-3aS.",
+          "pmid": "30455355"
+        }
+      ],
+      "_context": {
+        "type": "direct",
+        "query_protein": null,
+        "chain": null
+      },
+      "interaction_effect": "regulates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "30455355"
+      ],
+      "function_effect": "regulation"
+    }
+  ],
+  "arrow": "binds",
+  "direction": "main_to_primary",
+  "intent": "regulation of apoptosis",
+  "arrows": {
+    "main_to_primary": [
+      "binds"
+    ]
+  },
+  "mechanism": "A specific, short isoform of ATXN3 (ataxin-3aS) directly interacts with Caspase-7 (CASP7), an executioner caspase.",
+  "effect": "This interaction links a specific ATXN3 isoform to the core machinery of programmed cell death, suggesting a potential role in modulating the apoptotic pathway.",
+  "summary": "ATXN3 interacts with CASP7 to modulate apoptosis regulation, ultimately affecting casp7-mediated apoptosis is potentially modulated.",
+  "evidence": [
+    {
+      "paper_title": "Physiological and pathophysiological characteristics of ataxin-3 isoforms",
+      "doi": "10.1074/jbc.RA118.005801",
+      "authors": "Daniel Weishäupl, Juliane Schneider, Barbara Peixoto Pinheiro, Corinna Ruess, Sandra Maria Dold, Felix von Zweydorf, Christian Johannes Gloeckner, Jana Schmidt, Olaf Riess, Thorsten Schmidt",
+      "journal": "The Journal of Biological Chemistry",
+      "year": 2019,
+      "assay": "Mass Spectrometry, Co-Immunoprecipitation",
+      "species": "human",
+      "relevant_quote": "Although many common interactors were identified, multiple proteins interact more strongly with one specific isoform. For instance, caspase-7 was identified as a novel interactor strongly interacting with ataxin-3aS."
+    }
+  ],
+  "interaction_effect": "binding",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATXN3 --binds--> CASP7:",
+  "protein_a": "ATXN3",
+  "protein_b": "CASP7",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-18T20:57:38.941290Z",
+  "last_updated": "2025-11-18T20:57:38.941290Z"
+}

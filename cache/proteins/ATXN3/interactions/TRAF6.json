@@ -1,0 +1,76 @@
+{
+  "primary": "TRAF6",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "ATXN3 functions as a deubiquitinase for TNF receptor-associated factor 6 (TRAF6). By removing polyubiquitin chains from TRAF6, ATXN3 negatively regulates its E3 ubiquitin ligase activity, which is crucial for activating downstream inflammatory signaling pathways like NF-κB and MAPK.",
+  "functions": [
+    {
+      "function": "NF-κB and MAPK Signaling",
+      "arrow": "inhibits",
+      "cellular_process": "ATXN3 acts as a deubiquitinase for TRAF6, an E3 ubiquitin ligase essential for activating downstream signaling pathways like NF-κB and MAPK upon stimulation of receptors such as TLRs and TNFRs.",
+      "effect_description": "By cleaving polyubiquitin chains from TRAF6, ATXN3 negatively regulates its signaling activity, thereby dampening the inflammatory response.",
+      "biological_consequence": [
+        "ATXN3 removes K63-linked ubiquitin chains from TRAF6 → TRAF6 signaling activity is inhibited → Downstream activation of IKK and MAPK pathways is reduced → NF-κB and AP-1 transcription factor activity is attenuated → Expression of pro-inflammatory genes is suppressed"
+      ],
+      "specific_effects": [
+        "ATXN3's deubiquitinase activity on TRAF6 reduces the activation of downstream transcription factors.",
+        "This interaction modulates the cellular response to inflammatory stimuli."
+      ],
+      "evidence": [
+        {
+          "paper_title": "CRISPR screening identifies the deubiquitylase ATXN3 as a PD-L1–positive regulator for tumor immune evasion",
+          "doi": "10.1172/JCI172451",
+          "authors": "Shengnan Wang, Radhika Iyer, Y-hsin Kuo, Yating Wang, Zhaorigetu Chen, Zhaoyuan Fang, Jing Wang, Peng-Liang Chen, Navdeep S Chandel, Deyu Fang",
+          "journal": "The Journal of Clinical Investigation",
+          "year": 2023,
+          "assay": "Co-immunoprecipitation, Western Blot",
+          "species": "human, mouse",
+          "relevant_quote": "ATXN3 promotes PD-L1 transcription induced by multiple tumor microenvironmental (TME) factors including inflammatory cytokine IFN-γ and hypoxia through protecting their downstream transcription factors...",
+          "pmid": "38038129"
+        }
+      ],
+      "_context": {
+        "type": "direct",
+        "query_protein": null,
+        "chain": null
+      },
+      "interaction_effect": "inhibits",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "38038129"
+      ]
+    }
+  ],
+  "arrow": "inhibits",
+  "direction": "main_to_primary",
+  "intent": "deubiquitination",
+  "arrows": {
+    "main_to_primary": [
+      "inhibits"
+    ]
+  },
+  "mechanism": "ATXN3 acts as a deubiquitinase for TRAF6, an E3 ubiquitin ligase essential for activating downstream signaling pathways like NF-κB and MAPK upon stimulation of receptors such as TLRs and TNFRs.",
+  "effect": "By cleaving polyubiquitin chains from TRAF6, ATXN3 negatively regulates its signaling activity, thereby dampening the inflammatory response.",
+  "summary": "ATXN3 inhibits TRAF6 to modulate nf-κb and mapk signaling regulation, ultimately affecting expression of pro-inflammatory genes is suppressed.",
+  "evidence": [
+    {
+      "paper_title": "CRISPR screening identifies the deubiquitylase ATXN3 as a PD-L1–positive regulator for tumor immune evasion",
+      "doi": "10.1172/JCI172451",
+      "authors": "Shengnan Wang, Radhika Iyer, Y-hsin Kuo, Yating Wang, Zhaorigetu Chen, Zhaoyuan Fang, Jing Wang, Peng-Liang Chen, Navdeep S Chandel, Deyu Fang",
+      "journal": "The Journal of Clinical Investigation",
+      "year": 2023,
+      "assay": "Co-immunoprecipitation, Western Blot",
+      "species": "human, mouse",
+      "relevant_quote": "ATXN3 promotes PD-L1 transcription induced by multiple tumor microenvironmental (TME) factors including inflammatory cytokine IFN-γ and hypoxia through protecting their downstream transcription factors..."
+    }
+  ],
+  "arrow_notation": "ATXN3 --inhibits--> TRAF6:",
+  "protein_a": "ATXN3",
+  "protein_b": "TRAF6",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-23T07:58:56.182428Z",
+  "last_updated": "2025-11-23T07:58:56.182428Z"
+}

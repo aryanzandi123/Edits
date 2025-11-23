@@ -1,0 +1,118 @@
+{
+  "primary": "ATF6",
+  "interaction_type": "indirect",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 2,
+  "support_summary": "ATF6 activation transcriptionally regulates cellular physiology, including cell growth, through the up-regulation of transcriptional targets such as RHEB. The active nuclear form of ATF6 directly binds to ER stress response elements (ERSEs) in the promoter of the RHEB gene, linking the ER stress response to mTORC1 signaling.",
+  "functions": [
+    {
+      "function": "RHEB Gene Transcription",
+      "arrow": "activates",
+      "cellular_process": "The active nuclear form of ATF6 directly binds to two ER stress response elements (ERSEs) in the promoter of the RHEB (Ras homolog enriched in brain) gene.",
+      "effect_description": "This binding induces the transcription of RHEB, a potent activator of the mTORC1 signaling complex, thereby linking ER stress to the regulation of protein synthesis and cell growth.",
+      "biological_consequence": [
+        "Growth stimuli → ER stress → ATF6α cleavage & activation → nATF6α binds RHEB promoter → RHEB gene transcription → mTORC1 pathway activation → Adaptive cardiac hypertrophy",
+        "ER stress in quiescent cells → ATF6α cleavage & activation → nATF6α binds RHEB promoter → RHEB gene transcription → mTORC1 pathway activation → Survival of dormant tumor cells"
+      ],
+      "specific_effects": [
+        "ATF6 is a direct transcriptional inducer of Rheb.",
+        "This mechanism is critical for adaptive cardiac hypertrophy.",
+        "The ATF6α-Rheb-mTOR signaling axis promotes the survival of dormant tumor cells."
+      ],
+      "evidence": [
+        {
+          "paper_title": "ATF6 Regulates Cardiac Hypertrophy by Transcriptional Induction of the mTORC1 Activator, Rheb",
+          "doi": "10.1161/CIRCRESAHA.118.313854",
+          "authors": "Blackwood EA, Hofmann C, Santo Domingo M, Bilal AS, Sarakki A, Stauffer W, Arrieta A, Thuerauf DJ, Kolkhorst FW, Müller OJ, Jakobi T, Dieterich C, Katus HA, Doroudgar S, Glembotski CC",
+          "journal": "Circulation Research",
+          "year": 2019,
+          "assay": "Transcript Profiling, ChIP Assay, AAV",
+          "species": "mouse, rat",
+          "relevant_quote": "Transcript profiling and chromatin immunoprecipitation identified RHEB (Ras homologue enriched in brain) as an ATF6 target gene in the heart.",
+          "pmid": "30582446"
+        },
+        {
+          "paper_title": "ATF6α-Rheb-mTOR signaling promotes survival of dormant tumor cells in vivo",
+          "doi": "10.1073/pnas.0800939105",
+          "authors": "Schewe DM, Aguirre-Ghiso JA",
+          "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+          "year": 2008,
+          "assay": "siRNA, Gene Expression Profiling",
+          "species": "human",
+          "relevant_quote": "Downstream, ATF6α induces survival through the up-regulation of Rheb and activation of mTOR signaling independent of Akt.",
+          "pmid": "18650380"
+        },
+        {
+          "paper_title": "Crosstalk Between the Endoplasmic Reticulum and mTOR Signaling",
+          "doi": "10.1161/CIRCRESAHA.118.314326",
+          "authors": "Malovrh E, Völkers M",
+          "journal": "Circulation Research",
+          "year": 2019,
+          "assay": "Editorial",
+          "species": "human, mouse",
+          "relevant_quote": "ATF-6 (activating transcription factor 6) induces the transcription of mTORC-1 (mammalian target of rapamycin complex 1) activator RHEB (Ras homologue enriched in brain)...",
+          "pmid": "30605413"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "30582446",
+        "18650380",
+        "30605413"
+      ]
+    }
+  ],
+  "arrows": {
+    "main_to_primary": [
+      "activates"
+    ]
+  },
+  "arrow": "activates",
+  "direction": "primary_to_main",
+  "_chain_inferred": true,
+  "intent": "regulation",
+  "mechanism": "The active nuclear form of ATF6 directly binds to two ER stress response elements (ERSEs) in the promoter of the RHEB (Ras homolog enriched in brain) gene.",
+  "effect": "This binding induces the transcription of RHEB, a potent activator of the mTORC1 signaling complex, thereby linking ER stress to the regulation of protein synthesis and cell growth.",
+  "summary": "ATF6 activates RHEB to modulate rheb gene transcription, ultimately affecting adaptive cardiac hypertrophy.",
+  "evidence": [
+    {
+      "paper_title": "ATF6 Regulates Cardiac Hypertrophy by Transcriptional Induction of the mTORC1 Activator, Rheb",
+      "doi": "10.1161/CIRCRESAHA.118.313854",
+      "authors": "Blackwood EA, Hofmann C, Santo Domingo M, Bilal AS, Sarakki A, Stauffer W, Arrieta A, Thuerauf DJ, Kolkhorst FW, Müller OJ, Jakobi T, Dieterich C, Katus HA, Doroudgar S, Glembotski CC",
+      "journal": "Circulation Research",
+      "year": 2019,
+      "assay": "Transcript Profiling, ChIP Assay, AAV",
+      "species": "mouse, rat",
+      "relevant_quote": "Transcript profiling and chromatin immunoprecipitation identified RHEB (Ras homologue enriched in brain) as an ATF6 target gene in the heart."
+    },
+    {
+      "paper_title": "ATF6α-Rheb-mTOR signaling promotes survival of dormant tumor cells in vivo",
+      "doi": "10.1073/pnas.0800939105",
+      "authors": "Schewe DM, Aguirre-Ghiso JA",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "year": 2008,
+      "assay": "siRNA, Gene Expression Profiling",
+      "species": "human",
+      "relevant_quote": "Downstream, ATF6α induces survival through the up-regulation of Rheb and activation of mTOR signaling independent of Akt."
+    },
+    {
+      "paper_title": "Crosstalk Between the Endoplasmic Reticulum and mTOR Signaling",
+      "doi": "10.1161/CIRCRESAHA.118.314326",
+      "authors": "Malovrh E, Völkers M",
+      "journal": "Circulation Research",
+      "year": 2019,
+      "assay": "Editorial",
+      "species": "human, mouse",
+      "relevant_quote": "ATF-6 (activating transcription factor 6) induces the transcription of mTORC-1 (mammalian target of rapamycin complex 1) activator RHEB (Ras homologue enriched in brain)..."
+    }
+  ],
+  "arrow_notation": "ATF6 --activates--> RHEB:",
+  "protein_a": "RHEB",
+  "protein_b": "ATF6",
+  "discovered_in_query": "ATF6",
+  "first_discovered": "2025-11-18T21:01:00.294804Z",
+  "last_updated": "2025-11-18T21:01:00.294804Z"
+}

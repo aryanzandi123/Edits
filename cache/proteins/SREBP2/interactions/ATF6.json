@@ -1,0 +1,76 @@
+{
+  "primary": "ATF6",
+  "interaction_type": "direct",
+  "support_summary": "The active nuclear form of ATF6 (ATF6-N) physically interacts with and antagonizes the activity of the active nuclear form of SREBP2 (SREBP2-N). This crosstalk between the unfolded protein response (UPR) and lipid metabolism results in the suppression of lipogenic gene expression.",
+  "functions": [
+    {
+      "function": "SREBP2-mediated Lipogenesis",
+      "arrow": "inhibits",
+      "cellular_process": "The active nuclear form of ATF6 (ATF6-N) physically interacts with the active nuclear form of SREBP2 (SREBP2-N) through its leucine-zipper domain.",
+      "effect_description": "This interaction, which occurs on the promoters of SREBP2 target genes, recruits histone deacetylase 1 (HDAC1), leading to the attenuation of SREBP2 transcriptional activity and the suppression of lipogenic gene expression.",
+      "biological_consequence": [
+        "Nuclear ATF6 (ATF6-N) binds to nuclear SREBP2 (SREBP2-N) → The ATF6-SREBP2 complex recruits HDAC1 to SREBP2 target gene promoters → Histone deacetylation suppresses transcription of lipogenic genes → Lipogenesis is inhibited"
+      ],
+      "specific_effects": [
+        "The nuclear form of ATF6, ATF6(N), binds directly to the nuclear form of SREBP2, SREBP2(N).",
+        "The ATF6-SREBP2 complex recruits HDAC1 to the promoters of SREBP2 target genes.",
+        "Overexpression of ATF6(N) suppresses SREBP2-regulated transcription and lipogenesis."
+      ],
+      "evidence": [
+        {
+          "paper_title": "ATF6 modulates SREBP2-mediated lipogenesis",
+          "doi": "10.1038/sj.emboj.7600106",
+          "authors": "Zeng L, Lu M, Mori K, Luo S, Lee AS, Zhu Y, Shyy JY",
+          "journal": "The EMBO Journal",
+          "year": 2004,
+          "assay": "GST pull-down, Immunoprecipitation, Chromatin Immunoprecipitation",
+          "species": "human",
+          "relevant_quote": "GST pull-down and immunoprecipitation assays revealed that ATF6(N) bound to SREBP2(N)... Chromatin immunoprecipitation assays revealed that ATF6(N) formed a complex with the SRE-bound SREBP2(N).",
+          "pmid": "14765107"
+        }
+      ],
+      "pmids": [
+        "14765107"
+      ],
+      "interaction_effect": "inhibits",
+      "interaction_direction": "main_to_primary",
+      "function_effect": "inhibition"
+    }
+  ],
+  "arrows": {
+    "main_to_primary": [
+      "inhibits"
+    ]
+  },
+  "arrow": "inhibits",
+  "direction": "primary_to_main",
+  "intent": "regulation",
+  "mechanism": "The active nuclear form of ATF6 (ATF6-N) physically interacts with the active nuclear form of SREBP2 (SREBP2-N) through its leucine-zipper domain.",
+  "effect": "This interaction, which occurs on the promoters of SREBP2 target genes, recruits histone deacetylase 1 (HDAC1), leading to the attenuation of SREBP2 transcriptional activity and the suppression of lipogenic gene expression.",
+  "summary": "ATF6 inhibits SREBP2 to modulate srebp2-mediated lipogenesis, ultimately affecting lipogenesis is inhibited.",
+  "evidence": [
+    {
+      "paper_title": "ATF6 modulates SREBP2-mediated lipogenesis",
+      "doi": "10.1038/sj.emboj.7600106",
+      "authors": "Zeng L, Lu M, Mori K, Luo S, Lee AS, Zhu Y, Shyy JY",
+      "journal": "The EMBO Journal",
+      "year": 2004,
+      "assay": "GST pull-down, Immunoprecipitation, Chromatin Immunoprecipitation",
+      "species": "human",
+      "relevant_quote": "GST pull-down and immunoprecipitation assays revealed that ATF6(N) bound to SREBP2(N)... Chromatin immunoprecipitation assays revealed that ATF6(N) formed a complex with the SRE-bound SREBP2(N)."
+    }
+  ],
+  "interaction_effect": "inhibition",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 2
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATF6 --inhibits--> SREBP2:",
+  "protein_a": "SREBP2",
+  "protein_b": "ATF6",
+  "discovered_in_query": "ATF6",
+  "first_discovered": "2025-11-18T21:01:00.256681Z",
+  "last_updated": "2025-11-18T21:01:00.256681Z"
+}

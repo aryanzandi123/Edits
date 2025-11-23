@@ -1,0 +1,97 @@
+{
+  "primary": "ATXN3",
+  "interaction_type": "indirect",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "The E3 ubiquitin ligase AMFR (also known as Gp78) directly interacts with and polyubiquitinates ATXN3. This ubiquitination targets ATXN3 for degradation through the Endoplasmic Reticulum-Associated Degradation (ERAD) pathway, playing a role in the quality control and turnover of ATXN3.",
+  "functions": [
+    {
+      "function": "ATXN3 Protein Stability",
+      "arrow": "inhibits",
+      "cellular_process": "The E3 ubiquitin ligase AMFR (gp78), an enzyme involved in Endoplasmic Reticulum-Associated Degradation (ERAD), directly interacts with and polyubiquitinates ATXN3.",
+      "effect_description": "AMFR-mediated ubiquitination targets ATXN3 for proteasomal degradation via the ERAD pathway, thereby reducing its protein levels.",
+      "biological_consequence": [
+        "AMFR (E3 ligase) binds ATXN3 → AMFR polyubiquitinates ATXN3 → ATXN3 is targeted for Endoplasmic Reticulum-Associated Degradation (ERAD) → Proteasomal degradation of ATXN3 protein → Decreased ATXN3 protein stability."
+      ],
+      "specific_effects": [
+        "Overexpression of gp78 promotes the ubiquitination and degradation of ATXN3.",
+        "Knockdown of gp78 stabilizes ATXN3 protein.",
+        "The E3 ligase activity of gp78 is critical for the degradation of ataxin-3."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Gp78, an ER associated E3, promotes SOD1 and ataxin-3 degradation",
+          "doi": "10.1093/hmg/ddp380",
+          "authors": "Ying Z, Wang H, Fan H, Zhu X, Zhou J, Fei E, Wang G.",
+          "journal": "Human Molecular Genetics",
+          "year": 2009,
+          "assay": "Co-immunoprecipitation, Western blotting, in vivo ubiquitination assay",
+          "species": "human, mouse",
+          "relevant_quote": "Overexpression of gp78 promotes the ubiquitination and degradation of these two proteins [SOD1 and ataxin-3], whereas knockdown of gp78 stabilizes them.",
+          "pmid": "19661182"
+        }
+      ],
+      "_context": {
+        "type": "direct",
+        "query_protein": null,
+        "chain": null
+      },
+      "interaction_effect": "inhibits",
+      "direction": "primary_to_main",
+      "interaction_direction": "primary_to_main",
+      "pmids": [
+        "19661182"
+      ],
+      "function_effect": "inhibition",
+      "arrow_context": {
+        "direct_from": null,
+        "direct_arrow": "inhibits",
+        "net_from": "ATXN3",
+        "net_arrow": "inhibits",
+        "mediator_chain": [],
+        "is_indirect": true
+      },
+      "net_arrow": "inhibits",
+      "direct_arrow": "inhibits",
+      "net_effect": "inhibition",
+      "direct_effect": "inhibition"
+    }
+  ],
+  "arrow": "binds",
+  "direction": "main_to_primary",
+  "intent": "ubiquitination",
+  "arrows": {
+    "primary_to_main": [
+      "inhibits"
+    ]
+  },
+  "mechanism": "The E3 ubiquitin ligase AMFR (gp78), an enzyme involved in Endoplasmic Reticulum-Associated Degradation (ERAD), directly interacts with and polyubiquitinates ATXN3.",
+  "effect": "AMFR-mediated ubiquitination targets ATXN3 for proteasomal degradation via the ERAD pathway, thereby reducing its protein levels.",
+  "summary": "ATXN3 inhibits AMFR to modulate atxn3 protein stability, ultimately affecting decreased atxn3 protein stability.",
+  "evidence": [
+    {
+      "paper_title": "Gp78, an ER associated E3, promotes SOD1 and ataxin-3 degradation",
+      "doi": "10.1093/hmg/ddp380",
+      "authors": "Ying Z, Wang H, Fan H, Zhu X, Zhou J, Fei E, Wang G.",
+      "journal": "Human Molecular Genetics",
+      "year": 2009,
+      "assay": "Co-immunoprecipitation, Western blotting, in vivo ubiquitination assay",
+      "species": "human, mouse",
+      "relevant_quote": "Overexpression of gp78 promotes the ubiquitination and degradation of these two proteins [SOD1 and ataxin-3], whereas knockdown of gp78 stabilizes them."
+    }
+  ],
+  "interaction_effect": "binding",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 2
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATXN3 <--binds-- AMFR:",
+  "protein_a": "AMFR",
+  "protein_b": "ATXN3",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-23T07:58:56.240333Z",
+  "last_updated": "2025-11-23T07:58:56.240333Z"
+}

@@ -1,0 +1,125 @@
+{
+  "primary": "ATF6",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "As a member of the same CREB/ATF family, CREB-H (CREB3L3) can form heterodimers with the processed, active form of ATF6. This interaction modulates transcriptional activity on target genes, integrating the unfolded protein response (UPR) with other stress responses like the acute phase response.",
+  "functions": [
+    {
+      "function": "Target Gene Transcription",
+      "arrow": "activates",
+      "cellular_process": "CREB-H (CREB3L3) is an ER-resident transcription factor that, like ATF6, is activated by proteolytic cleavage in the Golgi. The active nuclear forms of ATF6 and CREB-H can interact and form heterodimers to co-regulate target genes.",
+      "effect_description": "The heterodimerization of ATF6 and CREB-H synergistically activates the promoters of specific target genes, such as C-reactive protein (CRP), leading to an enhanced transcriptional response.",
+      "biological_consequence": [
+        "ER stress triggers Golgi translocation and S1P/S2P-mediated cleavage of ATF6 and CREB-H → Active N-terminal fragments translocate to the nucleus → ATF6(N) and CREB-H(N) form a heterodimer → The heterodimer binds to target gene promoters → Synergistic activation of transcription integrates UPR and other stress responses"
+      ],
+      "specific_effects": [
+        "CREB-H and ATF6 are both members of the CREB3/ATF6 family of bZIP transmembrane transcription factors.",
+        "Both are activated by S1P/S2P cleavage in the Golgi upon ER stress.",
+        "They can synergistically activate the C-reactive protein (CRP) promoter.",
+        "Both proteins can bind to ATF6-binding elements in gene promoters."
+      ],
+      "evidence": [
+        {
+          "paper_title": "bZIP transmembrane transcription factor CREBH: Potential role in non-alcoholic fatty liver disease (Review)",
+          "year": 2016,
+          "doi": "10.3892/mmr.2016.4744",
+          "authors": "Li Y, Wu Z, Li X, Zhu S",
+          "journal": "Molecular Medicine Reports",
+          "assay": "Review",
+          "species": "human",
+          "relevant_quote": "It was also observed that CREBH and ATF6 interact and bind to the same conserved element in the promoter of CRP to synergistically activate expression upon ER stress...",
+          "pmid": "26718596"
+        },
+        {
+          "paper_title": "The liver-enriched transcription factor CREB-H is a growth suppressor protein underexpressed in hepatocellular carcinoma",
+          "year": 2005,
+          "doi": "10.1093/nar/gki439",
+          "authors": "Chin KT, Zhou HY, Wong CM, Chan CP, Chan KK, Ng IO, Jin DY",
+          "journal": "Nucleic Acids Research",
+          "assay": "Luciferase Reporter Assay, EMSA",
+          "species": "human",
+          "relevant_quote": "CREB-H was found to bind strongly to canonical CRE, ATF6 and box B elements...",
+          "pmid": "15800215"
+        },
+        {
+          "paper_title": "CREB-H: a novel mammalian transcription factor belonging to the CREB/ATF family and functioning via the box-B element with a liver-specific expression",
+          "year": 2001,
+          "doi": "10.1093/nar/29.10.2154",
+          "authors": "Omori Y, Imai J, Watanabe M, Komatsu T, Suzuki Y, Kataoka K, Hori M, Tanigami A, Sugano S, Suzuki T",
+          "journal": "Nucleic Acids Research",
+          "assay": "Luciferase Reporter Assay, Gel Mobility Shift Assay",
+          "species": "human",
+          "relevant_quote": "A region of CREB-H exhibited significant homology to the basic leucine zipper (b-Zip) domain of members of the CREB/ATF family...",
+          "pmid": "11353085"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "bidirectional",
+      "pmids": [
+        "26718596",
+        "15800215",
+        "11353085"
+      ],
+      "function_effect": "activation"
+    }
+  ],
+  "arrows": {
+    "main_to_primary": [
+      "activates"
+    ]
+  },
+  "arrow": "complex",
+  "direction": "bidirectional",
+  "intent": "regulation",
+  "mechanism": "CREB-H (CREB3L3) is an ER-resident transcription factor that, like ATF6, is activated by proteolytic cleavage in the Golgi. The active nuclear forms of ATF6 and CREB-H can interact and form heterodimers to co-regulate target genes.",
+  "effect": "The heterodimerization of ATF6 and CREB-H synergistically activates the promoters of specific target genes, such as C-reactive protein (CRP), leading to an enhanced transcriptional response.",
+  "summary": "ATF6 activates CREB-H to modulate target gene transcription, ultimately affecting synergistic activation of transcription integrates upr and other stress responses.",
+  "evidence": [
+    {
+      "paper_title": "bZIP transmembrane transcription factor CREBH: Potential role in non-alcoholic fatty liver disease (Review)",
+      "year": 2016,
+      "doi": "10.3892/mmr.2016.4744",
+      "authors": "Li Y, Wu Z, Li X, Zhu S",
+      "journal": "Molecular Medicine Reports",
+      "assay": "Review",
+      "species": "human",
+      "relevant_quote": "It was also observed that CREBH and ATF6 interact and bind to the same conserved element in the promoter of CRP to synergistically activate expression upon ER stress..."
+    },
+    {
+      "paper_title": "The liver-enriched transcription factor CREB-H is a growth suppressor protein underexpressed in hepatocellular carcinoma",
+      "year": 2005,
+      "doi": "10.1093/nar/gki439",
+      "authors": "Chin KT, Zhou HY, Wong CM, Chan CP, Chan KK, Ng IO, Jin DY",
+      "journal": "Nucleic Acids Research",
+      "assay": "Luciferase Reporter Assay, EMSA",
+      "species": "human",
+      "relevant_quote": "CREB-H was found to bind strongly to canonical CRE, ATF6 and box B elements..."
+    },
+    {
+      "paper_title": "CREB-H: a novel mammalian transcription factor belonging to the CREB/ATF family and functioning via the box-B element with a liver-specific expression",
+      "year": 2001,
+      "doi": "10.1093/nar/29.10.2154",
+      "authors": "Omori Y, Imai J, Watanabe M, Komatsu T, Suzuki Y, Kataoka K, Hori M, Tanigami A, Sugano S, Suzuki T",
+      "journal": "Nucleic Acids Research",
+      "assay": "Luciferase Reporter Assay, Gel Mobility Shift Assay",
+      "species": "human",
+      "relevant_quote": "A region of CREB-H exhibited significant homology to the basic leucine zipper (b-Zip) domain of members of the CREB/ATF family..."
+    }
+  ],
+  "interaction_effect": "complex formation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 3
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATF6 <--complex--> CREB-H:",
+  "protein_a": "CREB-H",
+  "protein_b": "ATF6",
+  "discovered_in_query": "ATF6",
+  "first_discovered": "2025-11-18T21:01:00.272710Z",
+  "last_updated": "2025-11-18T21:01:00.272710Z"
+}

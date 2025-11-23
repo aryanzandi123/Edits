@@ -1,0 +1,109 @@
+{
+  "primary": "TFEB",
+  "interaction_type": "indirect",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "Protein Kinase C Delta (PKCδ/PRKCD) directly phosphorylates TFEB on C-terminal serines (S462, S466, S469). This phosphorylation event is distinct from the inhibitory phosphorylations by mTORC1 and promotes the translocation of TFEB into the nucleus, thereby activating its transcriptional program for lysosomal biogenesis and autophagy.",
+  "functions": [
+    {
+      "function": "TFEB Phosphorylation & Nuclear Translocation",
+      "arrow": "activates",
+      "cellular_process": "Protein Kinase C Delta (PKCδ/PRKCD) is a serine/threonine kinase that directly phosphorylates TFEB on its C-terminal serine residues S462, S466, and S469.",
+      "effect_description": "This phosphorylation promotes the nuclear translocation of TFEB, leading to the activation of its transcriptional targets.",
+      "biological_consequence": [
+        "PRKCD (PKCδ) is activated → PRKCD phosphorylates TFEB at serines S462, S466, and S469 → Phosphorylated TFEB translocates to the nucleus → TFEB activates the CLEAR gene network → Lysosomal biogenesis and autophagy are increased"
+      ],
+      "specific_effects": [
+        "Directly phosphorylates TFEB at serines S462, S466, and S469.",
+        "Promotes TFEB nuclear translocation.",
+        "Activates TFEB-mediated transcription."
+      ],
+      "evidence": [
+        {
+          "paper_title": "The regulatory mechanism and therapeutic potential of transcription factor EB in neurodegenerative diseases",
+          "doi": "10.1111/cns.13985",
+          "authors": "Li Y, Wang J, Wang Y, Gao L, Liu Z, Zhuo F, Chen Z, Yin J, Wang T, Li S",
+          "journal": "CNS Neuroscience & Therapeutics",
+          "year": 2023,
+          "assay": "Review",
+          "species": "human",
+          "relevant_quote": "PKCδ directly phosphorylates TFEB at its C-terminal serine residues (S462, S466, and S469), which is essential for TFEB nuclear translocation.",
+          "pmid": "36184826"
+        },
+        {
+          "paper_title": "Protein kinase C controls lysosome biogenesis independently of mTORC1",
+          "doi": "10.1038/ncomms13538",
+          "authors": "Li Y, Xu M, Ding X, Li C, Wang J, Gao F, Lu Y, Chen L, Liu Z, Yang M, Yin J, Wang T, Li S",
+          "journal": "Nature Communications",
+          "year": 2016,
+          "assay": "Western Blot, Immunofluorescence",
+          "species": "human",
+          "relevant_quote": "Activated PKC inactivates GSK3β, leading to reduced phosphorylation, nuclear translocation and activation of TFEB...",
+          "pmid": "27617930"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "primary_to_main",
+      "interaction_direction": "primary_to_main",
+      "pmids": [
+        "36184826",
+        "27617930"
+      ],
+      "function_effect": "activation",
+      "arrow_context": {
+        "direct_from": null,
+        "direct_arrow": "activates",
+        "net_from": "TFEB",
+        "net_arrow": "activates",
+        "mediator_chain": [],
+        "is_indirect": true
+      },
+      "net_arrow": "activates",
+      "direct_arrow": "activates",
+      "net_effect": "activation",
+      "direct_effect": "activation"
+    }
+  ],
+  "arrow": "activates",
+  "direction": "main_to_primary",
+  "intent": "phosphorylation",
+  "mechanism": "Protein Kinase C Delta (PKCδ/PRKCD) is a serine/threonine kinase that directly phosphorylates TFEB on its C-terminal serine residues S462, S466, and S469.",
+  "effect": "This phosphorylation promotes the nuclear translocation of TFEB, leading to the activation of its transcriptional targets.",
+  "summary": "TFEB activates PRKCD to modulate tfeb phosphorylation & nuclear translocation, ultimately affecting lysosomal biogenesis and autophagy are increased.",
+  "evidence": [
+    {
+      "paper_title": "The regulatory mechanism and therapeutic potential of transcription factor EB in neurodegenerative diseases",
+      "doi": "10.1111/cns.13985",
+      "authors": "Li Y, Wang J, Wang Y, Gao L, Liu Z, Zhuo F, Chen Z, Yin J, Wang T, Li S",
+      "journal": "CNS Neuroscience & Therapeutics",
+      "year": 2023,
+      "assay": "Review",
+      "species": "human",
+      "relevant_quote": "PKCδ directly phosphorylates TFEB at its C-terminal serine residues (S462, S466, and S469), which is essential for TFEB nuclear translocation."
+    },
+    {
+      "paper_title": "Protein kinase C controls lysosome biogenesis independently of mTORC1",
+      "doi": "10.1038/ncomms13538",
+      "authors": "Li Y, Xu M, Ding X, Li C, Wang J, Gao F, Lu Y, Chen L, Liu Z, Yang M, Yin J, Wang T, Li S",
+      "journal": "Nature Communications",
+      "year": 2016,
+      "assay": "Western Blot, Immunofluorescence",
+      "species": "human",
+      "relevant_quote": "Activated PKC inactivates GSK3β, leading to reduced phosphorylation, nuclear translocation and activation of TFEB..."
+    }
+  ],
+  "interaction_effect": "activation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TFEB <--activates-- PRKCD:",
+  "protein_a": "PRKCD",
+  "protein_b": "TFEB",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.567223Z",
+  "last_updated": "2025-11-19T03:20:29.567223Z"
+}

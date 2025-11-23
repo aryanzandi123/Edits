@@ -1,0 +1,161 @@
+{
+  "primary": "ATF6",
+  "interaction_type": "direct and indirect",
+  "upstream_interactor": "p53",
+  "mediator_chain": [
+    "p53"
+  ],
+  "depth": 1,
+  "support_summary": "ATF6 induces apoptosis by upregulating the expression of AIFM2 through two parallel mechanisms. First, ATF6 can indirectly activate AIFM2 transcription via its transcriptional activation of p53. Second, the active nuclear form of ATF6 can also directly bind to the promoter of AIFM2 to synergistically induce its transcription.",
+  "functions": [
+    {
+      "function": "AIFM2 Gene Transcription (Direct)",
+      "arrow": "activates",
+      "cellular_process": "The active nuclear form of ATF6 directly binds to the promoter of the Apoptosis-Inducing Factor Mitochondria-Associated 2 (AIFM2) gene to induce its transcription.",
+      "effect_description": "Direct transcriptional activation of AIFM2 by ATF6 provides a pathway for inducing apoptosis in response to severe ER stress, which acts in parallel to the p53-mediated pathway.",
+      "biological_consequence": [
+        "Severe ER Stress → ATF6 Activation and Translocation to Nucleus → Active ATF6 (p50) Directly Binds to AIFM2 Gene Promoter → Increased AIFM2 Gene Transcription → Elevated AIFM2 Protein Levels → Caspase-Independent Apoptosis"
+      ],
+      "specific_effects": [
+        "ATF6 directly binds the AIFM2 promoter in severe acute pancreatitis models.",
+        "This direct activation synergistically enhances AIFM2 expression alongside the p53-mediated pathway."
+      ],
+      "evidence": [
+        {
+          "paper_title": "ATF6 aggravates acinar cell apoptosis and injury by regulating p53/AIFM2 transcription in Severe Acute Pancreatitis",
+          "doi": "10.7150/thno.46934",
+          "authors": "Tan JH, Cao RC, Zhou L, Zhou ZT, Chen HJ, Xu J, Chen XM, Jin YC, Lin JY, Zeng JL, Li SJ, Luo M, Hu GD, Yang XB, Jin J, Zhang GW",
+          "journal": "Theranostics",
+          "year": 2020,
+          "assay": "ChIP-qPCR, Luciferase Reporter Assay",
+          "species": "mouse, human",
+          "relevant_quote": "...the directly binding of ATF6 with the AIFM2 promoter synergistically regulates acinar apoptosis in SAP development.",
+          "pmid": "32724472"
+        }
+      ],
+      "_context": {
+        "type": "direct",
+        "query_protein": null,
+        "chain": null
+      },
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "32724472"
+      ],
+      "function_effect": "activation"
+    },
+    {
+      "function": "AIFM2 Gene Transcription (via p53)",
+      "arrow": "activates",
+      "cellular_process": "The active nuclear form of ATF6 binds to the promoter of the TP53 gene, inducing its transcription. Subsequently, the p53 protein acts as a transcription factor for the AIFM2 gene, upregulating its expression.",
+      "effect_description": "This indirect activation of AIFM2 via p53 links the ATF6 branch of the UPR to the canonical p53-mediated apoptotic pathway, using AIFM2 as a downstream effector to execute cell death under severe ER stress.",
+      "biological_consequence": [
+        "ATF6 translocates to the nucleus → ATF6 binds to the TP53 gene promoter → TP53 gene transcription is activated → p53 protein translation increases → p53 binds to the AIFM2 gene promoter → AIFM2 gene transcription is upregulated → Caspase-independent apoptosis is induced"
+      ],
+      "specific_effects": [
+        "ATF6 binds to the p53 promoter to activate its transcription.",
+        "p53, in turn, transcriptionally activates its target gene AIFM2.",
+        "This pathway is critical for inducing acinar cell apoptosis during severe acute pancreatitis."
+      ],
+      "evidence": [
+        {
+          "paper_title": "ATF6 aggravates acinar cell apoptosis and injury by regulating p53/AIFM2 transcription in Severe Acute Pancreatitis",
+          "doi": "10.7150/thno.46934",
+          "authors": "Tan JH, Cao RC, Zhou L, Zhou ZT, Chen HJ, Xu J, Chen XM, Jin YC, Lin JY, Zeng JL, Li SJ, Luo M, Hu GD, Yang XB, Jin J, Zhang GW",
+          "journal": "Theranostics",
+          "year": 2020,
+          "assay": "ChIP-qPCR, Luciferase Reporter Assay, Western Blot",
+          "species": "mouse, human",
+          "relevant_quote": "Our ChIP and luciferase studies provide evidence that ATF6 binds to the p53 promoter and subsequently activates the p53-AIFM2 pathway.",
+          "pmid": "32724472"
+        },
+        {
+          "paper_title": "ATF6 regulates the development of chronic pancreatitis by inducing p53-mediated apoptosis",
+          "doi": "10.1038/s41419-019-1919-0",
+          "authors": "Zhou L, Tan JH, Cao RC, Xu J, Chen XM, Qi ZC, Zhou SY, Li SB, Mo QX, Li ZW, Zhang GW",
+          "journal": "Cell Death & Disease",
+          "year": 2019,
+          "assay": "Western Blot, Immunohistochemistry",
+          "species": "mouse, human",
+          "relevant_quote": "Inhibition of ATF6 or p53 suppressed the expression of inflammatory factors and progression of CP in the mouse model.",
+          "pmid": "31506423"
+        }
+      ],
+      "_context": {
+        "type": "chain",
+        "query_protein": "ATF6",
+        "chain": [
+          "p53",
+          "AIFM2"
+        ]
+      },
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "32724472",
+        "31506423"
+      ],
+      "direct_arrow": "activates",
+      "function_effect": "activation"
+    }
+  ],
+  "arrows": {
+    "main_to_primary": [
+      "activates"
+    ]
+  },
+  "arrow": "activates",
+  "direction": "primary_to_main",
+  "intent": "regulation",
+  "mechanism": "The active nuclear form of ATF6 directly binds to the promoter of the Apoptosis-Inducing Factor Mitochondria-Associated 2 (AIFM2) gene to induce its transcription. The active nuclear form of ATF6 binds to the promoter of the TP53 gene, inducing its transcription. Subsequently, the p53 protein acts as a transcription factor for the AIFM2 gene, upregulating its expression.",
+  "effect": "Direct transcriptional activation of AIFM2 by ATF6 provides a pathway for inducing apoptosis in response to severe ER stress, which acts in parallel to the p53-mediated pathway.; This indirect activation of AIFM2 via p53 links the ATF6 branch of the UPR to the canonical p53-mediated apoptotic pathway, using AIFM2 as a downstream effector to execute cell death under severe ER stress.",
+  "summary": "ATF6 activates AIFM2 to regulate aifm2 gene transcription (direct) and aifm2 gene transcription (via p53), ultimately affecting caspase-independent apoptosis.",
+  "evidence": [
+    {
+      "paper_title": "ATF6 aggravates acinar cell apoptosis and injury by regulating p53/AIFM2 transcription in Severe Acute Pancreatitis",
+      "doi": "10.7150/thno.46934",
+      "authors": "Tan JH, Cao RC, Zhou L, Zhou ZT, Chen HJ, Xu J, Chen XM, Jin YC, Lin JY, Zeng JL, Li SJ, Luo M, Hu GD, Yang XB, Jin J, Zhang GW",
+      "journal": "Theranostics",
+      "year": 2020,
+      "assay": "ChIP-qPCR, Luciferase Reporter Assay",
+      "species": "mouse, human",
+      "relevant_quote": "...the directly binding of ATF6 with the AIFM2 promoter synergistically regulates acinar apoptosis in SAP development."
+    },
+    {
+      "paper_title": "ATF6 aggravates acinar cell apoptosis and injury by regulating p53/AIFM2 transcription in Severe Acute Pancreatitis",
+      "doi": "10.7150/thno.46934",
+      "authors": "Tan JH, Cao RC, Zhou L, Zhou ZT, Chen HJ, Xu J, Chen XM, Jin YC, Lin JY, Zeng JL, Li SJ, Luo M, Hu GD, Yang XB, Jin J, Zhang GW",
+      "journal": "Theranostics",
+      "year": 2020,
+      "assay": "ChIP-qPCR, Luciferase Reporter Assay, Western Blot",
+      "species": "mouse, human",
+      "relevant_quote": "Our ChIP and luciferase studies provide evidence that ATF6 binds to the p53 promoter and subsequently activates the p53-AIFM2 pathway."
+    },
+    {
+      "paper_title": "ATF6 regulates the development of chronic pancreatitis by inducing p53-mediated apoptosis",
+      "doi": "10.1038/s41419-019-1919-0",
+      "authors": "Zhou L, Tan JH, Cao RC, Xu J, Chen XM, Qi ZC, Zhou SY, Li SB, Mo QX, Li ZW, Zhang GW",
+      "journal": "Cell Death & Disease",
+      "year": 2019,
+      "assay": "Western Blot, Immunohistochemistry",
+      "species": "mouse, human",
+      "relevant_quote": "Inhibition of ATF6 or p53 suppressed the expression of inflammatory factors and progression of CP in the mouse model."
+    }
+  ],
+  "interaction_effect": "activation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 3
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATF6 --activates--> AIFM2:",
+  "protein_a": "AIFM2",
+  "protein_b": "ATF6",
+  "discovered_in_query": "ATF6",
+  "first_discovered": "2025-11-18T21:01:00.254161Z",
+  "last_updated": "2025-11-18T21:01:00.254161Z"
+}

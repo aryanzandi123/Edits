@@ -1,0 +1,102 @@
+{
+  "primary": "SEL1L",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "SEL1L is a core component of the HRD1-containing ERAD complex. It directly associates with the luminal domain of ATF6, facilitating its recognition and subsequent ubiquitination by HRD1 for degradation.",
+  "functions": [
+    {
+      "function": "ATF6 Degradation",
+      "arrow": "activates",
+      "cellular_process": "SEL1L, as a core component of the HRD1 E3 ligase complex, is required for the recognition and subsequent ER-associated degradation (ERAD) of the transmembrane glycoprotein ATF6.",
+      "effect_description": "SEL1L's involvement is crucial for processing ATF6 as a substrate for the HRD1-mediated degradation machinery, thereby contributing to the termination of ATF6 signaling.",
+      "biological_consequence": [
+        "SEL1L associates with HRD1 E3 ligase to form a functional ERAD complex → SEL1L-HRD1 complex recognizes the luminal domain of ATF6 → ATF6 is targeted for ubiquitin-mediated proteasomal degradation → UPR signaling is attenuated"
+      ],
+      "specific_effects": [
+        "Facilitates the degradation of ATF6 via the ERAD pathway.",
+        "Stabilization of ATF6 is observed in SEL1L knock-out cells.",
+        "The luminal region of ATF6 is the determinant for its SEL1L-dependent degradation."
+      ],
+      "evidence": [
+        {
+          "paper_title": "The Unfolded Protein Response Transducer ATF6 Represents a Novel Transmembrane-type Endoplasmic Reticulum-associated Degradation Substrate Requiring Both Mannose Trimming and SEL1L Protein",
+          "year": 2013,
+          "doi": "10.1074/jbc.M113.476010",
+          "authors": "Horimoto S, Kawahara K, Tanimura M, Mizushima T, Okuma Y, Imaizumi K, Hosokawa N",
+          "journal": "The Journal of Biological Chemistry",
+          "assay": "Pulse-chase, Immunoprecipitation",
+          "species": "chicken, human",
+          "relevant_quote": "Unexpectedly, degradation of endogenous ATF6 and exogenously expressed chicken and human ATF6 by the proteasome required SEL1L.",
+          "pmid": "24043630"
+        },
+        {
+          "paper_title": "Sel1L is indispensable for mammalian endoplasmic reticulum-associated degradation, endoplasmic reticulum homeostasis, and survival",
+          "year": 2015,
+          "doi": "10.1073/pnas.1509398112",
+          "authors": "Sun S, Shi G, Han X, Francisco AB, Ji Y, Mendonça N, Liu X, Locasale JW, E J, DeBerardinis RJ, Duhamel M, Guber RD, Mackeigan JP, Finger EC, St-Germain JR, McBrayer SK, Toth R, Chan CS, Qi L",
+          "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+          "assay": "Mass Spectrometry, Western Blot",
+          "species": "mouse",
+          "relevant_quote": "Recent studies from several groups have elegantly demonstrated that Sel1L is an integral part of the mammalian Hrd1 ERAD complex and is necessary for the ERAD process for...endogenous substrates, including...ATF6.",
+          "pmid": "24453213"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "primary_to_main",
+      "interaction_direction": "primary_to_main",
+      "pmids": [
+        "24043630",
+        "24453213"
+      ],
+      "function_effect": "activation"
+    }
+  ],
+  "arrows": {
+    "primary_to_main": [
+      "inhibits"
+    ]
+  },
+  "arrow": "inhibits",
+  "direction": "primary_to_main",
+  "intent": "regulation",
+  "mechanism": "SEL1L, as a core component of the HRD1 E3 ligase complex, is required for the recognition and subsequent ER-associated degradation (ERAD) of the transmembrane glycoprotein ATF6.",
+  "effect": "SEL1L's involvement is crucial for processing ATF6 as a substrate for the HRD1-mediated degradation machinery, thereby contributing to the termination of ATF6 signaling.",
+  "summary": "ATF6 inhibits SEL1L to modulate atf6 degradation, ultimately affecting upr signaling is attenuated.",
+  "evidence": [
+    {
+      "paper_title": "The Unfolded Protein Response Transducer ATF6 Represents a Novel Transmembrane-type Endoplasmic Reticulum-associated Degradation Substrate Requiring Both Mannose Trimming and SEL1L Protein",
+      "year": 2013,
+      "doi": "10.1074/jbc.M113.476010",
+      "authors": "Horimoto S, Kawahara K, Tanimura M, Mizushima T, Okuma Y, Imaizumi K, Hosokawa N",
+      "journal": "The Journal of Biological Chemistry",
+      "assay": "Pulse-chase, Immunoprecipitation",
+      "species": "chicken, human",
+      "relevant_quote": "Unexpectedly, degradation of endogenous ATF6 and exogenously expressed chicken and human ATF6 by the proteasome required SEL1L."
+    },
+    {
+      "paper_title": "Sel1L is indispensable for mammalian endoplasmic reticulum-associated degradation, endoplasmic reticulum homeostasis, and survival",
+      "year": 2015,
+      "doi": "10.1073/pnas.1509398112",
+      "authors": "Sun S, Shi G, Han X, Francisco AB, Ji Y, Mendonça N, Liu X, Locasale JW, E J, DeBerardinis RJ, Duhamel M, Guber RD, Mackeigan JP, Finger EC, St-Germain JR, McBrayer SK, Toth R, Chan CS, Qi L",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "assay": "Mass Spectrometry, Western Blot",
+      "species": "mouse",
+      "relevant_quote": "Recent studies from several groups have elegantly demonstrated that Sel1L is an integral part of the mammalian Hrd1 ERAD complex and is necessary for the ERAD process for...endogenous substrates, including...ATF6."
+    }
+  ],
+  "interaction_effect": "inhibition",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATF6 <--inhibits-- SEL1L:",
+  "protein_a": "ATF6",
+  "protein_b": "SEL1L",
+  "discovered_in_query": "ATF6",
+  "first_discovered": "2025-11-18T21:01:00.277901Z",
+  "last_updated": "2025-11-18T21:01:00.277901Z"
+}

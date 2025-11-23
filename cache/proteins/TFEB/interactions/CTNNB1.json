@@ -1,0 +1,136 @@
+{
+  "primary": "CTNNB1",
+  "direction": "main_to_primary",
+  "arrow": "regulates",
+  "intent": "co-activation",
+  "support_summary": "TFEB interacts with β-catenin (CTNNB1) and TCF/LEF1 transcription factors in the nucleus to co-activate a specific subset of Wnt target genes. This links TFEB's function to the canonical Wnt signaling pathway, modulating the expression of genes distinct from its typical lysosomal and autophagy targets.",
+  "functions": [
+    {
+      "function": "Wnt Target Gene Co-activation",
+      "arrow": "activates",
+      "cellular_process": "Under active Wnt signaling, nuclear TFEB forms a transcriptional complex with β-catenin (CTNNB1) and TCF/LEF1. This complex binds to the promoters of a specific subset of Wnt-responsive genes, distinct from canonical TFEB target genes containing CLEAR elements.",
+      "effect_description": "TFEB acts as a transcriptional co-activator with β-catenin, driving the expression of a unique set of Wnt target genes and thereby integrating lysosomal signaling with Wnt pathway outputs.",
+      "biological_consequence": [
+        "Active Wnt signaling promotes TFEB nuclear entry → Nuclear TFEB forms a complex with CTNNB1 (β-catenin) and TCF/LEF1 → TFEB-CTNNB1-TCF/LEF1 complex binds Wnt-responsive promoters → Co-activation of a specific subset of Wnt target genes"
+      ],
+      "specific_effects": [
+        "Acts as a co-activator for a subset of Wnt target genes.",
+        "Physically interacts with β-catenin and TCF/LEF1 in a complex.",
+        "Integrates lysosomal signaling with the Wnt developmental pathway."
+      ],
+      "evidence": [
+        {
+          "paper_title": "PARsylated transcription factor EB (TFEB) regulates the expression of a subset of Wnt target genes by forming a complex with β-catenin-TCF/LEF1",
+          "doi": "10.1038/s41418-021-00770-7",
+          "authors": "Kim S, Song G, Lee T, Kim M, Kim J, Kwon H, Kim J, Jeong W, Lee U, Na C, Kang S, Kim W, Seong JK, Jho EH",
+          "journal": "Cell Death & Differentiation",
+          "year": 2021,
+          "assay": "Co-immunoprecipitation, RNA-sequencing",
+          "species": "human",
+          "relevant_quote": "nuclear localized PARsylated TFEB forms a complex with β-catenin-TCF/LEF1 to induce the “TFEB mediated Wnt target genes”.",
+          "pmid": "33753903"
+        },
+        {
+          "paper_title": "Wnt/β-Catenin Signaling Axis Is Required for TFEB-Mediated Gastric Cancer Metastasis and Epithelial-Mesenchymal Transition",
+          "doi": "10.1158/1541-7786.MCR-20-0180",
+          "authors": "Fan Y, Lu Y, Chen Y, He L, Zhao L, Liu S, Li D, Lu A, Zhang G, Xu Z",
+          "journal": "Molecular Cancer Research",
+          "year": 2020,
+          "assay": "Luciferase reporter assay, Western blot",
+          "species": "human",
+          "relevant_quote": "TFEB could trigger the aggregation of β-catenin in nucleus and activate its transcription, as well as facilitate the expression of Wnt/β-catenin target genes and EMT-related markers...",
+          "pmid": "32753474"
+        }
+      ],
+      "pmids": [
+        "33753903",
+        "32753474"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "main_to_primary",
+      "function_effect": "activation"
+    },
+    {
+      "function": "Modulation of Wnt Signaling in Cardiac Remodeling",
+      "arrow": "inhibits",
+      "cellular_process": "In the context of myocardial infarction, TFEB expression leads to an overall inhibition of the pro-fibrotic effects of the Wnt/β-catenin signaling pathway. While TFEB and β-catenin co-localize in the nucleus and form a complex, the resulting transcriptional output shifts the gene expression profile of β-catenin, leading to an anti-fibrotic outcome.",
+      "effect_description": "TFEB inhibits the pathological outcomes of Wnt/β-catenin signaling during cardiac fibrosis, thereby improving ventricular remodeling after myocardial infarction.",
+      "biological_consequence": [
+        "Myocardial infarction induces TFEB expression → TFEB forms a nuclear complex with CTNNB1 (β-catenin) → TFEB-CTNNB1 complex shifts transcription from pro-fibrotic to anti-fibrotic genes → Expression of α-SMA and collagen I is reduced → Attenuation of cardiac fibrosis"
+      ],
+      "specific_effects": [
+        "Inhibits pro-fibrotic Wnt/β-catenin signaling in cardiac fibroblasts.",
+        "Reduces expression of α-SMA and collagen I.",
+        "Improves ventricular remodeling post-myocardial infarction."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Transcription factor EB (TFEB) improves ventricular remodeling after myocardial infarction by inhibiting Wnt/β-catenin signaling pathway",
+          "doi": "10.7717/peerj.15841",
+          "authors": "Liu C, Zhou D, Chen Z, Li L, Chen Z, Lin K, Chen W",
+          "journal": "PeerJ",
+          "year": 2023,
+          "assay": "Immunofluorescence, Western blot, Co-immunoprecipitation",
+          "species": "mouse, rat",
+          "relevant_quote": "TFEB demonstrated potential in restraining fibrosis after MI by inhibiting the Wnt/β-catenin signaling pathway.",
+          "pmid": "37609444"
+        }
+      ],
+      "pmids": [
+        "37609444"
+      ],
+      "interaction_effect": "inhibits",
+      "interaction_direction": "main_to_primary",
+      "function_effect": "inhibition"
+    }
+  ],
+  "mechanism": "Under active Wnt signaling, nuclear TFEB forms a transcriptional complex with β-catenin (CTNNB1) and; In the context of myocardial infarction, TFEB expression leads to an overall inhibition of the pro-f",
+  "effect": "TFEB acts as a transcriptional co-activator with β-catenin, driving the expression of a unique set of Wnt target genes and thereby integrating lysosomal signaling with Wnt pathway outputs.; TFEB inhibits the pathological outcomes of Wnt/β-catenin signaling during cardiac fibrosis, thereby improving ventricular remodeling after myocardial infarction.",
+  "summary": "TFEB regulates CTNNB1 to regulate wnt target gene co-activation and modulation of wnt signaling in cardiac remodeling, ultimately affecting co-activation of a specific subset of wnt target genes.",
+  "evidence": [
+    {
+      "paper_title": "PARsylated transcription factor EB (TFEB) regulates the expression of a subset of Wnt target genes by forming a complex with β-catenin-TCF/LEF1",
+      "doi": "10.1038/s41418-021-00770-7",
+      "authors": "Kim S, Song G, Lee T, Kim M, Kim J, Kwon H, Kim J, Jeong W, Lee U, Na C, Kang S, Kim W, Seong JK, Jho EH",
+      "journal": "Cell Death & Differentiation",
+      "year": 2021,
+      "assay": "Co-immunoprecipitation, RNA-sequencing",
+      "species": "human",
+      "relevant_quote": "nuclear localized PARsylated TFEB forms a complex with β-catenin-TCF/LEF1 to induce the “TFEB mediated Wnt target genes”."
+    },
+    {
+      "paper_title": "Wnt/β-Catenin Signaling Axis Is Required for TFEB-Mediated Gastric Cancer Metastasis and Epithelial-Mesenchymal Transition",
+      "doi": "10.1158/1541-7786.MCR-20-0180",
+      "authors": "Fan Y, Lu Y, Chen Y, He L, Zhao L, Liu S, Li D, Lu A, Zhang G, Xu Z",
+      "journal": "Molecular Cancer Research",
+      "year": 2020,
+      "assay": "Luciferase reporter assay, Western blot",
+      "species": "human",
+      "relevant_quote": "TFEB could trigger the aggregation of β-catenin in nucleus and activate its transcription, as well as facilitate the expression of Wnt/β-catenin target genes and EMT-related markers..."
+    },
+    {
+      "paper_title": "Transcription factor EB (TFEB) improves ventricular remodeling after myocardial infarction by inhibiting Wnt/β-catenin signaling pathway",
+      "doi": "10.7717/peerj.15841",
+      "authors": "Liu C, Zhou D, Chen Z, Li L, Chen Z, Lin K, Chen W",
+      "journal": "PeerJ",
+      "year": 2023,
+      "assay": "Immunofluorescence, Western blot, Co-immunoprecipitation",
+      "species": "mouse, rat",
+      "relevant_quote": "TFEB demonstrated potential in restraining fibrosis after MI by inhibiting the Wnt/β-catenin signaling pathway."
+    }
+  ],
+  "interaction_type": "direct",
+  "interaction_effect": "regulation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 4
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TFEB --regulates--> CTNNB1:",
+  "protein_a": "TFEB",
+  "protein_b": "CTNNB1",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.539079Z",
+  "last_updated": "2025-11-19T03:20:29.539079Z"
+}

@@ -1,0 +1,93 @@
+{
+  "primary": "RAD23B",
+  "direction": "bidirectional",
+  "arrow": "binds",
+  "intent": "protein stabilization",
+  "support_summary": "ATXN3 interacts with RAD23B (hHR23B), a homolog of RAD23A. This interaction is analogous to the one with RAD23A, serving to protect ATXN3 from degradation and positioning it to act on ubiquitinated substrates within the proteasome pathway.",
+  "functions": [
+    {
+      "function": "Protein Stability",
+      "arrow": "activates",
+      "cellular_process": "ATXN3 binds to RAD23B, a shuttle protein for ubiquitinated substrates destined for the proteasome. This binding event stabilizes ATXN3 by preventing its degradation and enables ATXN3 to deubiquitinate substrates, thereby modulating the ubiquitin-proteasome system.",
+      "effect_description": "The interaction between ATXN3 and RAD23B results in the stabilization of ATXN3 protein and the deubiquitination of proteasomal substrates.",
+      "biological_consequence": [
+        "ATXN3 binds RAD23B via its UbS2 domain → ATXN3 is shielded from the 26S proteasome → Inhibition of ATXN3 degradation → Increased ATXN3 protein stability",
+        "RAD23B binds a ubiquitinated substrate → RAD23B shuttles the substrate towards the proteasome → ATXN3 is recruited to the RAD23B-substrate complex → ATXN3 deubiquitinates the substrate → Substrate is rescued from proteasomal degradation"
+      ],
+      "specific_effects": [
+        "ATXN3 interacts with both RAD23A and RAD23B.",
+        "The interaction is mediated through the ubiquitin-binding site 2 (UbS2) of ATXN3.",
+        "Similar to RAD23A, RAD23B binding protects ATXN3 from proteasomal turnover."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Ubiquitin-binding site 2 of ataxin-3 prevents its proteasomal degradation by interacting with Rad23",
+          "doi": "10.1093/hmg/ddu220",
+          "authors": "John R Blount, Aaron C Bessette, Yuliya L Todi",
+          "journal": "Hum Mol Genet",
+          "year": 2014,
+          "assay": "Co-immunoprecipitation",
+          "species": "human",
+          "relevant_quote": "Ataxin-3 interacts with the proteasome-associated proteins Rad23A/B through UbS2.",
+          "pmid": "25144244"
+        },
+        {
+          "paper_title": "Physiological and pathophysiological characteristics of ataxin-3 isoforms",
+          "doi": "10.1074/jbc.RA118.005801",
+          "authors": "Daniel Weishäupl, Juliane Schneider, Barbara Peixoto Pinheiro, Corinna Ruess, Sandra Maria Dold, Felix von Zweydorf, Christian Johannes Gloeckner, Jana Schmidt, Olaf Riess, Thorsten Schmidt",
+          "journal": "J Biol Chem",
+          "year": 2019,
+          "assay": "Mass Spectrometry",
+          "species": "human",
+          "relevant_quote": "At the physiological level, we show that alternative splicing and the premature stop codon alter ataxin-3 stability and that ataxin-3 isoforms differ in their... interaction with other proteins.",
+          "pmid": "30455355"
+        }
+      ],
+      "pmids": [
+        "25144244",
+        "30455355"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "bidirectional",
+      "function_effect": "activation"
+    }
+  ],
+  "mechanism": "ATXN3 binds to RAD23B, a shuttle protein for ubiquitinated substrates destined for the proteasome. This binding event stabilizes ATXN3 by preventing its degradation and enables ATXN3 to deubiquitinate substrates, thereby modulating the ubiquitin-proteasome system.",
+  "effect": "The interaction between ATXN3 and RAD23B results in the stabilization of ATXN3 protein and the deubiquitination of proteasomal substrates.",
+  "summary": "ATXN3 inhibits RAD23B to modulate regulation of protein stability, ultimately affecting increased atxn3 protein stability.",
+  "evidence": [
+    {
+      "paper_title": "Ubiquitin-binding site 2 of ataxin-3 prevents its proteasomal degradation by interacting with Rad23",
+      "doi": "10.1093/hmg/ddu220",
+      "authors": "John R Blount, Aaron C Bessette, Yuliya L Todi",
+      "journal": "Hum Mol Genet",
+      "year": 2014,
+      "assay": "Co-immunoprecipitation",
+      "species": "human",
+      "relevant_quote": "Ataxin-3 interacts with the proteasome-associated proteins Rad23A/B through UbS2."
+    },
+    {
+      "paper_title": "Physiological and pathophysiological characteristics of ataxin-3 isoforms",
+      "doi": "10.1074/jbc.RA118.005801",
+      "authors": "Daniel Weishäupl, Juliane Schneider, Barbara Peixoto Pinheiro, Corinna Ruess, Sandra Maria Dold, Felix von Zweydorf, Christian Johannes Gloeckner, Jana Schmidt, Olaf Riess, Thorsten Schmidt",
+      "journal": "J Biol Chem",
+      "year": 2019,
+      "assay": "Mass Spectrometry",
+      "species": "human",
+      "relevant_quote": "At the physiological level, we show that alternative splicing and the premature stop codon alter ataxin-3 stability and that ataxin-3 isoforms differ in their... interaction with other proteins."
+    }
+  ],
+  "interaction_effect": "binding",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 2
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATXN3 <--binds--> RAD23B:",
+  "protein_a": "ATXN3",
+  "protein_b": "RAD23B",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-23T07:58:56.150595Z",
+  "last_updated": "2025-11-23T07:58:56.150595Z"
+}

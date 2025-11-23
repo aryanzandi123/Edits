@@ -1,0 +1,76 @@
+{
+  "primary": "AXIN1",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "AXIN1, a key scaffolding protein of the β-catenin destruction complex, directly binds to TFEB in the cytoplasm. This interaction sequesters TFEB, preventing its nuclear translocation in the absence of a Wnt signal. Upon Wnt activation, TFEB dissociates from AXIN1, allowing it to move to the nucleus.",
+  "functions": [
+    {
+      "function": "TFEB Cytoplasmic Sequestration in Wnt-Off State",
+      "arrow": "activates",
+      "cellular_process": "In the absence of Wnt signaling (Wnt-off state), AXIN1 acts as a scaffold within the β-catenin destruction complex to directly bind and sequester TFEB in the cytoplasm. This prevents TFEB from entering the nucleus and activating its target genes.",
+      "effect_description": "AXIN1 binding inhibits TFEB's nuclear localization and transcriptional activity by retaining it within the cytoplasmic destruction complex.",
+      "biological_consequence": [
+        "Wnt-off state → TFEB binds the AXIN1 scaffold within the β-catenin destruction complex → TFEB is sequestered in the cytoplasm → TFEB nuclear translocation and transcriptional activity are inhibited",
+        "Wnt-on state → Destruction complex disassembles → TFEB is released from AXIN1 → TFEB translocates to the nucleus to participate in Wnt-dependent transcription"
+      ],
+      "specific_effects": [
+        "Directly interacts with TFEB in the cytoplasm.",
+        "Sequesters TFEB as part of the β-catenin destruction complex.",
+        "Prevents TFEB nuclear translocation in the absence of Wnt signaling."
+      ],
+      "evidence": [
+        {
+          "paper_title": "PARsylated transcription factor EB (TFEB) regulates the expression of a subset of Wnt target genes by forming a complex with β-catenin-TCF/LEF1",
+          "year": 2021,
+          "doi": "10.1038/s12276-021-00649-z",
+          "authors": "Kim S, Song G, Lee T, Kim M, Kim J, Kwon H, Kim J, Jeong W, Lee U, Na C, Kang S, Kim W, Seong JK, Jho EH",
+          "journal": "Experimental & Molecular Medicine",
+          "assay": "Immunoprecipitation (IP)",
+          "species": "human",
+          "relevant_quote": "Immunoprecipitation (IP) assays revealed that TFEB and Axin interacts at the overexpression condition as well as endogenous level...These data suggest that TFEB is part of the β-catenin destruction complex...",
+          "pmid": "33753903"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "primary_to_main",
+      "interaction_direction": "primary_to_main",
+      "pmids": [
+        "33753903"
+      ],
+      "function_effect": "activation"
+    }
+  ],
+  "arrow": "inhibits",
+  "direction": "primary_to_main",
+  "intent": "sequestration",
+  "mechanism": "In the absence of Wnt signaling (Wnt-off state), AXIN1 acts as a scaffold within the β-catenin destruction complex to directly bind and sequester TFEB in the cytoplasm. This prevents TFEB from entering the nucleus and activating its target genes.",
+  "effect": "AXIN1 binding inhibits TFEB's nuclear localization and transcriptional activity by retaining it within the cytoplasmic destruction complex.",
+  "summary": "TFEB inhibits AXIN1 to modulate tfeb cytoplasmic sequestration in wnt-off state, ultimately affecting tfeb nuclear translocation and transcriptional activity are inhibited.",
+  "evidence": [
+    {
+      "paper_title": "PARsylated transcription factor EB (TFEB) regulates the expression of a subset of Wnt target genes by forming a complex with β-catenin-TCF/LEF1",
+      "year": 2021,
+      "doi": "10.1038/s12276-021-00649-z",
+      "authors": "Kim S, Song G, Lee T, Kim M, Kim J, Kwon H, Kim J, Jeong W, Lee U, Na C, Kang S, Kim W, Seong JK, Jho EH",
+      "journal": "Experimental & Molecular Medicine",
+      "assay": "Immunoprecipitation (IP)",
+      "species": "human",
+      "relevant_quote": "Immunoprecipitation (IP) assays revealed that TFEB and Axin interacts at the overexpression condition as well as endogenous level...These data suggest that TFEB is part of the β-catenin destruction complex..."
+    }
+  ],
+  "interaction_effect": "inhibition",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TFEB <--inhibits-- AXIN1:",
+  "protein_a": "TFEB",
+  "protein_b": "AXIN1",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.544884Z",
+  "last_updated": "2025-11-19T03:20:29.544884Z"
+}

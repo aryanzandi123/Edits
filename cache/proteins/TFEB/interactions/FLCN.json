@@ -1,0 +1,113 @@
+{
+  "primary": "FLCN",
+  "interaction_type": "indirect",
+  "upstream_interactor": "PRKAA1",
+  "mediator_chain": [
+    "PRKAA1"
+  ],
+  "depth": 2,
+  "support_summary": "Folliculin (FLCN) is a negative regulator of AMP-activated protein kinase (AMPK). Loss of FLCN leads to constitutive AMPK activation. Activated AMPK then promotes TFEB nuclear localization and transcriptional activity, independently of mTOR.",
+  "functions": [
+    {
+      "function": "Negative TFEB via AMPK",
+      "arrow": "activates",
+      "cellular_process": "Folliculin (FLCN) functions as a negative regulator of AMP-activated protein kinase (AMPK). The loss or absence of FLCN leads to the derepression and constitutive activation of AMPK.",
+      "effect_description": "FLCN loss indirectly activates TFEB by unleashing AMPK, which then phosphorylates and activates TFEB, thereby linking the FLCN tumor suppressor pathway to the regulation of autophagy and lysosomal biogenesis.",
+      "biological_consequence": [
+        "Loss of Folliculin (FLCN) function → AMPK (PRKAA1) is derepressed and constitutively activated → Active AMPK promotes TFEB activity → TFEB drives upregulation of autophagy and lysosomal genes"
+      ],
+      "specific_effects": [
+        "Its loss leads to constitutive AMPK activation.",
+        "Indirectly promotes TFEB activity through the AMPK signaling axis.",
+        "Links cellular energy sensing and tumor suppression to lysosomal biogenesis."
+      ],
+      "evidence": [
+        {
+          "paper_title": "The Transcription Factors TFEB and TFE3 Link the FLCN-AMPK Signaling Axis to Innate Immune Response and Pathogen Resistance",
+          "doi": "10.1016/j.celrep.2019.02.102",
+          "authors": "El-Houjeiri L, Possik E, Vijayaraghavan T, Paquette M, Martina JA, Kazan JM, Ma EH, Jones R, Blanchette P, Puertollano R, Pause A",
+          "journal": "Cell Reports",
+          "year": 2019,
+          "assay": "Western blot, Reporter gene assay",
+          "species": "human, mouse, C. elegans",
+          "relevant_quote": "...we report that the master metabolic modulator 5'-AMP-activated protein kinase (AMPK) and its negative regulator Folliculin (FLCN) act upstream of TFEB/TFE3 in the innate immune response...",
+          "pmid": "30917316"
+        },
+        {
+          "paper_title": "AMPK-dependent phosphorylation is required for transcriptional activation of TFEB and TFE3",
+          "doi": "10.1080/15548627.2021.1898748",
+          "authors": "Paquette M, El-Houjeiri L, Zirden LC, Puustinen P, Blanchette P, Jeong H, Dejgaard K, Siegel PM, Pause A",
+          "journal": "Autophagy",
+          "year": 2021,
+          "assay": "Western blot, Kinase assay",
+          "species": "human, mouse",
+          "relevant_quote": "We show that AMPK mediates phosphorylation of TFEB and TFE3 on three serine residues, leading to TFEB/TFE3 transcriptional activity upon... FLCN (folliculin) depletion...",
+          "pmid": "33734022"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "primary_to_main",
+      "interaction_direction": "primary_to_main",
+      "pmids": [
+        "30917316",
+        "33734022"
+      ],
+      "direct_arrow": "inhibits",
+      "function_effect": "activation",
+      "arrow_context": {
+        "direct_from": "PRKAA1",
+        "direct_arrow": "inhibits",
+        "net_from": "TFEB",
+        "net_arrow": "activates",
+        "mediator_chain": [
+          "PRKAA1"
+        ],
+        "is_indirect": true
+      },
+      "net_arrow": "activates",
+      "net_effect": "activation",
+      "direct_effect": "inhibition"
+    }
+  ],
+  "arrow": "inhibits",
+  "direction": "primary_to_main",
+  "intent": "regulation",
+  "mechanism": "Folliculin (FLCN) functions as a negative regulator of AMP-activated protein kinase (AMPK). The loss or absence of FLCN leads to the derepression and constitutive activation of AMPK.",
+  "effect": "FLCN loss indirectly activates TFEB by unleashing AMPK, which then phosphorylates and activates TFEB, thereby linking the FLCN tumor suppressor pathway to the regulation of autophagy and lysosomal biogenesis.",
+  "summary": "TFEB inhibits FLCN to modulate negative regulation of tfeb via ampk, ultimately affecting tfeb drives upregulation of autophagy and lysosomal genes.",
+  "evidence": [
+    {
+      "paper_title": "The Transcription Factors TFEB and TFE3 Link the FLCN-AMPK Signaling Axis to Innate Immune Response and Pathogen Resistance",
+      "doi": "10.1016/j.celrep.2019.02.102",
+      "authors": "El-Houjeiri L, Possik E, Vijayaraghavan T, Paquette M, Martina JA, Kazan JM, Ma EH, Jones R, Blanchette P, Puertollano R, Pause A",
+      "journal": "Cell Reports",
+      "year": 2019,
+      "assay": "Western blot, Reporter gene assay",
+      "species": "human, mouse, C. elegans",
+      "relevant_quote": "...we report that the master metabolic modulator 5'-AMP-activated protein kinase (AMPK) and its negative regulator Folliculin (FLCN) act upstream of TFEB/TFE3 in the innate immune response..."
+    },
+    {
+      "paper_title": "AMPK-dependent phosphorylation is required for transcriptional activation of TFEB and TFE3",
+      "doi": "10.1080/15548627.2021.1898748",
+      "authors": "Paquette M, El-Houjeiri L, Zirden LC, Puustinen P, Blanchette P, Jeong H, Dejgaard K, Siegel PM, Pause A",
+      "journal": "Autophagy",
+      "year": 2021,
+      "assay": "Western blot, Kinase assay",
+      "species": "human, mouse",
+      "relevant_quote": "We show that AMPK mediates phosphorylation of TFEB and TFE3 on three serine residues, leading to TFEB/TFE3 transcriptional activity upon... FLCN (folliculin) depletion..."
+    }
+  ],
+  "interaction_effect": "inhibition",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "PRKAA1 <--inhibits-- FLCN:",
+  "protein_a": "TFEB",
+  "protein_b": "FLCN",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.533354Z",
+  "last_updated": "2025-11-19T03:20:29.533354Z"
+}

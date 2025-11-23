@@ -1,0 +1,86 @@
+{
+  "primary": "TFEB",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "Extracellular signal-regulated kinase 2 (ERK2), also known as MAPK1, directly phosphorylates TFEB at serine S142. This phosphorylation, often occurring in response to growth factor signaling, promotes TFEB's association with 14-3-3 proteins, leading to its retention in the cytoplasm and the inhibition of its transcriptional activity.",
+  "functions": [
+    {
+      "function": "TFEB Phosphorylation & Cytoplasmic Retention",
+      "arrow": "activates",
+      "cellular_process": "MAPK1 (ERK2) is a kinase that directly phosphorylates TFEB at Serine 142. This phosphorylation contributes to the overall negative charge that promotes TFEB's association with 14-3-3 proteins, sequestering it in the cytoplasm. This phosphorylation also primes TFEB for subsequent phosphorylation by GSK3B at S138, which facilitates nuclear export.",
+      "effect_description": "MAPK1-mediated phosphorylation at S142 promotes TFEB's association with 14-3-3 proteins, leading to its retention in the cytoplasm and inhibition of its transcriptional activity.",
+      "biological_consequence": [
+        "Growth factor signaling → Activation of RAS-RAF-MEK-ERK pathway → MAPK1 (ERK2) phosphorylates TFEB at S142 → TFEB binds 14-3-3 chaperone proteins → TFEB is retained in the cytoplasm.",
+        "MAPK1-mediated phosphorylation of TFEB at S142 → Priming for subsequent GSK3B phosphorylation at S138 → Facilitation of TFEB nuclear export → Suppression of TFEB transcriptional activity."
+      ],
+      "specific_effects": [
+        "Integrates growth factor signaling with the regulation of TFEB activity.",
+        "Acts alongside mTORC1 to suppress TFEB function under nutrient-rich conditions.",
+        "Phosphorylation of TFEB at Ser142 by ERK stimulates subsequent GSK3β-mediated phosphorylation of TFEB at Ser138."
+      ],
+      "evidence": [
+        {
+          "paper_title": "The complex relationship between TFEB transcription factor phosphorylation and subcellular localization",
+          "doi": "10.1080/15548627.2018.1512202",
+          "authors": "Puertollano R, Pucci P, Ballabio A",
+          "journal": "Autophagy",
+          "year": 2018,
+          "assay": "Review",
+          "species": "not applicable",
+          "relevant_quote": "In addition to MTORC1, TFEB is also phosphorylated at S142 by MAPK1/ERK2, a kinase that is activated in response to growth factors.",
+          "pmid": "29764979"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "primary_to_main",
+      "interaction_direction": "primary_to_main",
+      "pmids": [
+        "29764979"
+      ],
+      "function_effect": "activation"
+    }
+  ],
+  "arrow": "inhibits",
+  "direction": "main_to_primary",
+  "intent": "phosphorylation",
+  "mechanism": "MAPK1 (ERK2) is a kinase that directly phosphorylates TFEB at Serine 142. This phosphorylation contributes to the overall negative charge that promotes TFEB's association with 14-3-3 proteins, sequestering it in the cytoplasm. This phosphorylation also primes TFEB for subsequent phosphorylation by GSK3B at S138, which facilitates nuclear export.",
+  "effect": "MAPK1-mediated phosphorylation at S142 promotes TFEB's association with 14-3-3 proteins, leading to its retention in the cytoplasm and inhibition of its transcriptional activity.",
+  "summary": "TFEB inhibits MAPK1 to modulate tfeb phosphorylation & cytoplasmic retention, ultimately affecting tfeb is retained in the cytoplasm.",
+  "evidence": [
+    {
+      "paper_title": "TFEB is a key regulator of starvation-induced autophagy",
+      "doi": "10.1038/emboj.2012.41",
+      "authors": "Settembre C, Zoncu R, Medina DL, Vetrini F, Erdin S, Erdin S, Huynh T, Ciraolo M, Jones KJ, Siciliano JC, Polishchuk E, Gubernator M, Brnyi E, Martina JA, Puertollano R, Ballabio A",
+      "journal": "The EMBO Journal",
+      "year": 2012,
+      "assay": "in vitro kinase assay, Western Blot",
+      "species": "human, mouse",
+      "relevant_quote": "Here, we show that extracellular signal-regulated kinase 2 (ERK2), a downstream effector of the Ras-Raf-MEK-ERK signalling cascade, phosphorylates TFEB on serine 142."
+    },
+    {
+      "paper_title": "The complex relationship between TFEB transcription factor phosphorylation and subcellular localization",
+      "doi": "10.1080/15548627.2018.1512202",
+      "authors": "Puertollano R, Pucci P, Ballabio A",
+      "journal": "Autophagy",
+      "year": 2018,
+      "assay": "Review",
+      "species": "not applicable",
+      "relevant_quote": "In addition to MTORC1, TFEB is also phosphorylated at S142 by MAPK1/ERK2, a kinase that is activated in response to growth factors."
+    }
+  ],
+  "interaction_effect": "inhibition",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TFEB <--inhibits-- MAPK1:",
+  "protein_a": "MAPK1",
+  "protein_b": "TFEB",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.504601Z",
+  "last_updated": "2025-11-19T03:20:29.504601Z"
+}

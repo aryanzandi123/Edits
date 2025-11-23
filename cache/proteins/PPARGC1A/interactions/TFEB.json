@@ -1,0 +1,140 @@
+{
+  "primary": "TFEB",
+  "interaction_type": "indirect",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 2,
+  "support_summary": "TFEB and PPARGC1A (also known as PGC-1α) are master regulators of lysosomal and mitochondrial biogenesis, respectively, and they form a positive transcriptional feedback loop. TFEB directly activates the transcription of the PPARGC1A gene, and PPARGC1A, in turn, co-activates the expression of the TFEB gene. This reciprocal activation coordinates the biogenesis of both organelles.",
+  "functions": [
+    {
+      "function": "Transcriptional Co-regulation & Feedback Loop",
+      "arrow": "activates",
+      "cellular_process": "TFEB and PPARGC1A (PGC-1α) engage in a positive transcriptional feedback loop. TFEB binds to the promoter of the PPARGC1A gene to induce its expression. Conversely, PPARGC1A acts as a transcriptional coactivator that enhances the expression of TFEB.",
+      "effect_description": "This reciprocal transcriptional activation creates a feed-forward mechanism that amplifies cellular programs for mitochondrial biogenesis, lysosomal function, and overall metabolic homeostasis.",
+      "biological_consequence": [
+        "TFEB binds PPARGC1A promoter → PPARGC1A gene transcription is activated → PPARGC1A protein co-activates TFEB expression → Positive feedback loop amplifies both factors → Coordinated mitochondrial & lysosomal biogenesis"
+      ],
+      "specific_effects": [
+        "TFEB directly activates PPARGC1A gene expression.",
+        "PPARGC1A enhances TFEB gene expression.",
+        "This feedback loop coordinates mitochondrial and lysosomal biogenesis."
+      ],
+      "evidence": [
+        {
+          "paper_title": "TFEB drives PGC-1α expression in adipocytes to protect against diet-induced metabolic dysfunction",
+          "doi": "10.1126/scisignal.aau2281",
+          "authors": "Evans TD, Zhang X, Jeong SJ, He A, Song E, Bhattacharya S, Holloway KB, Lodhi IJ, Razani B",
+          "journal": "Science Signaling",
+          "year": 2019,
+          "assay": "qRT-PCR, Western Blot",
+          "species": "mouse",
+          "relevant_quote": "Transcriptional characterization revealed that TFEB targeted genes involved in adipose tissue browning rather than those involved in autophagy. One such gene encoded PGC-1α, an established target of TFEB that promotes adipocyte browning.",
+          "pmid": "31690633"
+        },
+        {
+          "paper_title": "PGC-1α alleviates mitochondrial dysfunction via TFEB-mediated autophagy in cisplatin-induced acute kidney injury",
+          "doi": "10.18632/aging.202653",
+          "authors": "Wang Y, Wang B, Zhu X, Zhang L, Wang Y, Li Y, Chen J, Wang N, Zhao Y",
+          "journal": "Aging",
+          "year": 2021,
+          "assay": "Western Blot, Luciferase Reporter Assay",
+          "species": "mouse, human",
+          "relevant_quote": "Furthermore, PGC-1α-mediated the activation of mitophagy was reliant on the increased expression of TFEB, and the protective effects were abrogated in TFEB-knockdown cells.",
+          "pmid": "33714196"
+        },
+        {
+          "paper_title": "TFEB-driven lysosomal biogenesis is pivotal for PGC1α-dependent renal stress resistance",
+          "doi": "10.1172/jci.insight.126749",
+          "authors": "Lynch MR, Tran MT, Ralto KM, Zsengeller ZK, Raman V, Bhasin SS, Sun N, Chen X, Brown D, Rovira II, Taguchi K, Brooks CR, Stillman IE, Bhasin MK, Finkel T, Parikh SM",
+          "journal": "JCI Insight",
+          "year": 2019,
+          "assay": "RNA sequencing, Western Blot",
+          "species": "mouse",
+          "relevant_quote": "In nematodes, TFEB and PGC1α are mutually regulatory... PGC1α-KO exacerbated, whereas PGC1α induction ameliorated, cisplatin's suppressive effect on TFEB.",
+          "pmid": "30870143"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "bidirectional",
+      "interaction_direction": "bidirectional",
+      "pmids": [
+        "31690633",
+        "33714196",
+        "30870143"
+      ],
+      "function_effect": "activation",
+      "arrow_context": {
+        "direct_from": null,
+        "direct_arrow": "activates",
+        "net_from": "TFEB",
+        "net_arrow": "activates",
+        "mediator_chain": [],
+        "is_indirect": true
+      },
+      "net_arrow": "activates",
+      "direct_arrow": "activates",
+      "net_effect": "activation",
+      "direct_effect": "activation"
+    }
+  ],
+  "arrow": "activates",
+  "direction": "bidirectional",
+  "intent": "transcriptional regulation",
+  "arrows": {
+    "main_to_primary": [
+      "activates"
+    ],
+    "primary_to_main": [
+      "activates"
+    ]
+  },
+  "_chain_inferred": true,
+  "mechanism": "TFEB and PPARGC1A (PGC-1α) engage in a positive transcriptional feedback loop. TFEB binds to the promoter of the PPARGC1A gene to induce its expression. Conversely, PPARGC1A acts as a transcriptional coactivator that enhances the expression of TFEB.",
+  "effect": "This reciprocal transcriptional activation creates a feed-forward mechanism that amplifies cellular programs for mitochondrial biogenesis, lysosomal function, and overall metabolic homeostasis.",
+  "summary": "TFEB activates PPARGC1A to modulate transcriptional co-regulation & feedback loop, ultimately affecting coordinated mitochondrial & lysosomal biogenesis.",
+  "evidence": [
+    {
+      "paper_title": "TFEB drives PGC-1α expression in adipocytes to protect against diet-induced metabolic dysfunction",
+      "doi": "10.1126/scisignal.aau2281",
+      "authors": "Evans TD, Zhang X, Jeong SJ, He A, Song E, Bhattacharya S, Holloway KB, Lodhi IJ, Razani B",
+      "journal": "Science Signaling",
+      "year": 2019,
+      "assay": "qRT-PCR, Western Blot",
+      "species": "mouse",
+      "relevant_quote": "Transcriptional characterization revealed that TFEB targeted genes involved in adipose tissue browning rather than those involved in autophagy. One such gene encoded PGC-1α, an established target of TFEB that promotes adipocyte browning."
+    },
+    {
+      "paper_title": "PGC-1α alleviates mitochondrial dysfunction via TFEB-mediated autophagy in cisplatin-induced acute kidney injury",
+      "doi": "10.18632/aging.202653",
+      "authors": "Wang Y, Wang B, Zhu X, Zhang L, Wang Y, Li Y, Chen J, Wang N, Zhao Y",
+      "journal": "Aging",
+      "year": 2021,
+      "assay": "Western Blot, Luciferase Reporter Assay",
+      "species": "mouse, human",
+      "relevant_quote": "Furthermore, PGC-1α-mediated the activation of mitophagy was reliant on the increased expression of TFEB, and the protective effects were abrogated in TFEB-knockdown cells."
+    },
+    {
+      "paper_title": "TFEB-driven lysosomal biogenesis is pivotal for PGC1α-dependent renal stress resistance",
+      "doi": "10.1172/jci.insight.126749",
+      "authors": "Lynch MR, Tran MT, Ralto KM, Zsengeller ZK, Raman V, Bhasin SS, Sun N, Chen X, Brown D, Rovira II, Taguchi K, Brooks CR, Stillman IE, Bhasin MK, Finkel T, Parikh SM",
+      "journal": "JCI Insight",
+      "year": 2019,
+      "assay": "RNA sequencing, Western Blot",
+      "species": "mouse",
+      "relevant_quote": "In nematodes, TFEB and PGC1α are mutually regulatory... PGC1α-KO exacerbated, whereas PGC1α induction ameliorated, cisplatin's suppressive effect on TFEB."
+    }
+  ],
+  "interaction_effect": "activation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 0
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TFEB <--activates--> PPARGC1A:",
+  "protein_a": "PPARGC1A",
+  "protein_b": "TFEB",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.555587Z",
+  "last_updated": "2025-11-19T03:20:29.555587Z"
+}

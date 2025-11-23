@@ -1,0 +1,117 @@
+{
+  "primary": "MITF",
+  "direction": "bidirectional",
+  "arrow": "regulates",
+  "intent": "heterodimerization and transcriptional regulation",
+  "support_summary": "MITF, a member of the MiT/TFE family, forms functional heterodimers with TFEB to regulate gene expression. They also engage in a cross-regulatory relationship where MITF can activate TFEB expression, and TFEB can inhibit MITF expression.",
+  "functions": [
+    {
+      "function": "TFEB-MITF Heterodimerization and Transcriptional Cross-regulation",
+      "arrow": "activates",
+      "cellular_process": "MITF and TFEB are members of the MiT/TFE family of transcription factors that share a highly homologous basic helix-loop-helix leucine-zipper (bHLHZip) domain. This allows them to form stable DNA-binding heterodimers, recognizing the same E-box/CLEAR elements in the promoters of target genes involved in lysosomal biogenesis, autophagy, and pigmentation.",
+      "effect_description": "The formation of TFEB-MITF heterodimers allows for combinatorial control of a shared set of target genes. Additionally, a cross-regulatory feedback loop exists where MITF directly binds to and activates the TFEB promoter, while TFEB can repress MITF expression, allowing for fine-tuning of their respective activities.",
+      "biological_consequence": [
+        "TFEB and MITF form heterodimers via bHLH-Zip domains → Heterodimer binds to E-box/CLEAR elements in target gene promoters → Coordinated transcriptional regulation of shared genes → Activation of lysosomal biogenesis, autophagy, and pigmentation programs",
+        "MITF binds to a regulatory element in the TFEB gene intron → TFEB gene transcription is activated → TFEB protein expression increases → Positive feedforward loop amplifies cellular clearance pathways.",
+        "Activated TFEB binds to the MITF gene promoter → MITF gene transcription is repressed → MITF protein expression decreases → Negative feedback loop modulates melanocyte differentiation and melanoma phenotype"
+      ],
+      "specific_effects": [
+        "Forms stable DNA-binding heterodimers with TFEB.",
+        "MITF directly binds to a regulatory element in the first intron of the TFEB gene to activate its transcription.",
+        "TFEB protein can inhibit the gene expression of MITF.",
+        "Both factors can regulate each other's mRNA and protein expression levels."
+      ],
+      "evidence": [
+        {
+          "paper_title": "MITF and TFEB cross-regulation in melanoma cells",
+          "doi": "10.1371/journal.pone.0238546",
+          "authors": "J Ballesteros, L Bertolotto, R Ballotti, E Steingrímsson, C Rocchi",
+          "journal": "PLoS One",
+          "year": 2020,
+          "assay": "ChIP-seq, RT-qPCR, Western Blot, Co-IP",
+          "species": "human",
+          "relevant_quote": "In vitro translated MITF has been shown to be able to form stable DNA-binding heterodimers with TFEB... MITF and TFEB can regulate each other's expression...",
+          "pmid": "32881934"
+        },
+        {
+          "paper_title": "The complex relationship between TFEB transcription factor phosphorylation and subcellular localization",
+          "doi": "10.15252/embj.201798804",
+          "authors": "Carmine Settembre, Rosa Puertollano",
+          "journal": "The EMBO Journal",
+          "year": 2018,
+          "assay": "Review",
+          "species": "human, mouse",
+          "relevant_quote": "MiT-TFE proteins may heterodimerize with one another but not with other members of the HLH/leucine-zipper family.",
+          "pmid": "29764979"
+        },
+        {
+          "paper_title": "The MiTF/TFE Family of Transcription Factors: Master Regulators of Organelle Signaling, Metabolism, and Stress Adaptation",
+          "doi": "10.1158/1541-7786.MCR-17-0289",
+          "authors": "Ryan G. Little, Daniel E. Johnson, Jennifer R. Grandis",
+          "journal": "Molecular Cancer Research",
+          "year": 2017,
+          "assay": "Review",
+          "species": "human",
+          "relevant_quote": "The initial identification of the microphthalmia family of transcription factors revealed that MiT/TFEs must homodimerize or heterodimerize with another member of the MiT/TFE family to activate transcription.",
+          "pmid": "28851811"
+        }
+      ],
+      "pmids": [
+        "32881934",
+        "29764979",
+        "28851811"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "bidirectional",
+      "function_effect": "activation"
+    }
+  ],
+  "mechanism": "MITF and TFEB are members of the MiT/TFE family of transcription factors that share a highly homologous basic helix-loop-helix leucine-zipper (bHLHZip) domain. This allows them to form stable DNA-binding heterodimers, recognizing the same E-box/CLEAR elements in the promoters of target genes involved in lysosomal biogenesis, autophagy, and pigmentation.",
+  "effect": "The formation of TFEB-MITF heterodimers allows for combinatorial control of a shared set of target genes. Additionally, a cross-regulatory feedback loop exists where MITF directly binds to and activates the TFEB promoter, while TFEB can repress MITF expression, allowing for fine-tuning of their respective activities.",
+  "summary": "TFEB activates MITF to modulate tfeb-mitf heterodimerization and transcriptional cross-regulation, ultimately affecting activation of lysosomal biogenesis, autophagy, and pigmentation programs.",
+  "evidence": [
+    {
+      "paper_title": "MITF and TFEB cross-regulation in melanoma cells",
+      "doi": "10.1371/journal.pone.0238546",
+      "authors": "J Ballesteros, L Bertolotto, R Ballotti, E Steingrímsson, C Rocchi",
+      "journal": "PLoS One",
+      "year": 2020,
+      "assay": "ChIP-seq, RT-qPCR, Western Blot, Co-IP",
+      "species": "human",
+      "relevant_quote": "In vitro translated MITF has been shown to be able to form stable DNA-binding heterodimers with TFEB... MITF and TFEB can regulate each other's expression..."
+    },
+    {
+      "paper_title": "The complex relationship between TFEB transcription factor phosphorylation and subcellular localization",
+      "doi": "10.15252/embj.201798804",
+      "authors": "Carmine Settembre, Rosa Puertollano",
+      "journal": "The EMBO Journal",
+      "year": 2018,
+      "assay": "Review",
+      "species": "human, mouse",
+      "relevant_quote": "MiT-TFE proteins may heterodimerize with one another but not with other members of the HLH/leucine-zipper family."
+    },
+    {
+      "paper_title": "The MiTF/TFE Family of Transcription Factors: Master Regulators of Organelle Signaling, Metabolism, and Stress Adaptation",
+      "doi": "10.1158/1541-7786.MCR-17-0289",
+      "authors": "Ryan G. Little, Daniel E. Johnson, Jennifer R. Grandis",
+      "journal": "Molecular Cancer Research",
+      "year": 2017,
+      "assay": "Review",
+      "species": "human",
+      "relevant_quote": "The initial identification of the microphthalmia family of transcription factors revealed that MiT/TFEs must homodimerize or heterodimerize with another member of the MiT/TFE family to activate transcription."
+    }
+  ],
+  "interaction_effect": "regulation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 2
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TFEB <--regulates--> MITF:",
+  "protein_a": "TFEB",
+  "protein_b": "MITF",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.515686Z",
+  "last_updated": "2025-11-19T03:20:29.515686Z"
+}

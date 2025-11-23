@@ -1,0 +1,10 @@
+================================================================================
+VALIDATING EVIDENCE FOR ATXN3
+================================================================================
+Total interactors to process: 43
+
+[OK]Evidence validation complete!
+  Total interactors processed: 42
+  Total functions: 50
+  Total PMIDs: 0
+  Functions with evidence: 0

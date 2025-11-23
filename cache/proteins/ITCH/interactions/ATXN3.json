@@ -1,0 +1,79 @@
+{
+  "primary": "ATXN3",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "The E3 ubiquitin ligase ITCH interacts with the polyQ-expanded form of ATXN3. Overexpression of ITCH can mitigate the cytotoxicity caused by the aggregation of misfolded proteins, indicating a role in the cellular response to toxic protein species associated with Spinocerebellar Ataxia Type 3.",
+  "functions": [
+    {
+      "function": "Misfolded Protein Response",
+      "arrow": "activates",
+      "cellular_process": "The E3 ubiquitin ligase ITCH interacts with polyQ-expanded ATXN3 and is involved in the cellular response to toxic protein aggregation.",
+      "effect_description": "Overexpression of ITCH helps alleviate the cytotoxicity induced by the aggregation of polyQ-expanded ATXN3, suggesting it promotes the clearance or detoxification of these aggregates.",
+      "biological_consequence": [
+        "PolyQ-expanded ATXN3 forms toxic aggregates → ITCH E3 ligase interacts with aggregated ATXN3 → Misfolded protein response is activated → Cytotoxicity from protein aggregation is alleviated"
+      ],
+      "specific_effects": [
+        "The interaction is specific to the polyQ-expanded form of ATXN3.",
+        "Transient overexpression of ITCH alleviates cytotoxicity induced by aggregation of misfolded proteins."
+      ],
+      "evidence": [
+        {
+          "paper_title": "ATXN3: a multifunctional protein involved in the polyglutamine disease spinocerebellar ataxia type 3",
+          "doi": "10.1017/erm.2024.10",
+          "authors": "Hernández-Carralero E, Quinet G, Freire R.",
+          "journal": "Expert Reviews in Molecular Medicine",
+          "year": 2024,
+          "assay": "Review",
+          "species": "human",
+          "relevant_quote": "Also, transient overexpression of the E3 ubiquitin ligase ITCH, which interacts with ATXN3-PolyQ, alleviates cytotoxicity induced by aggregation of misfolded proteins...",
+          "pmid": "39320846"
+        }
+      ],
+      "interaction_effect": "inhibits",
+      "direction": "primary_to_main",
+      "interaction_direction": "primary_to_main",
+      "pmids": [
+        "39320846"
+      ],
+      "function_effect": "activation"
+    }
+  ],
+  "arrow": "inhibits",
+  "direction": "main_to_primary",
+  "intent": "protein degradation",
+  "arrows": {
+    "primary_to_main": [
+      "activates"
+    ]
+  },
+  "mechanism": "The E3 ubiquitin ligase ITCH interacts with polyQ-expanded ATXN3 and is involved in the cellular response to toxic protein aggregation.",
+  "effect": "Overexpression of ITCH helps alleviate the cytotoxicity induced by the aggregation of polyQ-expanded ATXN3, suggesting it promotes the clearance or detoxification of these aggregates.",
+  "summary": "ATXN3 activates ITCH to modulate misfolded protein response, ultimately affecting cytotoxicity from protein aggregation is alleviated.",
+  "evidence": [
+    {
+      "paper_title": "ATXN3: a multifunctional protein involved in the polyglutamine disease spinocerebellar ataxia type 3",
+      "doi": "10.1017/erm.2024.10",
+      "authors": "Hernández-Carralero E, Quinet G, Freire R.",
+      "journal": "Expert Reviews in Molecular Medicine",
+      "year": 2024,
+      "assay": "Review",
+      "species": "human",
+      "relevant_quote": "Also, transient overexpression of the E3 ubiquitin ligase ITCH, which interacts with ATXN3-PolyQ, alleviates cytotoxicity induced by aggregation of misfolded proteins..."
+    }
+  ],
+  "interaction_effect": "inhibits",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 3
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATXN3 <--inhibits-- ITCH:",
+  "protein_a": "ITCH",
+  "protein_b": "ATXN3",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-18T20:57:38.933033Z",
+  "last_updated": "2025-11-18T20:57:38.933033Z"
+}

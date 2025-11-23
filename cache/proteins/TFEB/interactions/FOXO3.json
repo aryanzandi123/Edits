@@ -1,0 +1,136 @@
+{
+  "primary": "FOXO3",
+  "interaction_type": "indirect",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 2,
+  "support_summary": "TFEB and FOXO3 are master transcription factors that synergistically regulate an overlapping network of genes involved in autophagy, stress resistance, and longevity. They are activated by similar upstream signals (e.g., nutrient deprivation) and co-occupy the promoters of shared target genes to coordinate a robust cellular response to stress.",
+  "functions": [
+    {
+      "function": "Transcriptional Co-regulation of Autophagy and Stress Resistance Genes",
+      "arrow": "activates",
+      "cellular_process": "TFEB and FOXO3 are key transcription factors that, upon activation by stress signals, translocate to the nucleus and co-regulate the expression of a shared network of genes involved in cellular clearance and defense mechanisms.",
+      "effect_description": "The synergistic action of TFEB and FOXO3 on shared gene promoters amplifies the transcriptional response to stress, leading to enhanced autophagy, lysosomal biogenesis, and expression of stress resistance genes.",
+      "biological_consequence": [
+        "Cellular stress (e.g., starvation, oxidative stress) → mTORC1 inactivation and calcineurin activation → Dephosphorylation and nuclear translocation of TFEB and FOXO3 → Co-occupancy on promoters of shared target genes → Coordinated activation of autophagy and stress resistance genes → Enhanced cellular homeostasis and longevity"
+      ],
+      "specific_effects": [
+        "Cooperatively activates a gene network promoting stress resistance and longevity.",
+        "Both TFEB and FOXO3 are master regulators of autophagy-related genes.",
+        "Co-regulate an overlapping set of target genes in response to stress."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Transcriptional Dysregulation of Autophagy in Aging and Potential Interventions: Insights Into TFEB and FOXOs",
+          "doi": "10.31083/j.jin.2024.01.1105",
+          "authors": "O'Leary E, Wong SQ, Cuervo AM, Macian F",
+          "journal": "Journal of Inflammation Research",
+          "year": 2024,
+          "assay": "Review",
+          "species": "human, mouse, C. elegans",
+          "relevant_quote": "Moreover, HLH-30/TFEB and DAF-16/FOXO co-regulate genes involved in oxidative stress responses, proteolysis, and the unfolded protein response.",
+          "pmid": "41074427"
+        },
+        {
+          "paper_title": "Coordinate activation of autophagy and the proteasome pathway by FoxO transcription factor",
+          "doi": "10.1083/jcb.200705177",
+          "authors": "Zhao J, Brault JJ, Schild A, Cao P, Sandri M, Schiaffino S, Lecker SH, Goldberg AL",
+          "journal": "The Journal of Cell Biology",
+          "year": 2007,
+          "assay": "Microarray, Northern Blot, Luciferase Assay",
+          "species": "mouse, human",
+          "relevant_quote": "Activated FoxO3 stimulates autophagy through a transcription-dependent mechanism and increases the transcription of many autophagy-related genes...",
+          "pmid": "18227643"
+        },
+        {
+          "paper_title": "Transcriptional Regulation of Autophagy: Mechanisms and Diseases",
+          "doi": "10.3389/fcell.2019.00114",
+          "authors": "Di Malta C, Cinque L, Settembre C",
+          "journal": "Frontiers in Cell and Developmental Biology",
+          "year": 2019,
+          "assay": "Review",
+          "species": "human, mouse",
+          "relevant_quote": "FOXO3 was the first FOXO member identified as a transcriptional regulator of several autophagy genes...Similar to what reported for MiT/TFE family of transcription factors, FOXO3 transcriptional activity is mostly regulated by a nuclear/cytosolic shuttling.",
+          "pmid": "31312633"
+        }
+      ],
+      "_context": {
+        "type": "indirect",
+        "query_protein": null,
+        "chain": []
+      },
+      "interaction_effect": "activates",
+      "direction": "bidirectional",
+      "interaction_direction": "bidirectional",
+      "pmids": [
+        "41074427",
+        "18227643",
+        "31312633"
+      ],
+      "function_effect": "activation",
+      "arrow_context": {
+        "direct_from": null,
+        "direct_arrow": "activates",
+        "net_from": "TFEB",
+        "net_arrow": "activates",
+        "mediator_chain": [],
+        "is_indirect": true
+      },
+      "net_arrow": "activates",
+      "direct_arrow": "activates",
+      "net_effect": "activation",
+      "direct_effect": "activation"
+    }
+  ],
+  "arrow": "regulates",
+  "direction": "primary_to_main",
+  "intent": "transcriptional regulation",
+  "mechanism": "TFEB and FOXO3 are key transcription factors that, upon activation by stress signals, translocate to the nucleus and co-regulate the expression of a shared network of genes involved in cellular clearance and defense mechanisms.",
+  "effect": "The synergistic action of TFEB and FOXO3 on shared gene promoters amplifies the transcriptional response to stress, leading to enhanced autophagy, lysosomal biogenesis, and expression of stress resistance genes.",
+  "summary": "TFEB activates FOXO3 to modulate transcriptional co-regulation of autophagy and stress resistance genes, ultimately affecting enhanced cellular homeostasis and longevity.",
+  "evidence": [
+    {
+      "paper_title": "Transcriptional Dysregulation of Autophagy in Aging and Potential Interventions: Insights Into TFEB and FOXOs",
+      "doi": "10.31083/j.jin.2024.01.1105",
+      "authors": "O'Leary E, Wong SQ, Cuervo AM, Macian F",
+      "journal": "Journal of Inflammation Research",
+      "year": 2024,
+      "assay": "Review",
+      "species": "human, mouse, C. elegans",
+      "relevant_quote": "Moreover, HLH-30/TFEB and DAF-16/FOXO co-regulate genes involved in oxidative stress responses, proteolysis, and the unfolded protein response."
+    },
+    {
+      "paper_title": "Coordinate activation of autophagy and the proteasome pathway by FoxO transcription factor",
+      "doi": "10.1083/jcb.200705177",
+      "authors": "Zhao J, Brault JJ, Schild A, Cao P, Sandri M, Schiaffino S, Lecker SH, Goldberg AL",
+      "journal": "The Journal of Cell Biology",
+      "year": 2007,
+      "assay": "Microarray, Northern Blot, Luciferase Assay",
+      "species": "mouse, human",
+      "relevant_quote": "Activated FoxO3 stimulates autophagy through a transcription-dependent mechanism and increases the transcription of many autophagy-related genes..."
+    },
+    {
+      "paper_title": "Transcriptional Regulation of Autophagy: Mechanisms and Diseases",
+      "doi": "10.3389/fcell.2019.00114",
+      "authors": "Di Malta C, Cinque L, Settembre C",
+      "journal": "Frontiers in Cell and Developmental Biology",
+      "year": 2019,
+      "assay": "Review",
+      "species": "human, mouse",
+      "relevant_quote": "FOXO3 was the first FOXO member identified as a transcriptional regulator of several autophagy genes...Similar to what reported for MiT/TFE family of transcription factors, FOXO3 transcriptional activity is mostly regulated by a nuclear/cytosolic shuttling."
+    }
+  ],
+  "interaction_effect": "regulates",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 3
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TFEB <--regulates-- FOXO3:",
+  "protein_a": "TFEB",
+  "protein_b": "FOXO3",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.593864Z",
+  "last_updated": "2025-11-19T03:20:29.593864Z"
+}

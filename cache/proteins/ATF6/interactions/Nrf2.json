@@ -1,0 +1,115 @@
+{
+  "primary": "Nrf2",
+  "interaction_type": "indirect",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 2,
+  "support_summary": "There is significant crosstalk between the UPR and the Nrf2-mediated antioxidant response. While PERK is known to directly phosphorylate Nrf2, ATF6 is also involved in the broader UPR-Nrf2 interplay by transcriptionally upregulating a suite of antioxidant genes, such as Catalase, thereby linking the ER stress response to the cellular defense against oxidative stress.",
+  "functions": [
+    {
+      "function": "Oxidative Stress Response",
+      "arrow": "activates",
+      "cellular_process": "ATF6 activation, as part of the unfolded protein response (UPR), transcriptionally upregulates a suite of antioxidant genes, many of which are also targets of the Nrf2 pathway. This creates a functional link between the response to misfolded proteins in the ER and the defense against reactive oxygen species (ROS).",
+      "effect_description": "ATF6 activation enhances the cell's antioxidant capacity by inducing the expression of genes like Catalase, thus contributing to the broader cellular strategy to mitigate oxidative stress and damage.",
+      "biological_consequence": [
+        "Myocardial Ischemia/Reperfusion → ER Stress → Activation of the UPR Pathway → ATF6 Cleavage and Nuclear Translocation → Binding to ERSEs in Antioxidant Gene Promoters → Transcriptional Upregulation of Catalase → Reduction of Reactive Oxygen Species (ROS) → Protection of Cardiac Myocytes."
+      ],
+      "specific_effects": [
+        "ATF6 is a transcriptional inducer of oxidative stress response genes, including Catalase.",
+        "ATF6 serves as a link between the ER stress and oxidative stress gene programs.",
+        "In cardiac myocytes, ATF6-dependent induction of antioxidant genes protects against ischemia/reperfusion damage."
+      ],
+      "evidence": [
+        {
+          "paper_title": "ATF6 Decreases Myocardial Ischemia/Reperfusion Damage and Links ER Stress and Oxidative Stress Signaling Pathways in the Heart",
+          "doi": "10.1161/CIRCRESAHA.116.310266",
+          "authors": "Jin JK, Blackwood EA, Azizi K, Thuerauf DJ, Fahem AG, Hofmann C, Kaufman RJ, Doroudgar S, Glembotski CC",
+          "journal": "Circulation Research",
+          "year": 2017,
+          "assay": "Gene Array Analysis, ChIP Assay, Overexpression Studies",
+          "species": "mouse, rat",
+          "relevant_quote": "ATF6 serves an important role as a previously unappreciated link between the ER stress and oxidative stress gene programs, supporting a novel mechanism by which ATF6 decreases myocardial I/R damage.",
+          "pmid": "27932512"
+        },
+        {
+          "paper_title": "A New Role for the ER Unfolded Protein Response Mediator ATF6: Induction of a Generalized Antioxidant Program",
+          "doi": "10.1161/CIRCRESAHA.117.310577",
+          "authors": "McKimpson WM, Kitsis RN",
+          "journal": "Circulation Research",
+          "year": 2017,
+          "assay": "Review",
+          "species": "human",
+          "relevant_quote": "this study provides the first evidence in any cell type linking the ER UPR mediator ATF6 with direct transcriptional induction of antioxidant proteins, many of which reside outside of the ER.",
+          "pmid": "28254796"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "27932512",
+        "28254796"
+      ],
+      "function_effect": "activation",
+      "arrow_context": {
+        "direct_from": null,
+        "direct_arrow": "activates",
+        "net_from": "ATF6",
+        "net_arrow": "activates",
+        "mediator_chain": [],
+        "is_indirect": true
+      },
+      "net_arrow": "activates",
+      "direct_arrow": "activates",
+      "net_effect": "activation",
+      "direct_effect": "activation"
+    }
+  ],
+  "arrows": {
+    "main_to_primary": [
+      "activates"
+    ]
+  },
+  "arrow": "regulates",
+  "direction": "main_to_primary",
+  "_chain_inferred": true,
+  "intent": "regulation",
+  "mechanism": "ATF6 activation, as part of the unfolded protein response (UPR), transcriptionally upregulates a suite of antioxidant genes, many of which are also targets of the Nrf2 pathway. This creates a functional link between the response to misfolded proteins in the ER and the defense against reactive oxygen species (ROS).",
+  "effect": "ATF6 activation enhances the cell's antioxidant capacity by inducing the expression of genes like Catalase, thus contributing to the broader cellular strategy to mitigate oxidative stress and damage.",
+  "summary": "ATF6 activates Nrf2 to modulate oxidative stress response, ultimately affecting protection of cardiac myocytes.",
+  "evidence": [
+    {
+      "paper_title": "ATF6 Decreases Myocardial Ischemia/Reperfusion Damage and Links ER Stress and Oxidative Stress Signaling Pathways in the Heart",
+      "doi": "10.1161/CIRCRESAHA.116.310266",
+      "authors": "Jin JK, Blackwood EA, Azizi K, Thuerauf DJ, Fahem AG, Hofmann C, Kaufman RJ, Doroudgar S, Glembotski CC",
+      "journal": "Circulation Research",
+      "year": 2017,
+      "assay": "Gene Array Analysis, ChIP Assay, Overexpression Studies",
+      "species": "mouse, rat",
+      "relevant_quote": "ATF6 serves an important role as a previously unappreciated link between the ER stress and oxidative stress gene programs, supporting a novel mechanism by which ATF6 decreases myocardial I/R damage."
+    },
+    {
+      "paper_title": "A New Role for the ER Unfolded Protein Response Mediator ATF6: Induction of a Generalized Antioxidant Program",
+      "doi": "10.1161/CIRCRESAHA.117.310577",
+      "authors": "McKimpson WM, Kitsis RN",
+      "journal": "Circulation Research",
+      "year": 2017,
+      "assay": "Review",
+      "species": "human",
+      "relevant_quote": "this study provides the first evidence in any cell type linking the ER UPR mediator ATF6 with direct transcriptional induction of antioxidant proteins, many of which reside outside of the ER."
+    }
+  ],
+  "interaction_effect": "regulates",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 3
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATF6 --regulates--> Nrf2:",
+  "protein_a": "ATF6",
+  "protein_b": "Nrf2",
+  "discovered_in_query": "ATF6",
+  "first_discovered": "2025-11-18T21:01:00.339170Z",
+  "last_updated": "2025-11-18T21:01:00.339170Z"
+}

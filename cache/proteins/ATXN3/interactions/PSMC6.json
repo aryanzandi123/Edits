@@ -1,0 +1,124 @@
+{
+  "primary": "PSMC6",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "ATXN3 interacts with subunits of the 26S proteasome, including PSMC6 (also known as Rpt4 or p45), a component of the 19S regulatory particle. This interaction positions ATXN3 to deubiquitinate substrates at the proteasome before their degradation. Components of the proteasome, particularly the 19S cap, are frequently found sequestered within the neuronal intranuclear inclusions characteristic of SCA3.",
+  "functions": [
+    {
+      "function": "Proteasomal Degradation",
+      "arrow": "regulates",
+      "cellular_process": "ATXN3 interacts with subunits of the 26S proteasome, such as PSMC6 (Rpt4), an ATPase component of the 19S regulatory particle.",
+      "effect_description": "This interaction allows ATXN3 to function at the proteasome, where it edits ubiquitin chains on substrates prior to their degradation, thereby regulating protein turnover.",
+      "biological_consequence": [
+        "ATXN3 is targeted to the proteasome → ATXN3 binds the PSMC6 ATPase subunit of the 19S regulatory particle → ATXN3 deubiquitinates substrates prior to degradation → Substrate turnover is regulated → Proteostasis is maintained",
+        "PolyQ-expanded ATXN3 forms intranuclear aggregates → Proteasome subunits (PSMC6) are sequestered into inclusions → Functional 26S proteasome availability is reduced → Ubiquitin-proteasome system (UPS) is impaired → Misfolded proteins accumulate, causing cytotoxicity"
+      ],
+      "specific_effects": [
+        "Proteasome subunits, especially from the 19S regulatory particle, are found within the intranuclear inclusions formed by mutant ATXN3 in SCA3 brains.",
+        "The ATPase subunit p45 (PSMC6) of the 19S proteasome targets ATXN3 to the proteasome."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Physiological and pathophysiological characteristics of ataxin-3 isoforms",
+          "doi": "10.1074/jbc.M705359200",
+          "authors": "Mueller T, Breuer P, Schmitt I, Walter J, Evert BO, Wüllner U",
+          "journal": "The Journal of Biological Chemistry",
+          "year": 2007,
+          "assay": "Co-IP",
+          "species": "human",
+          "relevant_quote": "p45, an ATPase subunit of the 19S proteasome, targets the polyglutamine disease protein ataxin-3 to the proteasome.",
+          "pmid": "30455355"
+        },
+        {
+          "paper_title": "Protein Surveillance Machinery in Brains With Spinocerebellar Ataxia Type 3: Redistribution and Differential Recruitment of 26S Proteasome Subunits and Chaperones to Neuronal Intranuclear Inclusions",
+          "doi": "10.1002/ana.10101",
+          "authors": "Chai Y, Koppenhafer SL, Bonini NM, Paulson HL",
+          "journal": "Annals of Neurology",
+          "year": 2002,
+          "assay": "Immunohistochemistry",
+          "species": "human",
+          "relevant_quote": "...most inclusions were stained by antibodies directed against subunits of the 11S and 19S regulatory particles.",
+          "pmid": "11891825"
+        },
+        {
+          "paper_title": "Evidence for Proteasome Involvement in Polyglutamine Disease: Localization to Nuclear Inclusions in SCA3/MJD and Suppression of Polyglutamine Aggregation in vitro",
+          "doi": "10.1093/hmg/8.4.673",
+          "authors": "Chai Y, Koppenhafer SL, Shoesmith SJ, Perez MK, Paulson HL",
+          "journal": "Human Molecular Genetics",
+          "year": 1999,
+          "assay": "Immunohistochemistry",
+          "species": "human",
+          "relevant_quote": "In neurons from SCA3/MJD brain, the proteasome localized to intranuclear inclusions containing the mutant protein, ataxin-3.",
+          "pmid": "10072437"
+        }
+      ],
+      "interaction_effect": "regulates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "30455355",
+        "11891825",
+        "10072437"
+      ],
+      "function_effect": "regulation"
+    }
+  ],
+  "arrow": "binds",
+  "direction": "main_to_primary",
+  "intent": "proteasomal regulation",
+  "arrows": {
+    "main_to_primary": [
+      "binds"
+    ]
+  },
+  "mechanism": "ATXN3 interacts with subunits of the 26S proteasome, such as PSMC6 (Rpt4), an ATPase component of the 19S regulatory particle.",
+  "effect": "This interaction allows ATXN3 to function at the proteasome, where it edits ubiquitin chains on substrates prior to their degradation, thereby regulating protein turnover.",
+  "summary": "ATXN3 interacts with PSMC6 to modulate proteasomal degradation, ultimately affecting proteostasis is maintained.",
+  "evidence": [
+    {
+      "paper_title": "Physiological and pathophysiological characteristics of ataxin-3 isoforms",
+      "doi": "10.1074/jbc.M705359200",
+      "authors": "Mueller T, Breuer P, Schmitt I, Walter J, Evert BO, Wüllner U",
+      "journal": "The Journal of Biological Chemistry",
+      "year": 2007,
+      "assay": "Co-IP",
+      "species": "human",
+      "relevant_quote": "p45, an ATPase subunit of the 19S proteasome, targets the polyglutamine disease protein ataxin-3 to the proteasome."
+    },
+    {
+      "paper_title": "Protein Surveillance Machinery in Brains With Spinocerebellar Ataxia Type 3: Redistribution and Differential Recruitment of 26S Proteasome Subunits and Chaperones to Neuronal Intranuclear Inclusions",
+      "doi": "10.1002/ana.10101",
+      "authors": "Chai Y, Koppenhafer SL, Bonini NM, Paulson HL",
+      "journal": "Annals of Neurology",
+      "year": 2002,
+      "assay": "Immunohistochemistry",
+      "species": "human",
+      "relevant_quote": "...most inclusions were stained by antibodies directed against subunits of the 11S and 19S regulatory particles."
+    },
+    {
+      "paper_title": "Evidence for Proteasome Involvement in Polyglutamine Disease: Localization to Nuclear Inclusions in SCA3/MJD and Suppression of Polyglutamine Aggregation in vitro",
+      "doi": "10.1093/hmg/8.4.673",
+      "authors": "Chai Y, Koppenhafer SL, Shoesmith SJ, Perez MK, Paulson HL",
+      "journal": "Human Molecular Genetics",
+      "year": 1999,
+      "assay": "Immunohistochemistry",
+      "species": "human",
+      "relevant_quote": "In neurons from SCA3/MJD brain, the proteasome localized to intranuclear inclusions containing the mutant protein, ataxin-3."
+    }
+  ],
+  "interaction_effect": "binding",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATXN3 --binds--> PSMC6:",
+  "protein_a": "ATXN3",
+  "protein_b": "PSMC6",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-23T07:58:56.199442Z",
+  "last_updated": "2025-11-23T07:58:56.199442Z"
+}

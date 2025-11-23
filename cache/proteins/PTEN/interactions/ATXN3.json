@@ -1,0 +1,111 @@
+{
+  "primary": "ATXN3",
+  "direction": "primary_to_main",
+  "arrow": "regulates",
+  "intent": "transcriptional_regulation",
+  "support_summary": "ATXN3 has a dual role in regulating the tumor suppressor PTEN. Primarily, it acts as a transcriptional repressor, reducing PTEN mRNA levels and thereby promoting PI3K/Akt signaling in certain cancers. Additionally, some evidence suggests ATXN3 can act as a deubiquitinase for PTEN, although this function is less characterized than its transcriptional role.",
+  "functions": [
+    {
+      "function": "PTEN Transcription",
+      "arrow": "inhibits",
+      "cellular_process": "ATXN3 acts as a transcriptional repressor of the tumor suppressor gene PTEN. This regulation is independent of ATXN3's deubiquitinase activity on the PTEN protein itself.",
+      "effect_description": "By repressing PTEN transcription, ATXN3 reduces PTEN mRNA and protein levels, which contributes to the hyperactivation of the oncogenic PI3K/Akt signaling pathway.",
+      "biological_consequence": [
+        "ATXN3 binds and represses the PTEN gene promoter → Decreased PTEN mRNA transcription and protein expression → Reduced inhibition of the PI3K pathway → Increased Akt phosphorylation (p-Akt) → Promotion of cancer cell viability and proliferation."
+      ],
+      "specific_effects": [
+        "Depletion of ATXN3 via siRNA in non-small-cell lung cancer cells increases PTEN transcript abundance.",
+        "The increase in PTEN expression following ATXN3 depletion is sufficient to downregulate Akt phosphorylation.",
+        "ATXN3 acts primarily by repressing PTEN transcription, as it does not alter PTEN protein stability."
+      ],
+      "evidence": [
+        {
+          "paper_title": "The deubiquitylase Ataxin-3 restricts PTEN transcription in lung cancer cells",
+          "doi": "10.1038/onc.2013.512",
+          "authors": "I. A. M. van der Zwaag, A. Medema, R. H. Medema",
+          "journal": "Oncogene",
+          "year": 2014,
+          "assay": "siRNA screen, qRT-PCR, Western Blot",
+          "species": "human",
+          "relevant_quote": "In ATXN3-depleted cells, under conditions of transcriptional inhibition, PTEN and PTENP1 mRNAs rapidly decay, suggesting that ATXN3 acts primarily by repressing their transcription.",
+          "pmid": "24292675"
+        }
+      ],
+      "pmids": [
+        "24292675"
+      ],
+      "interaction_effect": "inhibits",
+      "interaction_direction": "main_to_primary",
+      "function_effect": "inhibition"
+    },
+    {
+      "function": "PTEN Deubiquitination",
+      "arrow": "activates",
+      "cellular_process": "ATXN3 is a deubiquitinating enzyme (DUB) that has been identified as a regulator of PTEN, capable of removing ubiquitin chains from the PTEN protein.",
+      "effect_description": "By deubiquitinating PTEN, ATXN3 can reverse ubiquitination-mediated regulation, potentially affecting PTEN's stability, localization, and tumor suppressor function.",
+      "biological_consequence": [
+        "ATXN3 binds to ubiquitinated PTEN protein → ATXN3 removes polyubiquitin chains from PTEN → Prevention of PTEN proteasomal degradation → Increased PTEN protein stability and activity → Enhanced tumor suppression."
+      ],
+      "specific_effects": [
+        "Several deubiquitinating enzymes, including Ataxin-3, can remove ubiquitin from ubiquitinated PTEN in cancer-specific contexts."
+      ],
+      "evidence": [
+        {
+          "paper_title": "The equilibrium of tumor suppression: DUBs as active regulators of PTEN",
+          "doi": "10.1038/s12276-022-00887-w",
+          "authors": "Su Jung Song, Min Sup Song",
+          "journal": "Experimental & Molecular Medicine",
+          "year": 2022,
+          "assay": "Review",
+          "species": "human",
+          "relevant_quote": "While PTEN can be targeted by HECT-type E3 ubiquitin ligases for nuclear import and proteasomal degradation, studies have shown that several deubiquitinating enzymes, including...Ataxin-3, can remove ubiquitin from ubiquitinated PTEN.",
+          "pmid": "36385557"
+        }
+      ],
+      "pmids": [
+        "36385557"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "main_to_primary",
+      "function_effect": "activation"
+    }
+  ],
+  "mechanism": "ATXN3 acts as a transcriptional repressor of the tumor suppressor gene PTEN. This regulation is independent of ATXN3's deubiquitinase activity on the PTEN protein itself. ATXN3 is a deubiquitinating enzyme (DUB) that has been identified as a regulator of PTEN, capable of removing ubiquitin chains from the PTEN protein.",
+  "effect": "By repressing PTEN transcription, ATXN3 reduces PTEN mRNA and protein levels, which contributes to the hyperactivation of the oncogenic PI3K/Akt signaling pathway.; By deubiquitinating PTEN, ATXN3 can reverse ubiquitination-mediated regulation, potentially affecting PTEN's stability, localization, and tumor suppressor function.",
+  "summary": "ATXN3 regulates PTEN to regulate pten transcription and pten deubiquitination, ultimately affecting promotion of cancer cell viability and proliferation.",
+  "evidence": [
+    {
+      "paper_title": "The deubiquitylase Ataxin-3 restricts PTEN transcription in lung cancer cells",
+      "doi": "10.1038/onc.2013.512",
+      "authors": "I. A. M. van der Zwaag, A. Medema, R. H. Medema",
+      "journal": "Oncogene",
+      "year": 2014,
+      "assay": "siRNA screen, qRT-PCR, Western Blot",
+      "species": "human",
+      "relevant_quote": "In ATXN3-depleted cells, under conditions of transcriptional inhibition, PTEN and PTENP1 mRNAs rapidly decay, suggesting that ATXN3 acts primarily by repressing their transcription."
+    },
+    {
+      "paper_title": "The equilibrium of tumor suppression: DUBs as active regulators of PTEN",
+      "doi": "10.1038/s12276-022-00887-w",
+      "authors": "Su Jung Song, Min Sup Song",
+      "journal": "Experimental & Molecular Medicine",
+      "year": 2022,
+      "assay": "Review",
+      "species": "human",
+      "relevant_quote": "While PTEN can be targeted by HECT-type E3 ubiquitin ligases for nuclear import and proteasomal degradation, studies have shown that several deubiquitinating enzymes, including...Ataxin-3, can remove ubiquitin from ubiquitinated PTEN."
+    }
+  ],
+  "interaction_effect": "regulation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 2
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATXN3 --regulates--> PTEN:",
+  "protein_a": "PTEN",
+  "protein_b": "ATXN3",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-23T07:58:56.244528Z",
+  "last_updated": "2025-11-23T07:58:56.244528Z"
+}

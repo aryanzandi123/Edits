@@ -1,0 +1,135 @@
+{
+  "primary": "ATXN3",
+  "interaction_type": "indirect",
+  "upstream_interactor": "NRF2",
+  "mediator_chain": [
+    "NRF2"
+  ],
+  "depth": 2,
+  "support_summary": "ATXN3 indirectly upregulates the expression of Heme Oxygenase 1 (HMOX1). ATXN3 knockdown leads to the degradation of KEAP1, a negative regulator of the transcription factor NRF2. This results in the stabilization and nuclear accumulation of NRF2, which then activates the transcription of its target gene, HMOX1.",
+  "functions": [
+    {
+      "function": "HMOX1 Gene Transcription",
+      "arrow": "inhibits",
+      "cellular_process": "ATXN3 depletion leads to decreased levels of KEAP1, the substrate adaptor for the E3 ubiquitin ligase complex that targets NRF2 for degradation. This stabilizes NRF2, allowing it to translocate to the nucleus and bind to the Antioxidant Response Element (ARE) in the HMOX1 gene promoter.",
+      "effect_description": "By indirectly promoting the stability and transcriptional activity of NRF2, ATXN3 upregulates the expression of the cytoprotective enzyme HMOX1, a key component of the cellular defense against oxidative stress.",
+      "biological_consequence": [
+        "ATXN3 depletion → Decreased KEAP1 protein levels → NRF2 stabilization & nuclear translocation → NRF2 binds to Antioxidant Response Element (ARE) in HMOX1 promoter → Increased HMOX1 gene transcription → Enhanced cellular antioxidant capacity"
+      ],
+      "specific_effects": [
+        "HMOX1 is a well-established target gene of the NRF2 transcription factor.",
+        "NRF2 activation is a prerequisite for HMOX1 induction in response to oxidative stress.",
+        "The transcriptional repressor BACH1 can compete with NRF2 for binding to the HMOX1 promoter, adding another layer of regulation."
+      ],
+      "evidence": [
+        {
+          "paper_title": "The Deubiquitinating Enzyme Ataxin-3 Regulates Ciliogenesis and Phagocytosis in the Retina",
+          "doi": "10.1016/j.isci.2020.101802",
+          "authors": "Toulis V, García-Monclús S, de la Peña-Ramírez C, Arenas-Galnares R, Abril JF, Todi SV, Khan N, Garanto A, do Carmo Costa M, Marfany G",
+          "journal": "iScience",
+          "year": 2020,
+          "assay": "Western Blot, siRNA knockdown",
+          "species": "human, mouse",
+          "relevant_quote": "knockdown of ATXN3 in human cells significantly decreased KEAP1 protein levels... Our results also confirm that the levels of NRF2 and p62 were increased in ATXN3-knockdown cells...",
+          "pmid": "33176149"
+        },
+        {
+          "paper_title": "Heme oxygenase-1 induction by NRF2 requires inactivation of the transcriptional repressor BACH1",
+          "doi": "10.1093/nar/gkm638",
+          "authors": "Reichard JF, Motz GT, Puga A",
+          "journal": "Nucleic Acids Research",
+          "year": 2007,
+          "assay": "Chromatin Immunoprecipitation, Reporter Assay",
+          "species": "human",
+          "relevant_quote": "Transactivation of HMOX1 and of other antioxidant genes is regulated by binding of the transcription factor NRF2 (Nuclear factor erythoid-derived 2 related factor 2) to a cis-acting enhancer element known as the antioxidant response element (ARE).",
+          "pmid": "17942419"
+        },
+        {
+          "paper_title": "Role of Nrf2/HO-1 system in development, oxidative stress response and diseases: an evolutionarily conserved mechanism",
+          "doi": "10.1007/s00018-016-2223-0",
+          "authors": "Loboda A, Damulewicz M, Pyza E, Jozkowicz A, Dulak J",
+          "journal": "Cellular and Molecular Life Sciences",
+          "year": 2016,
+          "assay": "Review",
+          "species": "various",
+          "relevant_quote": "The discovery of the antioxidant response element (ARE) have led to the conclusion that the battery of genes, including...heme oxygenase-1 (HMOX1) is regulated through Nrf2 binding to this consensus binding sequence.",
+          "pmid": "27100828"
+        }
+      ],
+      "interaction_effect": "inhibits",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "33176149",
+        "17942419",
+        "27100828"
+      ],
+      "direct_arrow": "activates",
+      "function_effect": "inhibition",
+      "arrow_context": {
+        "direct_from": "NRF2",
+        "direct_arrow": "activates",
+        "net_from": "ATXN3",
+        "net_arrow": "inhibits",
+        "mediator_chain": [
+          "NRF2"
+        ],
+        "is_indirect": true
+      },
+      "net_arrow": "inhibits",
+      "net_effect": "inhibition",
+      "direct_effect": "activation"
+    }
+  ],
+  "arrow": "inhibits",
+  "direction": "primary_to_main",
+  "intent": "transcriptional regulation",
+  "mechanism": "ATXN3 depletion leads to decreased levels of KEAP1, the substrate adaptor for the E3 ubiquitin ligase complex that targets NRF2 for degradation. This stabilizes NRF2, allowing it to translocate to the nucleus and bind to the Antioxidant Response Element (ARE) in the HMOX1 gene promoter.",
+  "effect": "By indirectly promoting the stability and transcriptional activity of NRF2, ATXN3 upregulates the expression of the cytoprotective enzyme HMOX1, a key component of the cellular defense against oxidative stress.",
+  "summary": "ATXN3 activates HMOX1 to modulate hmox1 gene transcription, ultimately affecting enhanced cellular antioxidant capacity.",
+  "evidence": [
+    {
+      "paper_title": "The Deubiquitinating Enzyme Ataxin-3 Regulates Ciliogenesis and Phagocytosis in the Retina",
+      "doi": "10.1016/j.isci.2020.101802",
+      "authors": "Toulis V, García-Monclús S, de la Peña-Ramírez C, Arenas-Galnares R, Abril JF, Todi SV, Khan N, Garanto A, do Carmo Costa M, Marfany G",
+      "journal": "iScience",
+      "year": 2020,
+      "assay": "Western Blot, siRNA knockdown",
+      "species": "human, mouse",
+      "relevant_quote": "knockdown of ATXN3 in human cells significantly decreased KEAP1 protein levels... Our results also confirm that the levels of NRF2 and p62 were increased in ATXN3-knockdown cells..."
+    },
+    {
+      "paper_title": "Heme oxygenase-1 induction by NRF2 requires inactivation of the transcriptional repressor BACH1",
+      "doi": "10.1093/nar/gkm638",
+      "authors": "Reichard JF, Motz GT, Puga A",
+      "journal": "Nucleic Acids Research",
+      "year": 2007,
+      "assay": "Chromatin Immunoprecipitation, Reporter Assay",
+      "species": "human",
+      "relevant_quote": "Transactivation of HMOX1 and of other antioxidant genes is regulated by binding of the transcription factor NRF2 (Nuclear factor erythoid-derived 2 related factor 2) to a cis-acting enhancer element known as the antioxidant response element (ARE)."
+    },
+    {
+      "paper_title": "Role of Nrf2/HO-1 system in development, oxidative stress response and diseases: an evolutionarily conserved mechanism",
+      "doi": "10.1007/s00018-016-2223-0",
+      "authors": "Loboda A, Damulewicz M, Pyza E, Jozkowicz A, Dulak J",
+      "journal": "Cellular and Molecular Life Sciences",
+      "year": 2016,
+      "assay": "Review",
+      "species": "various",
+      "relevant_quote": "The discovery of the antioxidant response element (ARE) have led to the conclusion that the battery of genes, including...heme oxygenase-1 (HMOX1) is regulated through Nrf2 binding to this consensus binding sequence."
+    }
+  ],
+  "interaction_effect": "inhibition",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 2
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "NRF2 --inhibits--> HMOX1:",
+  "protein_a": "HMOX1",
+  "protein_b": "ATXN3",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-23T07:58:56.222117Z",
+  "last_updated": "2025-11-23T07:58:56.222117Z"
+}

@@ -1,0 +1,85 @@
+{
+  "primary": "GSK3B",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "GSK3B is a kinase that directly phosphorylates TFEB at serine S138. This phosphorylation is part of a hierarchical process, primed by prior phosphorylation at S142 by mTORC1 or ERK2, and it promotes TFEB's recognition by the nuclear export machinery (CRM1), leading to its removal from the nucleus and termination of its activity.",
+  "functions": [
+    {
+      "function": "TFEB Phosphorylation & Nuclear Export",
+      "arrow": "activates",
+      "cellular_process": "GSK3B directly phosphorylates TFEB at Serine 138. This event is primed by a prior phosphorylation at Serine 142 (by mTORC1/ERK2). The dual phosphorylation of S142 and S138 creates a signal for TFEB's recognition by the nuclear exportin CRM1, facilitating its export to the cytoplasm.",
+      "effect_description": "GSK3B-mediated phosphorylation at S138 promotes the export of TFEB from the nucleus, thereby terminating its transcriptional activity.",
+      "biological_consequence": [
+        "Priming phosphorylation of TFEB at S142 → GSK3B phosphorylates TFEB at S138 → Dual-phospho motif (pS142/pS138) is recognized by XPO1/CRM1 → TFEB is exported from the nucleus to the cytoplasm → TFEB-mediated transcription is terminated → Attenuation of the lysosomal & autophagy response"
+      ],
+      "specific_effects": [
+        "Fine-tunes the duration of the TFEB transcriptional response.",
+        "Contributes to the restoration of cytoplasmic TFEB levels after a period of nuclear activity.",
+        "GSK3B inactivation potently induces autophagy through the loss of TFEB phosphorylation followed by its nuclear translocation."
+      ],
+      "evidence": [
+        {
+          "paper_title": "eIF4A3 regulates the TFEB-mediated transcriptional response via GSK3B to control autophagy",
+          "doi": "10.1038/s41418-021-00835-x",
+          "authors": "Nnah IE, Kriebs A, Subic A, Super S, Gamache TR, Vevea JD, Chapkis N, Monteagudo E, Finley D, King GW, Apicco DJ, Wolozin B, Götze M, Ivanov P, Asara JM, Christiano R, Polymenidou M, Van Vactor D, Wegorzewska I",
+          "journal": "Cell Death & Differentiation",
+          "year": 2021,
+          "assay": "Western Blot, RNA-seq",
+          "species": "human",
+          "relevant_quote": "GSK3B-mediated phosphorylation of TFEB at S134 and S138 represents an initial event, permissive for TFEB's localization to the lysosome, where it is further phosphorylated by additional kinases, leading to its cytosolic retention.",
+          "pmid": "34158631"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "primary_to_main",
+      "interaction_direction": "primary_to_main",
+      "pmids": [
+        "34158631"
+      ],
+      "function_effect": "activation"
+    }
+  ],
+  "arrow": "regulates",
+  "direction": "primary_to_main",
+  "intent": "phosphorylation",
+  "mechanism": "GSK3B directly phosphorylates TFEB at Serine 138. This event is primed by a prior phosphorylation at Serine 142 (by mTORC1/ERK2). The dual phosphorylation of S142 and S138 creates a signal for TFEB's recognition by the nuclear exportin CRM1, facilitating its export to the cytoplasm.",
+  "effect": "GSK3B-mediated phosphorylation at S138 promotes the export of TFEB from the nucleus, thereby terminating its transcriptional activity.",
+  "summary": "TFEB inhibits GSK3B to modulate tfeb phosphorylation & nuclear export, ultimately affecting attenuation of the lysosomal & autophagy response.",
+  "evidence": [
+    {
+      "paper_title": "GSK3- and CK1-mediated phosphorylation of TFEB promotes its nuclear export",
+      "doi": "10.1091/mbc.E16-03-0171",
+      "authors": "Li Y, Xu M, Ding X, Li C, Zong H, Yang L, Liu L, Song M, Chen Y",
+      "journal": "Molecular Biology of the Cell",
+      "year": 2016,
+      "assay": "in vitro kinase assay, Co-IP",
+      "species": "human",
+      "relevant_quote": "We found that glycogen synthase kinase 3 (GSK3) and casein kinase 1 (CK1) are two novel kinases that phosphorylate TFEB at S138 and S134, respectively, and promote its nuclear export."
+    },
+    {
+      "paper_title": "eIF4A3 regulates the TFEB-mediated transcriptional response via GSK3B to control autophagy",
+      "doi": "10.1038/s41418-021-00835-x",
+      "authors": "Nnah IE, Kriebs A, Subic A, Super S, Gamache TR, Vevea JD, Chapkis N, Monteagudo E, Finley D, King GW, Apicco DJ, Wolozin B, Götze M, Ivanov P, Asara JM, Christiano R, Polymenidou M, Van Vactor D, Wegorzewska I",
+      "journal": "Cell Death & Differentiation",
+      "year": 2021,
+      "assay": "Western Blot, RNA-seq",
+      "species": "human",
+      "relevant_quote": "GSK3B-mediated phosphorylation of TFEB at S134 and S138 represents an initial event, permissive for TFEB's localization to the lysosome, where it is further phosphorylated by additional kinases, leading to its cytosolic retention."
+    }
+  ],
+  "interaction_effect": "regulates",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 3
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TFEB <--regulates-- GSK3B:",
+  "protein_a": "TFEB",
+  "protein_b": "GSK3B",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.501879Z",
+  "last_updated": "2025-11-19T03:20:29.501879Z"
+}

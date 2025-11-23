@@ -1,0 +1,172 @@
+{
+  "primary": "ATF6",
+  "interaction_type": "indirect",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 2,
+  "support_summary": "ATF6 has a context-dependent, dual role in regulating NF-kB signaling. In some contexts, such as in ER-stressed macrophages, ATF6 activation can lead to Akt inhibition, which removes a block on NF-kB and enhances its pro-inflammatory activity. Conversely, in other contexts, ATF6 activation can suppress NF-kB by promoting mTOR-dependent dephosphorylation of Akt.",
+  "functions": [
+    {
+      "function": "NF-kB Transcriptional Activity",
+      "arrow": "activates",
+      "cellular_process": "ATF6 activation contributes to the activation of the NF-kB signaling pathway, creating a pro-inflammatory synergy between ER stress and Toll-like receptor (TLR) activation. The mechanism can involve a transient phosphorylation of Akt or, more commonly, an inhibition of the anti-inflammatory Akt pathway, which removes a block on NF-kB.",
+      "effect_description": "ATF6 activation indirectly enhances NF-kB signaling, leading to an increased pro-inflammatory response, particularly in the context of ischemia-reperfusion injury.",
+      "biological_consequence": [
+        "ER stress + TLR stimulation → ATF6 activation → Inhibition of anti-inflammatory Akt pathway → Relief of NF-kB inhibition → Enhanced pro-inflammatory cytokine production",
+        "ER stress → ATF6 activation → Transient Akt phosphorylation → IKK activation → NF-kB activation → Pro-inflammatory gene expression"
+      ],
+      "specific_effects": [
+        "Enhances NF-kB activity in response to TLR stimulation in ER-stressed macrophages.",
+        "Inhibition of ATF6 can abrogate the pro-inflammatory enhancement of TLR4 responses.",
+        "ATF6-mediated transient phosphorylation of Akt can activate NF-kB."
+      ],
+      "evidence": [
+        {
+          "paper_title": "ATF6 mediates a pro-inflammatory synergy between ER stress and TLR activation in the pathogenesis of liver ischemia-reperfusion injury",
+          "doi": "10.1111/ajt.12711",
+          "authors": "Rao J, Yue S, Fu Y, Zhu J, Wang X, Busuttil RW, Kupiec-Weglinski JW, Lu L, Zhai Y",
+          "journal": "American Journal of Transplantation",
+          "year": 2014,
+          "assay": "siRNA, Western Blot",
+          "species": "mouse",
+          "relevant_quote": "ER-stress-induced ATF6 activation enhances the pro-inflammatory nature of TLR4 response by both inhibiting Akt and enhancing NF-κB signaling.",
+          "pmid": "24903305"
+        },
+        {
+          "paper_title": "NF-κB and its crosstalk with endoplasmic reticulum stress in atherosclerosis",
+          "doi": "10.3389/fcvm.2022.988266",
+          "authors": "Li W, Jin K, Luo J, Xu W, Wu Y, Zhou J, Wang Y, Xu R, Jiao L, Wang T, Yang G",
+          "journal": "Frontiers in Cardiovascular Medicine",
+          "year": 2022,
+          "assay": "Review",
+          "species": "human",
+          "relevant_quote": "Through the ATF6 branch transient phosphorylation of Akt activates NF-κB, whereas ATF6 activation could inhibit Akt-GSK3β and enhance NF-κB signaling.",
+          "pmid": "36204587"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "24903305",
+        "36204587"
+      ],
+      "function_effect": "activation",
+      "arrow_context": {
+        "direct_from": null,
+        "direct_arrow": "activates",
+        "net_from": "ATF6",
+        "net_arrow": "activates",
+        "mediator_chain": [],
+        "is_indirect": true
+      },
+      "net_arrow": "activates",
+      "direct_arrow": "activates",
+      "net_effect": "activation",
+      "direct_effect": "activation"
+    },
+    {
+      "function": "NF-kB Transcriptional Activity",
+      "arrow": "inhibits",
+      "cellular_process": "In response to specific UPR inducers that cleave GRP78, the ATF6 pathway is activated, leading to the upregulation of C/EBPβ and activation of mTOR. This results in the dephosphorylation and inhibition of Akt, which in turn suppresses TNF-α-induced activation of NF-kB.",
+      "effect_description": "ATF6 activation suppresses TNF-α-induced NF-kB activity by inhibiting the pro-survival Akt signaling pathway, thereby exerting an anti-inflammatory effect.",
+      "biological_consequence": [
+        "ATF6 Activation → C/EBPβ Upregulation → mTORC1 Pathway Activation → Akt Dephosphorylation (Inhibition) → Suppression of NF-kB Activation → Reduced Inflammatory Response"
+      ],
+      "specific_effects": [
+        "ATF6 activation induces C/EBPβ, which can suppress NF-kB activation.",
+        "ATF6-mediated, mTOR-dependent dephosphorylation of Akt is a key mechanism for suppressing NF-kB."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Selective Abrogation of BiP/GRP78 Blunts Activation of NF-κB through the ATF6 Branch of the UPR: Involvement of C/EBPβ and mTOR-Dependent Dephosphorylation of Akt",
+          "doi": "10.4049/jimmunol.1003422",
+          "authors": "Tsuchiya Y, Nakajima S, Hosoda H, Miyamoto T, Furuichi M, Yano F, Nishitoh H, Ichijo H, Imaizumi K, Asano T, Kitamura M",
+          "journal": "The Journal of Immunology",
+          "year": 2011,
+          "assay": "Western Blot, Reporter Assay",
+          "species": "rat",
+          "relevant_quote": "Our results showed crucial roles of C/EBPβ upregulation and mTOR-dependent dephosphorylation of Akt, both of which are caused by SubAB via the ATF6 pathway.",
+          "pmid": "21300786"
+        }
+      ],
+      "interaction_effect": "inhibits",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "21300786"
+      ],
+      "function_effect": "inhibition",
+      "arrow_context": {
+        "direct_from": null,
+        "direct_arrow": "inhibits",
+        "net_from": "ATF6",
+        "net_arrow": "inhibits",
+        "mediator_chain": [],
+        "is_indirect": true
+      },
+      "net_arrow": "inhibits",
+      "direct_arrow": "inhibits",
+      "net_effect": "inhibition",
+      "direct_effect": "inhibition"
+    }
+  ],
+  "arrows": {
+    "main_to_primary": [
+      "activates",
+      "inhibits"
+    ]
+  },
+  "arrow": "regulates",
+  "direction": "primary_to_main",
+  "_chain_inferred": true,
+  "intent": "phosphorylation",
+  "mechanism": "ATF6 activation contributes to the activation of the NF-kB signaling pathway, creating a pro-inflamm; In response to specific UPR inducers that cleave GRP78, the ATF6 pathway is activated, leading to th",
+  "effect": "ATF6 activation indirectly enhances NF-kB signaling, leading to an increased pro-inflammatory response, particularly in the context of ischemia-reperfusion injury.; ATF6 activation suppresses TNF-α-induced NF-kB activity by inhibiting the pro-survival Akt signaling pathway, thereby exerting an anti-inflammatory effect.",
+  "summary": "ATF6 regulates NF-kB to regulate nf-kb transcriptional activity and nf-kb transcriptional activity, ultimately affecting enhanced pro-inflammatory cytokine production.",
+  "evidence": [
+    {
+      "paper_title": "ATF6 mediates a pro-inflammatory synergy between ER stress and TLR activation in the pathogenesis of liver ischemia-reperfusion injury",
+      "doi": "10.1111/ajt.12711",
+      "authors": "Rao J, Yue S, Fu Y, Zhu J, Wang X, Busuttil RW, Kupiec-Weglinski JW, Lu L, Zhai Y",
+      "journal": "American Journal of Transplantation",
+      "year": 2014,
+      "assay": "siRNA, Western Blot",
+      "species": "mouse",
+      "relevant_quote": "ER-stress-induced ATF6 activation enhances the pro-inflammatory nature of TLR4 response by both inhibiting Akt and enhancing NF-κB signaling."
+    },
+    {
+      "paper_title": "NF-κB and its crosstalk with endoplasmic reticulum stress in atherosclerosis",
+      "doi": "10.3389/fcvm.2022.988266",
+      "authors": "Li W, Jin K, Luo J, Xu W, Wu Y, Zhou J, Wang Y, Xu R, Jiao L, Wang T, Yang G",
+      "journal": "Frontiers in Cardiovascular Medicine",
+      "year": 2022,
+      "assay": "Review",
+      "species": "human",
+      "relevant_quote": "Through the ATF6 branch transient phosphorylation of Akt activates NF-κB, whereas ATF6 activation could inhibit Akt-GSK3β and enhance NF-κB signaling."
+    },
+    {
+      "paper_title": "Selective Abrogation of BiP/GRP78 Blunts Activation of NF-κB through the ATF6 Branch of the UPR: Involvement of C/EBPβ and mTOR-Dependent Dephosphorylation of Akt",
+      "doi": "10.4049/jimmunol.1003422",
+      "authors": "Tsuchiya Y, Nakajima S, Hosoda H, Miyamoto T, Furuichi M, Yano F, Nishitoh H, Ichijo H, Imaizumi K, Asano T, Kitamura M",
+      "journal": "The Journal of Immunology",
+      "year": 2011,
+      "assay": "Western Blot, Reporter Assay",
+      "species": "rat",
+      "relevant_quote": "Our results showed crucial roles of C/EBPβ upregulation and mTOR-dependent dephosphorylation of Akt, both of which are caused by SubAB via the ATF6 pathway."
+    }
+  ],
+  "interaction_effect": "regulation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 0
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATF6 --regulates--> NF-kB:",
+  "protein_a": "NF-kB",
+  "protein_b": "ATF6",
+  "discovered_in_query": "ATF6",
+  "first_discovered": "2025-11-18T21:01:00.296986Z",
+  "last_updated": "2025-11-18T21:01:00.296986Z"
+}

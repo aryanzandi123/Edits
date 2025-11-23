@@ -1,0 +1,110 @@
+{
+  "primary": "TFEB",
+  "interaction_type": "indirect",
+  "support_summary": "ATF6 positively regulates TFEB, the master transcriptional regulator of lysosomal biogenesis and autophagy. This occurs indirectly; in stressed cancer cells, ATF6 activity is required to sustain lysosomal function. Inhibition of ATF6 leads to the activation of mTOR, which in turn phosphorylates and inhibits TFEB, leading to its downregulation. Therefore, ATF6 supports TFEB function by suppressing its inhibitor, mTOR.",
+  "functions": [
+    {
+      "function": "Lysosomal Biogenesis and Function",
+      "arrow": "activates",
+      "cellular_process": "In stressed cancer cells, ATF6 activation is required to sustain lysosomal function. The mechanism involves the prevention of mTOR activation. When ATF6 is inhibited, mTOR becomes active, leading to the phosphorylation and subsequent downregulation of TFEB, which impairs lysosomal biogenesis and autophagic processes.",
+      "effect_description": "ATF6 indirectly promotes the activity of TFEB by preventing its mTOR-mediated inhibition, thereby supporting lysosomal biogenesis and autophagy.",
+      "biological_consequence": [
+        "ER Stress → ATF6 Activation → mTOR Inhibition → TFEB Activation/Nuclear Translocation → Lysosomal & Autophagy Gene Expression → Enhanced Cellular Clearance → Cell Survival"
+      ],
+      "specific_effects": [
+        "Inhibition of ATF6 correlates with the activation of mTOR and downregulation of TFEB and LAMP1.",
+        "ATF6 activation is required to sustain the function of lysosomes, enabling chaperone-mediated autophagy and macroautophagy.",
+        "ER stress promotes the nuclear localization of TFEB in an ATF6-dependent manner."
+      ],
+      "evidence": [
+        {
+          "paper_title": "ATF6 supports lysosomal function in tumor cells to enable ER stress-activated macroautophagy and CMA: impact on mutant TP53 expression",
+          "doi": "10.1080/15548627.2024.2338577",
+          "authors": "Rossella Benedetti, Maria Anele Romeo, Andrea Arena, Maria Saveria Gilardini Montani, Gabriella D'Orazi, Mara Cirone",
+          "journal": "Autophagy",
+          "year": 2024,
+          "assay": "Western Blot, Pharmacological Inhibition, Genetic Approaches",
+          "species": "human",
+          "relevant_quote": "we demonstrated that the inhibition of ATF6 correlated with the activation of MTOR and with TFEB and LAMP1 downregulation in thapsigargin-treated MUT TP53 carrying cells.",
+          "pmid": "38566314"
+        },
+        {
+          "paper_title": "TFEB; Beyond Its Role as an Autophagy and Lysosomes Regulator",
+          "doi": "10.3390/cells11193153",
+          "authors": "Berenice Franco-Juárez, Cristina Coronel-Cruz, Beatriz Hernández-Ochoa, Saúl Gómez-Manzo, Noemi Cárdenas-Rodríguez, Roberto Arreguin-Espinosa, Cindy Bandala, Luis Miguel Canseco-Ávila, Daniel Ortega-Cuellar",
+          "journal": "Cells",
+          "year": 2022,
+          "assay": "Review",
+          "species": "general",
+          "relevant_quote": "ER stress, triggered by several compounds, promotes the nuclear localization of TFEB in a PERK-, ATF6-, IRE1α-, and calcineurin-dependent manner that consequently induces the transcription of UPR-related genes to restore ER homeostasis...",
+          "pmid": "36231114"
+        }
+      ],
+      "pmids": [
+        "38566314",
+        "36231114"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "main_to_primary",
+      "function_effect": "activation",
+      "arrow_context": {
+        "direct_from": null,
+        "direct_arrow": "activates",
+        "net_from": "ATF6",
+        "net_arrow": "activates",
+        "mediator_chain": [],
+        "is_indirect": true
+      },
+      "net_arrow": "activates",
+      "direct_arrow": "activates",
+      "net_effect": "activation",
+      "direct_effect": "activation"
+    }
+  ],
+  "arrows": {
+    "main_to_primary": [
+      "activates"
+    ]
+  },
+  "arrow": "activates",
+  "direction": "main_to_primary",
+  "intent": "phosphorylation",
+  "mechanism": "In stressed cancer cells, ATF6 activation is required to sustain lysosomal function. The mechanism involves the prevention of mTOR activation. When ATF6 is inhibited, mTOR becomes active, leading to the phosphorylation and subsequent downregulation of TFEB, which impairs lysosomal biogenesis and autophagic processes.",
+  "effect": "ATF6 indirectly promotes the activity of TFEB by preventing its mTOR-mediated inhibition, thereby supporting lysosomal biogenesis and autophagy.",
+  "summary": "ATF6 activates TFEB to modulate lysosomal biogenesis and function, ultimately affecting cell survival.",
+  "evidence": [
+    {
+      "paper_title": "ATF6 supports lysosomal function in tumor cells to enable ER stress-activated macroautophagy and CMA: impact on mutant TP53 expression",
+      "doi": "10.1080/15548627.2024.2338577",
+      "authors": "Rossella Benedetti, Maria Anele Romeo, Andrea Arena, Maria Saveria Gilardini Montani, Gabriella D'Orazi, Mara Cirone",
+      "journal": "Autophagy",
+      "year": 2024,
+      "assay": "Western Blot, Pharmacological Inhibition, Genetic Approaches",
+      "species": "human",
+      "relevant_quote": "we demonstrated that the inhibition of ATF6 correlated with the activation of MTOR and with TFEB and LAMP1 downregulation in thapsigargin-treated MUT TP53 carrying cells."
+    },
+    {
+      "paper_title": "TFEB; Beyond Its Role as an Autophagy and Lysosomes Regulator",
+      "doi": "10.3390/cells11193153",
+      "authors": "Berenice Franco-Juárez, Cristina Coronel-Cruz, Beatriz Hernández-Ochoa, Saúl Gómez-Manzo, Noemi Cárdenas-Rodríguez, Roberto Arreguin-Espinosa, Cindy Bandala, Luis Miguel Canseco-Ávila, Daniel Ortega-Cuellar",
+      "journal": "Cells",
+      "year": 2022,
+      "assay": "Review",
+      "species": "general",
+      "relevant_quote": "ER stress, triggered by several compounds, promotes the nuclear localization of TFEB in a PERK-, ATF6-, IRE1α-, and calcineurin-dependent manner that consequently induces the transcription of UPR-related genes to restore ER homeostasis..."
+    }
+  ],
+  "interaction_effect": "activation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATF6 --activates--> TFEB:",
+  "protein_a": "ATF6",
+  "protein_b": "TFEB",
+  "discovered_in_query": "ATF6",
+  "first_discovered": "2025-11-18T21:01:00.305507Z",
+  "last_updated": "2025-11-18T21:01:00.305507Z"
+}

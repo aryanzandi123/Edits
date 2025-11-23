@@ -1,0 +1,126 @@
+{
+  "primary": "HSP40",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "The co-chaperone HSP40 (DNAJ) is recruited to and co-localizes with intranuclear inclusions formed by mutant ATXN3. It works in concert with HSP70 to manage misfolded proteins, but their sequestration into aggregates contributes to cellular toxicity.",
+  "functions": [
+    {
+      "function": "Protein Aggregation",
+      "arrow": "activates",
+      "cellular_process": "The co-chaperone HSP40 (DNAJ family) is recruited to aggregates of polyQ-expanded ATXN3. HSP40 typically presents misfolded protein substrates to HSP70 for refolding or degradation.",
+      "effect_description": "The recruitment and sequestration of the HSP40/HSP70 machinery into stable intranuclear inclusions with polyQ-ATXN3 impairs the cell's ability to clear misfolded proteins, contributing to the aggregation process and toxicity.",
+      "biological_consequence": [
+        "PolyQ-expanded ATXN3 misfolds → HSP40/HSP70 chaperone complexes are recruited to aggregates → Chaperone machinery is sequestered into insoluble inclusions → Cellular proteostasis is impaired → Enhanced cellular toxicity",
+        "Misfolded polyQ-ATXN3 is recognized by HSP40 (DNAJB1) → HSP40 delivers substrate to the HSP70 complex → ATXN3 is targeted for refolding or proteasomal degradation → Aggregation is suppressed → Neurotoxicity is reduced"
+      ],
+      "specific_effects": [
+        "HSP40 chaperones (HDJ-1 and HDJ-2) co-localize with intranuclear aggregates formed by mutant ataxin-3. [13]",
+        "Overexpression of HSP40 chaperones can suppress polyglutamine aggregation and reduce neurotoxicity. [13]",
+        "ATXN3's neuroprotective role in Drosophila depends on the co-chaperone DnaJ-1 (an HSP40 homolog). [10, 30]",
+        "DNAJB1, a member of the DNAJ/HSP40 family, can degrade protein aggregates of ataxin-3. [25]"
+      ],
+      "evidence": [
+        {
+          "paper_title": "Analysis of the role of heat shock protein (Hsp) molecular chaperones in polyglutamine disease",
+          "doi": "10.1093/hmg/10.14.1441",
+          "authors": "Chai Y, Koppenhafer SL, Bonini NM, Paulson HL",
+          "journal": "Human Molecular Genetics",
+          "year": 2001,
+          "assay": "Immunofluorescence",
+          "species": "rat (PC12 cells)",
+          "relevant_quote": "We demonstrate that specific Hsp chaperones localize to aggregates formed by mutant ataxin-3 in disease tissue and transfected cells and provide evidence that expanded polygln protein elicits a stress response...",
+          "pmid": "10575031"
+        },
+        {
+          "paper_title": "The deubiquitinase ataxin-3 requires Rad23 and DnaJ-1 for its neuroprotective role in Drosophila melanogaster",
+          "doi": "10.1242/dmm.010574",
+          "authors": "Blount JR, Reina-Campos M, Lindquist SL, Todi SV",
+          "journal": "Disease Models & Mechanisms",
+          "year": 2013,
+          "assay": "Genetic interaction",
+          "species": "Drosophila melanogaster",
+          "relevant_quote": "ataxin-3 does not rely on autophagy or the proteasome to suppress polyQ-dependent toxicity in fly eyes. Instead this deubiquitinase...leads to increased protein levels of the co-chaperone DnaJ-1 and depends on it to protect against degeneration. [10]",
+          "pmid": "26007638"
+        },
+        {
+          "paper_title": "ATXN3: a multifunctional protein involved in the polyglutamine disease spinocerebellar ataxia type 3",
+          "doi": "10.1017/erm.2024.10",
+          "authors": "Hernández-Carralero E, Quinet G, Freire R",
+          "journal": "Expert Reviews in Molecular Medicine",
+          "year": 2024,
+          "assay": "Review",
+          "species": "human",
+          "relevant_quote": "ATXN3 has therefore been under intensive investigation for decades. In this review, we summarize the main functions of ATXN3 in proteostasis, DNA repair and transcriptional regulation... [3]",
+          "pmid": "39320846"
+        }
+      ],
+      "_context": {
+        "type": "direct",
+        "query_protein": null,
+        "chain": null
+      },
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "bidirectional",
+      "pmids": [
+        "10575031",
+        "26007638",
+        "39320846"
+      ],
+      "function_effect": "activation"
+    }
+  ],
+  "arrow": "regulates",
+  "direction": "bidirectional",
+  "intent": "protein aggregation",
+  "mechanism": "The co-chaperone HSP40 (DNAJ family) is recruited to aggregates of polyQ-expanded ATXN3. HSP40 typically presents misfolded protein substrates to HSP70 for refolding or degradation.",
+  "effect": "The recruitment and sequestration of the HSP40/HSP70 machinery into stable intranuclear inclusions with polyQ-ATXN3 impairs the cell's ability to clear misfolded proteins, contributing to the aggregation process and toxicity.",
+  "summary": "ATXN3 activates HSP40 to modulate protein aggregation, ultimately affecting enhanced cellular toxicity.",
+  "evidence": [
+    {
+      "paper_title": "Analysis of the role of heat shock protein (Hsp) molecular chaperones in polyglutamine disease",
+      "doi": "10.1093/hmg/10.14.1441",
+      "authors": "Chai Y, Koppenhafer SL, Bonini NM, Paulson HL",
+      "journal": "Human Molecular Genetics",
+      "year": 2001,
+      "assay": "Immunofluorescence",
+      "species": "rat (PC12 cells)",
+      "relevant_quote": "We demonstrate that specific Hsp chaperones localize to aggregates formed by mutant ataxin-3 in disease tissue and transfected cells and provide evidence that expanded polygln protein elicits a stress response..."
+    },
+    {
+      "paper_title": "The deubiquitinase ataxin-3 requires Rad23 and DnaJ-1 for its neuroprotective role in Drosophila melanogaster",
+      "doi": "10.1242/dmm.010574",
+      "authors": "Blount JR, Reina-Campos M, Lindquist SL, Todi SV",
+      "journal": "Disease Models & Mechanisms",
+      "year": 2013,
+      "assay": "Genetic interaction",
+      "species": "Drosophila melanogaster",
+      "relevant_quote": "ataxin-3 does not rely on autophagy or the proteasome to suppress polyQ-dependent toxicity in fly eyes. Instead this deubiquitinase...leads to increased protein levels of the co-chaperone DnaJ-1 and depends on it to protect against degeneration. [10]"
+    },
+    {
+      "paper_title": "ATXN3: a multifunctional protein involved in the polyglutamine disease spinocerebellar ataxia type 3",
+      "doi": "10.1017/erm.2024.10",
+      "authors": "Hernández-Carralero E, Quinet G, Freire R",
+      "journal": "Expert Reviews in Molecular Medicine",
+      "year": 2024,
+      "assay": "Review",
+      "species": "human",
+      "relevant_quote": "ATXN3 has therefore been under intensive investigation for decades. In this review, we summarize the main functions of ATXN3 in proteostasis, DNA repair and transcriptional regulation... [3]"
+    }
+  ],
+  "interaction_effect": "regulation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 3
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATXN3 <--regulates--> HSP40:",
+  "protein_a": "ATXN3",
+  "protein_b": "HSP40",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-23T07:58:56.193125Z",
+  "last_updated": "2025-11-23T07:58:56.193125Z"
+}

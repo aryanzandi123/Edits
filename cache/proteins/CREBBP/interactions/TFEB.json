@@ -1,0 +1,93 @@
+{
+  "primary": "TFEB",
+  "direction": "main_to_primary",
+  "arrow": "binds",
+  "intent": "acetylation",
+  "support_summary": "CREB-binding protein (CREBBP), a lysine acetyltransferase, directly acetylates TFEB. This post-translational modification is an activating signal that promotes TFEB's nuclear translocation and transcriptional activity, independent of its phosphorylation status.",
+  "functions": [
+    {
+      "function": "TFEB Acetylation & Transcriptional",
+      "arrow": "activates",
+      "cellular_process": "CREBBP (also known as CBP) is a lysine acetyltransferase (KAT) that directly acetylates TFEB on multiple lysine residues. This post-translational modification serves as a key activating signal, promoting TFEB's function as a master regulator of the autophagy-lysosome pathway.",
+      "effect_description": "Acetylation of TFEB by CREBBP enhances its translocation into the nucleus and boosts its transcriptional activity, leading to the upregulation of genes involved in lysosomal biogenesis and autophagy.",
+      "biological_consequence": [
+        "CREBBP acetylates TFEB on key lysine residues → Acetylated TFEB is imported into the nucleus → TFEB binding to CLEAR elements in target promoters is enhanced → Transcriptional activation of lysosomal and autophagy genes → Increased cellular clearance capacity."
+      ],
+      "specific_effects": [
+        "Directly acetylates TFEB on specific lysine residues.",
+        "Promotes the nuclear import of TFEB.",
+        "Enhances the transcriptional activity of TFEB.",
+        "Contributes to the activation of lysosome biogenesis and autophagy."
+      ],
+      "evidence": [
+        {
+          "paper_title": "TFEB acetylation promotes lysosome biogenesis and ameliorates Alzheimer's disease-relevant phenotypes in mice",
+          "doi": "10.1016/j.jbc.2022.102649",
+          "authors": "T Li, L Yin, X Kang, W Xue, N Wang, J Zhang, P Yuan, L Lin, Y Li",
+          "journal": "Journal of Biological Chemistry",
+          "year": 2022,
+          "assay": "Co-IP, Western Blot, siRNA knockdown",
+          "species": "human, mouse",
+          "relevant_quote": "We show that TFEB acetylation is regulated by HDACs (HDAC5, HDAC6, and HDAC9) and lysine acetyltransferases (KATs), including ELP3, CREBBP, and HAT1.",
+          "pmid": "36441024"
+        },
+        {
+          "paper_title": "Importance of TFEB acetylation in control of its transcriptional activity and lysosomal function in response to histone deacetylase inhibitors",
+          "doi": "10.1080/15548627.2018.1447290",
+          "authors": "J Zhang, Y Wang, Y Chen, Y Cao, Y Lu, W Wei, Q Shen, H Song",
+          "journal": "Autophagy",
+          "year": 2018,
+          "assay": "Luciferase assay, Western Blot, Immunoprecipitation",
+          "species": "human",
+          "relevant_quote": "Taken together, our results demonstrate that TFEB acetylation is a novel form of PTMs in TFEB that plays an important role in determining its transcriptional activity, lysosomal function and autophagy...",
+          "pmid": "30059277"
+        }
+      ],
+      "pmids": [
+        "36441024",
+        "30059277"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "primary_to_main",
+      "function_effect": "activation"
+    }
+  ],
+  "mechanism": "CREBBP (also known as CBP) is a lysine acetyltransferase (KAT) that directly acetylates TFEB on multiple lysine residues. This post-translational modification serves as a key activating signal, promoting TFEB's function as a master regulator of the autophagy-lysosome pathway.",
+  "effect": "Acetylation of TFEB by CREBBP enhances its translocation into the nucleus and boosts its transcriptional activity, leading to the upregulation of genes involved in lysosomal biogenesis and autophagy.",
+  "summary": "TFEB activates CREBBP to modulate tfeb acetylation & transcriptional activation, ultimately affecting increased cellular clearance capacity.",
+  "evidence": [
+    {
+      "paper_title": "TFEB acetylation promotes lysosome biogenesis and ameliorates Alzheimer's disease-relevant phenotypes in mice",
+      "doi": "10.1016/j.jbc.2022.102649",
+      "authors": "T Li, L Yin, X Kang, W Xue, N Wang, J Zhang, P Yuan, L Lin, Y Li",
+      "journal": "Journal of Biological Chemistry",
+      "year": 2022,
+      "assay": "Co-IP, Western Blot, siRNA knockdown",
+      "species": "human, mouse",
+      "relevant_quote": "We show that TFEB acetylation is regulated by HDACs (HDAC5, HDAC6, and HDAC9) and lysine acetyltransferases (KATs), including ELP3, CREBBP, and HAT1."
+    },
+    {
+      "paper_title": "Importance of TFEB acetylation in control of its transcriptional activity and lysosomal function in response to histone deacetylase inhibitors",
+      "doi": "10.1080/15548627.2018.1447290",
+      "authors": "J Zhang, Y Wang, Y Chen, Y Cao, Y Lu, W Wei, Q Shen, H Song",
+      "journal": "Autophagy",
+      "year": 2018,
+      "assay": "Luciferase assay, Western Blot, Immunoprecipitation",
+      "species": "human",
+      "relevant_quote": "Taken together, our results demonstrate that TFEB acetylation is a novel form of PTMs in TFEB that plays an important role in determining its transcriptional activity, lysosomal function and autophagy..."
+    }
+  ],
+  "interaction_effect": "binds",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 3
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TFEB <--binds-- CREBBP:",
+  "protein_a": "CREBBP",
+  "protein_b": "TFEB",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.518091Z",
+  "last_updated": "2025-11-19T03:20:29.518091Z"
+}

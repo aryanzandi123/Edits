@@ -1,0 +1,96 @@
+{
+  "primary": "ATF6",
+  "interaction_type": "indirect",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 2,
+  "support_summary": "The transcription of Wolfram syndrome 1 (WFS1) protein, which is involved in maintaining ER homeostasis and promoting cell survival, is directly upregulated by the active form of the ATF6β isoform. WFS1 can in turn negatively regulate the ATF6α pathway, forming a feedback loop.",
+  "functions": [
+    {
+      "function": "WFS1 Gene Transcription",
+      "arrow": "activates",
+      "cellular_process": "The active form of ATF6β, but not ATF6α, specifically binds to the promoter of the Wolfram syndrome 1 (WFS1) gene to induce its transcription. This upregulation is crucial for protecting cells like pancreatic β-cells from ER stress-induced apoptosis.",
+      "effect_description": "The transcription of the ER homeostasis and pro-survival protein WFS1 is activated, specifically by the ATF6β isoform.",
+      "biological_consequence": [
+        "ER stress → ATF6β cleavage & activation → Nuclear nATF6β binds WFS1 promoter → WFS1 gene transcription → Enhanced ER homeostasis & cell survival",
+        "ATF6β-mediated WFS1 transcription → WFS1 protein expression → WFS1 promotes proteasomal degradation of ATF6α → Attenuation of ATF6α signaling"
+      ],
+      "specific_effects": [
+        "ATF6β, but not ATF6α, binds the Wfs1 promoter.",
+        "Induction of WFS1 by ATF6β contributes to a pro-survival role during chronic ER stress.",
+        "WFS1 negatively regulates the ATF6α branch of the UPR."
+      ],
+      "evidence": [
+        {
+          "paper_title": "ATF6β Regulates the Wfs1 Gene and Has a Cell Survival Role in the ER Stress Response in Pancreatic β-cells",
+          "doi": "10.1016/j.yexcr.2014.10.007",
+          "authors": "C Nie, S-A Lee, A Volchuk",
+          "journal": "Experimental Cell Research",
+          "year": 2015,
+          "assay": "Microarray, Promoter Assay, ChIP",
+          "species": "rat",
+          "relevant_quote": "ATF6β, but not ATF6α, is able to bind the Wfs1 promoter and induce Wfs1 gene and protein expression.",
+          "pmid": "25447309"
+        },
+        {
+          "paper_title": "Novel WFS1 variants are associated with different diabetes phenotypes",
+          "doi": "10.3389/fgene.2024.1433060",
+          "authors": "Ying-Ying Gong, Yu-Ting Chen, et al.",
+          "journal": "Frontiers in Genetics",
+          "year": 2024,
+          "assay": "Review",
+          "species": "human",
+          "relevant_quote": "WFS1, a component of the UPR, negatively regulates the ER stress signaling network by recruiting ATF6α to HRD1, which leads to the degradation of ATF6α and suppression of the UPR.",
+          "pmid": "39221226"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "25447309",
+        "39221226"
+      ]
+    }
+  ],
+  "arrows": {
+    "main_to_primary": [
+      "activates"
+    ]
+  },
+  "arrow": "activates",
+  "direction": "primary_to_main",
+  "_chain_inferred": true,
+  "intent": "regulation",
+  "mechanism": "The active form of ATF6β, but not ATF6α, specifically binds to the promoter of the Wolfram syndrome 1 (WFS1) gene to induce its transcription. This upregulation is crucial for protecting cells like pancreatic β-cells from ER stress-induced apoptosis.",
+  "effect": "The transcription of the ER homeostasis and pro-survival protein WFS1 is activated, specifically by the ATF6β isoform.",
+  "summary": "ATF6 activates WFS1 to modulate wfs1 gene transcription, ultimately affecting enhanced er homeostasis & cell survival.",
+  "evidence": [
+    {
+      "paper_title": "ATF6β Regulates the Wfs1 Gene and Has a Cell Survival Role in the ER Stress Response in Pancreatic β-cells",
+      "doi": "10.1016/j.yexcr.2014.10.007",
+      "authors": "C Nie, S-A Lee, A Volchuk",
+      "journal": "Experimental Cell Research",
+      "year": 2015,
+      "assay": "Microarray, Promoter Assay, ChIP",
+      "species": "rat",
+      "relevant_quote": "ATF6β, but not ATF6α, is able to bind the Wfs1 promoter and induce Wfs1 gene and protein expression."
+    },
+    {
+      "paper_title": "Novel WFS1 variants are associated with different diabetes phenotypes",
+      "doi": "10.3389/fgene.2024.1433060",
+      "authors": "Ying-Ying Gong, Yu-Ting Chen, et al.",
+      "journal": "Frontiers in Genetics",
+      "year": 2024,
+      "assay": "Review",
+      "species": "human",
+      "relevant_quote": "WFS1, a component of the UPR, negatively regulates the ER stress signaling network by recruiting ATF6α to HRD1, which leads to the degradation of ATF6α and suppression of the UPR."
+    }
+  ],
+  "arrow_notation": "ATF6 --activates--> WFS1:",
+  "protein_a": "WFS1",
+  "protein_b": "ATF6",
+  "discovered_in_query": "ATF6",
+  "first_discovered": "2025-11-18T21:01:00.290080Z",
+  "last_updated": "2025-11-18T21:01:00.290080Z"
+}

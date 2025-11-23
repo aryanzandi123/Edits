@@ -1,0 +1,90 @@
+{
+  "primary": "TFEB",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "The tyrosine kinase SRC directly phosphorylates TFEB on multiple tyrosine residues. This phosphorylation event inhibits TFEB's nuclear translocation and subsequent transcriptional activity, thereby retaining it in the cytoplasm.",
+  "functions": [
+    {
+      "function": "TFEB Tyrosine Phosphorylation & Transcriptional",
+      "arrow": "activates",
+      "cellular_process": "The non-receptor tyrosine kinase SRC directly phosphorylates TFEB on specific tyrosine residues. This post-translational modification serves as an inhibitory signal, preventing TFEB's nuclear import.",
+      "effect_description": "SRC-mediated tyrosine phosphorylation of TFEB promotes its retention in the cytoplasm, thereby suppressing its ability to activate the transcription of target genes involved in lysosomal biogenesis and autophagy.",
+      "biological_consequence": [
+        "SRC kinase is activated → SRC directly phosphorylates TFEB on specific tyrosine residues → Phosphorylated TFEB is retained in the cytoplasm → TFEB nuclear translocation is inhibited → Transcription of lysosomal and autophagy genes is suppressed"
+      ],
+      "specific_effects": [
+        "Directly phosphorylates TFEB on tyrosine residues.",
+        "Promotes cytoplasmic retention of TFEB.",
+        "Inhibits TFEB transcriptional activity."
+      ],
+      "evidence": [
+        {
+          "paper_title": "The post-translational regulation of transcription factor EB (TFEB) in health and disease",
+          "doi": "10.15252/embr.202357574",
+          "authors": "Takla M, Keshri S, Rubinsztein DC",
+          "journal": "EMBO reports",
+          "year": 2023,
+          "assay": "Review",
+          "species": "human, mouse",
+          "relevant_quote": "Src kinase phosphorylates TFEB at Y122, Y131, Y255, and Y283, which promotes the cytoplasmic retention of TFEB, and thus inhibits its transcriptional activity.",
+          "pmid": "37728021"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "primary_to_main",
+      "interaction_direction": "primary_to_main",
+      "pmids": [
+        "37728021"
+      ],
+      "function_effect": "activation"
+    }
+  ],
+  "arrow": "inhibits",
+  "direction": "main_to_primary",
+  "intent": "phosphorylation",
+  "arrows": {
+    "primary_to_main": [
+      "inhibits"
+    ]
+  },
+  "mechanism": "The non-receptor tyrosine kinase SRC directly phosphorylates TFEB on specific tyrosine residues. This post-translational modification serves as an inhibitory signal, preventing TFEB's nuclear import.",
+  "effect": "SRC-mediated tyrosine phosphorylation of TFEB promotes its retention in the cytoplasm, thereby suppressing its ability to activate the transcription of target genes involved in lysosomal biogenesis and autophagy.",
+  "summary": "TFEB inhibits SRC to modulate tfeb tyrosine phosphorylation & transcriptional inhibition, ultimately affecting transcription of lysosomal and autophagy genes is suppressed.",
+  "evidence": [
+    {
+      "paper_title": "The post-translational regulation of transcription factor EB (TFEB) in health and disease",
+      "doi": "10.15252/embr.202357574",
+      "authors": "Takla M, Keshri S, Rubinsztein DC",
+      "journal": "EMBO reports",
+      "year": 2023,
+      "assay": "Review",
+      "species": "human, mouse",
+      "relevant_quote": "Src kinase phosphorylates TFEB at Y122, Y131, Y255, and Y283, which promotes the cytoplasmic retention of TFEB, and thus inhibits its transcriptional activity."
+    },
+    {
+      "paper_title": "Src-dependent TFEB phosphorylation prevents its nuclear translocation and lysosomal homeostasis",
+      "doi": "10.1038/s12276-021-00600-8",
+      "authors": "Kim Y, Kim M, Kim HJ, Kim SJ, Lee SJ, Lee YS, Myung K, Lee C",
+      "journal": "Experimental & Molecular Medicine",
+      "year": 2021,
+      "assay": "Co-IP, In vitro kinase assay, Western Blot",
+      "species": "human",
+      "relevant_quote": "Here, we show that Src directly phosphorylates TFEB at multiple tyrosine residues, leading to the inhibition of TFEB nuclear translocation and its subsequent transcriptional activity."
+    }
+  ],
+  "interaction_effect": "inhibition",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TFEB <--inhibits-- SRC:",
+  "protein_a": "SRC",
+  "protein_b": "TFEB",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.564534Z",
+  "last_updated": "2025-11-19T03:20:29.564534Z"
+}

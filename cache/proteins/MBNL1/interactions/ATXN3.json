@@ -1,0 +1,105 @@
+{
+  "primary": "ATXN3",
+  "direction": "primary_to_main",
+  "arrow": "inhibits",
+  "intent": "sequestration",
+  "support_summary": "The interaction between ATXN3 and the splicing factor MBNL1 is indirect. In Spinocerebellar Ataxia Type 3 (SCA3), the expanded CAG-repeat RNA transcribed from the mutant ATXN3 gene forms toxic hairpin structures. These structures sequester MBNL1 into nuclear foci, leading to a loss-of-function of MBNL1 and subsequent misregulation of alternative splicing, a phenomenon known as spliceopathy.",
+  "functions": [
+    {
+      "function": "MBNL1 Splicing Activity",
+      "arrow": "inhibits",
+      "cellular_process": "The expanded CAG-repeat RNA transcribed from the mutant ATXN3 gene forms toxic hairpin structures in the nucleus. These RNA structures act as a scaffold to sequester the Muscleblind-like Splicing Regulator 1 (MBNL1).",
+      "effect_description": "This sequestration functionally inactivates MBNL1 by preventing it from regulating the alternative splicing of its target pre-mRNAs, contributing to the RNA toxicity observed in SCA3.",
+      "biological_consequence": [
+        "Mutant ATXN3 gene is transcribed into toxic RNA with expanded CAG repeats → Toxic RNA forms hairpin structures in the nucleus → RNA hairpins sequester the MBNL1 splicing factor into nuclear foci → Functional depletion of MBNL1 activity → Misregulation of alternative splicing of target pre-mRNAs → Cellular dysfunction and neurodegeneration."
+      ],
+      "specific_effects": [
+        "Expanded CAG and CUG-containing RNA molecules co-localize with the MBNL1 splicing factor in nuclear RNA foci.",
+        "The sequestration of MBNL1 into nuclear RNA foci by expanded CAG repeats is a shared pathomechanism with myotonic dystrophy type 1 and Huntington's disease.",
+        "Functional inactivation of MBNL1 due to sequestration results in misregulation of alternative splicing, which can be partly reversed by MBNL1 overexpression."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Ataxin-3 Protein and RNA Toxicity in Spinocerebellar Ataxia Type 3: Current Insights and Emerging Therapeutic Strategies",
+          "doi": "10.1007/s12035-013-8596-2",
+          "authors": "Marlieke M Evers, Willeke M C van Roon, Berend Smeets",
+          "journal": "Molecular Neurobiology",
+          "year": 2014,
+          "assay": "Review",
+          "species": "human, mouse",
+          "relevant_quote": "Both expanded CAG and CUG-containing RNA molecules were found to co-localise with the muscleblind-like 1 (MBNL1) splicing factor in RNA foci in both muscle and neuron nuclei.",
+          "pmid": "24293103"
+        },
+        {
+          "paper_title": "CAG repeats mimic CUG repeats in the misregulation of alternative splicing",
+          "doi": "10.1093/nar/gkr648",
+          "authors": "Anna Mykowska, Kinga Sobczak, Magdalena Wojciechowska, Piotr Kozlowski, Wlodzimierz J Krzyzosiak",
+          "journal": "Nucleic Acids Research",
+          "year": 2011,
+          "assay": "Cell culture, FISH, Splicing assays",
+          "species": "human",
+          "relevant_quote": "Here, we show that MBNL1 protein binds to CAG repeats in vitro and co-localizes with the repeat region of mutant huntingtin and ataxin-3 transcripts in nuclear inclusions in HD and SCA3 cells.",
+          "pmid": "21795378"
+        }
+      ],
+      "pmids": [
+        "24293103",
+        "21795378"
+      ],
+      "interaction_effect": "inhibits",
+      "interaction_direction": "main_to_primary",
+      "function_effect": "inhibition",
+      "arrow_context": {
+        "direct_from": null,
+        "direct_arrow": "inhibits",
+        "net_from": "ATXN3",
+        "net_arrow": "inhibits",
+        "mediator_chain": [],
+        "is_indirect": true
+      },
+      "net_arrow": "inhibits",
+      "direct_arrow": "inhibits",
+      "net_effect": "inhibition",
+      "direct_effect": "inhibition"
+    }
+  ],
+  "mechanism": "The expanded CAG-repeat RNA transcribed from the mutant ATXN3 gene forms toxic hairpin structures in the nucleus. These RNA structures act as a scaffold to sequester the Muscleblind-like Splicing Regulator 1 (MBNL1).",
+  "effect": "This sequestration functionally inactivates MBNL1 by preventing it from regulating the alternative splicing of its target pre-mRNAs, contributing to the RNA toxicity observed in SCA3.",
+  "summary": "ATXN3 inhibits MBNL1 to modulate mbnl1 splicing activity, ultimately affecting cellular dysfunction and neurodegeneration.",
+  "evidence": [
+    {
+      "paper_title": "Ataxin-3 Protein and RNA Toxicity in Spinocerebellar Ataxia Type 3: Current Insights and Emerging Therapeutic Strategies",
+      "doi": "10.1007/s12035-013-8596-2",
+      "authors": "Marlieke M Evers, Willeke M C van Roon, Berend Smeets",
+      "journal": "Molecular Neurobiology",
+      "year": 2014,
+      "assay": "Review",
+      "species": "human, mouse",
+      "relevant_quote": "Both expanded CAG and CUG-containing RNA molecules were found to co-localise with the muscleblind-like 1 (MBNL1) splicing factor in RNA foci in both muscle and neuron nuclei."
+    },
+    {
+      "paper_title": "CAG repeats mimic CUG repeats in the misregulation of alternative splicing",
+      "doi": "10.1093/nar/gkr648",
+      "authors": "Anna Mykowska, Kinga Sobczak, Magdalena Wojciechowska, Piotr Kozlowski, Wlodzimierz J Krzyzosiak",
+      "journal": "Nucleic Acids Research",
+      "year": 2011,
+      "assay": "Cell culture, FISH, Splicing assays",
+      "species": "human",
+      "relevant_quote": "Here, we show that MBNL1 protein binds to CAG repeats in vitro and co-localizes with the repeat region of mutant huntingtin and ataxin-3 transcripts in nuclear inclusions in HD and SCA3 cells."
+    }
+  ],
+  "interaction_type": "indirect",
+  "interaction_effect": "inhibition",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 2
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATXN3 --inhibits--> MBNL1:",
+  "protein_a": "MBNL1",
+  "protein_b": "ATXN3",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-23T07:58:56.246935Z",
+  "last_updated": "2025-11-23T07:58:56.246935Z"
+}

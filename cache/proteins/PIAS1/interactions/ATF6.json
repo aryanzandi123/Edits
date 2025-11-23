@@ -1,0 +1,77 @@
+{
+  "primary": "ATF6",
+  "interaction_type": "direct",
+  "support_summary": "The E3 SUMO-protein ligase PIAS1 (Protein Inhibitor of Activated STAT 1) mediates the SUMOylation of the active, nuclear form of ATF6. This post-translational modification occurs at a conserved lysine residue (Lys149) and represses its transcriptional activity, acting as a negative feedback mechanism to fine-tune the UPR.",
+  "functions": [
+    {
+      "function": "Repression of ATF6 Transcriptional Activity",
+      "arrow": "activates",
+      "cellular_process": "The E3 SUMO-protein ligase PIAS1 mediates the SUMOylation of the active, nuclear form of ATF6 at a conserved lysine residue (Lys149) within its trans-activation domain.",
+      "effect_description": "PIAS1-mediated SUMOylation represses the transcriptional activity of ATF6, thereby attenuating the expression of its downstream target genes as part of a negative feedback loop.",
+      "biological_consequence": [
+        "PIAS1 E3 ligase binds to the active nuclear form of ATF6 → PIAS1 mediates the attachment of a SUMO-1 moiety to Lys149 of ATF6 → SUMOylation represses the transcriptional activity of ATF6 → Expression of UPR target genes is attenuated"
+      ],
+      "specific_effects": [
+        "Adds a SUMO-1 moiety to ATF6 at residue Lys149.",
+        "Reduces the ability of ATF6 to activate target gene promoters.",
+        "Overexpression of PIAS1 increases ATF6 SUMOylation."
+      ],
+      "evidence": [
+        {
+          "paper_title": "SUMOylation Represses the Transcriptional Activity of the Unfolded Protein Response Transducer ATF6",
+          "doi": "10.1016/j.bbrc.2017.10.103",
+          "authors": "Xia Hou, Zhao Yang, Kunning Li, Yifei Li, Yixuan Wang, Shiyun Wang, Ling-Yu Wang, Ling Chen",
+          "journal": "Biochemical and Biophysical Research Communications",
+          "year": 2017,
+          "assay": "Co-immunoprecipitation, Western Blot, BiFC",
+          "species": "human",
+          "relevant_quote": "The human ATF6 protein can be SUMOylated mediated through the small ubiquitin-like modifier protein 1 (SUMO-1) and E3 SUMO-protein ligase 1 (PIAS1) at the conserved sumoylation residue Lys149...",
+          "pmid": "29061306"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "primary_to_main",
+      "interaction_direction": "primary_to_main",
+      "pmids": [
+        "29061306"
+      ],
+      "function_effect": "activation"
+    }
+  ],
+  "arrows": {
+    "primary_to_main": [
+      "inhibits"
+    ]
+  },
+  "arrow": "inhibits",
+  "direction": "main_to_primary",
+  "intent": "sumoylation",
+  "mechanism": "The E3 SUMO-protein ligase PIAS1 mediates the SUMOylation of the active, nuclear form of ATF6 at a conserved lysine residue (Lys149) within its trans-activation domain.",
+  "effect": "PIAS1-mediated SUMOylation represses the transcriptional activity of ATF6, thereby attenuating the expression of its downstream target genes as part of a negative feedback loop.",
+  "summary": "ATF6 inhibits PIAS1 to modulate repression of atf6 transcriptional activity, ultimately affecting expression of upr target genes is attenuated.",
+  "evidence": [
+    {
+      "paper_title": "SUMOylation Represses the Transcriptional Activity of the Unfolded Protein Response Transducer ATF6",
+      "doi": "10.1016/j.bbrc.2017.10.103",
+      "authors": "Xia Hou, Zhao Yang, Kunning Li, Yifei Li, Yixuan Wang, Shiyun Wang, Ling-Yu Wang, Ling Chen",
+      "journal": "Biochemical and Biophysical Research Communications",
+      "year": 2017,
+      "assay": "Co-immunoprecipitation, Western Blot, BiFC",
+      "species": "human",
+      "relevant_quote": "The human ATF6 protein can be SUMOylated mediated through the small ubiquitin-like modifier protein 1 (SUMO-1) and E3 SUMO-protein ligase 1 (PIAS1) at the conserved sumoylation residue Lys149..."
+    }
+  ],
+  "interaction_effect": "inhibition",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATF6 <--inhibits-- PIAS1:",
+  "protein_a": "PIAS1",
+  "protein_b": "ATF6",
+  "discovered_in_query": "ATF6",
+  "first_discovered": "2025-11-18T21:01:00.280201Z",
+  "last_updated": "2025-11-18T21:01:00.280201Z"
+}

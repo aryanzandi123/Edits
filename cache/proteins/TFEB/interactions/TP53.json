@@ -1,0 +1,111 @@
+{
+  "primary": "TP53",
+  "interaction_type": "indirect",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "TFEB and p53 engage in a complex, bidirectional relationship. In response to DNA damage, TFEB/TFE3 stabilize the p53 protein. Conversely, p53 is required for TFEB activation under genotoxic stress, and in some contexts, p53 inhibition promotes TFEB activity.",
+  "functions": [
+    {
+      "function": "p53 Protein Stabilization & Transcriptional Co-activation",
+      "arrow": "activates",
+      "cellular_process": "In response to DNA damage, TFEB and TFE3 contribute to sustaining p53 protein levels. The absence of TFEB/TFE3 leads to a decreased p53 half-life. This interaction ensures a robust transcriptional response to genotoxic stress.",
+      "effect_description": "TFEB enhances the stability and activity of the p53 tumor suppressor, thereby amplifying the cellular response to DNA damage and linking the lysosomal system to genome integrity.",
+      "biological_consequence": [
+        "Genotoxic stress induces DNA damage → TFEB/TFE3 translocate to the nucleus → TFEB/TFE3 activation reduces p53 degradation by MDM2 → p53 protein half-life is increased → p53-dependent transcription of target genes is amplified → Enhanced cell cycle arrest and apoptosis occurs."
+      ],
+      "specific_effects": [
+        "Increases p53 protein half-life.",
+        "Amplifies the transcription of p53 target genes."
+      ],
+      "evidence": [
+        {
+          "paper_title": "The transcription factors TFE3 and TFEB amplify p53 dependent transcriptional programs in response to DNA damage",
+          "year": 2018,
+          "pmid": "30520728"
+        },
+        {
+          "paper_title": "TFEB; Beyond Its Role as an Autophagy and Lysosomes Regulator",
+          "year": 2023,
+          "pmid": "36231114"
+        }
+      ],
+      "_context": {
+        "type": "direct",
+        "query_protein": null,
+        "chain": null
+      },
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "30520728",
+        "36231114"
+      ]
+    },
+    {
+      "function": "TFEB Nuclear Translocation & Activity",
+      "arrow": "inhibits",
+      "cellular_process": "In some cancer cell contexts (e.g., lung cancer), the tumor suppressor p53 negatively influences TFEB. Inhibition or deletion of p53 promotes the translocation of TFEB from the cytoplasm to the nucleus.",
+      "effect_description": "By restraining TFEB's nuclear localization, p53 can suppress the TFEB-mediated autophagy-lysosome pathway in certain tumors, representing a context-dependent inhibitory relationship.",
+      "biological_consequence": [
+        "p53 is active in specific cancer cells → TFEB phosphorylation is maintained, promoting cytoplasmic retention → TFEB nuclear translocation is restricted → TFEB-mediated transcription of lysosomal and autophagy genes is suppressed → Autophagosomal and lysosomal biogenesis is inhibited."
+      ],
+      "specific_effects": [
+        "Restricts TFEB nuclear translocation in specific cancer cells.",
+        "Decreases expression of TFEB target genes in the autophagy-lysosome pathway."
+      ],
+      "evidence": [
+        {
+          "paper_title": "The tumor suppressor p53 regulates autophagosomal and lysosomal biogenesis in lung cancer cells by targeting transcription factor EB",
+          "year": 2017,
+          "pmid": "28292013"
+        }
+      ],
+      "_context": {
+        "type": "direct",
+        "query_protein": null,
+        "chain": null
+      },
+      "interaction_effect": "inhibits",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "28292013"
+      ]
+    }
+  ],
+  "arrow": "regulates",
+  "direction": "bidirectional",
+  "intent": "regulation",
+  "arrows": {
+    "main_to_primary": [
+      "activates",
+      "inhibits"
+    ]
+  },
+  "mechanism": "In response to DNA damage, TFEB and TFE3 contribute to sustaining p53 protein levels. The absence of TFEB/TFE3 leads to a decreased p53 half-life. This interaction ensures a robust transcriptional response to genotoxic stress. In some cancer cell contexts (e.g., lung cancer), the tumor suppressor p53 negatively influences TFEB. Inhibition or deletion of p53 promotes the translocation of TFEB from the cytoplasm to the nucleus.",
+  "effect": "TFEB enhances the stability and activity of the p53 tumor suppressor, thereby amplifying the cellular response to DNA damage and linking the lysosomal system to genome integrity.; By restraining TFEB's nuclear localization, p53 can suppress the TFEB-mediated autophagy-lysosome pathway in certain tumors, representing a context-dependent inhibitory relationship.",
+  "summary": "TFEB regulates TP53 to regulate p53 protein stabilization & transcriptional co-activation and tfeb nuclear translocation & activity, ultimately affecting enhanced cell cycle arrest and apoptosis occurs.",
+  "evidence": [
+    {
+      "paper_title": "The transcription factors TFE3 and TFEB amplify p53 dependent transcriptional programs in response to DNA damage",
+      "year": 2018
+    },
+    {
+      "paper_title": "TFEB; Beyond Its Role as an Autophagy and Lysosomes Regulator",
+      "year": 2023
+    },
+    {
+      "paper_title": "The tumor suppressor p53 regulates autophagosomal and lysosomal biogenesis in lung cancer cells by targeting transcription factor EB",
+      "year": 2017
+    }
+  ],
+  "interaction_effect": "regulation",
+  "arrow_notation": "TFEB <--regulates--> TP53:",
+  "protein_a": "TFEB",
+  "protein_b": "TP53",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.601987Z",
+  "last_updated": "2025-11-19T03:20:29.601987Z"
+}

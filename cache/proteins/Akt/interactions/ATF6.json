@@ -1,0 +1,162 @@
+{
+  "primary": "ATF6",
+  "interaction_type": "indirect",
+  "support_summary": "The relationship between ATF6 and Akt is complex and highly context-dependent. Under certain ER stress conditions, ATF6 activation is required for the phosphorylation and activation of Akt. Conversely, in other contexts, such as in dormant tumor cells or during prolonged ER stress, ATF6 can activate mTOR signaling, which in turn leads to the dephosphorylation and inhibition of Akt.",
+  "functions": [
+    {
+      "function": "PI3K-Akt Signaling",
+      "arrow": "activates",
+      "cellular_process": "In response to the degradation of the ER chaperone BiP/GRP78, the ATF6 branch of the unfolded protein response (UPR) is activated. This activation leads to the transient phosphorylation and activation of Akt, which subsequently promotes downstream signaling pathways like NF-κB activation.",
+      "effect_description": "ATF6 activation promotes the phosphorylation of Akt, enhancing its kinase activity and downstream signaling.",
+      "biological_consequence": [
+        "ER Stress → GRP78 Degradation → ATF6 Activation → Akt Phosphorylation (Activation) → NF-κB Activation → Pro-survival Signaling"
+      ],
+      "specific_effects": [
+        "Genetic and pharmacological inhibition of ATF6 suppresses Akt phosphorylation triggered by GRP78 degradation.",
+        "Inducers of the UPR mimic the stimulatory effects on Akt phosphorylation, an effect dependent on ATF6."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Activation of the Akt-NF-kappaB pathway by subtilase cytotoxin through the ATF6 branch of the unfolded protein response",
+          "doi": "10.1016/j.cellsig.2009.04.001",
+          "authors": "H Yamazaki, N Hiramatsu, K Hayakawa, Y Tagawa, M Okamura, R Ogata, T Huang, S Nakajima, J Yao, A W Paton, J C Paton, M Kitamura",
+          "journal": "Cellular Signalling",
+          "year": 2009,
+          "assay": "Western Blot, Pharmacological Inhibition, Genetic Inhibition",
+          "species": "rat",
+          "relevant_quote": "genetic and pharmacological inhibition of ATF6 significantly suppressed SubAB-triggered Akt phosphorylation and NF-kappaB activation.",
+          "pmid": "19561103"
+        }
+      ],
+      "pmids": [
+        "19561103"
+      ],
+      "interaction_effect": "inhibits",
+      "interaction_direction": "main_to_primary",
+      "function_effect": "activation",
+      "arrow_context": {
+        "direct_from": null,
+        "direct_arrow": "activates",
+        "net_from": "ATF6",
+        "net_arrow": "activates",
+        "mediator_chain": [],
+        "is_indirect": true
+      },
+      "net_arrow": "activates",
+      "direct_arrow": "activates",
+      "net_effect": "activation",
+      "direct_effect": "activation"
+    },
+    {
+      "function": "PI3K-Akt Signaling",
+      "arrow": "inhibits",
+      "cellular_process": "In dormant tumor cells, ATF6α transcriptionally upregulates Rheb, leading to the activation of mTOR. This ATF6-Rheb-mTOR axis provides a survival signal that is independent of, and can lead to the inhibition of, Akt signaling. mTORC1 can mediate the dephosphorylation of Akt.",
+      "effect_description": "ATF6 indirectly causes the dephosphorylation of Akt by activating the mTOR pathway, thereby inhibiting its kinase activity.",
+      "biological_consequence": [
+        "Dormancy/Stress → ATF6α Activation → Rheb Transcription → mTORC1 Activation → Akt Dephosphorylation (Inhibition) → Akt-Independent Cell Survival"
+      ],
+      "specific_effects": [
+        "ATF6α induces survival through the up-regulation of Rheb and activation of mTOR signaling independent of Akt.",
+        "Under prolonged endoplasmic reticulum stress, mTORC1 participates in apoptotic signaling by inhibiting the survival kinase Akt."
+      ],
+      "evidence": [
+        {
+          "paper_title": "ATF6α-Rheb-mTOR signaling promotes survival of dormant tumor cells in vivo",
+          "doi": "10.1073/pnas.0800939105",
+          "authors": "Denis M Schewe, Julio A Aguirre-Ghiso",
+          "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+          "year": 2008,
+          "assay": "Gene Expression Profiling, siRNA Knockdown, Western Blot",
+          "species": "human, mouse",
+          "relevant_quote": "Downstream, ATF6α induces survival through the up-regulation of Rheb and activation of mTOR signaling independent of Akt.",
+          "pmid": "18650380"
+        },
+        {
+          "paper_title": "Bidirectional crosstalk between endoplasmic reticulum stress and mTOR signaling",
+          "doi": "10.1016/j.tcb.2012.02.006",
+          "authors": "Claudio Appenzeller-Herzog, Michael N Hall",
+          "journal": "Trends in Cell Biology",
+          "year": 2012,
+          "assay": "Review",
+          "species": "general",
+          "relevant_quote": "Under prolonged endoplasmic reticulum stress, mTORC1 participates in apoptotic signaling by inhibiting the survival kinase Akt and selectively activating the JNK protein kinase pathway.",
+          "pmid": "22444729"
+        }
+      ],
+      "pmids": [
+        "18650380",
+        "22444729"
+      ],
+      "function_effect": "inhibition",
+      "arrow_context": {
+        "direct_from": null,
+        "direct_arrow": "inhibits",
+        "net_from": "ATF6",
+        "net_arrow": "inhibits",
+        "mediator_chain": [],
+        "is_indirect": true
+      },
+      "net_arrow": "inhibits",
+      "direct_arrow": "inhibits",
+      "net_effect": "inhibition",
+      "direct_effect": "inhibition"
+    }
+  ],
+  "arrows": {
+    "main_to_primary": [
+      "activates",
+      "inhibits"
+    ]
+  },
+  "arrow": "regulates",
+  "direction": "bidirectional",
+  "intent": "phosphorylation",
+  "mechanism": "In response to the degradation of the ER chaperone BiP/GRP78, the ATF6 branch of the unfolded protei; In dormant tumor cells, ATF6α transcriptionally upregulates Rheb, leading to the activation of mTOR",
+  "effect": "ATF6 activation promotes the phosphorylation of Akt, enhancing its kinase activity and downstream signaling.; ATF6 indirectly causes the dephosphorylation of Akt by activating the mTOR pathway, thereby inhibiting its kinase activity.",
+  "summary": "ATF6 regulates Akt to regulate pi3k-akt signaling and pi3k-akt signaling, ultimately affecting pro-survival signaling.",
+  "evidence": [
+    {
+      "paper_title": "Activation of the Akt-NF-kappaB pathway by subtilase cytotoxin through the ATF6 branch of the unfolded protein response",
+      "doi": "10.1016/j.cellsig.2009.04.001",
+      "authors": "H Yamazaki, N Hiramatsu, K Hayakawa, Y Tagawa, M Okamura, R Ogata, T Huang, S Nakajima, J Yao, A W Paton, J C Paton, M Kitamura",
+      "journal": "Cellular Signalling",
+      "year": 2009,
+      "assay": "Western Blot, Pharmacological Inhibition, Genetic Inhibition",
+      "species": "rat",
+      "relevant_quote": "genetic and pharmacological inhibition of ATF6 significantly suppressed SubAB-triggered Akt phosphorylation and NF-kappaB activation."
+    },
+    {
+      "paper_title": "ATF6α-Rheb-mTOR signaling promotes survival of dormant tumor cells in vivo",
+      "doi": "10.1073/pnas.0800939105",
+      "authors": "Denis M Schewe, Julio A Aguirre-Ghiso",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "year": 2008,
+      "assay": "Gene Expression Profiling, siRNA Knockdown, Western Blot",
+      "species": "human, mouse",
+      "relevant_quote": "Downstream, ATF6α induces survival through the up-regulation of Rheb and activation of mTOR signaling independent of Akt."
+    },
+    {
+      "paper_title": "Bidirectional crosstalk between endoplasmic reticulum stress and mTOR signaling",
+      "doi": "10.1016/j.tcb.2012.02.006",
+      "authors": "Claudio Appenzeller-Herzog, Michael N Hall",
+      "journal": "Trends in Cell Biology",
+      "year": 2012,
+      "assay": "Review",
+      "species": "general",
+      "relevant_quote": "Under prolonged endoplasmic reticulum stress, mTORC1 participates in apoptotic signaling by inhibiting the survival kinase Akt and selectively activating the JNK protein kinase pathway."
+    }
+  ],
+  "interaction_effect": "regulation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 3
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATF6 <--regulates--> Akt:",
+  "protein_a": "Akt",
+  "protein_b": "ATF6",
+  "discovered_in_query": "ATF6",
+  "first_discovered": "2025-11-18T21:01:00.300181Z",
+  "last_updated": "2025-11-18T21:01:00.300181Z"
+}

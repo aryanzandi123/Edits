@@ -1,0 +1,85 @@
+{
+  "primary": "AKT1",
+  "interaction_type": "indirect",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 2,
+  "support_summary": "In the context of spinocerebellar ataxia type 3 (SCA3), polyglutamine-expanded ATXN3 leads to a reduction in the levels of activated, phosphorylated AKT (p-AKT S473), indicating an impairment of the pro-survival PI3K/AKT signaling pathway.",
+  "functions": [
+    {
+      "function": "AKT Pro-Survival Signaling",
+      "arrow": "inhibits",
+      "cellular_process": "In models of spinocerebellar ataxia type 3 (SCA3), the expression of polyglutamine-expanded ATXN3 results in decreased levels of the active, phosphorylated form of AKT at serine 473 (p-AKT S473).",
+      "effect_description": "The presence of mutant ATXN3 impairs the pro-survival PI3K/AKT signaling pathway by reducing the amount of activated AKT.",
+      "biological_consequence": [
+        "PolyQ-expanded ATXN3 expression → Phosphorylation of AKT at Serine 473 is reduced → PI3K/AKT/mTOR pro-survival signaling is attenuated → Neuronal vulnerability to apoptosis is increased"
+      ],
+      "specific_effects": [
+        "Levels of the active form of AKT (p-AKT S473) are decreased in SCA3 models.",
+        "The reduction in p-AKT indicates a decrease in pro-survival signaling."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Neurodegenerative phosphoprotein signaling landscape in models of SCA3",
+          "doi": "10.1186/s13041-020-00723-0",
+          "authors": "Sowa AS, Popova TG, Harmuth T, Weber JJ, Pereira Sena P, Schmidt J, Hübener-Schmid J, Schmidt T",
+          "journal": "Molecular Brain",
+          "year": 2021,
+          "assay": "Reverse-phase Protein MicroArray (RPMA)",
+          "species": "Human, Mouse",
+          "relevant_quote": "The levels of Serine 473-phosphorylated AKT (p-AKTS473), representing an active form of this protein, were decreased in all three models indicating a drop in pro-survival signaling.",
+          "pmid": "33741019"
+        }
+      ],
+      "pmids": [
+        "33741019"
+      ],
+      "interaction_effect": "inhibition",
+      "interaction_direction": "main_to_primary",
+      "function_effect": "inhibition",
+      "arrow_context": {
+        "direct_from": null,
+        "direct_arrow": "inhibits",
+        "net_from": "ATXN3",
+        "net_arrow": "inhibits",
+        "mediator_chain": [],
+        "is_indirect": true
+      },
+      "net_arrow": "inhibits",
+      "direct_arrow": "inhibits",
+      "net_effect": "inhibition",
+      "direct_effect": "inhibition"
+    }
+  ],
+  "arrow": "inhibits",
+  "direction": "main_to_primary",
+  "intent": "regulation of phosphorylation",
+  "mechanism": "In models of spinocerebellar ataxia type 3 (SCA3), the expression of polyglutamine-expanded ATXN3 results in decreased levels of the active, phosphorylated form of AKT at serine 473 (p-AKT S473).",
+  "effect": "The presence of mutant ATXN3 impairs the pro-survival PI3K/AKT signaling pathway by reducing the amount of activated AKT.",
+  "summary": "ATXN3 inhibits AKT1 to modulate akt pro-survival signaling, ultimately affecting neuronal vulnerability to apoptosis is increased.",
+  "evidence": [
+    {
+      "paper_title": "Neurodegenerative phosphoprotein signaling landscape in models of SCA3",
+      "doi": "10.1186/s13041-020-00723-0",
+      "authors": "Sowa AS, Popova TG, Harmuth T, Weber JJ, Pereira Sena P, Schmidt J, Hübener-Schmid J, Schmidt T",
+      "journal": "Molecular Brain",
+      "year": 2021,
+      "assay": "Reverse-phase Protein MicroArray (RPMA)",
+      "species": "Human, Mouse",
+      "relevant_quote": "The levels of Serine 473-phosphorylated AKT (p-AKTS473), representing an active form of this protein, were decreased in all three models indicating a drop in pro-survival signaling."
+    }
+  ],
+  "interaction_effect": "inhibition",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATXN3 --inhibits--> AKT1:",
+  "protein_a": "ATXN3",
+  "protein_b": "AKT1",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-18T20:57:38.914391Z",
+  "last_updated": "2025-11-18T20:57:38.914391Z"
+}

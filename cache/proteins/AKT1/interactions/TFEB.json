@@ -1,0 +1,140 @@
+{
+  "primary": "TFEB",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "AKT1 directly phosphorylates TFEB at serine S467. This post-translational modification creates a binding site for 14-3-3 proteins, leading to TFEB's retention in the cytoplasm and the inhibition of its nuclear translocation and transcriptional activity.",
+  "functions": [
+    {
+      "function": "TFEB Phosphorylation & Transcriptional",
+      "arrow": "activates",
+      "cellular_process": "The kinase AKT1 directly phosphorylates TFEB at Serine 467. This phosphorylation event promotes the binding of 14-3-3 chaperone proteins, which masks TFEB's nuclear localization signal, leading to its sequestration in the cytoplasm and a reduction in its transcriptional activity.",
+      "effect_description": "AKT1-mediated phosphorylation suppresses TFEB's function as a master regulator of lysosomal biogenesis and autophagy. This provides an mTORC1-independent mechanism to link pro-survival signaling from growth factors to the inhibition of catabolic processes.",
+      "biological_consequence": [
+        "Activation of PI3K/AKT pathway → AKT1 directly phosphorylates TFEB at S467 → TFEB binds 14-3-3 proteins → Cytoplasmic sequestration of TFEB → Inhibition of TFEB-mediated transcription."
+      ],
+      "specific_effects": [
+        "Connects the PI3K/AKT signaling pathway to the regulation of cellular clearance.",
+        "Inhibition of AKT promotes TFEB nuclear translocation and activation.",
+        "Phosphorylation at S467 by AKT occurs independently of mTORC1 signaling."
+      ],
+      "evidence": [
+        {
+          "paper_title": "mTORC1-independent TFEB activation via Akt inhibition promotes cellular clearance in neurodegenerative storage diseases",
+          "doi": "10.1038/ncomms14338",
+          "authors": "Palmieri M, Pal R, Nelvagal HR, Lotfi P, Stinnett GR, Seymour ML, Chaudhury A, Bajaj L, Bondar VV, Bremner L, Saleem U, Tse DY, Sanagasetti D, Wu SM, Neilson JR, Pereira FA, Pautler RG, Rodney GG, Cooper JD, Sardiello M",
+          "journal": "Nature Communications",
+          "year": 2017,
+          "assay": "In vitro kinase assay, Immunoprecipitation, Western Blot",
+          "species": "human, mouse",
+          "relevant_quote": "We show that Akt phosphorylates TFEB at Ser467 and represses TFEB nuclear translocation independently of mechanistic target of rapamycin complex 1 (mTORC1), a known TFEB inhibitor.",
+          "pmid": "28165011"
+        },
+        {
+          "paper_title": "AKT modulates the autophagy-lysosome pathway via TFEB",
+          "doi": "10.1080/15384101.2017.1337968",
+          "authors": "Palmieri M, Pal R, Sardiello M",
+          "journal": "Cell Cycle",
+          "year": 2017,
+          "assay": "Review",
+          "species": "human, mouse",
+          "relevant_quote": "Our recent work has uncovered AKT-mediated phosphorylation of TFEB as a mechanism by which AKT modulates the autophagy-lysosomal pathway. AKT phosphorylates TFEB on serine 467...",
+          "pmid": "28636416"
+        },
+        {
+          "paper_title": "The complex relationship between TFEB transcription factor phosphorylation and subcellular localization",
+          "doi": "10.15252/embj.201798804",
+          "authors": "Puertollano R, Ferguson SM, Brugarolas J, Ballabio A",
+          "journal": "The EMBO Journal",
+          "year": 2018,
+          "assay": "Review",
+          "species": "human, mouse",
+          "relevant_quote": "Major kinases responsible for MiT-TFE protein phosphorylation include mTOR, ERK, GSK3, and AKT.",
+          "pmid": "29764979"
+        },
+        {
+          "paper_title": "mTORC1 feedback to AKT modulates lysosomal biogenesis through MiT/TFE regulation",
+          "doi": "10.1172/JCI128287",
+          "authors": "Zou Z, Tao J, Li D, Chen J, Yue F, Liu J, Monteleon CL, Cui Y, Wang L, DeBose-Boyd RA, Ye J, Sun SY, Wang G, Wang Y, Yu J, Wang CY, Cheng J, Liu Y, Gan B, Liu L",
+          "journal": "The Journal of Clinical Investigation",
+          "year": 2019,
+          "assay": "Western Blot, Phosphoproteomic analysis",
+          "species": "mouse",
+          "relevant_quote": "AKT phosphorylation at conserved RXXS/T motifs S467/S565/S510 in TFEB, TFE3, and MITF, respectively, results in their cytoplasmic retention/inactivation...",
+          "pmid": "31527310"
+        }
+      ],
+      "pmids": [
+        "28165011",
+        "28636416",
+        "29764979",
+        "31527310"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "primary_to_main",
+      "function_effect": "activation"
+    }
+  ],
+  "arrow": "inhibits",
+  "direction": "main_to_primary",
+  "intent": "phosphorylation",
+  "mechanism": "The kinase AKT1 directly phosphorylates TFEB at Serine 467. This phosphorylation event promotes the binding of 14-3-3 chaperone proteins, which masks TFEB's nuclear localization signal, leading to its sequestration in the cytoplasm and a reduction in its transcriptional activity.",
+  "effect": "AKT1-mediated phosphorylation suppresses TFEB's function as a master regulator of lysosomal biogenesis and autophagy. This provides an mTORC1-independent mechanism to link pro-survival signaling from growth factors to the inhibition of catabolic processes.",
+  "summary": "TFEB inhibits AKT1 to modulate tfeb phosphorylation & transcriptional inhibition, ultimately affecting inhibition of tfeb-mediated transcription.",
+  "evidence": [
+    {
+      "paper_title": "mTORC1-independent TFEB activation via Akt inhibition promotes cellular clearance in neurodegenerative storage diseases",
+      "doi": "10.1038/ncomms14338",
+      "authors": "Palmieri M, Pal R, Nelvagal HR, Lotfi P, Stinnett GR, Seymour ML, Chaudhury A, Bajaj L, Bondar VV, Bremner L, Saleem U, Tse DY, Sanagasetti D, Wu SM, Neilson JR, Pereira FA, Pautler RG, Rodney GG, Cooper JD, Sardiello M",
+      "journal": "Nature Communications",
+      "year": 2017,
+      "assay": "In vitro kinase assay, Immunoprecipitation, Western Blot",
+      "species": "human, mouse",
+      "relevant_quote": "We show that Akt phosphorylates TFEB at Ser467 and represses TFEB nuclear translocation independently of mechanistic target of rapamycin complex 1 (mTORC1), a known TFEB inhibitor."
+    },
+    {
+      "paper_title": "AKT modulates the autophagy-lysosome pathway via TFEB",
+      "doi": "10.1080/15384101.2017.1337968",
+      "authors": "Palmieri M, Pal R, Sardiello M",
+      "journal": "Cell Cycle",
+      "year": 2017,
+      "assay": "Review",
+      "species": "human, mouse",
+      "relevant_quote": "Our recent work has uncovered AKT-mediated phosphorylation of TFEB as a mechanism by which AKT modulates the autophagy-lysosomal pathway. AKT phosphorylates TFEB on serine 467..."
+    },
+    {
+      "paper_title": "The complex relationship between TFEB transcription factor phosphorylation and subcellular localization",
+      "doi": "10.15252/embj.201798804",
+      "authors": "Puertollano R, Ferguson SM, Brugarolas J, Ballabio A",
+      "journal": "The EMBO Journal",
+      "year": 2018,
+      "assay": "Review",
+      "species": "human, mouse",
+      "relevant_quote": "Major kinases responsible for MiT-TFE protein phosphorylation include mTOR, ERK, GSK3, and AKT."
+    },
+    {
+      "paper_title": "mTORC1 feedback to AKT modulates lysosomal biogenesis through MiT/TFE regulation",
+      "doi": "10.1172/JCI128287",
+      "authors": "Zou Z, Tao J, Li D, Chen J, Yue F, Liu J, Monteleon CL, Cui Y, Wang L, DeBose-Boyd RA, Ye J, Sun SY, Wang G, Wang Y, Yu J, Wang CY, Cheng J, Liu Y, Gan B, Liu L",
+      "journal": "The Journal of Clinical Investigation",
+      "year": 2019,
+      "assay": "Western Blot, Phosphoproteomic analysis",
+      "species": "mouse",
+      "relevant_quote": "AKT phosphorylation at conserved RXXS/T motifs S467/S565/S510 in TFEB, TFE3, and MITF, respectively, results in their cytoplasmic retention/inactivation..."
+    }
+  ],
+  "interaction_effect": "inhibition",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TFEB <--inhibits-- AKT1:",
+  "protein_a": "AKT1",
+  "protein_b": "TFEB",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.507150Z",
+  "last_updated": "2025-11-19T03:20:29.507150Z"
+}

@@ -1,0 +1,117 @@
+{
+  "primary": "ATF6",
+  "interaction_type": "indirect",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 2,
+  "support_summary": "The active form of the transcription factor ATF6 directly binds to Endoplasmic Reticulum Stress Response Elements (ERSE) in the promoter of HERPUD1, a key component of the ER-associated degradation (ERAD) pathway, to upregulate its expression and enhance the clearance of misfolded proteins.",
+  "functions": [
+    {
+      "function": "HERPUD1 Gene Transcription",
+      "arrow": "activates",
+      "cellular_process": "Upon ER stress, the cleaved, active nuclear form of ATF6 (nATF6) translocates to the nucleus and binds to ERSE sites within the HERPUD1 promoter, activating its transcription. This is a key part of the UPR's effort to clear misfolded proteins.",
+      "effect_description": "The transcription of the ER-associated degradation (ERAD) component HERPUD1 is activated.",
+      "biological_consequence": [
+        "ER stress → ATF6 cleavage & activation → Nuclear translocation of nATF6 → nATF6 binds to ERSE sites in HERPUD1 promoter → HERPUD1 gene transcription",
+        "Increased HERPUD1 expression → Enhanced ER-associated degradation (ERAD) capacity → Clearance of misfolded proteins → Resolution of ER stress"
+      ],
+      "specific_effects": [
+        "Increases the expression of the ERAD component HERPUD1.",
+        "Directly binds to the ERSE-I and ERSE-II elements in the HERPUD1 promoter."
+      ],
+      "evidence": [
+        {
+          "paper_title": "ATF6 is a transcription factor specializing in the regulation of quality control proteins in the endoplasmic reticulum",
+          "doi": "10.1247/csf.07044",
+          "authors": "Y Adachi, T Yamamoto, T Okada, H Yoshida, A Harada, K Mori",
+          "journal": "Cell Structure and Function",
+          "year": 2008,
+          "assay": "Microarray Analysis",
+          "species": "mouse",
+          "relevant_quote": "We identified Herpud1... as [a] specific target of ATF6alpha... Herpud1 is a component of ER-associated degradation (ERAD).",
+          "pmid": "18360008"
+        },
+        {
+          "paper_title": "Stress-Independent Activation of XBP1s and/or ATF6 Reveals Three Functionally Diverse ER Proteostasis Environments",
+          "doi": "10.1016/j.celrep.2013.03.012",
+          "authors": "Christopher M Papa, Han Chen, Luke M Wiseman",
+          "journal": "Cell Reports",
+          "year": 2013,
+          "assay": "qRT-PCR",
+          "species": "human",
+          "relevant_quote": "TMP induces expression of the ATF6 target genes HerpUD and Hyou1 in cells expressing DHFR.ATF6 to levels consistent with those observed following global UPR-dependent activation induced by Tm.",
+          "pmid": "23583182"
+        },
+        {
+          "paper_title": "Induction of Herpud1 expression by ER stress is regulated by Nrf1",
+          "doi": "10.1038/s12276-017-0004-7",
+          "authors": "Chang-Soo Lee, Ju-Hee Lee, Hyunjoo Lee, Eun-Hee Lee, Sung-Hoon Kim, Myung-Shik Lee, Hyung-Ryong Kim",
+          "journal": "Experimental & Molecular Medicine",
+          "year": 2017,
+          "assay": "Review",
+          "species": "mouse",
+          "relevant_quote": "Transcription factors found to transactivate Herpud1 at ERSE-I or ERSE-II include XBP-1, ATF6, and Luman.",
+          "pmid": "25637874"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "18360008",
+        "23583182",
+        "25637874"
+      ]
+    }
+  ],
+  "arrows": {
+    "main_to_primary": [
+      "activates"
+    ]
+  },
+  "arrow": "activates",
+  "direction": "primary_to_main",
+  "_chain_inferred": true,
+  "intent": "regulation",
+  "mechanism": "Upon ER stress, the cleaved, active nuclear form of ATF6 (nATF6) translocates to the nucleus and binds to ERSE sites within the HERPUD1 promoter, activating its transcription. This is a key part of the UPR's effort to clear misfolded proteins.",
+  "effect": "The transcription of the ER-associated degradation (ERAD) component HERPUD1 is activated.",
+  "summary": "ATF6 activates HERPUD1 to modulate herpud1 gene transcription, ultimately affecting herpud1 gene transcription.",
+  "evidence": [
+    {
+      "paper_title": "ATF6 is a transcription factor specializing in the regulation of quality control proteins in the endoplasmic reticulum",
+      "doi": "10.1247/csf.07044",
+      "authors": "Y Adachi, T Yamamoto, T Okada, H Yoshida, A Harada, K Mori",
+      "journal": "Cell Structure and Function",
+      "year": 2008,
+      "assay": "Microarray Analysis",
+      "species": "mouse",
+      "relevant_quote": "We identified Herpud1... as [a] specific target of ATF6alpha... Herpud1 is a component of ER-associated degradation (ERAD)."
+    },
+    {
+      "paper_title": "Stress-Independent Activation of XBP1s and/or ATF6 Reveals Three Functionally Diverse ER Proteostasis Environments",
+      "doi": "10.1016/j.celrep.2013.03.012",
+      "authors": "Christopher M Papa, Han Chen, Luke M Wiseman",
+      "journal": "Cell Reports",
+      "year": 2013,
+      "assay": "qRT-PCR",
+      "species": "human",
+      "relevant_quote": "TMP induces expression of the ATF6 target genes HerpUD and Hyou1 in cells expressing DHFR.ATF6 to levels consistent with those observed following global UPR-dependent activation induced by Tm."
+    },
+    {
+      "paper_title": "Induction of Herpud1 expression by ER stress is regulated by Nrf1",
+      "doi": "10.1038/s12276-017-0004-7",
+      "authors": "Chang-Soo Lee, Ju-Hee Lee, Hyunjoo Lee, Eun-Hee Lee, Sung-Hoon Kim, Myung-Shik Lee, Hyung-Ryong Kim",
+      "journal": "Experimental & Molecular Medicine",
+      "year": 2017,
+      "assay": "Review",
+      "species": "mouse",
+      "relevant_quote": "Transcription factors found to transactivate Herpud1 at ERSE-I or ERSE-II include XBP-1, ATF6, and Luman."
+    }
+  ],
+  "arrow_notation": "ATF6 --activates--> HERPUD1:",
+  "protein_a": "HERPUD1",
+  "protein_b": "ATF6",
+  "discovered_in_query": "ATF6",
+  "first_discovered": "2025-11-18T21:01:00.287585Z",
+  "last_updated": "2025-11-18T21:01:00.287585Z"
+}

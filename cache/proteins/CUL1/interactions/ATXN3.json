@@ -1,0 +1,108 @@
+{
+  "primary": "ATXN3",
+  "interaction_type": "indirect",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 2,
+  "support_summary": "ATXN3 acts as a deubiquitinase for the checkpoint kinase Chk1, counteracting its ubiquitination by E3 ligase complexes such as the Cullin-1 (CUL1)-based SCF complex (Skp1-CUL1-Fbx6). By removing ubiquitin chains from Chk1, ATXN3 prevents its proteasomal degradation, thereby stabilizing it.",
+  "functions": [
+    {
+      "function": "Chk1 Stability",
+      "arrow": "activates",
+      "cellular_process": "ATXN3 deubiquitinates the checkpoint kinase Chk1, thereby antagonizing its polyubiquitination and subsequent degradation mediated by the CUL1-based SCF E3 ligase complex.",
+      "effect_description": "ATXN3's deubiquitinase activity on Chk1 counteracts the ubiquitin ligase function of the CUL1-SCF complex, leading to increased Chk1 stability and prolonged checkpoint signaling.",
+      "biological_consequence": [
+        "Chk1 is polyubiquitinated by the CUL1-based SCF E3 ligase → ATXN3 removes ubiquitin chains from Chk1 → Chk1 is stabilized and protected from proteasomal degradation → DNA damage checkpoint signaling is maintained"
+      ],
+      "specific_effects": [
+        "ATXN3 is a ubiquitin hydrolase for Chk1.",
+        "The CUL1-based SCF complex is one of the E3 ligases that controls Chk1 levels.",
+        "ATXN3's activity prolongs the half-life of Chk1."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Ataxin-3 promotes genome integrity by stabilizing Chk1",
+          "doi": "10.1093/nar/gkx095",
+          "authors": "Tu Y, Liu H, Zhu X, Shen H, Ma X, Wang F, Chen Y, Xie A, Li X, Wang C, Lu L, Tao W, Tang T",
+          "journal": "Nucleic Acids Research",
+          "year": 2017,
+          "assay": "Co-immunoprecipitation, in vivo ubiquitination assay",
+          "species": "Human",
+          "relevant_quote": "ataxin-3 (ATX3) interacts with Chk1 and protects it from DDB1/CUL4A- and FBXO6/CUL1-mediated polyubiquitination and subsequent degradation, thereby promoting DNA repair and checkpoint signaling.",
+          "pmid": "28180282"
+        },
+        {
+          "paper_title": "ATXN3: a multifunctional protein involved in the polyglutamine disease spinocerebellar ataxia type 3",
+          "doi": "10.1017/erm.2024.10",
+          "authors": "Hernández-Carralero E, Quinet G, Freire R, Farràs R",
+          "journal": "Expert Reviews in Molecular Medicine",
+          "year": 2024,
+          "assay": "Review",
+          "species": "Human",
+          "relevant_quote": "ATXN3 is one of the described ubiquitin hydrolases for Chk1, thereby essential for the maintenance of steady-state levels of Chk1, prolonging its half-life and checkpoint signalling.",
+          "pmid": "39320846"
+        }
+      ],
+      "pmids": [
+        "28180282",
+        "39320846"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "main_to_primary",
+      "function_effect": "activation",
+      "arrow_context": {
+        "direct_from": null,
+        "direct_arrow": "activates",
+        "net_from": "ATXN3",
+        "net_arrow": "activates",
+        "mediator_chain": [],
+        "is_indirect": true
+      },
+      "net_arrow": "activates",
+      "direct_arrow": "activates",
+      "net_effect": "activation",
+      "direct_effect": "activation"
+    }
+  ],
+  "arrow": "inhibits",
+  "direction": "primary_to_main",
+  "intent": "deubiquitination",
+  "mechanism": "ATXN3 deubiquitinates the checkpoint kinase Chk1, thereby antagonizing its polyubiquitination and subsequent degradation mediated by the CUL1-based SCF E3 ligase complex.",
+  "effect": "ATXN3's deubiquitinase activity on Chk1 counteracts the ubiquitin ligase function of the CUL1-SCF complex, leading to increased Chk1 stability and prolonged checkpoint signaling.",
+  "summary": "ATXN3 inhibits CUL1 to modulate chk1 stability, ultimately affecting dna damage checkpoint signaling is maintained.",
+  "evidence": [
+    {
+      "paper_title": "Ataxin-3 promotes genome integrity by stabilizing Chk1",
+      "doi": "10.1093/nar/gkx095",
+      "authors": "Tu Y, Liu H, Zhu X, Shen H, Ma X, Wang F, Chen Y, Xie A, Li X, Wang C, Lu L, Tao W, Tang T",
+      "journal": "Nucleic Acids Research",
+      "year": 2017,
+      "assay": "Co-immunoprecipitation, in vivo ubiquitination assay",
+      "species": "Human",
+      "relevant_quote": "ataxin-3 (ATX3) interacts with Chk1 and protects it from DDB1/CUL4A- and FBXO6/CUL1-mediated polyubiquitination and subsequent degradation, thereby promoting DNA repair and checkpoint signaling."
+    },
+    {
+      "paper_title": "ATXN3: a multifunctional protein involved in the polyglutamine disease spinocerebellar ataxia type 3",
+      "doi": "10.1017/erm.2024.10",
+      "authors": "Hernández-Carralero E, Quinet G, Freire R, Farràs R",
+      "journal": "Expert Reviews in Molecular Medicine",
+      "year": 2024,
+      "assay": "Review",
+      "species": "Human",
+      "relevant_quote": "ATXN3 is one of the described ubiquitin hydrolases for Chk1, thereby essential for the maintenance of steady-state levels of Chk1, prolonging its half-life and checkpoint signalling."
+    }
+  ],
+  "interaction_effect": "inhibition",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATXN3 --inhibits--> CUL1:",
+  "protein_a": "CUL1",
+  "protein_b": "ATXN3",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-18T20:57:38.912269Z",
+  "last_updated": "2025-11-18T20:57:38.912269Z"
+}

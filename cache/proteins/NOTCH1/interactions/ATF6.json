@@ -1,0 +1,87 @@
+{
+  "primary": "ATF6",
+  "interaction_type": "indirect",
+  "support_summary": "In glioblastoma cells, the active form of ATF6 acts as a transcription factor for the NOTCH1 gene. This upregulation of NOTCH1 contributes to enhanced cell viability and resistance to radiation therapy.",
+  "functions": [
+    {
+      "function": "NOTCH1 Gene Transcription",
+      "arrow": "activates",
+      "cellular_process": "The active, nuclear form of ATF6 acts as a transcription factor for the NOTCH1 gene, particularly in the context of irradiated glioblastoma cells.",
+      "effect_description": "This transcriptional upregulation of NOTCH1 by ATF6 links the ER stress response to pro-survival and anti-apoptotic signaling pathways, contributing to therapeutic resistance in cancer.",
+      "biological_consequence": [
+        "ATF6 is activated in response to radiation-induced ER stress → Activated ATF6 translocates to the nucleus → ATF6 binds to the NOTCH1 gene promoter → NOTCH1 gene transcription is upregulated → Notch signaling is enhanced → Radioresistance of glioblastoma cells is increased"
+      ],
+      "specific_effects": [
+        "Knockdown of ATF6 reduces radiation-induced upregulation of NOTCH1 in glioblastoma cells.",
+        "Activation of ATF6 contributes to the radiation-induced upregulation of NOTCH1."
+      ],
+      "evidence": [
+        {
+          "paper_title": "The ATF6 pathway of the ER stress response contributes to enhanced viability in glioblastoma",
+          "doi": "10.1862/oncotarget.6712",
+          "authors": "Dadey DY, Kapoor V, Khudanyan A, Thotala D, Ciborowski M, Lorkiewicz P, Vocadlo D, Hallahan DE, Yacoub A, Dent P, Kim H, Spiegel S, Fisher PB, Pochampalli M",
+          "journal": "Oncotarget",
+          "year": 2016,
+          "assay": "qRT-PCR, Western Blot",
+          "species": "human",
+          "relevant_quote": "we found that activation of ATF6 contributes to the radiation-induced upregulation of glucose regulated protein 78 (GRP78) and NOTCH1.",
+          "pmid": "26716508"
+        }
+      ],
+      "pmids": [
+        "26716508"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "main_to_primary",
+      "function_effect": "activation",
+      "arrow_context": {
+        "direct_from": null,
+        "direct_arrow": "activates",
+        "net_from": "ATF6",
+        "net_arrow": "activates",
+        "mediator_chain": [],
+        "is_indirect": true
+      },
+      "net_arrow": "activates",
+      "direct_arrow": "activates",
+      "net_effect": "activation",
+      "direct_effect": "activation"
+    }
+  ],
+  "arrows": {
+    "main_to_primary": [
+      "activates"
+    ]
+  },
+  "arrow": "activates",
+  "direction": "primary_to_main",
+  "intent": "regulation",
+  "mechanism": "The active, nuclear form of ATF6 acts as a transcription factor for the NOTCH1 gene, particularly in the context of irradiated glioblastoma cells.",
+  "effect": "This transcriptional upregulation of NOTCH1 by ATF6 links the ER stress response to pro-survival and anti-apoptotic signaling pathways, contributing to therapeutic resistance in cancer.",
+  "summary": "ATF6 activates NOTCH1 to modulate notch1 gene transcription, ultimately affecting radioresistance of glioblastoma cells is increased.",
+  "evidence": [
+    {
+      "paper_title": "The ATF6 pathway of the ER stress response contributes to enhanced viability in glioblastoma",
+      "doi": "10.1862/oncotarget.6712",
+      "authors": "Dadey DY, Kapoor V, Khudanyan A, Thotala D, Ciborowski M, Lorkiewicz P, Vocadlo D, Hallahan DE, Yacoub A, Dent P, Kim H, Spiegel S, Fisher PB, Pochampalli M",
+      "journal": "Oncotarget",
+      "year": 2016,
+      "assay": "qRT-PCR, Western Blot",
+      "species": "human",
+      "relevant_quote": "we found that activation of ATF6 contributes to the radiation-induced upregulation of glucose regulated protein 78 (GRP78) and NOTCH1."
+    }
+  ],
+  "interaction_effect": "activation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATF6 --activates--> NOTCH1:",
+  "protein_a": "NOTCH1",
+  "protein_b": "ATF6",
+  "discovered_in_query": "ATF6",
+  "first_discovered": "2025-11-18T21:01:00.259492Z",
+  "last_updated": "2025-11-18T21:01:00.259492Z"
+}

@@ -1,0 +1,92 @@
+{
+  "primary": "TFEB",
+  "direction": "main_to_primary",
+  "arrow": "inhibits",
+  "intent": "sequestration",
+  "support_summary": "YWHAZ, a 14-3-3 protein, acts as a cytoplasmic anchor for TFEB. It directly binds to TFEB only after TFEB has been phosphorylated by mTORC1, specifically at Serine 211. This binding masks TFEB's nuclear localization signal, physically sequestering it in the cytoplasm and preventing it from activating gene transcription in the nucleus.",
+  "functions": [
+    {
+      "function": "Phospho-TFEB Cytoplasmic Sequestration",
+      "arrow": "activates",
+      "cellular_process": "Following mTORC1-mediated phosphorylation of TFEB at Serine 211, YWHAZ (a 14-3-3 protein) recognizes and binds to this phosphoserine motif. This interaction physically masks the nuclear localization signal (NLS) of TFEB, effectively anchoring the transcription factor in the cytoplasm.",
+      "effect_description": "YWHAZ acts as a cytoplasmic anchor for phosphorylated TFEB, directly preventing its nuclear import and ensuring its transcriptional inactivity under nutrient-replete conditions.",
+      "biological_consequence": [
+        "YWHAZ binds to TFEB phosphorylated at Serine 211 → TFEB's Nuclear Localization Signal (NLS) is masked → Phospho-TFEB is retained in the cytoplasm → TFEB-mediated transcription of CLEAR genes is suppressed → Lysosomal biogenesis & autophagy are inhibited"
+      ],
+      "specific_effects": [
+        "Directly binds TFEB phosphorylated at Serine 211.",
+        "Prevents TFEB nuclear import.",
+        "Stabilizes the inactive, phosphorylated form of TFEB in the cytosol."
+      ],
+      "evidence": [
+        {
+          "paper_title": "YWHA/14-3-3 proteins recognize phosphorylated TFEB by a noncanonical mode for controlling TFEB cytoplasmic localization",
+          "doi": "10.1080/15548627.2019.1569928",
+          "authors": "Yong-Xiang Li, Guang-Zhong Li, Tong-Tong Tao, Yu-Jie Xu, Jin-Song He, Xiao-Long Zhou, Jia-Wei Wang, Cong-Zhao",
+          "journal": "Autophagy",
+          "year": 2019,
+          "assay": "Co-IP, ITC, X-ray Crystallography",
+          "species": "human",
+          "relevant_quote": "Phosphorylated S211 (p-S211) of TFEB can be recognized by YWHA/14-3-3 proteins for TFEB cytoplasmic localization.",
+          "pmid": "30653408"
+        },
+        {
+          "paper_title": "MTORC1 functions as a transcriptional regulator of autophagy by preventing nuclear transport of TFEB",
+          "doi": "10.4161/auto.19995",
+          "authors": "Jose A Martina, Y Chen, M Gucek, R Puertollano",
+          "journal": "Autophagy",
+          "year": 2012,
+          "assay": "Western Blot, Immunofluorescence",
+          "species": "human",
+          "relevant_quote": "MTORC1 promotes phosphorylation-dependent association of TFEB with YWHA proteins that function as cytoplasmic repressors of TFEB.",
+          "pmid": "22576015"
+        }
+      ],
+      "pmids": [
+        "30653408",
+        "22576015"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "primary_to_main",
+      "function_effect": "activation"
+    }
+  ],
+  "mechanism": "Following mTORC1-mediated phosphorylation of TFEB at Serine 211, YWHAZ (a 14-3-3 protein) recognizes and binds to this phosphoserine motif. This interaction physically masks the nuclear localization signal (NLS) of TFEB, effectively anchoring the transcription factor in the cytoplasm.",
+  "effect": "YWHAZ acts as a cytoplasmic anchor for phosphorylated TFEB, directly preventing its nuclear import and ensuring its transcriptional inactivity under nutrient-replete conditions.",
+  "summary": "TFEB inhibits YWHAZ to modulate phospho-tfeb cytoplasmic sequestration, ultimately affecting lysosomal biogenesis & autophagy are inhibited.",
+  "evidence": [
+    {
+      "paper_title": "YWHA/14-3-3 proteins recognize phosphorylated TFEB by a noncanonical mode for controlling TFEB cytoplasmic localization",
+      "doi": "10.1080/15548627.2019.1569928",
+      "authors": "Yong-Xiang Li, Guang-Zhong Li, Tong-Tong Tao, Yu-Jie Xu, Jin-Song He, Xiao-Long Zhou, Jia-Wei Wang, Cong-Zhao",
+      "journal": "Autophagy",
+      "year": 2019,
+      "assay": "Co-IP, ITC, X-ray Crystallography",
+      "species": "human",
+      "relevant_quote": "Phosphorylated S211 (p-S211) of TFEB can be recognized by YWHA/14-3-3 proteins for TFEB cytoplasmic localization."
+    },
+    {
+      "paper_title": "MTORC1 functions as a transcriptional regulator of autophagy by preventing nuclear transport of TFEB",
+      "doi": "10.4161/auto.19995",
+      "authors": "Jose A Martina, Y Chen, M Gucek, R Puertollano",
+      "journal": "Autophagy",
+      "year": 2012,
+      "assay": "Western Blot, Immunofluorescence",
+      "species": "human",
+      "relevant_quote": "MTORC1 promotes phosphorylation-dependent association of TFEB with YWHA proteins that function as cytoplasmic repressors of TFEB."
+    }
+  ],
+  "interaction_effect": "inhibition",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TFEB <--inhibits-- YWHAZ:",
+  "protein_a": "YWHAZ",
+  "protein_b": "TFEB",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.495890Z",
+  "last_updated": "2025-11-19T03:20:29.495890Z"
+}

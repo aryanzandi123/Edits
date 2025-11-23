@@ -1,0 +1,113 @@
+{
+  "primary": "PRKN",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "ATXN3 interacts with the E3 ubiquitin ligase Parkin (PRKN), counteracting its auto-ubiquitination and thereby inhibiting its E3 ligase activity. This regulation impacts processes like mitophagy and protein quality control.",
+  "functions": [
+    {
+      "function": "Parkin E3 Ligase Activity",
+      "arrow": "inhibits",
+      "cellular_process": "ATXN3 directly interacts with the E3 ubiquitin ligase Parkin (PRKN) and deubiquitinates it. This action counteracts Parkin's self-ubiquitination, which is essential for its full E3 ligase activity.",
+      "effect_description": "Parkin's E3 ubiquitin ligase activity is inhibited, reducing its ability to ubiquitinate target proteins and itself.",
+      "biological_consequence": [
+        "ATXN3 binds to PRKN (Parkin) → ATXN3 removes ubiquitin chains from Parkin → Parkin self-ubiquitination is counteracted → Parkin E3 ligase activity is inhibited → Mitophagy initiation is suppressed",
+        "PolyQ-expanded ATXN3 exhibits increased activity towards Parkin → Parkin is excessively deubiquitinated → Destabilized Parkin is targeted for autophagic clearance → Cellular Parkin levels are depleted"
+      ],
+      "specific_effects": [
+        "ATXN3 counteracts Parkin self-ubiquitination.",
+        "ATXN3 deubiquitinates Parkin directly.",
+        "PolyQ-expanded ATXN3 is more active in deubiquitinating Parkin and promotes its clearance via autophagy.",
+        "ATXN3 interferes with the attachment of ubiquitin onto Parkin during conjugation."
+      ],
+      "evidence": [
+        {
+          "paper_title": "The Machado-Joseph disease-associated mutant form of ataxin-3 regulates parkin ubiquitination and stability",
+          "doi": "10.1093/hmg/ddq452",
+          "authors": "Durcan TM, Kontogiannea M, Thorarinsdottir T, Fallon L, Williams AJ, Djarmati A, Fantaneanu T, Paulson HL, Fon EA",
+          "journal": "Hum Mol Genet",
+          "year": 2011,
+          "assay": "Co-Immunoprecipitation, In vitro ubiquitination assay",
+          "species": "human",
+          "relevant_quote": "The interaction between ataxin-3 and parkin is direct, involves multiple domains and is greatly enhanced by parkin self-ubiquitination. Moreover, ataxin-3 deubiquitinates parkin directly in vitro and in cells.",
+          "pmid": "20940148"
+        },
+        {
+          "paper_title": "Ataxin-3 deubiquitination is coupled to Parkin ubiquitination via E2 ubiquitin-conjugating enzyme",
+          "doi": "10.1074/jbc.M111.288449",
+          "authors": "Durcan TM, Kontogiannea M, Bedard N, Wing SS, Fon EA",
+          "journal": "J Biol Chem",
+          "year": 2012,
+          "assay": "In vitro ubiquitination assay, GST pulldown",
+          "species": "human",
+          "relevant_quote": "Ataxin-3 was found to counteract parkin self-ubiquitination both in vitro and in cells.",
+          "pmid": "22081612"
+        },
+        {
+          "paper_title": "The parkin V380L variant is a genetic modifier of Machado–Joseph disease with impact on mitophagy",
+          "doi": "10.1007/s00401-024-02762-6",
+          "authors": "Dá F, Gerl L, Nouri V, Doss S, Doss S, Kohl Z, Hübener-Schmid J, Wilke C, Synofzik M, Rattay TW, Riess O, Winkelmann J, Traschütz A, Schöls L",
+          "journal": "Acta Neuropathol",
+          "year": 2024,
+          "assay": "Co-Immunoprecipitation",
+          "species": "human",
+          "relevant_quote": "The E3 ubiquitin ligase parkin, whose mutations are notoriously associated with juvenile manifestations of Parkinson’s disease, is one of the prime binding partners of ataxin-3...",
+          "pmid": "39088078"
+        }
+      ],
+      "interaction_effect": "inhibits",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "20940148",
+        "22081612",
+        "39088078"
+      ]
+    }
+  ],
+  "arrow": "inhibits",
+  "direction": "main_to_primary",
+  "intent": "deubiquitination",
+  "mechanism": "ATXN3 directly interacts with the E3 ubiquitin ligase Parkin (PRKN) and deubiquitinates it. This action counteracts Parkin's self-ubiquitination, which is essential for its full E3 ligase activity.",
+  "effect": "Parkin's E3 ubiquitin ligase activity is inhibited, reducing its ability to ubiquitinate target proteins and itself.",
+  "summary": "ATXN3 inhibits PRKN to modulate parkin e3 ligase activity, ultimately affecting mitophagy initiation is suppressed.",
+  "evidence": [
+    {
+      "paper_title": "The Machado-Joseph disease-associated mutant form of ataxin-3 regulates parkin ubiquitination and stability",
+      "doi": "10.1093/hmg/ddq452",
+      "authors": "Durcan TM, Kontogiannea M, Thorarinsdottir T, Fallon L, Williams AJ, Djarmati A, Fantaneanu T, Paulson HL, Fon EA",
+      "journal": "Hum Mol Genet",
+      "year": 2011,
+      "assay": "Co-Immunoprecipitation, In vitro ubiquitination assay",
+      "species": "human",
+      "relevant_quote": "The interaction between ataxin-3 and parkin is direct, involves multiple domains and is greatly enhanced by parkin self-ubiquitination. Moreover, ataxin-3 deubiquitinates parkin directly in vitro and in cells."
+    },
+    {
+      "paper_title": "Ataxin-3 deubiquitination is coupled to Parkin ubiquitination via E2 ubiquitin-conjugating enzyme",
+      "doi": "10.1074/jbc.M111.288449",
+      "authors": "Durcan TM, Kontogiannea M, Bedard N, Wing SS, Fon EA",
+      "journal": "J Biol Chem",
+      "year": 2012,
+      "assay": "In vitro ubiquitination assay, GST pulldown",
+      "species": "human",
+      "relevant_quote": "Ataxin-3 was found to counteract parkin self-ubiquitination both in vitro and in cells."
+    },
+    {
+      "paper_title": "The parkin V380L variant is a genetic modifier of Machado–Joseph disease with impact on mitophagy",
+      "doi": "10.1007/s00401-024-02762-6",
+      "authors": "Dá F, Gerl L, Nouri V, Doss S, Doss S, Kohl Z, Hübener-Schmid J, Wilke C, Synofzik M, Rattay TW, Riess O, Winkelmann J, Traschütz A, Schöls L",
+      "journal": "Acta Neuropathol",
+      "year": 2024,
+      "assay": "Co-Immunoprecipitation",
+      "species": "human",
+      "relevant_quote": "The E3 ubiquitin ligase parkin, whose mutations are notoriously associated with juvenile manifestations of Parkinson’s disease, is one of the prime binding partners of ataxin-3..."
+    }
+  ],
+  "arrow_notation": "ATXN3 --inhibits--> PRKN:",
+  "protein_a": "ATXN3",
+  "protein_b": "PRKN",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-18T20:57:38.894626Z",
+  "last_updated": "2025-11-18T20:57:38.894626Z"
+}

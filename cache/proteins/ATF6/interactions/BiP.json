@@ -1,0 +1,102 @@
+{
+  "primary": "BiP",
+  "direction": "primary_to_main",
+  "arrow": "inhibits",
+  "intent": "sequestration",
+  "support_summary": "In unstressed cells, the ER chaperone BiP (also known as GRP78/HSPA5) binds to the luminal domain of ATF6, sequestering it in the endoplasmic reticulum and preventing its activation.",
+  "functions": [
+    {
+      "function": "ATF6 Sequestration",
+      "arrow": "activates",
+      "cellular_process": "In the absence of ER stress, BiP (HSPA5) binds to the luminal domain of ATF6, masking its Golgi localization signals and preventing its transport to the Golgi apparatus.",
+      "effect_description": "BiP binding sequesters ATF6 in the endoplasmic reticulum, preventing its transport to the Golgi and subsequent proteolytic activation.",
+      "biological_consequence": [
+        "BiP (HSPA5) binds to the ATF6 luminal domain in non-stressed cells → Golgi localization signals are masked → ATF6 is retained in the Endoplasmic Reticulum → Prevention of transport to the Golgi apparatus → ATF6 remains inactive and UPR pathway is suppressed"
+      ],
+      "specific_effects": [
+        "Prevents ATF6 trafficking from the ER to the Golgi.",
+        "Maintains ATF6 in an inactive state.",
+        "Masks Golgi localization signals within the ATF6 luminal domain."
+      ],
+      "evidence": [
+        {
+          "paper_title": "ER stress regulation of ATF6 localization by dissociation of BiP/GRP78 binding and unmasking of Golgi localization signals",
+          "doi": "10.1016/s1534-5807(02)00203-4",
+          "authors": "J Shen, E L Snapp, J Lippincott-Schwartz, R Prywes",
+          "journal": "Developmental Cell",
+          "year": 2002,
+          "assay": "Co-immunoprecipitation, Microscopy",
+          "species": "hamster",
+          "relevant_quote": "These results suggest that BiP retains ATF6 in the ER by inhibiting its GLSs and that dissociation of BiP during ER stress allows ATF6 to be transported to the Golgi.",
+          "pmid": "12110171"
+        },
+        {
+          "paper_title": "Stable binding of ATF6 to BiP in the endoplasmic reticulum stress response",
+          "doi": "10.1091/mbc.e05-04-0313",
+          "authors": "Jingshi Shen, Erik L Snapp, Jennifer Lippincott-Schwartz, Ron Prywes",
+          "journal": "Molecular Biology of the Cell",
+          "year": 2005,
+          "assay": "Co-immunoprecipitation, FRAP",
+          "species": "human",
+          "relevant_quote": "In unstressed cells, BiP binds to the lumenal domain (LD) of ATF6 and blocks its intrinsic Golgi apparatus localization signals, thereby sequestering ATF6 in the ER.",
+          "pmid": "15657421"
+        }
+      ],
+      "pmids": [
+        "12110171",
+        "15657421"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "primary_to_main",
+      "function_effect": "activation"
+    }
+  ],
+  "mechanism": "In the absence of ER stress, BiP (HSPA5) binds to the luminal domain of ATF6, masking its Golgi localization signals and preventing its transport to the Golgi apparatus.",
+  "effect": "BiP binding sequesters ATF6 in the endoplasmic reticulum, preventing its transport to the Golgi and subsequent proteolytic activation.",
+  "summary": "ATF6 inhibits BiP to modulate atf6 sequestration, ultimately affecting atf6 remains inactive and upr pathway is suppressed.",
+  "evidence": [
+    {
+      "paper_title": "ER stress regulation of ATF6 localization by dissociation of BiP/GRP78 binding and unmasking of Golgi localization signals",
+      "doi": "10.1016/s1534-5807(02)00203-4",
+      "authors": "J Shen, E L Snapp, J Lippincott-Schwartz, R Prywes",
+      "journal": "Developmental Cell",
+      "year": 2002,
+      "assay": "Co-immunoprecipitation, Microscopy",
+      "species": "hamster",
+      "relevant_quote": "These results suggest that BiP retains ATF6 in the ER by inhibiting its GLSs and that dissociation of BiP during ER stress allows ATF6 to be transported to the Golgi."
+    },
+    {
+      "paper_title": "Stable binding of ATF6 to BiP in the endoplasmic reticulum stress response",
+      "doi": "10.1091/mbc.e05-04-0313",
+      "authors": "Jingshi Shen, Erik L Snapp, Jennifer Lippincott-Schwartz, Ron Prywes",
+      "journal": "Molecular Biology of the Cell",
+      "year": 2005,
+      "assay": "Co-immunoprecipitation, FRAP",
+      "species": "human",
+      "relevant_quote": "In unstressed cells, BiP binds to the lumenal domain (LD) of ATF6 and blocks its intrinsic Golgi apparatus localization signals, thereby sequestering ATF6 in the ER."
+    },
+    {
+      "paper_title": "Mechanism, regulation and functions of the unfolded protein response",
+      "doi": "10.1038/s41580-020-0250-z",
+      "authors": "Claudio Hetz, Ke Zhang, Ron J Kaufman",
+      "journal": "Nature Reviews Molecular Cell Biology",
+      "year": 2020,
+      "assay": "Review",
+      "species": "general",
+      "relevant_quote": "Under non-stress conditions, the ER chaperone BiP binds to the luminal domains of IRE1α and PERK, and maintains them in an inactive, monomeric state. BiP also associates with ATF6..."
+    }
+  ],
+  "interaction_effect": "inhibition",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATF6 <--inhibits-- BiP:",
+  "protein_a": "ATF6",
+  "protein_b": "BiP",
+  "discovered_in_query": "ATF6",
+  "first_discovered": "2025-11-18T21:01:00.224736Z",
+  "last_updated": "2025-11-18T21:01:00.224736Z"
+}

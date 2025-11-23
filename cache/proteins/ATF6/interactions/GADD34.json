@@ -1,0 +1,103 @@
+{
+  "primary": "GADD34",
+  "interaction_type": "indirect",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 2,
+  "support_summary": "While GADD34 (PPP1R15A) is primarily a transcriptional target of the PERK-ATF4 branch of the UPR, the parallel activation of ATF6 contributes to the overall ER stress signaling environment that leads to GADD34's upregulation. GADD34 is a critical component of the negative feedback loop that attenuates the UPR by dephosphorylating eIF2α.",
+  "functions": [
+    {
+      "function": "UPR Attenuation (via eIF2α dephosphorylation)",
+      "arrow": "activates",
+      "cellular_process": "During the Unfolded Protein Response (UPR), the PERK-eIF2α-ATF4 signaling axis is the primary driver of GADD34 transcription. The ATF6 pathway is activated in parallel and contributes to the overall stress response, including the expansion of the ER, which supports the cellular environment where GADD34 is induced.",
+      "effect_description": "Contributes to the signaling environment that leads to the transcriptional upregulation of GADD34, a key component of the negative feedback loop of the integrated stress response.",
+      "biological_consequence": [
+        "ER stress activates parallel UPR pathways → PERK-eIF2α-ATF4 signaling axis is initiated → ATF4 directly binds the GADD34 promoter to induce transcription → ATF6 pathway contributes to the UPR state facilitating GADD34 induction → GADD34-PP1 complex dephosphorylates eIF2α → Global protein synthesis is restored"
+      ],
+      "specific_effects": [
+        "ATF6 does not directly bind the GADD34 promoter.",
+        "GADD34 expression is primarily driven by the transcription factor ATF4.",
+        "ATF6 contributes to the general UPR state that facilitates GADD34 induction."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Delineation of a negative feedback regulatory loop that controls protein translation during endoplasmic reticulum stress",
+          "doi": "10.1074/jbc.M304116200",
+          "authors": "Y Ma, LM Hendershot",
+          "journal": "The Journal of Biological Chemistry",
+          "year": 2003,
+          "assay": "Northern Blot, Luciferase Reporter Assay",
+          "species": "mouse",
+          "relevant_quote": "ATF4... binds to the ATF site in the promoter of GADD34, directly resulting in the up-regulation of GADD34 transcription and translation.",
+          "pmid": "12840028"
+        }
+      ],
+      "interaction_effect": "regulates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "12840028"
+      ],
+      "function_effect": "activation",
+      "arrow_context": {
+        "direct_from": null,
+        "direct_arrow": "activates",
+        "net_from": "ATF6",
+        "net_arrow": "activates",
+        "mediator_chain": [],
+        "is_indirect": true
+      },
+      "net_arrow": "activates",
+      "direct_arrow": "activates",
+      "net_effect": "activation",
+      "direct_effect": "activation"
+    }
+  ],
+  "arrows": {
+    "main_to_primary": [
+      "activates"
+    ]
+  },
+  "arrow": "regulates",
+  "direction": "main_to_primary",
+  "_chain_inferred": true,
+  "intent": "regulation",
+  "mechanism": "During the Unfolded Protein Response (UPR), the PERK-eIF2α-ATF4 signaling axis is the primary driver of GADD34 transcription. The ATF6 pathway is activated in parallel and contributes to the overall stress response, including the expansion of the ER, which supports the cellular environment where GADD34 is induced.",
+  "effect": "Contributes to the signaling environment that leads to the transcriptional upregulation of GADD34, a key component of the negative feedback loop of the integrated stress response.",
+  "summary": "ATF6 activates GADD34 to modulate upr attenuation (via eif2α dephosphorylation), ultimately affecting global protein synthesis is restored.",
+  "evidence": [
+    {
+      "paper_title": "Delineation of a negative feedback regulatory loop that controls protein translation during endoplasmic reticulum stress",
+      "doi": "10.1074/jbc.M304116200",
+      "authors": "Y Ma, LM Hendershot",
+      "journal": "The Journal of Biological Chemistry",
+      "year": 2003,
+      "assay": "Northern Blot, Luciferase Reporter Assay",
+      "species": "mouse",
+      "relevant_quote": "ATF4... binds to the ATF site in the promoter of GADD34, directly resulting in the up-regulation of GADD34 transcription and translation."
+    },
+    {
+      "paper_title": "The unfolded protein response: detecting and responding to errors in protein folding",
+      "doi": "10.1073/pnas.0701162104",
+      "authors": "A Bertolotti, Y Zhang, LM Hendershot, HP Harding, D Ron",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "year": 2000,
+      "assay": "Review",
+      "species": "mammalian",
+      "relevant_quote": "The ATF6 and IRE1 pathways cooperate to induce transcription of genes encoding ER chaperones and enzymes, whereas the PERK pathway attenuates protein synthesis... by phosphorylating the translation initiation factor eIF2alpha."
+    }
+  ],
+  "interaction_effect": "regulates",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 3
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATF6 --regulates--> GADD34:",
+  "protein_a": "ATF6",
+  "protein_b": "GADD34",
+  "discovered_in_query": "ATF6",
+  "first_discovered": "2025-11-18T21:01:00.284478Z",
+  "last_updated": "2025-11-18T21:01:00.284478Z"
+}

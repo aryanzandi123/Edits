@@ -1,0 +1,85 @@
+{
+  "primary": "ATXN3",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "ATXN3 interacts with the Promyelocytic leukemia (PML) protein. The expression of polyQ-expanded mutant ATXN3 disrupts the normal nuclear distribution and integrity of PML nuclear bodies, which can impair PML-dependent cellular functions like DNA repair and protein degradation.",
+  "functions": [
+    {
+      "function": "PML Nuclear Body Disruption",
+      "arrow": "activates",
+      "cellular_process": "ATXN3 interacts with the Promyelocytic leukemia (PML) protein, a key component of PML nuclear bodies (NBs). These subnuclear structures are involved in various cellular processes like transcription, DNA repair, and apoptosis.",
+      "effect_description": "The expression of polyQ-expanded ATXN3 sequesters PML and disrupts the normal structure of PML nuclear bodies, impairing their function and contributing to cellular stress in SCA3.",
+      "biological_consequence": [
+        "PolyQ-expanded ATXN3 interacts with PML protein → PML is sequestered and mislocalized from its normal location → PML nuclear body assembly and integrity are disrupted → Impairment of PML-NB functions such as DNA damage response and protein degradation"
+      ],
+      "specific_effects": [
+        "The normal nuclear distribution of PML was altered by the expression of mutant ataxin-3.",
+        "Expression of certain PML isoforms (e.g., PML IV) can promote the degradation of soluble polyQ proteins, a protective mechanism disrupted by PML mislocalization.",
+        "The sequestration of PML by mutant ATXN3 can impair the DNA damage response (DDR) and other PML-NB-associated functions."
+      ],
+      "evidence": [
+        {
+          "paper_title": "PML clastosomes prevent nuclear accumulation of mutant ataxin-7 and other polyglutamine proteins",
+          "doi": "10.1083/jcb.200511045",
+          "authors": "Alexandre Janer, Eric Martin, Muriel Klein, Marie-Laure Muriel, Cécile D'Alcontres, Annie Sittler, Yvon Trottier, Jean-Louis Vonesch, Jocelyn Côté, Alexis M Brice, Annie Sittler",
+          "journal": "The Journal of Cell Biology",
+          "year": 2006,
+          "assay": "Immunofluorescence, Co-immunoprecipitation",
+          "species": "human, mouse",
+          "relevant_quote": "Furthermore, the normal nuclear distribution of PML was altered by the expression of mutant ataxin-1 and -3.",
+          "pmid": "16818720"
+        }
+      ],
+      "_context": {
+        "type": "direct",
+        "query_protein": null,
+        "chain": null
+      },
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "16818720"
+      ],
+      "function_effect": "activation"
+    }
+  ],
+  "arrow": "regulates",
+  "direction": "bidirectional",
+  "intent": "regulation",
+  "arrows": {
+    "main_to_primary": [
+      "inhibits"
+    ]
+  },
+  "mechanism": "ATXN3 interacts with the Promyelocytic leukemia (PML) protein, a key component of PML nuclear bodies (NBs). These subnuclear structures are involved in various cellular processes like transcription, DNA repair, and apoptosis.",
+  "effect": "The expression of polyQ-expanded ATXN3 sequesters PML and disrupts the normal structure of PML nuclear bodies, impairing their function and contributing to cellular stress in SCA3.",
+  "summary": "ATXN3 inhibits PML to modulate pml nuclear body disruption, ultimately affecting impairment of pml-nb functions such as dna damage response and protein degradation.",
+  "evidence": [
+    {
+      "paper_title": "PML clastosomes prevent nuclear accumulation of mutant ataxin-7 and other polyglutamine proteins",
+      "doi": "10.1083/jcb.200511045",
+      "authors": "Alexandre Janer, Eric Martin, Muriel Klein, Marie-Laure Muriel, Cécile D'Alcontres, Annie Sittler, Yvon Trottier, Jean-Louis Vonesch, Jocelyn Côté, Alexis M Brice, Annie Sittler",
+      "journal": "The Journal of Cell Biology",
+      "year": 2006,
+      "assay": "Immunofluorescence, Co-immunoprecipitation",
+      "species": "human, mouse",
+      "relevant_quote": "Furthermore, the normal nuclear distribution of PML was altered by the expression of mutant ataxin-1 and -3."
+    }
+  ],
+  "interaction_effect": "regulates",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 4
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATXN3 <--regulates--> PML:",
+  "protein_a": "PML",
+  "protein_b": "ATXN3",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-23T07:58:56.186378Z",
+  "last_updated": "2025-11-23T07:58:56.186378Z"
+}

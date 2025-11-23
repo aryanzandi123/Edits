@@ -1,0 +1,84 @@
+{
+  "primary": "ATXN3",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "ATXN3 interacts with the catalytic subunit of the DNA-dependent protein kinase (DNA-PKcs/PRKDC) as part of the DNA damage response. This association is crucial for the classical non-homologous end joining (C-NHEJ) pathway.",
+  "functions": [
+    {
+      "function": "DNA Double-Strand Break Repair",
+      "arrow": "activates",
+      "cellular_process": "ATXN3 is a component of the classical non-homologous end joining (C-NHEJ) machinery and directly associates with the DNA-dependent protein kinase, catalytic subunit (DNA-PKcs/PRKDC).",
+      "effect_description": "By interacting with PRKDC, ATXN3 is positioned to influence the core kinase activity of the DNA-PK complex, thereby modulating the repair of DNA double-strand breaks and maintaining genome integrity.",
+      "biological_consequence": [
+        "DNA double-strand break occurs → ATXN3 interacts with PRKDC (DNA-PKcs) within the C-NHEJ complex → ATXN3 stabilizes the repair complex at the break site → Classical non-homologous end joining (C-NHEJ) is promoted → Genome integrity is preserved"
+      ],
+      "specific_effects": [
+        "ATXN3 stably associates with DNA-PKcs under physiological conditions.",
+        "The interaction between ATXN3 and PRKDC is part of a larger complex that includes other C-NHEJ proteins like Ku70/XRCC6."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Deficiency in classical nonhomologous end-joining–mediated repair of transcribed genes is linked to SCA3 pathogenesis",
+          "doi": "10.1073/pnas.1917280117",
+          "authors": "Ambika Tewari, Sankar Mitra, Tapas K Hazra",
+          "journal": "Proceedings of the National Academy of Sciences",
+          "year": 2020,
+          "assay": "Co-immunoprecipitation",
+          "species": "mouse",
+          "relevant_quote": "It was found that ATXN3 does associate with the key C-NHEJ proteins (Fig. 1A, lane 3) (Ku70, DNA PKcs, 53BP1, PNKP, Pol μ, Lig IV, XRCC4) along with RNAP II.",
+          "pmid": "32205441"
+        }
+      ],
+      "_context": {
+        "type": "direct",
+        "query_protein": null,
+        "chain": null
+      },
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "32205441"
+      ],
+      "function_effect": "activation"
+    }
+  ],
+  "arrow": "binds",
+  "direction": "primary_to_main",
+  "intent": "DNA repair",
+  "arrows": {
+    "main_to_primary": [
+      "activates"
+    ]
+  },
+  "mechanism": "ATXN3 is a component of the classical non-homologous end joining (C-NHEJ) machinery and directly associates with the DNA-dependent protein kinase, catalytic subunit (DNA-PKcs/PRKDC).",
+  "effect": "By interacting with PRKDC, ATXN3 is positioned to influence the core kinase activity of the DNA-PK complex, thereby modulating the repair of DNA double-strand breaks and maintaining genome integrity.",
+  "summary": "ATXN3 activates PRKDC to modulate dna double-strand break repair, ultimately affecting genome integrity is preserved.",
+  "evidence": [
+    {
+      "paper_title": "Deficiency in classical nonhomologous end-joining–mediated repair of transcribed genes is linked to SCA3 pathogenesis",
+      "doi": "10.1073/pnas.1917280117",
+      "authors": "Ambika Tewari, Sankar Mitra, Tapas K Hazra",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "year": 2020,
+      "assay": "Co-immunoprecipitation",
+      "species": "mouse",
+      "relevant_quote": "It was found that ATXN3 does associate with the key C-NHEJ proteins (Fig. 1A, lane 3) (Ku70, DNA PKcs, 53BP1, PNKP, Pol μ, Lig IV, XRCC4) along with RNAP II."
+    }
+  ],
+  "interaction_effect": "activates",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 2
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATXN3 --binds--> PRKDC:",
+  "protein_a": "PRKDC",
+  "protein_b": "ATXN3",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-18T20:57:38.965445Z",
+  "last_updated": "2025-11-18T20:57:38.965445Z"
+}

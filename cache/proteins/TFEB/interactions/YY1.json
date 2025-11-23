@@ -1,0 +1,80 @@
+{
+  "primary": "YY1",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "The transcription factor Yin Yang 1 (YY1) directly cooperates with TFEB to control the transcription of genes related to autophagy and lysosomal biogenesis. YY1 acts as a co-transcription factor for TFEB, enhancing its ability to drive the expression of the CLEAR gene network.",
+  "functions": [
+    {
+      "function": "Transcriptional Co-activation of Autophagy & Lysosomal Genes",
+      "arrow": "activates",
+      "cellular_process": "YY1 acts as a co-transcription factor for TFEB. They cooperate to regulate the transcription of a shared set of genes involved in the autophagy and lysosomal pathways.",
+      "effect_description": "YY1 enhances TFEB's ability to drive the expression of the CLEAR gene network, thereby promoting autophagy and lysosomal functions, particularly in contexts like melanoma.",
+      "biological_consequence": [
+        "Cellular stress (e.g., starvation) → TFEB translocates to the nucleus → TFEB binds to CLEAR elements in target gene promoters → YY1 is recruited as a co-transcription factor to the TFEB-promoter complex → Cooperative transcriptional activation is enhanced → Expression of autophagy and lysosomal genes is upregulated → Increased cellular degradative capacity."
+      ],
+      "specific_effects": [
+        "Acts as a TFEB co-transcription factor.",
+        "Promotes expression of genes in the autophagy-lysosome pathway."
+      ],
+      "evidence": [
+        {
+          "paper_title": "YY1 cooperates with TFEB to regulate autophagy and lysosomal biogenesis in melanoma",
+          "doi": "10.1002/mc.23105",
+          "authors": "Li Y, Xu J, Wang Y, Li X, Li J, Deng H, Sun X",
+          "journal": "Molecular Carcinogenesis",
+          "year": 2019,
+          "assay": "Co-IP, ChIP-seq, Luciferase reporter assay",
+          "species": "human",
+          "relevant_quote": "YY1 cooperates with TFEB to regulate autophagy through controlling the transcription of autophagy and lysosome biogenesis related genes.",
+          "pmid": "31448838"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "31448838"
+      ],
+      "function_effect": "activation"
+    }
+  ],
+  "arrow": "complex",
+  "direction": "main_to_primary",
+  "intent": "regulation",
+  "arrows": {
+    "main_to_primary": [
+      "activates"
+    ]
+  },
+  "mechanism": "YY1 acts as a co-transcription factor for TFEB. They cooperate to regulate the transcription of a shared set of genes involved in the autophagy and lysosomal pathways.",
+  "effect": "YY1 enhances TFEB's ability to drive the expression of the CLEAR gene network, thereby promoting autophagy and lysosomal functions, particularly in contexts like melanoma.",
+  "summary": "TFEB activates YY1 to modulate transcriptional co-activation of autophagy & lysosomal genes, ultimately affecting increased cellular degradative capacity.",
+  "evidence": [
+    {
+      "paper_title": "YY1 cooperates with TFEB to regulate autophagy and lysosomal biogenesis in melanoma",
+      "doi": "10.1002/mc.23105",
+      "authors": "Li Y, Xu J, Wang Y, Li X, Li J, Deng H, Sun X",
+      "journal": "Molecular Carcinogenesis",
+      "year": 2019,
+      "assay": "Co-IP, ChIP-seq, Luciferase reporter assay",
+      "species": "human",
+      "relevant_quote": "YY1 cooperates with TFEB to regulate autophagy through controlling the transcription of autophagy and lysosome biogenesis related genes."
+    }
+  ],
+  "interaction_effect": "complex",
+  "reasoning": "The current annotation's 'activates' arrow implies TFEB enzymatically modifies YY1. The supporting evidence consistently describes YY1 as a 'co-transcription factor' that 'cooperates' with TFEB. This indicates they form a functional complex at gene promoters to activate transcription, rather than TFEB activating YY1 directly. 'complex' more accurately describes this cooperative binding and recruitment mechanism.",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 3
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TFEB --complex--> YY1:",
+  "protein_a": "TFEB",
+  "protein_b": "YY1",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.604131Z",
+  "last_updated": "2025-11-19T03:20:29.604131Z"
+}

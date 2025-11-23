@@ -1,0 +1,97 @@
+{
+  "primary": "ATXN3",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "ATXN3 is a substrate for SUMOylation, a process where the sole E2 SUMO-conjugating enzyme, UBC9, directly interacts with ATXN3 to transfer the SUMO moiety. This modification is facilitated by E3 ligases like PIAS1 and enhances the stability of ATXN3.",
+  "functions": [
+    {
+      "function": "ATXN3 SUMOylation",
+      "arrow": "activates",
+      "cellular_process": "UBC9, the essential E2 SUMO-conjugating enzyme, directly interacts with ATXN3 and transfers the activated SUMO moiety to it. This process is facilitated by an E3 ligase, such as PIAS1, which brings the substrate (ATXN3) and the E2 enzyme into proximity.",
+      "effect_description": "The covalent attachment of SUMO to ATXN3, catalyzed by the UBC9 and PIAS1 enzymatic machinery, enhances ATXN3 protein stability by protecting it from ubiquitin-mediated degradation.",
+      "biological_consequence": [
+        "PIAS1 E3 ligase recruits the UBC9-SUMO complex to ATXN3 → UBC9 transfers SUMO to specific lysine residues on ATXN3 (e.g., K166) → SUMOylation of ATXN3 prevents its proteasome-mediated degradation → ATXN3 protein stability and cellular levels are enhanced."
+      ],
+      "specific_effects": [
+        "PIAS1 promotes ATXN3 SUMOylation and enhances its protein stability.",
+        "SUMOylation generally protects proteins from proteasome-mediated degradation.",
+        "UBC9 is the single E2 enzyme responsible for SUMO conjugation.",
+        "PIAS family proteins are major SUMO E3 ligases that recruit UBC9 to substrates."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Implications of specific lysine residues within ataxin-3 for the molecular pathogenesis of Machado-Joseph disease",
+          "doi": "10.3389/fnmol.2023.1182061",
+          "authors": "Gogia N, Distler J, Heinen A, Braczynski AK, Nitschke L, Dettmer K, Oefner PJ, Prots I, Xiang W, Winner B, Riess O, Schmidt T",
+          "journal": "Front Mol Neurosci",
+          "year": 2023,
+          "assay": "Western Blot",
+          "species": "human",
+          "relevant_quote": "SUMOylation at K166 stabilized polyQ-expanded ataxin-3 and increased its toxicity without changing its localization or aggregation-propensity.",
+          "pmid": "37273907"
+        }
+      ],
+      "_context": {
+        "type": "direct",
+        "query_protein": null,
+        "chain": null
+      },
+      "interaction_effect": "activates",
+      "direction": "primary_to_main",
+      "interaction_direction": "primary_to_main",
+      "pmids": [
+        "37273907"
+      ],
+      "function_effect": "activation"
+    }
+  ],
+  "arrow": "binds",
+  "direction": "main_to_primary",
+  "intent": "SUMOylation",
+  "arrows": {
+    "main_to_primary": [],
+    "primary_to_main": [
+      "activates"
+    ]
+  },
+  "mechanism": "UBC9, the essential E2 SUMO-conjugating enzyme, directly interacts with ATXN3 and transfers the activated SUMO moiety to it. This process is facilitated by an E3 ligase, such as PIAS1, which brings the substrate (ATXN3) and the E2 enzyme into proximity.",
+  "effect": "The covalent attachment of SUMO to ATXN3, catalyzed by the UBC9 and PIAS1 enzymatic machinery, enhances ATXN3 protein stability by protecting it from ubiquitin-mediated degradation.",
+  "summary": "ATXN3 activates UBC9 to modulate atxn3 sumoylation, ultimately affecting atxn3 protein stability and cellular levels are enhanced.",
+  "evidence": [
+    {
+      "paper_title": "PIAS1 promotes ATXN3 SUMOylation and enhances its protein stability",
+      "doi": "10.1101/2020.06.24.169123",
+      "authors": "Chen C, Wang L, Chen Y, Gao T, Li T, Li XJ, Zhou Y",
+      "journal": "bioRxiv",
+      "year": 2020,
+      "assay": "Co-Immunoprecipitation, Western Blot",
+      "species": "human",
+      "relevant_quote": "Both wild-type (28Q) and mutant (84Q) ATXN3 protein levels decreased dose-dependently upon PIAS1 knockdown... SUMO3 conjugated with both wild-type and mutant ATXN3, but this conjugation decreased..."
+    },
+    {
+      "paper_title": "Implications of specific lysine residues within ataxin-3 for the molecular pathogenesis of Machado-Joseph disease",
+      "doi": "10.3389/fnmol.2023.1182061",
+      "authors": "Gogia N, Distler J, Heinen A, Braczynski AK, Nitschke L, Dettmer K, Oefner PJ, Prots I, Xiang W, Winner B, Riess O, Schmidt T",
+      "journal": "Front Mol Neurosci",
+      "year": 2023,
+      "assay": "Western Blot",
+      "species": "human",
+      "relevant_quote": "SUMOylation at K166 stabilized polyQ-expanded ataxin-3 and increased its toxicity without changing its localization or aggregation-propensity."
+    }
+  ],
+  "interaction_effect": "binds",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 3
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATXN3 <--binds-- UBC9:",
+  "protein_a": "UBC9",
+  "protein_b": "ATXN3",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-23T07:58:56.231845Z",
+  "last_updated": "2025-11-23T07:58:56.231845Z"
+}

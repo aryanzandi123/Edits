@@ -1,0 +1,103 @@
+{
+  "primary": "ATXN3",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "ATXN3 directly binds to and stabilizes the tumor suppressor p53 (TP53) by removing polyubiquitin chains, thereby preventing its proteasomal degradation and promoting p53-mediated signaling pathways such as apoptosis and cell cycle arrest.",
+  "functions": [
+    {
+      "function": "TP53 Protein Stability",
+      "arrow": "activates",
+      "cellular_process": "ATXN3 acts as a deubiquitinase for the tumor suppressor p53 (TP53). It binds directly to both native and polyubiquitinated p53 and removes ubiquitin chains, protecting it from proteasomal degradation.",
+      "effect_description": "By stabilizing p53, ATXN3 enhances its transcriptional activity and promotes p53-mediated cellular responses like apoptosis and cell cycle arrest.",
+      "biological_consequence": [
+        "TP53 is polyubiquitinated for degradation → ATXN3 binds and removes ubiquitin chains from TP53 → TP53 protein is stabilized and accumulates → Increased TP53 transcriptional activity → Enhanced p53-dependent apoptosis and cell cycle arrest",
+        "PolyQ-expanded ATXN3 shows enhanced binding to TP53 → Hyper-deubiquitination of TP53 → Pathological accumulation of TP53 → Prolonged TP53 signaling → Excessive p53-dependent apoptosis → Contribution to neurodegeneration"
+      ],
+      "specific_effects": [
+        "ATXN3 deletion destabilizes p53, leading to reduced p53 activity.",
+        "ATXN3 stabilizes p53 via the ubiquitin-proteasome pathway.",
+        "PolyQ-expanded ATXN3 has an enhanced ability to bind and deubiquitinate p53, leading to prolonged p53 signaling and increased apoptosis."
+      ],
+      "evidence": [
+        {
+          "paper_title": "The Machado-Joseph Disease Deubiquitinase Ataxin-3 Regulates the Stability and Apoptotic Function of p53",
+          "doi": "10.1371/journal.pbio.2000733",
+          "authors": "Liu H, Li X, Ning G, Zhu S, Ma X, Liu X, et al.",
+          "journal": "PLoS Biology",
+          "year": 2016,
+          "assay": "Co-Immunoprecipitation, GST-pull-down, In vitro deubiquitination assay",
+          "species": "Human, Mouse, Zebrafish",
+          "relevant_quote": "ATX-3 binds to native and polyubiquitinated p53 and deubiquitinates and stabilizes p53 by repressing its degradation through the ubiquitin (Ub)-proteasome pathway.",
+          "pmid": "27851749"
+        },
+        {
+          "paper_title": "ATXN3: a multifunctional protein involved in the polyglutamine disease spinocerebellar ataxia type 3",
+          "doi": "10.1017/erm.2024.10",
+          "authors": "Scaramuzzino C, Trotta R, Brunetti M, Verdone L, Carsana A, D'Eustacchio A, et al.",
+          "journal": "Expert Reviews in Molecular Medicine",
+          "year": 2024,
+          "assay": "Review",
+          "species": "Not applicable",
+          "relevant_quote": "ATXN3-PolyQ inhibits PNKP-dependent DNA repair and prolongs p53-signaling through enhanced p53-binding and stabilization. This leads to increased activation of pro-apoptotic pathways...",
+          "pmid": "39320846"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "27851749",
+        "39320846"
+      ],
+      "function_effect": "activation"
+    }
+  ],
+  "arrow": "activates",
+  "direction": "primary_to_main",
+  "intent": "deubiquitination",
+  "arrows": {
+    "main_to_primary": [
+      "activates"
+    ]
+  },
+  "mechanism": "ATXN3 acts as a deubiquitinase for the tumor suppressor p53 (TP53). It binds directly to both native and polyubiquitinated p53 and removes ubiquitin chains, protecting it from proteasomal degradation.",
+  "effect": "By stabilizing p53, ATXN3 enhances its transcriptional activity and promotes p53-mediated cellular responses like apoptosis and cell cycle arrest.",
+  "summary": "ATXN3 activates TP53 to modulate tp53 protein stability, ultimately affecting enhanced p53-dependent apoptosis and cell cycle arrest.",
+  "evidence": [
+    {
+      "paper_title": "The Machado-Joseph Disease Deubiquitinase Ataxin-3 Regulates the Stability and Apoptotic Function of p53",
+      "doi": "10.1371/journal.pbio.2000733",
+      "authors": "Liu H, Li X, Ning G, Zhu S, Ma X, Liu X, et al.",
+      "journal": "PLoS Biology",
+      "year": 2016,
+      "assay": "Co-Immunoprecipitation, GST-pull-down, In vitro deubiquitination assay",
+      "species": "Human, Mouse, Zebrafish",
+      "relevant_quote": "ATX-3 binds to native and polyubiquitinated p53 and deubiquitinates and stabilizes p53 by repressing its degradation through the ubiquitin (Ub)-proteasome pathway."
+    },
+    {
+      "paper_title": "ATXN3: a multifunctional protein involved in the polyglutamine disease spinocerebellar ataxia type 3",
+      "doi": "10.1017/erm.2024.10",
+      "authors": "Scaramuzzino C, Trotta R, Brunetti M, Verdone L, Carsana A, D'Eustacchio A, et al.",
+      "journal": "Expert Reviews in Molecular Medicine",
+      "year": 2024,
+      "assay": "Review",
+      "species": "Not applicable",
+      "relevant_quote": "ATXN3-PolyQ inhibits PNKP-dependent DNA repair and prolongs p53-signaling through enhanced p53-binding and stabilization. This leads to increased activation of pro-apoptotic pathways..."
+    }
+  ],
+  "interaction_effect": "activation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 0
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATXN3 --activates--> TP53:",
+  "protein_a": "TP53",
+  "protein_b": "ATXN3",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-23T07:58:56.154039Z",
+  "last_updated": "2025-11-23T07:58:56.154039Z"
+}

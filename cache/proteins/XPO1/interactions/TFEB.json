@@ -1,0 +1,118 @@
+{
+  "primary": "TFEB",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "Chromosomal Region Maintenance 1 (CRM1/XPO1) is a nuclear export protein that directly binds to a leucine-rich nuclear export signal (NES) on TFEB to mediate its active transport out of the nucleus, thereby terminating its transcriptional activity.",
+  "functions": [
+    {
+      "function": "TFEB Nuclear Export",
+      "arrow": "activates",
+      "cellular_process": "XPO1 (also known as CRM1) is a nuclear export receptor that recognizes and binds to a nuclear export signal (NES) located in the N-terminal region of TFEB. This interaction facilitates the active transport of TFEB from the nucleus back to the cytoplasm through the nuclear pore complex.",
+      "effect_description": "XPO1-mediated nuclear export terminates the transcriptional activity of TFEB by removing it from its site of action. This process is crucial for dynamically regulating the expression of lysosomal and autophagy genes in response to changing cellular conditions.",
+      "biological_consequence": [
+        "Nutrient refeeding → mTORC1-dependent phosphorylation of TFEB (S142/S138) → Enhanced recognition of TFEB's Nuclear Export Signal (NES) by XPO1 → XPO1-mediated nuclear export through the nuclear pore complex → TFEB accumulation in the cytoplasm → Termination of lysosomal gene transcription."
+      ],
+      "specific_effects": [
+        "Essential for shutting off the TFEB-driven stress response upon nutrient refeeding.",
+        "Inhibition of XPO1 with selective inhibitors (SINEs) leads to nuclear accumulation of TFEB.",
+        "XPO1-mediated export of TFEB is enhanced by mTOR-dependent phosphorylation of serines near the NES."
+      ],
+      "evidence": [
+        {
+          "paper_title": "mTOR-dependent phosphorylation controls TFEB nuclear export",
+          "doi": "10.1038/s41467-018-05862-6",
+          "authors": "Napolitano G, Esposito A, Choi H, Matarese M, Benedetti V, Di Malta C, Monfregola J, Medina DL, Lippincott-Schwartz J, Ballabio A",
+          "journal": "Nature Communications",
+          "year": 2018,
+          "assay": "Immunofluorescence, Western Blot, Co-IP",
+          "species": "human",
+          "relevant_quote": "Here we show that TFEB subcellular localization is dynamically controlled by its continuous shuttling between the cytosol and the nucleus... TFEB nuclear export is mediated by CRM1.",
+          "pmid": "30120233"
+        },
+        {
+          "paper_title": "Nuclear Export Inhibition Enhances HLH-30/TFEB Activity, Autophagy, and Lifespan",
+          "doi": "10.1016/j.celrep.2018.04.063",
+          "authors": "Silvestrini MJ, Johnson JR, Kumar AV, Thakurta TG, Blais K, Neill ZA, Marion SW, St Amand V, Reenan RA, Lapierre LR",
+          "journal": "Cell Reports",
+          "year": 2018,
+          "assay": "RNAi screen, Microscopy, Western Blot",
+          "species": "human, C. elegans, Drosophila",
+          "relevant_quote": "XPO1 inhibition in HeLa cells enhanced TFEB nuclear localization, autophagy, and lysosome biogenesis without affecting mTOR activity, revealing a conserved regulatory mechanism for HLH-30/TFEB.",
+          "pmid": "29768192"
+        },
+        {
+          "paper_title": "Give me a SINE: how Selective Inhibitors of Nuclear Export modulate autophagy and aging",
+          "doi": "10.1080/23723556.2018.1502511",
+          "authors": "Kumar AV, Thakurta TG, Silvestrini MJ, Johnson JR, Reenan RA, Lapierre LR",
+          "journal": "Molecular & Cellular Oncology",
+          "year": 2018,
+          "assay": "Review",
+          "species": "human, C. elegans",
+          "relevant_quote": "...we demonstrated that inhibiting the function of nuclear export protein exportin 1 (XPO1 or CRM1) with RNAi or with selective inhibitors of nuclear export (SINE) results in the nuclear enrichment of TFEB...",
+          "pmid": "30263946"
+        }
+      ],
+      "pmids": [
+        "30120233",
+        "29768192",
+        "30263946"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "primary_to_main",
+      "function_effect": "activation"
+    }
+  ],
+  "arrow": "inhibits",
+  "direction": "main_to_primary",
+  "intent": "nuclear export",
+  "mechanism": "XPO1 (also known as CRM1) is a nuclear export receptor that recognizes and binds to a nuclear export signal (NES) located in the N-terminal region of TFEB. This interaction facilitates the active transport of TFEB from the nucleus back to the cytoplasm through the nuclear pore complex.",
+  "effect": "XPO1-mediated nuclear export terminates the transcriptional activity of TFEB by removing it from its site of action. This process is crucial for dynamically regulating the expression of lysosomal and autophagy genes in response to changing cellular conditions.",
+  "summary": "TFEB activates XPO1 to modulate tfeb nuclear export, ultimately affecting termination of lysosomal gene transcription.",
+  "evidence": [
+    {
+      "paper_title": "mTOR-dependent phosphorylation controls TFEB nuclear export",
+      "doi": "10.1038/s41467-018-05862-6",
+      "authors": "Napolitano G, Esposito A, Choi H, Matarese M, Benedetti V, Di Malta C, Monfregola J, Medina DL, Lippincott-Schwartz J, Ballabio A",
+      "journal": "Nature Communications",
+      "year": 2018,
+      "assay": "Immunofluorescence, Western Blot, Co-IP",
+      "species": "human",
+      "relevant_quote": "Here we show that TFEB subcellular localization is dynamically controlled by its continuous shuttling between the cytosol and the nucleus... TFEB nuclear export is mediated by CRM1."
+    },
+    {
+      "paper_title": "Nuclear Export Inhibition Enhances HLH-30/TFEB Activity, Autophagy, and Lifespan",
+      "doi": "10.1016/j.celrep.2018.04.063",
+      "authors": "Silvestrini MJ, Johnson JR, Kumar AV, Thakurta TG, Blais K, Neill ZA, Marion SW, St Amand V, Reenan RA, Lapierre LR",
+      "journal": "Cell Reports",
+      "year": 2018,
+      "assay": "RNAi screen, Microscopy, Western Blot",
+      "species": "human, C. elegans, Drosophila",
+      "relevant_quote": "XPO1 inhibition in HeLa cells enhanced TFEB nuclear localization, autophagy, and lysosome biogenesis without affecting mTOR activity, revealing a conserved regulatory mechanism for HLH-30/TFEB."
+    },
+    {
+      "paper_title": "Give me a SINE: how Selective Inhibitors of Nuclear Export modulate autophagy and aging",
+      "doi": "10.1080/23723556.2018.1502511",
+      "authors": "Kumar AV, Thakurta TG, Silvestrini MJ, Johnson JR, Reenan RA, Lapierre LR",
+      "journal": "Molecular & Cellular Oncology",
+      "year": 2018,
+      "assay": "Review",
+      "species": "human, C. elegans",
+      "relevant_quote": "...we demonstrated that inhibiting the function of nuclear export protein exportin 1 (XPO1 or CRM1) with RNAi or with selective inhibitors of nuclear export (SINE) results in the nuclear enrichment of TFEB..."
+    }
+  ],
+  "interaction_effect": "inhibition",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 2
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TFEB <--inhibits-- XPO1:",
+  "protein_a": "XPO1",
+  "protein_b": "TFEB",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.509571Z",
+  "last_updated": "2025-11-19T03:20:29.509571Z"
+}

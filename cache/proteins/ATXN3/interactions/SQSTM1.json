@@ -1,0 +1,90 @@
+{
+  "primary": "SQSTM1",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "The selective autophagy receptor p62/SQSTM1 directly interacts with polyQ-expanded ATXN3. This interaction is crucial for the sequestration of misfolded ATXN3 into aggresomes, which is a protective cellular response to sequester toxic protein species and protect cells from apoptosis.",
+  "functions": [
+    {
+      "function": "Aggresome Formation",
+      "arrow": "activates",
+      "cellular_process": "The selective autophagy receptor p62/SQSTM1 directly binds to polyQ-expanded, but not wild-type, ATXN3. This interaction serves as a critical step in recognizing and collecting misfolded ATXN3 into larger inclusion bodies known as aggresomes, a process dependent on microtubule integrity.",
+      "effect_description": "The binding of SQSTM1 to pathogenic ATXN3 promotes the formation of aggresomes, sequestering the toxic protein and reducing cell death.",
+      "biological_consequence": [
+        "Misfolded polyQ-expanded ATXN3 is ubiquitinated → SQSTM1/p62 binds polyubiquitin chains on ATXN3 → Microtubule-dependent transport of ATXN3-SQSTM1 complexes → Coalescence into a juxtanuclear aggresome → Sequestration of toxic ATXN3 species → Reduced cellular cytotoxicity"
+      ],
+      "specific_effects": [
+        "p62 directly interacts with pathogenic ataxin-3 but not normal ataxin-3.",
+        "The interaction is dependent on microtubules.",
+        "p62 protects cells against polyQ-expanded ataxin-3-induced cell death.",
+        "SQSTM1 co-localizes with ATXN3 in neuronal intranuclear inclusions in SCA3 patient brains."
+      ],
+      "evidence": [
+        {
+          "paper_title": "p62/sequestosome 1 regulates aggresome formation of pathogenic ataxin-3 with expanded polyglutamine",
+          "doi": "10.3390/ijms150914997",
+          "authors": "Zhou L, Wang H, Chen D, Gao F, Ying Z, Wang G",
+          "journal": "International Journal of Molecular Sciences",
+          "year": 2014,
+          "assay": "Co-Immunoprecipitation, GST pull-down",
+          "species": "human",
+          "relevant_quote": "In this study we demonstrate that p62 directly interacts with pathogenic Machado Joseph Disease (MJD)-associated protein ataxin-3 with polyglutamine (polyQ) expansion.",
+          "pmid": "25158237"
+        }
+      ],
+      "pmids": [
+        "25158237"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "primary_to_main",
+      "function_effect": "activation"
+    }
+  ],
+  "arrow": "binds",
+  "direction": "primary_to_main",
+  "intent": "protein sequestration",
+  "arrows": {
+    "primary_to_main": [
+      "activates"
+    ]
+  },
+  "mechanism": "The selective autophagy receptor p62/SQSTM1 directly binds to polyQ-expanded, but not wild-type, ATXN3. This interaction serves as a critical step in recognizing and collecting misfolded ATXN3 into larger inclusion bodies known as aggresomes, a process dependent on microtubule integrity.",
+  "effect": "The binding of SQSTM1 to pathogenic ATXN3 promotes the formation of aggresomes, sequestering the toxic protein and reducing cell death.",
+  "summary": "ATXN3 activates SQSTM1 to modulate aggresome formation, ultimately affecting reduced cellular cytotoxicity.",
+  "evidence": [
+    {
+      "paper_title": "p62/sequestosome 1 regulates aggresome formation of pathogenic ataxin-3 with expanded polyglutamine",
+      "doi": "10.3390/ijms150914997",
+      "authors": "Zhou L, Wang H, Chen D, Gao F, Ying Z, Wang G",
+      "journal": "International Journal of Molecular Sciences",
+      "year": 2014,
+      "assay": "Co-Immunoprecipitation, GST pull-down",
+      "species": "human",
+      "relevant_quote": "In this study we demonstrate that p62 directly interacts with pathogenic Machado Joseph Disease (MJD)-associated protein ataxin-3 with polyglutamine (polyQ) expansion."
+    },
+    {
+      "paper_title": "p62, the Receptor for Selective Autophagy, Contributes in ATXN3 Aggregate Formation in Spinocerebellar Ataxia Type 3",
+      "doi": "10.20944/preprints202403.0400.v1",
+      "authors": "Zimmer AJ, Bahl C, Schäfer JM, Weber JJ, Riess O, Hübener-Schmid J",
+      "journal": "Preprints.org",
+      "year": 2024,
+      "assay": "Immunofluorescence, Western Blot",
+      "species": "human, mouse",
+      "relevant_quote": "Furthermore, co-localized aggregation of the autophagic protein p62 and the disease protein ATXN3 was observed in the course of SCA3 disease."
+    }
+  ],
+  "interaction_effect": "binding",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 2
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATXN3 <--binds-- SQSTM1:",
+  "protein_a": "ATXN3",
+  "protein_b": "SQSTM1",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-23T07:58:56.226207Z",
+  "last_updated": "2025-11-23T07:58:56.226207Z"
+}

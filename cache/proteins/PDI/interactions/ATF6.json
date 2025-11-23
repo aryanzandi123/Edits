@@ -1,0 +1,120 @@
+{
+  "primary": "ATF6",
+  "interaction_type": "direct",
+  "support_summary": "Protein Disulfide Isomerases (PDIs) regulate the redox state and trafficking of ATF6 from the ER to the Golgi, a critical step for its proteolytic cleavage and activation. Specific PDIs, like PDIA5 and ERp18, facilitate disulfide bond rearrangements in ATF6's luminal domain.",
+  "functions": [
+    {
+      "function": "ATF6 Redox State and Dimerization",
+      "arrow": "activates",
+      "cellular_process": "Members of the Protein Disulfide Isomerase (PDI) family, such as PDIA5 and ERp18 (TXNDC12), catalyze disulfide bond rearrangements in the luminal domain of ATF6.",
+      "effect_description": "This redox modulation by PDIs is a critical step in ATF6 activation. Under ER stress, PDIs facilitate the reduction of intermolecular disulfide bonds, leading to ATF6 monomerization or specific dimerization that is competent for export from the ER to the Golgi for proteolytic processing.",
+      "biological_consequence": [
+        "ER stress induces PDI family member activity → PDIs (e.g., PDIA5, ERp18) catalyze disulfide bond reduction in the ATF6 luminal domain → ATF6 conformation is altered, facilitating ER export → ATF6 translocates to the Golgi apparatus → ATF6 undergoes proteolytic cleavage by S1P and S2P → The active ATF6-N fragment is released"
+      ],
+      "specific_effects": [
+        "PDIA5 is required for ATF6α activation and its export from the ER upon stress.",
+        "ERp18 (TXNDC12) preferentially interacts with ATF6 under stress to regulate its transport to the Golgi.",
+        "The redox status of conserved cysteines in the ATF6 luminal domain, modulated by PDIs, regulates its activation."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Endoplasmic Reticulum Stress-Activated Transcription Factor ATF6α Requires the Disulfide Isomerase PDIA5 To Modulate Chemoresistance",
+          "doi": "10.1128/MCB.01484-13",
+          "authors": "Higa A, Chevet E, Pimenta DC, Palmisano G, Eizirik DL, Bleackley RC, Hetz C",
+          "journal": "Molecular and Cellular Biology",
+          "year": 2014,
+          "assay": "siRNA screening",
+          "species": "human",
+          "relevant_quote": "we identified a novel role for ATF6α in chemoresistance and defined the protein disulfide isomerase A5 (PDIA5) as necessary for ATF6α activation upon ER stress.",
+          "pmid": "24636989"
+        },
+        {
+          "paper_title": "Activation of the UPR sensor ATF6α is regulated by its redox-dependent dimerization and ER retention by ERp18",
+          "doi": "10.1073/pnas.2122657119",
+          "authors": "Oka OBV, Pierre AS, Pringle MA, Tungkum W, Cao Z, Fleming B, Bulleid NJ",
+          "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+          "year": 2022,
+          "assay": "Co-immunoprecipitation",
+          "species": "human",
+          "relevant_quote": "We show that ERp18 regulates ATF6α by mitigating its dimerization and trafficking to the Golgi and identify redox-dependent oligomerization of ATF6α as a key mechanism regulating its function...",
+          "pmid": "35286189"
+        },
+        {
+          "paper_title": "ERp18 regulates activation of ATF6α during unfolded protein response",
+          "doi": "10.15252/embj.2018100990",
+          "authors": "Oka OB, Pringle MA, Schopp JM, Bulleid NJ",
+          "journal": "The EMBO Journal",
+          "year": 2019,
+          "assay": "Co-immunoprecipitation",
+          "species": "human",
+          "relevant_quote": "ER-resident oxidoreductase ERp18 associates with ATF6α following ER stress and plays a key role in both trafficking and activation of ATF6α.",
+          "pmid": "31368601"
+        }
+      ],
+      "pmids": [
+        "24636989",
+        "35286189",
+        "31368601"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "primary_to_main",
+      "function_effect": "activation"
+    }
+  ],
+  "arrows": {
+    "primary_to_main": [
+      "activates"
+    ]
+  },
+  "arrow": "activates",
+  "direction": "main_to_primary",
+  "intent": "regulation",
+  "mechanism": "Members of the Protein Disulfide Isomerase (PDI) family, such as PDIA5 and ERp18 (TXNDC12), catalyze disulfide bond rearrangements in the luminal domain of ATF6.",
+  "effect": "This redox modulation by PDIs is a critical step in ATF6 activation. Under ER stress, PDIs facilitate the reduction of intermolecular disulfide bonds, leading to ATF6 monomerization or specific dimerization that is competent for export from the ER to the Golgi for proteolytic processing.",
+  "summary": "ATF6 activates PDI to modulate atf6 redox state and dimerization, ultimately affecting the active atf6-n fragment is released.",
+  "evidence": [
+    {
+      "paper_title": "Endoplasmic Reticulum Stress-Activated Transcription Factor ATF6α Requires the Disulfide Isomerase PDIA5 To Modulate Chemoresistance",
+      "doi": "10.1128/MCB.01484-13",
+      "authors": "Higa A, Chevet E, Pimenta DC, Palmisano G, Eizirik DL, Bleackley RC, Hetz C",
+      "journal": "Molecular and Cellular Biology",
+      "year": 2014,
+      "assay": "siRNA screening",
+      "species": "human",
+      "relevant_quote": "we identified a novel role for ATF6α in chemoresistance and defined the protein disulfide isomerase A5 (PDIA5) as necessary for ATF6α activation upon ER stress."
+    },
+    {
+      "paper_title": "Activation of the UPR sensor ATF6α is regulated by its redox-dependent dimerization and ER retention by ERp18",
+      "doi": "10.1073/pnas.2122657119",
+      "authors": "Oka OBV, Pierre AS, Pringle MA, Tungkum W, Cao Z, Fleming B, Bulleid NJ",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "year": 2022,
+      "assay": "Co-immunoprecipitation",
+      "species": "human",
+      "relevant_quote": "We show that ERp18 regulates ATF6α by mitigating its dimerization and trafficking to the Golgi and identify redox-dependent oligomerization of ATF6α as a key mechanism regulating its function..."
+    },
+    {
+      "paper_title": "ERp18 regulates activation of ATF6α during unfolded protein response",
+      "doi": "10.15252/embj.2018100990",
+      "authors": "Oka OB, Pringle MA, Schopp JM, Bulleid NJ",
+      "journal": "The EMBO Journal",
+      "year": 2019,
+      "assay": "Co-immunoprecipitation",
+      "species": "human",
+      "relevant_quote": "ER-resident oxidoreductase ERp18 associates with ATF6α following ER stress and plays a key role in both trafficking and activation of ATF6α."
+    }
+  ],
+  "interaction_effect": "activation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 2
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATF6 <--activates-- PDI:",
+  "protein_a": "PDI",
+  "protein_b": "ATF6",
+  "discovered_in_query": "ATF6",
+  "first_discovered": "2025-11-18T21:01:00.261898Z",
+  "last_updated": "2025-11-18T21:01:00.261898Z"
+}

@@ -1,0 +1,82 @@
+{
+  "primary": "ATXN3",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "ATXN3 directly deubiquitinates Beclin 1 (BECN1), a key protein in autophagy. This action leads to the stabilization of BECN1, thereby increasing its availability to initiate the autophagic process.",
+  "functions": [
+    {
+      "function": "Autophagy",
+      "arrow": "activates",
+      "cellular_process": "ATXN3 acts as a deubiquitinase for BECN1, removing ubiquitin chains to prevent its proteasomal degradation. This stabilization is a crucial step for the initiation of autophagy.",
+      "effect_description": "ATXN3-mediated deubiquitination and stabilization of BECN1 enhances the cell's capacity to initiate autophagy.",
+      "biological_consequence": [
+        "ATXN3 deubiquitinates BECN1 → BECN1 protein stabilization → Increased BECN1 protein pool → Promotion of autophagosome formation → Enhanced autophagic flux.",
+        "Mutant ATXN3 binds BECN1 → Impaired deubiquitinase activity toward BECN1 → Increased BECN1 proteasomal degradation → Reduced BECN1 protein levels → Impaired autophagy initiation."
+      ],
+      "specific_effects": [
+        "ATXN3 removes ubiquitin chains from BECN1, leading to its stabilization and the stimulation of autophagy.",
+        "Mutant ATXN3 can still bind to BECN1 but facilitates its degradation, leading to decreased BECN1 levels."
+      ],
+      "evidence": [
+        {
+          "paper_title": "ATXN3: a multifunctional protein involved in the polyglutamine disease spinocerebellar ataxia type 3",
+          "doi": "10.1111/jnc.15223",
+          "authors": "Joana G Guedes, Clévio N de Nóbrega, Luís Pereira de Almeida",
+          "journal": "Journal of Neurochemistry",
+          "year": 2020,
+          "assay": "Review",
+          "species": "human",
+          "relevant_quote": "Also, ATXN3 removes ubiquitin chains from BECN1, leading to its stabilization and stimulation of autophagy.",
+          "pmid": "39320846"
+        }
+      ],
+      "_context": {
+        "type": "direct",
+        "query_protein": null,
+        "chain": null
+      },
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "39320846"
+      ]
+    }
+  ],
+  "arrow": "activates",
+  "direction": "primary_to_main",
+  "intent": "protein stabilization",
+  "mechanism": "ATXN3 acts as a deubiquitinase for BECN1, removing ubiquitin chains to prevent its proteasomal degradation. This stabilization is a crucial step for the initiation of autophagy.",
+  "effect": "ATXN3-mediated deubiquitination and stabilization of BECN1 enhances the cell's capacity to initiate autophagy.",
+  "summary": "ATXN3 activates BECN1 to modulate autophagy induction, ultimately affecting enhanced autophagic flux.",
+  "evidence": [
+    {
+      "paper_title": "The deubiquitinase ataxin-3 mediates the stability of Beclin 1",
+      "doi": "10.1038/cr.2013.62",
+      "authors": "Wei-Long Liu, Chih-Hao Wang, Ming-Jen Chen, Hsiu-Mei Hsieh, Chuan-Mu Chen, Ruey-Hwa Chen",
+      "journal": "Cell Research",
+      "year": 2013,
+      "assay": "Co-IP, in vivo ubiquitination assay",
+      "species": "human, mouse",
+      "relevant_quote": "Our current study demonstrates that ataxin-3 is a deubiquitinase of Beclin 1 and that ataxin-3-mediated deubiquitination of Beclin 1 is important for the regulation of Beclin 1 stability and autophagy."
+    },
+    {
+      "paper_title": "ATXN3: a multifunctional protein involved in the polyglutamine disease spinocerebellar ataxia type 3",
+      "doi": "10.1111/jnc.15223",
+      "authors": "Joana G Guedes, Clévio N de Nóbrega, Luís Pereira de Almeida",
+      "journal": "Journal of Neurochemistry",
+      "year": 2020,
+      "assay": "Review",
+      "species": "human",
+      "relevant_quote": "Also, ATXN3 removes ubiquitin chains from BECN1, leading to its stabilization and stimulation of autophagy."
+    }
+  ],
+  "arrow_notation": "ATXN3 --activates--> BECN1:",
+  "protein_a": "BECN1",
+  "protein_b": "ATXN3",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-23T07:58:56.161624Z",
+  "last_updated": "2025-11-23T07:58:56.161624Z"
+}

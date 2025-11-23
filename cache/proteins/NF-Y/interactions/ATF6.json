@@ -1,0 +1,126 @@
+{
+  "primary": "ATF6",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "The processed, active form of ATF6 forms a complex with the Nuclear Factor Y (NF-Y) trimer. This interaction is essential for the stable binding of ATF6 to the ER stress response element (ERSE) in the promoters of unfolded protein response (UPR) target genes.",
+  "functions": [
+    {
+      "function": "ERSE-mediated Transcription",
+      "arrow": "activates",
+      "cellular_process": "The active ATF6 dimer physically interacts with the NF-Y trimer, which is constitutively bound to the CCAAT box within the ER Stress Response Element (ERSE) of target gene promoters.",
+      "effect_description": "This cooperative binding is essential for the transcriptional activation of many UPR target genes, as ATF6 binds weakly to the CCACG part of the ERSE without the presence of NF-Y.",
+      "biological_consequence": [
+        "ATF6 dimer binds NF-Y trimer at the ERSE promoter region → Complex formation stabilizes recruitment of RNA Polymerase II → Transcriptional upregulation of ER chaperone genes (e.g., GRP78, GRP94) → Enhanced protein folding capacity and ER quality control",
+        "ATF6/NF-Y complex formation at target promoters → Transcriptional induction of CHOP → Regulation of ER stress-induced apoptosis",
+        "ATF6/NF-Y complex formation at the XBP1 promoter → Increased transcription of XBP1 mRNA → Amplification of the IRE1 branch of the UPR"
+      ],
+      "specific_effects": [
+        "ATF6 directly binds to the NF-YC subunit of the NF-Y trimer.",
+        "The binding of ATF6 to the ERSE is strictly dependent on NF-Y being pre-bound to the adjacent CCAAT site.",
+        "Insertion or deletion of a single base pair between the NF-Y and ATF6 binding sites abolishes ATF6 binding and transcriptional activation."
+      ],
+      "evidence": [
+        {
+          "paper_title": "ATF6 activated by proteolysis binds in the presence of NF-Y (CBF) directly to the cis-acting element responsible for the mammalian unfolded protein response",
+          "doi": "10.1128/mcb.20.18.6755-6767.2000",
+          "authors": "Yoshida H, Okada T, Haze K, Yanagi H, Yura T, Negishi M, Mori K",
+          "journal": "Molecular and Cellular Biology",
+          "year": 2000,
+          "assay": "Electrophoretic Mobility Shift Assay (EMSA)",
+          "species": "human",
+          "relevant_quote": "we demonstrated that soluble ATF6 binds directly to CCACG only when CCAAT exactly 9 bp upstream of CCACG is bound to NF-Y.",
+          "pmid": "10958673"
+        },
+        {
+          "paper_title": "Endoplasmic Reticulum Stress-Induced Formation of Transcription Factor Complex ERSF Including NF-Y (CBF) and Activating Transcription Factors 6α and 6β That Activates the Mammalian Unfolded Protein Response",
+          "doi": "10.1128/mcb.21.4.1239-1248.2001",
+          "authors": "Yoshida H, Okada T, Haze K, Yanagi H, Yura T, Negishi M, Mori K",
+          "journal": "Molecular and Cellular Biology",
+          "year": 2001,
+          "assay": "Pull-down assay",
+          "species": "human",
+          "relevant_quote": "ATF6α and ATF6β physically interact with NF-Y trimer via direct binding to the NF-YC subunit.",
+          "pmid": "11158310"
+        },
+        {
+          "paper_title": "ATF6 as a Transcription Activator of the Endoplasmic Reticulum Stress Element: Thapsigargin Stress-Induced Changes and Synergistic Interactions with NF-Y and YY1",
+          "doi": "10.1128/mcb.20.14.5096-5106.2000",
+          "authors": "Li M, Baumeister P, Roy B, Phan T, Foti D, Luo S, Lee AS",
+          "journal": "Molecular and Cellular Biology",
+          "year": 2000,
+          "assay": "Reporter gene assay",
+          "species": "human, mouse",
+          "relevant_quote": "Of primary importance is a functional NF-Y complex and a high-affinity NF-Y binding site that confers selectivity among different ERSEs for ATF6 inducibility.",
+          "pmid": "10866666"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "10958673",
+        "11158310",
+        "10866666"
+      ],
+      "function_effect": "activation"
+    }
+  ],
+  "arrows": {
+    "main_to_primary": [
+      "activates"
+    ]
+  },
+  "arrow": "complex",
+  "direction": "bidirectional",
+  "intent": "regulation",
+  "mechanism": "The active ATF6 dimer physically interacts with the NF-Y trimer, which is constitutively bound to the CCAAT box within the ER Stress Response Element (ERSE) of target gene promoters.",
+  "effect": "This cooperative binding is essential for the transcriptional activation of many UPR target genes, as ATF6 binds weakly to the CCACG part of the ERSE without the presence of NF-Y.",
+  "summary": "ATF6 activates NF-Y to modulate erse-mediated transcription, ultimately affecting enhanced protein folding capacity and er quality control.",
+  "evidence": [
+    {
+      "paper_title": "ATF6 activated by proteolysis binds in the presence of NF-Y (CBF) directly to the cis-acting element responsible for the mammalian unfolded protein response",
+      "doi": "10.1128/mcb.20.18.6755-6767.2000",
+      "authors": "Yoshida H, Okada T, Haze K, Yanagi H, Yura T, Negishi M, Mori K",
+      "journal": "Molecular and Cellular Biology",
+      "year": 2000,
+      "assay": "Electrophoretic Mobility Shift Assay (EMSA)",
+      "species": "human",
+      "relevant_quote": "we demonstrated that soluble ATF6 binds directly to CCACG only when CCAAT exactly 9 bp upstream of CCACG is bound to NF-Y."
+    },
+    {
+      "paper_title": "Endoplasmic Reticulum Stress-Induced Formation of Transcription Factor Complex ERSF Including NF-Y (CBF) and Activating Transcription Factors 6α and 6β That Activates the Mammalian Unfolded Protein Response",
+      "doi": "10.1128/mcb.21.4.1239-1248.2001",
+      "authors": "Yoshida H, Okada T, Haze K, Yanagi H, Yura T, Negishi M, Mori K",
+      "journal": "Molecular and Cellular Biology",
+      "year": 2001,
+      "assay": "Pull-down assay",
+      "species": "human",
+      "relevant_quote": "ATF6α and ATF6β physically interact with NF-Y trimer via direct binding to the NF-YC subunit."
+    },
+    {
+      "paper_title": "ATF6 as a Transcription Activator of the Endoplasmic Reticulum Stress Element: Thapsigargin Stress-Induced Changes and Synergistic Interactions with NF-Y and YY1",
+      "doi": "10.1128/mcb.20.14.5096-5106.2000",
+      "authors": "Li M, Baumeister P, Roy B, Phan T, Foti D, Luo S, Lee AS",
+      "journal": "Molecular and Cellular Biology",
+      "year": 2000,
+      "assay": "Reporter gene assay",
+      "species": "human, mouse",
+      "relevant_quote": "Of primary importance is a functional NF-Y complex and a high-affinity NF-Y binding site that confers selectivity among different ERSEs for ATF6 inducibility."
+    }
+  ],
+  "interaction_effect": "complex",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 3
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATF6 <--complex--> NF-Y:",
+  "protein_a": "NF-Y",
+  "protein_b": "ATF6",
+  "discovered_in_query": "ATF6",
+  "first_discovered": "2025-11-18T21:01:00.238351Z",
+  "last_updated": "2025-11-18T21:01:00.238351Z"
+}

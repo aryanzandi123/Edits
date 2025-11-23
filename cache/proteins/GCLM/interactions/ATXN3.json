@@ -1,0 +1,134 @@
+{
+  "primary": "ATXN3",
+  "interaction_type": "indirect",
+  "upstream_interactor": "NRF2",
+  "mediator_chain": [
+    "NRF2"
+  ],
+  "depth": 2,
+  "support_summary": "ATXN3 indirectly enhances the expression of Glutamate-Cysteine Ligase Modifier Subunit (GCLM) by increasing the stability of the transcription factor NRF2. ATXN3 knockdown leads to the degradation of KEAP1, which allows NRF2 to accumulate and activate GCLM transcription.",
+  "functions": [
+    {
+      "function": "GCLM Gene Transcription & Glutathione Synthesis",
+      "arrow": "inhibits",
+      "cellular_process": "ATXN3 depletion causes a decrease in KEAP1 protein levels. Since KEAP1 targets NRF2 for degradation, this leads to NRF2 stabilization. NRF2 then translocates to the nucleus and binds to the Antioxidant Response Element (ARE) in the GCLM gene promoter, activating its transcription.",
+      "effect_description": "By upregulating GCLM expression via NRF2 stabilization, ATXN3 indirectly enhances the synthesis of the major cellular antioxidant glutathione (GSH), thereby improving cellular detoxification and antioxidant capacity.",
+      "biological_consequence": [
+        "ATXN3 depletion → Decreased KEAP1 protein levels → NRF2 stabilization & nuclear translocation → NRF2 activates GCLM gene transcription → Increased GCL enzyme activity → Increased glutathione (GSH) synthesis"
+      ],
+      "specific_effects": [
+        "NRF2 governs the basal and inducible expression of both GCLC and GCLM subunits of glutamate-cysteine ligase.",
+        "A decline in NRF2 transcriptional activity is linked to an age-related loss of glutathione synthesis."
+      ],
+      "evidence": [
+        {
+          "paper_title": "The Deubiquitinating Enzyme Ataxin-3 Regulates Ciliogenesis and Phagocytosis in the Retina",
+          "doi": "10.1016/j.isci.2020.101802",
+          "authors": "Toulis V, García-Monclús S, de la Peña-Ramírez C, Arenas-Galnares R, Abril JF, Todi SV, Khan N, Garanto A, do Carmo Costa M, Marfany G",
+          "journal": "iScience",
+          "year": 2020,
+          "assay": "Western Blot, siRNA knockdown",
+          "species": "human, mouse",
+          "relevant_quote": "knockdown of ATXN3 in human cells significantly decreased KEAP1 protein levels... Our results also confirm that the levels of NRF2 and p62 were increased in ATXN3-knockdown cells...",
+          "pmid": "33176149"
+        },
+        {
+          "paper_title": "Nrf2 regulates antioxidant gene expression evoked by oxidized phospholipids in endothelial cells and murine arteries in vivo",
+          "doi": "10.1161/CIRCRESAHA.108.176883",
+          "authors": "Jyrkkänen HK, Kansanen E, Inkala M, Kivelä AM, Hurttila H, Heinonen SE, Goldsteins G, Jauhiainen S, Tiainen S, Makkonen H, Oskolkova O, Afonyushkin T, Koistinaho J, Yamamoto M, Bochkov VN, Ylä-Herttuala S, Levonen AL",
+          "journal": "Circulation Research",
+          "year": 2008,
+          "assay": "siRNA, Western Blot, RT-PCR",
+          "species": "human, mouse",
+          "relevant_quote": "Using the small interfering RNA approach, we demonstrate that Nrf2 is critical in mediating the induction of glutamate-cysteine ligase modifier subunit (GCLM)...by oxPAPC in human endothelial cells...",
+          "pmid": "18535259"
+        },
+        {
+          "paper_title": "Decline in transcriptional activity of Nrf2 causes age-related loss of glutathione synthesis, which is reversible with lipoic acid",
+          "doi": "10.1073/pnas.0400282101",
+          "authors": "Suh JH, Shenvi SV, Dixon BM, Liu H, Jaiswal AK, Liu RM, Hagen TM",
+          "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+          "year": 2004,
+          "assay": "Gel-shift assay, Western Blot",
+          "species": "rat",
+          "relevant_quote": "Because nuclear factor erythroid2-related factor 2 (Nrf2) governs basal and inducible GCLC and GCLM expression by means of the antioxidant response element (ARE), we hypothesized that aging results in dysregulation of Nrf2-mediated GCL expression.",
+          "pmid": "14985508"
+        }
+      ],
+      "interaction_effect": "inhibits",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "33176149",
+        "18535259",
+        "14985508"
+      ],
+      "direct_arrow": "activates",
+      "function_effect": "inhibition",
+      "arrow_context": {
+        "direct_from": "NRF2",
+        "direct_arrow": "activates",
+        "net_from": "ATXN3",
+        "net_arrow": "inhibits",
+        "mediator_chain": [
+          "NRF2"
+        ],
+        "is_indirect": true
+      },
+      "net_arrow": "inhibits",
+      "net_effect": "inhibition",
+      "direct_effect": "activation"
+    }
+  ],
+  "arrow": "inhibits",
+  "direction": "primary_to_main",
+  "intent": "transcriptional regulation",
+  "mechanism": "ATXN3 depletion causes a decrease in KEAP1 protein levels. Since KEAP1 targets NRF2 for degradation, this leads to NRF2 stabilization. NRF2 then translocates to the nucleus and binds to the Antioxidant Response Element (ARE) in the GCLM gene promoter, activating its transcription.",
+  "effect": "By upregulating GCLM expression via NRF2 stabilization, ATXN3 indirectly enhances the synthesis of the major cellular antioxidant glutathione (GSH), thereby improving cellular detoxification and antioxidant capacity.",
+  "summary": "ATXN3 activates GCLM to modulate gclm gene transcription & glutathione synthesis, ultimately affecting increased glutathione (gsh) synthesis.",
+  "evidence": [
+    {
+      "paper_title": "The Deubiquitinating Enzyme Ataxin-3 Regulates Ciliogenesis and Phagocytosis in the Retina",
+      "doi": "10.1016/j.isci.2020.101802",
+      "authors": "Toulis V, García-Monclús S, de la Peña-Ramírez C, Arenas-Galnares R, Abril JF, Todi SV, Khan N, Garanto A, do Carmo Costa M, Marfany G",
+      "journal": "iScience",
+      "year": 2020,
+      "assay": "Western Blot, siRNA knockdown",
+      "species": "human, mouse",
+      "relevant_quote": "knockdown of ATXN3 in human cells significantly decreased KEAP1 protein levels... Our results also confirm that the levels of NRF2 and p62 were increased in ATXN3-knockdown cells..."
+    },
+    {
+      "paper_title": "Nrf2 regulates antioxidant gene expression evoked by oxidized phospholipids in endothelial cells and murine arteries in vivo",
+      "doi": "10.1161/CIRCRESAHA.108.176883",
+      "authors": "Jyrkkänen HK, Kansanen E, Inkala M, Kivelä AM, Hurttila H, Heinonen SE, Goldsteins G, Jauhiainen S, Tiainen S, Makkonen H, Oskolkova O, Afonyushkin T, Koistinaho J, Yamamoto M, Bochkov VN, Ylä-Herttuala S, Levonen AL",
+      "journal": "Circulation Research",
+      "year": 2008,
+      "assay": "siRNA, Western Blot, RT-PCR",
+      "species": "human, mouse",
+      "relevant_quote": "Using the small interfering RNA approach, we demonstrate that Nrf2 is critical in mediating the induction of glutamate-cysteine ligase modifier subunit (GCLM)...by oxPAPC in human endothelial cells..."
+    },
+    {
+      "paper_title": "Decline in transcriptional activity of Nrf2 causes age-related loss of glutathione synthesis, which is reversible with lipoic acid",
+      "doi": "10.1073/pnas.0400282101",
+      "authors": "Suh JH, Shenvi SV, Dixon BM, Liu H, Jaiswal AK, Liu RM, Hagen TM",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "year": 2004,
+      "assay": "Gel-shift assay, Western Blot",
+      "species": "rat",
+      "relevant_quote": "Because nuclear factor erythroid2-related factor 2 (Nrf2) governs basal and inducible GCLC and GCLM expression by means of the antioxidant response element (ARE), we hypothesized that aging results in dysregulation of Nrf2-mediated GCL expression."
+    }
+  ],
+  "interaction_effect": "inhibits",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 3
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "NRF2 --inhibits--> GCLM:",
+  "protein_a": "GCLM",
+  "protein_b": "ATXN3",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-23T07:58:56.224206Z",
+  "last_updated": "2025-11-23T07:58:56.224206Z"
+}

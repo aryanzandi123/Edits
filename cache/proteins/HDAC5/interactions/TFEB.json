@@ -1,0 +1,93 @@
+{
+  "primary": "TFEB",
+  "direction": "main_to_primary",
+  "arrow": "inhibits",
+  "intent": "deacetylation",
+  "support_summary": "Histone deacetylase 5 (HDAC5) is a lysine deacetylase that removes acetyl groups from TFEB. This action counteracts the activating effect of acetyltransferases like CREBBP, thereby suppressing TFEB's transcriptional activity.",
+  "functions": [
+    {
+      "function": "TFEB Deacetylation & Transcriptional",
+      "arrow": "activates",
+      "cellular_process": "HDAC5, a class IIa histone deacetylase, removes acetyl groups from lysine residues on TFEB. This deacetylation event is a key negative regulatory mechanism, opposing the activation of TFEB and reducing its ability to drive the expression of target genes.",
+      "effect_description": "By deacetylating TFEB, HDAC5 suppresses its transcriptional activity, leading to reduced expression of genes involved in lysosomal biogenesis and autophagy. Inhibition of HDAC5 promotes TFEB acetylation and activation.",
+      "biological_consequence": [
+        "HDAC5 deacetylates TFEB on specific lysine residues in the cytoplasm → Deacetylated TFEB is sequestered in the cytoplasm → Nuclear import of TFEB is inhibited → Reduced expression of lysosomal and autophagy genes → Attenuation of cellular clearance pathways."
+      ],
+      "specific_effects": [
+        "Removes acetyl groups from lysine residues on TFEB.",
+        "Functionally opposes TFEB activation by lysine acetyltransferases.",
+        "Knockdown of HDAC5 promotes TFEB nuclear translocation.",
+        "Inhibition of HDAC5 activity leads to TFEB hyperacetylation and activation of its target genes."
+      ],
+      "evidence": [
+        {
+          "paper_title": "TFEB acetylation promotes lysosome biogenesis and ameliorates Alzheimer's disease-relevant phenotypes in mice",
+          "doi": "10.1016/j.jbc.2022.102649",
+          "authors": "T Li, L Yin, X Kang, W Xue, N Wang, J Zhang, P Yuan, L Lin, Y Li",
+          "journal": "Journal of Biological Chemistry",
+          "year": 2022,
+          "assay": "siRNA knockdown, Western Blot, Immunofluorescence",
+          "species": "human, mouse",
+          "relevant_quote": "...we knocked down cytosol-localized HDACs (class IIA, IIB, and IV) using specific siRNAs and found that knockdown of HDAC5 and/or HDAC9 strongly promoted nuclear translocation of TFEB-EGFP.",
+          "pmid": "36441024"
+        },
+        {
+          "paper_title": "Importance of TFEB acetylation in control of its transcriptional activity and lysosomal function in response to histone deacetylase inhibitors",
+          "doi": "10.1080/15548627.2018.1447290",
+          "authors": "J Zhang, Y Wang, Y Chen, Y Cao, Y Lu, W Wei, Q Shen, H Song",
+          "journal": "Autophagy",
+          "year": 2018,
+          "assay": "Review context",
+          "species": "human, mouse",
+          "relevant_quote": "Our findings are largely consistent with a recent report in which TFEB directly binds to HDAC5 in skeletal muscle cells and such interaction is associated with reduced TFEB transcriptional activity.",
+          "pmid": "30059277"
+        }
+      ],
+      "pmids": [
+        "36441024",
+        "30059277"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "primary_to_main",
+      "function_effect": "activation"
+    }
+  ],
+  "mechanism": "HDAC5, a class IIa histone deacetylase, removes acetyl groups from lysine residues on TFEB. This deacetylation event is a key negative regulatory mechanism, opposing the activation of TFEB and reducing its ability to drive the expression of target genes.",
+  "effect": "By deacetylating TFEB, HDAC5 suppresses its transcriptional activity, leading to reduced expression of genes involved in lysosomal biogenesis and autophagy. Inhibition of HDAC5 promotes TFEB acetylation and activation.",
+  "summary": "TFEB inhibits HDAC5 to modulate tfeb deacetylation & transcriptional inhibition, ultimately affecting attenuation of cellular clearance pathways.",
+  "evidence": [
+    {
+      "paper_title": "TFEB acetylation promotes lysosome biogenesis and ameliorates Alzheimer's disease-relevant phenotypes in mice",
+      "doi": "10.1016/j.jbc.2022.102649",
+      "authors": "T Li, L Yin, X Kang, W Xue, N Wang, J Zhang, P Yuan, L Lin, Y Li",
+      "journal": "Journal of Biological Chemistry",
+      "year": 2022,
+      "assay": "siRNA knockdown, Western Blot, Immunofluorescence",
+      "species": "human, mouse",
+      "relevant_quote": "...we knocked down cytosol-localized HDACs (class IIA, IIB, and IV) using specific siRNAs and found that knockdown of HDAC5 and/or HDAC9 strongly promoted nuclear translocation of TFEB-EGFP."
+    },
+    {
+      "paper_title": "Importance of TFEB acetylation in control of its transcriptional activity and lysosomal function in response to histone deacetylase inhibitors",
+      "doi": "10.1080/15548627.2018.1447290",
+      "authors": "J Zhang, Y Wang, Y Chen, Y Cao, Y Lu, W Wei, Q Shen, H Song",
+      "journal": "Autophagy",
+      "year": 2018,
+      "assay": "Review context",
+      "species": "human, mouse",
+      "relevant_quote": "Our findings are largely consistent with a recent report in which TFEB directly binds to HDAC5 in skeletal muscle cells and such interaction is associated with reduced TFEB transcriptional activity."
+    }
+  ],
+  "interaction_effect": "inhibition",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TFEB <--inhibits-- HDAC5:",
+  "protein_a": "HDAC5",
+  "protein_b": "TFEB",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.520452Z",
+  "last_updated": "2025-11-19T03:20:29.520452Z"
+}

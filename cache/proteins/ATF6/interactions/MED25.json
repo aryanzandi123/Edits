@@ -1,0 +1,102 @@
+{
+  "primary": "MED25",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "The Mediator complex subunit MED25 acts as a direct docking site for the transcription activation domain of ATF6α. This interaction is critical for recruiting the Mediator complex to the promoters of ER stress response genes, thereby facilitating transcriptional activation.",
+  "functions": [
+    {
+      "function": "Transcriptional Co-activation",
+      "arrow": "activates",
+      "cellular_process": "The Mediator complex subunit MED25 directly interacts with the transcription activation domain of the active, nuclear form of ATF6α via its Activator Interaction Domain (AcID).",
+      "effect_description": "The direct binding of ATF6α to MED25 facilitates the recruitment of the Mediator complex and RNA Polymerase II to the promoters of target genes, enhancing the transcription of the ER stress response program.",
+      "biological_consequence": [
+        "Active ATF6α transcription factor binds the MED25 AcID domain → The Mediator complex is recruited to ATF6α at ER Stress Response Elements (ERSEs) → Transcriptional activation of UPR target genes (e.g., HSPA5/BiP) → Restoration of ER proteostasis"
+      ],
+      "specific_effects": [
+        "ATF6α binds to the H2 surface of the MED25 Activator Interaction Domain (AcID).",
+        "The ATF6α-MED25 interaction is required for efficient expression of ATF6 target genes like HSPA5 (BiP).",
+        "MED25 serves as a docking site on the Mediator complex for the ATF6α transcription activation domain."
+      ],
+      "evidence": [
+        {
+          "paper_title": "A Lipopeptidomimetic of Transcriptional Activation Domains Selectively Disrupts the Coactivator Med25 Protein-Protein Interactions",
+          "doi": "10.1002/anie.202400781",
+          "authors": "Pattelli ON, Valdivia EM, Beyersdorf MS, Regan CS, Rivas M, Merajver SD, Cierpicki T, Mapp AK",
+          "journal": "Angewandte Chemie (International ed. in English)",
+          "year": 2024,
+          "assay": "Biochemical assay",
+          "species": "human",
+          "relevant_quote": "LPPM-8 engages Med25 through interaction with the H2 face of its activator interaction domain...",
+          "pmid": "38527936"
+        },
+        {
+          "paper_title": "Role for Human Mediator Subunit MED25 in Recruitment of Mediator to Promoters by Endoplasmic Reticulum Stress-responsive Transcription Factor ATF6α",
+          "doi": "10.1074/jbc.M113.496218",
+          "authors": "Sela D, Chen L, Martin-Brown S, Washburn MP, Florens L, Conaway JW, Conaway RC",
+          "journal": "The Journal of Biological Chemistry",
+          "year": 2013,
+          "assay": "GST pull-down, siRNA knockdown, qPCR",
+          "species": "human",
+          "relevant_quote": "We present findings arguing that Mediator subunit MED25 plays a critical role in this process and identify a MED25 domain that serves as a docking site on Mediator for the ATF6α transcription activation domain.",
+          "pmid": "23864652"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "38527936",
+        "23864652"
+      ],
+      "function_effect": "activation"
+    }
+  ],
+  "arrow": "activates",
+  "direction": "main_to_primary",
+  "intent": "transcriptional co-activation",
+  "arrows": {
+    "main_to_primary": [
+      "activates"
+    ]
+  },
+  "mechanism": "The Mediator complex subunit MED25 directly interacts with the transcription activation domain of the active, nuclear form of ATF6α via its Activator Interaction Domain (AcID).",
+  "effect": "The direct binding of ATF6α to MED25 facilitates the recruitment of the Mediator complex and RNA Polymerase II to the promoters of target genes, enhancing the transcription of the ER stress response program.",
+  "summary": "ATF6 activates MED25 to modulate transcriptional co-activation, ultimately affecting restoration of er proteostasis.",
+  "evidence": [
+    {
+      "paper_title": "A Lipopeptidomimetic of Transcriptional Activation Domains Selectively Disrupts the Coactivator Med25 Protein-Protein Interactions",
+      "doi": "10.1002/anie.202400781",
+      "authors": "Pattelli ON, Valdivia EM, Beyersdorf MS, Regan CS, Rivas M, Merajver SD, Cierpicki T, Mapp AK",
+      "journal": "Angewandte Chemie (International ed. in English)",
+      "year": 2024,
+      "assay": "Biochemical assay",
+      "species": "human",
+      "relevant_quote": "LPPM-8 engages Med25 through interaction with the H2 face of its activator interaction domain..."
+    },
+    {
+      "paper_title": "Role for Human Mediator Subunit MED25 in Recruitment of Mediator to Promoters by Endoplasmic Reticulum Stress-responsive Transcription Factor ATF6α",
+      "doi": "10.1074/jbc.M113.496218",
+      "authors": "Sela D, Chen L, Martin-Brown S, Washburn MP, Florens L, Conaway JW, Conaway RC",
+      "journal": "The Journal of Biological Chemistry",
+      "year": 2013,
+      "assay": "GST pull-down, siRNA knockdown, qPCR",
+      "species": "human",
+      "relevant_quote": "We present findings arguing that Mediator subunit MED25 plays a critical role in this process and identify a MED25 domain that serves as a docking site on Mediator for the ATF6α transcription activation domain."
+    }
+  ],
+  "interaction_effect": "activation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 0
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATF6 --activates--> MED25:",
+  "protein_a": "ATF6",
+  "protein_b": "MED25",
+  "discovered_in_query": "ATF6",
+  "first_discovered": "2025-11-18T21:01:00.345336Z",
+  "last_updated": "2025-11-18T21:01:00.345336Z"
+}

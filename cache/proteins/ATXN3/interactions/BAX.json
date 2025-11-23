@@ -1,0 +1,135 @@
+{
+  "primary": "BAX",
+  "interaction_type": "indirect",
+  "upstream_interactor": "TP53",
+  "mediator_chain": [
+    "TP53"
+  ],
+  "depth": 2,
+  "support_summary": "ATXN3 indirectly promotes the expression of the pro-apoptotic protein BAX. ATXN3 directly binds to, deubiquitinates, and stabilizes the tumor suppressor p53 (TP53). This stabilization enhances p53's transcriptional activity, leading to the upregulation of its target genes, including BAX, which promotes apoptosis. PolyQ-expanded ATXN3 shows an even stronger ability to stabilize p53, leading to heightened p53-dependent apoptosis.",
+  "functions": [
+    {
+      "function": "Promotion of Apoptosis",
+      "arrow": "activates",
+      "cellular_process": "ATXN3 functions as a deubiquitinase for the transcription factor p53, removing ubiquitin chains and protecting it from proteasomal degradation. The resulting increase in stable p53 enhances its ability to translocate to the nucleus and activate the transcription of pro-apoptotic target genes, such as BAX.",
+      "effect_description": "ATXN3-mediated stabilization of p53 potentiates the intrinsic apoptotic pathway by increasing the expression of the pro-apoptotic effector protein BAX.",
+      "biological_consequence": [
+        "ATXN3 deubiquitinates and stabilizes TP53 → Increased TP53 nuclear accumulation and activity → Upregulation of BAX gene transcription → BAX protein promotes mitochondrial outer membrane permeabilization → Activation of mitochondrial-mediated apoptosis"
+      ],
+      "specific_effects": [
+        "ATXN3 directly binds to and deubiquitinates p53, leading to its stabilization.",
+        "PolyQ-expanded ATXN3 has an enhanced ability to stabilize p53 compared to the wild-type protein.",
+        "Mutant ATXN3 increases p53-dependent apoptosis, contributing to neurodegeneration in SCA3.",
+        "Increased p53 activity leads to higher expression of its transcriptional target, BAX."
+      ],
+      "evidence": [
+        {
+          "paper_title": "The Machado-Joseph Disease Deubiquitinase Ataxin-3 Regulates the Stability and Apoptotic Function of p53",
+          "doi": "10.1371/journal.pbio.2000733",
+          "authors": "Liu Y, Liu S, Wang H, Li J, Yang B, Wang Y, Zhang Y, Li XJ, Li S",
+          "journal": "PLoS Biology",
+          "year": 2016,
+          "assay": "Co-Immunoprecipitation, Western Blot, In vivo (zebrafish, mouse models)",
+          "species": "human, mouse, zebrafish",
+          "relevant_quote": "ATX-3 binds to native and polyubiquitinated p53 and deubiquitinates and stabilizes p53 by repressing its degradation through the ubiquitin (Ub)-proteasome pathway.",
+          "pmid": "27851749"
+        },
+        {
+          "paper_title": "Inactivation of PNKP by Mutant ATXN3 Triggers Apoptosis by Activating the DNA Damage-Response Pathway in SCA3",
+          "doi": "10.1371/journal.ppat.1006174",
+          "authors": "Gao R, Liu Y, Silva-Fernandes A, Fang X, Paulucci-Holthauzen A, Chatterjee A, Lira F, Raskin S, Huda F, Koeppen AH, Li S, Li XJ, Resende BA, Bonaldo MF, Sutton L, Gao G, Flotte TR, Ashizawa T, Cardoso RM",
+          "journal": "PLoS Pathogens",
+          "year": 2017,
+          "assay": "Western Blot, Immunohistochemistry",
+          "species": "human, mouse",
+          "relevant_quote": "This triggers apoptosis by increasing expression of such p53 target genes as BAX, PUMA and NOXA in SCA3.",
+          "pmid": "25590633"
+        },
+        {
+          "paper_title": "Tissue-specific vulnerability to apoptosis in Machado-Joseph disease",
+          "doi": "10.3390/ijms24108811",
+          "authors": "Raposo M, Bettencourt C, Maciel P, Soong BW, Lima M",
+          "journal": "International Journal of Molecular Sciences",
+          "year": 2023,
+          "assay": "qRT-PCR, Western Blot",
+          "species": "human, mouse",
+          "relevant_quote": "To gain further insights into the extent of dysregulation of mitochondrial apoptosis in MJD... the expression levels of BCL2, BAX and TP53... were assessed in blood and post-mortem brain samples from MJD subjects",
+          "pmid": "37408238"
+        }
+      ],
+      "pmids": [
+        "27851749",
+        "25590633",
+        "37408238"
+      ],
+      "direct_arrow": "activates",
+      "interaction_effect": "activates",
+      "interaction_direction": "main_to_primary",
+      "function_effect": "activation",
+      "arrow_context": {
+        "direct_from": "TP53",
+        "direct_arrow": "activates",
+        "net_from": "ATXN3",
+        "net_arrow": "activates",
+        "mediator_chain": [
+          "TP53"
+        ],
+        "is_indirect": true
+      },
+      "net_arrow": "activates",
+      "net_effect": "activation",
+      "direct_effect": "activation"
+    }
+  ],
+  "arrow": "activates",
+  "direction": "main_to_primary",
+  "intent": "regulation of gene expression",
+  "mechanism": "ATXN3 functions as a deubiquitinase for the transcription factor p53, removing ubiquitin chains and protecting it from proteasomal degradation. The resulting increase in stable p53 enhances its ability to translocate to the nucleus and activate the transcription of pro-apoptotic target genes, such as BAX.",
+  "effect": "ATXN3-mediated stabilization of p53 potentiates the intrinsic apoptotic pathway by increasing the expression of the pro-apoptotic effector protein BAX.",
+  "summary": "ATXN3 activates BAX to modulate promotion of apoptosis, ultimately affecting activation of mitochondrial-mediated apoptosis.",
+  "evidence": [
+    {
+      "paper_title": "The Machado-Joseph Disease Deubiquitinase Ataxin-3 Regulates the Stability and Apoptotic Function of p53",
+      "doi": "10.1371/journal.pbio.2000733",
+      "authors": "Liu Y, Liu S, Wang H, Li J, Yang B, Wang Y, Zhang Y, Li XJ, Li S",
+      "journal": "PLoS Biology",
+      "year": 2016,
+      "assay": "Co-Immunoprecipitation, Western Blot, In vivo (zebrafish, mouse models)",
+      "species": "human, mouse, zebrafish",
+      "relevant_quote": "ATX-3 binds to native and polyubiquitinated p53 and deubiquitinates and stabilizes p53 by repressing its degradation through the ubiquitin (Ub)-proteasome pathway."
+    },
+    {
+      "paper_title": "Inactivation of PNKP by Mutant ATXN3 Triggers Apoptosis by Activating the DNA Damage-Response Pathway in SCA3",
+      "doi": "10.1371/journal.ppat.1006174",
+      "authors": "Gao R, Liu Y, Silva-Fernandes A, Fang X, Paulucci-Holthauzen A, Chatterjee A, Lira F, Raskin S, Huda F, Koeppen AH, Li S, Li XJ, Resende BA, Bonaldo MF, Sutton L, Gao G, Flotte TR, Ashizawa T, Cardoso RM",
+      "journal": "PLoS Pathogens",
+      "year": 2017,
+      "assay": "Western Blot, Immunohistochemistry",
+      "species": "human, mouse",
+      "relevant_quote": "This triggers apoptosis by increasing expression of such p53 target genes as BAX, PUMA and NOXA in SCA3."
+    },
+    {
+      "paper_title": "Tissue-specific vulnerability to apoptosis in Machado-Joseph disease",
+      "doi": "10.3390/ijms24108811",
+      "authors": "Raposo M, Bettencourt C, Maciel P, Soong BW, Lima M",
+      "journal": "International Journal of Molecular Sciences",
+      "year": 2023,
+      "assay": "qRT-PCR, Western Blot",
+      "species": "human, mouse",
+      "relevant_quote": "To gain further insights into the extent of dysregulation of mitochondrial apoptosis in MJD... the expression levels of BCL2, BAX and TP53... were assessed in blood and post-mortem brain samples from MJD subjects"
+    }
+  ],
+  "interaction_effect": "activation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TP53 --activates--> BAX:",
+  "protein_a": "ATXN3",
+  "protein_b": "BAX",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-23T07:58:56.176670Z",
+  "last_updated": "2025-11-23T07:58:56.176670Z"
+}

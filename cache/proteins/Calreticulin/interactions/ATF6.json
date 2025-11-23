@@ -1,0 +1,87 @@
+{
+  "primary": "ATF6",
+  "interaction_type": "direct",
+  "support_summary": "Calreticulin (CALR) is a soluble ER lectin chaperone that directly binds to the glycosylated luminal domain of ATF6. This interaction is a key part of the ER quality control system, repressing ATF6 activity by retaining it in the ER under non-stress conditions, thus preventing its transport to the Golgi for activation.",
+  "functions": [
+    {
+      "function": "ATF6 Retention and Repression",
+      "arrow": "activates",
+      "cellular_process": "The soluble ER lectin chaperone Calreticulin (CALR) binds to N-linked glycans on the luminal domain of newly synthesized ATF6, acting as a selective repressor of the ATF6 signaling pathway.",
+      "effect_description": "Calreticulin binding retains ATF6 in the endoplasmic reticulum, which inhibits its stress-induced trafficking to the Golgi apparatus and subsequent proteolytic activation.",
+      "biological_consequence": [
+        "Calreticulin binds to N-linked glycans on the luminal domain of ATF6 → ATF6 is retained within the Endoplasmic Reticulum → ATF6 transport to the Golgi apparatus is blocked → Proteolytic cleavage and activation of ATF6 are prevented → ATF6 signaling pathway is repressed"
+      ],
+      "specific_effects": [
+        "Directly interacts with the luminal domain of ATF6α in vitro and in cells.",
+        "Depletion of Calreticulin results in constitutive activation, trafficking, and processing of ATF6.",
+        "Functions as a key repressor of ATF6α signaling under basal, non-stress conditions."
+      ],
+      "evidence": [
+        {
+          "paper_title": "A genome wide CRISPR/Cas9 screen identifies calreticulin as a selective repressor of ATF6α",
+          "doi": "10.7554/eLife.96979.2",
+          "authors": "Le P, Torres-Odio S, Galiano MR, Lou K, Asnani M, Jaishankar P, Acosta-Alvear D, Walter P",
+          "journal": "eLife",
+          "year": 2024,
+          "assay": "CRISPR/Cas9 screen, Co-Immunoprecipitation, BioLayer Interferometry (BLI)",
+          "species": "Chinese Hamster Ovary (CHO) cells",
+          "relevant_quote": "Purified CRT interacted with the luminal domain of ATF6α in vitro and the two proteins co-immunoprecipitated from cell lysates.",
+          "pmid": "39073063"
+        }
+      ],
+      "pmids": [
+        "39073063"
+      ],
+      "interaction_effect": "activation",
+      "interaction_direction": "primary_to_main",
+      "function_effect": "activation"
+    }
+  ],
+  "arrows": {
+    "main_to_primary": [],
+    "primary_to_main": [
+      "inhibits"
+    ]
+  },
+  "arrow": "inhibits",
+  "direction": "main_to_primary",
+  "intent": "regulation",
+  "mechanism": "The soluble ER lectin chaperone Calreticulin (CALR) binds to N-linked glycans on the luminal domain of newly synthesized ATF6, acting as a selective repressor of the ATF6 signaling pathway.",
+  "effect": "Calreticulin binding retains ATF6 in the endoplasmic reticulum, which inhibits its stress-induced trafficking to the Golgi apparatus and subsequent proteolytic activation.",
+  "summary": "ATF6 inhibits Calreticulin to modulate atf6 retention and repression, ultimately affecting atf6 signaling pathway is repressed.",
+  "evidence": [
+    {
+      "paper_title": "A genome wide CRISPR/Cas9 screen identifies calreticulin as a selective repressor of ATF6α",
+      "doi": "10.7554/eLife.96979.2",
+      "authors": "Le P, Torres-Odio S, Galiano MR, Lou K, Asnani M, Jaishankar P, Acosta-Alvear D, Walter P",
+      "journal": "eLife",
+      "year": 2024,
+      "assay": "CRISPR/Cas9 screen, Co-Immunoprecipitation, BioLayer Interferometry (BLI)",
+      "species": "Chinese Hamster Ovary (CHO) cells",
+      "relevant_quote": "Purified CRT interacted with the luminal domain of ATF6α in vitro and the two proteins co-immunoprecipitated from cell lysates."
+    },
+    {
+      "paper_title": "The ER-localized Ca2+-binding protein calreticulin couples ER stress to autophagy by associating with microtubule-associated protein 1A/1B light chain 3",
+      "doi": "10.1074/jbc.M114.612506",
+      "authors": "Chao X, Wang S, Zhao K, Li Y, Williams JA, Li X, Wang L, Li Z, Chen J, Cui J, Zhang H, Li W",
+      "journal": "The Journal of Biological Chemistry",
+      "year": 2015,
+      "assay": "Immunoblotting, RT-PCR",
+      "species": "Mouse, Human (HeLa cells)",
+      "relevant_quote": "It has been reported that the ATF6–NF-Y key stress factor ATF4 is known as a chaperone activator. Whether ATF6 or ATF4 plays a role in the regulation of calreticulin is of interest for investigation."
+    }
+  ],
+  "interaction_effect": "inhibition",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATF6 <--inhibits-- Calreticulin:",
+  "protein_a": "Calreticulin",
+  "protein_b": "ATF6",
+  "discovered_in_query": "ATF6",
+  "first_discovered": "2025-11-18T21:01:00.264469Z",
+  "last_updated": "2025-11-18T21:01:00.264469Z"
+}

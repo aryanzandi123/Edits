@@ -1,0 +1,80 @@
+{
+  "primary": "GABARAP",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "ATXN3 directly interacts with GABARAP, a member of the ATG8 family, via two conserved LIR domains. This interaction is crucial for regulating the early stages of autophagy, ensuring efficient autophagic flux.",
+  "functions": [
+    {
+      "function": "Autophagic Flux",
+      "arrow": "activates",
+      "cellular_process": "ATXN3 contains two conserved LIR (LC3-interacting region) domains within its catalytic Josephin domain that directly interact with GABARAP, an ATG8 family protein.",
+      "effect_description": "This interaction localizes ATXN3 to early autophagosomes, where it regulates the initiation phase to ensure efficient autophagic degradation and prevent superfluous autophagosome formation.",
+      "biological_consequence": [
+        "ATXN3 binds to GABARAP on the phagophore membrane via its LIR domains → ATXN3 is transiently recruited to early autophagosomes → ATXN3 regulates autophagosome maturation and fusion with lysosomes → Autophagic flux is enhanced → Cellular components are efficiently degraded."
+      ],
+      "specific_effects": [
+        "ATXN3 directly interacts with GABARAP.",
+        "Depletion of ATXN3 leads to an increase in the number of autophagosomes but a reduction in autophagic degradation, indicating impaired flux.",
+        "The interaction is transient and regulatory, occurring early in the autophagy pathway."
+      ],
+      "evidence": [
+        {
+          "paper_title": "The Machado-Joseph disease deubiquitylase ataxin-3 interacts with LC3C/GABARAP and promotes autophagy",
+          "doi": "10.1111/acel.13051",
+          "authors": "Herzog LK, Kevei E, Marchante R, Böttcher C, Dantuma NP, Hoppe T",
+          "journal": "Aging Cell",
+          "year": 2020,
+          "assay": "In vitro binding assay, GST pull-down",
+          "species": "human",
+          "relevant_quote": "We identified two conserved LIR domains in the catalytic Josephin domain of ATXN3 that directly interacted with the autophagy adaptors LC3C and GABARAP in vitro.",
+          "pmid": "31625269"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "31625269"
+      ],
+      "function_effect": "activation"
+    }
+  ],
+  "arrow": "binds",
+  "direction": "main_to_primary",
+  "intent": "regulation",
+  "arrows": {
+    "main_to_primary": [
+      "activates"
+    ]
+  },
+  "mechanism": "ATXN3 contains two conserved LIR (LC3-interacting region) domains within its catalytic Josephin domain that directly interact with GABARAP, an ATG8 family protein.",
+  "effect": "This interaction localizes ATXN3 to early autophagosomes, where it regulates the initiation phase to ensure efficient autophagic degradation and prevent superfluous autophagosome formation.",
+  "summary": "ATXN3 activates GABARAP to modulate autophagic flux, ultimately affecting cellular components are efficiently degraded.",
+  "evidence": [
+    {
+      "paper_title": "The Machado-Joseph disease deubiquitylase ataxin-3 interacts with LC3C/GABARAP and promotes autophagy",
+      "doi": "10.1111/acel.13051",
+      "authors": "Herzog LK, Kevei E, Marchante R, Böttcher C, Dantuma NP, Hoppe T",
+      "journal": "Aging Cell",
+      "year": 2020,
+      "assay": "In vitro binding assay, GST pull-down",
+      "species": "human",
+      "relevant_quote": "We identified two conserved LIR domains in the catalytic Josephin domain of ATXN3 that directly interacted with the autophagy adaptors LC3C and GABARAP in vitro."
+    }
+  ],
+  "interaction_effect": "binds",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 2
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATXN3 --binds--> GABARAP:",
+  "protein_a": "ATXN3",
+  "protein_b": "GABARAP",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-18T20:57:38.907963Z",
+  "last_updated": "2025-11-18T20:57:38.907963Z"
+}

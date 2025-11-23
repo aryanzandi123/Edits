@@ -1,0 +1,69 @@
+{
+  "primary": "CAMK2A",
+  "direction": "main_to_primary",
+  "arrow": "inhibits",
+  "intent": "sequestration",
+  "support_summary": "In the context of Spinocerebellar Ataxia Type 3 (SCA3), the mutant, polyglutamine-expanded ATXN3 protein abnormally interacts with and sequesters Calcium/calmodulin-dependent protein kinase II subunit alpha (CAMK2A). This sequestration into aggregates disrupts CAMK2A's normal functions, such as its role in mitochondrial transport, contributing to the neurodegenerative pathology of SCA3.",
+  "functions": [
+    {
+      "function": "CAMK2A Function",
+      "arrow": "inhibits",
+      "cellular_process": "Proteomic analysis of brain lysates from a SCA3 mouse model (Ki150) revealed that mutant, polyQ-expanded ATXN3 abnormally interacts with Camk2a, a subunit of the Calcium/calmodulin-dependent protein kinase II complex.",
+      "effect_description": "This abnormal interaction leads to the sequestration of CAMK2A into large, insoluble protein aggregates, which is thought to impair its kinase activity and its role in crucial neuronal processes.",
+      "biological_consequence": [
+        "PolyQ-expanded mutant ATXN3 binds CAMK2A → Sequestration of CAMK2A into insoluble protein aggregates → Decreased phosphorylation of CaMKII targets → Impairment of CaMKII complex function → Contribution to neuronal dysfunction in SCA3."
+      ],
+      "specific_effects": [
+        "Mutant ataxin-3 abnormally interacted with subunits of large complexes such as Cct5, Cct6, Tcp1, Camk2a and Camk2b in brain lysates from a SCA3 mouse model.",
+        "The activity of CaMKII is likely affected by the presence of mutant ataxin-3, as shown by decreased phosphorylation of its targets in a SCA3 mouse brain."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Impaired interactions of ataxin-3 with protein complexes reveals their specific structure and functions in SCA3 Ki150 model",
+          "doi": "10.3389/fnmol.2023.1122308",
+          "authors": "Piasecki J, Wiatr K, Michalik A, Figiel M",
+          "journal": "Frontiers in Molecular Neuroscience",
+          "year": 2023,
+          "assay": "Co-immunoprecipitation, Proteomics",
+          "species": "mouse",
+          "relevant_quote": "Among others, mutant ataxin-3 abnormally interacted with subunits of large complexes such as Cct5 and 6, Tcp1, and Camk2a and Camk2b.",
+          "pmid": "37033372"
+        }
+      ],
+      "pmids": [
+        "37033372"
+      ],
+      "interaction_effect": "inhibition",
+      "interaction_direction": "main_to_primary",
+      "function_effect": "inhibition"
+    }
+  ],
+  "mechanism": "Proteomic analysis of brain lysates from a SCA3 mouse model (Ki150) revealed that mutant, polyQ-expanded ATXN3 abnormally interacts with Camk2a, a subunit of the Calcium/calmodulin-dependent protein kinase II complex.",
+  "effect": "This abnormal interaction leads to the sequestration of CAMK2A into large, insoluble protein aggregates, which is thought to impair its kinase activity and its role in crucial neuronal processes.",
+  "summary": "ATXN3 inhibits CAMK2A to modulate camk2a function, ultimately affecting contribution to neuronal dysfunction in sca3.",
+  "evidence": [
+    {
+      "paper_title": "Impaired interactions of ataxin-3 with protein complexes reveals their specific structure and functions in SCA3 Ki150 model",
+      "doi": "10.3389/fnmol.2023.1122308",
+      "authors": "Piasecki J, Wiatr K, Michalik A, Figiel M",
+      "journal": "Frontiers in Molecular Neuroscience",
+      "year": 2023,
+      "assay": "Co-immunoprecipitation, Proteomics",
+      "species": "mouse",
+      "relevant_quote": "Among others, mutant ataxin-3 abnormally interacted with subunits of large complexes such as Cct5 and 6, Tcp1, and Camk2a and Camk2b."
+    }
+  ],
+  "interaction_effect": "inhibition",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATXN3 --inhibits--> CAMK2A:",
+  "protein_a": "ATXN3",
+  "protein_b": "CAMK2A",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-23T07:58:56.242580Z",
+  "last_updated": "2025-11-23T07:58:56.242580Z"
+}

@@ -1,0 +1,120 @@
+{
+  "primary": "TFEB",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "The E3 ubiquitin ligase STUB1 (also known as CHIP) interacts with phosphorylated TFEB, promoting its polyubiquitination and subsequent proteasomal degradation. This process regulates TFEB protein stability and prevents the accumulation of its inactive form.",
+  "functions": [
+    {
+      "function": "Ubiquitination & Proteasomal Degradation of Phospho-TFEB",
+      "arrow": "activates",
+      "cellular_process": "STUB1 is a chaperone-dependent E3 ubiquitin ligase that preferentially recognizes and binds to the inactive, phosphorylated form of TFEB (e.g., phospho-S142 and S211). It then mediates the polyubiquitination of TFEB, marking it for degradation by the proteasome.",
+      "effect_description": "STUB1-mediated degradation of phosphorylated TFEB reduces the total cellular pool of the transcription factor, thereby inhibiting its overall activity by controlling its abundance.",
+      "biological_consequence": [
+        "mTORC1 phosphorylates TFEB at Ser142 and Ser211, inactivating it → STUB1 E3 ligase preferentially binds to inactive, phosphorylated TFEB → STUB1 mediates polyubiquitination of phospho-TFEB → Phospho-TFEB is targeted for proteasomal degradation → Total TFEB protein levels are modulated, attenuating the autophagic response."
+      ],
+      "specific_effects": [
+        "Preferentially interacts with mTOR-phosphorylated TFEB.",
+        "Mediates proteasomal degradation of TFEB.",
+        "Loss of STUB1 leads to accumulation of inactive, phosphorylated TFEB.",
+        "Regulates autophagy and mitochondrial biogenesis by modulating TFEB levels."
+      ],
+      "evidence": [
+        {
+          "paper_title": "STUB1 regulates TFEB-induced autophagy-lysosome pathway",
+          "doi": "10.15252/embj.201796699",
+          "authors": "Sha Y, Rao L, Settembre C, Ballabio A, Eissa NT",
+          "journal": "The EMBO Journal",
+          "year": 2017,
+          "assay": "Co-Immunoprecipitation, Ubiquitination Assay",
+          "species": "human, mouse",
+          "relevant_quote": "STUB1 preferentially interacted with and ubiqutinated phosphorylated TFEB, targeting it to proteasomal degradation.",
+          "pmid": "28754656"
+        },
+        {
+          "paper_title": "The E3 ubiquitin ligase STUB1 regulates autophagy and mitochondrial biogenesis by modulating TFEB activity",
+          "doi": "10.1080/23723556.2017.1372867",
+          "authors": "Sha Y, Eissa NT",
+          "journal": "Molecular & Cellular Oncology",
+          "year": 2017,
+          "assay": "Review",
+          "species": "human, mouse",
+          "relevant_quote": "STUB1, a chaperone-dependent E3 ubiquitin ligase, modulates TFEB activity by preferentially targeting inactive phosphorylated TFEB for degradation by the ubiquitin proteasome pathway.",
+          "pmid": "29209655"
+        },
+        {
+          "paper_title": "The post-translational regulation of transcription factor EB (TFEB) in health and disease",
+          "doi": "10.15252/embr.202357574",
+          "authors": "Lynch G, Dell'Angelica EC",
+          "journal": "EMBO reports",
+          "year": 2023,
+          "assay": "Review",
+          "species": "human",
+          "relevant_quote": "The activity of TFEB depends on its subcellular localisation, turnover, and DNA-binding capacity, all of which are regulated at the post-translational level.",
+          "pmid": "37728021"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "primary_to_main",
+      "interaction_direction": "primary_to_main",
+      "pmids": [
+        "28754656",
+        "29209655",
+        "37728021"
+      ],
+      "function_effect": "activation"
+    }
+  ],
+  "arrow": "inhibits",
+  "direction": "main_to_primary",
+  "intent": "ubiquitination",
+  "mechanism": "STUB1 is a chaperone-dependent E3 ubiquitin ligase that preferentially recognizes and binds to the inactive, phosphorylated form of TFEB (e.g., phospho-S142 and S211). It then mediates the polyubiquitination of TFEB, marking it for degradation by the proteasome.",
+  "effect": "STUB1-mediated degradation of phosphorylated TFEB reduces the total cellular pool of the transcription factor, thereby inhibiting its overall activity by controlling its abundance.",
+  "summary": "TFEB inhibits STUB1 to modulate ubiquitination & proteasomal degradation of phospho-tfeb, ultimately affecting total tfeb protein levels are modulated, attenuating the autophagic response.",
+  "evidence": [
+    {
+      "paper_title": "STUB1 regulates TFEB-induced autophagy-lysosome pathway",
+      "doi": "10.15252/embj.201796699",
+      "authors": "Sha Y, Rao L, Settembre C, Ballabio A, Eissa NT",
+      "journal": "The EMBO Journal",
+      "year": 2017,
+      "assay": "Co-Immunoprecipitation, Ubiquitination Assay",
+      "species": "human, mouse",
+      "relevant_quote": "STUB1 preferentially interacted with and ubiqutinated phosphorylated TFEB, targeting it to proteasomal degradation."
+    },
+    {
+      "paper_title": "The E3 ubiquitin ligase STUB1 regulates autophagy and mitochondrial biogenesis by modulating TFEB activity",
+      "doi": "10.1080/23723556.2017.1372867",
+      "authors": "Sha Y, Eissa NT",
+      "journal": "Molecular & Cellular Oncology",
+      "year": 2017,
+      "assay": "Review",
+      "species": "human, mouse",
+      "relevant_quote": "STUB1, a chaperone-dependent E3 ubiquitin ligase, modulates TFEB activity by preferentially targeting inactive phosphorylated TFEB for degradation by the ubiquitin proteasome pathway."
+    },
+    {
+      "paper_title": "The post-translational regulation of transcription factor EB (TFEB) in health and disease",
+      "doi": "10.15252/embr.202357574",
+      "authors": "Lynch G, Dell'Angelica EC",
+      "journal": "EMBO reports",
+      "year": 2023,
+      "assay": "Review",
+      "species": "human",
+      "relevant_quote": "The activity of TFEB depends on its subcellular localisation, turnover, and DNA-binding capacity, all of which are regulated at the post-translational level."
+    }
+  ],
+  "interaction_effect": "inhibition",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TFEB <--inhibits-- STUB1:",
+  "protein_a": "STUB1",
+  "protein_b": "TFEB",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.525322Z",
+  "last_updated": "2025-11-19T03:20:29.525322Z"
+}

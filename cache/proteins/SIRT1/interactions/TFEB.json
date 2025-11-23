@@ -1,0 +1,120 @@
+{
+  "primary": "TFEB",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "Sirtuin 1 (SIRT1) is a deacetylase that has been shown to directly interact with and deacetylate TFEB. This post-translational modification enhances TFEB's transcriptional activity, promoting the expression of genes involved in lysosomal biogenesis and autophagy.",
+  "functions": [
+    {
+      "function": "TFEB Deacetylation & Transcriptional",
+      "arrow": "activates",
+      "cellular_process": "SIRT1, an NAD+-dependent deacetylase, directly binds to TFEB in the nucleus and removes acetyl groups from specific lysine residues, such as K116.",
+      "effect_description": "Deacetylation by SIRT1 enhances TFEB's ability to bind to target gene promoters and activate transcription, leading to increased expression of lysosomal and autophagy-related genes.",
+      "biological_consequence": [
+        "SIRT1 binds to TFEB in the nucleus → SIRT1 deacetylates TFEB at specific lysine residues (e.g., K116) → TFEB transcriptional activity is enhanced → Upregulation of lysosomal and autophagy gene expression → Increased degradation of protein aggregates and enhanced autophagic flux."
+      ],
+      "specific_effects": [
+        "Directly binds to and deacetylates TFEB at specific sites (e.g., K116).",
+        "Increases TFEB's ability to activate target gene transcription.",
+        "Promotes TFEB-mediated clearance of protein aggregates (e.g., fibrillar Aβ).",
+        "Enhances autophagic flux."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Deacetylation of TFEB promotes fibrillar Aβ degradation by upregulating lysosomal biogenesis in microglia",
+          "doi": "10.1007/s13238-016-0269-2",
+          "authors": "Bao J, Zheng L, Zhang Q, Li X, Zhang X, Li Z, Bai X, Zhang Z, Huo W, Zhao X, Shang S, Wang Q, Zhang C, Ji J",
+          "journal": "Protein & Cell",
+          "year": 2016,
+          "assay": "Co-Immunoprecipitation, Mass Spectrometry",
+          "species": "mouse",
+          "relevant_quote": "Using mass spectrometry analysis, we firstly confirmed acetylation as a previously unreported modification of TFEB and found that SIRT1 directly interacted with and deacetylated TFEB at lysine residue 116.",
+          "pmid": "27209302"
+        },
+        {
+          "paper_title": "Berberine-induced TFEB deacetylation by SIRT1 promotes autophagy in peritoneal macrophages",
+          "doi": "10.18632/aging.202566",
+          "authors": "Zheng Y, Kou J, Jia Y, Yang Y, He Y, Wang J, Chen Y, Chen Y, Li X, Zhang Z, Yang L",
+          "journal": "Aging (Albany NY)",
+          "year": 2021,
+          "assay": "Co-Immunoprecipitation, Western Blot",
+          "species": "mouse",
+          "relevant_quote": "We found that berberine promoted autophagy of peritoneal macrophages by activating SIRT1 via the NAD+ synthesis pathway and, in turn, promoting TFEB nuclear translocation and deacetylation.",
+          "pmid": "33639613"
+        },
+        {
+          "paper_title": "Enhanced SIRT1-TFEB Interaction Promotes Lysosome Biogenesis and Autophagy by Reducing TFEB Acetylation: Revealing the Enterotoxicity Disparity of Deoxynivalenol and T-2 Toxin",
+          "doi": "10.1021/acs.jafc.3c07452",
+          "authors": "Wang Y, Wu S, Li Y, Wang Y, Li B, Zhang Z, Xu W",
+          "journal": "Journal of Agricultural and Food Chemistry",
+          "year": 2024,
+          "assay": "Co-Immunoprecipitation",
+          "species": "human",
+          "relevant_quote": "Mechanically, the T-2 toxin decreases TFEB acetylation via enhanced SIRT1-TFEB interaction and SIRT1 deacetylase activity, while DON maintains high TFEB acetylation by reversing the process.",
+          "pmid": "40373210"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "primary_to_main",
+      "interaction_direction": "primary_to_main",
+      "pmids": [
+        "27209302",
+        "33639613",
+        "40373210"
+      ],
+      "function_effect": "activation"
+    }
+  ],
+  "arrow": "activates",
+  "direction": "main_to_primary",
+  "intent": "deacetylation",
+  "mechanism": "SIRT1, an NAD+-dependent deacetylase, directly binds to TFEB in the nucleus and removes acetyl groups from specific lysine residues, such as K116.",
+  "effect": "Deacetylation by SIRT1 enhances TFEB's ability to bind to target gene promoters and activate transcription, leading to increased expression of lysosomal and autophagy-related genes.",
+  "summary": "TFEB activates SIRT1 to modulate tfeb deacetylation & transcriptional activation, ultimately affecting increased degradation of protein aggregates and enhanced autophagic flux.",
+  "evidence": [
+    {
+      "paper_title": "Deacetylation of TFEB promotes fibrillar Aβ degradation by upregulating lysosomal biogenesis in microglia",
+      "doi": "10.1007/s13238-016-0269-2",
+      "authors": "Bao J, Zheng L, Zhang Q, Li X, Zhang X, Li Z, Bai X, Zhang Z, Huo W, Zhao X, Shang S, Wang Q, Zhang C, Ji J",
+      "journal": "Protein & Cell",
+      "year": 2016,
+      "assay": "Co-Immunoprecipitation, Mass Spectrometry",
+      "species": "mouse",
+      "relevant_quote": "Using mass spectrometry analysis, we firstly confirmed acetylation as a previously unreported modification of TFEB and found that SIRT1 directly interacted with and deacetylated TFEB at lysine residue 116."
+    },
+    {
+      "paper_title": "Berberine-induced TFEB deacetylation by SIRT1 promotes autophagy in peritoneal macrophages",
+      "doi": "10.18632/aging.202566",
+      "authors": "Zheng Y, Kou J, Jia Y, Yang Y, He Y, Wang J, Chen Y, Chen Y, Li X, Zhang Z, Yang L",
+      "journal": "Aging (Albany NY)",
+      "year": 2021,
+      "assay": "Co-Immunoprecipitation, Western Blot",
+      "species": "mouse",
+      "relevant_quote": "We found that berberine promoted autophagy of peritoneal macrophages by activating SIRT1 via the NAD+ synthesis pathway and, in turn, promoting TFEB nuclear translocation and deacetylation."
+    },
+    {
+      "paper_title": "Enhanced SIRT1-TFEB Interaction Promotes Lysosome Biogenesis and Autophagy by Reducing TFEB Acetylation: Revealing the Enterotoxicity Disparity of Deoxynivalenol and T-2 Toxin",
+      "doi": "10.1021/acs.jafc.3c07452",
+      "authors": "Wang Y, Wu S, Li Y, Wang Y, Li B, Zhang Z, Xu W",
+      "journal": "Journal of Agricultural and Food Chemistry",
+      "year": 2024,
+      "assay": "Co-Immunoprecipitation",
+      "species": "human",
+      "relevant_quote": "Mechanically, the T-2 toxin decreases TFEB acetylation via enhanced SIRT1-TFEB interaction and SIRT1 deacetylase activity, while DON maintains high TFEB acetylation by reversing the process."
+    }
+  ],
+  "interaction_effect": "activation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 0
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TFEB <--activates-- SIRT1:",
+  "protein_a": "SIRT1",
+  "protein_b": "TFEB",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.523016Z",
+  "last_updated": "2025-11-19T03:20:29.523016Z"
+}

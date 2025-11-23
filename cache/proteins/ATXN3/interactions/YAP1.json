@@ -1,0 +1,117 @@
+{
+  "primary": "YAP1",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "ATXN3 functions as a deubiquitinase for the oncoprotein Yes-associated protein 1 (YAP1). By removing K48-linked polyubiquitin chains, ATXN3 protects YAP1 from proteasomal degradation, thereby increasing its stability and promoting its oncogenic activity in various cancers.",
+  "functions": [
+    {
+      "function": "YAP1 Protein Stability",
+      "arrow": "activates",
+      "cellular_process": "ATXN3 directly interacts with, deubiquitinates, and stabilizes the Hippo pathway effector YAP1. By removing K48-linked polyubiquitin chains, ATXN3 prevents the proteasomal degradation of YAP1.",
+      "effect_description": "ATXN3-mediated deubiquitination stabilizes the oncoprotein YAP1, leading to increased cell proliferation, migration, and tumor growth.",
+      "biological_consequence": [
+        "ATXN3 removes K48-linked polyubiquitin from YAP1 → YAP1 proteasomal degradation is blocked → YAP1 protein levels increase → Enhanced YAP1 nuclear translocation & TEAD-dependent transcription → Increased cancer cell proliferation and migration."
+      ],
+      "specific_effects": [
+        "ATXN3 depletion decreases YAP1 protein levels and the expression of YAP/TEAD target genes.",
+        "The Josephin domain of ATXN3 interacts with the WW domain of YAP1.",
+        "ATXN3 specifically inhibits K48-linked polyubiquitination of YAP1.",
+        "The interaction and stabilization of YAP1 by ATXN3 is observed in breast, pancreatic, and prostate cancer."
+      ],
+      "evidence": [
+        {
+          "paper_title": "ATXN3 deubiquitinates YAP1 to promote tumor growth",
+          "doi": "10.26585/ajcr.2023.13.9.4222",
+          "authors": "Shengnan Wang, Kun Liu, Xiaohua Han, Yang Cheng, Emily Zhao, Daniel J Brat, Zhaolin Sun, Deyu Fang",
+          "journal": "American Journal of Cancer Research",
+          "year": 2023,
+          "assay": "CRISPR-Cas9, Co-IP, Western blot",
+          "species": "human",
+          "relevant_quote": "Our current study identified that the deubiquitinase ATXN3 interacts with YAP1 in multiple cancer cell lines and functions as a YAP1 deubiquitinase.",
+          "pmid": "37818078"
+        },
+        {
+          "paper_title": "ATXN3 promotes prostate cancer progression by stabilizing YAP",
+          "doi": "10.1186/s12964-023-01073-9",
+          "authors": "Longxiang Wu, Zhenyu Ou, Peihua Liu, Cheng Zhao, Shiyu Tong, Ruizhe Wang, Yangle Li, Junbin Yuan, Minfeng Chen, Benyi Fan, Xiongbing Zu, Yongjie Wang, Jianing Tang",
+          "journal": "Cell & Communication Signaling",
+          "year": 2023,
+          "assay": "siRNA screening, Co-IP, Western blot",
+          "species": "human",
+          "relevant_quote": "ATXN3 was shown to interact with, deubiquitylate, and stabilize YAP in a deubiquitylation activity-dependent manner.",
+          "pmid": "37349820"
+        },
+        {
+          "paper_title": "The deubiquitinating enzyme ATXN3 promotes hepatocellular carcinoma progression by stabilizing TAZ",
+          "doi": "10.1038/s41417-024-00869-2",
+          "authors": "Yuanhao Peng, Hui Nie, Kuo Kang, Xuanxuan Li, Yongguang Tao, Yangying Zhou",
+          "journal": "Cancer Gene Therapy",
+          "year": 2024,
+          "assay": "Co-IP, Western blot",
+          "species": "human",
+          "relevant_quote": "ATXN3 could interact with, stabilize, and deubiquitylate TAZ in a deubiquitylase-dependent manner.",
+          "pmid": "39672915"
+        }
+      ],
+      "_context": {
+        "type": "direct",
+        "query_protein": null,
+        "chain": null
+      },
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "37818078",
+        "37349820",
+        "39672915"
+      ]
+    }
+  ],
+  "arrow": "activates",
+  "direction": "main_to_primary",
+  "intent": "protein stabilization",
+  "mechanism": "ATXN3 directly interacts with, deubiquitinates, and stabilizes the Hippo pathway effector YAP1. By removing K48-linked polyubiquitin chains, ATXN3 prevents the proteasomal degradation of YAP1.",
+  "effect": "ATXN3-mediated deubiquitination stabilizes the oncoprotein YAP1, leading to increased cell proliferation, migration, and tumor growth.",
+  "summary": "ATXN3 activates YAP1 to modulate yap1 protein stability, ultimately affecting increased cancer cell proliferation and migration.",
+  "evidence": [
+    {
+      "paper_title": "ATXN3 deubiquitinates YAP1 to promote tumor growth",
+      "doi": "10.26585/ajcr.2023.13.9.4222",
+      "authors": "Shengnan Wang, Kun Liu, Xiaohua Han, Yang Cheng, Emily Zhao, Daniel J Brat, Zhaolin Sun, Deyu Fang",
+      "journal": "American Journal of Cancer Research",
+      "year": 2023,
+      "assay": "CRISPR-Cas9, Co-IP, Western blot",
+      "species": "human",
+      "relevant_quote": "Our current study identified that the deubiquitinase ATXN3 interacts with YAP1 in multiple cancer cell lines and functions as a YAP1 deubiquitinase."
+    },
+    {
+      "paper_title": "ATXN3 promotes prostate cancer progression by stabilizing YAP",
+      "doi": "10.1186/s12964-023-01073-9",
+      "authors": "Longxiang Wu, Zhenyu Ou, Peihua Liu, Cheng Zhao, Shiyu Tong, Ruizhe Wang, Yangle Li, Junbin Yuan, Minfeng Chen, Benyi Fan, Xiongbing Zu, Yongjie Wang, Jianing Tang",
+      "journal": "Cell & Communication Signaling",
+      "year": 2023,
+      "assay": "siRNA screening, Co-IP, Western blot",
+      "species": "human",
+      "relevant_quote": "ATXN3 was shown to interact with, deubiquitylate, and stabilize YAP in a deubiquitylation activity-dependent manner."
+    },
+    {
+      "paper_title": "The deubiquitinating enzyme ATXN3 promotes hepatocellular carcinoma progression by stabilizing TAZ",
+      "doi": "10.1038/s41417-024-00869-2",
+      "authors": "Yuanhao Peng, Hui Nie, Kuo Kang, Xuanxuan Li, Yongguang Tao, Yangying Zhou",
+      "journal": "Cancer Gene Therapy",
+      "year": 2024,
+      "assay": "Co-IP, Western blot",
+      "species": "human",
+      "relevant_quote": "ATXN3 could interact with, stabilize, and deubiquitylate TAZ in a deubiquitylase-dependent manner."
+    }
+  ],
+  "arrow_notation": "ATXN3 --activates--> YAP1:",
+  "protein_a": "ATXN3",
+  "protein_b": "YAP1",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-23T07:58:56.163313Z",
+  "last_updated": "2025-11-23T07:58:56.163313Z"
+}

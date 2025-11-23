@@ -1,0 +1,130 @@
+{
+  "primary": "MTOR",
+  "interaction_type": "indirect",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 2,
+  "support_summary": "ATXN3 is linked to autophagy, a cellular degradation process that is negatively regulated by the mTOR signaling pathway. Inhibition of mTOR promotes the clearance of mutant ATXN3, which is prone to aggregation and toxicity.",
+  "functions": [
+    {
+      "function": "Mutant ATXN3 Degradation",
+      "arrow": "inhibits",
+      "cellular_process": "The mTOR signaling pathway is a major negative regulator of autophagy.",
+      "effect_description": "Because autophagy is a key pathway for the clearance of aggregated, polyQ-expanded ATXN3, the inhibitory effect of mTOR on autophagy results in decreased degradation of the mutant protein.",
+      "biological_consequence": [
+        "Active mTORC1 signaling pathway inhibits autophagy → Autophagic clearance of mutant ATXN3 is reduced → Mutant ATXN3 protein aggregates accumulate → Cellular toxicity is increased."
+      ],
+      "specific_effects": [
+        "Inhibition of the mTOR pathway promotes the autophagic clearance of mutant ATXN3."
+      ],
+      "evidence": [
+        {
+          "paper_title": "n-Butylidenephthalide Modulates Autophagy to Ameliorate Neuropathological Progress of Spinocerebellar Ataxia Type 3 through mTOR Pathway",
+          "doi": "10.3390/ijms22126339",
+          "authors": "Lee JH, Lin SY, Liu JW, Lin SZ, Harn HJ, Chiou TW",
+          "journal": "International Journal of Molecular Sciences",
+          "year": 2021,
+          "assay": "Western Blot",
+          "species": "mouse, human",
+          "relevant_quote": "n-BP treated animal and HEK-293GFP-ATXN3-84Q cell models could consistently show the depletion of aggregates through mTOR inhibition.",
+          "pmid": "34199295"
+        },
+        {
+          "paper_title": "Regulation of Autophagy by mTOR Signaling Pathway",
+          "doi": "10.1007/978-981-15-0602-4_3",
+          "authors": "Wang Y, Zhang H",
+          "journal": "Advances in Experimental Medicine and Biology",
+          "year": 2019,
+          "assay": "Review",
+          "species": "human",
+          "relevant_quote": "Among these pathways, some pathways converge at the target of rapamycin (TOR), a highly conserved kinase important for autophagy regulation.",
+          "pmid": "31776980"
+        },
+        {
+          "paper_title": "Inhibition of mTOR induces autophagy and reduces toxicity of polyglutamine expansions in fly and mouse models of Huntington disease",
+          "doi": "10.1038/ng1322",
+          "authors": "Ravikumar B, Vacher C, Berger Z, Davies JE, Luo S, Oroz LG, Scaravilli F, Easton DF, Duden R, O'Kane CJ, Rubinsztein DC",
+          "journal": "Nature Genetics",
+          "year": 2004,
+          "assay": "Behavioral tests, Western Blot",
+          "species": "fly, mouse",
+          "relevant_quote": "Sequestration of mTOR impairs its kinase activity and induces autophagy, a key clearance pathway for mutant huntingtin fragments.",
+          "pmid": "15146184"
+        }
+      ],
+      "interaction_effect": "inhibits",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "34199295",
+        "31776980",
+        "15146184"
+      ],
+      "function_effect": "inhibition",
+      "arrow_context": {
+        "direct_from": null,
+        "direct_arrow": "inhibits",
+        "net_from": "ATXN3",
+        "net_arrow": "inhibits",
+        "mediator_chain": [],
+        "is_indirect": true
+      },
+      "net_arrow": "inhibits",
+      "direct_arrow": "inhibits",
+      "net_effect": "inhibition",
+      "direct_effect": "inhibition"
+    }
+  ],
+  "arrow": "regulates",
+  "direction": "main_to_primary",
+  "intent": "regulation of autophagy",
+  "_chain_inferred": true,
+  "mechanism": "The mTOR signaling pathway is a major negative regulator of autophagy.",
+  "effect": "Because autophagy is a key pathway for the clearance of aggregated, polyQ-expanded ATXN3, the inhibitory effect of mTOR on autophagy results in decreased degradation of the mutant protein.",
+  "summary": "ATXN3 inhibits MTOR to modulate mutant atxn3 degradation, ultimately affecting cellular toxicity is increased.",
+  "evidence": [
+    {
+      "paper_title": "n-Butylidenephthalide Modulates Autophagy to Ameliorate Neuropathological Progress of Spinocerebellar Ataxia Type 3 through mTOR Pathway",
+      "doi": "10.3390/ijms22126339",
+      "authors": "Lee JH, Lin SY, Liu JW, Lin SZ, Harn HJ, Chiou TW",
+      "journal": "International Journal of Molecular Sciences",
+      "year": 2021,
+      "assay": "Western Blot",
+      "species": "mouse, human",
+      "relevant_quote": "n-BP treated animal and HEK-293GFP-ATXN3-84Q cell models could consistently show the depletion of aggregates through mTOR inhibition."
+    },
+    {
+      "paper_title": "Regulation of Autophagy by mTOR Signaling Pathway",
+      "doi": "10.1007/978-981-15-0602-4_3",
+      "authors": "Wang Y, Zhang H",
+      "journal": "Advances in Experimental Medicine and Biology",
+      "year": 2019,
+      "assay": "Review",
+      "species": "human",
+      "relevant_quote": "Among these pathways, some pathways converge at the target of rapamycin (TOR), a highly conserved kinase important for autophagy regulation."
+    },
+    {
+      "paper_title": "Inhibition of mTOR induces autophagy and reduces toxicity of polyglutamine expansions in fly and mouse models of Huntington disease",
+      "doi": "10.1038/ng1322",
+      "authors": "Ravikumar B, Vacher C, Berger Z, Davies JE, Luo S, Oroz LG, Scaravilli F, Easton DF, Duden R, O'Kane CJ, Rubinsztein DC",
+      "journal": "Nature Genetics",
+      "year": 2004,
+      "assay": "Behavioral tests, Western Blot",
+      "species": "fly, mouse",
+      "relevant_quote": "Sequestration of mTOR impairs its kinase activity and induces autophagy, a key clearance pathway for mutant huntingtin fragments."
+    }
+  ],
+  "interaction_effect": "regulates",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 3
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATXN3 --regulates--> MTOR:",
+  "protein_a": "ATXN3",
+  "protein_b": "MTOR",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-18T20:57:38.943255Z",
+  "last_updated": "2025-11-18T20:57:38.943255Z"
+}

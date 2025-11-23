@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProPath</title>
+    <link rel="icon" type="image/png" href="/static/logo.png">
+    <link rel="apple-touch-icon" href="/static/logo.png">
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">Query a Protein Pathway</h1>
+            <p class="subtitle">Enter a protein symbol to generate an interactive signaling network.</p>
+            <div class="header-search-container">
+                <div class="input-container">
+                    <input type="text" id="protein-input" placeholder="e.g., ATXN3, TP53...">
+                    <button id="query-button">Generate</button>
+                </div>
+
+                <!-- Research Settings -->
+                <details class="config-details" style="margin-top: 12px;">
+                    <summary class="config-summary">Research Settings</summary>
+                    <div class="config-content">
+                        <div class="config-presets">
+                            <button class="preset-btn" onclick="setPreset(3,3,2)">Quick</button>
+                            <button class="preset-btn" onclick="setPreset(5,5,3)">Standard</button>
+                            <button class="preset-btn" onclick="setPreset(8,8,4)">Thorough</button>
+                        </div>
+                        <div class="config-inputs">
+                            <label class="config-label">
+                                <span class="config-label-text">Interactor Discovery Rounds:</span>
+                                <input type="number" id="interactor-rounds" class="config-input" min="3" max="8" value="3">
+                            </label>
+                            <label class="config-label">
+                                <span class="config-label-text">Function Mapping Rounds:</span>
+                                <input type="number" id="function-rounds" class="config-input" min="3" max="8" value="3">
+                            </label>
+                            <label class="config-label">
+                                <span class="config-label-text">Max Chain Depth:</span>
+                                <select id="max-depth" class="config-input">
+                                    <option value="1">1 (Direct only)</option>
+                                    <option value="2">2 (Direct + 1 level)</option>
+                                    <option value="3" selected>3 (2 levels indirect)</option>
+                                    <option value="4">4 (3 levels indirect)</option>
+                                    <option value="5">5+ (Unlimited)</option>
+                                </select>
+                            </label>
+                            <label class="config-label" style="margin-top: 8px;">
+                                <input type="checkbox" id="skip-validation" class="config-checkbox">
+                                <span class="config-label-text">Skip evidence validation (faster, less thorough)</span>
+                            </label>
+                            <label class="config-label" style="margin-top: 4px;">
+                                <input type="checkbox" id="skip-deduplicator" class="config-checkbox">
+                                <span class="config-label-text">Skip deduplication (faster, may have duplicate functions)</span>
+                            </label>
+                            <label class="config-label" style="margin-top: 4px;">
+                                <input type="checkbox" id="skip-arrow-determination" class="config-checkbox">
+                                <span class="config-label-text">Skip arrow determination (100× faster, uses heuristic)</span>
+                            </label>
+                            <label class="config-label" style="margin-top: 4px;">
+                                <input type="checkbox" id="skip-fact-checking" class="config-checkbox">
+                                <span class="config-label-text">Skip fact-checking (faster, may include unverified claims)</span>
+                            </label>
+                        </div>
+                    </div>
+                </details>
+            </div>
+            <div id="job-notification" class="job-notification">
+                <!-- This is where background job notifications will appear on the results page -->
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div id="status-display">
+                <!-- Multi-job tracker container -->
+                <div id="job-container" class="job-container"></div>
+                <!-- Status message for non-job updates -->
+                <p id="status-message"></p>
+            </div>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>

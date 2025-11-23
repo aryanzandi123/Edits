@@ -1,0 +1,122 @@
+{
+  "primary": "ATF6",
+  "interaction_type": "indirect",
+  "upstream_interactor": null,
+  "mediator_chain": [
+    "BiP",
+    "XBP1"
+  ],
+  "depth": 2,
+  "support_summary": "IRE1 (ERN1) and ATF6 are parallel sensors of the Unfolded Protein Response (UPR) that are co-activated under ER stress through dissociation from the chaperone BiP. They do not directly interact, but their pathways exhibit significant crosstalk. ATF6 transcriptionally upregulates XBP1, the substrate for IRE1's splicing activity, thereby amplifying the IRE1 signal and coordinating the overall UPR.",
+  "functions": [
+    {
+      "function": "Parallel Unfolded Protein Response Signaling",
+      "arrow": "inhibits",
+      "cellular_process": "IRE1 and ATF6 are parallel ER stress sensors that are both maintained in an inactive state by binding to the chaperone BiP/GRP78. Upon accumulation of unfolded proteins, BiP dissociates, leading to the concurrent activation of both pathways.",
+      "effect_description": "This co-activation initiates two distinct but interconnected signaling branches of the UPR, leading to a comprehensive cellular response to restore ER homeostasis.",
+      "biological_consequence": [
+        "Accumulation of unfolded proteins in the ER → Competitive dissociation of BiP/GRP78 from ATF6 and IRE1 sensors → Parallel activation of the ATF6 and IRE1 signaling branches of the UPR → Coordinated transcriptional upregulation of UPR target genes → Restoration of ER homeostasis or initiation of apoptosis"
+      ],
+      "specific_effects": [
+        "IRE1 and ATF6 are both released from BiP sequestration during ER stress.",
+        "ATF6 activation enhances the substrate pool for the IRE1 pathway by increasing XBP1 mRNA transcription.",
+        "The two pathways are activated with similar response dynamics to fine-tune the cellular response to ER stress."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Dynamic changes in complexes of IRE1α, PERK, and ATF6α during endoplasmic reticulum stress",
+          "doi": "10.1091/mbc.E17-11-0661",
+          "authors": "Li H, Yang L, Li L, Liu H, Wang Y, Li L, Wu H",
+          "journal": "Molecular Biology of the Cell",
+          "year": 2018,
+          "assay": "Blue Native PAGE, Immunoblotting",
+          "species": "human",
+          "relevant_quote": "all three UPR sensors exist as preformed complexes even in unstressed cells. While PERK complexes shift to large complexes, ATF6α complexes are reduced to smaller complexes on ER stress.",
+          "pmid": "29851562"
+        }
+      ],
+      "interaction_effect": "inhibits",
+      "direction": "none",
+      "interaction_direction": "none",
+      "pmids": [
+        "29851562"
+      ],
+      "direct_arrow": "inhibits",
+      "function_effect": "inhibition",
+      "arrow_context": {
+        "direct_from": null,
+        "direct_arrow": "inhibits",
+        "net_from": "ATF6",
+        "net_arrow": "inhibits",
+        "mediator_chain": [
+          "BiP",
+          "XBP1"
+        ],
+        "is_indirect": true
+      },
+      "net_arrow": "inhibits",
+      "net_effect": "inhibition",
+      "direct_effect": "inhibition"
+    }
+  ],
+  "arrows": {
+    "main_to_primary": [
+      "activates"
+    ]
+  },
+  "arrow": "inhibits",
+  "direction": "primary_to_main",
+  "_chain_inferred": true,
+  "_inferred_mediators": [
+    "XBP1"
+  ],
+  "intent": "regulation",
+  "mechanism": "IRE1 and ATF6 are parallel ER stress sensors that are both maintained in an inactive state by binding to the chaperone BiP/GRP78. Upon accumulation of unfolded proteins, BiP dissociates, leading to the concurrent activation of both pathways.",
+  "effect": "This co-activation initiates two distinct but interconnected signaling branches of the UPR, leading to a comprehensive cellular response to restore ER homeostasis.",
+  "summary": "ATF6 activates IRE1 to modulate parallel unfolded protein response signaling, ultimately affecting restoration of er homeostasis or initiation of apoptosis.",
+  "evidence": [
+    {
+      "paper_title": "Unfolded protein response: IRE1, PERK and ATF6 activation. Cells cope with stressful conditions by activating the unfolded protein response. This response is mediated via the dissociation of Grp78 from three ER transmembrane proteins IRE1a, PERK and ATF6.",
+      "doi": "10.1007/978-3-319-75212-2_2",
+      "authors": "Logue SE, Cleary P, Saveljeva S, Samali A",
+      "journal": "Methods in Molecular Biology",
+      "year": 2018,
+      "assay": "Review",
+      "species": "mammalian",
+      "relevant_quote": "Cells cope with stressful conditions by activating the unfolded protein response. This response is mediated via the dissociation of Grp78 from three ER transmembrane proteins IRE1a, PERK and ATF6."
+    },
+    {
+      "paper_title": "Dynamic changes in complexes of IRE1α, PERK, and ATF6α during endoplasmic reticulum stress",
+      "doi": "10.1091/mbc.E17-11-0661",
+      "authors": "Li H, Yang L, Li L, Liu H, Wang Y, Li L, Wu H",
+      "journal": "Molecular Biology of the Cell",
+      "year": 2018,
+      "assay": "Blue Native PAGE, Immunoblotting",
+      "species": "human",
+      "relevant_quote": "all three UPR sensors exist as preformed complexes even in unstressed cells. While PERK complexes shift to large complexes, ATF6α complexes are reduced to smaller complexes on ER stress."
+    },
+    {
+      "paper_title": "Antagonistic crosstalk fine-tunes sensitivities of IRE1 and PERK signaling during unfolded protein response",
+      "doi": "10.1101/2020.08.09.243399",
+      "authors": "Jiang J, Qu Y, Liu X, Tang C, Wei P",
+      "journal": "bioRxiv (preprint)",
+      "year": 2020,
+      "assay": "Dual-reporter system, Modeling",
+      "species": "human",
+      "relevant_quote": "The initial response in the ER is fluxed into several parallel branches, i.e., IRE1, PERK, and ATF6 branch."
+    }
+  ],
+  "interaction_effect": "inhibits",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 3
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATF6 --inhibits--> IRE1:",
+  "protein_a": "IRE1",
+  "protein_b": "ATF6",
+  "discovered_in_query": "ATF6",
+  "first_discovered": "2025-11-18T21:01:00.246278Z",
+  "last_updated": "2025-11-18T21:01:00.246278Z"
+}

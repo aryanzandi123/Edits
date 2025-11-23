@@ -1,0 +1,230 @@
+{
+  "primary": "ATF6",
+  "interaction_type": "indirect",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 2,
+  "support_summary": "The relationship between ATF6 and p53 is complex and bidirectional, often depending on the cellular context and whether p53 is wild-type or mutant. Under severe ER stress, ATF6 can transcriptionally activate wild-type p53 to induce apoptosis. Conversely, certain p53 mutants can sustain ATF6 activation to promote cancer cell survival. In other contexts, ATF6 activation can promote the degradation of mutant p53.",
+  "functions": [
+    {
+      "function": "p53 Gene Transcription",
+      "arrow": "activates",
+      "cellular_process": "Under conditions of severe ER stress, the active nuclear form of ATF6 (p50) acts as a transcription factor that binds to the promoter of the TP53 gene, upregulating its expression.",
+      "effect_description": "Transcriptional activation of p53 by ATF6 links the ER stress response directly to the canonical p53-mediated apoptosis pathway, providing a mechanism for eliminating cells under prolonged or irremediable ER stress.",
+      "biological_consequence": [
+        "Severe ER Stress → ATF6 Translocation to Golgi → Proteolytic Cleavage of ATF6 → Active ATF6 (p50) Translocates to Nucleus → ATF6 Binds to TP53 Promoter → Upregulation of p53 Gene Transcription → p53-Mediated Apoptosis"
+      ],
+      "specific_effects": [
+        "ATF6 signaling regulates p53 expression to modulate pancreatic acinar cell apoptosis in pancreatitis.",
+        "The ATF6-p53-AIFM2 pathway is a key factor in ER stress-induced apoptosis."
+      ],
+      "evidence": [
+        {
+          "paper_title": "ATF6 aggravates acinar cell apoptosis and injury by regulating p53/AIFM2 transcription in Severe Acute Pancreatitis",
+          "doi": "10.7150/thno.46934",
+          "authors": "Tan JH, Cao RC, Zhou L, Zhou ZT, Chen HJ, Xu J, Chen XM, Jin YC, Lin JY, Zeng JL, Li SJ, Luo M, Hu GD, Yang XB, Jin J, Zhang GW",
+          "journal": "Theranostics",
+          "year": 2020,
+          "assay": "ChIP-qPCR, Luciferase Reporter Assay",
+          "species": "mouse, human",
+          "relevant_quote": "Our ChIP and luciferase studies provide evidence that ATF6 binds to the p53 promoter and subsequently activates the p53-AIFM2 pathway.",
+          "pmid": "32724472"
+        },
+        {
+          "paper_title": "ATF6 regulates the development of chronic pancreatitis by inducing p53-mediated apoptosis",
+          "doi": "10.1038/s41419-019-1919-0",
+          "authors": "Zhou L, Tan JH, Cao RC, Xu J, Chen XM, Qi ZC, Zhou SY, Li SB, Mo QX, Li ZW, Zhang GW",
+          "journal": "Cell Death & Disease",
+          "year": 2019,
+          "assay": "Western Blot, Immunohistochemistry",
+          "species": "mouse, human",
+          "relevant_quote": "Finally, we showed that p53 expression could be regulated by the ATF6/XBP1/CHOP axis to promote the development of CP.",
+          "pmid": "31506423"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "32724472",
+        "31506423"
+      ],
+      "function_effect": "activation",
+      "arrow_context": {
+        "direct_from": null,
+        "direct_arrow": "activates",
+        "net_from": "ATF6",
+        "net_arrow": "activates",
+        "mediator_chain": [],
+        "is_indirect": true
+      },
+      "net_arrow": "activates",
+      "direct_arrow": "activates",
+      "net_effect": "activation",
+      "direct_effect": "activation"
+    },
+    {
+      "function": "Sustained ATF6 Activation (by Mutant p53)",
+      "arrow": "activates",
+      "cellular_process": "In certain cancer cells, gain-of-function mutant p53 proteins enhance the activation of the pro-survival UPR effector ATF6 during ER stress, while inhibiting pro-apoptotic UPR branches.",
+      "effect_description": "Mutant p53 sustains the activation of ATF6, which enhances the resistance of cancer cells to ER stress, thereby promoting cell survival, invasion, and chemoresistance.",
+      "biological_consequence": [
+        "Mutant p53 Presence in Cancer Cells → Enhanced Activation of Pro-Survival ATF6 Pathway during ER Stress → Inhibition of Pro-Apoptotic UPR Branches (JNK and CHOP) → Increased Cancer Cell Resistance to ER Stress → Enhanced Tumor Cell Viability and Invasion"
+      ],
+      "specific_effects": [
+        "Mutant p53 enhances the activation of the pro-survival UPR effector ATF6.",
+        "This interaction increases cancer cell resistance to ER stress.",
+        "ATF6 activity is necessary for viability and invasion phenotypes in some triple-negative breast cancers with TP53 mutations."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Mutant p53 improves cancer cells' resistance to endoplasmic reticulum stress by sustaining activation of the UPR regulator ATF6",
+          "doi": "10.1038/s41388-019-0878-3",
+          "authors": "Sicari D, Fantuz M, Bellazzo A, Valentino E, Apollonio M, Pontisso I, Di Cristino F, Dal Ferro M, Bicciato S, Del Sal G, Collavin L",
+          "journal": "Oncogene",
+          "year": 2019,
+          "assay": "Western Blot, Reporter Assay",
+          "species": "human",
+          "relevant_quote": "Mechanistically, this action of mutant p53 is due to enhanced activation of the pro-survival UPR effector ATF6, coordinated with inhibition of the pro-apoptotic UPR effectors JNK and CHOP.",
+          "pmid": "31312025"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "primary_to_main",
+      "interaction_direction": "primary_to_main",
+      "pmids": [
+        "31312025"
+      ],
+      "function_effect": "activation",
+      "arrow_context": {
+        "direct_from": null,
+        "direct_arrow": "activates",
+        "net_from": "ATF6",
+        "net_arrow": "activates",
+        "mediator_chain": [],
+        "is_indirect": true
+      },
+      "net_arrow": "activates",
+      "direct_arrow": "activates",
+      "net_effect": "activation",
+      "direct_effect": "activation"
+    },
+    {
+      "function": "Mutant p53 Degradation",
+      "arrow": "activates",
+      "cellular_process": "In response to ER stress, activated ATF6 sustains lysosomal function, which enables the execution of chaperone-mediated autophagy (CMA) and macroautophagy, processes that are involved in the degradation of mutant p53 protein.",
+      "effect_description": "ATF6 activation promotes the lysosomal degradation of mutant p53, thereby reducing its oncogenic potential. Inhibition of ATF6 counteracts this effect, stabilizing mutant p53 levels.",
+      "biological_consequence": [
+        "ER Stress → ATF6 Activation → Sustained Lysosomal Function → Activation of Chaperone-Mediated Autophagy (CMA) and Macroautophagy → Degradation of Mutant p53 Protein → Reduction of Mutant p53 Oncogenic Activity"
+      ],
+      "specific_effects": [
+        "ATF6 activation is required to sustain lysosomal function during ER stress.",
+        "ATF6-dependent autophagy and CMA lead to the degradation of mutant p53.",
+        "Inhibition of ATF6 rescues mutant p53 from degradation."
+      ],
+      "evidence": [
+        {
+          "paper_title": "ATF6 supports lysosomal function in tumor cells to enable ER stress-activated macroautophagy and CMA: impact on mutant TP53 expression",
+          "doi": "10.1080/15548627.2024.2338577",
+          "authors": "Benedetti R, Romeo MA, Arena A, Gilardini Montani MS, D'Orazi G, Cirone M",
+          "journal": "Autophagy",
+          "year": 2024,
+          "assay": "Western Blot, Immunofluorescence",
+          "species": "human",
+          "relevant_quote": "ER stress and UPR activation by thapsigargin or tunicamycin promoted the lysosomal degradation of mutant (MUT) TP53 and that the inhibition of the UPR sensor ATF6...counteracted such an effect.",
+          "pmid": "38566314"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "38566314"
+      ],
+      "function_effect": "activation",
+      "arrow_context": {
+        "direct_from": null,
+        "direct_arrow": "activates",
+        "net_from": "ATF6",
+        "net_arrow": "activates",
+        "mediator_chain": [],
+        "is_indirect": true
+      },
+      "net_arrow": "activates",
+      "direct_arrow": "activates",
+      "net_effect": "activation",
+      "direct_effect": "activation"
+    }
+  ],
+  "arrows": {
+    "main_to_primary": [
+      "activates",
+      "inhibits"
+    ],
+    "primary_to_main": [
+      "activates"
+    ]
+  },
+  "arrow": "regulates",
+  "direction": "bidirectional",
+  "_chain_inferred": true,
+  "intent": "regulation",
+  "mechanism": "Under conditions of severe ER stress, the active nuclear form of ATF6 (p50) acts as a transcription ; In certain cancer cells, gain-of-function mutant p53 proteins enhance the activation of the pro-surv; In response to ER stress, activated ATF6 sustains lysosomal function, which enables the execution of",
+  "effect": "Transcriptional activation of p53 by ATF6 links the ER stress response directly to the canonical p53-mediated apoptosis pathway, providing a mechanism for eliminating cells under prolonged or irremediable ER stress.; Mutant p53 sustains the activation of ATF6, which enhances the resistance of cancer cells to ER stress, thereby promoting cell survival, invasion, and chemoresistance.; ...",
+  "summary": "ATF6 regulates p53 to control multiple cellular processes including p53 gene transcription, sustained atf6 activation (by mutant p53), and mutant p53 degradation, ultimately affecting p53-mediated apoptosis.",
+  "evidence": [
+    {
+      "paper_title": "ATF6 aggravates acinar cell apoptosis and injury by regulating p53/AIFM2 transcription in Severe Acute Pancreatitis",
+      "doi": "10.7150/thno.46934",
+      "authors": "Tan JH, Cao RC, Zhou L, Zhou ZT, Chen HJ, Xu J, Chen XM, Jin YC, Lin JY, Zeng JL, Li SJ, Luo M, Hu GD, Yang XB, Jin J, Zhang GW",
+      "journal": "Theranostics",
+      "year": 2020,
+      "assay": "ChIP-qPCR, Luciferase Reporter Assay",
+      "species": "mouse, human",
+      "relevant_quote": "Our ChIP and luciferase studies provide evidence that ATF6 binds to the p53 promoter and subsequently activates the p53-AIFM2 pathway."
+    },
+    {
+      "paper_title": "ATF6 regulates the development of chronic pancreatitis by inducing p53-mediated apoptosis",
+      "doi": "10.1038/s41419-019-1919-0",
+      "authors": "Zhou L, Tan JH, Cao RC, Xu J, Chen XM, Qi ZC, Zhou SY, Li SB, Mo QX, Li ZW, Zhang GW",
+      "journal": "Cell Death & Disease",
+      "year": 2019,
+      "assay": "Western Blot, Immunohistochemistry",
+      "species": "mouse, human",
+      "relevant_quote": "Finally, we showed that p53 expression could be regulated by the ATF6/XBP1/CHOP axis to promote the development of CP."
+    },
+    {
+      "paper_title": "Mutant p53 improves cancer cells' resistance to endoplasmic reticulum stress by sustaining activation of the UPR regulator ATF6",
+      "doi": "10.1038/s41388-019-0878-3",
+      "authors": "Sicari D, Fantuz M, Bellazzo A, Valentino E, Apollonio M, Pontisso I, Di Cristino F, Dal Ferro M, Bicciato S, Del Sal G, Collavin L",
+      "journal": "Oncogene",
+      "year": 2019,
+      "assay": "Western Blot, Reporter Assay",
+      "species": "human",
+      "relevant_quote": "Mechanistically, this action of mutant p53 is due to enhanced activation of the pro-survival UPR effector ATF6, coordinated with inhibition of the pro-apoptotic UPR effectors JNK and CHOP."
+    },
+    {
+      "paper_title": "ATF6 supports lysosomal function in tumor cells to enable ER stress-activated macroautophagy and CMA: impact on mutant TP53 expression",
+      "doi": "10.1080/15548627.2024.2338577",
+      "authors": "Benedetti R, Romeo MA, Arena A, Gilardini Montani MS, D'Orazi G, Cirone M",
+      "journal": "Autophagy",
+      "year": 2024,
+      "assay": "Western Blot, Immunofluorescence",
+      "species": "human",
+      "relevant_quote": "ER stress and UPR activation by thapsigargin or tunicamycin promoted the lysosomal degradation of mutant (MUT) TP53 and that the inhibition of the UPR sensor ATF6...counteracted such an effect."
+    }
+  ],
+  "interaction_effect": "regulation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 3
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATF6 <--regulates--> p53:",
+  "protein_a": "p53",
+  "protein_b": "ATF6",
+  "discovered_in_query": "ATF6",
+  "first_discovered": "2025-11-18T21:01:00.251384Z",
+  "last_updated": "2025-11-18T21:01:00.251384Z"
+}

@@ -1,0 +1,114 @@
+{
+  "primary": "MTOR",
+  "direction": "primary_to_main",
+  "arrow": "inhibits",
+  "intent": "phosphorylation",
+  "support_summary": "As the catalytic subunit of the mTORC1 complex, MTOR directly phosphorylates TFEB on multiple serine residues, including S122, S142, and S211. This phosphorylation event prevents TFEB's nuclear translocation, effectively retaining it in the cytoplasm and inhibiting its transcriptional activity. This kinase-substrate interaction is a central mechanism for regulating lysosomal biogenesis and autophagy in response to nutrient availability.",
+  "functions": [
+    {
+      "function": "TFEB Cytoplasmic Retention & Transcriptional",
+      "arrow": "activates",
+      "cellular_process": "Under nutrient-rich conditions, MTOR, as part of the mTORC1 complex, directly phosphorylates TFEB on key serine residues (S122, S142, S211). This phosphorylation creates a binding site for YWHA (14-3-3) proteins, which sequester TFEB in the cytoplasm, masking its nuclear localization signal.",
+      "effect_description": "MTOR-mediated phosphorylation actively retains TFEB in the cytoplasm, thereby inhibiting its ability to enter the nucleus and activate the transcription of genes involved in lysosomal biogenesis and autophagy.",
+      "biological_consequence": [
+        "Nutrient abundance activates mTORC1 complex → mTORC1 phosphorylates TFEB at S122, S142, & S211 → Phospho-TFEB is bound by YWHA (14-3-3) proteins → TFEB is sequestered in the cytoplasm → TFEB nuclear translocation is blocked → Suppression of CLEAR gene network transcription → Inhibition of lysosomal biogenesis & autophagy"
+      ],
+      "specific_effects": [
+        "Phosphorylates TFEB at serines S122, S142, and S211.",
+        "Prevents TFEB from binding to CLEAR elements in the promoters of target genes.",
+        "Suppresses the expression of lysosomal and autophagy-related genes."
+      ],
+      "evidence": [
+        {
+          "paper_title": "The Transcription Factor TFEB Links mTORC1 Signaling to Transcriptional Control of Lysosome Homeostasis",
+          "doi": "10.1126/scisignal.2002790",
+          "authors": "Agnes Roczniak-Ferguson, Constance S Petit, Florian Froehlich, Shawn M Ferguson",
+          "journal": "Science Signaling",
+          "year": 2012,
+          "assay": "Co-IP, Western Blot",
+          "species": "human",
+          "relevant_quote": "TFEB is recruited to lysosomes via an interaction with mTORC1 and that mTORC1-dependent phosphorylation of TFEB is required for its interaction with 14-3-3 and the prevention of TFEB nuclear translocation.",
+          "pmid": "22692423"
+        },
+        {
+          "paper_title": "MTORC1 functions as a transcriptional regulator of autophagy by preventing nuclear transport of TFEB",
+          "doi": "10.4161/auto.19995",
+          "authors": "Jose A Martina, Y Chen, M Gucek, R Puertollano",
+          "journal": "Autophagy",
+          "year": 2012,
+          "assay": "Western Blot, Immunofluorescence",
+          "species": "human",
+          "relevant_quote": "Under normal nutrient conditions, TFEB is phosphorylated in Ser211 in an MTORC1-dependent manner. This phosphorylation promotes association of TFEB with members of the YWHA (14-3-3) family of proteins.",
+          "pmid": "22576015"
+        },
+        {
+          "paper_title": "Multistep regulation of TFEB by MTORC1",
+          "doi": "10.1080/15548627.2016.1271514",
+          "authors": "Silvia Vega-Rubin-de-Celis, Samuel Peña-Llopis, Meghan Konda, James Brugarolas",
+          "journal": "Autophagy",
+          "year": 2017,
+          "assay": "In-vitro Kinase Assay, Western Blot",
+          "species": "human, mouse",
+          "relevant_quote": "endogenous TFEB is phosphorylated at S122 in an MTORC1-dependent manner, that S122 is phosphorylated in vitro by recombinant MTOR, and that S122 is important for TFEB regulation by MTORC1.",
+          "pmid": "28055300"
+        }
+      ],
+      "pmids": [
+        "22692423",
+        "22576015",
+        "28055300"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "primary_to_main",
+      "function_effect": "activation"
+    }
+  ],
+  "mechanism": "Under nutrient-rich conditions, MTOR, as part of the mTORC1 complex, directly phosphorylates TFEB on key serine residues (S122, S142, S211). This phosphorylation creates a binding site for YWHA (14-3-3) proteins, which sequester TFEB in the cytoplasm, masking its nuclear localization signal.",
+  "effect": "MTOR-mediated phosphorylation actively retains TFEB in the cytoplasm, thereby inhibiting its ability to enter the nucleus and activate the transcription of genes involved in lysosomal biogenesis and autophagy.",
+  "summary": "TFEB inhibits MTOR to modulate tfeb cytoplasmic retention & transcriptional inhibition, ultimately affecting inhibition of lysosomal biogenesis & autophagy.",
+  "evidence": [
+    {
+      "paper_title": "The Transcription Factor TFEB Links mTORC1 Signaling to Transcriptional Control of Lysosome Homeostasis",
+      "doi": "10.1126/scisignal.2002790",
+      "authors": "Agnes Roczniak-Ferguson, Constance S Petit, Florian Froehlich, Shawn M Ferguson",
+      "journal": "Science Signaling",
+      "year": 2012,
+      "assay": "Co-IP, Western Blot",
+      "species": "human",
+      "relevant_quote": "TFEB is recruited to lysosomes via an interaction with mTORC1 and that mTORC1-dependent phosphorylation of TFEB is required for its interaction with 14-3-3 and the prevention of TFEB nuclear translocation."
+    },
+    {
+      "paper_title": "MTORC1 functions as a transcriptional regulator of autophagy by preventing nuclear transport of TFEB",
+      "doi": "10.4161/auto.19995",
+      "authors": "Jose A Martina, Y Chen, M Gucek, R Puertollano",
+      "journal": "Autophagy",
+      "year": 2012,
+      "assay": "Western Blot, Immunofluorescence",
+      "species": "human",
+      "relevant_quote": "Under normal nutrient conditions, TFEB is phosphorylated in Ser211 in an MTORC1-dependent manner. This phosphorylation promotes association of TFEB with members of the YWHA (14-3-3) family of proteins."
+    },
+    {
+      "paper_title": "Multistep regulation of TFEB by MTORC1",
+      "doi": "10.1080/15548627.2016.1271514",
+      "authors": "Silvia Vega-Rubin-de-Celis, Samuel Peña-Llopis, Meghan Konda, James Brugarolas",
+      "journal": "Autophagy",
+      "year": 2017,
+      "assay": "In-vitro Kinase Assay, Western Blot",
+      "species": "human, mouse",
+      "relevant_quote": "endogenous TFEB is phosphorylated at S122 in an MTORC1-dependent manner, that S122 is phosphorylated in vitro by recombinant MTOR, and that S122 is important for TFEB regulation by MTORC1."
+    }
+  ],
+  "interaction_effect": "inhibition",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TFEB <--inhibits-- MTOR:",
+  "protein_a": "TFEB",
+  "protein_b": "MTOR",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.479426Z",
+  "last_updated": "2025-11-19T03:20:29.479426Z"
+}

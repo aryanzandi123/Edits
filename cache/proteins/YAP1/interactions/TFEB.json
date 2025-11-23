@@ -1,0 +1,99 @@
+{
+  "primary": "TFEB",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "Yes-associated protein (YAP1), a primary effector of the Hippo signaling pathway, directly interacts with TFEB in the nucleus, especially under conditions of lysosomal stress. This interaction enhances TFEB's transcriptional activity, promoting the expression of genes involved in autophagy and lysosomal biogenesis. However, if lysosomal clearance is impaired, this can lead to detrimental autophagosome accumulation and autophagic cell death.",
+  "functions": [
+    {
+      "function": "TFEB Co-activation & Autophagic Cell Death",
+      "arrow": "activates",
+      "cellular_process": "Under conditions of lysosomal stress, such as in lysosomal storage diseases, the Hippo pathway effector YAP1 translocates to the nucleus and physically interacts with TFEB. This complex formation enhances the transcriptional activity of TFEB, leading to increased expression of autophagy and lysosomal genes.",
+      "effect_description": "The YAP1-TFEB interaction potentiates TFEB-mediated transcription of autophagic genes, which can lead to autophagic cell death if the lysosomal degradation pathway is compromised.",
+      "biological_consequence": [
+        "Lysosomal stress → Hippo pathway activation → YAP1 translocates to nucleus → YAP1-TFEB complex formation → Enhanced TFEB transcriptional activity → Upregulation of lysosomal & autophagy genes",
+        "Impaired lysosomal clearance → Upregulated autophagy leads to autophagosome accumulation → Increased autophagic cell death → Contributes to hypertrophic cardiomyopathy"
+      ],
+      "specific_effects": [
+        "Directly interacts with TFEB in the nucleus.",
+        "Positively regulates TFEB transcriptional activity.",
+        "Promotes accumulation of autophagosomes when lysosomal function is impaired.",
+        "Contributes to hypertrophic cardiomyopathy in the context of lysosomal storage diseases."
+      ],
+      "evidence": [
+        {
+          "paper_title": "YAP plays a crucial role in the development of cardiomyopathy in lysosomal storage diseases",
+          "year": 2021,
+          "doi": "10.1172/JCI143173",
+          "authors": "Ikeda S, Koga H, Kageyama S, et al.",
+          "journal": "Journal of Clinical Investigation",
+          "assay": "Co-IP, Western Blot",
+          "species": "mouse",
+          "relevant_quote": "YAP physically interacted with transcription factor EB (TFEB), a master transcription factor that controls autophagic and lysosomal gene expression, thereby facilitating accumulation of autophagosomes without degradation.",
+          "pmid": "33373332"
+        },
+        {
+          "paper_title": "YAP/TFEB pathway promotes autophagic cell death and hypertrophic cardiomyopathy in lysosomal storage diseases",
+          "year": 2021,
+          "doi": "10.1172/JCI148183",
+          "authors": "Zhu H, Tannous P",
+          "journal": "Journal of Clinical Investigation",
+          "assay": "Review",
+          "species": "human, mouse",
+          "relevant_quote": "The authors identified the Yes-associated protein (YAP)/TFEB signaling pathway as a key regulator of autophagosomes. These findings suggest that undigested autophagosomes accumulate and result in the cell death and cardiac dysfunction observed with LSD.",
+          "pmid": "33645545"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "primary_to_main",
+      "interaction_direction": "primary_to_main",
+      "pmids": [
+        "33373332",
+        "33645545"
+      ],
+      "function_effect": "activation"
+    }
+  ],
+  "arrow": "activates",
+  "direction": "main_to_primary",
+  "intent": "co-activation",
+  "mechanism": "Under conditions of lysosomal stress, such as in lysosomal storage diseases, the Hippo pathway effector YAP1 translocates to the nucleus and physically interacts with TFEB. This complex formation enhances the transcriptional activity of TFEB, leading to increased expression of autophagy and lysosomal genes.",
+  "effect": "The YAP1-TFEB interaction potentiates TFEB-mediated transcription of autophagic genes, which can lead to autophagic cell death if the lysosomal degradation pathway is compromised.",
+  "summary": "TFEB activates YAP1 to modulate tfeb co-activation & autophagic cell death, ultimately affecting upregulation of lysosomal & autophagy genes.",
+  "evidence": [
+    {
+      "paper_title": "YAP plays a crucial role in the development of cardiomyopathy in lysosomal storage diseases",
+      "year": 2021,
+      "doi": "10.1172/JCI143173",
+      "authors": "Ikeda S, Koga H, Kageyama S, et al.",
+      "journal": "Journal of Clinical Investigation",
+      "assay": "Co-IP, Western Blot",
+      "species": "mouse",
+      "relevant_quote": "YAP physically interacted with transcription factor EB (TFEB), a master transcription factor that controls autophagic and lysosomal gene expression, thereby facilitating accumulation of autophagosomes without degradation."
+    },
+    {
+      "paper_title": "YAP/TFEB pathway promotes autophagic cell death and hypertrophic cardiomyopathy in lysosomal storage diseases",
+      "year": 2021,
+      "doi": "10.1172/JCI148183",
+      "authors": "Zhu H, Tannous P",
+      "journal": "Journal of Clinical Investigation",
+      "assay": "Review",
+      "species": "human, mouse",
+      "relevant_quote": "The authors identified the Yes-associated protein (YAP)/TFEB signaling pathway as a key regulator of autophagosomes. These findings suggest that undigested autophagosomes accumulate and result in the cell death and cardiac dysfunction observed with LSD."
+    }
+  ],
+  "interaction_effect": "activation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 0
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TFEB <--activates-- YAP1:",
+  "protein_a": "YAP1",
+  "protein_b": "TFEB",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.547719Z",
+  "last_updated": "2025-11-19T03:20:29.547719Z"
+}

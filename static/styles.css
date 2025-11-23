@@ -1,0 +1,693 @@
+/* ═══════════════════════════════════════════════════════════════
+   DESIGN SYSTEM - Typography-Focused Scientific UI
+   ═══════════════════════════════════════════════════════════════ */
+
+:root {
+  /* Typography */
+  --font-serif: 'Charter', 'Georgia', 'Cambria', serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', Consolas, monospace;
+
+  /* Colors - Light Mode */
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f8f9fa;
+  --color-bg-tertiary: #f3f4f6;
+  --color-text-primary: #1a202c;
+  --color-text-secondary: #6b7280;
+  --color-border-subtle: #e5e7eb;
+  --color-border-medium: #d1d5db;
+  --color-accent-primary: #4f46e5;
+
+  /* Spacing */
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+
+  /* Border Radius */
+  --radius-md: 6px;
+  --radius-lg: 8px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* --- Universal & Body Styles --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-sans);
+    background: var(--color-bg-secondary);
+    color: var(--color-text-primary);
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* ... existing styles for .container, .header, .title, etc. ... */
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    background: var(--color-bg-primary);
+    padding: var(--space-4) var(--space-6);
+    box-shadow: var(--shadow-sm);
+    z-index: 100;
+    border-bottom: 1px solid var(--color-border-subtle);
+    text-align: center;
+}
+
+.title {
+    font-family: var(--font-serif);
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: var(--space-2);
+    letter-spacing: -0.02em;
+    color: var(--color-text-primary);
+}
+
+.subtitle {
+    font-family: var(--font-sans);
+    color: var(--color-text-secondary);
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 20px;
+}
+
+.header-search-container {
+    max-width: 700px; 
+    margin: 15px auto 0;
+}
+
+.input-container {
+    display: flex;
+    border: 1px solid #d1d5db;
+    border-radius: 28px;
+    background: #fff;
+    padding: 4px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.input-container:focus-within {
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+}
+
+#protein-input {
+    flex-grow: 1;
+    border: none;
+    background: none;
+    padding: 0 20px;
+    font-size: 18px;
+    height: 48px;
+    outline: none;
+    color: #1a202c;
+}
+
+#query-button {
+    background-color: var(--color-accent-primary);
+    color: white;
+    border: none;
+    border-radius: 24px;
+    padding: 0 var(--space-6);
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#query-button:hover {
+    background-color: #4338ca;
+    transform: scale(1.02);
+}
+
+#query-button:active {
+    transform: scale(0.98);
+}
+
+
+/* --- Main Page Progress Bar --- */
+#status-display {
+    width: 100%;
+    max-width: 600px;
+}
+
+.progress-wrapper {
+    width: 100%;
+}
+
+.progress-text-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #4a5568;
+}
+
+#progress-text {
+    font-weight: 500;
+}
+
+#progress-percent {
+    font-family: monospace;
+    font-weight: 600;
+    color: #4f46e5;
+}
+
+#status-message {
+    text-align: center;
+    color: #6b7280;
+}
+
+/* This is a shared style for both progress bars */
+.progress-bar-outer {
+    width: 100%;
+    height: 8px;
+    background-color: #e2e8f0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress-bar-inner {
+    width: 0%;
+    height: 100%;
+    background-color: #4f46e5;
+    border-radius: 4px;
+    transition: width 0.4s ease-in-out;
+}
+
+
+/* --- START: NEW Mini Progress Bar Styles --- */
+.job-notification {
+    margin: 15px auto 0;
+    max-width: 700px;
+    font-size: 14px;
+    min-height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mini-progress-wrapper {
+    width: 100%;
+    max-width: 400px; /* Or adjust as you like */
+    text-align: center;
+}
+
+#mini-progress-text {
+    font-size: 13px;
+    color: #4a5568;
+    margin-bottom: 6px;
+    display: block; /* To allow margin-bottom */
+}
+
+#notification-message a {
+    color: #4f46e5;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+#notification-message a:hover {
+    color: #4338ca;
+    text-decoration: underline;
+}
+
+.progress-tooltip {
+    text-align: center;
+    font-size: 13px;
+    color: #6b7280; /* A muted gray color */
+    margin-bottom: 16px; /* Adds space above the progress bar */
+    padding: 10px;
+    background-color: #f8f9fa; /* A very light gray background */
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+}
+
+/* --- Research Settings Styles --- */
+.config-details {
+    margin-top: 12px;
+    background: white;
+    border: 1px solid #e1e4e8;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.config-summary {
+    cursor: pointer;
+    padding: 10px 14px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #6b7280;
+    user-select: none;
+    transition: color 0.2s;
+}
+
+.config-summary:hover {
+    color: #4f46e5;
+}
+
+.config-content {
+    padding: 14px;
+    border-top: 1px solid #e1e4e8;
+}
+
+.config-presets {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 12px;
+    justify-content: center;
+}
+
+.preset-btn {
+    padding: 6px 14px;
+    border: 1px solid #d1d5db;
+    background: white;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: #4b5563;
+}
+
+.preset-btn:hover {
+    background: #4f46e5;
+    color: white;
+    border-color: #4f46e5;
+}
+
+.config-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.config-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #374151;
+}
+
+.config-label-text {
+    font-weight: 500;
+}
+
+.config-input {
+    width: 60px;
+    padding: 5px 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 13px;
+    text-align: center;
+    transition: border-color 0.2s;
+}
+
+.config-input:focus {
+    outline: none;
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.1);
+}
+
+/* --- Cancel Button Styles --- */
+.cancel-btn {
+    height: 38px;
+    padding: 0 20px;
+    border-radius: 8px;
+    border: 1px solid #dc2626;
+    background: #fff;
+    color: #dc2626;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+}
+
+.cancel-btn:hover:not(:disabled) {
+    background: #dc2626;
+    color: #fff;
+}
+
+.cancel-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* --- Dark Mode Styles --- */
+body.dark-mode .input-container {
+    background: #1e293b;
+    border-color: #475569;
+}
+
+body.dark-mode .input-container:focus-within {
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
+body.dark-mode #protein-input {
+    color: #e2e8f0;
+}
+
+body.dark-mode #protein-input::placeholder {
+    color: #64748b;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   MULTI-JOB TRACKER - Concurrent Query Management
+   ═══════════════════════════════════════════════════════════════ */
+
+.job-container {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0;
+}
+
+.job-card {
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 14px 16px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0;
+    transform: translateY(-10px);
+}
+
+.job-card[data-status="processing"] {
+    border-left: 3px solid #3b82f6;
+}
+
+.job-card[data-status="complete"] {
+    border-left: 3px solid #10b981;
+    background: #f0fdf4;
+}
+
+.job-card[data-status="error"] {
+    border-left: 3px solid #ef4444;
+    background: #fef2f2;
+}
+
+.job-card[data-status="cancelled"] {
+    border-left: 3px solid #6b7280;
+    background: #f9fafb;
+    opacity: 0.7;
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.job-protein {
+    font-family: var(--font-mono);
+    font-size: 15px;
+    font-weight: 600;
+    color: #1a202c;
+    letter-spacing: -0.01em;
+}
+
+.job-actions {
+    display: flex;
+    gap: 6px;
+}
+
+.job-btn {
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 4px;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.15s;
+    padding: 0;
+}
+
+.job-btn:hover {
+    background: #f3f4f6;
+}
+
+.job-btn:active {
+    transform: scale(0.95);
+}
+
+.job-btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.job-btn-icon {
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 500;
+}
+
+.job-remove .job-btn-icon {
+    color: #6b7280;
+}
+
+.job-remove:hover .job-btn-icon {
+    color: #4b5563;
+}
+
+.job-cancel .job-btn-icon {
+    color: #ef4444;
+}
+
+.job-cancel:hover {
+    background: #fef2f2;
+}
+
+.job-progress-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 8px;
+    gap: 10px;
+}
+
+.job-progress-text {
+    font-size: 14px;
+    color: #4b5563;
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.job-progress-percent {
+    font-size: 13px;
+    font-weight: 600;
+    color: #3b82f6;
+    font-variant-numeric: tabular-nums;
+    min-width: 40px;
+    text-align: right;
+}
+
+.job-card[data-status="complete"] .job-progress-percent {
+    color: #10b981;
+}
+
+.job-card[data-status="error"] .job-progress-percent {
+    color: #ef4444;
+}
+
+.job-progress-bar-outer {
+    width: 100%;
+    height: 6px;
+    background: #e5e7eb;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.job-progress-bar-inner {
+    height: 100%;
+    width: 0%;
+    background: #3b82f6;
+    border-radius: 3px;
+    transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s;
+}
+
+.job-card[data-status="complete"] .job-progress-bar-inner {
+    background: #10b981;
+}
+
+.job-card[data-status="error"] .job-progress-bar-inner {
+    background: #ef4444;
+}
+
+.job-card[data-status="cancelled"] .job-progress-bar-inner {
+    background: #6b7280;
+}
+
+/* Dark Mode - Job Cards */
+body.dark-mode .job-card {
+    background: #1e293b;
+    border-color: #334155;
+}
+
+body.dark-mode .job-card[data-status="complete"] {
+    background: rgba(16, 185, 129, 0.1);
+}
+
+body.dark-mode .job-card[data-status="error"] {
+    background: rgba(239, 68, 68, 0.1);
+}
+
+body.dark-mode .job-card[data-status="cancelled"] {
+    background: #0f172a;
+}
+
+body.dark-mode .job-protein {
+    color: #e2e8f0;
+}
+
+body.dark-mode .job-progress-text {
+    color: #cbd5e1;
+}
+
+body.dark-mode .job-btn:hover {
+    background: #334155;
+}
+
+body.dark-mode .job-progress-bar-outer {
+    background: #334155;
+}
+
+/* =========================================
+   DUAL-TRACK SYSTEM: NET vs DIRECT badges
+   ========================================= */
+
+/* Context badges for NET EFFECT vs DIRECT LINK */
+.context-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 600;
+    margin-left: 8px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.context-badge.net {
+    background: #f59e0b;  /* Amber for NET effects */
+    color: white;
+}
+
+.context-badge.direct {
+    background: #10b981;  /* Green for DIRECT links */
+    color: white;
+}
+
+.context-badge.chain {
+    background: #f59e0b;  /* Amber for CHAIN (alias for NET) */
+    color: white;
+}
+
+/* Link differentiation for dual-track system */
+.link-net-effect {
+    stroke-dasharray: 8 4 !important;  /* Dashed pattern for NET chain effects */
+    stroke-opacity: 0.9;
+}
+
+.link-direct-mediator {
+    stroke-dasharray: none !important;  /* Solid for extracted direct mediator links */
+    opacity: 0.75;  /* Slightly muted to differentiate from primary interactions */
+}
+
+/* Table row differentiation */
+.table-row.net-effect {
+    background: rgba(245, 158, 11, 0.05);
+    border-left: 3px solid #f59e0b;
+}
+
+.table-row.direct-link {
+    background: rgba(16, 185, 129, 0.05);
+    border-left: 3px solid #10b981;
+}
+
+/* Function section styling in modals */
+.function-section {
+    margin: 16px 0;
+    padding: 12px;
+    border-left: 3px solid;
+    border-radius: 4px;
+}
+
+.function-section.net-effects {
+    border-color: #f59e0b;
+    background: rgba(245, 158, 11, 0.05);
+}
+
+.function-section.direct-effects {
+    border-color: #10b981;
+    background: rgba(16, 185, 129, 0.05);
+}
+
+.function-section-header {
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--color-text-primary);
+}
+
+.function-section-header .context-badge {
+    margin-left: 0;
+}
+
+/* Dark mode overrides */
+body.dark-mode .table-row.net-effect {
+    background: rgba(245, 158, 11, 0.08);
+}
+
+body.dark-mode .table-row.direct-link {
+    background: rgba(16, 185, 129, 0.08);
+}
+
+body.dark-mode .function-section.net-effects {
+    background: rgba(245, 158, 11, 0.08);
+}
+
+body.dark-mode .function-section.direct-effects {
+    background: rgba(16, 185, 129, 0.08);
+}

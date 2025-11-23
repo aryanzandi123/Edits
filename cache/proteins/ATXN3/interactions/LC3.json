@@ -1,0 +1,107 @@
+{
+  "primary": "LC3",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "ATXN3 contains conserved LC3-interacting region (LIR) motifs that mediate a direct interaction with Atg8 family proteins, including LC3. This interaction is crucial for recruiting ATXN3 to autophagosomes, suggesting a regulatory role in autophagy.",
+  "functions": [
+    {
+      "function": "Autophagosome Recruitment",
+      "arrow": "activates",
+      "cellular_process": "ATXN3 contains LC3-interacting region (LIR) motifs that allow it to directly bind to members of the Atg8 protein family, such as LC3 and GABARAP, which are localized on autophagosomal membranes.",
+      "effect_description": "This interaction recruits ATXN3 to autophagosomes, suggesting a role in regulating the autophagic process, potentially by deubiquitinating substrates at the site of degradation or influencing autophagosome maturation.",
+      "biological_consequence": [
+        "ATXN3 binds LC3/GABARAP on the autophagosome via its LIR motif → ATXN3 is recruited to the autophagosomal membrane → Local deubiquitination of autophagic substrates occurs → Autophagic flux is modulated"
+      ],
+      "specific_effects": [
+        "LIR motifs are short linear sequences that mediate binding to Atg8-family proteins.",
+        "Proteins containing LIR motifs are recruited to LC3/GABARAP through hydrophobic interactions.",
+        "UIM-containing proteins, including ATXN3, have been shown to interact with both LC3 and GABARAP subfamilies."
+      ],
+      "evidence": [
+        {
+          "paper_title": "The rapidly expanding role of LC3-interacting regions in autophagy",
+          "doi": "10.1083/jcb.202504076",
+          "authors": "Brian J North, Dorotea Fracchiolla, Sascha Martens, Christopher J Shoemaker",
+          "journal": "Journal of Cell Biology",
+          "year": 2025,
+          "assay": "Review",
+          "species": "human, mouse, yeast",
+          "relevant_quote": "LC3-interacting regions (LIRs), or Atg8-interacting motifs (AIMs), are short linear motifs found in unstructured loops or intrinsically disordered regions of many autophagy-related proteins.",
+          "pmid": "40704964"
+        },
+        {
+          "paper_title": "Atg8-Family Proteins—Structural Features and Molecular Interactions in Autophagy and Beyond",
+          "doi": "10.3390/cells9092013",
+          "authors": "Nelli Wesch, Gábor M Tűzkő, Dávid Szinyákovics, Máté Varga, Szabolcs Beke-Somfai, Vladimir Sklenar, Lukáš Žídek, Gábor Pál, László Nyitray, Béla Vértessy, Dániel Varga",
+          "journal": "Cells",
+          "year": 2020,
+          "assay": "Review",
+          "species": "eukaryotes",
+          "relevant_quote": "A central axis of autophagy is formed along the interactions of autophagy modifiers (Atg8-family proteins) with a variety of their cellular counter partners.",
+          "pmid": "32882854"
+        }
+      ],
+      "_context": {
+        "type": "direct",
+        "query_protein": null,
+        "chain": null
+      },
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "40704964",
+        "32882854"
+      ],
+      "function_effect": "activation"
+    }
+  ],
+  "arrow": "binds",
+  "direction": "main_to_primary",
+  "intent": "binding",
+  "arrows": {
+    "main_to_primary": [
+      "binds"
+    ]
+  },
+  "mechanism": "ATXN3 contains LC3-interacting region (LIR) motifs that allow it to directly bind to members of the Atg8 protein family, such as LC3 and GABARAP, which are localized on autophagosomal membranes.",
+  "effect": "This interaction recruits ATXN3 to autophagosomes, suggesting a role in regulating the autophagic process, potentially by deubiquitinating substrates at the site of degradation or influencing autophagosome maturation.",
+  "summary": "ATXN3 interacts with LC3 to modulate autophagosome recruitment, ultimately affecting autophagic flux is modulated.",
+  "evidence": [
+    {
+      "paper_title": "The rapidly expanding role of LC3-interacting regions in autophagy",
+      "doi": "10.1083/jcb.202504076",
+      "authors": "Brian J North, Dorotea Fracchiolla, Sascha Martens, Christopher J Shoemaker",
+      "journal": "Journal of Cell Biology",
+      "year": 2025,
+      "assay": "Review",
+      "species": "human, mouse, yeast",
+      "relevant_quote": "LC3-interacting regions (LIRs), or Atg8-interacting motifs (AIMs), are short linear motifs found in unstructured loops or intrinsically disordered regions of many autophagy-related proteins."
+    },
+    {
+      "paper_title": "Atg8-Family Proteins—Structural Features and Molecular Interactions in Autophagy and Beyond",
+      "doi": "10.3390/cells9092013",
+      "authors": "Nelli Wesch, Gábor M Tűzkő, Dávid Szinyákovics, Máté Varga, Szabolcs Beke-Somfai, Vladimir Sklenar, Lukáš Žídek, Gábor Pál, László Nyitray, Béla Vértessy, Dániel Varga",
+      "journal": "Cells",
+      "year": 2020,
+      "assay": "Review",
+      "species": "eukaryotes",
+      "relevant_quote": "A central axis of autophagy is formed along the interactions of autophagy modifiers (Atg8-family proteins) with a variety of their cellular counter partners."
+    }
+  ],
+  "interaction_effect": "binding",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATXN3 --binds--> LC3:",
+  "protein_a": "ATXN3",
+  "protein_b": "LC3",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-23T07:58:56.184369Z",
+  "last_updated": "2025-11-23T07:58:56.184369Z"
+}

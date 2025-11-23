@@ -1,0 +1,122 @@
+{
+  "primary": "ATXN3",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "ATXN3, as part of a complex with VCP/p97, regulates the E3 ubiquitin ligase RNF8. It ensures RNF8's stability by deubiquitinating it under normal conditions and facilitates its extraction from chromatin during the DNA damage response to balance repair pathway choice.",
+  "functions": [
+    {
+      "function": "RNF8 Stability",
+      "arrow": "activates",
+      "cellular_process": "ATXN3, in a complex with p97/VCP, interacts with the E3 ubiquitin ligase RNF8 and deubiquitinates it.",
+      "effect_description": "By removing K48-linked polyubiquitin chains from RNF8, ATXN3 protects it from proteasomal degradation, thereby maintaining its homeostasis and ensuring its availability for the DNA damage response.",
+      "biological_consequence": [
+        "ATXN3 forms a complex with p97/VCP → The ATXN3-VCP complex binds to RNF8 → ATXN3 removes K48-linked ubiquitin chains from RNF8 → RNF8 is stabilized against proteasomal degradation → RNF8 homeostasis is maintained for the DNA damage response"
+      ],
+      "specific_effects": [
+        "The p97-ATXN3 complex regulates the proteasome-dependent homeostasis of RNF8.",
+        "ATXN3's deubiquitinating activity protects RNF8 from premature degradation."
+      ],
+      "evidence": [
+        {
+          "paper_title": "The p97-Ataxin 3 complex regulates homeostasis of the DNA damage response E3 ubiquitin ligase RNF8",
+          "doi": "10.15252/embj.2019102361",
+          "authors": "Singh AN, Oehler J, Torrecilla I, Kilgas S, Li S, Vaz B, Guérillon C, Fielden J, Hernandez-Carralero E, Cabrera E, Tullis IDC, Meerang M, Barber PR, Freire R, Parsons JL, Vojnovic B, Kiltie AE, Mailand N, Ramadan K",
+          "journal": "The EMBO Journal",
+          "year": 2019,
+          "assay": "Co-immunoprecipitation, Ubiquitination assay",
+          "species": "human",
+          "relevant_quote": "ATX3 deubiquitinates RNF8 to protect it from premature degradation...ATX3, via its deubiquitinating activity...regulates RNF8 stability by removing its associated K48-polyubiquitin chains.",
+          "pmid": "31613024"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "31613024"
+      ],
+      "function_effect": "activation"
+    },
+    {
+      "function": "DNA Damage Response",
+      "arrow": "activates",
+      "cellular_process": "During genotoxic stress, the p97-ATXN3 complex is recruited to sites of DNA lesions to regulate RNF8.",
+      "effect_description": "The complex stimulates the extraction of RNF8 from chromatin, a critical step that balances the choice between different DNA repair pathways and promotes cell survival following DNA damage.",
+      "biological_consequence": [
+        "Genotoxic stress induces DNA lesions → The p97-ATXN3 complex is recruited to chromatin → p97-ATXN3 extracts RNF8 from DNA damage sites → DNA repair pathway choice is balanced → Cell survival following ionizing radiation is promoted"
+      ],
+      "specific_effects": [
+        "Inactivation of the p97-ATXN3 complex leads to overaccumulation of RNF8 at DNA damage sites.",
+        "Loss of p97-ATXN3 function hypersensitizes cells to ionizing radiation."
+      ],
+      "evidence": [
+        {
+          "paper_title": "The p97-Ataxin 3 complex regulates homeostasis of the DNA damage response E3 ubiquitin ligase RNF8",
+          "doi": "10.15252/embj.2019102361",
+          "authors": "Singh AN, Oehler J, Torrecilla I, Kilgas S, Li S, Vaz B, Guérillon C, Fielden J, Hernandez-Carralero E, Cabrera E, Tullis IDC, Meerang M, Barber PR, Freire R, Parsons JL, Vojnovic B, Kiltie AE, Mailand N, Ramadan K",
+          "journal": "The EMBO Journal",
+          "year": 2019,
+          "assay": "Colony formation assay, Comet assay",
+          "species": "human",
+          "relevant_quote": "Under genotoxic stress, when RNF8 is rapidly recruited to sites of DNA lesions, the p97–ATX3 machinery stimulates the extraction of RNF8 from chromatin to balance DNA repair pathway choice.",
+          "pmid": "31613024"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "31613024"
+      ],
+      "function_effect": "activation"
+    }
+  ],
+  "arrow": "regulates",
+  "direction": "primary_to_main",
+  "intent": "deubiquitination",
+  "arrows": {
+    "main_to_primary": [
+      "activates"
+    ]
+  },
+  "mechanism": "ATXN3, in a complex with p97/VCP, interacts with the E3 ubiquitin ligase RNF8 and deubiquitinates it. During genotoxic stress, the p97-ATXN3 complex is recruited to sites of DNA lesions to regulate RNF8.",
+  "effect": "By removing K48-linked polyubiquitin chains from RNF8, ATXN3 protects it from proteasomal degradation, thereby maintaining its homeostasis and ensuring its availability for the DNA damage response.; The complex stimulates the extraction of RNF8 from chromatin, a critical step that balances the choice between different DNA repair pathways and promotes cell survival following DNA damage.",
+  "summary": "ATXN3 activates RNF8 to regulate rnf8 stability and dna damage response, ultimately affecting rnf8 homeostasis is maintained for the dna damage response.",
+  "evidence": [
+    {
+      "paper_title": "The p97-Ataxin 3 complex regulates homeostasis of the DNA damage response E3 ubiquitin ligase RNF8",
+      "doi": "10.15252/embj.2019102361",
+      "authors": "Singh AN, Oehler J, Torrecilla I, Kilgas S, Li S, Vaz B, Guérillon C, Fielden J, Hernandez-Carralero E, Cabrera E, Tullis IDC, Meerang M, Barber PR, Freire R, Parsons JL, Vojnovic B, Kiltie AE, Mailand N, Ramadan K",
+      "journal": "The EMBO Journal",
+      "year": 2019,
+      "assay": "Co-immunoprecipitation, Ubiquitination assay",
+      "species": "human",
+      "relevant_quote": "ATX3 deubiquitinates RNF8 to protect it from premature degradation...ATX3, via its deubiquitinating activity...regulates RNF8 stability by removing its associated K48-polyubiquitin chains."
+    },
+    {
+      "paper_title": "The p97-Ataxin 3 complex regulates homeostasis of the DNA damage response E3 ubiquitin ligase RNF8",
+      "doi": "10.15252/embj.2019102361",
+      "authors": "Singh AN, Oehler J, Torrecilla I, Kilgas S, Li S, Vaz B, Guérillon C, Fielden J, Hernandez-Carralero E, Cabrera E, Tullis IDC, Meerang M, Barber PR, Freire R, Parsons JL, Vojnovic B, Kiltie AE, Mailand N, Ramadan K",
+      "journal": "The EMBO Journal",
+      "year": 2019,
+      "assay": "Colony formation assay, Comet assay",
+      "species": "human",
+      "relevant_quote": "Under genotoxic stress, when RNF8 is rapidly recruited to sites of DNA lesions, the p97–ATX3 machinery stimulates the extraction of RNF8 from chromatin to balance DNA repair pathway choice."
+    }
+  ],
+  "interaction_effect": "regulates",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 2
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATXN3 --regulates--> RNF8:",
+  "protein_a": "RNF8",
+  "protein_b": "ATXN3",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-18T20:57:38.978180Z",
+  "last_updated": "2025-11-18T20:57:38.978180Z"
+}

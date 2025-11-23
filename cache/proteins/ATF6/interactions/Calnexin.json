@@ -1,0 +1,99 @@
+{
+  "primary": "Calnexin",
+  "interaction_type": "direct",
+  "support_summary": "The membrane-bound lectin chaperone Calnexin (CANX) interacts with the glycosylated luminal domain of ATF6 as part of the general ER quality control cycle for glycoproteins. It assists in proper folding but, unlike Calreticulin or BiP, its direct role in actively retaining ATF6 to prevent activation appears minimal.",
+  "functions": [
+    {
+      "function": "Glycoprotein Quality Control and Folding",
+      "arrow": "activates",
+      "cellular_process": "The membrane-bound ER lectin chaperone Calnexin (CANX) transiently binds to the N-linked glycans on the luminal domain of ATF6 during its synthesis and folding.",
+      "effect_description": "Calnexin, as part of the ER quality control cycle, transiently binds to the N-linked glycans of newly synthesized ATF6 to ensure its proper folding.",
+      "biological_consequence": [
+        "Nascent ATF6 enters ER lumen → Calnexin binds monoglucosylated N-linked glycans on ATF6 → Assists in proper ATF6 folding → Contributes to ER glycoprotein quality control → Maintains a pool of inactive, correctly folded ATF6"
+      ],
+      "specific_effects": [
+        "Interacts with monoglucosylated N-linked glycans on nascent glycoproteins.",
+        "Part of the calnexin/calreticulin cycle for glycoprotein quality control.",
+        "Unlike BiP or Calreticulin, its depletion does not significantly affect ATF6 activation upon ER stress."
+      ],
+      "evidence": [
+        {
+          "paper_title": "An Essential Role for Calnexin in ER-Phagy and the Unfolded Protein Response",
+          "doi": "10.3390/cells13171498",
+          "authors": "Röder C, Jablonka S, Lüningschrör P, Sendtner M",
+          "journal": "Cells",
+          "year": 2024,
+          "assay": "Western Blot, Immunofluorescence",
+          "species": "Mouse (cortical neurons)",
+          "relevant_quote": "A specific interaction of calnexin with PERK and IRE1α might also explain why the activation of Atf6 was not affected upon calnexin depletion.",
+          "pmid": "39273068"
+        },
+        {
+          "paper_title": "Interactions between Newly Synthesized Glycoproteins, Calnexin and a Network of Resident Chaperones in the Endoplasmic Reticulum",
+          "doi": "10.1091/mbc.8.12.2187",
+          "authors": "Vassilakos A, Michalak M, Lehrman MA, Williams DB",
+          "journal": "Molecular Biology of the Cell",
+          "year": 1997,
+          "assay": "Sucrose Velocity Gradient Centrifugation, Chemical Cross-linking",
+          "species": "Chinese Hamster Ovary (CHO) cells",
+          "relevant_quote": "Calnexin is a membrane-bound lectin and a molecular chaperone that binds newly synthesized glycoproteins in the endoplasmic reticulum (ER).",
+          "pmid": "9024687"
+        }
+      ],
+      "pmids": [
+        "39273068",
+        "9024687"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "primary_to_main",
+      "function_effect": "activation"
+    }
+  ],
+  "arrows": {
+    "main_to_primary": [],
+    "primary_to_main": [
+      "binds"
+    ]
+  },
+  "arrow": "binds",
+  "direction": "primary_to_main",
+  "intent": "regulation",
+  "mechanism": "The membrane-bound ER lectin chaperone Calnexin (CANX) transiently binds to the N-linked glycans on the luminal domain of ATF6 during its synthesis and folding.",
+  "effect": "Calnexin, as part of the ER quality control cycle, transiently binds to the N-linked glycans of newly synthesized ATF6 to ensure its proper folding.",
+  "summary": "ATF6 interacts with Calnexin to modulate glycoprotein quality control and folding, ultimately affecting maintains a pool of inactive, correctly folded atf6.",
+  "evidence": [
+    {
+      "paper_title": "An Essential Role for Calnexin in ER-Phagy and the Unfolded Protein Response",
+      "doi": "10.3390/cells13171498",
+      "authors": "Röder C, Jablonka S, Lüningschrör P, Sendtner M",
+      "journal": "Cells",
+      "year": 2024,
+      "assay": "Western Blot, Immunofluorescence",
+      "species": "Mouse (cortical neurons)",
+      "relevant_quote": "A specific interaction of calnexin with PERK and IRE1α might also explain why the activation of Atf6 was not affected upon calnexin depletion."
+    },
+    {
+      "paper_title": "Interactions between Newly Synthesized Glycoproteins, Calnexin and a Network of Resident Chaperones in the Endoplasmic Reticulum",
+      "doi": "10.1091/mbc.8.12.2187",
+      "authors": "Vassilakos A, Michalak M, Lehrman MA, Williams DB",
+      "journal": "Molecular Biology of the Cell",
+      "year": 1997,
+      "assay": "Sucrose Velocity Gradient Centrifugation, Chemical Cross-linking",
+      "species": "Chinese Hamster Ovary (CHO) cells",
+      "relevant_quote": "Calnexin is a membrane-bound lectin and a molecular chaperone that binds newly synthesized glycoproteins in the endoplasmic reticulum (ER)."
+    }
+  ],
+  "interaction_effect": "binding",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATF6 <--binds-- Calnexin:",
+  "protein_a": "ATF6",
+  "protein_b": "Calnexin",
+  "discovered_in_query": "ATF6",
+  "first_discovered": "2025-11-18T21:01:00.266971Z",
+  "last_updated": "2025-11-18T21:01:00.266971Z"
+}

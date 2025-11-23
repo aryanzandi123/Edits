@@ -1,0 +1,140 @@
+{
+  "primary": "TFEB",
+  "interaction_type": "indirect",
+  "upstream_interactor": "MTOR",
+  "mediator_chain": [
+    "MTOR"
+  ],
+  "depth": 2,
+  "support_summary": "Upon lysosomal membrane damage, Galectin-8 (LGALS8) is recruited to the site of injury. There, it inhibits mTORC1 signaling, which leads to the dephosphorylation and subsequent nuclear translocation and activation of TFEB, initiating a transcriptional program for lysosomal repair.",
+  "functions": [
+    {
+      "function": "TFEB Activation via mTORC1",
+      "arrow": "activates",
+      "cellular_process": "Upon damage to the lysosomal membrane, Galectin-8 (LGALS8) is recruited from the cytoplasm to exposed glycans on the inner lysosomal membrane. At this site, it acts as a danger receptor and inhibits the mTORC1 complex.",
+      "effect_description": "LGALS8-mediated inhibition of mTORC1 at the lysosomal surface leads to the dephosphorylation of TFEB, promoting its translocation to the nucleus and the activation of its transcriptional program.",
+      "biological_consequence": [
+        "Lysosomal membrane damage → LGALS8 binds exposed lysosomal glycans → mTORC1 complex is inhibited at the lysosome → TFEB is dephosphorylated & activated → TFEB translocates to nucleus → Upregulation of lysosomal biogenesis genes"
+      ],
+      "specific_effects": [
+        "Senses lysosomal damage by binding to exposed glycans.",
+        "Inhibits mTORC1 signaling at the lysosomal surface.",
+        "Indirectly activates TFEB by relieving mTORC1-dependent inhibition."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Galectins control mTOR in response to endomembrane damage",
+          "doi": "10.1016/j.molcel.2018.03.009",
+          "authors": "Jia J, Abudu YP, Claude-Taupin A, Gu Y, Kumar S, Choi SW, Peters R, Mudd MH, Allers L, Salmi M, Jalkanen S, Akom C, Bissa B, Chauss D, O'Malley J, Mefferd A, Lauth M, Keles S, Sun T, He Y, D'Alessandro A, Hansen M, Jiang X, Deretic V",
+          "journal": "Molecular Cell",
+          "year": 2018,
+          "assay": "Co-IP, Western Blot, Immunofluorescence",
+          "species": "human, mouse",
+          "relevant_quote": "Lysosomal damage, recognized by galectins, leads to association of galectin-8 (Gal8) with the mTOR apparatus on the lysosome. Gal8 inhibits mTOR activity through its Ragulator-Rag signaling machinery...",
+          "pmid": "29625033"
+        },
+        {
+          "paper_title": "Galectins control MTOR and AMPK in response to lysosomal damage to induce autophagy",
+          "doi": "10.1080/15548627.2018.1525142",
+          "authors": "Jia J, Deretic V",
+          "journal": "Autophagy",
+          "year": 2018,
+          "assay": "Review",
+          "species": "human, mouse",
+          "relevant_quote": "LGALS8 is required specifically for efficient inactivation of MTOR in cells subjected to lysosomal damage... The above galectin-based system controlling SLC38A9-Ragulator-RRAGA/B-MTOR status and MTOR activity... is termed GALTOR.",
+          "pmid": "30081722"
+        },
+        {
+          "paper_title": "Smurf1 controls calcineurin complex and TFEB at a regulatory node for lysosomal biogenesis",
+          "doi": "10.21203/rs.3.rs-1981884/v1",
+          "authors": "Wang Y, Li F, Mo Z, Jia J, Li Y, Zhang L, Zhang C, Zhang H, Chen Z, Yue Z, Chen Y",
+          "journal": "Research Square",
+          "year": 2022,
+          "assay": "Immunofluorescence, Western Blot",
+          "species": "human",
+          "relevant_quote": "Further study also established that Gal8 also inhibits mTOR in response to lysosomal injury.",
+          "pmid": "37909662"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "primary_to_main",
+      "interaction_direction": "primary_to_main",
+      "pmids": [
+        "29625033",
+        "30081722",
+        "37909662"
+      ],
+      "direct_arrow": "inhibits",
+      "function_effect": "activation",
+      "arrow_context": {
+        "direct_from": "MTOR",
+        "direct_arrow": "inhibits",
+        "net_from": "TFEB",
+        "net_arrow": "activates",
+        "mediator_chain": [
+          "MTOR"
+        ],
+        "is_indirect": true
+      },
+      "net_arrow": "activates",
+      "net_effect": "activation",
+      "direct_effect": "inhibition"
+    }
+  ],
+  "arrow": "activates",
+  "direction": "main_to_primary",
+  "intent": "regulation of localization",
+  "arrows": {
+    "primary_to_main": [
+      "activates"
+    ]
+  },
+  "mechanism": "Upon damage to the lysosomal membrane, Galectin-8 (LGALS8) is recruited from the cytoplasm to exposed glycans on the inner lysosomal membrane. At this site, it acts as a danger receptor and inhibits the mTORC1 complex.",
+  "effect": "LGALS8-mediated inhibition of mTORC1 at the lysosomal surface leads to the dephosphorylation of TFEB, promoting its translocation to the nucleus and the activation of its transcriptional program.",
+  "summary": "TFEB activates LGALS8 to modulate tfeb activation via mtorc1 inhibition, ultimately affecting upregulation of lysosomal biogenesis genes.",
+  "evidence": [
+    {
+      "paper_title": "Galectins control mTOR in response to endomembrane damage",
+      "doi": "10.1016/j.molcel.2018.03.009",
+      "authors": "Jia J, Abudu YP, Claude-Taupin A, Gu Y, Kumar S, Choi SW, Peters R, Mudd MH, Allers L, Salmi M, Jalkanen S, Akom C, Bissa B, Chauss D, O'Malley J, Mefferd A, Lauth M, Keles S, Sun T, He Y, D'Alessandro A, Hansen M, Jiang X, Deretic V",
+      "journal": "Molecular Cell",
+      "year": 2018,
+      "assay": "Co-IP, Western Blot, Immunofluorescence",
+      "species": "human, mouse",
+      "relevant_quote": "Lysosomal damage, recognized by galectins, leads to association of galectin-8 (Gal8) with the mTOR apparatus on the lysosome. Gal8 inhibits mTOR activity through its Ragulator-Rag signaling machinery..."
+    },
+    {
+      "paper_title": "Galectins control MTOR and AMPK in response to lysosomal damage to induce autophagy",
+      "doi": "10.1080/15548627.2018.1525142",
+      "authors": "Jia J, Deretic V",
+      "journal": "Autophagy",
+      "year": 2018,
+      "assay": "Review",
+      "species": "human, mouse",
+      "relevant_quote": "LGALS8 is required specifically for efficient inactivation of MTOR in cells subjected to lysosomal damage... The above galectin-based system controlling SLC38A9-Ragulator-RRAGA/B-MTOR status and MTOR activity... is termed GALTOR."
+    },
+    {
+      "paper_title": "Smurf1 controls calcineurin complex and TFEB at a regulatory node for lysosomal biogenesis",
+      "doi": "10.21203/rs.3.rs-1981884/v1",
+      "authors": "Wang Y, Li F, Mo Z, Jia J, Li Y, Zhang L, Zhang C, Zhang H, Chen Z, Yue Z, Chen Y",
+      "journal": "Research Square",
+      "year": 2022,
+      "assay": "Immunofluorescence, Western Blot",
+      "species": "human",
+      "relevant_quote": "Further study also established that Gal8 also inhibits mTOR in response to lysosomal injury."
+    }
+  ],
+  "interaction_effect": "activation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "MTOR <--activates-- LGALS8:",
+  "protein_a": "LGALS8",
+  "protein_b": "TFEB",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.558501Z",
+  "last_updated": "2025-11-19T03:20:29.558501Z"
+}

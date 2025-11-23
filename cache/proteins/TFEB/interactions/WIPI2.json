@@ -1,0 +1,123 @@
+{
+  "primary": "WIPI2",
+  "interaction_type": "indirect",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 2,
+  "support_summary": "TFEB indirectly regulates WIPI2 by directly binding to the promoter of the WIPI2 gene and activating its transcription. WIPI2 is a key component of the autophagosome formation machinery. This represents a direct, downstream transcriptional activation by TFEB as part of its role as a master regulator of the autophagy-lysosome pathway.",
+  "functions": [
+    {
+      "function": "Transcriptional Activation of WIPI2 Gene",
+      "arrow": "activates",
+      "cellular_process": "TFEB acts as a direct transcriptional activator for the WIPI2 gene, which encodes a key protein required for the formation and maturation of autophagosomes.",
+      "effect_description": "By transcriptionally upregulating WIPI2, TFEB ensures that the core machinery for autophagosome biogenesis is available to execute the autophagy program that it orchestrates.",
+      "biological_consequence": [
+        "TFEB translocates to the nucleus → TFEB binds to CLEAR element in the WIPI2 gene promoter → Increased transcription of WIPI2 mRNA → Elevated WIPI2 protein levels → Recruitment of ATG12-ATG5-ATG16L1 complex to phagophore → Enhanced autophagosome formation and autophagic flux"
+      ],
+      "specific_effects": [
+        "Directly upregulates the transcription of the WIPI2 gene.",
+        "WIPI2 is a component of the TFEB-regulated CLEAR gene network."
+      ],
+      "evidence": [
+        {
+          "paper_title": "TFEB links autophagy to lysosomal biogenesis",
+          "doi": "10.1126/science.1204592",
+          "authors": "Settembre C, Di Malta C, Polito VA, Garcia Arencibia M, Vetrini F, Erdin S, Erdin SU, Huynh T, Medina D, Colella P, Sardiello M, Rubinsztein DC, Ballabio A",
+          "journal": "Science",
+          "year": 2011,
+          "assay": "Microarray, ChIP, Luciferase Assay",
+          "species": "human, mouse",
+          "relevant_quote": "The transcription factor EB (TFEB), a master gene for lysosomal biogenesis, coordinated this program by driving expression of autophagy and lysosomal genes.",
+          "pmid": "21617040"
+        },
+        {
+          "paper_title": "Characterization of the CLEAR network reveals an integrated control of cellular clearance pathways",
+          "doi": "10.1093/hmg/ddr306",
+          "authors": "Palmieri M, Impey S, Kang H, di Ronza A, Pelz C, Sardiello M, Ballabio A",
+          "journal": "Human Molecular Genetics",
+          "year": 2011,
+          "assay": "ChIP-seq, Microarray, Promoter Analysis",
+          "species": "human",
+          "relevant_quote": "...we used a combination of genomic approaches, including ChIP-seq...to identify 471 TFEB direct targets that represent essential components of the CLEAR network.",
+          "pmid": "21752829"
+        }
+      ],
+      "_context": {
+        "type": "indirect",
+        "query_protein": null,
+        "chain": []
+      },
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "21617040",
+        "21752829"
+      ],
+      "function_effect": "activation",
+      "arrow_context": {
+        "direct_from": null,
+        "direct_arrow": "activates",
+        "net_from": "TFEB",
+        "net_arrow": "activates",
+        "mediator_chain": [],
+        "is_indirect": true
+      },
+      "net_arrow": "activates",
+      "direct_arrow": "activates",
+      "net_effect": "activation",
+      "direct_effect": "activation"
+    }
+  ],
+  "arrow": "activates",
+  "direction": "main_to_primary",
+  "intent": "transcriptional regulation",
+  "mechanism": "TFEB acts as a direct transcriptional activator for the WIPI2 gene, which encodes a key protein required for the formation and maturation of autophagosomes.",
+  "effect": "By transcriptionally upregulating WIPI2, TFEB ensures that the core machinery for autophagosome biogenesis is available to execute the autophagy program that it orchestrates.",
+  "summary": "TFEB activates WIPI2 to modulate transcriptional activation of wipi2 gene, ultimately affecting enhanced autophagosome formation and autophagic flux.",
+  "evidence": [
+    {
+      "paper_title": "ZKSCAN3 (ZNF306) is a Master Transcriptional Repressor of Autophagy",
+      "doi": "10.1016/j.molcel.2013.01.024",
+      "authors": "Chauhan S, Goodwin JG, Chauhan S, Manyam G, Wang J, Kamat AM, Boyd DD",
+      "journal": "Molecular Cell",
+      "year": 2013,
+      "assay": "ChIP-seq, Western Blot, qRT-PCR",
+      "species": "human",
+      "relevant_quote": "...we show that ZKSCAN3 represses transcription of a large gene set (>60) integral to...autophagy and lysosome biogenesis/function and a subset of these genes, including Map1lC3b and Wipi2 represent direct targets."
+    },
+    {
+      "paper_title": "TFEB links autophagy to lysosomal biogenesis",
+      "doi": "10.1126/science.1204592",
+      "authors": "Settembre C, Di Malta C, Polito VA, Garcia Arencibia M, Vetrini F, Erdin S, Erdin SU, Huynh T, Medina D, Colella P, Sardiello M, Rubinsztein DC, Ballabio A",
+      "journal": "Science",
+      "year": 2011,
+      "assay": "Microarray, ChIP, Luciferase Assay",
+      "species": "human, mouse",
+      "relevant_quote": "The transcription factor EB (TFEB), a master gene for lysosomal biogenesis, coordinated this program by driving expression of autophagy and lysosomal genes."
+    },
+    {
+      "paper_title": "Characterization of the CLEAR network reveals an integrated control of cellular clearance pathways",
+      "doi": "10.1093/hmg/ddr306",
+      "authors": "Palmieri M, Impey S, Kang H, di Ronza A, Pelz C, Sardiello M, Ballabio A",
+      "journal": "Human Molecular Genetics",
+      "year": 2011,
+      "assay": "ChIP-seq, Microarray, Promoter Analysis",
+      "species": "human",
+      "relevant_quote": "...we used a combination of genomic approaches, including ChIP-seq...to identify 471 TFEB direct targets that represent essential components of the CLEAR network."
+    }
+  ],
+  "interaction_effect": "activation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 0
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TFEB --activates--> WIPI2:",
+  "protein_a": "TFEB",
+  "protein_b": "WIPI2",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.596807Z",
+  "last_updated": "2025-11-19T03:20:29.596807Z"
+}

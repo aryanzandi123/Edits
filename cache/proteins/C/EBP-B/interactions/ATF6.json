@@ -1,0 +1,102 @@
+{
+  "primary": "ATF6",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "ATF6 physically interacts with C/EBP-β to form a heterodimeric transcriptional complex. This complex regulates the expression of target genes, such as DAPK1, linking the ER stress response to inflammatory and autophagic pathways.",
+  "functions": [
+    {
+      "function": "Transcriptional Co-activation",
+      "arrow": "regulates",
+      "cellular_process": "The active, nuclear form of ATF6 physically interacts with the transcription factor C/EBP-β (CCAAT/enhancer-binding protein β), particularly in response to stimuli like IFN-γ, to form a heterodimer.",
+      "effect_description": "This heterodimerization with C/EBP-β is required for ATF6 to bind to target gene promoters and activate the transcription of genes involved in autophagy and apoptosis, such as DAPK1.",
+      "biological_consequence": [
+        "IFN-γ Stimulation → Nuclear Translocation of Active ATF6 → Physical Interaction with C/EBP-β → Formation of ATF6-C/EBP-β Heterodimer → Binding to CRE/ATF Elements in DAPK1 Promoter → Transcriptional Activation of DAPK1.",
+        "ER Stress → Nuclear Translocation of Active ATF6 → Recruitment of C/EBP-β to PLK4 Promoter → Formation of ATF6-C/EBP-β Repressive Complex → Transcriptional Repression of PLK4."
+      ],
+      "specific_effects": [
+        "Forms a heterodimer with C/EBP-β to activate DAPK1 transcription.",
+        "Can also recruit C/EBP-β to the PLK4 promoter to negatively regulate its expression during ER stress."
+      ],
+      "evidence": [
+        {
+          "paper_title": "An IFN-γ-stimulated ATF6-C/EBP-β-signaling pathway critical for the expression of Death Associated Protein Kinase 1 and induction of autophagy",
+          "doi": "10.1073/pnas.1119273109",
+          "authors": "Padmaja Gade, Girish Ramachandran, Uday B Maachani, Mark A Rizzo, Tetsuya Okada, Ron Prywes, Alan S Cross, Kazutoshi Mori, Dhananjaya V Kalvakolanu",
+          "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+          "year": 2012,
+          "assay": "Co-IP, ChIP assay",
+          "species": "mouse, human",
+          "relevant_quote": "Here, we show that ATF6, an ER stress-induced transcription factor, interacts with C/EBP-β in an IFN-stimulated manner and is obligatory for Dapk1 expression.",
+          "pmid": "22699507"
+        },
+        {
+          "paper_title": "Activating Transcription Factor 6 (ATF6) Negatively Regulates Polo-like Kinase 4 Expression via Recruiting C/EBPβ to the Upstream-Promoter During ER Stress",
+          "doi": "10.1016/j.bbagrm.2020.194488",
+          "authors": "Ting Shen, Yanan Li, Zhengguang Chen, Shuai Liang, Yue Qiu, Li Zhu, Gang Ba, Guowei Lu, Liang Qiu",
+          "journal": "Biochimica et Biophysica Acta (BBA) - Gene Regulatory Mechanisms",
+          "year": 2020,
+          "assay": "ChIP assay, Co-IP",
+          "species": "human",
+          "relevant_quote": "ATF6 may upregulate DNA-binding affinities after BFA treatment, via recruiting C/EBPβ to the upstream promoter of PLK4.",
+          "pmid": "31926341"
+        }
+      ],
+      "pmids": [
+        "22699507",
+        "31926341"
+      ],
+      "name": "Transcriptional Regulation",
+      "interaction_effect": "regulates",
+      "interaction_direction": "main_to_primary",
+      "function_effect": "regulation"
+    }
+  ],
+  "arrows": {
+    "main_to_primary": [
+      "activates"
+    ]
+  },
+  "arrow": "regulates",
+  "direction": "bidirectional",
+  "intent": "regulation",
+  "mechanism": "The active, nuclear form of ATF6 physically interacts with the transcription factor C/EBP-β (CCAAT/enhancer-binding protein β), particularly in response to stimuli like IFN-γ, to form a heterodimer.",
+  "effect": "This heterodimerization with C/EBP-β is required for ATF6 to bind to target gene promoters and activate the transcription of genes involved in autophagy and apoptosis, such as DAPK1.",
+  "summary": "ATF6 activates C/EBP-B to modulate transcriptional co-activation, ultimately affecting transcriptional activation of dapk1.",
+  "evidence": [
+    {
+      "paper_title": "An IFN-γ-stimulated ATF6-C/EBP-β-signaling pathway critical for the expression of Death Associated Protein Kinase 1 and induction of autophagy",
+      "doi": "10.1073/pnas.1119273109",
+      "authors": "Padmaja Gade, Girish Ramachandran, Uday B Maachani, Mark A Rizzo, Tetsuya Okada, Ron Prywes, Alan S Cross, Kazutoshi Mori, Dhananjaya V Kalvakolanu",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "year": 2012,
+      "assay": "Co-IP, ChIP assay",
+      "species": "mouse, human",
+      "relevant_quote": "Here, we show that ATF6, an ER stress-induced transcription factor, interacts with C/EBP-β in an IFN-stimulated manner and is obligatory for Dapk1 expression."
+    },
+    {
+      "paper_title": "Activating Transcription Factor 6 (ATF6) Negatively Regulates Polo-like Kinase 4 Expression via Recruiting C/EBPβ to the Upstream-Promoter During ER Stress",
+      "doi": "10.1016/j.bbagrm.2020.194488",
+      "authors": "Ting Shen, Yanan Li, Zhengguang Chen, Shuai Liang, Yue Qiu, Li Zhu, Gang Ba, Guowei Lu, Liang Qiu",
+      "journal": "Biochimica et Biophysica Acta (BBA) - Gene Regulatory Mechanisms",
+      "year": 2020,
+      "assay": "ChIP assay, Co-IP",
+      "species": "human",
+      "relevant_quote": "ATF6 may upregulate DNA-binding affinities after BFA treatment, via recruiting C/EBPβ to the upstream promoter of PLK4."
+    }
+  ],
+  "interaction_effect": "regulation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 3
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATF6 <--regulates--> C/EBP-B:",
+  "protein_a": "C/EBP-B",
+  "protein_b": "ATF6",
+  "discovered_in_query": "ATF6",
+  "first_discovered": "2025-11-18T21:01:00.335849Z",
+  "last_updated": "2025-11-18T21:01:00.335849Z"
+}

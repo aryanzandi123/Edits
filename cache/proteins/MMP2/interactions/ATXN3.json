@@ -1,0 +1,147 @@
+{
+  "primary": "ATXN3",
+  "interaction_type": "indirect",
+  "upstream_interactor": "HDAC3",
+  "mediator_chain": [
+    "HDAC3"
+  ],
+  "depth": 2,
+  "support_summary": "Normal ATXN3 acts as a transcriptional repressor for the Matrix Metalloproteinase-2 (MMP-2) gene. It achieves this by recruiting a corepressor complex, which includes HDAC3 and NCoR, to the MMP-2 promoter. This leads to histone deacetylation and chromatin condensation, thereby inhibiting transcription. In Spinocerebellar Ataxia Type 3, the expanded form of ATXN3 loses this ability, leading to aberrant MMP-2 expression.",
+  "functions": [
+    {
+      "function": "Gene Transcription",
+      "arrow": "inhibits",
+      "cellular_process": "Normal ATXN3 binds to specific regions of the MMP-2 gene promoter and recruits a transcriptional repressor complex containing HDAC3 and NCoR.",
+      "effect_description": "The recruitment of the HDAC3/NCoR complex results in the deacetylation of histones at the MMP-2 promoter, leading to a condensed chromatin state and repression of gene transcription.",
+      "biological_consequence": [
+        "ATXN3 binds the MMP-2 gene promoter → ATXN3 recruits the HDAC3/NCoR repressor complex → HDAC3 deacetylates local histone tails → Chromatin structure becomes condensed → RNA polymerase access to the promoter is blocked → MMP-2 gene transcription is repressed."
+      ],
+      "specific_effects": [
+        "Expanded ATXN3 loses its repressor function on the MMP-2 promoter.",
+        "Loss of ATXN3 function leads to aberrant MMP-2 transcription.",
+        "The interaction of ATXN3 with HDAC3 is required for the transcriptional repression of MMP-2."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Ataxin-3 represses transcription via chromatin binding, interaction with histone deacetylase 3, and histone deacetylation",
+          "doi": "10.1523/JNEUROSCI.2053-06.2006",
+          "authors": "Evert BO, Araujo J, Vieira-Saecker AM, de Vos RA, Harendza S, Klockgether T, Wüllner U",
+          "journal": "The Journal of Neuroscience",
+          "year": 2006,
+          "assay": "Co-IP, ChIP",
+          "species": "human, rat",
+          "relevant_quote": "normal AT3 binds to target DNA sequences in specific chromatin regions of the matrix metalloproteinase-2 (MMP-2) gene promoter and represses transcription by recruitment of the histone deacetylase 3 (HDAC3)...",
+          "pmid": "17079677"
+        },
+        {
+          "paper_title": "ATXN3 controls DNA replication and transcription by regulating chromatin structure",
+          "doi": "10.1093/nar/gkad212",
+          "authors": "García-Pérez C, González-Gálvez D, Martín-Garrido A, et al.",
+          "journal": "Nucleic Acids Research",
+          "year": 2023,
+          "assay": "Western Blot, Overexpression studies",
+          "species": "human",
+          "relevant_quote": "ATXN3 was described to control the transcription of the MMP-2 gene through the recruitment of the histone deacetylase HDAC3.",
+          "pmid": "36971114"
+        },
+        {
+          "paper_title": "Loss of the Spinocerebellar Ataxia type 3 disease protein ATXN3 alters transcription of multiple signal transduction pathways",
+          "doi": "10.1371/journal.pone.0204438",
+          "authors": "Sittler A, Wiatr K, Wanker EE, et al.",
+          "journal": "PLoS One",
+          "year": 2018,
+          "assay": "Western Blot, RNA-Seq",
+          "species": "mouse",
+          "relevant_quote": "A direct interaction of ATXN3 with HDAC3 and NCoR has previously been established in SCA3 cell lines and human brain extracts yet with only normal (i.e. not expanded) ATXN3 being associated with increased deacetylase activity and repression of gene expression.",
+          "pmid": "30231063"
+        }
+      ],
+      "_context": {
+        "type": "indirect",
+        "query_protein": "HDAC3",
+        "chain": [
+          "HDAC3"
+        ]
+      },
+      "interaction_effect": "inhibits",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "17079677",
+        "36971114",
+        "30231063"
+      ],
+      "direct_arrow": "inhibits",
+      "function_effect": "inhibition",
+      "arrow_context": {
+        "direct_from": "HDAC3",
+        "direct_arrow": "inhibits",
+        "net_from": "ATXN3",
+        "net_arrow": "inhibits",
+        "mediator_chain": [
+          "HDAC3"
+        ],
+        "is_indirect": true
+      },
+      "net_arrow": "inhibits",
+      "net_effect": "inhibition",
+      "direct_effect": "inhibition"
+    }
+  ],
+  "arrow": "inhibits",
+  "direction": "primary_to_main",
+  "intent": "regulation",
+  "arrows": {
+    "main_to_primary": [
+      "inhibits"
+    ]
+  },
+  "mechanism": "Normal ATXN3 binds to specific regions of the MMP-2 gene promoter and recruits a transcriptional repressor complex containing HDAC3 and NCoR.",
+  "effect": "The recruitment of the HDAC3/NCoR complex results in the deacetylation of histones at the MMP-2 promoter, leading to a condensed chromatin state and repression of gene transcription.",
+  "summary": "ATXN3 inhibits MMP2 to modulate gene transcription, ultimately affecting mmp-2 gene transcription is repressed.",
+  "evidence": [
+    {
+      "paper_title": "Ataxin-3 represses transcription via chromatin binding, interaction with histone deacetylase 3, and histone deacetylation",
+      "doi": "10.1523/JNEUROSCI.2053-06.2006",
+      "authors": "Evert BO, Araujo J, Vieira-Saecker AM, de Vos RA, Harendza S, Klockgether T, Wüllner U",
+      "journal": "The Journal of Neuroscience",
+      "year": 2006,
+      "assay": "Co-IP, ChIP",
+      "species": "human, rat",
+      "relevant_quote": "normal AT3 binds to target DNA sequences in specific chromatin regions of the matrix metalloproteinase-2 (MMP-2) gene promoter and represses transcription by recruitment of the histone deacetylase 3 (HDAC3)..."
+    },
+    {
+      "paper_title": "ATXN3 controls DNA replication and transcription by regulating chromatin structure",
+      "doi": "10.1093/nar/gkad212",
+      "authors": "García-Pérez C, González-Gálvez D, Martín-Garrido A, et al.",
+      "journal": "Nucleic Acids Research",
+      "year": 2023,
+      "assay": "Western Blot, Overexpression studies",
+      "species": "human",
+      "relevant_quote": "ATXN3 was described to control the transcription of the MMP-2 gene through the recruitment of the histone deacetylase HDAC3."
+    },
+    {
+      "paper_title": "Loss of the Spinocerebellar Ataxia type 3 disease protein ATXN3 alters transcription of multiple signal transduction pathways",
+      "doi": "10.1371/journal.pone.0204438",
+      "authors": "Sittler A, Wiatr K, Wanker EE, et al.",
+      "journal": "PLoS One",
+      "year": 2018,
+      "assay": "Western Blot, RNA-Seq",
+      "species": "mouse",
+      "relevant_quote": "A direct interaction of ATXN3 with HDAC3 and NCoR has previously been established in SCA3 cell lines and human brain extracts yet with only normal (i.e. not expanded) ATXN3 being associated with increased deacetylase activity and repression of gene expression."
+    }
+  ],
+  "interaction_effect": "inhibition",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "HDAC3 --inhibits--> MMP2:",
+  "protein_a": "MMP2",
+  "protein_b": "ATXN3",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-18T20:57:38.949739Z",
+  "last_updated": "2025-11-18T20:57:38.949739Z"
+}

@@ -1,0 +1,114 @@
+{
+  "primary": "MCOLN1",
+  "interaction_type": "indirect",
+  "upstream_interactor": "PPP3CA",
+  "mediator_chain": [
+    "PPP3CA"
+  ],
+  "depth": 2,
+  "support_summary": "The lysosomal calcium channel MCOLN1 (TRPML1) releases calcium from the lysosome. This localized calcium increase activates the phosphatase Calcineurin (PPP3CA), which then directly dephosphorylates TFEB, promoting its nuclear translocation and activation. TFEB, in turn, transcriptionally upregulates MCOLN1, creating a positive feedback loop.",
+  "functions": [
+    {
+      "function": "TFEB Activation via Calcium-Calcineurin Signaling",
+      "arrow": "activates",
+      "cellular_process": "The lysosomal calcium channel MCOLN1 (TRPML1) mediates the release of Ca2+ from the lysosome lumen into the cytoplasm. This localized increase in Ca2+ concentration activates the calcium-dependent phosphatase Calcineurin (PPP3CA).",
+      "effect_description": "Activated Calcineurin directly dephosphorylates TFEB, promoting its nuclear translocation and the activation of its transcriptional program for lysosomal biogenesis and autophagy.",
+      "biological_consequence": [
+        "MCOLN1 mediates Ca2+ release from the lysosome → Cytoplasmic Ca2+ activates the phosphatase Calcineurin (PPP3CA) → Calcineurin dephosphorylates TFEB → Dephosphorylated TFEB translocates to the nucleus → TFEB activates transcription of lysosomal and autophagy genes",
+        "Nuclear TFEB binds to the MCOLN1 promoter → MCOLN1 gene transcription is upregulated → MCOLN1 protein levels increase in the lysosomal membrane → Lysosomal Ca2+ release capacity is enhanced (Positive Feedback Loop)"
+      ],
+      "specific_effects": [
+        "Initiates a calcium signaling cascade that activates TFEB.",
+        "Forms a positive feedback loop as TFEB upregulates MCOLN1 expression.",
+        "Links lysosomal calcium status to transcriptional control of cellular clearance pathways."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Lysosomal calcium signalling regulates autophagy through calcineurin and TFEB",
+          "doi": "10.1038/ncb3114",
+          "authors": "Medina DL, Di Paola S, Peluso I, Armani A, De Stefani D, Venditti R, Montefusco S, Scotto-Rosato A, Prezioso C, Forrester A, Settembre C, Fra-Bido S, Prieto J, Adibsamii S, Fairlie-Clarke A, Dissing-Olesen L, Stevens B, Downes CP, Rugarli EI, Puertollano R, MacFarlane J, Platt FM, Ballabio A",
+          "journal": "Nature Cell Biology",
+          "year": 2015,
+          "assay": "Reporter gene assay, Immunofluorescence",
+          "species": "human, mouse",
+          "relevant_quote": "Lysosomal Ca2+ release through ​mucolipin 1 (​MCOLN1) activates calcineurin, which binds and dephosphorylates ​TFEB, thus promoting its nuclear translocation.",
+          "pmid": "25720963"
+        },
+        {
+          "paper_title": "The Calcineurin-TFEB-p62 Pathway Mediates the Activation of Cardiac Macroautophagy by Proteasomal Malfunction",
+          "doi": "10.1161/CIRCRESAHA.119.316007",
+          "authors": "Pan B, Li J, Parajuli N, Tian Z, Wu P, Lewno MT, Zou J, Wang W, Bedford L, Mayer RJ, Fang J, Liu J, Cui T, Su H, Wang X",
+          "journal": "Circulation Research",
+          "year": 2020,
+          "assay": "siRNA knockdown, Western blot",
+          "species": "mouse",
+          "relevant_quote": "In cultured cardiomyocytes, PSMI-induced increases in TFEB activation and p62 expression were blunted by pharmacological and genetic calcineurin inhibition and by siRNA-mediated Molcn1 silencing.",
+          "pmid": "32366200"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "primary_to_main",
+      "interaction_direction": "primary_to_main",
+      "pmids": [
+        "25720963",
+        "32366200"
+      ],
+      "direct_arrow": "activates",
+      "function_effect": "activation",
+      "arrow_context": {
+        "direct_from": "PPP3CA",
+        "direct_arrow": "activates",
+        "net_from": "TFEB",
+        "net_arrow": "activates",
+        "mediator_chain": [
+          "PPP3CA"
+        ],
+        "is_indirect": true
+      },
+      "net_arrow": "activates",
+      "net_effect": "activation",
+      "direct_effect": "activation"
+    }
+  ],
+  "arrow": "regulates",
+  "direction": "bidirectional",
+  "intent": "regulation",
+  "mechanism": "The lysosomal calcium channel MCOLN1 (TRPML1) mediates the release of Ca2+ from the lysosome lumen into the cytoplasm. This localized increase in Ca2+ concentration activates the calcium-dependent phosphatase Calcineurin (PPP3CA).",
+  "effect": "Activated Calcineurin directly dephosphorylates TFEB, promoting its nuclear translocation and the activation of its transcriptional program for lysosomal biogenesis and autophagy.",
+  "summary": "TFEB activates MCOLN1 to modulate tfeb activation via calcium-calcineurin signaling, ultimately affecting tfeb activates transcription of lysosomal and autophagy genes.",
+  "evidence": [
+    {
+      "paper_title": "Lysosomal calcium signalling regulates autophagy through calcineurin and TFEB",
+      "doi": "10.1038/ncb3114",
+      "authors": "Medina DL, Di Paola S, Peluso I, Armani A, De Stefani D, Venditti R, Montefusco S, Scotto-Rosato A, Prezioso C, Forrester A, Settembre C, Fra-Bido S, Prieto J, Adibsamii S, Fairlie-Clarke A, Dissing-Olesen L, Stevens B, Downes CP, Rugarli EI, Puertollano R, MacFarlane J, Platt FM, Ballabio A",
+      "journal": "Nature Cell Biology",
+      "year": 2015,
+      "assay": "Reporter gene assay, Immunofluorescence",
+      "species": "human, mouse",
+      "relevant_quote": "Lysosomal Ca2+ release through ​mucolipin 1 (​MCOLN1) activates calcineurin, which binds and dephosphorylates ​TFEB, thus promoting its nuclear translocation."
+    },
+    {
+      "paper_title": "The Calcineurin-TFEB-p62 Pathway Mediates the Activation of Cardiac Macroautophagy by Proteasomal Malfunction",
+      "doi": "10.1161/CIRCRESAHA.119.316007",
+      "authors": "Pan B, Li J, Parajuli N, Tian Z, Wu P, Lewno MT, Zou J, Wang W, Bedford L, Mayer RJ, Fang J, Liu J, Cui T, Su H, Wang X",
+      "journal": "Circulation Research",
+      "year": 2020,
+      "assay": "siRNA knockdown, Western blot",
+      "species": "mouse",
+      "relevant_quote": "In cultured cardiomyocytes, PSMI-induced increases in TFEB activation and p62 expression were blunted by pharmacological and genetic calcineurin inhibition and by siRNA-mediated Molcn1 silencing."
+    }
+  ],
+  "interaction_effect": "regulation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 3
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "PPP3CA <--regulates--> MCOLN1:",
+  "protein_a": "TFEB",
+  "protein_b": "MCOLN1",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.530600Z",
+  "last_updated": "2025-11-19T03:20:29.530600Z"
+}

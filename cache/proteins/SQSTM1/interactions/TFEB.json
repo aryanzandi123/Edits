@@ -1,0 +1,141 @@
+{
+  "primary": "TFEB",
+  "interaction_type": "direct",
+  "upstream_interactor": "MTOR",
+  "mediator_chain": [
+    "MTOR"
+  ],
+  "depth": 2,
+  "support_summary": "SQSTM1/p62 and TFEB are involved in a positive feedback loop. SQSTM1 can indirectly activate TFEB by sequestering the mTORC1 complex, which is an inhibitor of TFEB. This relieves the inhibition and allows TFEB to translocate to the nucleus. In turn, TFEB directly binds to the promoter of the SQSTM1 gene and upregulates its transcription.",
+  "functions": [
+    {
+      "function": "Indirect TFEB Activation via mTORC1 Sequestration",
+      "arrow": "activates",
+      "cellular_process": "SQSTM1/p62 binds to and sequesters the mTORC1 complex, particularly when p62 accumulates due to proteotoxic stress or autophagy blockage. This prevents mTORC1 from phosphorylating and inhibiting TFEB.",
+      "effect_description": "The sequestration of mTORC1 by SQSTM1 relieves the inhibition on TFEB, promoting its nuclear translocation and subsequent activation of target genes.",
+      "biological_consequence": [
+        "Proteotoxic stress induces SQSTM1/p62 accumulation → SQSTM1/p62 binds and sequesters the mTORC1 complex → mTORC1-mediated inhibitory phosphorylation of TFEB is reduced → Dephosphorylated TFEB translocates to the nucleus → TFEB activates transcription of lysosomal and autophagy genes"
+      ],
+      "specific_effects": [
+        "Indirectly activates TFEB by sequestering its inhibitor, mTORC1."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Proteasome malfunction activates the PPP3/calcineurin-TFEB-SQSTM1/p62 pathway to induce macroautophagy in the heart",
+          "doi": "10.1080/15548627.2020.1816666",
+          "authors": "Bin Pan, Jian Li, Nira Parajuli, Zhaobo Li, Wen-Zhe Wang, Jun-ichi Abe, Wei-Guo Zhu, Ju Li, Wei Wang, Jun Liu, Hong-Su, Wang Xiao",
+          "journal": "Autophagy",
+          "year": 2020,
+          "assay": "Western Blot, Immunofluorescence",
+          "species": "mouse",
+          "relevant_quote": "...we found that MTOR frequently colocalizes with SQSTM1-positive protein aggregates in cardiomyocytes upon PSMI, prompting us to speculate that SQSTM1 senses proteotoxic stress and sequesters MTOR...",
+          "pmid": "32960686"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "primary_to_main",
+      "interaction_direction": "primary_to_main",
+      "pmids": [
+        "32960686"
+      ],
+      "direct_arrow": "inhibits",
+      "function_effect": "activation"
+    },
+    {
+      "function": "Transcriptional Upregulation of SQSTM1 by TFEB",
+      "arrow": "activates",
+      "cellular_process": "Activated TFEB translocates to the nucleus and binds to the Coordinated Lysosomal Expression and Regulation (CLEAR) element in the promoter region of the SQSTM1 gene.",
+      "effect_description": "TFEB acts as a direct transcription factor for the SQSTM1 gene, leading to increased synthesis of the SQSTM1/p62 protein.",
+      "biological_consequence": [
+        "TFEB is activated and translocates to the nucleus → TFEB binds to the CLEAR element in the SQSTM1 promoter → Transcription of the SQSTM1 gene is upregulated → SQSTM1/p62 protein levels increase → Autophagic cargo recognition and flux are enhanced"
+      ],
+      "specific_effects": [
+        "Is a direct transcriptional target of TFEB."
+      ],
+      "evidence": [
+        {
+          "paper_title": "The Calcineurin-TFEB-p62 Pathway Mediates the Activation of Cardiac Macroautophagy by Proteasomal Malfunction",
+          "doi": "10.1161/CIRCRESAHA.119.316007",
+          "authors": "Pan B, Li J, Parajuli N, Tian Z, Wang P, Li MT, Su H, Wang X",
+          "journal": "Circulation Research",
+          "year": 2020,
+          "assay": "qRT-PCR, Western Blot",
+          "species": "mouse",
+          "relevant_quote": "The present study has identified that both TFEB activation and p62/Sqstm1 upregulation were induced by both genetic and pharmacological PSMI in the heart and cardiomyocytes...",
+          "pmid": "32366200"
+        },
+        {
+          "paper_title": "MTORC1 functions as a transcriptional regulator of autophagy by preventing nuclear transport of TFEB",
+          "doi": "10.4161/auto.19653",
+          "authors": "Martina JA, Chen Y, Gucek M, Puertollano R",
+          "journal": "Autophagy",
+          "year": 2012,
+          "assay": "Western Blot",
+          "species": "human",
+          "relevant_quote": "Increased proteins levels of LC3-II, SQSTM1, UVRAG and LAMP1, as well as increased LC3-II/LC3-I and LC3-II/actin ratios were also observed upon TFEB-wt and TFEB-S211A overexpression...",
+          "pmid": "22576015"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "32366200",
+        "22576015"
+      ],
+      "direct_arrow": "activates",
+      "function_effect": "activation"
+    }
+  ],
+  "arrow": "activates",
+  "direction": "bidirectional",
+  "intent": "regulation",
+  "mechanism": "SQSTM1/p62 binds to and sequesters the mTORC1 complex, particularly when p62 accumulates due to proteotoxic stress or autophagy blockage. This prevents mTORC1 from phosphorylating and inhibiting TFEB. Activated TFEB translocates to the nucleus and binds to the Coordinated Lysosomal Expression and Regulation (CLEAR) element in the promoter region of the SQSTM1 gene.",
+  "effect": "The sequestration of mTORC1 by SQSTM1 relieves the inhibition on TFEB, promoting its nuclear translocation and subsequent activation of target genes.; TFEB acts as a direct transcription factor for the SQSTM1 gene, leading to increased synthesis of the SQSTM1/p62 protein.",
+  "summary": "TFEB activates SQSTM1 to regulate indirect tfeb activation via mtorc1 sequestration and transcriptional upregulation of sqstm1 by tfeb, ultimately affecting tfeb activates transcription of lysosomal and autophagy genes.",
+  "evidence": [
+    {
+      "paper_title": "Proteasome malfunction activates the PPP3/calcineurin-TFEB-SQSTM1/p62 pathway to induce macroautophagy in the heart",
+      "doi": "10.1080/15548627.2020.1816666",
+      "authors": "Bin Pan, Jian Li, Nira Parajuli, Zhaobo Li, Wen-Zhe Wang, Jun-ichi Abe, Wei-Guo Zhu, Ju Li, Wei Wang, Jun Liu, Hong-Su, Wang Xiao",
+      "journal": "Autophagy",
+      "year": 2020,
+      "assay": "Western Blot, Immunofluorescence",
+      "species": "mouse",
+      "relevant_quote": "...we found that MTOR frequently colocalizes with SQSTM1-positive protein aggregates in cardiomyocytes upon PSMI, prompting us to speculate that SQSTM1 senses proteotoxic stress and sequesters MTOR..."
+    },
+    {
+      "paper_title": "The Calcineurin-TFEB-p62 Pathway Mediates the Activation of Cardiac Macroautophagy by Proteasomal Malfunction",
+      "doi": "10.1161/CIRCRESAHA.119.316007",
+      "authors": "Pan B, Li J, Parajuli N, Tian Z, Wang P, Li MT, Su H, Wang X",
+      "journal": "Circulation Research",
+      "year": 2020,
+      "assay": "qRT-PCR, Western Blot",
+      "species": "mouse",
+      "relevant_quote": "The present study has identified that both TFEB activation and p62/Sqstm1 upregulation were induced by both genetic and pharmacological PSMI in the heart and cardiomyocytes..."
+    },
+    {
+      "paper_title": "MTORC1 functions as a transcriptional regulator of autophagy by preventing nuclear transport of TFEB",
+      "doi": "10.4161/auto.19653",
+      "authors": "Martina JA, Chen Y, Gucek M, Puertollano R",
+      "journal": "Autophagy",
+      "year": 2012,
+      "assay": "Western Blot",
+      "species": "human",
+      "relevant_quote": "Increased proteins levels of LC3-II, SQSTM1, UVRAG and LAMP1, as well as increased LC3-II/LC3-I and LC3-II/actin ratios were also observed upon TFEB-wt and TFEB-S211A overexpression..."
+    }
+  ],
+  "interaction_effect": "activation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 3
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TFEB <--activates--> SQSTM1:",
+  "protein_a": "SQSTM1",
+  "protein_b": "TFEB",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.569707Z",
+  "last_updated": "2025-11-19T03:20:29.569707Z"
+}

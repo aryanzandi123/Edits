@@ -1,0 +1,89 @@
+{
+  "primary": "NRF2",
+  "interaction_type": "indirect",
+  "upstream_interactor": "KEAP1",
+  "mediator_chain": [
+    "KEAP1"
+  ],
+  "depth": 2,
+  "support_summary": "The initial claim that ATXN3 directly activates NRF2 is unsubstantiated. Instead, evidence suggests ATXN3 may indirectly suppress NRF2 activity by regulating the stability of KEAP1, the primary inhibitor of NRF2. Depletion of ATXN3 leads to destabilization of KEAP1, which in turn allows for increased NRF2 levels.",
+  "functions": [
+    {
+      "function": "Antioxidant Response",
+      "arrow": "inhibits",
+      "cellular_process": "ATXN3 appears to regulate the stability of KEAP1, a key component of the CUL3 E3 ubiquitin ligase complex that targets NRF2 for degradation. By potentially stabilizing KEAP1, ATXN3 would indirectly promote the degradation of NRF2, thereby suppressing the NRF2-mediated antioxidant response.",
+      "effect_description": "ATXN3 indirectly inhibits the NRF2-mediated antioxidant response by regulating the stability of the NRF2 inhibitor, KEAP1.",
+      "biological_consequence": [
+        "ATXN3 stabilizes KEAP1 protein → Active KEAP1-CUL3 E3 ligase complex ubiquitinates NRF2 → NRF2 is targeted for proteasomal degradation → Decreased transcription of Antioxidant Response Element (ARE) genes → Suppression of the NRF2 antioxidant pathway"
+      ],
+      "specific_effects": [
+        "Depletion of ATXN3 leads to destabilization and a decreased half-life of the KEAP1 protein.",
+        "ATXN3-knockdown cells show increased levels of NRF2, consistent with the loss of its inhibitor, KEAP1."
+      ],
+      "evidence": [
+        {
+          "paper_title": "The Deubiquitinating Enzyme Ataxin-3 Regulates Ciliogenesis and Phagocytosis in the Retina",
+          "doi": "10.1016/j.isci.2021.102602",
+          "authors": "Toulis V, Rodosthenous RS, Kagiava A, Kynigopoulou D, Papaneophytou C, Oulas A, Artavanis-Tsakonas S, Lederer CW, Kleopa KA, Christodoulou C, Sargiannidou I",
+          "journal": "iScience",
+          "year": 2021,
+          "assay": "Western Blot, Cycloheximide chase assay",
+          "species": "mouse",
+          "relevant_quote": "Indeed, depletion of ATXN3 lead to destabilization of the KEAP1 protein (decreased half-life), further supporting ATXN3 as a regulator of KEAP1 turnover.",
+          "pmid": "33176149"
+        }
+      ],
+      "pmids": [
+        "33176149"
+      ],
+      "direct_arrow": "inhibits",
+      "interaction_effect": "inhibition",
+      "interaction_direction": "main_to_primary",
+      "function_effect": "inhibition",
+      "arrow_context": {
+        "direct_from": "KEAP1",
+        "direct_arrow": "inhibits",
+        "net_from": "ATXN3",
+        "net_arrow": "inhibits",
+        "mediator_chain": [
+          "KEAP1"
+        ],
+        "is_indirect": true
+      },
+      "net_arrow": "inhibits",
+      "net_effect": "inhibition",
+      "direct_effect": "inhibition"
+    }
+  ],
+  "arrow": "inhibits",
+  "direction": "main_to_primary",
+  "intent": "regulation of protein stability",
+  "mechanism": "ATXN3 appears to regulate the stability of KEAP1, a key component of the CUL3 E3 ubiquitin ligase complex that targets NRF2 for degradation. By potentially stabilizing KEAP1, ATXN3 would indirectly promote the degradation of NRF2, thereby suppressing the NRF2-mediated antioxidant response.",
+  "effect": "ATXN3 indirectly inhibits the NRF2-mediated antioxidant response by regulating the stability of the NRF2 inhibitor, KEAP1.",
+  "summary": "ATXN3 inhibits NRF2 to modulate regulation of antioxidant response, ultimately affecting suppression of the nrf2 antioxidant pathway.",
+  "evidence": [
+    {
+      "paper_title": "The Deubiquitinating Enzyme Ataxin-3 Regulates Ciliogenesis and Phagocytosis in the Retina",
+      "doi": "10.1016/j.isci.2021.102602",
+      "authors": "Toulis V, Rodosthenous RS, Kagiava A, Kynigopoulou D, Papaneophytou C, Oulas A, Artavanis-Tsakonas S, Lederer CW, Kleopa KA, Christodoulou C, Sargiannidou I",
+      "journal": "iScience",
+      "year": 2021,
+      "assay": "Western Blot, Cycloheximide chase assay",
+      "species": "mouse",
+      "relevant_quote": "Indeed, depletion of ATXN3 lead to destabilization of the KEAP1 protein (decreased half-life), further supporting ATXN3 as a regulator of KEAP1 turnover."
+    }
+  ],
+  "interaction_effect": "inhibition",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "KEAP1 --inhibits--> NRF2:",
+  "protein_a": "ATXN3",
+  "protein_b": "NRF2",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-23T07:58:56.180559Z",
+  "last_updated": "2025-11-23T07:58:56.180559Z"
+}

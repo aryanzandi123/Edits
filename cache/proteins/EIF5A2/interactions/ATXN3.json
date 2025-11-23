@@ -1,0 +1,76 @@
+{
+  "primary": "ATXN3",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "ATXN3 acts as a deubiquitinating enzyme for EIF5A2, removing ubiquitin chains and thereby preventing its proteasomal degradation. This stabilization of EIF5A2 promotes the progression of anaplastic thyroid carcinoma.",
+  "functions": [
+    {
+      "function": "EIF5A2 Stability",
+      "arrow": "activates",
+      "cellular_process": "ATXN3 functions as a deubiquitinating enzyme for the eukaryotic translation initiation factor 5A2 (EIF5A2).",
+      "effect_description": "By removing ubiquitin chains from EIF5A2, ATXN3 prevents its proteasomal degradation, thereby increasing its stability and protein levels.",
+      "biological_consequence": [
+        "ATXN3 deubiquitinates EIF5A2 → EIF5A2 is stabilized against proteasomal degradation → EIF5A2 protein levels increase → Elevated EIF5A2 promotes anaplastic thyroid carcinoma progression."
+      ],
+      "specific_effects": [
+        "ATXN3-mediated stabilization of EIF5A2 promotes the progression of anaplastic thyroid carcinoma.",
+        "ATXN3 and EIF5A2 protein levels are positively correlated in anaplastic thyroid carcinoma tissues."
+      ],
+      "evidence": [
+        {
+          "paper_title": "The deubiquitinating enzyme ATXN3 promotes the progression of anaplastic thyroid carcinoma by stabilizing EIF5A2",
+          "doi": "10.1016/j.mce.2021.111440",
+          "authors": "Shimin Zhuang, Jing Xie, Jing Zhen, Liangyun Guo, Zhengdong Hong, Feihong Li, Debin Xu",
+          "journal": "Molecular and Cellular Endocrinology",
+          "year": 2021,
+          "assay": "Co-Immunoprecipitation, Ubiquitination assay",
+          "species": "human",
+          "relevant_quote": "Mechanistically, ATXN3 promotes EIF5A2 expression by directly binding to EIF5A2 to reduce its ubiquitination and degradation.",
+          "pmid": "34428509"
+        }
+      ],
+      "_context": {
+        "type": "direct",
+        "query_protein": null,
+        "chain": null
+      },
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "34428509"
+      ]
+    }
+  ],
+  "arrow": "activates",
+  "direction": "primary_to_main",
+  "intent": "deubiquitination",
+  "arrows": {
+    "main_to_primary": [
+      "activates"
+    ]
+  },
+  "mechanism": "ATXN3 functions as a deubiquitinating enzyme for the eukaryotic translation initiation factor 5A2 (EIF5A2).",
+  "effect": "By removing ubiquitin chains from EIF5A2, ATXN3 prevents its proteasomal degradation, thereby increasing its stability and protein levels.",
+  "summary": "ATXN3 activates EIF5A2 to modulate eif5a2 stability, ultimately affecting elevated eif5a2 promotes anaplastic thyroid carcinoma progression.",
+  "evidence": [
+    {
+      "paper_title": "The deubiquitinating enzyme ATXN3 promotes the progression of anaplastic thyroid carcinoma by stabilizing EIF5A2",
+      "doi": "10.1016/j.mce.2021.111440",
+      "authors": "Shimin Zhuang, Jing Xie, Jing Zhen, Liangyun Guo, Zhengdong Hong, Feihong Li, Debin Xu",
+      "journal": "Molecular and Cellular Endocrinology",
+      "year": 2021,
+      "assay": "Co-Immunoprecipitation, Ubiquitination assay",
+      "species": "human",
+      "relevant_quote": "Mechanistically, ATXN3 promotes EIF5A2 expression by directly binding to EIF5A2 to reduce its ubiquitination and degradation."
+    }
+  ],
+  "arrow_notation": "ATXN3 --activates--> EIF5A2:",
+  "protein_a": "EIF5A2",
+  "protein_b": "ATXN3",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-18T20:57:38.939269Z",
+  "last_updated": "2025-11-18T20:57:38.939269Z"
+}

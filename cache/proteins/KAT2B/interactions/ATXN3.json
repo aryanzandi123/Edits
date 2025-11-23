@@ -1,0 +1,90 @@
+{
+  "primary": "ATXN3",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "ATXN3 directly interacts with the histone acetyltransferase KAT2B (also known as PCAF) to act as a transcriptional corepressor. This interaction involves the C-terminal domain of ATXN3 and leads to the inhibition of KAT2B's acetyltransferase activity, modulating chromatin structure and repressing gene expression.",
+  "functions": [
+    {
+      "function": "Transcriptional Repression",
+      "arrow": "activates",
+      "cellular_process": "ATXN3 interacts with the histone acetyltransferase KAT2B (PCAF) within multi-protein complexes, leading to the repression of transcription.",
+      "effect_description": "ATXN3 inhibits the histone acetyltransferase activity of KAT2B, which reduces histone acetylation at target gene promoters and represses transcription.",
+      "biological_consequence": [
+        "ATXN3 C-terminal domain binds KAT2B → ATXN3 inhibits KAT2B histone acetyltransferase activity → Histone acetylation at target promoters is reduced → Gene transcription is repressed"
+      ],
+      "specific_effects": [
+        "The C-terminal domain of ataxin-3 is required for binding to KAT2B/PCAF.",
+        "Ataxin-3 inhibits histone acetylation by p300/CBP and PCAF in vitro and represses transcription in vivo.",
+        "Normal ATXN3 can form histone-deacetylating repressor complexes."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Ataxin-3 represses transcription via chromatin binding, interaction with histone deacetylase 3, and histone deacetylation",
+          "doi": "10.1523/JNEUROSCI.2053-06.2006",
+          "authors": "Evert BO, Araujo J, Vieira-Saecker AM, de Vos RA, Harendza S, Klockgether T, Wüllner U",
+          "journal": "The Journal of Neuroscience",
+          "year": 2006,
+          "assay": "Co-immunoprecipitation, ChIP assay",
+          "species": "human",
+          "relevant_quote": "These findings demonstrate that normal AT3 binds target promoter regions and represses transcription of a GATA-2-dependent target gene via formation of histone-deacetylating repressor complexes...",
+          "pmid": "17079677"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "17079677"
+      ],
+      "function_effect": "activation"
+    }
+  ],
+  "arrow": "inhibits",
+  "direction": "primary_to_main",
+  "intent": "transcriptional repression",
+  "arrows": {
+    "main_to_primary": [
+      "inhibits"
+    ]
+  },
+  "mechanism": "ATXN3 interacts with the histone acetyltransferase KAT2B (PCAF) within multi-protein complexes, leading to the repression of transcription.",
+  "effect": "ATXN3 inhibits the histone acetyltransferase activity of KAT2B, which reduces histone acetylation at target gene promoters and represses transcription.",
+  "summary": "ATXN3 inhibits KAT2B to modulate transcriptional repression, ultimately affecting gene transcription is repressed.",
+  "evidence": [
+    {
+      "paper_title": "The C-terminal domain of ataxin-3 binds CBP, p300 and PCAF coactivators and represses their transcriptional activity",
+      "doi": "10.1093/hmg/11.19.2181",
+      "authors": "Li F, Macfarlan T, Pittman RN, Chakravarti D",
+      "journal": "Human Molecular Genetics",
+      "year": 2002,
+      "assay": "GST pull-down, Co-immunoprecipitation",
+      "species": "human",
+      "relevant_quote": "Importantly, endogenous ataxin-3 is co-immunoprecipitated with each of these coactivators in non-transfected cells. The C-terminal polyglutamine-containing domain of ataxin-3...is required for binding coactivators."
+    },
+    {
+      "paper_title": "Ataxin-3 represses transcription via chromatin binding, interaction with histone deacetylase 3, and histone deacetylation",
+      "doi": "10.1523/JNEUROSCI.2053-06.2006",
+      "authors": "Evert BO, Araujo J, Vieira-Saecker AM, de Vos RA, Harendza S, Klockgether T, Wüllner U",
+      "journal": "The Journal of Neuroscience",
+      "year": 2006,
+      "assay": "Co-immunoprecipitation, ChIP assay",
+      "species": "human",
+      "relevant_quote": "These findings demonstrate that normal AT3 binds target promoter regions and represses transcription of a GATA-2-dependent target gene via formation of histone-deacetylating repressor complexes..."
+    }
+  ],
+  "interaction_effect": "inhibition",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATXN3 --inhibits--> KAT2B:",
+  "protein_a": "KAT2B",
+  "protein_b": "ATXN3",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-18T20:57:38.931018Z",
+  "last_updated": "2025-11-18T20:57:38.931018Z"
+}

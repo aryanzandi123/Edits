@@ -1,0 +1,10 @@
+================================================================================
+VALIDATING EVIDENCE FOR TFEB
+================================================================================
+Total interactors to process: 44
+
+[OK]Evidence validation complete!
+  Total interactors processed: 41
+  Total functions: 45
+  Total PMIDs: 0
+  Functions with evidence: 0

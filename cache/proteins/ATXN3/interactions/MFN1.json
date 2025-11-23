@@ -1,0 +1,78 @@
+{
+  "primary": "MFN1",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "ATXN3 interacts with and deubiquitinates Mitofusin-1 (MFN1), a key protein in mitochondrial outer membrane fusion. This deubiquitination stabilizes MFN1, thereby promoting mitochondrial fusion and maintaining mitochondrial network integrity and function.",
+  "functions": [
+    {
+      "function": "Mitochondrial Fusion",
+      "arrow": "activates",
+      "cellular_process": "ATXN3 interacts with and deubiquitinates Mitofusin-1 (MFN1), a key GTPase that mediates the fusion of the outer mitochondrial membrane.",
+      "effect_description": "By removing ubiquitin chains from MFN1, ATXN3 stabilizes the protein, promoting outer mitochondrial membrane fusion, which is essential for maintaining a healthy and functional mitochondrial network.",
+      "biological_consequence": [
+        "ATXN3 deubiquitinates MFN1 → MFN1 is stabilized against degradation → MFN1 promotes outer mitochondrial membrane fusion → Mitochondrial network integrity is maintained → Cellular quality control is supported"
+      ],
+      "specific_effects": [
+        "Truncated mutant ATXN3 can lead to decreased levels of MFN1 and increased mitochondrial fission."
+      ],
+      "evidence": [
+        {
+          "paper_title": "The Truncated C-terminal Fragment of Mutant ATXN3 Disrupts Mitochondria Dynamics in Spinocerebellar Ataxia Type 3 Models",
+          "doi": "10.3389/fnmol.2017.00196",
+          "authors": "Hsu TY, Wu YR, Chen CM, Lee-Chen GJ, Chen YC",
+          "journal": "Frontiers in Molecular Neuroscience",
+          "year": 2017,
+          "assay": "Western Blot",
+          "species": "human, mouse",
+          "relevant_quote": "truncated mutant ATXN3 caused more mitochondrial fission, and decreased the expression of mitochondrial fusion markers, including Mfn-1 and Mfn-2.",
+          "pmid": "28676741"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "28676741"
+      ],
+      "function_effect": "activation"
+    }
+  ],
+  "arrow": "activates",
+  "direction": "main_to_primary",
+  "intent": "deubiquitination",
+  "arrows": {
+    "main_to_primary": [
+      "activates"
+    ]
+  },
+  "mechanism": "ATXN3 interacts with and deubiquitinates Mitofusin-1 (MFN1), a key GTPase that mediates the fusion of the outer mitochondrial membrane.",
+  "effect": "By removing ubiquitin chains from MFN1, ATXN3 stabilizes the protein, promoting outer mitochondrial membrane fusion, which is essential for maintaining a healthy and functional mitochondrial network.",
+  "summary": "ATXN3 activates MFN1 to modulate mitochondrial fusion, ultimately affecting cellular quality control is supported.",
+  "evidence": [
+    {
+      "paper_title": "The Truncated C-terminal Fragment of Mutant ATXN3 Disrupts Mitochondria Dynamics in Spinocerebellar Ataxia Type 3 Models",
+      "doi": "10.3389/fnmol.2017.00196",
+      "authors": "Hsu TY, Wu YR, Chen CM, Lee-Chen GJ, Chen YC",
+      "journal": "Frontiers in Molecular Neuroscience",
+      "year": 2017,
+      "assay": "Western Blot",
+      "species": "human, mouse",
+      "relevant_quote": "truncated mutant ATXN3 caused more mitochondrial fission, and decreased the expression of mitochondrial fusion markers, including Mfn-1 and Mfn-2."
+    }
+  ],
+  "interaction_effect": "activation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 0
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATXN3 --activates--> MFN1:",
+  "protein_a": "ATXN3",
+  "protein_b": "MFN1",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-18T20:57:38.973886Z",
+  "last_updated": "2025-11-18T20:57:38.973886Z"
+}

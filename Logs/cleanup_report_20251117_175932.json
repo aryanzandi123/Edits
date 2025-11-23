@@ -1,0 +1,84 @@
+{
+  "timestamp": "2025-11-18T01:59:32.634314",
+  "mode": "live",
+  "archive_validation": false,
+  "summary": {
+    "interactions_processed": 50,
+    "functions_removed": 6,
+    "evidence_deduped": 37,
+    "total_fields_removed": 223,
+    "fields_removed_breakdown": {
+      "interaction_evidence": 50,
+      "arrow_notation": 50,
+      "interaction_effect": 40,
+      "interaction_direction": 33,
+      "pmids_array": 50,
+      "validation_meta": 0
+    },
+    "bytes_saved": 116709,
+    "kb_saved": 114.0,
+    "mb_saved": 0.11
+  },
+  "samples": [
+    {
+      "protein_pair": "TBP",
+      "before_size": 4718,
+      "after_size": 3942,
+      "reduction_percent": 16
+    },
+    {
+      "protein_pair": "EFNA3",
+      "before_size": 7022,
+      "after_size": 5171,
+      "reduction_percent": 26
+    },
+    {
+      "protein_pair": "HSF1",
+      "before_size": 5975,
+      "after_size": 4615,
+      "reduction_percent": 23
+    },
+    {
+      "protein_pair": "RAD23A",
+      "before_size": 6821,
+      "after_size": 5021,
+      "reduction_percent": 26
+    },
+    {
+      "protein_pair": "BECN1",
+      "before_size": 5891,
+      "after_size": 4018,
+      "reduction_percent": 32
+    },
+    {
+      "protein_pair": "PUM1",
+      "before_size": 6111,
+      "after_size": 1961,
+      "reduction_percent": 68
+    },
+    {
+      "protein_pair": "VCP",
+      "before_size": 5247,
+      "after_size": 3934,
+      "reduction_percent": 25
+    },
+    {
+      "protein_pair": "NCOA1",
+      "before_size": 6059,
+      "after_size": 1243,
+      "reduction_percent": 79
+    },
+    {
+      "protein_pair": "TAZ",
+      "before_size": 4926,
+      "after_size": 3810,
+      "reduction_percent": 23
+    },
+    {
+      "protein_pair": "SOD2",
+      "before_size": 6627,
+      "after_size": 5017,
+      "reduction_percent": 24
+    }
+  ]
+}

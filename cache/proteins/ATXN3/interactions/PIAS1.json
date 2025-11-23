@@ -1,0 +1,80 @@
+{
+  "primary": "PIAS1",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "The SUMO E3 ligase PIAS1 directly interacts with ATXN3 and promotes its SUMOylation. This interaction enhances the stability of both wild-type and polyQ-expanded ATXN3 by protecting it from proteasome-mediated degradation.",
+  "functions": [
+    {
+      "function": "ATXN3 SUMOylation",
+      "arrow": "activates",
+      "cellular_process": "The SUMO E3 ligase PIAS1 directly interacts with ATXN3 via its PINIT and SP-RING domains, catalyzing the covalent attachment of SUMO proteins to ATXN3.",
+      "effect_description": "PIAS1-mediated SUMOylation of ATXN3 increases its stability by preventing its degradation through the ubiquitin-proteasome system.",
+      "biological_consequence": [
+        "PIAS1 E3 ligase binds to ATXN3 → PIAS1 catalyzes SUMO1 conjugation to ATXN3 → SUMOylation inhibits ATXN3 ubiquitination → Reduced proteasomal degradation of ATXN3 → Increased ATXN3 protein stability and levels"
+      ],
+      "specific_effects": [
+        "PIAS1 stabilizes both wild-type and mutant ataxin-3.",
+        "PIAS1 knockdown leads to a dose-dependent decrease in both wild-type and mutant ATXN3 protein levels.",
+        "The stabilization of ATXN3 by PIAS1 is prevented by treatment with the proteasome inhibitor MG132.",
+        "A PIAS1 variant (S510G) selectively reduces the stability and SUMOylation of mutant ATXN3."
+      ],
+      "evidence": [
+        {
+          "paper_title": "PIAS1 S510G variant acts as a genetic modifier of spinocerebellar ataxia type 3 by selectively impairing mutant ataxin-3 proteostasis",
+          "doi": "10.1016/j.biocel.2024.106662",
+          "authors": "Chang YC, Tsai YC, Chang EC, Hsu YC, Huang YR, Lee YH, Tsai YS, Chen YQ, Lee YC, Liao YC, Kuo JC, Su MT, Yang UC, Chern Y, Cheng TH",
+          "journal": "The International Journal of Biochemistry & Cell Biology",
+          "year": 2024,
+          "assay": "Co-Immunoprecipitation, FRET",
+          "species": "human, drosophila",
+          "relevant_quote": "Through in vitro biochemical analyses and in vivo assays, we demonstrate that PIAS1 stabilizes both wild-type and mutant ataxin-3 (ATXN3).",
+          "pmid": "39293559"
+        }
+      ],
+      "pmids": [
+        "39293559"
+      ],
+      "interaction_effect": "activates",
+      "interaction_direction": "primary_to_main",
+      "function_effect": "activation"
+    }
+  ],
+  "arrow": "regulates",
+  "direction": "primary_to_main",
+  "intent": "sumoylation",
+  "arrows": {
+    "primary_to_main": [
+      "activates"
+    ]
+  },
+  "mechanism": "The SUMO E3 ligase PIAS1 directly interacts with ATXN3 via its PINIT and SP-RING domains, catalyzing the covalent attachment of SUMO proteins to ATXN3.",
+  "effect": "PIAS1-mediated SUMOylation of ATXN3 increases its stability by preventing its degradation through the ubiquitin-proteasome system.",
+  "summary": "ATXN3 activates PIAS1 to modulate atxn3 sumoylation, ultimately affecting increased atxn3 protein stability and levels.",
+  "evidence": [
+    {
+      "paper_title": "PIAS1 S510G variant acts as a genetic modifier of spinocerebellar ataxia type 3 by selectively impairing mutant ataxin-3 proteostasis",
+      "doi": "10.1016/j.biocel.2024.106662",
+      "authors": "Chang YC, Tsai YC, Chang EC, Hsu YC, Huang YR, Lee YH, Tsai YS, Chen YQ, Lee YC, Liao YC, Kuo JC, Su MT, Yang UC, Chern Y, Cheng TH",
+      "journal": "The International Journal of Biochemistry & Cell Biology",
+      "year": 2024,
+      "assay": "Co-Immunoprecipitation, FRET",
+      "species": "human, drosophila",
+      "relevant_quote": "Through in vitro biochemical analyses and in vivo assays, we demonstrate that PIAS1 stabilizes both wild-type and mutant ataxin-3 (ATXN3)."
+    }
+  ],
+  "interaction_effect": "regulation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 2
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATXN3 <--regulates-- PIAS1:",
+  "protein_a": "ATXN3",
+  "protein_b": "PIAS1",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-23T07:58:56.229908Z",
+  "last_updated": "2025-11-23T07:58:56.229908Z"
+}

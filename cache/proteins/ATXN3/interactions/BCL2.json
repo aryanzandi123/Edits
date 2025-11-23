@@ -1,0 +1,136 @@
+{
+  "primary": "BCL2",
+  "interaction_type": "indirect",
+  "upstream_interactor": "PARK2",
+  "mediator_chain": [
+    "PARK2"
+  ],
+  "depth": 2,
+  "support_summary": "ATXN3 indirectly regulates the stability of the anti-apoptotic protein B-cell lymphoma 2 (BCL2) by modulating the E3 ligase activity of Parkin (PARK2). ATXN3 deubiquitinates PARK2, which in turn affects PARK2's ability to mono-ubiquitinate and stabilize BCL2.",
+  "functions": [
+    {
+      "function": "BCL2 Protein Stability",
+      "arrow": "inhibits",
+      "cellular_process": "ATXN3 deubiquitinates the E3 ligase Parkin (PARK2). This deubiquitination of PARK2 by ATXN3 can lead to its degradation. Functional PARK2 normally mono-ubiquitinates the anti-apoptotic and autophagy-inhibitory protein BCL2, which stabilizes BCL2.",
+      "effect_description": "By promoting the degradation of PARK2, ATXN3 indirectly decreases the mono-ubiquitination and subsequent stabilization of BCL2, leading to reduced BCL2 levels.",
+      "biological_consequence": [
+        "ATXN3 deubiquitinates PARK2 → Enhanced PARK2 degradation → Decreased mono-ubiquitination of BCL2 → Reduced BCL2 protein stability → Promotion of autophagy"
+      ],
+      "specific_effects": [
+        "PARK2 directly binds to BCL2 and mediates its mono-ubiquitination.",
+        "Mono-ubiquitination of BCL2 by PARK2 increases its steady-state protein level.",
+        "ATXN3 counteracts PARK2 self-ubiquitination, and polyQ-expanded ATXN3 promotes the clearance of PARK2 via autophagy.",
+        "By stabilizing BCL2, PARK2 enhances the interaction between BCL2 and the autophagy initiator Beclin 1, thereby inhibiting autophagy."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Parkin Mono-ubiquitinates Bcl-2 and Regulates Autophagy",
+          "doi": "10.1074/jbc.M110.101469",
+          "authors": "Dong Chen, Feng Gao, Bin Li, Hongfeng Wang, Yuxia Xu, Cuiqing Zhu, Guanghui Wang",
+          "journal": "Journal of Biological Chemistry",
+          "year": 2010,
+          "assay": "Co-immunoprecipitation, in vitro ubiquitination assay",
+          "species": "human",
+          "relevant_quote": "Parkin directly binds to Bcl-2 via its C terminus and mediates the mono-ubiquitination of Bcl-2, which increases the steady-state levels of Bcl-2.",
+          "pmid": "20889974"
+        },
+        {
+          "paper_title": "Ataxin-3 deubiquitination is coupled to Parkin ubiquitination via E2 ubiquitin-conjugating enzyme",
+          "doi": "10.1074/jbc.M111.288449",
+          "authors": "Thomas M Durcan, Maria Kontogiannea, Nathalie Bedard, Simon S Wing, Edward A Fon",
+          "journal": "Journal of Biological Chemistry",
+          "year": 2012,
+          "assay": "in vitro ubiquitination assay",
+          "species": "human",
+          "relevant_quote": "ataxin-3 interferes with the attachment of ubiquitin (Ub) onto parkin in real-time during conjugation but is unable to hydrolyze previously assembled parkin-Ub conjugates.",
+          "pmid": "22081612"
+        },
+        {
+          "paper_title": "The Machado-Joseph disease-associated mutant form of ataxin-3 regulates parkin ubiquitination and stability",
+          "doi": "10.1093/hmg/ddq452",
+          "authors": "Thomas M Durcan, Maria Kontogiannea, Tinna Thorarinsdottir, Lisa Fallon, Alun J Williams, Aleksandar Djarmati, Teodora Fantaneanu, Henry L Paulson, Edward A Fon",
+          "journal": "Human Molecular Genetics",
+          "year": 2011,
+          "assay": "Western Blot, Co-immunoprecipitation",
+          "species": "human, mouse",
+          "relevant_quote": "Both wild-type and polyQ-expanded ataxin-3 can deubiquitinate parkin... However, only the expanded version of ataxin-3 promoted the clearance of parkin through the autophagy pathway.",
+          "pmid": "20940148"
+        }
+      ],
+      "interaction_effect": "inhibits",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "20889974",
+        "22081612",
+        "20940148"
+      ],
+      "direct_arrow": "activates",
+      "function_effect": "inhibition",
+      "arrow_context": {
+        "direct_from": "PARK2",
+        "direct_arrow": "activates",
+        "net_from": "ATXN3",
+        "net_arrow": "inhibits",
+        "mediator_chain": [
+          "PARK2"
+        ],
+        "is_indirect": true
+      },
+      "net_arrow": "inhibits",
+      "net_effect": "inhibition",
+      "direct_effect": "activation"
+    }
+  ],
+  "arrow": "inhibits",
+  "direction": "main_to_primary",
+  "intent": "regulation of ubiquitination",
+  "mechanism": "ATXN3 deubiquitinates the E3 ligase Parkin (PARK2). This deubiquitination of PARK2 by ATXN3 can lead to its degradation. Functional PARK2 normally mono-ubiquitinates the anti-apoptotic and autophagy-inhibitory protein BCL2, which stabilizes BCL2.",
+  "effect": "By promoting the degradation of PARK2, ATXN3 indirectly decreases the mono-ubiquitination and subsequent stabilization of BCL2, leading to reduced BCL2 levels.",
+  "summary": "ATXN3 inhibits BCL2 to modulate bcl2 protein stability, ultimately affecting promotion of autophagy.",
+  "evidence": [
+    {
+      "paper_title": "Parkin Mono-ubiquitinates Bcl-2 and Regulates Autophagy",
+      "doi": "10.1074/jbc.M110.101469",
+      "authors": "Dong Chen, Feng Gao, Bin Li, Hongfeng Wang, Yuxia Xu, Cuiqing Zhu, Guanghui Wang",
+      "journal": "Journal of Biological Chemistry",
+      "year": 2010,
+      "assay": "Co-immunoprecipitation, in vitro ubiquitination assay",
+      "species": "human",
+      "relevant_quote": "Parkin directly binds to Bcl-2 via its C terminus and mediates the mono-ubiquitination of Bcl-2, which increases the steady-state levels of Bcl-2."
+    },
+    {
+      "paper_title": "Ataxin-3 deubiquitination is coupled to Parkin ubiquitination via E2 ubiquitin-conjugating enzyme",
+      "doi": "10.1074/jbc.M111.288449",
+      "authors": "Thomas M Durcan, Maria Kontogiannea, Nathalie Bedard, Simon S Wing, Edward A Fon",
+      "journal": "Journal of Biological Chemistry",
+      "year": 2012,
+      "assay": "in vitro ubiquitination assay",
+      "species": "human",
+      "relevant_quote": "ataxin-3 interferes with the attachment of ubiquitin (Ub) onto parkin in real-time during conjugation but is unable to hydrolyze previously assembled parkin-Ub conjugates."
+    },
+    {
+      "paper_title": "The Machado-Joseph disease-associated mutant form of ataxin-3 regulates parkin ubiquitination and stability",
+      "doi": "10.1093/hmg/ddq452",
+      "authors": "Thomas M Durcan, Maria Kontogiannea, Tinna Thorarinsdottir, Lisa Fallon, Alun J Williams, Aleksandar Djarmati, Teodora Fantaneanu, Henry L Paulson, Edward A Fon",
+      "journal": "Human Molecular Genetics",
+      "year": 2011,
+      "assay": "Western Blot, Co-immunoprecipitation",
+      "species": "human, mouse",
+      "relevant_quote": "Both wild-type and polyQ-expanded ataxin-3 can deubiquitinate parkin... However, only the expanded version of ataxin-3 promoted the clearance of parkin through the autophagy pathway."
+    }
+  ],
+  "interaction_effect": "inhibition",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "PARK2 --inhibits--> BCL2:",
+  "protein_a": "ATXN3",
+  "protein_b": "BCL2",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-23T07:58:56.172578Z",
+  "last_updated": "2025-11-23T07:58:56.172578Z"
+}

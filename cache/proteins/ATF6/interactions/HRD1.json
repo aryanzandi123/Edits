@@ -1,0 +1,124 @@
+{
+  "primary": "HRD1",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "The E3 ubiquitin ligase HRD1 (SYVN1) directly binds to the full-length p90 form of ATF6 to mediate its ubiquitination and subsequent ER-associated degradation (ERAD), thus terminating the ATF6 signaling branch of the UPR.",
+  "functions": [
+    {
+      "function": "ATF6 Degradation",
+      "arrow": "activates",
+      "cellular_process": "The ER-resident E3 ubiquitin ligase HRD1 (SYVN1) ubiquitinates full-length ATF6, targeting it for proteasomal degradation through the ERAD pathway. This serves as a negative feedback mechanism.",
+      "effect_description": "HRD1-mediated ubiquitination leads to the degradation of ATF6, which terminates its signaling activity and ensures a transient, controlled response to ER stress.",
+      "biological_consequence": [
+        "Active ATF6(N) induces HRD1 gene transcription → HRD1 E3 ligase ubiquitinates full-length ATF6 (p90) at the ER → Ubiquitinated ATF6 is targeted for degradation via the ERAD pathway → ATF6 protein levels are reduced → The ATF6 branch of the UPR is terminated"
+      ],
+      "specific_effects": [
+        "Targets the full-length p90 form of ATF6 for proteasomal degradation.",
+        "Acts as a key negative regulator to turn off the ATF6 branch of the UPR.",
+        "HRD1 expression is induced by ATF6, forming a negative feedback loop."
+      ],
+      "evidence": [
+        {
+          "paper_title": "The Unfolded Protein Response Transducer ATF6 Represents a Novel Transmembrane-type Endoplasmic Reticulum-associated Degradation Substrate Requiring Both Mannose Trimming and SEL1L Protein",
+          "year": 2013,
+          "doi": "10.1074/jbc.M113.476010",
+          "authors": "Horimoto S, Kawahara K, Tanimura M, Mizushima T, Okuma Y, Imaizumi K, Hosokawa N",
+          "journal": "The Journal of Biological Chemistry",
+          "assay": "Pulse-chase, Immunoprecipitation",
+          "species": "chicken, human",
+          "relevant_quote": "Although it was shown previously that ATF6α was degraded by the proteasome via HRD1 in mammalian cells, its SEL1L dependence was not examined.",
+          "pmid": "24043630"
+        },
+        {
+          "paper_title": "Human HRD1 protects against ER stress-induced apoptosis through ER-associated degradation",
+          "year": 2002,
+          "doi": "10.1016/s0014-5793(02)03660-8",
+          "authors": "Kikkert M, Doolman R, Mamarin M, Kortlever RM, Koster AJ, Wiertz EJ, Ploegh HL",
+          "journal": "FEBS Letters",
+          "assay": "Immunoprecipitation, Western Blot",
+          "species": "human",
+          "relevant_quote": "...human HRD1 was up-regulated by ER stress via IRE1 and ATF6, which are ER stress transducers.",
+          "pmid": "12459480"
+        },
+        {
+          "paper_title": "Hrd1 and ER-Associated Protein Degradation, ERAD, Are Critical Elements of the Adaptive ER Stress Response in Cardiac Myocytes",
+          "year": 2014,
+          "doi": "10.1161/CIRCRESAHA.114.303629",
+          "authors": "Doroudgar S, Thuerauf DJ, Glembotski CC",
+          "journal": "Circulation Research",
+          "assay": "Adenovirus Infection, qRT-PCR",
+          "species": "rat, mouse",
+          "relevant_quote": "One of the genes induced by ATF6 in the heart is the ER-transmembrane E3 ubiquitin ligase, HMG-CoA reductase degradation protein 1, or Hrd1.",
+          "pmid": "26137860"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "primary_to_main",
+      "interaction_direction": "primary_to_main",
+      "pmids": [
+        "24043630",
+        "12459480",
+        "26137860"
+      ],
+      "function_effect": "activation"
+    }
+  ],
+  "arrows": {
+    "primary_to_main": [
+      "inhibits"
+    ]
+  },
+  "arrow": "inhibits",
+  "direction": "primary_to_main",
+  "intent": "ubiquitination",
+  "mechanism": "The ER-resident E3 ubiquitin ligase HRD1 (SYVN1) ubiquitinates full-length ATF6, targeting it for proteasomal degradation through the ERAD pathway. This serves as a negative feedback mechanism.",
+  "effect": "HRD1-mediated ubiquitination leads to the degradation of ATF6, which terminates its signaling activity and ensures a transient, controlled response to ER stress.",
+  "summary": "ATF6 inhibits HRD1 to modulate atf6 degradation, ultimately affecting the atf6 branch of the upr is terminated.",
+  "evidence": [
+    {
+      "paper_title": "The Unfolded Protein Response Transducer ATF6 Represents a Novel Transmembrane-type Endoplasmic Reticulum-associated Degradation Substrate Requiring Both Mannose Trimming and SEL1L Protein",
+      "year": 2013,
+      "doi": "10.1074/jbc.M113.476010",
+      "authors": "Horimoto S, Kawahara K, Tanimura M, Mizushima T, Okuma Y, Imaizumi K, Hosokawa N",
+      "journal": "The Journal of Biological Chemistry",
+      "assay": "Pulse-chase, Immunoprecipitation",
+      "species": "chicken, human",
+      "relevant_quote": "Although it was shown previously that ATF6α was degraded by the proteasome via HRD1 in mammalian cells, its SEL1L dependence was not examined."
+    },
+    {
+      "paper_title": "Human HRD1 protects against ER stress-induced apoptosis through ER-associated degradation",
+      "year": 2002,
+      "doi": "10.1016/s0014-5793(02)03660-8",
+      "authors": "Kikkert M, Doolman R, Mamarin M, Kortlever RM, Koster AJ, Wiertz EJ, Ploegh HL",
+      "journal": "FEBS Letters",
+      "assay": "Immunoprecipitation, Western Blot",
+      "species": "human",
+      "relevant_quote": "...human HRD1 was up-regulated by ER stress via IRE1 and ATF6, which are ER stress transducers."
+    },
+    {
+      "paper_title": "Hrd1 and ER-Associated Protein Degradation, ERAD, Are Critical Elements of the Adaptive ER Stress Response in Cardiac Myocytes",
+      "year": 2014,
+      "doi": "10.1161/CIRCRESAHA.114.303629",
+      "authors": "Doroudgar S, Thuerauf DJ, Glembotski CC",
+      "journal": "Circulation Research",
+      "assay": "Adenovirus Infection, qRT-PCR",
+      "species": "rat, mouse",
+      "relevant_quote": "One of the genes induced by ATF6 in the heart is the ER-transmembrane E3 ubiquitin ligase, HMG-CoA reductase degradation protein 1, or Hrd1."
+    }
+  ],
+  "interaction_effect": "inhibition",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATF6 <--inhibits-- HRD1:",
+  "protein_a": "ATF6",
+  "protein_b": "HRD1",
+  "discovered_in_query": "ATF6",
+  "first_discovered": "2025-11-18T21:01:00.275267Z",
+  "last_updated": "2025-11-18T21:01:00.275267Z"
+}

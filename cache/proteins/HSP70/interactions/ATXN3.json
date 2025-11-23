@@ -1,0 +1,102 @@
+{
+  "primary": "ATXN3",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "ATXN3 directly interacts with Heat Shock Protein 70 (HSP70), specifically Hsc70-4 in Drosophila, via its Ubiquitin-Interacting Motifs (UIMs). This interaction with polyQ-expanded ATXN3 leads to the sequestration of chaperones into aggregates, paradoxically enhancing aggregation and toxicity.",
+  "functions": [
+    {
+      "function": "Protein Aggregation",
+      "arrow": "activates",
+      "cellular_process": "PolyQ-expanded ATXN3 directly interacts with Heat Shock Protein 70 (HSP70/HSPA) chaperones through its ubiquitin-interacting motifs (UIMs). This recruits chaperones to the misfolded protein.",
+      "effect_description": "The sequestration of HSP70 into aggregates with polyQ-expanded ATXN3 impairs the chaperone's normal function in protein quality control, thereby enhancing aggregate formation and cellular toxicity.",
+      "biological_consequence": [
+        "PolyQ-expanded ATXN3 misfolds and exposes its UIMs → UIMs bind and recruit HSP70 chaperones → HSP70 becomes sequestered within insoluble ATXN3 aggregates → Cellular protein quality control capacity is overwhelmed → Aggregation is enhanced, leading to neurotoxicity"
+      ],
+      "specific_effects": [
+        "The interaction between ATXN3's UIMs and Hsc70-4 (a Drosophila HSP70) enhances ATXN3 aggregation and toxicity. [4, 7, 9]",
+        "HSP70 is a common component of the neuronal intranuclear inclusions found in SCA3.",
+        "Normal ATXN3 regulates the basal level of hsp70, and this function is dependent on its DUB activity and UIMs. [16]"
+      ],
+      "evidence": [
+        {
+          "paper_title": "Ubiquitin-interacting motifs of ataxin-3 regulate its polyglutamine toxicity through Hsc70-4-dependent aggregation",
+          "doi": "10.7554/eLife.60742",
+          "authors": "Johnson AG, Ristic G, Todi SV, Blount JR",
+          "journal": "eLife",
+          "year": 2020,
+          "assay": "Co-IP, Mass Spectrometry",
+          "species": "Drosophila melanogaster",
+          "relevant_quote": "UIMs function by interacting with the heat shock protein, Hsc70-4, whose reduction diminishes ataxin-3 toxicity in a UIM-dependent manner. [4]",
+          "pmid": "32955441"
+        },
+        {
+          "paper_title": "Basal and stress-induced Hsp70 are modulated by ataxin-3",
+          "doi": "10.1007/s12192-011-0299-y",
+          "authors": "Weathington J, Gomez-Heredia M, Sharpnack M, Todi SV, Pittman RN",
+          "journal": "Cell Stress and Chaperones",
+          "year": 2012,
+          "assay": "Western Blot, Reporter Assay",
+          "species": "mouse",
+          "relevant_quote": "mutations that inactivated deubiquitinase activity or the ubiquitin interacting motifs did not restore full activity to hsp70 basal promoter activity. [16]",
+          "pmid": "22777893"
+        }
+      ],
+      "_context": {
+        "type": "direct",
+        "query_protein": null,
+        "chain": null
+      },
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "32955441",
+        "22777893"
+      ],
+      "function_effect": "activation"
+    }
+  ],
+  "arrow": "binds",
+  "direction": "primary_to_main",
+  "intent": "protein aggregation",
+  "mechanism": "PolyQ-expanded ATXN3 directly interacts with Heat Shock Protein 70 (HSP70/HSPA) chaperones through its ubiquitin-interacting motifs (UIMs). This recruits chaperones to the misfolded protein.",
+  "effect": "The sequestration of HSP70 into aggregates with polyQ-expanded ATXN3 impairs the chaperone's normal function in protein quality control, thereby enhancing aggregate formation and cellular toxicity.",
+  "summary": "ATXN3 activates HSP70 to modulate protein aggregation, ultimately affecting aggregation is enhanced, leading to neurotoxicity.",
+  "evidence": [
+    {
+      "paper_title": "Ubiquitin-interacting motifs of ataxin-3 regulate its polyglutamine toxicity through Hsc70-4-dependent aggregation",
+      "doi": "10.7554/eLife.60742",
+      "authors": "Johnson AG, Ristic G, Todi SV, Blount JR",
+      "journal": "eLife",
+      "year": 2020,
+      "assay": "Co-IP, Mass Spectrometry",
+      "species": "Drosophila melanogaster",
+      "relevant_quote": "UIMs function by interacting with the heat shock protein, Hsc70-4, whose reduction diminishes ataxin-3 toxicity in a UIM-dependent manner. [4]"
+    },
+    {
+      "paper_title": "Basal and stress-induced Hsp70 are modulated by ataxin-3",
+      "doi": "10.1007/s12192-011-0299-y",
+      "authors": "Weathington J, Gomez-Heredia M, Sharpnack M, Todi SV, Pittman RN",
+      "journal": "Cell Stress and Chaperones",
+      "year": 2012,
+      "assay": "Western Blot, Reporter Assay",
+      "species": "mouse",
+      "relevant_quote": "mutations that inactivated deubiquitinase activity or the ubiquitin interacting motifs did not restore full activity to hsp70 basal promoter activity. [16]"
+    }
+  ],
+  "interaction_effect": "binds",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 3
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATXN3 --binds--> HSP70:",
+  "protein_a": "HSP70",
+  "protein_b": "ATXN3",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-23T07:58:56.190642Z",
+  "last_updated": "2025-11-23T07:58:56.190642Z"
+}

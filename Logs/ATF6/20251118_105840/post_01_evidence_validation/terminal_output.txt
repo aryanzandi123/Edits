@@ -1,0 +1,10 @@
+================================================================================
+VALIDATING EVIDENCE FOR ATF6
+================================================================================
+Total interactors to process: 45
+
+[OK]Evidence validation complete!
+  Total interactors processed: 45
+  Total functions: 46
+  Total PMIDs: 0
+  Functions with evidence: 0

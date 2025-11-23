@@ -1,0 +1,84 @@
+{
+  "timestamp": "2025-11-18T04:56:39.127430",
+  "mode": "live",
+  "archive_validation": false,
+  "summary": {
+    "interactions_processed": 50,
+    "functions_removed": 0,
+    "evidence_deduped": 0,
+    "total_fields_removed": 65,
+    "fields_removed_breakdown": {
+      "interaction_evidence": 0,
+      "arrow_notation": 0,
+      "interaction_effect": 32,
+      "interaction_direction": 33,
+      "pmids_array": 0,
+      "validation_meta": 0
+    },
+    "bytes_saved": 2557,
+    "kb_saved": 2.5,
+    "mb_saved": 0.0
+  },
+  "samples": [
+    {
+      "protein_pair": "MTOR",
+      "before_size": 4857,
+      "after_size": 4779,
+      "reduction_percent": 2
+    },
+    {
+      "protein_pair": "VCP",
+      "before_size": 4044,
+      "after_size": 4000,
+      "reduction_percent": 1
+    },
+    {
+      "protein_pair": "TP53",
+      "before_size": 5082,
+      "after_size": 5003,
+      "reduction_percent": 2
+    },
+    {
+      "protein_pair": "STUB1",
+      "before_size": 4574,
+      "after_size": 4539,
+      "reduction_percent": 1
+    },
+    {
+      "protein_pair": "HDAC3",
+      "before_size": 8397,
+      "after_size": 8327,
+      "reduction_percent": 1
+    },
+    {
+      "protein_pair": "KAT2B",
+      "before_size": 5005,
+      "after_size": 4927,
+      "reduction_percent": 2
+    },
+    {
+      "protein_pair": "DNAJB1",
+      "before_size": 3688,
+      "after_size": 3610,
+      "reduction_percent": 2
+    },
+    {
+      "protein_pair": "HSF1",
+      "before_size": 4814,
+      "after_size": 4770,
+      "reduction_percent": 1
+    },
+    {
+      "protein_pair": "MTOR",
+      "before_size": 4910,
+      "after_size": 4832,
+      "reduction_percent": 2
+    },
+    {
+      "protein_pair": "BECN1",
+      "before_size": 4018,
+      "after_size": 4018,
+      "reduction_percent": 0
+    }
+  ]
+}

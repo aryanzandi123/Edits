@@ -1,0 +1,103 @@
+{
+  "primary": "ZKSCAN3",
+  "interaction_type": "indirect",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 2,
+  "support_summary": "ZKSCAN3 is a transcriptional repressor that acts as a functional antagonist to TFEB. Both transcription factors are oppositely regulated by cellular stress signals like starvation. They bind to the promoters of an overlapping set of autophagy and lysosomal genes, regulating them in opposite directions to create a transcriptional switch for cellular clearance pathways.",
+  "functions": [
+    {
+      "function": "Transcriptional Repression of Autophagy & Lysosomal Genes",
+      "arrow": "activates",
+      "cellular_process": "ZKSCAN3 is a zinc-finger transcription factor that binds to the promoters of many of the same autophagy and lysosomal genes as TFEB. However, ZKSCAN3 acts as a transcriptional repressor for these genes, functionally opposing TFEB's role as an activator.",
+      "effect_description": "ZKSCAN3 activity leads to the transcriptional repression of the CLEAR gene network, thereby suppressing the biogenesis of autophagosomes and lysosomes.",
+      "biological_consequence": [
+        "ZKSCAN3 translocates to the nucleus → ZKSCAN3 binds to CLEAR elements in gene promoters → Transcriptional repression of autophagy and lysosomal genes → Functional opposition of TFEB-mediated activation → Suppression of cellular clearance",
+        "A30P mutant α-synuclein expression (in Parkinson's model) → JNK signaling inactivation → ZKSCAN3 nuclear accumulation → Repression of autophagy-related gene expression → Impaired clearance of α-synuclein aggregates → Neurodegeneration progression"
+      ],
+      "specific_effects": [
+        "Acts as a master transcriptional repressor of autophagy.",
+        "Functionally opposes the transcriptional activity of TFEB.",
+        "Regulates a subset of TFEB target genes in the opposite direction."
+      ],
+      "evidence": [
+        {
+          "paper_title": "ZKSCAN3 affects the autophagy-lysosome pathway through TFEB in Parkinson's disease",
+          "doi": "10.3892/br.2025.1952",
+          "authors": "Luo J, Chen Y, Wu H, Chen J, Yue Z, Chen J",
+          "journal": "Biomedical Reports",
+          "year": 2022,
+          "assay": "Western Blot, RT-qPCR, Immunofluorescence",
+          "species": "human",
+          "relevant_quote": "In a model of PD, ZKSCAN3 accumulates in the nucleus, inhibits the expression of autophagy-related genes and reduces lysosome production, thus leading to the accumulation of α-synuclein...",
+          "pmid": "40083599"
+        }
+      ],
+      "_context": {
+        "type": "indirect",
+        "query_protein": null,
+        "chain": []
+      },
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "40083599"
+      ],
+      "function_effect": "activation",
+      "arrow_context": {
+        "direct_from": null,
+        "direct_arrow": "activates",
+        "net_from": "TFEB",
+        "net_arrow": "activates",
+        "mediator_chain": [],
+        "is_indirect": true
+      },
+      "net_arrow": "activates",
+      "direct_arrow": "activates",
+      "net_effect": "activation",
+      "direct_effect": "activation"
+    }
+  ],
+  "arrow": "regulates",
+  "direction": "primary_to_main",
+  "intent": "transcriptional regulation",
+  "mechanism": "ZKSCAN3 is a zinc-finger transcription factor that binds to the promoters of many of the same autophagy and lysosomal genes as TFEB. However, ZKSCAN3 acts as a transcriptional repressor for these genes, functionally opposing TFEB's role as an activator.",
+  "effect": "ZKSCAN3 activity leads to the transcriptional repression of the CLEAR gene network, thereby suppressing the biogenesis of autophagosomes and lysosomes.",
+  "summary": "TFEB inhibits ZKSCAN3 to modulate transcriptional repression of autophagy & lysosomal genes, ultimately affecting suppression of cellular clearance.",
+  "evidence": [
+    {
+      "paper_title": "ZKSCAN3 (ZNF306) is a Master Transcriptional Repressor of Autophagy",
+      "doi": "10.1016/j.molcel.2013.01.024",
+      "authors": "Chauhan S, Goodwin JG, Chauhan S, Manyam G, Wang J, Kamat AM, Boyd DD",
+      "journal": "Molecular Cell",
+      "year": 2013,
+      "assay": "ChIP-seq, Luciferase Reporter Assay, Western Blot, qRT-PCR",
+      "species": "human",
+      "relevant_quote": "Interestingly, ZKSCAN3 and TFEB are oppositely regulated by starvation and in turn oppositely regulate lysosomal biogenesis and autophagy, suggesting that they act in conjunction."
+    },
+    {
+      "paper_title": "ZKSCAN3 affects the autophagy-lysosome pathway through TFEB in Parkinson's disease",
+      "doi": "10.3892/br.2025.1952",
+      "authors": "Luo J, Chen Y, Wu H, Chen J, Yue Z, Chen J",
+      "journal": "Biomedical Reports",
+      "year": 2022,
+      "assay": "Western Blot, RT-qPCR, Immunofluorescence",
+      "species": "human",
+      "relevant_quote": "In a model of PD, ZKSCAN3 accumulates in the nucleus, inhibits the expression of autophagy-related genes and reduces lysosome production, thus leading to the accumulation of α-synuclein..."
+    }
+  ],
+  "interaction_effect": "regulation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 3
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TFEB <--regulates-- ZKSCAN3:",
+  "protein_a": "TFEB",
+  "protein_b": "ZKSCAN3",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.575278Z",
+  "last_updated": "2025-11-19T03:20:29.575278Z"
+}

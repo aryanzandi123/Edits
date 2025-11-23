@@ -1,0 +1,102 @@
+{
+  "primary": "ATF6",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "ERp18 is an ER-resident oxidoreductase that directly binds to ATF6. This interaction serves as a regulatory checkpoint, retaining ATF6 in the ER under basal conditions and modulating its activation kinetics during ER stress to ensure a properly controlled response.",
+  "functions": [
+    {
+      "function": "ATF6 ER Retention & Activation Modulation",
+      "arrow": "activates",
+      "cellular_process": "The ER-resident oxidoreductase ERp18 (encoded by TXNDC12) physically associates with the luminal domain of ATF6, mitigating its dimerization and subsequent trafficking from the ER to the Golgi apparatus.",
+      "effect_description": "This interaction inhibits the premature activation of ATF6 by retaining it in the ER, ensuring that its stress-induced transport and proteolytic cleavage are properly controlled.",
+      "biological_consequence": [
+        "ERp18 binds to the luminal domain of ATF6 → Inhibition of ATF6 dimerization and oligomerization → Retention of ATF6 in the endoplasmic reticulum → Attenuation of ATF6 trafficking to the Golgi apparatus → Reduced proteolytic cleavage and activation of ATF6"
+      ],
+      "specific_effects": [
+        "ERp18 retains ATF6 in the ER, thereby regulating its packaging into transport vesicles.",
+        "Overexpression of ERp18 attenuates ATF6 dimer formation and limits its trafficking to the Golgi.",
+        "Depletion of ERp18 leads to accelerated trafficking but aberrant processing of ATF6, attenuating the overall stress response."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Activation of the UPR sensor ATF6α is regulated by its redox-dependent dimerization and ER retention by ERp18",
+          "doi": "10.1073/pnas.2122657119",
+          "authors": "Oka OBV, Pierre AS, Pringle MA, Tungkum W, Cao Z, Fleming B, Bulleid NJ",
+          "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+          "year": 2022,
+          "assay": "Co-immunoprecipitation, Western Blot",
+          "species": "human",
+          "relevant_quote": "We show that ERp18 regulates ATF6α by mitigating its dimerization and trafficking to the Golgi and identify redox-dependent oligomerization of ATF6α as a key mechanism...",
+          "pmid": "35286189"
+        },
+        {
+          "paper_title": "ERp18 regulates activation of ATF6α during unfolded protein response",
+          "doi": "10.15252/embj.2018100990",
+          "authors": "Oka OB, Pringle MA, Schopp JM, Bulleid NJ",
+          "journal": "The EMBO Journal",
+          "year": 2019,
+          "assay": "Co-immunoprecipitation, Pulse-chase analysis",
+          "species": "human",
+          "relevant_quote": "we demonstrate a role for the oxidoreductase ERp18 in binding to ATF6α following ER stress...suggesting it acts to retain ATF6α in the ER following BiP release.",
+          "pmid": "31368601"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "primary_to_main",
+      "interaction_direction": "primary_to_main",
+      "pmids": [
+        "35286189",
+        "31368601"
+      ],
+      "function_effect": "activation"
+    }
+  ],
+  "arrows": {
+    "primary_to_main": [
+      "inhibits"
+    ]
+  },
+  "arrow": "inhibits",
+  "direction": "main_to_primary",
+  "intent": "regulation",
+  "mechanism": "The ER-resident oxidoreductase ERp18 (encoded by TXNDC12) physically associates with the luminal domain of ATF6, mitigating its dimerization and subsequent trafficking from the ER to the Golgi apparatus.",
+  "effect": "This interaction inhibits the premature activation of ATF6 by retaining it in the ER, ensuring that its stress-induced transport and proteolytic cleavage are properly controlled.",
+  "summary": "ATF6 inhibits ERp18 to modulate atf6 er retention & activation modulation, ultimately affecting reduced proteolytic cleavage and activation of atf6.",
+  "evidence": [
+    {
+      "paper_title": "Activation of the UPR sensor ATF6α is regulated by its redox-dependent dimerization and ER retention by ERp18",
+      "doi": "10.1073/pnas.2122657119",
+      "authors": "Oka OBV, Pierre AS, Pringle MA, Tungkum W, Cao Z, Fleming B, Bulleid NJ",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "year": 2022,
+      "assay": "Co-immunoprecipitation, Western Blot",
+      "species": "human",
+      "relevant_quote": "We show that ERp18 regulates ATF6α by mitigating its dimerization and trafficking to the Golgi and identify redox-dependent oligomerization of ATF6α as a key mechanism..."
+    },
+    {
+      "paper_title": "ERp18 regulates activation of ATF6α during unfolded protein response",
+      "doi": "10.15252/embj.2018100990",
+      "authors": "Oka OB, Pringle MA, Schopp JM, Bulleid NJ",
+      "journal": "The EMBO Journal",
+      "year": 2019,
+      "assay": "Co-immunoprecipitation, Pulse-chase analysis",
+      "species": "human",
+      "relevant_quote": "we demonstrate a role for the oxidoreductase ERp18 in binding to ATF6α following ER stress...suggesting it acts to retain ATF6α in the ER following BiP release."
+    }
+  ],
+  "interaction_effect": "inhibition",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATF6 <--inhibits-- ERp18:",
+  "protein_a": "ERp18",
+  "protein_b": "ATF6",
+  "discovered_in_query": "ATF6",
+  "first_discovered": "2025-11-18T21:01:00.243504Z",
+  "last_updated": "2025-11-18T21:01:00.243504Z"
+}

@@ -1,0 +1,181 @@
+{
+  "primary": "ATXN3",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "ATXN3 and FUS functionally interact in the nucleus, where both are involved in the DNA damage response (DDR). This interaction is critical for maintaining genomic integrity. Additionally, their interplay may influence the dynamics of stress granules in the cytoplasm under conditions of cellular stress.",
+  "arrow": "regulates",
+  "direction": "primary_to_main",
+  "intent": "regulation",
+  "functions": [
+    {
+      "function": "DNA Damage Response",
+      "arrow": "regulates",
+      "cellular_process": "ATXN3 and FUS are both recruited to sites of DNA damage and participate in repair pathways. FUS regulates the splicing of DDR-related genes, while ATXN3 is involved in the repair of double-strand breaks, suggesting a coordinated role.",
+      "effect_description": "The interaction between ATXN3 and FUS facilitates a coordinated DNA damage response, and its dysregulation can lead to impaired genomic integrity, a contributing factor to neurodegeneration.",
+      "biological_consequence": [
+        "DNA double-strand break occurs → ATXN3 is recruited to DNA damage sites → ATXN3 facilitates repair of double-strand breaks → Genomic stability is maintained",
+        "PolyQ-expanded ATXN3 expression → Inhibition of DNA repair enzymes (e.g., PNKP) → Accumulation of DNA damage → Increased neuronal vulnerability and neurodegeneration"
+      ],
+      "specific_effects": [
+        "ATXN3 is involved in the repair of DNA double-strand breaks.",
+        "FUS targets and regulates the pre-mRNA alternative splicing of genes involved in the DNA damage response pathway.",
+        "Mutations in FUS are associated with impaired recruitment of DNA repair proteins and increased DNA damage.",
+        "Mutant ATXN3 can lead to an accumulation of DNA damage by inhibiting the activity of repair enzymes like PNKP."
+      ],
+      "evidence": [
+        {
+          "paper_title": "FUS-regulated RNA metabolism and DNA damage repair: Implications for amyotrophic lateral sclerosis and frontotemporal dementia pathogenesis",
+          "doi": "10.4161/rdis.29515",
+          "authors": "Qiu H, Lee S, Shang Y, Wang WY, Au KF, Kamiya S, Barmada SJ, Finkbeiner S, Lui H, Carlton CE, Glicksman MA, Couthier A, Lin W, Da Cruz S, Cleveland DW, Lagier-Tourenne C, Ling SC, Chuang DM, Yeo GW, Zuo P",
+          "journal": "Rare Diseases",
+          "year": 2014,
+          "assay": "CLIP-seq",
+          "species": "human",
+          "relevant_quote": "We also identify that FUS RNA targets are enriched for genes in the DNA damage response pathway.",
+          "pmid": "25083344"
+        },
+        {
+          "paper_title": "ATXN3: a multifunctional protein involved in the polyglutamine disease spinocerebellar ataxia type 3",
+          "doi": "10.1017/erm.2024.10",
+          "authors": "Hernández-Carralero E, Quinet G, Freire R",
+          "journal": "Expert Reviews in Molecular Medicine",
+          "year": 2024,
+          "assay": "Review",
+          "species": "human",
+          "relevant_quote": "In this review, we summarize the main functions of ATXN3 in proteostasis, DNA repair and transcriptional regulation, as well as the emerging role in regulating chromatin structure.",
+          "pmid": "39320846"
+        }
+      ],
+      "interaction_effect": "regulates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "25083344",
+        "39320846"
+      ],
+      "function_effect": "regulation"
+    },
+    {
+      "function": "Stress Granule Dynamics",
+      "arrow": "regulates",
+      "cellular_process": "FUS is a core component of stress granules (SGs). The interaction with ATXN3, a key protein in proteostasis, may influence the formation, composition, or clearance of these granules, particularly under stress.",
+      "effect_description": "The interaction between ATXN3 and FUS may modulate the dynamics of stress granules as part of the cellular stress response; this is particularly relevant in disease states where mutant FUS alters SG properties.",
+      "biological_consequence": [
+        "Cellular stress occurs → FUS is recruited to form stress granules (SGs) → ATXN3 interaction modulates SG assembly/disassembly → Proper cellular stress response is maintained",
+        "ALS-associated FUS mutations → Cytoplasmic accumulation of FUS → Altered SG composition and dynamics → Formation of persistent, aberrant SGs → Cytotoxicity promotes neurodegeneration"
+      ],
+      "specific_effects": [
+        "FUS is a core component of stress granules.",
+        "ALS-associated mutations in FUS can lead to its cytoplasmic accumulation and alter the dynamics and composition of stress granules.",
+        "Mutant FUS can alter the RNA and protein composition of stress granules, contributing to pathology."
+      ],
+      "evidence": [
+        {
+          "paper_title": "ALS-associated FUS mutation reshapes the RNA and protein composition of stress granules",
+          "doi": "10.1093/nar/gkae942",
+          "authors": "Mariani D, Garone MG, Alfieri G, Morlando M, Armirotti A, Bozzoni I, Cereda M, Vacchini G",
+          "journal": "Nucleic Acids Research",
+          "year": 2024,
+          "assay": "Transcriptome analysis",
+          "species": "human",
+          "relevant_quote": "Our data describe the molecular differences between physiological and pathological SG in ALS-FUS conditions, showing how FUS mutations impact the RNA and protein composition of these condensates.",
+          "pmid": "39494508"
+        },
+        {
+          "paper_title": "In vivo stress granule misprocessing evidenced in a FUS knock-in ALS mouse model",
+          "doi": "10.1093/brain/awaa076",
+          "authors": "Zhang X, Geng X, Li C, Li J, Ghaffari M, Wang L, Xue Y, Chen Z, Chen W, Zhang M, Ye H, He J, Zhang J, Wang J, Yuan L, Wu Z, Shang H, Li XJ",
+          "journal": "Brain",
+          "year": 2020,
+          "assay": "Two-photon imaging",
+          "species": "mouse",
+          "relevant_quote": "In disease-susceptible neurons, stress induces mislocalization of mutant FUS into stress granules and upregulation of ubiquitin, two hallmarks of disease pathology.",
+          "pmid": "32358598"
+        }
+      ],
+      "interaction_effect": "regulates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "39494508",
+        "32358598"
+      ],
+      "function_effect": "regulation"
+    }
+  ],
+  "arrows": {
+    "main_to_primary": [
+      "activates",
+      "regulates"
+    ]
+  },
+  "mechanism": "ATXN3 and FUS are both recruited to sites of DNA damage and participate in repair pathways. FUS regulates the splicing of DDR-related genes, while ATXN3 is involved in the repair of double-strand breaks, suggesting a coordinated role. FUS is a core component of stress granules (SGs). The interaction with ATXN3, a key protein in proteostasis, may influence the formation, composition, or clearance of these granules, particularly under stress.",
+  "effect": "The interaction between ATXN3 and FUS facilitates a coordinated DNA damage response, and its dysregulation can lead to impaired genomic integrity, a contributing factor to neurodegeneration.; The interaction between ATXN3 and FUS may modulate the dynamics of stress granules as part of the cellular stress response; this is particularly relevant in disease states where mutant FUS alters SG properties.",
+  "summary": "ATXN3 activates FUS to regulate dna damage response and stress granule dynamics, ultimately affecting genomic stability is maintained.",
+  "evidence": [
+    {
+      "paper_title": "FUS-regulated RNA metabolism and DNA damage repair: Implications for amyotrophic lateral sclerosis and frontotemporal dementia pathogenesis",
+      "doi": "10.4161/rdis.29515",
+      "authors": "Qiu H, Lee S, Shang Y, Wang WY, Au KF, Kamiya S, Barmada SJ, Finkbeiner S, Lui H, Carlton CE, Glicksman MA, Couthier A, Lin W, Da Cruz S, Cleveland DW, Lagier-Tourenne C, Ling SC, Chuang DM, Yeo GW, Zuo P",
+      "journal": "Rare Diseases",
+      "year": 2014,
+      "assay": "CLIP-seq",
+      "species": "human",
+      "relevant_quote": "We also identify that FUS RNA targets are enriched for genes in the DNA damage response pathway."
+    },
+    {
+      "paper_title": "ATXN3: a multifunctional protein involved in the polyglutamine disease spinocerebellar ataxia type 3",
+      "doi": "10.1017/erm.2024.10",
+      "authors": "Hernández-Carralero E, Quinet G, Freire R",
+      "journal": "Expert Reviews in Molecular Medicine",
+      "year": 2024,
+      "assay": "Review",
+      "species": "human",
+      "relevant_quote": "In this review, we summarize the main functions of ATXN3 in proteostasis, DNA repair and transcriptional regulation, as well as the emerging role in regulating chromatin structure."
+    },
+    {
+      "paper_title": "Failure to repair DNA damage may be linked to SCA3",
+      "authors": "Tewari A, Costa Mdo C",
+      "journal": "National Ataxia Foundation",
+      "year": 2019,
+      "assay": "Review",
+      "species": "human, mouse, fly",
+      "relevant_quote": "Recent studies have shown that ataxin-3 is part of a complex of proteins that repair single-strand DNA breaks."
+    },
+    {
+      "paper_title": "ALS-associated FUS mutation reshapes the RNA and protein composition of stress granules",
+      "doi": "10.1093/nar/gkae942",
+      "authors": "Mariani D, Garone MG, Alfieri G, Morlando M, Armirotti A, Bozzoni I, Cereda M, Vacchini G",
+      "journal": "Nucleic Acids Research",
+      "year": 2024,
+      "assay": "Transcriptome analysis",
+      "species": "human",
+      "relevant_quote": "Our data describe the molecular differences between physiological and pathological SG in ALS-FUS conditions, showing how FUS mutations impact the RNA and protein composition of these condensates."
+    },
+    {
+      "paper_title": "In vivo stress granule misprocessing evidenced in a FUS knock-in ALS mouse model",
+      "doi": "10.1093/brain/awaa076",
+      "authors": "Zhang X, Geng X, Li C, Li J, Ghaffari M, Wang L, Xue Y, Chen Z, Chen W, Zhang M, Ye H, He J, Zhang J, Wang J, Yuan L, Wu Z, Shang H, Li XJ",
+      "journal": "Brain",
+      "year": 2020,
+      "assay": "Two-photon imaging",
+      "species": "mouse",
+      "relevant_quote": "In disease-susceptible neurons, stress induces mislocalization of mutant FUS into stress granules and upregulation of ubiquitin, two hallmarks of disease pathology."
+    }
+  ],
+  "interaction_effect": "regulates",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 5
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "ATXN3 --regulates--> FUS:",
+  "protein_a": "FUS",
+  "protein_b": "ATXN3",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-18T20:57:38.910020Z",
+  "last_updated": "2025-11-18T20:57:38.910020Z"
+}

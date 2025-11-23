@@ -1,0 +1,119 @@
+{
+  "primary": "PRKCB",
+  "interaction_type": "direct",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 1,
+  "support_summary": "Protein kinase C beta (PRKCB) directly phosphorylates TFEB on several C-terminal serine residues. This phosphorylation event increases the stability of the TFEB protein, leading to its accumulation and enhanced transcriptional activity.",
+  "functions": [
+    {
+      "function": "TFEB Phosphorylation & Protein Stabilization",
+      "arrow": "activates",
+      "cellular_process": "Protein Kinase C Beta (PRKCB) directly phosphorylates TFEB on multiple serine residues in its C-terminal region (e.g., S462, S463, S467, S469).",
+      "effect_description": "Phosphorylation by PRKCB enhances the stability and activity of the TFEB protein, leading to an accumulation of TFEB and subsequent upregulation of its target genes.",
+      "biological_consequence": [
+        "PRKCB phosphorylates TFEB at C-terminal serines (S462, S463, S467, S469) → TFEB protein is stabilized, increasing its half-life → Stabilized TFEB protein accumulates in the cell → TFEB enhances transcription of target genes → Lysosomal biogenesis is promoted"
+      ],
+      "specific_effects": [
+        "Stabilizes the TFEB protein, increasing its half-life.",
+        "Phosphorylates TFEB at sites distinct from the inhibitory mTORC1 sites.",
+        "Contributes to lysosomal biogenesis in specific contexts, such as osteoclast function."
+      ],
+      "evidence": [
+        {
+          "paper_title": "A RANKL-PKCβ-TFEB signaling cascade is necessary for lysosomal biogenesis in osteoclasts",
+          "doi": "10.1101/gad.213827.113",
+          "authors": "Ferron M, Settembre C, Shimazu J, Lacombe J, Kato S, Rawlings DJ, Ballabio A, Karsenty G",
+          "journal": "Genes & Development",
+          "year": 2013,
+          "assay": "In vitro kinase assay, Western Blot",
+          "species": "mouse",
+          "relevant_quote": "This occurs following PKCβ phosphorylation of TFEB on three serine residues located in its last 15 amino acids. This post-translational modification stabilizes and increases the activity of this transcription factor.",
+          "pmid": "23599343"
+        },
+        {
+          "paper_title": "The regulatory mechanism and therapeutic potential of transcription factor EB in neurodegenerative diseases",
+          "doi": "10.1111/cns.13985",
+          "authors": "Wang JH, Li Y, Wang Y, An B, Wang YN, Chen Y, Chen C, Liu XG",
+          "journal": "CNS Neuroscience & Therapeutics",
+          "year": 2023,
+          "assay": "Review",
+          "species": "human",
+          "relevant_quote": "Transcription factor EB (TFEB), a major regulator of ALP, has emerged as a leading factor in addressing neurodegenerative disease pathology...",
+          "pmid": "36184826"
+        },
+        {
+          "paper_title": "Past, present, and future perspectives of transcription factor EB (TFEB): mechanisms of regulation and association with disease",
+          "doi": "10.1038/s41418-022-01028-6",
+          "authors": "Tan A, Prasad R, Lee C, Jho EH",
+          "journal": "Cell Death & Differentiation",
+          "year": 2022,
+          "assay": "Review",
+          "species": "human",
+          "relevant_quote": "TFEB is also implicated in various human diseases, such as lysosomal storage disorders, neurodegenerative diseases, cancers, and metabolic disorders.",
+          "pmid": "35739255"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "primary_to_main",
+      "interaction_direction": "primary_to_main",
+      "pmids": [
+        "23599343",
+        "36184826",
+        "35739255"
+      ],
+      "function_effect": "activation"
+    }
+  ],
+  "arrow": "activates",
+  "direction": "primary_to_main",
+  "intent": "phosphorylation",
+  "mechanism": "Protein Kinase C Beta (PRKCB) directly phosphorylates TFEB on multiple serine residues in its C-terminal region (e.g., S462, S463, S467, S469).",
+  "effect": "Phosphorylation by PRKCB enhances the stability and activity of the TFEB protein, leading to an accumulation of TFEB and subsequent upregulation of its target genes.",
+  "summary": "TFEB activates PRKCB to modulate tfeb phosphorylation & protein stabilization, ultimately affecting lysosomal biogenesis is promoted.",
+  "evidence": [
+    {
+      "paper_title": "A RANKL-PKCβ-TFEB signaling cascade is necessary for lysosomal biogenesis in osteoclasts",
+      "doi": "10.1101/gad.213827.113",
+      "authors": "Ferron M, Settembre C, Shimazu J, Lacombe J, Kato S, Rawlings DJ, Ballabio A, Karsenty G",
+      "journal": "Genes & Development",
+      "year": 2013,
+      "assay": "In vitro kinase assay, Western Blot",
+      "species": "mouse",
+      "relevant_quote": "This occurs following PKCβ phosphorylation of TFEB on three serine residues located in its last 15 amino acids. This post-translational modification stabilizes and increases the activity of this transcription factor."
+    },
+    {
+      "paper_title": "The regulatory mechanism and therapeutic potential of transcription factor EB in neurodegenerative diseases",
+      "doi": "10.1111/cns.13985",
+      "authors": "Wang JH, Li Y, Wang Y, An B, Wang YN, Chen Y, Chen C, Liu XG",
+      "journal": "CNS Neuroscience & Therapeutics",
+      "year": 2023,
+      "assay": "Review",
+      "species": "human",
+      "relevant_quote": "Transcription factor EB (TFEB), a major regulator of ALP, has emerged as a leading factor in addressing neurodegenerative disease pathology..."
+    },
+    {
+      "paper_title": "Past, present, and future perspectives of transcription factor EB (TFEB): mechanisms of regulation and association with disease",
+      "doi": "10.1038/s41418-022-01028-6",
+      "authors": "Tan A, Prasad R, Lee C, Jho EH",
+      "journal": "Cell Death & Differentiation",
+      "year": 2022,
+      "assay": "Review",
+      "species": "human",
+      "relevant_quote": "TFEB is also implicated in various human diseases, such as lysosomal storage disorders, neurodegenerative diseases, cancers, and metabolic disorders."
+    }
+  ],
+  "interaction_effect": "activation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 0
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "TFEB <--activates-- PRKCB:",
+  "protein_a": "TFEB",
+  "protein_b": "PRKCB",
+  "discovered_in_query": "TFEB",
+  "first_discovered": "2025-11-19T03:20:29.527904Z",
+  "last_updated": "2025-11-19T03:20:29.527904Z"
+}

@@ -1,0 +1,56 @@
+{
+  "scan_timestamp": "2025-11-18T09:15:08.690330",
+  "total_mismatches": 5,
+  "mismatches": [
+    {
+      "interaction_id": 30,
+      "protein_a": "ATXN3",
+      "protein_b": "CUL1",
+      "current_arrow": "binds",
+      "correct_arrow": "inhibits",
+      "discovered_in_query": "ATXN3",
+      "discovery_method": "pipeline",
+      "function_context": "direct"
+    },
+    {
+      "interaction_id": 35,
+      "protein_a": "ATXN3",
+      "protein_b": "UBQLN2",
+      "current_arrow": "regulates",
+      "correct_arrow": "no_effect",
+      "discovered_in_query": "ATXN3",
+      "discovery_method": "pipeline",
+      "function_context": "direct"
+    },
+    {
+      "interaction_id": 48,
+      "protein_a": "ATXN3",
+      "protein_b": "USP7",
+      "current_arrow": "binds",
+      "correct_arrow": "regulates",
+      "discovered_in_query": "ATXN3",
+      "discovery_method": "pipeline",
+      "function_context": "direct"
+    },
+    {
+      "interaction_id": 37,
+      "protein_a": "KEAP1",
+      "protein_b": "NRF2",
+      "current_arrow": "activates",
+      "correct_arrow": "inhibits",
+      "discovered_in_query": "ATXN3",
+      "discovery_method": "pipeline",
+      "function_context": "direct"
+    },
+    {
+      "interaction_id": 29,
+      "protein_a": "ATXN3",
+      "protein_b": "TBP",
+      "current_arrow": "inhibits",
+      "correct_arrow": "regulates",
+      "discovered_in_query": "ATXN3",
+      "discovery_method": "pipeline",
+      "function_context": "direct"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "primary": "SOD2",
+  "interaction_type": "indirect",
+  "upstream_interactor": "FOXO4",
+  "mediator_chain": [
+    "FOXO4"
+  ],
+  "depth": 2,
+  "support_summary": "ATXN3 indirectly promotes the expression of Superoxide Dismutase 2 (SOD2) by acting as a transcriptional co-activator for the transcription factor FOXO4. This complex enhances the transcription of the SOD2 gene, a key component of the mitochondrial antioxidant stress response.",
+  "functions": [
+    {
+      "function": "SOD2 Gene Transcription",
+      "arrow": "activates",
+      "cellular_process": "In response to oxidative stress, ATXN3 and the transcription factor FOXO4 translocate to the nucleus. There, they form a complex that binds to the promoter of the Superoxide Dismutase 2 (SOD2) gene, enhancing its transcription.",
+      "effect_description": "ATXN3 enhances FOXO4-mediated transcription of the SOD2 gene, leading to increased synthesis of the SOD2 mitochondrial antioxidant enzyme.",
+      "biological_consequence": [
+        "Oxidative stress → ATXN3 and FOXO4 nuclear translocation → ATXN3-FOXO4 complex binds to SOD2 promoter → Increased SOD2 gene transcription → Enhanced scavenging of superoxide radicals → Cellular protection against oxidative damage"
+      ],
+      "specific_effects": [
+        "The ATXN3-FOXO4 complex directly stimulates SOD2 gene transcription.",
+        "Knockdown of ATXN3 represses the expression of SOD2.",
+        "Mutant ATXN3 has a reduced capacity to activate FOXO4-mediated SOD2 expression.",
+        "In Spinocerebellar Ataxia Type 3, impaired upregulation of SOD2 is associated with reduced binding of FOXO4 to the SOD2 promoter."
+      ],
+      "evidence": [
+        {
+          "paper_title": "FOXO4-dependent upregulation of superoxide dismutase-2 in response to oxidative stress is impaired in spinocerebellar ataxia type 3",
+          "doi": "10.1093/hmg/ddr197",
+          "authors": "Julieta Araujo, Peter Breuer, Susanne Dieringer, Sybille Krauss, Stephanie Dorn, Katrin Zimmermann, Alexander Pfeifer, Thomas Klockgether, Ullrich Wuellner, Bernd O Evert",
+          "journal": "Human Molecular Genetics",
+          "year": 2011,
+          "assay": "Chromatin Immunoprecipitation (ChIP), Luciferase Reporter Assay",
+          "species": "human",
+          "relevant_quote": "ATXN3 interacts with the forkhead box O (FOXO) transcription factor FOXO4 and activates the FOXO4-dependent transcription of the manganese superoxide dismutase (SOD2) gene.",
+          "pmid": "21536589"
+        },
+        {
+          "paper_title": "Redox regulation of FoxO transcription factors",
+          "doi": "10.1016/j.redox.2015.06.019",
+          "authors": "Lars-Oliver Klotz, Cristina Sánchez-Ramos, Ignacio Prieto-Arroyo, Pura Muñoz-García, Marina Monsalve",
+          "journal": "Redox Biology",
+          "year": 2015,
+          "assay": "Review",
+          "species": "human",
+          "relevant_quote": "FoxOs stimulate the transcription of genes coding for antioxidant proteins located in different subcellular compartments, such as in mitochondria (i.e. superoxide dismutase-2...).",
+          "pmid": "26184557"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "21536589",
+        "26184557"
+      ],
+      "direct_arrow": "activates",
+      "function_effect": "activation",
+      "arrow_context": {
+        "direct_from": "FOXO4",
+        "direct_arrow": "activates",
+        "net_from": "ATXN3",
+        "net_arrow": "activates",
+        "mediator_chain": [
+          "FOXO4"
+        ],
+        "is_indirect": true
+      },
+      "net_arrow": "activates",
+      "net_effect": "activation",
+      "direct_effect": "activation"
+    }
+  ],
+  "arrow": "activates",
+  "direction": "main_to_primary",
+  "intent": "transcriptional regulation",
+  "mechanism": "In response to oxidative stress, ATXN3 and the transcription factor FOXO4 translocate to the nucleus. There, they form a complex that binds to the promoter of the Superoxide Dismutase 2 (SOD2) gene, enhancing its transcription.",
+  "effect": "ATXN3 enhances FOXO4-mediated transcription of the SOD2 gene, leading to increased synthesis of the SOD2 mitochondrial antioxidant enzyme.",
+  "summary": "ATXN3 activates SOD2 to modulate sod2 gene transcription, ultimately affecting cellular protection against oxidative damage.",
+  "evidence": [
+    {
+      "paper_title": "FOXO4-dependent upregulation of superoxide dismutase-2 in response to oxidative stress is impaired in spinocerebellar ataxia type 3",
+      "doi": "10.1093/hmg/ddr197",
+      "authors": "Julieta Araujo, Peter Breuer, Susanne Dieringer, Sybille Krauss, Stephanie Dorn, Katrin Zimmermann, Alexander Pfeifer, Thomas Klockgether, Ullrich Wuellner, Bernd O Evert",
+      "journal": "Human Molecular Genetics",
+      "year": 2011,
+      "assay": "Chromatin Immunoprecipitation (ChIP), Luciferase Reporter Assay",
+      "species": "human",
+      "relevant_quote": "ATXN3 interacts with the forkhead box O (FOXO) transcription factor FOXO4 and activates the FOXO4-dependent transcription of the manganese superoxide dismutase (SOD2) gene."
+    },
+    {
+      "paper_title": "Redox regulation of FoxO transcription factors",
+      "doi": "10.1016/j.redox.2015.06.019",
+      "authors": "Lars-Oliver Klotz, Cristina Sánchez-Ramos, Ignacio Prieto-Arroyo, Pura Muñoz-García, Marina Monsalve",
+      "journal": "Redox Biology",
+      "year": 2015,
+      "assay": "Review",
+      "species": "human",
+      "relevant_quote": "FoxOs stimulate the transcription of genes coding for antioxidant proteins located in different subcellular compartments, such as in mitochondria (i.e. superoxide dismutase-2...)."
+    }
+  ],
+  "interaction_effect": "activation",
+  "_validation_metadata": {
+    "validated": true,
+    "validator": "arrow_effect_validator",
+    "corrections_applied": 1
+  },
+  "_arrow_validated": true,
+  "arrow_notation": "FOXO4 --activates--> SOD2:",
+  "protein_a": "ATXN3",
+  "protein_b": "SOD2",
+  "discovered_in_query": "ATXN3",
+  "first_discovered": "2025-11-23T07:58:56.174487Z",
+  "last_updated": "2025-11-23T07:58:56.174487Z"
+}

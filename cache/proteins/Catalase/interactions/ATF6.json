@@ -1,0 +1,118 @@
+{
+  "primary": "ATF6",
+  "interaction_type": "indirect",
+  "upstream_interactor": null,
+  "mediator_chain": [],
+  "depth": 2,
+  "support_summary": "Gene array analysis has shown that ATF6 can induce the expression of numerous oxidative stress response genes, including Catalase. During ER stress, particularly in response to ischemia/reperfusion, the active nuclear form of ATF6 directly binds to ER stress response elements in the promoter of the Catalase gene to induce its transcription, linking the unfolded protein response (UPR) to the oxidative stress response.",
+  "functions": [
+    {
+      "function": "Catalase Gene Transcription",
+      "arrow": "activates",
+      "cellular_process": "During ER stress, particularly in response to ischemia/reperfusion, the active nuclear form of ATF6 directly binds to ER stress response elements (ERSEs) in the promoter of the Catalase gene.",
+      "effect_description": "This binding induces the transcription of Catalase, a key antioxidant enzyme that neutralizes damaging reactive oxygen species (ROS).",
+      "biological_consequence": [
+        "Myocardial Ischemia/Reperfusion → ER stress → ATF6 cleavage & activation → nATF6 binds ERSE sites in Catalase promoter → Catalase gene transcription",
+        "Increased Catalase expression → Enhanced antioxidant capacity → Neutralization of reactive oxygen species (ROS) → Attenuation of myocardial injury"
+      ],
+      "specific_effects": [
+        "ATF6 is required for the induction of Catalase during ischemia/reperfusion.",
+        "Links the ER stress response with the oxidative stress gene program.",
+        "ER stress response elements (ERSEs) that bind ATF6 have been identified in the catalase gene promoter."
+      ],
+      "evidence": [
+        {
+          "paper_title": "ATF6 Decreases Myocardial Ischemia/Reperfusion Damage and Links ER Stress and Oxidative Stress Signaling Pathways in the Heart",
+          "doi": "10.1161/CIRCRESAHA.116.310266",
+          "authors": "Jin JK, Blackwood EA, Azizi K, Thuerauf DJ, Fahem AG, Hofmann C, Kaufman RJ, Doroudgar S, Glembotski CC",
+          "journal": "Circulation Research",
+          "year": 2017,
+          "assay": "Gene Array Analysis, ChIP Assay, Promoter Activity Assay",
+          "species": "mouse",
+          "relevant_quote": "ER stress response elements were identified in the catalase gene and were shown to bind ATF6 in cardiac myocytes, which increased catalase promoter activity.",
+          "pmid": "27932512"
+        },
+        {
+          "paper_title": "ATF6 as a Nodal Regulator of Proteostasis in the Heart",
+          "doi": "10.3389/fphys.2020.00267",
+          "authors": "Glembotski CC, Arrieta A, Blackwood EA, Stauffer W",
+          "journal": "Frontiers in Physiology",
+          "year": 2020,
+          "assay": "Review",
+          "species": "human, mouse",
+          "relevant_quote": "...ischemia/reperfusion activates ATF6, which... induces canonical ER stress-response genes, as well as non-canonical genes, such as the peroxisomal antioxidant, catalase...",
+          "pmid": "32322217"
+        },
+        {
+          "paper_title": "A new role for the ER unfolded protein response mediator ATF6: Induction of a generalized antioxidant program",
+          "doi": "10.1161/CIRCRESAHA.117.310577",
+          "authors": "McKimpson WM, Kitsis RN",
+          "journal": "Circulation Research",
+          "year": 2017,
+          "assay": "Commentary",
+          "species": "human, mouse",
+          "relevant_quote": "...this study provides the first evidence in any cell type linking the ER UPR mediator ATF6 with direct transcriptional induction of antioxidant proteins, many of which reside outside of the ER.",
+          "pmid": "28254796"
+        }
+      ],
+      "interaction_effect": "activates",
+      "direction": "main_to_primary",
+      "interaction_direction": "main_to_primary",
+      "pmids": [
+        "27932512",
+        "32322217",
+        "28254796"
+      ]
+    }
+  ],
+  "arrows": {
+    "main_to_primary": [
+      "activates"
+    ]
+  },
+  "arrow": "activates",
+  "direction": "primary_to_main",
+  "_chain_inferred": true,
+  "intent": "regulation",
+  "mechanism": "During ER stress, particularly in response to ischemia/reperfusion, the active nuclear form of ATF6 directly binds to ER stress response elements (ERSEs) in the promoter of the Catalase gene.",
+  "effect": "This binding induces the transcription of Catalase, a key antioxidant enzyme that neutralizes damaging reactive oxygen species (ROS).",
+  "summary": "ATF6 activates Catalase to modulate catalase gene transcription, ultimately affecting catalase gene transcription.",
+  "evidence": [
+    {
+      "paper_title": "ATF6 Decreases Myocardial Ischemia/Reperfusion Damage and Links ER Stress and Oxidative Stress Signaling Pathways in the Heart",
+      "doi": "10.1161/CIRCRESAHA.116.310266",
+      "authors": "Jin JK, Blackwood EA, Azizi K, Thuerauf DJ, Fahem AG, Hofmann C, Kaufman RJ, Doroudgar S, Glembotski CC",
+      "journal": "Circulation Research",
+      "year": 2017,
+      "assay": "Gene Array Analysis, ChIP Assay, Promoter Activity Assay",
+      "species": "mouse",
+      "relevant_quote": "ER stress response elements were identified in the catalase gene and were shown to bind ATF6 in cardiac myocytes, which increased catalase promoter activity."
+    },
+    {
+      "paper_title": "ATF6 as a Nodal Regulator of Proteostasis in the Heart",
+      "doi": "10.3389/fphys.2020.00267",
+      "authors": "Glembotski CC, Arrieta A, Blackwood EA, Stauffer W",
+      "journal": "Frontiers in Physiology",
+      "year": 2020,
+      "assay": "Review",
+      "species": "human, mouse",
+      "relevant_quote": "...ischemia/reperfusion activates ATF6, which... induces canonical ER stress-response genes, as well as non-canonical genes, such as the peroxisomal antioxidant, catalase..."
+    },
+    {
+      "paper_title": "A new role for the ER unfolded protein response mediator ATF6: Induction of a generalized antioxidant program",
+      "doi": "10.1161/CIRCRESAHA.117.310577",
+      "authors": "McKimpson WM, Kitsis RN",
+      "journal": "Circulation Research",
+      "year": 2017,
+      "assay": "Commentary",
+      "species": "human, mouse",
+      "relevant_quote": "...this study provides the first evidence in any cell type linking the ER UPR mediator ATF6 with direct transcriptional induction of antioxidant proteins, many of which reside outside of the ER."
+    }
+  ],
+  "arrow_notation": "ATF6 --activates--> Catalase:",
+  "protein_a": "Catalase",
+  "protein_b": "ATF6",
+  "discovered_in_query": "ATF6",
+  "first_discovered": "2025-11-18T21:01:00.292494Z",
+  "last_updated": "2025-11-18T21:01:00.292494Z"
+}
