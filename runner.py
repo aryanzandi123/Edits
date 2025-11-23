@@ -113,9 +113,9 @@ except ImportError:
         ARROW_VALIDATOR_AVAILABLE = False
         validate_arrows_for_payload = None
 
-# Import mediator linker
+# Import mediator linker (NEW)
 try:
-    from utils.mediator_linker import link_mediators_in_payload
+    from utils.chain_linker_new import link_mediators_in_payload
     MEDIATOR_LINKER_AVAILABLE = True
 except ImportError:
     MEDIATOR_LINKER_AVAILABLE = False
@@ -726,13 +726,23 @@ def create_snapshot_from_ctx(
     """Generate snapshot_json and ndjson from ctx_json."""
     main_symbol = ctx_json.get("main", "UNKNOWN")
     interactors_data = ctx_json.get("interactors", [])
+    extra_edges = ctx_json.get("extra_edges", []) # Edges from chain_linker_new
+
+    # Node-Link Format Lists
+    proteins_set = set([main_symbol])
+    interactions_list = []
 
     snapshot_interactors: List[Dict[str, Any]] = []
     ndjson_lines: List[str] = []
 
+    # 1. Process Main Interactors (Main <-> Primary)
     for interactor in interactors_data:
-        # Extract core fields
         primary = interactor.get("primary", "")
+        if not primary: continue
+
+        proteins_set.add(primary)
+
+        # Extract core fields
         direction = interactor.get("direction", "")
         arrow = interactor.get("arrow", "")
         intent = interactor.get("intent", "")
@@ -761,38 +771,94 @@ def create_snapshot_from_ctx(
                 minimal_func["mechanism_id"] = func["mechanism_id"]
             if "evidence" in func:
                 minimal_func["evidence"] = func["evidence"]
+            # Preserve context for chain visualization
+            if "_context" in func:
+                minimal_func["_context"] = func["_context"]
+
             minimal_functions.append(minimal_func)
 
         # Build snapshot interactor entry
         interactor_entry: Dict[str, Any] = {}
-        if primary:
-            interactor_entry["primary"] = primary
-        if direction:
-            interactor_entry["direction"] = direction
-        if arrow:
-            interactor_entry["arrow"] = arrow
-        if intent:
-            interactor_entry["intent"] = intent
-        if pmids:
-            interactor_entry["pmids"] = pmids
-        if confidence is not None:
-            interactor_entry["confidence"] = confidence
-        if evidence:
-            interactor_entry["evidence"] = evidence
-        if support_summary:
-            interactor_entry["support_summary"] = support_summary
-        if multiple_mechanisms:
-            interactor_entry["multiple_mechanisms"] = multiple_mechanisms
+        if primary: interactor_entry["primary"] = primary
+        if direction: interactor_entry["direction"] = direction
+        if arrow: interactor_entry["arrow"] = arrow
+        if intent: interactor_entry["intent"] = intent
+        if pmids: interactor_entry["pmids"] = pmids
+        if confidence is not None: interactor_entry["confidence"] = confidence
+        if evidence: interactor_entry["evidence"] = evidence
+        if support_summary: interactor_entry["support_summary"] = support_summary
+        if multiple_mechanisms: interactor_entry["multiple_mechanisms"] = multiple_mechanisms
+
+        # Carry over critical metadata flags
+        for key in ["interaction_type", "upstream_interactor", "mediator_chain", "_linked_by_chain_linker"]:
+            if key in interactor:
+                interactor_entry[key] = interactor[key]
+
         interactor_entry["functions"] = minimal_functions
 
         snapshot_interactors.append(interactor_entry)
+
+        # Add to Interactions List (Graph Edge)
+        edge = {
+            "source": main_symbol,
+            "target": primary,
+            "type": interactor.get("interaction_type", "direct"),
+            "arrow": arrow,
+            "direction": direction,
+            "intent": intent,
+            "confidence": confidence,
+            "functions": minimal_functions,
+            "support_summary": support_summary
+        }
+        # Add metadata to edge
+        if "upstream_interactor" in interactor:
+            edge["upstream_interactor"] = interactor["upstream_interactor"]
+        if "mediator_chain" in interactor:
+            edge["mediator_chain"] = interactor["mediator_chain"]
+
+        interactions_list.append(edge)
 
         # NDJSON line
         ndjson_obj: Dict[str, Any] = {"main": main_symbol}
         ndjson_obj.update(interactor_entry)
         ndjson_lines.append(json.dumps(ndjson_obj, ensure_ascii=False, separators=(",", ":")))
 
-    snapshot_json = {"main": main_symbol, "interactors": snapshot_interactors}
+    # 2. Process Extra Edges (Mediator <-> Indirect) from chain_linker_new
+    # These are arbitrary edges not connected to Main
+    if extra_edges:
+        for edge_data in extra_edges:
+            p_a = edge_data.get('protein_a')
+            p_b = edge_data.get('protein_b')
+            data = edge_data.get('data', {})
+
+            if p_a and p_b:
+                proteins_set.add(p_a)
+                proteins_set.add(p_b)
+
+                # Create interaction object
+                interaction_obj = {
+                    "source": p_a,
+                    "target": p_b,
+                    "type": "direct", # These are direct links between mediator and target
+                    "interactionType": "chain_link", # Distinction for visualizer
+                    "arrow": data.get("arrow", "binds"),
+                    "direction": data.get("direction", "bidirectional"),
+                    "intent": data.get("intent", "binding"),
+                    "confidence": data.get("confidence", 0.9),
+                    "functions": data.get("functions", []),
+                    "support_summary": f"Mediator interaction in context of {main_symbol}"
+                }
+                interactions_list.append(interaction_obj)
+
+    # Construct Final Snapshot (Modern Format)
+    snapshot_json = {
+        "main": main_symbol,
+        "proteins": list(proteins_set),
+        "interactions": interactions_list,
+        # Keep legacy list for backward compatibility if needed
+        "interactors": snapshot_interactors
+    }
+
     result: Dict[str, Any] = {
         "ctx_json": ctx_json,
         "snapshot_json": snapshot_json,

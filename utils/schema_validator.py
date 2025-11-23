@@ -607,12 +607,16 @@ def finalize_interaction_metadata(
     # Sync snapshot with ctx
     # ===================================================================
     if validate_snapshot:
-        # Update snapshot_json interactors to match ctx_json
-        snapshot_json['interactors'] = ctx_json['interactors']
-        json_data['snapshot_json'] = snapshot_json
-
-        if verbose or True:
-            print(f"\n  [OK] Synced snapshot_json with ctx_json ({len(interactors)} interactors)")
+        # Don't overwrite snapshot_json if it has the new structure (proteins/interactions)
+        if 'interactions' not in snapshot_json:
+            # Fallback for legacy format
+            snapshot_json['interactors'] = ctx_json['interactors']
+            json_data['snapshot_json'] = snapshot_json
+            if verbose or True:
+                print(f"\n  [OK] Synced legacy snapshot_json with ctx_json ({len(interactors)} interactors)")
+        else:
+            if verbose or True:
+                print(f"\n  [OK] Preserved modern snapshot_json structure ({len(snapshot_json.get('interactions', []))} interactions)")
 
     if verbose or True:
         print(f"  Arrow notations added: {notation_added}")
