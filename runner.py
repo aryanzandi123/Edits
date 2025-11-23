@@ -113,9 +113,9 @@ except ImportError:
         ARROW_VALIDATOR_AVAILABLE = False
         validate_arrows_for_payload = None
 
-# Import mediator linker
+# Import mediator linker (NEW)
 try:
-    from utils.mediator_linker import link_mediators_in_payload
+    from utils.chain_linker_new import link_mediators_in_payload
     MEDIATOR_LINKER_AVAILABLE = True
 except ImportError:
     MEDIATOR_LINKER_AVAILABLE = False
